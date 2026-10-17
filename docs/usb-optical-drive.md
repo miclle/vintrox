@@ -34,6 +34,14 @@ bash scripts/usb-optical-drive.sh status
 bash scripts/usb-optical-drive.sh logs
 ```
 
+不连接光驱也可以运行安全的基础检查：
+
+```bash
+bash tests/usb-optical-drive-smoke.sh
+```
+
+该测试覆盖 Bash 语法、安装无变更的重复运行、未挂载时重复卸载和无效参数的拒绝；**不替代树莓派实机供电、挂载、播放及退盘测试**。
+
 依赖：`eject`、`libcdio-utils`（提供 `cd-info`）、`cd-paranoia`、`mpv`、`usbutils`；GUI 可选 `gnome-disk-utility`、`gvfs`、`gvfs-backends`、`udisks2`。`setup` 使用 `apt-get`，仅支持基于 Debian 的系统。`sudo` 只用于装包、读取受限内核日志和挂载/卸载；播放及 GUI **不要用 sudo 运行**。
 
 ## 3. 检测光盘与使用命令
