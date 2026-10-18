@@ -25,6 +25,8 @@
 
 ## 2. 已有信息的边界
 
+用户提供的配件图集中在 [参考资料索引](../references/README.md)：[光驱本体](../references/optical-drive/README.md)、[USB 转接器](../references/usb-adapters/README.md) 和 [音箱](../references/speakers/README.md)。光驱图片的外形/接口不同、型号未核实，不全部视作 UJ-898；Slimline SATA 转接线也未确认与已有设备匹配。商品图不改变本表的资产、候选或待验证状态。
+
 此前树莓派日志显示 SSK 存储挂在 USB 2.0 路径（480M、usb-storage），USB 3.0 总线未列出设备。该记录只描述当时连接，不代表硬盘本身不支持 USB 3.0。先检查连接端口、线材和桥接器；不要把现有存储直接写成已确认 SSD。
 
 屏幕驱动板已由用户描述支持 HDMI；尚未完成与树莓派的实际显示联调。Pi 的 micro-HDMI 输出接 HDMI 输入，电源另接；不依赖屏幕音频输出，也不默认支持触摸。
