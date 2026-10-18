@@ -39,6 +39,7 @@ VINTROX 是一台带实体 CD 光驱、iPad 改装屏、树莓派、移动硬盘
 | [需求与验收](docs/requirements.md) | 功能、体积、供电与验收要求 |
 | [总体架构](docs/architecture.md) | 数据流、软件与接口关系 |
 | [硬件清单](docs/hardware.md) | 已有资产、候选 BOM、选型边界 |
+| [配件参考资料](references/README.md) | 光驱、USB 转接器与音箱图片、来源及待核对项 |
 | [音频系统](docs/audio-system.md) | 4Ω/10W 音箱、DAC、功放与 RCA |
 | [USB CD/DVD 光驱](docs/usb-optical-drive.md) | Debian 13 安装、GUI、读取、供电排障及幂等工具脚本 |
 | [电源与电池](docs/power-system.md) | PD、充电、电源切换、功耗和续航 |
