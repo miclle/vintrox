@@ -64,6 +64,10 @@ def _verify_document(doc, root, exercise):
     doc.recompute()
     report = layout.validate(doc)
     assert not report['errors'], report
+    panel_bounds = doc.ScreenPanel.Shape.BoundBox
+    ribbon_bounds = doc.ScreenRibbonBoard.Shape.BoundBox
+    assert abs(ribbon_bounds.XMin-panel_bounds.XMin) < 1e-6, '排线板未靠屏幕左边缘'
+    assert ribbon_bounds.XMax <= panel_bounds.XMax, '排线板超出屏幕宽度'
     checks = []
     depth_probes = []
     speaker_growth_probes = []
@@ -94,8 +98,8 @@ def _verify_document(doc, root, exercise):
                 assert abs(float(p.Height)-(report['body_mm']['height']+delta)) < 1e-6
             panel_bounds = doc.ScreenPanel.Shape.BoundBox
             ribbon_bounds = doc.ScreenRibbonBoard.Shape.BoundBox
-            assert abs(ribbon_bounds.XMax-panel_bounds.XMax) < 1e-6
-            assert ribbon_bounds.XMin >= panel_bounds.XMin
+            assert abs(ribbon_bounds.XMin-panel_bounds.XMin) < 1e-6
+            assert ribbon_bounds.XMax <= panel_bounds.XMax
             assert abs(ribbon_bounds.YMin-panel_bounds.YMax-float(p.RibbonGap)) < 1e-6
             assert abs(ribbon_bounds.YLength-float(p.RibbonT)) < 1e-6
             assert abs(ribbon_bounds.ZMin-panel_bounds.ZMin-float(p.RibbonBottomGap)) < 1e-6

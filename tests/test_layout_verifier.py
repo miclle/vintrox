@@ -131,6 +131,17 @@ class SavedLayoutVerifierTests(unittest.TestCase):
         self.assertIn('--exercise', result.stderr)
         self.assert_assets_unchanged()
 
+    def test_ribbon_on_right_edge_is_rejected(self):
+        doc = App.openDocument(str(self.root/'cad/vintrox-layout.FCStd'))
+        doc.ScreenRibbonBoard.setExpression(
+            'Placement.Base.x',
+            'Parameters.SideBorder+Parameters.ScreenW-Parameters.RibbonW',
+        )
+        doc.recompute()
+        with self.assertRaisesRegex(AssertionError, '排线板未靠屏幕左边缘'):
+            verifier._verify_document(doc, self.root, exercise=False)
+        self.assert_assets_unchanged()
+
     def test_partial_check_can_write_a_separate_report(self):
         result = self.run_cli('--output', 'readback.json')
         self.assertEqual(result.returncode, 0, result.stderr)
