@@ -6,7 +6,7 @@
 
 | 模块 | 已知信息/候选 | 状态与待确认 |
 | --- | --- | --- |
-| 树莓派 | Raspberry Pi 4B | 已有；记录内存、系统、温升 |
+| 树莓派 | Raspberry Pi 4B | 已有；[官方名义尺寸已取得](validation.md#14-pi-4b-官方名义尺寸)，板卡版本及实际散热/插接占位待核对；内存、系统、温升待记录 |
 | 光驱 | MATSHITA DVD-R UJ-898；MacBook Pro (13-inch, Mid 2010) 拆机 | 已有，原机正常；拆机后接口、转接、供电、竖装待测 |
 | 光驱桥接 | 与实际连接器匹配的薄型 SATA/专用接口转 USB | USB DVD 光驱在 Y 型线辅助供电后可读盘（用户反馈）；未记录桥接芯片、受测光驱型号与端口 |
 | 显示 | iPad 拆机面板及现有驱动板，支持 HDMI 和 Type-C 视频/供电 | 已有；约 10.2 英寸未确认，型号、触摸、供电规格待测 |
@@ -26,6 +26,8 @@
 ## 2. 已有信息的边界
 
 用户提供的配件图集中在 [参考资料索引](../references/README.md)：[光驱本体](../references/optical-drive/README.md)、[USB 转接器](../references/usb-adapters/README.md) 和 [音箱](../references/speakers/README.md)。光驱图片的外形/接口不同、型号未核实，不全部视作 UJ-898；Slimline SATA 转接线也未确认与已有设备匹配。商品图不改变本表的资产、候选或待验证状态。
+
+[Pi 4B 官方机械图](../references/raspberry-pi-4b/README.md) 已归档；尺寸数值统一登记在验证清单。其余部件按 [资料取得方式](validation.md#15-确认型号后查资料与装配实测) 先核对型号，再查相应规格；官方名义、商品标称和实测结果保持分开，不用整台 iPad 的尺寸代替拆机面板。
 
 此前树莓派日志显示 SSK 存储挂在 USB 2.0 路径（480M、usb-storage），USB 3.0 总线未列出设备。该记录只描述当时连接，不代表硬盘本身不支持 USB 3.0。先检查连接端口、线材和桥接器；不要把现有存储直接写成已确认 SSD。
 
