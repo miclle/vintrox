@@ -1,0 +1,9 @@
+"""在 FreeCAD GUI 中运行；只生成 VINTROX 概念布局，不修改其他打开的文档。"""
+from pathlib import Path
+import importlib.util
+
+root = Path(__file__).resolve().parents[1]
+spec = importlib.util.spec_from_file_location('vintrox_layout', root / 'tools' / 'vintrox_layout.py')
+layout = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(layout)
+layout.build(root)

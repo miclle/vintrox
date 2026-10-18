@@ -14,7 +14,7 @@ VINTROX 是一台带实体 CD 光驱、iPad 改装屏、树莓派、移动硬盘
 | --- | --- | --- |
 | 主控 | 已有 Raspberry Pi 4B | 继续复用，内存/系统与整机性能待记录 |
 | CD | 已有 MATSHITA DVD-R UJ-898，原机工作正常；用户报告 USB DVD 光驱补充辅助供电后已恢复读盘 | 桥接器/受测光驱型号、供电来源仍需记录；顶部垂直进碟及 CD-DA 播放待验证 |
-| 显示 | 已有 iPad 拆机屏及驱动板，支持 HDMI、Type-C 视频和供电 | 约 10.2 英寸尚未测定；Pi 走 HDMI，屏幕独立供电；触摸未知 |
+| 显示 | 已有 iPad 拆机屏及驱动板，支持 HDMI、Type-C 视频和供电 | 面板本体用户测量210 × 160 × 2mm；背面排线板及边界见[测绘记录](docs/validation.md#17-屏幕与背面排线电路板测量口述)；可视区按用户指定200 × 150mm建模；Pi走HDMI，屏幕独立供电；触摸未知 |
 | 存储 | 已有移动硬盘 | 保留现有设备，内部固定且可拆卸；不预设其为 SSD |
 | 音响 | 左右声道各 4Ω、额定 10W、峰值 18W | 装在机身左右侧面向外发声，保留原音箱优先 |
 | 音频链路 | 内置音响 + RCA Line Out | 独立 DAC；小型 TPA3118D2 板优先候选，TPA3116D2 备选 |
@@ -44,6 +44,7 @@ VINTROX 是一台带实体 CD 光驱、iPad 改装屏、树莓派、移动硬盘
 | [USB CD/DVD 光驱](docs/usb-optical-drive.md) | Debian 13 安装、GUI、读取、供电排障及幂等工具脚本 |
 | [电源与电池](docs/power-system.md) | PD、充电、电源切换、功耗和续航 |
 | [机箱设计](docs/enclosure.md) | 最小宽度、侧向音响、顶部进碟 |
+| [FreeCAD 概念布局](docs/layout-model.md) | 参数化模型、外观/内部预览及假设清单；非加工图 |
 | [测量与验证](docs/validation.md) | 尺寸表、联调步骤和记录模板 |
 | [实施路线图](docs/roadmap.md) | 分阶段交付与下一步 |
 | [设计决策](docs/decisions.md) | 已确认方向、候选和替代旧方案 |

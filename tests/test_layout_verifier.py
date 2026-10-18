@@ -79,6 +79,7 @@ class SavedLayoutVerifierTests(unittest.TestCase):
             for p in (self.root/'cad').rglob('*') if p.is_file()
         }
         self.report = self.root/'cad/layout-validation.json'
+        self.expected_solids = json.loads(self.report.read_text())['physical_objects']
         self.original_documents = set(App.listDocuments())
         self.addCleanup(self.close_test_documents)
 
@@ -106,7 +107,7 @@ class SavedLayoutVerifierTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stderr)
         current = json.loads(result.stdout)
         self.assertFalse(current['saved_readback']['parametric_exercise_executed'])
-        self.assertEqual(current['saved_readback']['step_geometry_comparison']['matched_solids'], 47)
+        self.assertEqual(current['saved_readback']['step_geometry_comparison']['matched_solids'], self.expected_solids)
         self.assert_assets_unchanged()
 
     def test_explicit_exercise_output_survives_later_default_check(self):
@@ -118,7 +119,7 @@ class SavedLayoutVerifierTests(unittest.TestCase):
         self.assertTrue(report['saved_readback']['parametric_checks'])
         self.assertEqual(len(report['saved_readback']['fixed_layout_depth_probes']), 4)
         self.assertIn('revision_comparison', report)
-        self.assertEqual(report['saved_readback']['step_geometry_comparison']['matched_solids'], 47)
+        self.assertEqual(report['saved_readback']['step_geometry_comparison']['matched_solids'], self.expected_solids)
         result = self.run_cli()
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertEqual(self.report.read_bytes(), evidence)

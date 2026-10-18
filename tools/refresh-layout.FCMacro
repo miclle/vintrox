@@ -1,0 +1,10 @@
+"""对当前激活的 VINTROX 文档更新默认交付文件，保留其当前参数。"""
+from pathlib import Path
+import importlib.util
+import FreeCAD as App
+
+root = Path(__file__).resolve().parents[1]
+spec = importlib.util.spec_from_file_location('vintrox_layout', root / 'tools' / 'vintrox_layout.py')
+layout = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(layout)
+layout.refresh(App.ActiveDocument, root)
