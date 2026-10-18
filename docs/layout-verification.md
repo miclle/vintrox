@@ -36,8 +36,8 @@ PYTHONPATH=/Applications/FreeCAD.app/Contents/Resources/lib \
 [回归测试](../tests/test_layout_verifier.py) 使用真实 FreeCAD 几何及临时副本：
 
 - 3 项几何回归无需本地布局包：同体积同包围盒的形状变化被拒绝、STEP 实体顺序可变化、重复实体不能代替缺失实体。
-- 5 项保存读回回归需要本地 `cad/` 下的 FCStd、STEP 及含完整探针证据的 `layout-validation.json`：默认复核保留报告/模型/预览、显式完整输出后再次复核、正式路径拒绝未执行探针的输出、独立路径记录局部结果、STEP 平移被拒绝且失败不覆盖报告/不遗留读回文档。
-- 缺少本地布局包时，5 项集成回归明确跳过，不表示集成验证通过。测试不修改原布局包；几何反例在内存或临时副本中构造。
+- 6 项保存读回回归需要本地 `cad/` 下的 FCStd、STEP 及含完整探针证据的 `layout-validation.json`：默认复核保留报告/模型/预览、显式完整输出后再次复核、正式路径拒绝未执行探针的输出、独立路径记录局部结果、STEP平移被拒绝且失败不覆盖报告/不遗留读回文档、排线板误放右侧被拒绝。
+- 缺少本地布局包时，6 项集成回归明确跳过，不表示集成验证通过。测试不修改原布局包；几何反例在内存或临时副本中构造。
 
 ```sh
 PYTHONDONTWRITEBYTECODE=1 \
@@ -46,4 +46,4 @@ PYTHONPATH=/Applications/FreeCAD.app/Contents/Resources/lib \
   -m unittest discover -s tests -p test_layout_verifier.py -v
 ```
 
-2026-10-18 在本地既有布局包与 FreeCAD 1.1.4 下执行，8 项全部通过；没有布局包时的预期结果为 3 项通过、5 项跳过。尺寸信息与实物验收继续统一记录在 [测量与验证清单](validation.md)。
+2026-10-18 在本地既有布局包与 FreeCAD 1.1.4 下执行，9 项全部通过；没有布局包时的预期结果为 3 项通过、6 项跳过。尺寸信息与实物验收继续统一记录在 [测量与验证清单](validation.md)。

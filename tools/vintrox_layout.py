@@ -15,7 +15,7 @@ PARAMETERS = [
     ('ScreenW', 210, '屏幕面板总宽', '用户测量口述；2026-10-18'),
     ('ScreenH', 160, '屏幕面板总高', '用户确认160；更正原报60；2026-10-18'),
     ('ScreenT', 2, '屏幕本体厚', '用户测量口述；不含背面排线电路板'),
-    ('RibbonW', 10, '背面右侧排线电路板宽', '用户确认完全位于面板210mm宽度内'),
+    ('RibbonW', 10, '背面左侧排线电路板宽', '用户更正为左侧；完全位于面板210mm宽度内'),
     ('RibbonT', 2.4, '排线电路板自身厚度', '用户确认板自身厚度；非组合总厚度'),
     ('RibbonTopGap', 10, '排线板距屏幕上边缘', '用户口述；上下各10mm'),
     ('RibbonBottomGap', 10, '排线板距屏幕下边缘', '用户口述；上下各10mm'),
@@ -256,7 +256,7 @@ def build(root):
     box('DisplayClearance', '显示可视区前方净空 / 检查遮挡', ('ActiveW','Wall+0.6','ActiveH'), ('(Width-ActiveW)/2',-1,'LowerBand+(ScreenH-ActiveH)/2'), group='Clearances')
     panel = box('ScreenPanel', '屏幕面板 / 用户测量210×160×2mm', ('ScreenW', 'ScreenT', 'ScreenH'), ('SideBorder', 'Wall+0.5', 'LowerBand'), DARK, note='用户测量口述；可视区按用户指定200×150建模；型号/固定方式待补；不含背面排线电路板')
     panel.EvidenceStatus = 'USER-REPORTED MEASUREMENT / 用户测量口述；安装位置假设'
-    ribbon = box('ScreenRibbonBoard', '背面右侧排线电路板 / 10×140×2.4mm', ('RibbonW', 'RibbonT', 'RibbonH'), ('SideBorder+ScreenW-RibbonW', 'Wall+0.5+ScreenT+RibbonGap', 'LowerBand+RibbonBottomGap'), (0.30, 0.46, 0.26), note='宽厚及上下间距为用户口述，高由屏幕高减上下间距推导；板在屏幕宽内；右侧暂按正视坐标，贴背间隙未测暂取0；非HDMI/Type-C驱动板')
+    ribbon = box('ScreenRibbonBoard', '背面左侧排线电路板 / 10×140×2.4mm', ('RibbonW', 'RibbonT', 'RibbonH'), ('SideBorder', 'Wall+0.5+ScreenT+RibbonGap', 'LowerBand+RibbonBottomGap'), (0.30, 0.46, 0.26), note='用户更正为背面左侧；左右沿用模型正视坐标，左侧为X较小端；宽厚及上下间距为用户口述，高由屏幕高减上下间距推导；板在屏幕宽内；贴背间隙未测暂取0；非HDMI/Type-C驱动板')
     ribbon.EvidenceStatus = 'USER-REPORTED / DERIVED / 位置与间隙部分假设'
     box('Display', '屏幕可视面（无UI实现含义）', ('ActiveW', 0.4, 'ActiveH'), ('(Width-ActiveW)/2', 'Wall-0.4', 'LowerBand+(ScreenH-ActiveH)/2'), (0.10, 0.19, 0.23), 'Details')
     box('ScreenDriver', '屏幕驱动板占位 / 待测', ('DriverW', 'DriverT', 'DriverH'), ('(Width-DriverW)/2', 'Wall+ScreenT+3', 30), (0.22, 0.53, 0.50))
