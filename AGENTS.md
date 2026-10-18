@@ -4,7 +4,7 @@
 
 ## 1. 项目定位
 
-**VINTROX — Retro Media Computer（Vintage Soul. Modern Mind.）** 是复古木制一体式媒体电脑，不只是 CD 播放器。首代原型暂称 **VINTROX One**，目标集成实体 CD、iPad 拆机屏幕、Raspberry Pi、移动硬盘、内置立体声音响、RCA 输出、内置电池，以及联网与 Linux 应用能力。
+**VINTROX** 是一体式媒体电脑，不只是 CD 播放器。外形方向为**科技、现代、个性**，外壳与内部定位、承力和固定结构采用 **3D 打印**；复古外形与木制材料方向已撤销。首代原型暂称 **VINTROX One**，目标集成实体 CD、iPad 拆机屏幕、Raspberry Pi、移动硬盘、内置立体声音响、RCA 输出、内置电池，以及联网与 Linux 应用能力。
 
 当前处于**方案定义与原型验证阶段**，尚未完成整机集成测试。不得把规划中的功能、候选部件、推导尺寸或估算功耗写成已实现或已验证。
 
@@ -22,6 +22,8 @@
 | [docs/audio-system.md](docs/audio-system.md) | DAC、功放、扬声器与 RCA 输出 |
 | [docs/power-system.md](docs/power-system.md) | USB-C PD、电池、安全供电与功耗 |
 | [docs/enclosure.md](docs/enclosure.md) | 最小宽度、机箱和机械布局 |
+| [docs/terminal-model.md](docs/terminal-model.md) | 当前模块化终端分件模型、参数与假设 |
+| [docs/terminal-verification.md](docs/terminal-verification.md) | 新CAD包独立读回与分件验证 |
 | [docs/validation.md](docs/validation.md) | 测量清单、验证步骤和记录格式 |
 | [docs/roadmap.md](docs/roadmap.md) | 分阶段实施计划 |
 | [docs/vision.md](docs/vision.md) | 品牌定位和体验目标 |
@@ -34,9 +36,10 @@
 
 - **宽度优先最小化**：以屏幕面板的**实测外形宽度**为起点，只在左右增加必要边框和极少量控件，不要将扬声器排在屏幕左右的正面。
 - 左右声道扬声器布置在**机身左右侧面、向外发声**，优先保留完整音箱/音腔。用户确认每声道 **4Ω、额定 10W、峰值 18W**；不要把峰值视为持续功率，也不要重复累加单元功率。
-- 复用 **Raspberry Pi 4B**、**MATSHITA DVD-R UJ-898**、已有 iPad 拆机显示屏及移动硬盘。屏幕已知支持 HDMI 输入，屏幕具体型号、尺寸、供电、触摸和 Pi 联调仍待测。
+- 复用 **Raspberry Pi 4B**、**MATSHITA DVD-R UJ-898**、已有 iPad 拆机显示屏及移动硬盘。屏幕已知支持 HDMI 输入，屏幕本体已有用户测量，具体型号、完整装配净空、供电、触摸和 Pi 联调仍待核对。
 - **光驱位于屏幕后、入口朝上、从顶部垂直插入 CD** 是优先验证的候选布局，**不是已验证的竖装方案**。先测试吸入、读盘与退盘可靠性，再设计槽口。
-- 复古木制外观、黑胡桃木优先；结构须兼顾散热、隔振、可拆卸维护和加工公差。
+- **科技、现代、个性**的外形，外壳及内部固定结构使用 **3D 打印**，不采用木制材料。按打印方向、分件、层间强度、公差、散热、隔振和可拆维护设计；壁厚、切角及连接尺寸仍按参数表区分假设和测量值。
+- 当前唯一设计基线为 `cad/terminal/vintrox-terminal.FCStd`，对应终端分件、预览、效果图和独立验证工具；旧设计及专用工具已移除，不重新生成。参考图中的风格标签或功能不替代用户要求。
 - **禁止复用已撤销的约 270 × 210 × 170mm 外形草案作为加工尺寸**。未测绘之前，不冻结整机宽、高、深或开孔尺寸。
 
 ### 音频与供电安全

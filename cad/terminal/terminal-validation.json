@@ -1,0 +1,892 @@
+{
+  "status": "分件/占位草案；未打印或实测",
+  "body_mm": {
+    "width": 234.0,
+    "height": 212.0,
+    "depth": 160.0
+  },
+  "overall_mm": {
+    "width": 234.0,
+    "depth": 170.0,
+    "height": 217.0
+  },
+  "printed_parts": 35,
+  "hardware_envelopes": {
+    "ScreenPanel": {
+      "xyz_mm": [
+        210.0,
+        2.0,
+        160.0
+      ],
+      "min_xyz_mm": [
+        12.0,
+        8.5,
+        38.0
+      ],
+      "evidence": "用户测量/指定及派生；装配净空待核对"
+    },
+    "ScreenRibbonBoard": {
+      "xyz_mm": [
+        10.0,
+        2.4,
+        140.0
+      ],
+      "min_xyz_mm": [
+        12.0,
+        10.5,
+        48.0
+      ],
+      "evidence": "用户测量/指定及派生；装配净空待核对"
+    },
+    "ScreenDriver": {
+      "xyz_mm": [
+        94.5,
+        5.0,
+        63.5
+      ],
+      "min_xyz_mm": [
+        69.75,
+        14.0,
+        24.0
+      ],
+      "evidence": "用户部件尺寸及指定估算/假设，整机方向映射候选；插头/最高元件/固定孔净空未验证"
+    },
+    "OpticalDrive": {
+      "xyz_mm": [
+        128.0,
+        13.0,
+        128.0
+      ],
+      "min_xyz_mm": [
+        53.0,
+        22.0,
+        77.0
+      ],
+      "evidence": "假设包络；不是具体板卡、接口、固定孔或整机实测"
+    },
+    "OpticalBridge": {
+      "xyz_mm": [
+        35.0,
+        14.0,
+        18.0
+      ],
+      "min_xyz_mm": [
+        99.5,
+        38.0,
+        51.0
+      ],
+      "evidence": "假设包络；不是具体板卡、接口、固定孔或整机实测"
+    },
+    "SpeakerLeft": {
+      "xyz_mm": [
+        55.0,
+        105.0,
+        115.0
+      ],
+      "min_xyz_mm": [
+        6.5,
+        38.0,
+        60.0
+      ],
+      "evidence": "假设包络；不是具体板卡、接口、固定孔或整机实测"
+    },
+    "SpeakerRight": {
+      "xyz_mm": [
+        55.0,
+        105.0,
+        115.0
+      ],
+      "min_xyz_mm": [
+        172.5,
+        38.0,
+        60.0
+      ],
+      "evidence": "假设包络；不是具体板卡、接口、固定孔或整机实测"
+    },
+    "Battery": {
+      "xyz_mm": [
+        120.0,
+        75.0,
+        32.0
+      ],
+      "min_xyz_mm": [
+        57.0,
+        36.0,
+        12.0
+      ],
+      "evidence": "假设包络；不是具体板卡、接口、固定孔或整机实测"
+    },
+    "Pi": {
+      "xyz_mm": [
+        85.0,
+        25.0,
+        65.0
+      ],
+      "min_xyz_mm": [
+        74.5,
+        57.0,
+        60.0
+      ],
+      "evidence": "假设包络；不是具体板卡、接口、固定孔或整机实测"
+    },
+    "Hub": {
+      "xyz_mm": [
+        50.0,
+        22.0,
+        70.0
+      ],
+      "min_xyz_mm": [
+        92.0,
+        85.0,
+        80.0
+      ],
+      "evidence": "假设包络；不是具体板卡、接口、固定孔或整机实测"
+    },
+    "Disk": {
+      "xyz_mm": [
+        80.5,
+        13.0,
+        131.5
+      ],
+      "min_xyz_mm": [
+        76.75,
+        126.0,
+        45.0
+      ],
+      "evidence": "用户部件尺寸及指定估算/假设，整机方向映射候选；插头/最高元件/固定孔净空未验证"
+    },
+    "Amplifier": {
+      "xyz_mm": [
+        50.0,
+        20.0,
+        25.0
+      ],
+      "min_xyz_mm": [
+        14.0,
+        126.0,
+        183.6
+      ],
+      "evidence": "假设包络；不是具体板卡、接口、固定孔或整机实测"
+    },
+    "DAC": {
+      "xyz_mm": [
+        60.0,
+        16.0,
+        25.0
+      ],
+      "min_xyz_mm": [
+        160.0,
+        128.0,
+        183.6
+      ],
+      "evidence": "假设包络；不是具体板卡、接口、固定孔或整机实测"
+    },
+    "Power": {
+      "xyz_mm": [
+        70.0,
+        24.0,
+        28.0
+      ],
+      "min_xyz_mm": [
+        82.0,
+        121.6,
+        10.0
+      ],
+      "evidence": "假设包络；不是具体板卡、接口、固定孔或整机实测"
+    }
+  },
+  "assembly_solids": 56,
+  "intersections": [],
+  "hardware_outside_body": [],
+  "keepouts": {
+    "DisplayClearance": [],
+    "CableLane": []
+  },
+  "slot_offset_xy_mm": [
+    0.0,
+    0.0
+  ],
+  "slot_blocked_mm3": 0.0,
+  "errors": [],
+  "scope": "静态简化实体；标准接口/螺钉头仅示意，不证明线缆、螺母、孔配合、强度、散热或声学通过。",
+  "saved_readback": {
+    "freecad_version": "1.1.4",
+    "assembly_step": {
+      "matched_solids": 56,
+      "length_tolerance_mm": 1e-06,
+      "bidirectional_cut_tolerance_mm3": 1e-06,
+      "max_bidirectional_difference_mm3": 0.0,
+      "max_standalone_volume_integration_difference_mm3": 2.1829000615980476e-05
+    },
+    "csv_manifest_comparison": {
+      "matched_parts": 35,
+      "dimension_tolerance_mm": 1e-06
+    },
+    "parts": [
+      {
+        "id": "P01",
+        "name": "LeftShell",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 8.5e-06,
+        "print_bounds_mm": [
+          205.0,
+          160.0,
+          11.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P02",
+        "name": "RightShell",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 8.5e-06,
+        "print_bounds_mm": [
+          205.0,
+          160.0,
+          11.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P03",
+        "name": "TopCap",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 3.21e-06,
+        "print_bounds_mm": [
+          15.0,
+          160.0,
+          234.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P04",
+        "name": "SlotTrim",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 6.753e-05,
+        "print_bounds_mm": [
+          128.0,
+          7.0,
+          0.8
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P05",
+        "name": "BaseTray",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 2.95e-06,
+        "print_bounds_mm": [
+          234.0,
+          160.0,
+          10.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P06",
+        "name": "Foot0",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 9.43e-06,
+        "print_bounds_mm": [
+          206.0,
+          8.0,
+          5.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P07",
+        "name": "Foot1",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 9.43e-06,
+        "print_bounds_mm": [
+          206.0,
+          8.0,
+          5.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P08",
+        "name": "FrontBezel",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 4.161e-05,
+        "print_bounds_mm": [
+          227.2,
+          165.0,
+          9.3
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P09",
+        "name": "ControlPanel",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 8.22e-06,
+        "print_bounds_mm": [
+          227.2,
+          27.2,
+          3.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P10",
+        "name": "ControlMount",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 0.00016624,
+        "print_bounds_mm": [
+          218.0,
+          6.0,
+          12.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P11",
+        "name": "ScreenRetainer",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 3.896e-05,
+        "print_bounds_mm": [
+          227.2,
+          194.0,
+          8.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P12",
+        "name": "DriveMount",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 1.955e-05,
+        "print_bounds_mm": [
+          132.8,
+          34.8,
+          81.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P13",
+        "name": "SpeakerHolderLeft",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 1.848e-05,
+        "print_bounds_mm": [
+          59.8,
+          109.8,
+          64.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P14",
+        "name": "SpeakerHolderRight",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 1.849e-05,
+        "print_bounds_mm": [
+          59.8,
+          109.8,
+          64.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P15",
+        "name": "DriverHolder",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 3.762e-05,
+        "print_bounds_mm": [
+          99.3,
+          9.8,
+          28.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P16",
+        "name": "BatteryHolder",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 1.281e-05,
+        "print_bounds_mm": [
+          124.8,
+          79.8,
+          16.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P17",
+        "name": "PowerHolder",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 2.53e-05,
+        "print_bounds_mm": [
+          74.8,
+          28.8,
+          14.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P18",
+        "name": "CarrierSpine",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 2.711e-05,
+        "print_bounds_mm": [
+          106.0,
+          190.0,
+          13.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P19",
+        "name": "PiCradleEarHoles",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 1.062e-05,
+        "print_bounds_mm": [
+          105.8,
+          29.8,
+          10.4
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P20",
+        "name": "HubCradleEarHoles",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 1.755e-05,
+        "print_bounds_mm": [
+          70.8,
+          26.8,
+          10.4
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P21",
+        "name": "DiskCradleEarHoles",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 1.548e-05,
+        "print_bounds_mm": [
+          101.3,
+          17.8,
+          10.4
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P22",
+        "name": "AmpCradle",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 1.85e-05,
+        "print_bounds_mm": [
+          62.8,
+          24.8,
+          10.4
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P23",
+        "name": "DacCradle",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 1.804e-05,
+        "print_bounds_mm": [
+          72.8,
+          20.8,
+          10.4
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P24",
+        "name": "PiShelf",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 2.363e-05,
+        "print_bounds_mm": [
+          105.8,
+          39.6,
+          20.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P25",
+        "name": "HubShelf",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 6.525e-05,
+        "print_bounds_mm": [
+          70.8,
+          14.6,
+          20.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P26",
+        "name": "DiskShelf",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 4.691e-05,
+        "print_bounds_mm": [
+          106.0,
+          12.6,
+          20.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P27",
+        "name": "AudioShelf",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 1.934e-05,
+        "print_bounds_mm": [
+          210.8,
+          29.4,
+          20.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P28",
+        "name": "GrilleLeft",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 0.0,
+        "print_bounds_mm": [
+          109.0,
+          99.0,
+          4.4
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P29",
+        "name": "GrilleRight",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 2e-08,
+        "print_bounds_mm": [
+          109.0,
+          99.0,
+          4.4
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P30",
+        "name": "RearPanel",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 6.04e-06,
+        "print_bounds_mm": [
+          227.2,
+          196.2,
+          3.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P31",
+        "name": "KnobCap",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 0.00252778,
+        "print_bounds_mm": [
+          20.0,
+          20.0,
+          6.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P32",
+        "name": "Button0",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 0.00252776,
+        "print_bounds_mm": [
+          5.4,
+          5.4,
+          2.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P33",
+        "name": "Button1",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 0.00252776,
+        "print_bounds_mm": [
+          5.4,
+          5.4,
+          2.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P34",
+        "name": "Button2",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 0.00252776,
+        "print_bounds_mm": [
+          5.4,
+          5.4,
+          2.0
+        ],
+        "fits_assumed_256_cube": true
+      },
+      {
+        "id": "P35",
+        "name": "AccentBadge",
+        "step_matched_solids": 1,
+        "stl_closed": true,
+        "stl_components": 1,
+        "mesh_volume_relative_difference": 4e-08,
+        "print_bounds_mm": [
+          28.0,
+          2.0,
+          1.2
+        ],
+        "fits_assumed_256_cube": true
+      }
+    ],
+    "exercise_executed": true,
+    "parameter_probes": [
+      {
+        "parameter": "ScreenW",
+        "delta_mm": 10,
+        "accepted": true
+      },
+      {
+        "parameter": "ScreenH",
+        "delta_mm": 10,
+        "accepted": true
+      },
+      {
+        "parameter": "Depth",
+        "delta_mm": 5,
+        "accepted": true
+      },
+      {
+        "parameter": "Fit",
+        "delta_mm": 0.1,
+        "accepted": true
+      },
+      {
+        "parameter": "FootH",
+        "delta_mm": 1,
+        "accepted": true
+      },
+      {
+        "parameter": "RibbonT",
+        "delta_mm": 0.2,
+        "accepted": true
+      },
+      {
+        "parameter": "FrontRun",
+        "delta_mm": 2,
+        "accepted": true
+      },
+      {
+        "parameter": "RearDrop",
+        "delta_mm": 0.5,
+        "accepted": true
+      },
+      {
+        "parameter": "SideRecess",
+        "delta_mm": 0.2,
+        "accepted": true
+      },
+      {
+        "parameter": "GrilleRise",
+        "delta_mm": 1,
+        "accepted": true
+      },
+      {
+        "parameter": "ControlBevel",
+        "delta_mm": 1,
+        "accepted": true
+      },
+      {
+        "parameter": "BaseCorner",
+        "delta_mm": 1,
+        "accepted": true
+      },
+      {
+        "parameter": "DiskY",
+        "value_mm": 138,
+        "accepted": false,
+        "expected_conflict_detected": true,
+        "errors": [
+          "侵入净空: CableLane"
+        ]
+      },
+      {
+        "parameter": "SpeakerT",
+        "value_mm": 65,
+        "accepted": false,
+        "expected_conflict_detected": true,
+        "errors": [
+          "分件/硬件相交"
+        ]
+      },
+      {
+        "parameter": "Depth",
+        "value_mm": 150,
+        "accepted": false,
+        "expected_conflict_detected": true,
+        "errors": [
+          "分件/硬件相交",
+          "侵入净空: CableLane"
+        ]
+      }
+    ],
+    "all_inputs_unchanged": true
+  },
+  "files_sha256": {
+    "cad/terminal/vintrox-terminal.FCStd": "350122e95f8038e247ff5c9818bae2bc2d9710f3eac148a348261e31fdd516b5",
+    "cad/terminal/vintrox-terminal.step": "a0b09711fdbe2201e887d7653fd0f9bb31dc9dd190ce2809d6b293179e53f875",
+    "cad/terminal/parts.json": "35e7c9e9624f335974ec578d841af39d7ac37a96e614ccfc2bd44827d2eca5ea",
+    "cad/terminal/parts.csv": "1e390541246b58c01ce7422a8f4d6516fcb7ed99875db90ad83c09f708820ee1",
+    "cad/terminal/parts/P01-LeftShell.step": "1503a8835240cb23a2a1754af9769b2352fbc1c852eb7cec6b4046817f6dd53d",
+    "cad/terminal/parts/P01-LeftShell.stl": "d0b944230ce5078893c3a05834268479712d8561bf9691b3b0bcc2078cb6bfa2",
+    "cad/terminal/parts/P02-RightShell.step": "0ce853202fc00245fec8b0fe3001994e34af40cb68e049fcc8b8a0315c9eaecb",
+    "cad/terminal/parts/P02-RightShell.stl": "5288561732b5fa3d725dabb67ab219c0026635f323ac6223bdc96dad233925ab",
+    "cad/terminal/parts/P03-TopCap.step": "50aefee62857ae5e4f1cf9beab3faf16d8fad380e6681e809bb223976df64891",
+    "cad/terminal/parts/P03-TopCap.stl": "d58c42101d77e043681327514ae987e557bf22b9dcae34a3a5204b9e368c5ab0",
+    "cad/terminal/parts/P04-SlotTrim.step": "80a71d5f4dd5c1f077a8591f76f7e98b81911655adf86437bd005ec27e415630",
+    "cad/terminal/parts/P04-SlotTrim.stl": "6ef8ea1da0370e4f2e9ff926ec4664454ad1de6a0f4767ec2f442beaa24df326",
+    "cad/terminal/parts/P05-BaseTray.step": "10e956221b59ae3dcd0683b12e7ac376f4bfa395ec08ee088a2412395686668c",
+    "cad/terminal/parts/P05-BaseTray.stl": "68277ba7b0eb4e1779ec52ada42041cc5efd35de5080933d153d2eaf6cc1e599",
+    "cad/terminal/parts/P06-Foot0.step": "2bcb66e9884987338eb11a4c8ea509e465c5888c9201da21ccaec4777071c3b2",
+    "cad/terminal/parts/P06-Foot0.stl": "405a62ab9b9a47bc777bc5d2e5c6b191580490db578e1901097dcb801a9a19dd",
+    "cad/terminal/parts/P07-Foot1.step": "b5201d170236cecf3cb57c0c16404bd5912cfa7b557e03a9d44cf6bfd3db3493",
+    "cad/terminal/parts/P07-Foot1.stl": "405a62ab9b9a47bc777bc5d2e5c6b191580490db578e1901097dcb801a9a19dd",
+    "cad/terminal/parts/P08-FrontBezel.step": "17bcefbc150d61b3f28fa13aa9a78ee1758c3d9e14db80570d75601ff490c15f",
+    "cad/terminal/parts/P08-FrontBezel.stl": "d5fc63c6e8dd87c8dd1af612ef6038f33b850a5e7a1739f76993457d8f8b5bb8",
+    "cad/terminal/parts/P09-ControlPanel.step": "b9902b45238d5b5ece9dc39bfa3b80a9dfbf6bbc43b1eeea299f01d99141326b",
+    "cad/terminal/parts/P09-ControlPanel.stl": "f74cede46892f98e955a56619b6561009ec76787d4ba2b8319ac96282e49dbd8",
+    "cad/terminal/parts/P10-ControlMount.step": "dfde3b2152e0ae819dd78e76ccf2ee3fa1da7cfe88f2217368c98f0fdb1ef305",
+    "cad/terminal/parts/P10-ControlMount.stl": "92060886085b7883389fd9f29f820d5b0813482653f3c7bde328173d4da70c87",
+    "cad/terminal/parts/P11-ScreenRetainer.step": "55b79a7e3e596a45feaff101c16548a88c3c95aee1a10718c88f7893fedf0f4e",
+    "cad/terminal/parts/P11-ScreenRetainer.stl": "4acbfd23ae439b49a116086dab95cd999fff9be9b32e362ea4ebf151266299d8",
+    "cad/terminal/parts/P12-DriveMount.step": "370f5887b6fadc3a2f487cf4e62e9fe979af0d40c76219ddc1c24d4b8dc4c3e3",
+    "cad/terminal/parts/P12-DriveMount.stl": "c62baa9bbfa26e88f3d3eba43922b5ef48c6fc59fa83c4803eca3f236f8e94a3",
+    "cad/terminal/parts/P13-SpeakerHolderLeft.step": "089429671cecf96801bb6708959c41c1125403c881152e08faa8b7c191f22ba8",
+    "cad/terminal/parts/P13-SpeakerHolderLeft.stl": "b36bc0a8c4954d8f197801a84bb708003945e6142e70ae25976276653391c322",
+    "cad/terminal/parts/P14-SpeakerHolderRight.step": "befb019b9ac4967cc17e6bd67ad0e978f1961d9006e0d297460c90cc0719d5bd",
+    "cad/terminal/parts/P14-SpeakerHolderRight.stl": "6cb373c43539888096e60dab4f32c2c16404ee543125e35f30041684ae6019d4",
+    "cad/terminal/parts/P15-DriverHolder.step": "f46ba9f3e20a3867c1e1e9c6197b8d3ef063bf330eaf0b32a7e44eb611d4ba3b",
+    "cad/terminal/parts/P15-DriverHolder.stl": "98e2fac68bce6d5e75060d2031e22d79365004dca3ea3ffc6cab635269bff237",
+    "cad/terminal/parts/P16-BatteryHolder.step": "561553f9fe4d2f3f5ae3af6b9e45724b27bde4814a2a47fd1e8552708db292a5",
+    "cad/terminal/parts/P16-BatteryHolder.stl": "77c86f1048e2ba94e781946fe09a862cae4fbeb88369307cfe454dc3a2b5adf8",
+    "cad/terminal/parts/P17-PowerHolder.step": "2aa77d1da3787c65886e64ba36abfdb4055e750f44a0f14809a72e2109746df5",
+    "cad/terminal/parts/P17-PowerHolder.stl": "e16dcc36f8e1f316859104d805781f1450d43f51c0d013aa1accfdf07c83ac07",
+    "cad/terminal/parts/P18-CarrierSpine.step": "dd26ea5160058d4652b06dd5800d797a3d2999d656cda69d7ddb549b1e6ce63e",
+    "cad/terminal/parts/P18-CarrierSpine.stl": "4c5e7ea68f5890ff6d5ac0402dcf86f2983b7cc3f818b5f40d26eafc6ce4b927",
+    "cad/terminal/parts/P19-PiCradleEarHoles.step": "a12f84a8ba7ec30adf9877296d0cb1d09d010f9980c79a209d2c51383d7ef138",
+    "cad/terminal/parts/P19-PiCradleEarHoles.stl": "a90d936979658f84a8f9fcbc3270f5efd1afa77ac8d525325538f6fe2342ef66",
+    "cad/terminal/parts/P20-HubCradleEarHoles.step": "be0770df65e6182a155d1b92c3bf3691f1f25f193318b7ad61b6cff261fcfec5",
+    "cad/terminal/parts/P20-HubCradleEarHoles.stl": "309859e6414db2c9cf8c1efade6e68b567a4f51069de05c687877e2af71549ca",
+    "cad/terminal/parts/P21-DiskCradleEarHoles.step": "9f6382db77d6adbc1daa603573be0b007921720b72197d8b4d4d57491b901f1b",
+    "cad/terminal/parts/P21-DiskCradleEarHoles.stl": "fca6bda61742ff91c199aa850d9c04fea2a2a54f3b66691e7c4e61b383b1302f",
+    "cad/terminal/parts/P22-AmpCradle.step": "cafa5479a80c7d8a3283d9f3cfe6e78ceac1fa34886c90ecc33678467a31f608",
+    "cad/terminal/parts/P22-AmpCradle.stl": "b2d598f3508f4a2a10c5352b10dfaa015b1817b7be31ebfa494ce7cd5ea35690",
+    "cad/terminal/parts/P23-DacCradle.step": "424456a8843a6ff980c730ce8c5bc08166dc14b0f91f65b1f66f23805068c537",
+    "cad/terminal/parts/P23-DacCradle.stl": "d3bf5167f77e0f4257c7bd271cbd1852383158357f1a49fa20d815cf84a57400",
+    "cad/terminal/parts/P24-PiShelf.step": "795dd3ed2411946463531eeb4312b5d60f24240b61a7bfc3d4692ce3aead926c",
+    "cad/terminal/parts/P24-PiShelf.stl": "cb51cc558057b90cd73d60f93c926ee877a9c220b97824a6fa65f4ac51bb4999",
+    "cad/terminal/parts/P25-HubShelf.step": "813cf4fbe33392017bdd32019e6e5335d8ac575211688b14c8cd408e6060e980",
+    "cad/terminal/parts/P25-HubShelf.stl": "e9ee3dd5d6d36db2a9a83975d0ef237473b833b9a7b28bd212e1d2afc13db503",
+    "cad/terminal/parts/P26-DiskShelf.step": "a6173c2a523ab3b56b285b0e0b5d5638173b90e69ffb6983b152ab24f1590380",
+    "cad/terminal/parts/P26-DiskShelf.stl": "f17d7e4795b9a194dcb3fafb974f7f0ecc00567ead79c721328c1c79f731219a",
+    "cad/terminal/parts/P27-AudioShelf.step": "5094a0531b63144431c3fcb582f643ad732814e698b16560d25bae03b83febf8",
+    "cad/terminal/parts/P27-AudioShelf.stl": "66d58fd9155c45b58abc1886cb5f25d707d16c4fb41a64abb8f14ea12fa5403d",
+    "cad/terminal/parts/P28-GrilleLeft.step": "7f1267d0adbfba43db30a1d215d810899751ebd1477e4a2f940cd710eb663545",
+    "cad/terminal/parts/P28-GrilleLeft.stl": "4cebbc9b4ec0b87c83cf9d80f69bbe390b4fd583d71d2fa1af7c6d339a42e1a2",
+    "cad/terminal/parts/P29-GrilleRight.step": "35bf504001b785e86d106f02fb9cbad339b126309e625d11075bd771157cf54e",
+    "cad/terminal/parts/P29-GrilleRight.stl": "45da9ce807ed98e4c0283074cbe1a85b0761fbe48924a698835b3ce4d84489ce",
+    "cad/terminal/parts/P30-RearPanel.step": "12678023ecaf4cd9f0c114f692c94e0936bbbe9d8a40110693751d12ee235ef4",
+    "cad/terminal/parts/P30-RearPanel.stl": "592acdea7982d08781804aa77af74ecfcc79814f2f3da86c65f5c30c173ba042",
+    "cad/terminal/parts/P31-KnobCap.step": "20ba12e8ff153599594ebbb69052f49d5f87a99eb33757df7f6c25fc337e6dd0",
+    "cad/terminal/parts/P31-KnobCap.stl": "57559d77e9093eb3f396fa28c9e397eb1bb705958a0750a8d5cd9db6e574b284",
+    "cad/terminal/parts/P32-Button0.step": "3d3c03ed86e6361fd938cdfbdbb0fc6a05ac783e067943dd4b02fc2b91fbc6c4",
+    "cad/terminal/parts/P32-Button0.stl": "03546c173d9c0498e47e79bed8d7d7cf8cbf4562721a832da8e83425d3954899",
+    "cad/terminal/parts/P33-Button1.step": "f4dc0e16906bcdd55f3d7a5308dd6dc812c66fa8a283eaa11c9b54a8d9f44419",
+    "cad/terminal/parts/P33-Button1.stl": "03546c173d9c0498e47e79bed8d7d7cf8cbf4562721a832da8e83425d3954899",
+    "cad/terminal/parts/P34-Button2.step": "10c4d541fa5a9ddcb2904de5c82743a3ec7b278ccb96f7bbc3fa3e1a25453c76",
+    "cad/terminal/parts/P34-Button2.stl": "03546c173d9c0498e47e79bed8d7d7cf8cbf4562721a832da8e83425d3954899",
+    "cad/terminal/parts/P35-AccentBadge.step": "4471643fbb5737c629aca0048399e0cc0da300b40170ba1dffaab4496e58ce08",
+    "cad/terminal/parts/P35-AccentBadge.stl": "2f74d4a7a6a83cd281fae74482e199362ec210b4eec52fa487fb8f0f37061a15",
+    "cad/terminal/previews/exploded.png": "e59f37a9c625d8b1473d71c1dfa97c60862a7f6059cca5d9faf7322c0c497fd6",
+    "cad/terminal/previews/exterior.png": "39d1d5ea205bd7f7c000b96ee3951afcac2adbee52319549d36f1f57074af55a",
+    "cad/terminal/previews/hardware.png": "aef4a66af0faaa050fdfb6a3e4040cda9d1218bf61aeb6b0a28d67679379d111",
+    "cad/terminal/previews/interior.png": "9920c5c04cd4d3dec650fbe7e0076302c97d0128bf1b3c01028d332e31358546",
+    "cad/terminal/previews/parts.png": "80e28ec04456d1237a5324113f114254335c9449dacbca1f73d1690a0b66e0c8"
+  },
+  "limits": "实体相交阈值0.01mm³；STEP逐实体双向差集阈值1e-6mm³；均非加工公差。标准接口和螺钉头仅示意；未验证实际打印、紧固、插头/弯线、完整拆卸路径、声学或热性能。"
+}
