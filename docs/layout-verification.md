@@ -4,9 +4,9 @@
 
 ## 输入与环境
 
-- 使用安装好的 FreeCAD 自带 Python 和库；当前命令在 macOS、FreeCAD 1.1.1 下验证。
+- 使用安装好的 FreeCAD 自带 Python 和库；当前命令在 macOS、FreeCAD 1.1.4 下验证。
 - 将本地布局包放在仓库 `cad/` 下，包含 `vintrox-layout.FCStd` 和 `vintrox-layout.step`。模型、预览和既有报告由其自身交付流程维护，本工具不自动创建输入文件。
-- FCStd 使用原生 `Parameters` 参数表和 `Enclosure`、`Hardware`、`Details` 分组，以及 `CableLane` 预留区。静态判定实现位于 [layout_checks.py](../tools/layout_checks.py)，不依赖 CAD 生成器或 GUI 宏。
+- FCStd 使用原生 `Parameters` 参数表和 `Enclosure`、`Hardware`、`Details` 分组，以及 `CableLane` 预留区。第三版另检查 `DisplayClearance` 可视区净空、顶部槽口对齐/无木壳堵塞及含底座/控件的总包络。静态判定实现位于 [layout_checks.py](../tools/layout_checks.py)，不依赖 CAD 生成器或 GUI 宏。
 
 ## 只读复核与报告输出
 
@@ -17,9 +17,9 @@ PYTHONPATH=/Applications/FreeCAD.app/Contents/Resources/lib \
   /Applications/FreeCAD.app/Contents/Resources/bin/python tools/verify_layout.py
 ```
 
-[验证器](../tools/verify_layout.py) 默认只打印本次 JSON 结果，不写 FCStd、STEP、预览或现有报告。检查静态干涉/内腔/后部线束区，并将 FCStd 的实体与 STEP 一一匹配：比较世界坐标中的包围盒、体积及两个方向的布尔差集，不依赖 STEP 实体顺序。长度容差为 0.000001mm，各方向残余体积容差为 0.000001mm³；这是几何计算判据，不是加工公差。实体数量和总体积相同不足以通过。
+[验证器](../tools/verify_layout.py) 默认只打印本次 JSON 结果，不写 FCStd、STEP、预览或现有报告。检查静态干涉/内腔/后部线束区，并将 FCStd 的实体与 STEP 一一匹配：比较世界坐标中不依赖三角网格的几何包围盒、体积及两个方向的布尔差集，不依赖 STEP 实体顺序。长度容差为 0.000001mm，各方向残余体积容差为 0.000001mm³；这是几何计算判据，不是加工公差。实体数量和总体积相同不足以通过。
 
-默认布局的五项参数联动、四档深度及故意干涉探针通过 `--exercise` 启用；该选项单独使用也只打印结果。更新正式报告时必须显式指定输出路径：
+默认布局的十一项参数联动（含屏幕/排线板尺寸、木壳圆角、黑框内嵌和底座高）、四档深度及故意干涉探针通过 `--exercise` 启用；该选项单独使用也只打印结果。更新正式报告时必须显式指定输出路径：
 
 ```sh
 PYTHONPATH=/Applications/FreeCAD.app/Contents/Resources/lib \
@@ -46,4 +46,4 @@ PYTHONPATH=/Applications/FreeCAD.app/Contents/Resources/lib \
   -m unittest discover -s tests -p test_layout_verifier.py -v
 ```
 
-2026-10-18 在本地既有布局包与 FreeCAD 1.1.1 下执行，8 项全部通过；没有布局包时的预期结果为 3 项通过、5 项跳过。尺寸信息与实物验收继续统一记录在 [测量与验证清单](validation.md)。
+2026-10-18 在本地既有布局包与 FreeCAD 1.1.4 下执行，8 项全部通过；没有布局包时的预期结果为 3 项通过、5 项跳过。尺寸信息与实物验收继续统一记录在 [测量与验证清单](validation.md)。
