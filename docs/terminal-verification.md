@@ -1,6 +1,6 @@
 # 终端CAD包验证
 
-对应已确认的唯一设计[vintrox-terminal](terminal-model.md)，输入包位于`cad/terminal/`；使用本页的终端验证工具与报告。
+对应现有[vintrox-terminal 终端草案](terminal-model.md)，输入包位于`cad/terminal/`；使用本页的终端验证工具与报告。新 [Drone 外形草模](drone-concept.md)有独立包和读回记录，本页验证不覆盖新设计。
 
 ## 保存读回
 
