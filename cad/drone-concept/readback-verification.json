@@ -3,12 +3,12 @@
   "scope": "saved static appearance study only",
   "physical_validation": false,
   "errors": [],
-  "visible_features": 359,
-  "step_solids": 462,
+  "visible_features": 370,
+  "step_solids": 473,
   "group_count": 0,
   "non_chinese_labels": [],
-  "chinese_named_objects": 363,
-  "chinese_step_part_names": 359,
+  "chinese_named_objects": 374,
+  "chinese_step_part_names": 370,
   "screen_panel_mm": [
     210.0,
     160.0,
@@ -25,17 +25,86 @@
   "woofer_shell_overlap_mm3": 0.0,
   "screen_side_unwanted_features": [],
   "removed_external_pod_parts_present": [],
+  "central_support_shafts": [
+    {
+      "name": "SupportShaftFrontLeft",
+      "diameter_mm": 6,
+      "length_mm": 184.62394210935915,
+      "root_mm": [
+        -16.0,
+        67.0,
+        28.0
+      ],
+      "tip_mm": [
+        -122.0,
+        -18.0,
+        -97.0
+      ]
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "diameter_mm": 6,
+      "length_mm": 184.62394210935915,
+      "root_mm": [
+        -16.0,
+        113.0,
+        28.0
+      ],
+      "tip_mm": [
+        -122.0,
+        198.0,
+        -97.0
+      ]
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "diameter_mm": 6,
+      "length_mm": 184.62394210935915,
+      "root_mm": [
+        16.0,
+        67.0,
+        28.0
+      ],
+      "tip_mm": [
+        122.0,
+        -18.0,
+        -97.0
+      ]
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "diameter_mm": 6,
+      "length_mm": 184.62394210935915,
+      "root_mm": [
+        16.0,
+        113.0,
+        28.0
+      ],
+      "tip_mm": [
+        122.0,
+        198.0,
+        -97.0
+      ]
+    }
+  ],
+  "support_ground_levels_mm": [
+    -100.0,
+    -100.0,
+    -100.0,
+    -100.0
+  ],
+  "removed_rear_supports_present": [],
   "closure_probes_passed": 24,
   "closure_probe_count": 24,
   "nozzle_loft_surface_count": 2,
   "curved_nozzle_petals": 24,
-  "step_relative_volume_error": 4.917469426466193e-07,
-  "step_bbox_max_delta_mm": 5.7056581681536045e-12,
+  "step_relative_volume_error": 4.854660713474887e-07,
+  "step_bbox_max_delta_mm": 3.808509063674137e-12,
   "bbox_mm": [
     346.0,
     333.0464123822584,
-    396.0355248120869
+    479.62080699756166
   ],
-  "fcstd_sha256": "4ce6560d5fe9249e54016f8081b479a5f0b1d63e6fd2ad4202af225cebd7f8d7",
-  "step_sha256": "264ef824d20a0bbabeacac747bcd2c103645205b9af083673b78f931042677ca"
+  "fcstd_sha256": "9f63d96dd7191a9ec9d9c1395f422612d120f10bd7a0f5dec0097a0e64a970c4",
+  "step_sha256": "0134c4253fc56b436f8e0d2281ba3b7767f9cafd2aba005f706d6db0d9577735"
 }

@@ -69,7 +69,11 @@ CHINESE_LABELS = {
     'WooferEnvelope_D88_Depth40': '低音单元占位（直径88×深40 毫米，隐藏）',
     'LowerPodDiaphragm': '底部小喷口封片', 'LowerPodRim': '底部小喷口口环',
     'LowerPodRib': '底部小喷口叶片', 'LowerPod': '底部小喷口外罩',
-    'UnderbodyLoop': '底部回环线束示意', 'RearSupport': '后部支撑脚',
+    'UnderbodyLoop': '底部回环线束示意',
+    'CentralSupportSeat': '底部中央支撑座（打印结构示意）',
+    'SupportSocket': '斜向光轴固定套示意',
+    'SupportShaft': '底部斜向细光轴（直径6毫米假设）',
+    'SupportFoot': '光轴防滑脚垫示意',
     'AntennaBase': '天线底座示意', 'Antenna': '天线外形示意', 'HoodMark': '前罩斜向标记',
     'CDInsertionStudy_D120': '光盘插入占位（直径120 毫米，隐藏）',
     'HoodEdge': '前罩金属细包边', 'HandleInset': '提手支臂内嵌面',
@@ -87,12 +91,15 @@ def chinese_label(name):
     for prefix in sorted(CHINESE_LABELS, key=len, reverse=True):
         if name.startswith(prefix):
             suffix = name[len(prefix):]
-            if prefix in ('PixelEye', 'PixelEyeTop', 'RearSupport'):
+            if prefix in ('PixelEye', 'PixelEyeTop'):
                 suffix = '左侧' if suffix.startswith('-') else '右侧'
             elif suffix in ('-1', '+1'):
                 suffix = '左侧' if suffix == '-1' else '右侧'
             else:
-                suffix = suffix.replace('Left', '左侧').replace('Right', '右侧')
+                for english, chinese in [('FrontLeft', '左前'), ('FrontRight', '右前'),
+                                         ('RearLeft', '左后'), ('RearRight', '右后'),
+                                         ('Left', '左侧'), ('Right', '右侧')]:
+                    suffix = suffix.replace(english, chinese)
                 suffix = re.sub(r'(\d+)$', lambda m: f'·{int(m[1])+1:02}', suffix)
             return CHINESE_LABELS[prefix]+(' — '+suffix if suffix else '')
     raise ValueError(f'Missing Chinese display label: {name}')
@@ -230,6 +237,33 @@ class Study:
         return self.add(name, shape.cut(slot), SILVER, 'Details', 'metal')
 
 
+def add_central_support(study):
+    """Splay four smooth metal shafts from a compact assumed printed seat."""
+    study.add('CentralSupportSeat', box(84, 70, 16, (-42, 55, 22), 3),
+              DARK, 'Hull')
+    for side, side_name in [(-1, 'Left'), (1, 'Right')]:
+        for fore, fore_name in [(-1, 'Front'), (1, 'Rear')]:
+            name = fore_name+side_name
+            root = App.Vector(side*16, 90+fore*23, 28)
+            tip = App.Vector(side*122, 90+fore*108, -97)
+            direction = tip-root
+            shaft = study.add('SupportShaft'+name,
+                              cylinder(3, direction.Length, tuple(root), tuple(direction)),
+                              SILVER, 'Hull', 'metal')
+            shaft.addProperty('App::PropertyVector', 'RootCentre', 'Support')
+            shaft.addProperty('App::PropertyVector', 'FootCentre', 'Support')
+            shaft.addProperty('App::PropertyLength', 'AssumedDiameter', 'Support')
+            shaft.RootCentre = root
+            shaft.FootCentre = tip
+            shaft.AssumedDiameter = 6
+            study.add('SupportSocket'+name,
+                      ring(6, 3, 22, tuple(root), tuple(direction)),
+                      DARK, 'Hull')
+            study.add('SupportFoot'+name,
+                      cylinder(8, 6, (tip.x, tip.y, -100)),
+                      DARK, 'Hull', 'rubber')
+
+
 def build(root):
     """Create and save a separate appearance concept without changing terminal."""
     root = Path(root)
@@ -238,7 +272,7 @@ def build(root):
     if 'vintrox_drone_refined' in App.listDocuments():
         raise RuntimeError('Concept document already open; close it before rebuilding.')
     doc = App.newDocument('vintrox_drone_refined')
-    doc.Label = 'VINTROX Drone — 近景造型修订'
+    doc.Label = 'VINTROX Drone — 中央四光轴支撑'
     b = Study(doc)
     params = doc.addObject('Spreadsheet::Sheet', 'Parameters')
     params.Label = chinese_label('Parameters')
@@ -529,11 +563,10 @@ def build(root):
             b.add(f'LowerPodRib{side:+}_{i}', lower_place(rib), DARK, 'Details', 'metal')
             ridge = Part.makeLoft([sector_wire(ro+.5, ro, z, i*20+8, i*20+10) for z,ro,ri in sections], True, False)
             b.add(f'LowerPodPetalRidge{side:+}_{i}', lower_place(ridge), SILVER, 'Details', 'metal')
-    # Underbody cable-loop appearance; support and stability are not validated.
+    # Existing decorative cable loops stay above the new support plane.
     for i, x in enumerate((-48, 48)):
         b.add(f'UnderbodyLoop{i}', tube([(x, 57, 36), (x+10, 66, 16), (x+8, 121, 13), (x, 149, 37)], 3), DARK, 'Details', 'rubber')
-    for x in (-91, 91):
-        b.add(f'RearSupport{x}', box(24, 32, 23, (x-12, 133, -7), 5), DARK, 'Hull', 'rubber')
+    add_central_support(b)
     b.add('AntennaBase', cylinder(5, 9, (0, 159, 273)), DARK, 'Details', 'rubber')
     b.add('Antenna', tube([(0, 159, 281), (-4, 163, 316), (-18, 177, 351), (-46, 193, 378)], 1.1), DARK, 'Details', 'rubber')
     for side in (-1, 1):
@@ -566,11 +599,14 @@ def save_outputs(doc, items, out):
     Import.export(visible, str(out/'vintrox-drone-concept.step'))
     bbox = Part.makeCompound([o.Shape for o in visible]).BoundBox
     manifest = {
-        'revision': 'v4-without-external-utility-pods',
+        'revision': 'v5-central-four-shaft-support',
         'tree_structure': 'flat', 'group_count': 0,
         'status': 'appearance-study-only', 'physical_tests': False,
         'screen_panel_mm': [210, 160, 2], 'active_area_mm': [200, 150],
         'woofer_reservation_mm': {'diameter': 88, 'depth': 40, 'basis': 'unselected placeholder'},
+        'support': {'shafts': 4, 'shaft_diameter_mm': 6, 'ground_z_mm': -100,
+                    'foot_centres_span_mm': [244, 216],
+                    'basis': 'appearance assumptions; load and stability untested'},
         'visible_features': len(visible), 'bbox_mm': [bbox.XLength, bbox.YLength, bbox.ZLength],
         'bbox_min_mm': [bbox.XMin, bbox.YMin, bbox.ZMin],
         'bbox_max_mm': [bbox.XMax, bbox.YMax, bbox.ZMax],

@@ -1,5 +1,5 @@
 {
-  "revision": "v4-without-external-utility-pods",
+  "revision": "v5-central-four-shaft-support",
   "tree_structure": "flat",
   "group_count": 0,
   "status": "appearance-study-only",
@@ -18,23 +18,33 @@
     "depth": 40,
     "basis": "unselected placeholder"
   },
-  "visible_features": 359,
+  "support": {
+    "shafts": 4,
+    "shaft_diameter_mm": 6,
+    "ground_z_mm": -100,
+    "foot_centres_span_mm": [
+      244,
+      216
+    ],
+    "basis": "appearance assumptions; load and stability untested"
+  },
+  "visible_features": 370,
   "bbox_mm": [
     346.0,
     333.0464123822584,
-    396.0355248120869
+    479.62080699756166
   ],
   "bbox_min_mm": [
     -173.0,
     -38.2,
-    -16.414717814525282
+    -100.0
   ],
   "bbox_max_mm": [
     173.0,
     294.8464123822584,
     379.62080699756166
   ],
-  "fcstd_sha256": "4ce6560d5fe9249e54016f8081b479a5f0b1d63e6fd2ad4202af225cebd7f8d7",
+  "fcstd_sha256": "9f63d96dd7191a9ec9d9c1395f422612d120f10bd7a0f5dec0097a0e64a970c4",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -2137,14 +2147,80 @@
       "valid": true
     },
     {
-      "name": "RearSupport_91",
-      "label": "后部支撑脚 — 左侧",
+      "name": "CentralSupportSeat",
+      "label": "底部中央支撑座（打印结构示意）",
       "solids": 1,
       "valid": true
     },
     {
-      "name": "RearSupport91",
-      "label": "后部支撑脚 — 右侧",
+      "name": "SupportShaftFrontLeft",
+      "label": "底部斜向细光轴（直径6毫米假设） — 左前",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SupportSocketFrontLeft",
+      "label": "斜向光轴固定套示意 — 左前",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SupportFootFrontLeft",
+      "label": "光轴防滑脚垫示意 — 左前",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "label": "底部斜向细光轴（直径6毫米假设） — 左后",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SupportSocketRearLeft",
+      "label": "斜向光轴固定套示意 — 左后",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SupportFootRearLeft",
+      "label": "光轴防滑脚垫示意 — 左后",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "label": "底部斜向细光轴（直径6毫米假设） — 右前",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SupportSocketFrontRight",
+      "label": "斜向光轴固定套示意 — 右前",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SupportFootFrontRight",
+      "label": "光轴防滑脚垫示意 — 右前",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "label": "底部斜向细光轴（直径6毫米假设） — 右后",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SupportSocketRearRight",
+      "label": "斜向光轴固定套示意 — 右后",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SupportFootRearRight",
+      "label": "光轴防滑脚垫示意 — 右后",
       "solids": 1,
       "valid": true
     },
