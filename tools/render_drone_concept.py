@@ -88,7 +88,7 @@ def area_light(name, position, energy, size, color, target=(0, 80, 175)):
 
 
 def main():
-    """Read saved-model-bound meshes and render four deterministic viewpoints."""
+    """Read saved-model-bound meshes and render deterministic review viewpoints."""
     parser = argparse.ArgumentParser()
     parser.add_argument('--meshes', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
@@ -128,10 +128,11 @@ def main():
     axis = Vector((0, .83, -.56)).normalized()
     rotation = Vector((0, 0, 1)).rotation_difference(axis)
     from mathutils import Quaternion
-    label_rotation = (rotation @ Quaternion(Vector((1, 0, 0)), math.pi/2)).to_euler()
-    label_pos = Vector((0, 168, 162)) + rotation @ Vector((-17, -70.5, 51))
+    label_rotation = (rotation @ Quaternion(Vector((1, 0, 0)), math.pi/2)
+                      @ Quaternion(Vector((0, 0, 1)), math.pi)).to_euler()
+    label_pos = Vector((0, 168, 162)) + rotation @ Vector((12, -73.5, 57))
     text_decal('RearWarning', 'WARNING', tuple(label_pos), 4, (.035, .035, .025), label_rotation)
-    alert_pos = Vector((0, 168, 162)) + rotation @ Vector((-1, -71.3, 71))
+    alert_pos = Vector((0, 168, 162)) + rotation @ Vector((1, -71.3, 78))
     text_decal('RearAlert', '!', tuple(alert_pos), 7, cream, label_rotation)
     scene = bpy.context.scene
     scene.render.engine = 'CYCLES'
@@ -156,6 +157,9 @@ def main():
     area_light('CoolFill', (-480, -150, 400), 14, .55, (.63, .81, 1))
     area_light('RearRim', (100, 620, 620), 32, .45, (.63, .89, 1))
     area_light('FrontFill', (0, -650, 250), 6, .45, (1, 1, 1))
+    area_light('UndersideInspection', (80, -220, -420), 14, .5, (.8, .9, 1), target=(0,90,15))
+    underside_light = bpy.data.objects['UndersideInspection']
+    underside_light.hide_render = True
     camera_data = bpy.data.cameras.new('ConceptCamera')
     camera = bpy.data.objects.new('ConceptCamera', camera_data)
     bpy.context.collection.objects.link(camera)
@@ -166,15 +170,20 @@ def main():
              'rear': ((510, 820, 380), (0, 105, 142)),
              'closeup': ((-700, -1050, 350), (0, 65, 142)),
              'front': ((0, -1000, 305), (0, 65, 142)),
-             'right': ((900, 40, 340), (0, 105, 142))}
+             'right': ((900, 40, 340), (0, 105, 142)),
+             'armour-detail': ((-650, -450, 420), (-70, 95, 230)),
+             'nozzle-detail': ((380, 780, 280), (0, 205, 163)),
+             'top': ((360, -480, 820), (0, 90, 270)),
+             'underside': ((420, -560, -380), (0, 90, 5))}
     args.output.mkdir(parents=True, exist_ok=True)
     outputs = []
     for name in args.views:
         eye, target = views[name]
-        camera.data.ortho_scale = .63
+        camera.data.ortho_scale = .35 if name in ('armour-detail','nozzle-detail','top','underside') else .63
         camera.location = Vector(eye)/1000
         camera.rotation_euler = (Vector(target)/1000-camera.location).to_track_quat('-Z', 'Y').to_euler()
-        ground.hide_render = name == 'closeup'
+        ground.hide_render = name in ('closeup','underside')
+        underside_light.hide_render = name != 'underside'
         scene.world.color = (.002, .002, .002) if name == 'closeup' else (.065, .065, .065)
         camera.data.type = 'PERSP' if name == 'closeup' else 'ORTHO'
         camera.data.lens = 88
@@ -186,6 +195,7 @@ def main():
                         'sha256': hashlib.sha256((args.output/(name+'.png')).read_bytes()).hexdigest()})
     video = None
     if args.turntable:
+        underside_light.hide_render = True
         ground.hide_render = False
         scene.world.color = (.065, .065, .065)
         camera.data.type = 'ORTHO'
