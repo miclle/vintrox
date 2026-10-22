@@ -1,0 +1,2207 @@
+{
+  "revision": "v4-without-external-utility-pods",
+  "tree_structure": "flat",
+  "group_count": 0,
+  "status": "appearance-study-only",
+  "physical_tests": false,
+  "screen_panel_mm": [
+    210,
+    160,
+    2
+  ],
+  "active_area_mm": [
+    200,
+    150
+  ],
+  "woofer_reservation_mm": {
+    "diameter": 88,
+    "depth": 40,
+    "basis": "unselected placeholder"
+  },
+  "visible_features": 359,
+  "bbox_mm": [
+    346.0,
+    333.0464123822584,
+    396.0355248120869
+  ],
+  "bbox_min_mm": [
+    -173.0,
+    -38.2,
+    -16.414717814525282
+  ],
+  "bbox_max_mm": [
+    173.0,
+    294.8464123822584,
+    379.62080699756166
+  ],
+  "fcstd_sha256": "4ce6560d5fe9249e54016f8081b479a5f0b1d63e6fd2ad4202af225cebd7f8d7",
+  "features": [
+    {
+      "name": "MainEnclosureShell",
+      "label": "主机连续外壳",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SlopedUpperArmour",
+      "label": "顶部斜面外罩",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RoofSideClosure_1",
+      "label": "顶罩侧封板 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RoofSideClosure_001",
+      "label": "顶罩侧封板 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearUpperClosure",
+      "label": "后部上封板",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BottomChassis",
+      "label": "底盘",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ClosedBellyPan",
+      "label": "底部封闭托壳",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearServicePanel",
+      "label": "后部检修盖板",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearStructuralFrame",
+      "label": "后盖外框",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ProjectingBrow",
+      "label": "前伸屏幕罩",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BrowUnderside",
+      "label": "屏幕罩内衬",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodEdge",
+      "label": "前罩金属细包边",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ScreenBezel",
+      "label": "屏幕内框",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BezelLip",
+      "label": "屏框金属压边",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ScreenPanel210x160x2",
+      "label": "显示屏本体（210×160×2 毫米）",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ActiveArea200x150",
+      "label": "屏幕可视区（200×150 毫米）",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "PixelEye_43",
+      "label": "屏幕表情眼睛 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "PixelEyeTop_43",
+      "label": "屏幕表情眼睛上缘 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "PixelEye33",
+      "label": "屏幕表情眼睛 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "PixelEyeTop33",
+      "label": "屏幕表情眼睛上缘 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "PixelMouth",
+      "label": "屏幕表情嘴部",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "PixelSmileHighlight",
+      "label": "屏幕表情嘴部高光",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ControlRail",
+      "label": "下部控制条外壳",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ControlInset",
+      "label": "控制条内衬",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KeySocket0",
+      "label": "按键嵌入底座 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RedKey0",
+      "label": "红色按键帽 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KeyGlyph0",
+      "label": "按键标记 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KeySocket1",
+      "label": "按键嵌入底座 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RedKey1",
+      "label": "红色按键帽 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KeyGlyph1",
+      "label": "按键标记 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KeySocket2",
+      "label": "按键嵌入底座 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RedKey2",
+      "label": "红色按键帽 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KeyGlyph2",
+      "label": "按键标记 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KeySocket3",
+      "label": "按键嵌入底座 — ·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RedKey3",
+      "label": "红色按键帽 — ·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KeyGlyph3",
+      "label": "按键标记 — ·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "StatusKeyFrame",
+      "label": "小红灯方形压框",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "StatusKeyLens",
+      "label": "小红灯透镜",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KnobBase0",
+      "label": "旋钮底座 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ControlKnob0",
+      "label": "控制旋钮 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KnobRing0",
+      "label": "旋钮装饰圈 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KnobFlute0",
+      "label": "旋钮防滑细齿 — ·01",
+      "solids": 32,
+      "valid": true
+    },
+    {
+      "name": "KnobPointer0",
+      "label": "旋钮指示线 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KnobBase1",
+      "label": "旋钮底座 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ControlKnob1",
+      "label": "控制旋钮 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KnobRing1",
+      "label": "旋钮装饰圈 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KnobFlute1",
+      "label": "旋钮防滑细齿 — ·02",
+      "solids": 32,
+      "valid": true
+    },
+    {
+      "name": "KnobPointer1",
+      "label": "旋钮指示线 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KnobBase2",
+      "label": "旋钮底座 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ControlKnob2",
+      "label": "控制旋钮 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KnobRing2",
+      "label": "旋钮装饰圈 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KnobFlute2",
+      "label": "旋钮防滑细齿 — ·03",
+      "solids": 32,
+      "valid": true
+    },
+    {
+      "name": "KnobPointer2",
+      "label": "旋钮指示线 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SideClosureLeft",
+      "label": "侧面封闭壳板 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SideMechanicalBackingLeft",
+      "label": "侧面机械区内衬 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SideGuardLeft",
+      "label": "侧面保护边框 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "CyanSideTubeLeft",
+      "label": "青色侧灯带 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBarrelLeft",
+      "label": "侧音箱筒体 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerRearSealLeft",
+      "label": "侧音箱背部封片 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "PerforatedSpeakerFlangeLeft",
+      "label": "侧音箱穿孔法兰 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerVisualConeLeft",
+      "label": "侧扬声器锥盆示意 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerOuterLipLeft",
+      "label": "侧圆环外口压圈 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerSurroundLeft",
+      "label": "侧扬声器悬边示意 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerCentreLeft",
+      "label": "侧扬声器中心盖 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltLeft0",
+      "label": "侧音箱固定螺钉示意 — 左侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltLeft1",
+      "label": "侧音箱固定螺钉示意 — 左侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltLeft2",
+      "label": "侧音箱固定螺钉示意 — 左侧·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltLeft3",
+      "label": "侧音箱固定螺钉示意 — 左侧·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltLeft4",
+      "label": "侧音箱固定螺钉示意 — 左侧·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltLeft5",
+      "label": "侧音箱固定螺钉示意 — 左侧·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltLeft6",
+      "label": "侧音箱固定螺钉示意 — 左侧·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltLeft7",
+      "label": "侧音箱固定螺钉示意 — 左侧·08",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingEdgeLeft",
+      "label": "翼板金属包边 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingPaintLeft",
+      "label": "翼板彩色面板 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingInnerPaintLeft",
+      "label": "翼板内侧彩色面板 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingStripeLeft0",
+      "label": "翼板斜向色条 — 左侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingStripeLeft1",
+      "label": "翼板斜向色条 — 左侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingStripeLeft2",
+      "label": "翼板斜向色条 — 左侧·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingHubMarkLeft",
+      "label": "翼板圆心标记 — 左侧",
+      "solids": 6,
+      "valid": true
+    },
+    {
+      "name": "HandleArmLeft",
+      "label": "提手侧支臂 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HandleInsetLeft",
+      "label": "提手支臂内嵌面 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HandlePivotLeft",
+      "label": "提手连接螺钉示意 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "VisibleWireLeft105",
+      "label": "侧面彩色线束示意 — 左侧·106",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "VisibleWireLeft218",
+      "label": "侧面彩色线束示意 — 左侧·219",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "VisibleWireLeft230",
+      "label": "侧面彩色线束示意 — 左侧·231",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SideClosureRight",
+      "label": "侧面封闭壳板 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SideMechanicalBackingRight",
+      "label": "侧面机械区内衬 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SideGuardRight",
+      "label": "侧面保护边框 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "CyanSideTubeRight",
+      "label": "青色侧灯带 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBarrelRight",
+      "label": "侧音箱筒体 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerRearSealRight",
+      "label": "侧音箱背部封片 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "PerforatedSpeakerFlangeRight",
+      "label": "侧音箱穿孔法兰 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerVisualConeRight",
+      "label": "侧扬声器锥盆示意 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerOuterLipRight",
+      "label": "侧圆环外口压圈 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerSurroundRight",
+      "label": "侧扬声器悬边示意 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerCentreRight",
+      "label": "侧扬声器中心盖 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltRight0",
+      "label": "侧音箱固定螺钉示意 — 右侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltRight1",
+      "label": "侧音箱固定螺钉示意 — 右侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltRight2",
+      "label": "侧音箱固定螺钉示意 — 右侧·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltRight3",
+      "label": "侧音箱固定螺钉示意 — 右侧·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltRight4",
+      "label": "侧音箱固定螺钉示意 — 右侧·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltRight5",
+      "label": "侧音箱固定螺钉示意 — 右侧·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltRight6",
+      "label": "侧音箱固定螺钉示意 — 右侧·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerBoltRight7",
+      "label": "侧音箱固定螺钉示意 — 右侧·08",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingEdgeRight",
+      "label": "翼板金属包边 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingPaintRight",
+      "label": "翼板彩色面板 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingInnerPaintRight",
+      "label": "翼板内侧彩色面板 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingStripeRight0",
+      "label": "翼板斜向色条 — 右侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingStripeRight1",
+      "label": "翼板斜向色条 — 右侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingStripeRight2",
+      "label": "翼板斜向色条 — 右侧·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingHubMarkRight",
+      "label": "翼板圆心标记 — 右侧",
+      "solids": 6,
+      "valid": true
+    },
+    {
+      "name": "HandleArmRight",
+      "label": "提手侧支臂 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HandleInsetRight",
+      "label": "提手支臂内嵌面 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HandlePivotRight",
+      "label": "提手连接螺钉示意 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "VisibleWireRight105",
+      "label": "侧面彩色线束示意 — 右侧·106",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "VisibleWireRight218",
+      "label": "侧面彩色线束示意 — 右侧·219",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "VisibleWireRight230",
+      "label": "侧面彩色线束示意 — 右侧·231",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HandleGrip",
+      "label": "提手握把",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "GripBand0",
+      "label": "握把包覆带 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "GripBand1",
+      "label": "握把包覆带 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "GripBand2",
+      "label": "握把包覆带 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "GripBand3",
+      "label": "握把包覆带 — ·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "GripBand4",
+      "label": "握把包覆带 — ·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "GripBand5",
+      "label": "握把包覆带 — ·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "GripBand6",
+      "label": "握把包覆带 — ·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "GripBand7",
+      "label": "握把包覆带 — ·08",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "GripBand8",
+      "label": "握把包覆带 — ·09",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "GripBand9",
+      "label": "握把包覆带 — ·10",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "GripBand10",
+      "label": "握把包覆带 — ·11",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "GripBand11",
+      "label": "握把包覆带 — ·12",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "GripBand12",
+      "label": "握把包覆带 — ·13",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "GripBand13",
+      "label": "握把包覆带 — ·14",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopSlotTrim",
+      "label": "顶部进碟口饰框",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopInstrumentPanel",
+      "label": "顶部仪表装饰面板",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter0",
+      "label": "顶部仪表刻线 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter1",
+      "label": "顶部仪表刻线 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter2",
+      "label": "顶部仪表刻线 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter3",
+      "label": "顶部仪表刻线 — ·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter4",
+      "label": "顶部仪表刻线 — ·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter5",
+      "label": "顶部仪表刻线 — ·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter6",
+      "label": "顶部仪表刻线 — ·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter7",
+      "label": "顶部仪表刻线 — ·08",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter8",
+      "label": "顶部仪表刻线 — ·09",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter9",
+      "label": "顶部仪表刻线 — ·10",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter10",
+      "label": "顶部仪表刻线 — ·11",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter11",
+      "label": "顶部仪表刻线 — ·12",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter12",
+      "label": "顶部仪表刻线 — ·13",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter13",
+      "label": "顶部仪表刻线 — ·14",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter14",
+      "label": "顶部仪表刻线 — ·15",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter15",
+      "label": "顶部仪表刻线 — ·16",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter16",
+      "label": "顶部仪表刻线 — ·17",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter17",
+      "label": "顶部仪表刻线 — ·18",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter18",
+      "label": "顶部仪表刻线 — ·19",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter19",
+      "label": "顶部仪表刻线 — ·20",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter20",
+      "label": "顶部仪表刻线 — ·21",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter21",
+      "label": "顶部仪表刻线 — ·22",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter22",
+      "label": "顶部仪表刻线 — ·23",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter23",
+      "label": "顶部仪表刻线 — ·24",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter24",
+      "label": "顶部仪表刻线 — ·25",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter25",
+      "label": "顶部仪表刻线 — ·26",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter26",
+      "label": "顶部仪表刻线 — ·27",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter27",
+      "label": "顶部仪表刻线 — ·28",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter28",
+      "label": "顶部仪表刻线 — ·29",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter29",
+      "label": "顶部仪表刻线 — ·30",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter30",
+      "label": "顶部仪表刻线 — ·31",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter31",
+      "label": "顶部仪表刻线 — ·32",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter32",
+      "label": "顶部仪表刻线 — ·33",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeter33",
+      "label": "顶部仪表刻线 — ·34",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "TopMeterLatch",
+      "label": "顶部仪表红色拨片",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin0",
+      "label": "后部散热鳍片示意 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin1",
+      "label": "后部散热鳍片示意 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin2",
+      "label": "后部散热鳍片示意 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin3",
+      "label": "后部散热鳍片示意 — ·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin4",
+      "label": "后部散热鳍片示意 — ·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin5",
+      "label": "后部散热鳍片示意 — ·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin6",
+      "label": "后部散热鳍片示意 — ·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin7",
+      "label": "后部散热鳍片示意 — ·08",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin8",
+      "label": "后部散热鳍片示意 — ·09",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin9",
+      "label": "后部散热鳍片示意 — ·10",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin10",
+      "label": "后部散热鳍片示意 — ·11",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin11",
+      "label": "后部散热鳍片示意 — ·12",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin12",
+      "label": "后部散热鳍片示意 — ·13",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin13",
+      "label": "后部散热鳍片示意 — ·14",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin14",
+      "label": "后部散热鳍片示意 — ·15",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin15",
+      "label": "后部散热鳍片示意 — ·16",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin16",
+      "label": "后部散热鳍片示意 — ·17",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin17",
+      "label": "后部散热鳍片示意 — ·18",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin18",
+      "label": "后部散热鳍片示意 — ·19",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin19",
+      "label": "后部散热鳍片示意 — ·20",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin20",
+      "label": "后部散热鳍片示意 — ·21",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin21",
+      "label": "后部散热鳍片示意 — ·22",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCoolingFin22",
+      "label": "后部散热鳍片示意 — ·23",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCyanFrame",
+      "label": "后部青色灯框",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearRecessLiner",
+      "label": "后部内嵌封板",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearPortRail",
+      "label": "后部接口装饰条",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearRedInsert",
+      "label": "后部红色饰条",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearBeaconBase_1",
+      "label": "后部指示灯底座 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearBeacon_1",
+      "label": "后部红色指示灯 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearBeaconBand_1",
+      "label": "后部指示灯环箍 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearBeaconBase_001",
+      "label": "后部指示灯底座 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearBeacon_001",
+      "label": "后部红色指示灯 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearBeaconBand_001",
+      "label": "后部指示灯环箍 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassNozzleShell",
+      "label": "低音喷口曲面外罩",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassNozzleRearCollar",
+      "label": "低音喷口根部连接环",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassChamberBackplate",
+      "label": "低音模块背部封片",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassNozzleMouthRing",
+      "label": "低音喷口外口环",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassSpeakerGasket",
+      "label": "低音单元密封圈示意",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassVisualCone",
+      "label": "低音单元锥盆示意",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassDustCap",
+      "label": "低音单元防尘帽示意",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal0",
+      "label": "低音喷口曲面叶片 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge0",
+      "label": "低音喷口叶片加强条 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal1",
+      "label": "低音喷口曲面叶片 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge1",
+      "label": "低音喷口叶片加强条 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal2",
+      "label": "低音喷口曲面叶片 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge2",
+      "label": "低音喷口叶片加强条 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal3",
+      "label": "低音喷口曲面叶片 — ·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge3",
+      "label": "低音喷口叶片加强条 — ·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal4",
+      "label": "低音喷口曲面叶片 — ·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge4",
+      "label": "低音喷口叶片加强条 — ·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal5",
+      "label": "低音喷口曲面叶片 — ·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge5",
+      "label": "低音喷口叶片加强条 — ·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal6",
+      "label": "低音喷口曲面叶片 — ·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge6",
+      "label": "低音喷口叶片加强条 — ·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal7",
+      "label": "低音喷口曲面叶片 — ·08",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge7",
+      "label": "低音喷口叶片加强条 — ·08",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal8",
+      "label": "低音喷口曲面叶片 — ·09",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge8",
+      "label": "低音喷口叶片加强条 — ·09",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal9",
+      "label": "低音喷口曲面叶片 — ·10",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge9",
+      "label": "低音喷口叶片加强条 — ·10",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal10",
+      "label": "低音喷口曲面叶片 — ·11",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge10",
+      "label": "低音喷口叶片加强条 — ·11",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal11",
+      "label": "低音喷口曲面叶片 — ·12",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge11",
+      "label": "低音喷口叶片加强条 — ·12",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal12",
+      "label": "低音喷口曲面叶片 — ·13",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge12",
+      "label": "低音喷口叶片加强条 — ·13",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal13",
+      "label": "低音喷口曲面叶片 — ·14",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge13",
+      "label": "低音喷口叶片加强条 — ·14",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal14",
+      "label": "低音喷口曲面叶片 — ·15",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge14",
+      "label": "低音喷口叶片加强条 — ·15",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal15",
+      "label": "低音喷口曲面叶片 — ·16",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge15",
+      "label": "低音喷口叶片加强条 — ·16",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal16",
+      "label": "低音喷口曲面叶片 — ·17",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge16",
+      "label": "低音喷口叶片加强条 — ·17",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal17",
+      "label": "低音喷口曲面叶片 — ·18",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge17",
+      "label": "低音喷口叶片加强条 — ·18",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal18",
+      "label": "低音喷口曲面叶片 — ·19",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge18",
+      "label": "低音喷口叶片加强条 — ·19",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal19",
+      "label": "低音喷口曲面叶片 — ·20",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge19",
+      "label": "低音喷口叶片加强条 — ·20",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal20",
+      "label": "低音喷口曲面叶片 — ·21",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge20",
+      "label": "低音喷口叶片加强条 — ·21",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal21",
+      "label": "低音喷口曲面叶片 — ·22",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge21",
+      "label": "低音喷口叶片加强条 — ·22",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal22",
+      "label": "低音喷口曲面叶片 — ·23",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge22",
+      "label": "低音喷口叶片加强条 — ·23",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetal23",
+      "label": "低音喷口曲面叶片 — ·24",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalRidge23",
+      "label": "低音喷口叶片加强条 — ·24",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassWarningPlaque",
+      "label": "低音喷口警示标牌",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassWarningTriangle",
+      "label": "低音喷口三角警示底片",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassWarningTriangleInset",
+      "label": "低音喷口红色警示图案",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassNeckFastener0",
+      "label": "低音喷口根部螺钉示意 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassNeckFastener1",
+      "label": "低音喷口根部螺钉示意 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassNeckFastener2",
+      "label": "低音喷口根部螺钉示意 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassNeckFastener3",
+      "label": "低音喷口根部螺钉示意 — ·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassNeckFastener4",
+      "label": "低音喷口根部螺钉示意 — ·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassNeckFastener5",
+      "label": "低音喷口根部螺钉示意 — ·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassNeckFastener6",
+      "label": "低音喷口根部螺钉示意 — ·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassNeckFastener7",
+      "label": "低音喷口根部螺钉示意 — ·08",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WooferMountSeat",
+      "label": "低音单元安装环示意",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WooferEnvelope_D88_Depth40",
+      "label": "低音单元占位（直径88×深40 毫米，隐藏）",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPod_1",
+      "label": "底部小喷口外罩 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRim_1",
+      "label": "底部小喷口口环 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodDiaphragm_1",
+      "label": "底部小喷口封片 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_0",
+      "label": "底部小喷口叶片 — -1_·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_0",
+      "label": "底部小喷口叶片加强筋 — -1_·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_1",
+      "label": "底部小喷口叶片 — -1_·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_1",
+      "label": "底部小喷口叶片加强筋 — -1_·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_2",
+      "label": "底部小喷口叶片 — -1_·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_2",
+      "label": "底部小喷口叶片加强筋 — -1_·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_3",
+      "label": "底部小喷口叶片 — -1_·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_3",
+      "label": "底部小喷口叶片加强筋 — -1_·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_4",
+      "label": "底部小喷口叶片 — -1_·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_4",
+      "label": "底部小喷口叶片加强筋 — -1_·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_5",
+      "label": "底部小喷口叶片 — -1_·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_5",
+      "label": "底部小喷口叶片加强筋 — -1_·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_6",
+      "label": "底部小喷口叶片 — -1_·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_6",
+      "label": "底部小喷口叶片加强筋 — -1_·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_7",
+      "label": "底部小喷口叶片 — -1_·08",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_7",
+      "label": "底部小喷口叶片加强筋 — -1_·08",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_8",
+      "label": "底部小喷口叶片 — -1_·09",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_8",
+      "label": "底部小喷口叶片加强筋 — -1_·09",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_9",
+      "label": "底部小喷口叶片 — -1_·10",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_9",
+      "label": "底部小喷口叶片加强筋 — -1_·10",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_10",
+      "label": "底部小喷口叶片 — -1_·11",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_10",
+      "label": "底部小喷口叶片加强筋 — -1_·11",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_11",
+      "label": "底部小喷口叶片 — -1_·12",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_11",
+      "label": "底部小喷口叶片加强筋 — -1_·12",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_12",
+      "label": "底部小喷口叶片 — -1_·13",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_12",
+      "label": "底部小喷口叶片加强筋 — -1_·13",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_13",
+      "label": "底部小喷口叶片 — -1_·14",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_13",
+      "label": "底部小喷口叶片加强筋 — -1_·14",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_14",
+      "label": "底部小喷口叶片 — -1_·15",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_14",
+      "label": "底部小喷口叶片加强筋 — -1_·15",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_15",
+      "label": "底部小喷口叶片 — -1_·16",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_15",
+      "label": "底部小喷口叶片加强筋 — -1_·16",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_16",
+      "label": "底部小喷口叶片 — -1_·17",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_16",
+      "label": "底部小喷口叶片加强筋 — -1_·17",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_17",
+      "label": "底部小喷口叶片 — -1_·18",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_17",
+      "label": "底部小喷口叶片加强筋 — -1_·18",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPod_001",
+      "label": "底部小喷口外罩 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRim_001",
+      "label": "底部小喷口口环 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodDiaphragm_001",
+      "label": "底部小喷口封片 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_001",
+      "label": "底部小喷口叶片 — +1_·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_001",
+      "label": "底部小喷口叶片加强筋 — +1_·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_002",
+      "label": "底部小喷口叶片 — +1_·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_002",
+      "label": "底部小喷口叶片加强筋 — +1_·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_003",
+      "label": "底部小喷口叶片 — +1_·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_003",
+      "label": "底部小喷口叶片加强筋 — +1_·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_004",
+      "label": "底部小喷口叶片 — +1_·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_004",
+      "label": "底部小喷口叶片加强筋 — +1_·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_005",
+      "label": "底部小喷口叶片 — +1_·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_005",
+      "label": "底部小喷口叶片加强筋 — +1_·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_006",
+      "label": "底部小喷口叶片 — +1_·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_006",
+      "label": "底部小喷口叶片加强筋 — +1_·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_007",
+      "label": "底部小喷口叶片 — +1_·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_007",
+      "label": "底部小喷口叶片加强筋 — +1_·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_008",
+      "label": "底部小喷口叶片 — +1_·08",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_008",
+      "label": "底部小喷口叶片加强筋 — +1_·08",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_009",
+      "label": "底部小喷口叶片 — +1_·09",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_009",
+      "label": "底部小喷口叶片加强筋 — +1_·09",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_010",
+      "label": "底部小喷口叶片 — +1_·10",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_010",
+      "label": "底部小喷口叶片加强筋 — +1_·10",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_011",
+      "label": "底部小喷口叶片 — +1_·11",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_011",
+      "label": "底部小喷口叶片加强筋 — +1_·11",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_012",
+      "label": "底部小喷口叶片 — +1_·12",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_012",
+      "label": "底部小喷口叶片加强筋 — +1_·12",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_013",
+      "label": "底部小喷口叶片 — +1_·13",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_013",
+      "label": "底部小喷口叶片加强筋 — +1_·13",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_014",
+      "label": "底部小喷口叶片 — +1_·14",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_014",
+      "label": "底部小喷口叶片加强筋 — +1_·14",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_015",
+      "label": "底部小喷口叶片 — +1_·15",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_015",
+      "label": "底部小喷口叶片加强筋 — +1_·15",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_016",
+      "label": "底部小喷口叶片 — +1_·16",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_016",
+      "label": "底部小喷口叶片加强筋 — +1_·16",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_017",
+      "label": "底部小喷口叶片 — +1_·17",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_017",
+      "label": "底部小喷口叶片加强筋 — +1_·17",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodRib_1_018",
+      "label": "底部小喷口叶片 — +1_·18",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_018",
+      "label": "底部小喷口叶片加强筋 — +1_·18",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "UnderbodyLoop0",
+      "label": "底部回环线束示意 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "UnderbodyLoop1",
+      "label": "底部回环线束示意 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearSupport_91",
+      "label": "后部支撑脚 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearSupport91",
+      "label": "后部支撑脚 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "AntennaBase",
+      "label": "天线底座示意",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "Antenna",
+      "label": "天线外形示意",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodMark_1_0",
+      "label": "前罩斜向标记 — -1_·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodMark_1_1",
+      "label": "前罩斜向标记 — -1_·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodMark_1_2",
+      "label": "前罩斜向标记 — -1_·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodMark_1_001",
+      "label": "前罩斜向标记 — +1_·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodMark_1_002",
+      "label": "前罩斜向标记 — +1_·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodMark_1_003",
+      "label": "前罩斜向标记 — +1_·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "CDInsertionStudy_D120",
+      "label": "光盘插入占位（直径120 毫米，隐藏）",
+      "solids": 1,
+      "valid": true
+    }
+  ],
+  "bounds_basis": "saved FCStd independent readback"
+}
