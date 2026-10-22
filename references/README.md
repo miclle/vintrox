@@ -16,6 +16,8 @@ VINTROX 当前处于方案定义与原型验证阶段：优先复用已有 Pi 4B
 
 ## 外形与维护方式参考
 
+最新外形目标为用户提供的 [Alexander Shevchuk Drone 本地素材](alexander-shevchuk-drone/README.md)：6 张 JPG、1 张 JPEG 多视角拼图、1 张 PNG 近景及 1 段视频，单独于上文配件资料计数。用户要求尽量还原造型，按屏幕尺寸调整比例，背面喷口新增低音，音质可为造型让步；已有[独立外形草模及真实 CAD 效果图](../docs/drone-concept.md)，未实测。以下 Pinterest 来源用于说明已有终端草案的形成过程。
+
 用户于2026-10-18指定[Pinterest视频](https://www.pinterest.com/pin/950752171346584667/)作为新外形参考，页面显示发布者Decmonkey；可见结构及候选应用见[现代打印方案](../docs/enclosure.md#8-现代打印方案与设计参考)。仅引用来源链接，本次未下载或复制视频/模型。其复古标签、未知产品功能和尺寸不替代VINTROX当前科技、现代、个性的3D打印方向。
 
 ## 使用与补充
