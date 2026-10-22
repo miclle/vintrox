@@ -3,12 +3,12 @@
   "scope": "saved static appearance study only",
   "physical_validation": false,
   "errors": [],
-  "visible_features": 370,
-  "step_solids": 473,
+  "visible_features": 533,
+  "step_solids": 636,
   "group_count": 0,
   "non_chinese_labels": [],
-  "chinese_named_objects": 374,
-  "chinese_step_part_names": 370,
+  "chinese_named_objects": 537,
+  "chinese_step_part_names": 533,
   "screen_panel_mm": [
     210.0,
     160.0,
@@ -98,13 +98,25 @@
   "closure_probe_count": 24,
   "nozzle_loft_surface_count": 2,
   "curved_nozzle_petals": 24,
-  "step_relative_volume_error": 4.854660713474887e-07,
-  "step_bbox_max_delta_mm": 3.808509063674137e-12,
+  "non_volumetric_components": [],
+  "armour_relief_depths_mm": {
+    "WingPaintLeft": 3.5,
+    "WingPaintRight": 3.5,
+    "WingSpineLeft": 4.199999999999989,
+    "WingSpineRight": 4.199999999999989,
+    "HoodShoulderPlateLeft": 4.0,
+    "HoodShoulderPlateRight": 4.0,
+    "RearArmourCheekLeft": 9.0,
+    "RearArmourCheekRight": 9.0
+  },
+  "nozzle_hinges": 24,
+  "step_relative_volume_error": 5.198050739558443e-07,
+  "step_bbox_max_delta_mm": 2.0463630789890885e-12,
   "bbox_mm": [
-    346.0,
-    333.0464123822584,
+    350.6,
+    333.3654250107118,
     479.62080699756166
   ],
-  "fcstd_sha256": "9f63d96dd7191a9ec9d9c1395f422612d120f10bd7a0f5dec0097a0e64a970c4",
-  "step_sha256": "0134c4253fc56b436f8e0d2281ba3b7767f9cafd2aba005f706d6db0d9577735"
+  "fcstd_sha256": "fe014fff58c9d9183f3943a6a998015af256a8700dd60c7be92ab162df78976d",
+  "step_sha256": "6fae7a5b3afb87e8b9dd03d66b3e8e6be6d299173982b64f5a8c4305de295be4"
 }

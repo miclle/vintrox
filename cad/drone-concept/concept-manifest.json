@@ -1,5 +1,5 @@
 {
-  "revision": "v5-central-four-shaft-support",
+  "revision": "v6-layered-mecha-detail",
   "tree_structure": "flat",
   "group_count": 0,
   "status": "appearance-study-only",
@@ -28,23 +28,23 @@
     ],
     "basis": "appearance assumptions; load and stability untested"
   },
-  "visible_features": 370,
+  "visible_features": 533,
   "bbox_mm": [
-    346.0,
-    333.0464123822584,
+    350.6,
+    333.3654250107118,
     479.62080699756166
   ],
   "bbox_min_mm": [
-    -173.0,
+    -175.3,
     -38.2,
     -100.0
   ],
   "bbox_max_mm": [
-    173.0,
-    294.8464123822584,
+    175.3,
+    295.16542501071183,
     379.62080699756166
   ],
-  "fcstd_sha256": "9f63d96dd7191a9ec9d9c1395f422612d120f10bd7a0f5dec0097a0e64a970c4",
+  "fcstd_sha256": "fe014fff58c9d9183f3943a6a998015af256a8700dd60c7be92ab162df78976d",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -103,6 +103,78 @@
     {
       "name": "ProjectingBrow",
       "label": "前伸屏幕罩",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodShoulderPlateLeft",
+      "label": "前罩侧肩叠层甲片 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodShoulderBoltLeft",
+      "label": "前罩侧肩沉槽螺钉 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodTopInsetLeft",
+      "label": "前罩顶面凹槽衬片 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodTopRibLeft0",
+      "label": "前罩顶面桥形筋 — 左侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodTopRibLeft1",
+      "label": "前罩顶面桥形筋 — 左侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodTopRibLeft2",
+      "label": "前罩顶面桥形筋 — 左侧·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodShoulderPlateRight",
+      "label": "前罩侧肩叠层甲片 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodShoulderBoltRight",
+      "label": "前罩侧肩沉槽螺钉 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodTopInsetRight",
+      "label": "前罩顶面凹槽衬片 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodTopRibRight0",
+      "label": "前罩顶面桥形筋 — 右侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodTopRibRight1",
+      "label": "前罩顶面桥形筋 — 右侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HoodTopRibRight2",
+      "label": "前罩顶面桥形筋 — 右侧·03",
       "solids": 1,
       "valid": true
     },
@@ -187,6 +259,36 @@
     {
       "name": "ControlInset",
       "label": "控制条内衬",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ControlRailLip",
+      "label": "控制条阶梯压边",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ControlRailEndLeft",
+      "label": "控制条端部护块 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ControlEndBoltLeft",
+      "label": "控制条端部螺钉 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ControlRailEndRight",
+      "label": "控制条端部护块 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "ControlEndBoltRight",
+      "label": "控制条端部螺钉 — 右侧",
       "solids": 1,
       "valid": true
     },
@@ -293,6 +395,12 @@
       "valid": true
     },
     {
+      "name": "KnobFace0",
+      "label": "旋钮内凹端面 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "KnobFlute0",
       "label": "旋钮防滑细齿 — ·01",
       "solids": 32,
@@ -319,6 +427,12 @@
     {
       "name": "KnobRing1",
       "label": "旋钮装饰圈 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "KnobFace1",
+      "label": "旋钮内凹端面 — ·02",
       "solids": 1,
       "valid": true
     },
@@ -353,6 +467,12 @@
       "valid": true
     },
     {
+      "name": "KnobFace2",
+      "label": "旋钮内凹端面 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "KnobFlute2",
       "label": "旋钮防滑细齿 — ·03",
       "solids": 32,
@@ -383,6 +503,36 @@
       "valid": true
     },
     {
+      "name": "SideFrameShoeLeft",
+      "label": "侧装甲分段护脚 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SideFrameBoltLeft0",
+      "label": "侧装甲连接螺钉 — 左侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SideFrameBoltLeft1",
+      "label": "侧装甲连接螺钉 — 左侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SideFrameBoltLeft2",
+      "label": "侧装甲连接螺钉 — 左侧·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SideFrameBoltLeft3",
+      "label": "侧装甲连接螺钉 — 左侧·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "CyanSideTubeLeft",
       "label": "青色侧灯带 — 左侧",
       "solids": 1,
@@ -391,6 +541,12 @@
     {
       "name": "SpeakerBarrelLeft",
       "label": "侧音箱筒体 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerScallopCollarLeft",
+      "label": "侧圆环分瓣过渡环 — 左侧",
       "solids": 1,
       "valid": true
     },
@@ -479,6 +635,42 @@
       "valid": true
     },
     {
+      "name": "SpeakerRetainerLeft0",
+      "label": "侧圆环独立扣片 — 左侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerRetainerLeft1",
+      "label": "侧圆环独立扣片 — 左侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerRetainerLeft2",
+      "label": "侧圆环独立扣片 — 左侧·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerRetainerLeft3",
+      "label": "侧圆环独立扣片 — 左侧·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerRetainerLeft4",
+      "label": "侧圆环独立扣片 — 左侧·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerRetainerLeft5",
+      "label": "侧圆环独立扣片 — 左侧·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "WingEdgeLeft",
       "label": "翼板金属包边 — 左侧",
       "solids": 1,
@@ -493,6 +685,36 @@
     {
       "name": "WingInnerPaintLeft",
       "label": "翼板内侧彩色面板 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingSpineLeft",
+      "label": "翼板折面纵脊 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingHubSeatLeft",
+      "label": "翼板阶梯转接盘 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingHubBoltLeft0",
+      "label": "翼板转接盘螺钉 — 左侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingHubBoltLeft1",
+      "label": "翼板转接盘螺钉 — 左侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingHubBoltLeft2",
+      "label": "翼板转接盘螺钉 — 左侧·03",
       "solids": 1,
       "valid": true
     },
@@ -533,8 +755,38 @@
       "valid": true
     },
     {
+      "name": "HandleWasherLeft",
+      "label": "提手转轴肩环 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "HandlePivotLeft",
       "label": "提手连接螺钉示意 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HandleMarkLeft0",
+      "label": "提手嵌面斜向标记 — 左侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HandleMarkLeft1",
+      "label": "提手嵌面斜向标记 — 左侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HandleMarkLeft2",
+      "label": "提手嵌面斜向标记 — 左侧·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HandleGripCuffLeft",
+      "label": "提手握把端箍 — 左侧",
       "solids": 1,
       "valid": true
     },
@@ -575,6 +827,36 @@
       "valid": true
     },
     {
+      "name": "SideFrameShoeRight",
+      "label": "侧装甲分段护脚 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SideFrameBoltRight0",
+      "label": "侧装甲连接螺钉 — 右侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SideFrameBoltRight1",
+      "label": "侧装甲连接螺钉 — 右侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SideFrameBoltRight2",
+      "label": "侧装甲连接螺钉 — 右侧·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SideFrameBoltRight3",
+      "label": "侧装甲连接螺钉 — 右侧·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "CyanSideTubeRight",
       "label": "青色侧灯带 — 右侧",
       "solids": 1,
@@ -583,6 +865,12 @@
     {
       "name": "SpeakerBarrelRight",
       "label": "侧音箱筒体 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerScallopCollarRight",
+      "label": "侧圆环分瓣过渡环 — 右侧",
       "solids": 1,
       "valid": true
     },
@@ -671,6 +959,42 @@
       "valid": true
     },
     {
+      "name": "SpeakerRetainerRight0",
+      "label": "侧圆环独立扣片 — 右侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerRetainerRight1",
+      "label": "侧圆环独立扣片 — 右侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerRetainerRight2",
+      "label": "侧圆环独立扣片 — 右侧·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerRetainerRight3",
+      "label": "侧圆环独立扣片 — 右侧·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerRetainerRight4",
+      "label": "侧圆环独立扣片 — 右侧·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "SpeakerRetainerRight5",
+      "label": "侧圆环独立扣片 — 右侧·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "WingEdgeRight",
       "label": "翼板金属包边 — 右侧",
       "solids": 1,
@@ -685,6 +1009,36 @@
     {
       "name": "WingInnerPaintRight",
       "label": "翼板内侧彩色面板 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingSpineRight",
+      "label": "翼板折面纵脊 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingHubSeatRight",
+      "label": "翼板阶梯转接盘 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingHubBoltRight0",
+      "label": "翼板转接盘螺钉 — 右侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingHubBoltRight1",
+      "label": "翼板转接盘螺钉 — 右侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "WingHubBoltRight2",
+      "label": "翼板转接盘螺钉 — 右侧·03",
       "solids": 1,
       "valid": true
     },
@@ -725,8 +1079,38 @@
       "valid": true
     },
     {
+      "name": "HandleWasherRight",
+      "label": "提手转轴肩环 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "HandlePivotRight",
       "label": "提手连接螺钉示意 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HandleMarkRight0",
+      "label": "提手嵌面斜向标记 — 右侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HandleMarkRight1",
+      "label": "提手嵌面斜向标记 — 右侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HandleMarkRight2",
+      "label": "提手嵌面斜向标记 — 右侧·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "HandleGripCuffRight",
+      "label": "提手握把端箍 — 右侧",
       "solids": 1,
       "valid": true
     },
@@ -845,8 +1229,56 @@
       "valid": true
     },
     {
+      "name": "RoofAccessPanel",
+      "label": "顶部阶梯检修甲板",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RoofAccessBolt0",
+      "label": "顶部检修甲板螺钉 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RoofAccessBolt1",
+      "label": "顶部检修甲板螺钉 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RoofAccessBolt2",
+      "label": "顶部检修甲板螺钉 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RoofAccessBolt3",
+      "label": "顶部检修甲板螺钉 — ·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RoofRaisedRib0",
+      "label": "顶部折面加强筋 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RoofRaisedRib1",
+      "label": "顶部折面加强筋 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "TopInstrumentPanel",
       "label": "顶部仪表装饰面板",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "InstrumentRim",
+      "label": "仪表斜面金属压框",
       "solids": 1,
       "valid": true
     },
@@ -1211,14 +1643,152 @@
       "valid": true
     },
     {
+      "name": "RearArmourCheekLeft",
+      "label": "后部折面护甲 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearArmourBoltLeft0",
+      "label": "后部护甲连接螺钉 — 左侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearArmourBoltLeft1",
+      "label": "后部护甲连接螺钉 — 左侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearLinerRibLeft0",
+      "label": "后部凹舱加强筋 — 左侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearLinerRibLeft1",
+      "label": "后部凹舱加强筋 — 左侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearLinerRibLeft2",
+      "label": "后部凹舱加强筋 — 左侧·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearLinerRibLeft3",
+      "label": "后部凹舱加强筋 — 左侧·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearArmourCheekRight",
+      "label": "后部折面护甲 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearArmourBoltRight0",
+      "label": "后部护甲连接螺钉 — 右侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearArmourBoltRight1",
+      "label": "后部护甲连接螺钉 — 右侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearLinerRibRight0",
+      "label": "后部凹舱加强筋 — 右侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearLinerRibRight1",
+      "label": "后部凹舱加强筋 — 右侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearLinerRibRight2",
+      "label": "后部凹舱加强筋 — 右侧·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearLinerRibRight3",
+      "label": "后部凹舱加强筋 — 右侧·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "RearPortRail",
       "label": "后部接口装饰条",
       "solids": 1,
       "valid": true
     },
     {
+      "name": "RearRailBezel",
+      "label": "后部接口条压框",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "RearRedInsert",
       "label": "后部红色饰条",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearRailVent0",
+      "label": "后部接口条凹槽 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearRailVent1",
+      "label": "后部接口条凹槽 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearRailVent2",
+      "label": "后部接口条凹槽 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearRailVent3",
+      "label": "后部接口条凹槽 — ·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearRailVent4",
+      "label": "后部接口条凹槽 — ·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearRailVent5",
+      "label": "后部接口条凹槽 — ·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearRailVent6",
+      "label": "后部接口条凹槽 — ·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearRailLatch",
+      "label": "后部接口条锁片",
       "solids": 1,
       "valid": true
     },
@@ -1235,8 +1805,26 @@
       "valid": true
     },
     {
-      "name": "RearBeaconBand_1",
-      "label": "后部指示灯环箍 — 左侧",
+      "name": "RearBeaconBand_1_0",
+      "label": "后部指示灯环箍 — -1_·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearBeaconBand_1_1",
+      "label": "后部指示灯环箍 — -1_·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearBeaconBand_1_2",
+      "label": "后部指示灯环箍 — -1_·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearBeaconLens_1",
+      "label": "后部指示灯端透镜 — 左侧",
       "solids": 1,
       "valid": true
     },
@@ -1253,8 +1841,26 @@
       "valid": true
     },
     {
-      "name": "RearBeaconBand_001",
-      "label": "后部指示灯环箍 — 右侧",
+      "name": "RearBeaconBand_1_001",
+      "label": "后部指示灯环箍 — +1_·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearBeaconBand_1_002",
+      "label": "后部指示灯环箍 — +1_·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearBeaconBand_1_003",
+      "label": "后部指示灯环箍 — +1_·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearBeaconLens_001",
+      "label": "后部指示灯端透镜 — 右侧",
       "solids": 1,
       "valid": true
     },
@@ -1279,6 +1885,42 @@
     {
       "name": "BassNozzleMouthRing",
       "label": "低音喷口外口环",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzleRootClamp0",
+      "label": "低音喷口根部夹块 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzleRootClamp1",
+      "label": "低音喷口根部夹块 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzleRootClamp2",
+      "label": "低音喷口根部夹块 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzleRootClamp3",
+      "label": "低音喷口根部夹块 — ·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzleRootClamp4",
+      "label": "低音喷口根部夹块 — ·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzleRootClamp5",
+      "label": "低音喷口根部夹块 — ·06",
       "solids": 1,
       "valid": true
     },
@@ -1313,6 +1955,18 @@
       "valid": true
     },
     {
+      "name": "NozzlePetalHinge0",
+      "label": "低音喷口叶片根铰示意 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener0",
+      "label": "低音喷口叶片铆钉示意 — ·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "NozzlePetal1",
       "label": "低音喷口曲面叶片 — ·02",
       "solids": 1,
@@ -1321,6 +1975,18 @@
     {
       "name": "NozzlePetalRidge1",
       "label": "低音喷口叶片加强条 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalHinge1",
+      "label": "低音喷口叶片根铰示意 — ·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener1",
+      "label": "低音喷口叶片铆钉示意 — ·02",
       "solids": 1,
       "valid": true
     },
@@ -1337,6 +2003,18 @@
       "valid": true
     },
     {
+      "name": "NozzlePetalHinge2",
+      "label": "低音喷口叶片根铰示意 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener2",
+      "label": "低音喷口叶片铆钉示意 — ·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "NozzlePetal3",
       "label": "低音喷口曲面叶片 — ·04",
       "solids": 1,
@@ -1345,6 +2023,18 @@
     {
       "name": "NozzlePetalRidge3",
       "label": "低音喷口叶片加强条 — ·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalHinge3",
+      "label": "低音喷口叶片根铰示意 — ·04",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener3",
+      "label": "低音喷口叶片铆钉示意 — ·04",
       "solids": 1,
       "valid": true
     },
@@ -1361,6 +2051,18 @@
       "valid": true
     },
     {
+      "name": "NozzlePetalHinge4",
+      "label": "低音喷口叶片根铰示意 — ·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener4",
+      "label": "低音喷口叶片铆钉示意 — ·05",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "NozzlePetal5",
       "label": "低音喷口曲面叶片 — ·06",
       "solids": 1,
@@ -1369,6 +2071,18 @@
     {
       "name": "NozzlePetalRidge5",
       "label": "低音喷口叶片加强条 — ·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalHinge5",
+      "label": "低音喷口叶片根铰示意 — ·06",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener5",
+      "label": "低音喷口叶片铆钉示意 — ·06",
       "solids": 1,
       "valid": true
     },
@@ -1385,6 +2099,18 @@
       "valid": true
     },
     {
+      "name": "NozzlePetalHinge6",
+      "label": "低音喷口叶片根铰示意 — ·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener6",
+      "label": "低音喷口叶片铆钉示意 — ·07",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "NozzlePetal7",
       "label": "低音喷口曲面叶片 — ·08",
       "solids": 1,
@@ -1393,6 +2119,18 @@
     {
       "name": "NozzlePetalRidge7",
       "label": "低音喷口叶片加强条 — ·08",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalHinge7",
+      "label": "低音喷口叶片根铰示意 — ·08",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener7",
+      "label": "低音喷口叶片铆钉示意 — ·08",
       "solids": 1,
       "valid": true
     },
@@ -1409,6 +2147,18 @@
       "valid": true
     },
     {
+      "name": "NozzlePetalHinge8",
+      "label": "低音喷口叶片根铰示意 — ·09",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener8",
+      "label": "低音喷口叶片铆钉示意 — ·09",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "NozzlePetal9",
       "label": "低音喷口曲面叶片 — ·10",
       "solids": 1,
@@ -1417,6 +2167,18 @@
     {
       "name": "NozzlePetalRidge9",
       "label": "低音喷口叶片加强条 — ·10",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalHinge9",
+      "label": "低音喷口叶片根铰示意 — ·10",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener9",
+      "label": "低音喷口叶片铆钉示意 — ·10",
       "solids": 1,
       "valid": true
     },
@@ -1433,6 +2195,18 @@
       "valid": true
     },
     {
+      "name": "NozzlePetalHinge10",
+      "label": "低音喷口叶片根铰示意 — ·11",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener10",
+      "label": "低音喷口叶片铆钉示意 — ·11",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "NozzlePetal11",
       "label": "低音喷口曲面叶片 — ·12",
       "solids": 1,
@@ -1441,6 +2215,18 @@
     {
       "name": "NozzlePetalRidge11",
       "label": "低音喷口叶片加强条 — ·12",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalHinge11",
+      "label": "低音喷口叶片根铰示意 — ·12",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener11",
+      "label": "低音喷口叶片铆钉示意 — ·12",
       "solids": 1,
       "valid": true
     },
@@ -1457,6 +2243,18 @@
       "valid": true
     },
     {
+      "name": "NozzlePetalHinge12",
+      "label": "低音喷口叶片根铰示意 — ·13",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener12",
+      "label": "低音喷口叶片铆钉示意 — ·13",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "NozzlePetal13",
       "label": "低音喷口曲面叶片 — ·14",
       "solids": 1,
@@ -1465,6 +2263,18 @@
     {
       "name": "NozzlePetalRidge13",
       "label": "低音喷口叶片加强条 — ·14",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalHinge13",
+      "label": "低音喷口叶片根铰示意 — ·14",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener13",
+      "label": "低音喷口叶片铆钉示意 — ·14",
       "solids": 1,
       "valid": true
     },
@@ -1481,6 +2291,18 @@
       "valid": true
     },
     {
+      "name": "NozzlePetalHinge14",
+      "label": "低音喷口叶片根铰示意 — ·15",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener14",
+      "label": "低音喷口叶片铆钉示意 — ·15",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "NozzlePetal15",
       "label": "低音喷口曲面叶片 — ·16",
       "solids": 1,
@@ -1489,6 +2311,18 @@
     {
       "name": "NozzlePetalRidge15",
       "label": "低音喷口叶片加强条 — ·16",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalHinge15",
+      "label": "低音喷口叶片根铰示意 — ·16",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener15",
+      "label": "低音喷口叶片铆钉示意 — ·16",
       "solids": 1,
       "valid": true
     },
@@ -1505,6 +2339,18 @@
       "valid": true
     },
     {
+      "name": "NozzlePetalHinge16",
+      "label": "低音喷口叶片根铰示意 — ·17",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener16",
+      "label": "低音喷口叶片铆钉示意 — ·17",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "NozzlePetal17",
       "label": "低音喷口曲面叶片 — ·18",
       "solids": 1,
@@ -1513,6 +2359,18 @@
     {
       "name": "NozzlePetalRidge17",
       "label": "低音喷口叶片加强条 — ·18",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalHinge17",
+      "label": "低音喷口叶片根铰示意 — ·18",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener17",
+      "label": "低音喷口叶片铆钉示意 — ·18",
       "solids": 1,
       "valid": true
     },
@@ -1529,6 +2387,18 @@
       "valid": true
     },
     {
+      "name": "NozzlePetalHinge18",
+      "label": "低音喷口叶片根铰示意 — ·19",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener18",
+      "label": "低音喷口叶片铆钉示意 — ·19",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "NozzlePetal19",
       "label": "低音喷口曲面叶片 — ·20",
       "solids": 1,
@@ -1537,6 +2407,18 @@
     {
       "name": "NozzlePetalRidge19",
       "label": "低音喷口叶片加强条 — ·20",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalHinge19",
+      "label": "低音喷口叶片根铰示意 — ·20",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener19",
+      "label": "低音喷口叶片铆钉示意 — ·20",
       "solids": 1,
       "valid": true
     },
@@ -1553,6 +2435,18 @@
       "valid": true
     },
     {
+      "name": "NozzlePetalHinge20",
+      "label": "低音喷口叶片根铰示意 — ·21",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener20",
+      "label": "低音喷口叶片铆钉示意 — ·21",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "NozzlePetal21",
       "label": "低音喷口曲面叶片 — ·22",
       "solids": 1,
@@ -1561,6 +2455,18 @@
     {
       "name": "NozzlePetalRidge21",
       "label": "低音喷口叶片加强条 — ·22",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalHinge21",
+      "label": "低音喷口叶片根铰示意 — ·22",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener21",
+      "label": "低音喷口叶片铆钉示意 — ·22",
       "solids": 1,
       "valid": true
     },
@@ -1577,6 +2483,18 @@
       "valid": true
     },
     {
+      "name": "NozzlePetalHinge22",
+      "label": "低音喷口叶片根铰示意 — ·23",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener22",
+      "label": "低音喷口叶片铆钉示意 — ·23",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "NozzlePetal23",
       "label": "低音喷口曲面叶片 — ·24",
       "solids": 1,
@@ -1585,6 +2503,18 @@
     {
       "name": "NozzlePetalRidge23",
       "label": "低音喷口叶片加强条 — ·24",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalHinge23",
+      "label": "低音喷口叶片根铰示意 — ·24",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "NozzlePetalFastener23",
+      "label": "低音喷口叶片铆钉示意 — ·24",
       "solids": 1,
       "valid": true
     },
@@ -1669,6 +2599,12 @@
     {
       "name": "LowerPod_1",
       "label": "底部小喷口外罩 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodClamp_1",
+      "label": "底部小喷口根箍 — 左侧",
       "solids": 1,
       "valid": true
     },
@@ -1903,6 +2839,12 @@
     {
       "name": "LowerPod_001",
       "label": "底部小喷口外罩 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "LowerPodClamp_001",
+      "label": "底部小喷口根箍 — 右侧",
       "solids": 1,
       "valid": true
     },
@@ -2221,6 +3163,42 @@
     {
       "name": "SupportFootRearRight",
       "label": "光轴防滑脚垫示意 — 右后",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BellyServicePlateLeft",
+      "label": "底部独立检修甲板 — 左侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BellyServiceBoltLeft0",
+      "label": "底部检修甲板螺钉 — 左侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BellyServiceBoltLeft1",
+      "label": "底部检修甲板螺钉 — 左侧·02",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BellyServicePlateRight",
+      "label": "底部独立检修甲板 — 右侧",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BellyServiceBoltRight0",
+      "label": "底部检修甲板螺钉 — 右侧·01",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BellyServiceBoltRight1",
+      "label": "底部检修甲板螺钉 — 右侧·02",
       "solids": 1,
       "valid": true
     },
