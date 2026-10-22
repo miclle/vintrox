@@ -1,0 +1,49 @@
+{
+  "renderer": "Blender 5.1.1",
+  "method": "saved CAD tessellation; Cycles",
+  "fcstd_sha256": "4ce6560d5fe9249e54016f8081b479a5f0b1d63e6fd2ad4202af225cebd7f8d7",
+  "cad_geometry_features": 359,
+  "render_only": [
+    "studio lighting",
+    "procedural enamel texture",
+    "surface lettering"
+  ],
+  "physical_validation": false,
+  "images": [
+    {
+      "view": "closeup",
+      "path": "closeup.png",
+      "sha256": "44d39094393a7c3674e72635cb934ae54cdc50b91048dd048ffac6a51d0430af"
+    },
+    {
+      "view": "hero",
+      "path": "hero.png",
+      "sha256": "712b02077e98ee4c58349e040713affd0973ad6bf7476a17b4955ab1bb133a42"
+    },
+    {
+      "view": "rear",
+      "path": "rear.png",
+      "sha256": "74eb38a72e430e2dadc6de9d2e48af28d4c23ee3ad92ac459fdde5c8a6adf78c"
+    },
+    {
+      "view": "front",
+      "path": "front.png",
+      "sha256": "241d4dd275d309d3efeff8dc3b02b034c81f029c5b421b688081a0bc14fda886"
+    },
+    {
+      "view": "right",
+      "path": "right.png",
+      "sha256": "e47a061659112af0fcabc1abe327ea2d38ed69cf64db51917db4ac49d0108787"
+    }
+  ],
+  "turntable": {
+    "path": "turntable.mp4",
+    "sha256": "62685d3e646e65e941aef24b8a6f77dc53d9646f9bc3d9064f2dd404c04a73b6",
+    "duration_seconds": 12,
+    "unique_angles": 96
+  },
+  "review_board": {
+    "path": "orbit-board.png",
+    "sha256": "da4885d403b1dfed0f07565a1f273b5778f3e5843a666d5be8504c2ea8bc73c8"
+  }
+}
