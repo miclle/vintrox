@@ -129,9 +129,27 @@ def verify(root):
         curved_faces = sum(type(face.Surface).__name__ == 'BSplineSurface' for face in nozzle.Shape.Faces)
         if curved_faces == 0:
             errors.append('Nozzle lost its smooth lofted fairing')
-        petals = [obj for obj in objects if obj.Name.startswith('NozzlePetal') and not obj.Name.startswith('NozzlePetalRidge')]
+        petals = [obj for obj in objects if re.fullmatch(r'NozzlePetal\d+', obj.Name)]
         if len(petals) != 24:
             errors.append('Expected 24 separately modelled curved nozzle petals')
+        # Every component must remain volumetric in FCStd/STEP, independent of
+        # Blender materials or edge highlights. Graphics also have real depth.
+        non_solid_components = [obj.Name for obj in objects
+                                if any(not s.isClosed() or s.Volume <= 1e-7 for s in obj.Shape.Solids)]
+        if non_solid_components:
+            errors.append('Open or zero-volume component: '+str(non_solid_components))
+        detail_depths = {}
+        for prefix, axis, minimum in [('WingPaint','X',3),('WingSpine','X',4),
+                                     ('HoodShoulderPlate','X',3.5),('RearArmourCheek','Y',8)]:
+            for side in ('Left','Right'):
+                obj = doc.getObject(prefix+side)
+                depth = getattr(obj.Shape.BoundBox, axis+'Length') if obj else 0
+                detail_depths[prefix+side] = depth
+                if depth < minimum:
+                    errors.append('Armour lost its modeled relief: '+prefix+side)
+        hinges = [obj for obj in objects if re.fullmatch(r'NozzlePetalHinge\d+',obj.Name)]
+        if len(hinges) != 24:
+            errors.append('Missing independent nozzle petal hinges')
         shape = Part.read(str(step))
         step_names = re.findall(r"PRODUCT\(\s*'([^']*)'", step.read_text())
         chinese_step_names = [name for name in step_names if re.search(r'[\u4e00-\u9fff]', name)]
@@ -166,6 +184,8 @@ def verify(root):
                   'removed_rear_supports_present': old_supports,
                   'closure_probes_passed': sum(closure_samples), 'closure_probe_count': len(closure_samples),
                   'nozzle_loft_surface_count': curved_faces, 'curved_nozzle_petals': len(petals),
+                  'non_volumetric_components': non_solid_components,
+                  'armour_relief_depths_mm': detail_depths, 'nozzle_hinges': len(hinges),
                   'step_relative_volume_error': relative_volume_error,
                   'step_bbox_max_delta_mm': bbox_delta,
                   'bbox_mm': [bbox.XLength, bbox.YLength, bbox.ZLength],
