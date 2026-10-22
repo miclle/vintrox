@@ -1,8 +1,8 @@
 {
   "renderer": "Blender 5.1.1",
   "method": "saved CAD tessellation; Cycles",
-  "fcstd_sha256": "4ce6560d5fe9249e54016f8081b479a5f0b1d63e6fd2ad4202af225cebd7f8d7",
-  "cad_geometry_features": 359,
+  "fcstd_sha256": "9f63d96dd7191a9ec9d9c1395f422612d120f10bd7a0f5dec0097a0e64a970c4",
+  "cad_geometry_features": 370,
   "render_only": [
     "studio lighting",
     "procedural enamel texture",
@@ -11,39 +11,39 @@
   "physical_validation": false,
   "images": [
     {
-      "view": "closeup",
-      "path": "closeup.png",
-      "sha256": "44d39094393a7c3674e72635cb934ae54cdc50b91048dd048ffac6a51d0430af"
-    },
-    {
       "view": "hero",
       "path": "hero.png",
-      "sha256": "712b02077e98ee4c58349e040713affd0973ad6bf7476a17b4955ab1bb133a42"
+      "sha256": "764c205df79c90ff95b5f482ccb9d2114f95e15dcda39218bbb20c6ec665c208"
     },
     {
       "view": "rear",
       "path": "rear.png",
-      "sha256": "74eb38a72e430e2dadc6de9d2e48af28d4c23ee3ad92ac459fdde5c8a6adf78c"
+      "sha256": "b28f3ca1799a28a875958643ffa59e919f58d55fa89279a8eb095d61c7a9f469"
     },
     {
       "view": "front",
       "path": "front.png",
-      "sha256": "241d4dd275d309d3efeff8dc3b02b034c81f029c5b421b688081a0bc14fda886"
+      "sha256": "9dafc766644dc7047ea3cea5a7e3c06a9b249e9eb6b3ff7547114d563df5bb43"
     },
     {
       "view": "right",
       "path": "right.png",
-      "sha256": "e47a061659112af0fcabc1abe327ea2d38ed69cf64db51917db4ac49d0108787"
+      "sha256": "632a4b85a6e7c37d9ba51e4c24107628130be1ee65ab7c79193f467dcdb1dfbc"
+    },
+    {
+      "view": "closeup",
+      "path": "closeup.png",
+      "sha256": "8ba37dc5ed5e86311e4cc31a1d3a7231dcd7db09d7afe31fc75e29ed6da381b6"
     }
   ],
   "turntable": {
     "path": "turntable.mp4",
-    "sha256": "62685d3e646e65e941aef24b8a6f77dc53d9646f9bc3d9064f2dd404c04a73b6",
+    "sha256": "7b4825f099959aa977e337e922a5d8e42024ba0ed7ccac9a60b9f12d52c16626",
     "duration_seconds": 12,
     "unique_angles": 96
   },
   "review_board": {
     "path": "orbit-board.png",
-    "sha256": "da4885d403b1dfed0f07565a1f273b5778f3e5843a666d5be8504c2ea8bc73c8"
+    "sha256": "5988482ecd721f5831561a50e5366472c1ef68ef02f163f8d20a5236c58824d1"
   }
 }

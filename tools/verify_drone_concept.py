@@ -6,6 +6,7 @@ docs/drone-concept.md. This checks static deliverables, not manufacturing fit.
 from pathlib import Path
 import hashlib
 import json
+import math
 import re
 from xml.etree import ElementTree
 from zipfile import ZipFile
@@ -63,6 +64,52 @@ def verify(root):
                         if o.Name.startswith(('Utility', 'SideUtilityPod', 'SideCable'))]
         if removed_pods:
             errors.append('Removed external utility pods or their cables were regenerated')
+        shafts = [obj for obj in objects if obj.Name.startswith('SupportShaft')]
+        feet = [obj for obj in objects if obj.Name.startswith('SupportFoot')]
+        sockets = [obj for obj in objects if obj.Name.startswith('SupportSocket')]
+        old_supports = [o.Name for o in doc.Objects if o.Name.startswith('RearSupport')]
+        if len(shafts) != 4 or len(feet) != 4 or len(sockets) != 4 or old_supports:
+            errors.append('Expected four shafts, sockets and feet with old rear feet removed')
+        support_details = []
+        seat = doc.getObject('CentralSupportSeat')
+        if seat is None:
+            errors.append('Missing central support seat')
+        else:
+            if seat.Shape.common(doc.getObject('ClosedBellyPan').Shape).Volume < 1:
+                errors.append('Central support seat is detached from belly pan')
+            for shaft in shafts:
+                suffix = shaft.Name[len('SupportShaft'):]
+                foot = doc.getObject('SupportFoot'+suffix)
+                socket = doc.getObject('SupportSocket'+suffix)
+                root, tip = shaft.RootCentre, shaft.FootCentre
+                length = (tip-root).Length
+                radii = [face.Surface.Radius for face in shaft.Shape.Faces
+                         if type(face.Surface).__name__ == 'Cylinder']
+                if len(radii) != 1 or abs(radii[0]-3) > 1e-6:
+                    errors.append('Expected a smooth 6 mm cylinder: '+shaft.Name)
+                if abs(shaft.Shape.Volume-math.pi*9*length) > .01:
+                    errors.append('Shaft length differs from saved endpoints: '+shaft.Name)
+                if not (abs(root.x) < 42 and 55 < root.y < 125 and root.z > tip.z
+                        and abs(tip.x) > abs(root.x)
+                        and abs(tip.y-90) > abs(root.y-90)):
+                    errors.append('Shaft does not splay downward from the centre: '+shaft.Name)
+                if (not seat.Shape.isInside(root, .01, True) or foot is None or socket is None
+                        or shaft.Shape.common(foot.Shape).Volume < .01
+                        or seat.Shape.common(socket.Shape).Volume < .01):
+                    errors.append('Disconnected support detail: '+shaft.Name)
+                # Only the mounting region, sleeve and pad may meet the shaft.
+                intentional = {shaft.Name, 'CentralSupportSeat', 'ClosedBellyPan',
+                               socket.Name if socket else '', foot.Name if foot else ''}
+                clashes = [obj.Name for obj in visible if obj.Name not in intentional
+                           and shaft.Shape.common(obj.Shape).Volume > .01]
+                if clashes:
+                    errors.append('Shaft intersects unrelated geometry: '+str(clashes))
+                support_details.append({'name': shaft.Name, 'diameter_mm': 6,
+                                        'length_mm': length,
+                                        'root_mm': list(root), 'tip_mm': list(tip)})
+        ground_levels = [foot.Shape.BoundBox.ZMin for foot in feet]
+        if len(ground_levels) != 4 or any(abs(z+100) > .01 for z in ground_levels):
+            errors.append('Four foot pads must share the assumed Z=-100 mm plane')
         # Targeted regressions for the reported open side/back surfaces. These
         # samples do not claim airtightness, waterproofing, or a fitted assembly.
         closure_samples = []
@@ -114,6 +161,9 @@ def verify(root):
                   'woofer_shell_overlap_mm3': reserve_shell_overlap,
                   'screen_side_unwanted_features': forbidden,
                   'removed_external_pod_parts_present': removed_pods,
+                  'central_support_shafts': support_details,
+                  'support_ground_levels_mm': ground_levels,
+                  'removed_rear_supports_present': old_supports,
                   'closure_probes_passed': sum(closure_samples), 'closure_probe_count': len(closure_samples),
                   'nozzle_loft_surface_count': curved_faces, 'curved_nozzle_petals': len(petals),
                   'step_relative_volume_error': relative_volume_error,

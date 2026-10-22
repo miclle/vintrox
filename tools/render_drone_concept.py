@@ -147,7 +147,8 @@ def main():
     scene.view_settings.view_transform = 'AgX'
     scene.view_settings.look = 'AgX - Medium High Contrast'
     scene.view_settings.exposure = -.6
-    bpy.ops.mesh.primitive_plane_add(size=200, location=(0, 0, -.018))
+    ground_z = min(p[2] for item in data['objects'] for p in item['vertices'])
+    bpy.ops.mesh.primitive_plane_add(size=200, location=(0, 0, ground_z/1000))
     ground = bpy.context.object
     ground.name = 'StudioGround'
     ground.data.materials.append(material((.075, .084, .092), 'rubber'))
@@ -160,17 +161,17 @@ def main():
     bpy.context.collection.objects.link(camera)
     scene.camera = camera
     camera.data.type = 'ORTHO'
-    camera.data.ortho_scale = .55
-    views = {'hero': ((-650, -1000, 365), (0, 83, 187)),
-             'rear': ((510, 820, 380), (0, 105, 184)),
-             'closeup': ((-700, -1050, 350), (0, 65, 188)),
-             'front': ((0, -1000, 305), (0, 65, 190)),
-             'right': ((900, 40, 340), (0, 105, 187))}
+    camera.data.ortho_scale = .63
+    views = {'hero': ((-650, -1000, 365), (0, 83, 142)),
+             'rear': ((510, 820, 380), (0, 105, 142)),
+             'closeup': ((-700, -1050, 350), (0, 65, 142)),
+             'front': ((0, -1000, 305), (0, 65, 142)),
+             'right': ((900, 40, 340), (0, 105, 142))}
     args.output.mkdir(parents=True, exist_ok=True)
     outputs = []
     for name in args.views:
         eye, target = views[name]
-        camera.data.ortho_scale = .47 if name == 'closeup' else .55
+        camera.data.ortho_scale = .63
         camera.location = Vector(eye)/1000
         camera.rotation_euler = (Vector(target)/1000-camera.location).to_track_quat('-Z', 'Y').to_euler()
         ground.hide_render = name == 'closeup'
@@ -188,7 +189,7 @@ def main():
         ground.hide_render = False
         scene.world.color = (.065, .065, .065)
         camera.data.type = 'ORTHO'
-        camera.data.ortho_scale = .55
+        camera.data.ortho_scale = .63
         frames = Path(tempfile.mkdtemp(prefix='vintrox-drone-orbit-'))
         scene.render.resolution_x = 900
         scene.render.resolution_y = 900
@@ -196,7 +197,7 @@ def main():
         for i in range(96):
             angle = math.radians(-121+i*360/96)
             camera.location = Vector((960*math.cos(angle), 85+960*math.sin(angle), 365))/1000
-            camera.rotation_euler = (Vector((0, 85, 184))/1000-camera.location).to_track_quat('-Z', 'Y').to_euler()
+            camera.rotation_euler = (Vector((0, 85, 142))/1000-camera.location).to_track_quat('-Z', 'Y').to_euler()
             scene.render.filepath = str(frames/f'{i:03}.png')
             bpy.ops.render.render(write_still=True)
         path = args.output/'turntable.mp4'
