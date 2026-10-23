@@ -488,6 +488,46 @@ def round_loft(sections):
     return Part.makeLoft(wires, True, False)
 
 
+def nozzle_fairing_parts():
+    """Rounded shoulder sections and conforming surface patches, in nozzle axes.
+
+    Four stations avoid ripples from dense, independently adjusted circles.
+    Superellipse exponents, section widths and thickness are appearance choices;
+    fixed-camera candidate F improved visible upper boundaries, not all contours.
+    """
+    sections=[(0,49,49,0,2),(28,84,66,-1,2.7),
+              (60,73,66,1,2.3),(94.81,53.82,53.82,-1.15,2)]
+    def loft(inset=0,expand=0):
+        wires=[]
+        for z,rx,ry,dy,n in sections:
+            points=[]
+            for i in range(128):
+                angle=i*math.tau/128;c,s=math.cos(angle),math.sin(angle)
+                points.append(App.Vector((rx-inset+expand)*math.copysign(abs(c)**(2/n),c),
+                    dy+(ry-inset+expand)*math.copysign(abs(s)**(2/n),s),z))
+            curve=Part.BSplineCurve();curve.interpolate(points,PeriodicFlag=True)
+            wires.append(Part.Wire([curve.toShape()]))
+        return Part.makeLoft(wires,True,False)
+    outer=loft()
+    parts={'BassNozzleShell':outer.cut(loft(inset=4))}
+    coating=loft(expand=.35).cut(outer)
+    for side,(start,end) in enumerate(((212,234),(306,328))):
+        for i,z in enumerate((76,84,92)):
+            stencil=Part.Face(sector_wire(100,40,z,start,end)).extrude(App.Vector(0,0,2.5))
+            parts[f'BassSideStripe{side}_{i}']=coating.common(stencil)
+    white=loft(expand=.65).cut(loft(inset=.25))
+    red=loft(expand=.95).cut(loft(expand=.4))
+    parts['BassWarningPlaque']=white.common(rounded_plate(44,17,110,(-22,-110,65),1.3))
+    parts['BassWarningRedBand']=red.common(rounded_plate(4.5,14.5,110,(16,-110,66.25),.7))
+    parts['BassWarningTriangle']=white.common(profile([(-14,53),(14,53),(0,28)],'XZ',(0,-110,0),110))
+    parts['BassWarningTriangleInset']=red.common(profile([(-11.5,51),(11.5,51),(0,31)],'XZ',(0,-110,0),110))
+    for name,shape in parts.items():
+        if not shape.isValid() or len(shape.Solids)!=1:
+            raise ValueError('Invalid nozzle surface: '+name)
+        shape.check(True)
+    return parts
+
+
 def crowned_plate(points, plane, origin, thickness, rim=2):
     """Closed faceted armour: broad bevel shoulders and a raised centre face.
 
@@ -1450,11 +1490,8 @@ def build(root, frame_view=True):
     def place(shape):
         shape.Placement = App.Placement(origin, rot).multiply(shape.Placement)
         return shape
-    outer = round_loft([(0, 49, 0), (10, 54, -1), (32, 65, -2),
-                        (57, 69, -1), (76, 64, -1), (94.81, 53.82, -1.15)])
-    inner = round_loft([(-1, 44.5, 0), (10, 50, -1), (32, 61, -2),
-                        (57, 65, -1), (76, 60, -1), (96.81, 49.82, -1.15)])
-    b.add('BassNozzleShell', place(outer.cut(inner)), (.52, .37, .21), 'Rear')
+    fairing=nozzle_fairing_parts()
+    b.add('BassNozzleShell',place(fairing['BassNozzleShell'].copy()),(.52,.37,.21),'Rear')
     b.add('BassNozzleRearCollar', place(ring(55, 45, 8, (0, 0, -3))), METAL, 'Rear', 'metal')
     b.add('BassChamberBackplate', place(cylinder(45, 4, (0, 0, 5))), DARK, 'Rear', 'metal')
     b.add('BassNozzleMouthRing', place(Part.makeTorus(52.3215,2,App.Vector(0,-1.149,96.8067))), METAL, 'Rear', 'metal')
@@ -1519,26 +1556,11 @@ def build(root, frame_view=True):
         tangent=(-math.sin(theta),math.cos(theta),0)
         hinge=cylinder(1.3,6,(51.5*radial[0]-3*tangent[0],-1.149+51.5*radial[1]-3*tangent[1],95.8),tangent)
         b.add(f'NozzlePetalHinge{i}',place(hinge),(.30,.32,.29),'Details','metal')
-    # A backed plaque stands proud of the bulged shell; the previous thin arc
-    # intersected the fairing, producing triangular holes in the visible label.
-    warning = Part.makeLoft([sector_wire(ro,ro-2.4,z,251,289)
-                            for z,ro in ((65,69),(73,67),(81,63.5))],True,False)
-    b.add('BassWarningPlaque', place(warning), WHITE, 'Details')
-    red_band=Part.makeLoft([sector_wire(ro+.2,ro-.1,z,283,288)
-                              for z,ro in ((66,68.85),(73,67),(80,64.0))],True,False)
-    b.add('BassWarningRedBand',place(red_band),RED,'Details')
-    expanded=round_loft([(0,49.35,0),(10,54.35,-1),(32,65.35,-2),
-                         (57,69.35,-1),(76,64.35,-1),(94.81,54.17,-1.15)])
-    coating=expanded.cut(outer)
-    for side,(start,end) in enumerate(((212,234),(306,328))):
-        for i,z in enumerate((76,84,92)):
-            stencil=Part.Face(sector_wire(80,40,z,start,end)).extrude(App.Vector(0,0,2.5))
-            stripe=coating.common(stencil)
-            b.add(f'BassSideStripe{side}_{i}',place(stripe),WHITE,'Details')
-    triangle = profile([(-14, 53), (14, 53), (0, 28)], 'XZ', (0, -71, 0), .5)
-    b.add('BassWarningTriangle', place(triangle), WHITE, 'Details')
-    red_triangle = profile([(-11.5, 51), (11.5, 51), (0, 31)], 'XZ', (0, -71.6, 0), .5)
-    b.add('BassWarningTriangleInset', place(red_triangle), RED, 'Details')
+    # Projected surface patches remain in contact with the revised fairing.
+    for name,shape in fairing.items():
+        if name=='BassNozzleShell':continue
+        color=RED if name in ('BassWarningRedBand','BassWarningTriangleInset') else WHITE
+        b.add(name,place(shape.copy()),color,'Details')
     for i in range(8):
         a = i*math.tau/8
         bolt = cylinder(2.3, 2, (50*math.cos(a), 50*math.sin(a), 3))
@@ -1649,16 +1671,24 @@ def save_outputs(doc, items, out):
     Import.export(visible, str(out/'vintrox-drone-concept.step'))
     # Trimmed affine B-splines can have distant control poles; measure surfaces.
     bbox = Part.makeCompound([o.Shape for o in visible]).optimalBoundingBox(False, False)
+    nozzle_axis=App.Vector(0,.574,-.819);nozzle_axis.normalize()
+    nozzle_frame=App.Placement(App.Vector(0,180,173),App.Rotation(App.Vector(0,0,1),nozzle_axis))
+    label_positions={}
+    for name,key,x,z in [('BassWarningPlaque','warning',14,73),
+                         ('BassWarningTriangleInset','alert',1,40)]:
+        local=doc.getObject(name).Shape.copy()
+        local.Placement=nozzle_frame.inverse().multiply(local.Placement)
+        label_positions[key]=[x,local.optimalBoundingBox(False,False).YMin-.25,z]
     manifest = {
-        'revision': 'v29-rounded-rear-transition',
+        'revision': 'v30-rounded-nozzle-fairing',
         'tree_structure': 'flat', 'group_count': 0,
         'status': 'appearance-study-only', 'physical_tests': False,
         'screen_panel_mm': [210, 160, 2], 'active_area_mm': [200, 150],
         'bass_axis': [0, .574, -.819],
         'bass_origin_mm': [0, 180, 173],
         'nozzle_petals': NOZZLE_PETALS,
-        'bass_warning_label_local_mm': [14, -69.5, 73],
-        'bass_alert_local_mm': [1, -72.3, 40],
+        'bass_warning_label_local_mm': label_positions['warning'],
+        'bass_alert_local_mm': label_positions['alert'],
         'woofer_reservation_mm': {'diameter': 88, 'depth': 40, 'basis': 'unselected placeholder'},
         'support': {'shafts': 4, 'shaft_diameter_mm': 6, 'ground_z_mm': -100,
                     'foot_centres_span_mm': [244, 216],
