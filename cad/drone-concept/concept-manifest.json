@@ -1,5 +1,5 @@
 {
-  "revision": "v29-rounded-rear-transition",
+  "revision": "v30-rounded-nozzle-fairing",
   "tree_structure": "flat",
   "group_count": 0,
   "status": "appearance-study-only",
@@ -26,12 +26,12 @@
   "nozzle_petals": 16,
   "bass_warning_label_local_mm": [
     14,
-    -69.5,
+    -64.8385759879316,
     73
   ],
   "bass_alert_local_mm": [
     1,
-    -72.3,
+    -68.71705240789814,
     40
   ],
   "woofer_reservation_mm": {
@@ -65,7 +65,7 @@
     288.19817783957984,
     385.09868316645463
   ],
-  "fcstd_sha256": "7b61aa95bb66d86fccb13c42552073b22820174ab46ac8a0c82247b865c4b062",
+  "fcstd_sha256": "7cb4dc6e74b327c4cf63b326b6f57a46057ea54a43fd433615e5f75a39947d5c",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -2630,18 +2630,6 @@
       "valid": true
     },
     {
-      "name": "BassWarningPlaque",
-      "label": "低音喷口警示标牌",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "BassWarningRedBand",
-      "label": "喷口标牌红色侧条",
-      "solids": 1,
-      "valid": true
-    },
-    {
       "name": "BassSideStripe0_0",
       "label": "喷口两侧薄涂装条纹 — 0_·01",
       "solids": 1,
@@ -2674,6 +2662,18 @@
     {
       "name": "BassSideStripe1_2",
       "label": "喷口两侧薄涂装条纹 — 1_·03",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassWarningPlaque",
+      "label": "低音喷口警示标牌",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "BassWarningRedBand",
+      "label": "喷口标牌红色侧条",
       "solids": 1,
       "valid": true
     },
