@@ -1,5 +1,5 @@
 {
-  "fcstd_sha256": "7b61aa95bb66d86fccb13c42552073b22820174ab46ac8a0c82247b865c4b062",
+  "fcstd_sha256": "7cb4dc6e74b327c4cf63b326b6f57a46057ea54a43fd433615e5f75a39947d5c",
   "inputs": [
     {
       "source": "references/alexander-shevchuk-drone/alexander-shevchuk-01.jpg",
@@ -92,8 +92,8 @@
       "status": "visually reviewed; differences remain"
     }
   ],
-  "video_comparison": "iteration-63/comparison-report.json",
-  "still_comparison": "stills-34/comparison-report.json",
+  "video_comparison": "iteration-64/comparison-report.json",
+  "still_comparison": "stills-35/comparison-report.json",
   "landmarks": "landmark-check.json",
   "physical_validation": false,
   "nozzle_outline": "nozzle-outline-check.json",
@@ -103,7 +103,7 @@
   "side_frame_detail": "side-frame-detail.json",
   "cheek_position": "cheek-position-check.json",
   "cheek_detail": "cheek-position-detail.json",
-  "contour_attribution": "object-ids-v29/contour-attribution.json",
+  "contour_attribution": "object-ids-v30/contour-attribution.json",
   "loop_profile": "loop-profile-check.json",
   "loop_detail": "loop-profile-detail.json",
   "lower_pod_outline": "lower-pod-outline-check.json",
@@ -137,5 +137,8 @@
   "rear_rake": "rear-rake-check.json",
   "rear_rake_detail": "rear-rake-detail.json",
   "rear_transition": "rear-transition-check.json",
-  "rear_transition_detail": "rear-transition-detail.json"
+  "rear_transition_detail": "rear-transition-detail.json",
+  "nozzle_fairing": "nozzle-fairing-check.json",
+  "nozzle_surfaces": "nozzle-surface-check.json",
+  "nozzle_fairing_detail": "nozzle-fairing-detail.json"
 }
