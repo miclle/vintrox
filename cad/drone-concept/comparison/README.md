@@ -1,15 +1,15 @@
 # Drone 参考比较证据
 
-当前模型：v29 后框弧面过渡修订，按用户要求暂停。模型哈希以各报告为准；它们是图像空间诊断，不是加工验收。
+当前模型：v30 喷口外罩与贴合标记修订；按用户要求完成当前子任务后暂停。模型哈希以各报告为准；它们是图像空间诊断，不是加工验收。
 
-- [当前十方位比较板](iteration-63/comparison-board.png)、[报告](iteration-63/comparison-report.json)、[CAD 原始渲染](iteration-63-renders/render-manifest.json)。
-- [七张独立图片比较板](stills-34/comparison-board.png)、[报告](stills-34/comparison-report.json)、[原始渲染](stills-34-renders/render-manifest.json)。06 是线框图，不计入十方位轮廓目标。
+- [当前十方位比较板](iteration-64/comparison-board.png)、[报告](iteration-64/comparison-report.json)、[CAD 原始渲染](iteration-64-renders/render-manifest.json)。
+- [七张独立图片比较板](stills-35/comparison-board.png)、[报告](stills-35/comparison-report.json)、[原始渲染](stills-35-renders/render-manifest.json)。06 是线框图，不计入十方位轮廓目标。
 - [相同渲染设置下的 v6 基线](baseline-raw-v23/comparison-board.png)及[报告](baseline-raw-v23/comparison-report.json)。
 - [42 个稀疏标志点](landmark-check.json)检查翼尖、翼根、灯头与实际平面显示区的位置，不证明完整轮廓通过。
 - [全部参考输入索引](review-index.json)覆盖六张编号图、补充近景、十视角拼图和原始旋转视频。
 - [方法、相机假设、迭代及复现](../../../docs/drone-overlay-comparison.md)。
 
-历史中间轮次保留比较板、数值报告、相机和渲染清单；旧清单中的逐视角文件只在被当前细节报告引用时保留于仓库，其余重复大图保留本机归档。完整图组以当前 `iteration-63` / `stills-34`、各自渲染目录及 `baseline-raw-v23` 基线为准。`object-ids-v28`、`object-ids-v29a`、`object-ids-v29b` 与当前 `object-ids-v29` 保留弧面边界诊断用像素证据。旧报告绑定历史模型，不代表当前交付模型。
+历史中间轮次保留比较板、数值报告、相机和渲染清单；旧清单中的逐视角文件只在被当前细节报告引用时保留于仓库，其余重复大图保留本机归档。完整图组以当前 `iteration-64` / `stills-35`、各自渲染目录及 `baseline-raw-v23` 基线为准。`object-ids-v28`、`object-ids-v29a`、`object-ids-v29b` 、`object-ids-v29` 与当前 `object-ids-v30` 保留弧面边界诊断用像素证据。旧报告绑定历史模型，不代表当前交付模型。
 
 [喷口出口源图拟合](nozzle-mouth-fit.json)与[保存 BRep 出口核对](nozzle-outline-check.json)只检查出口圆周；[粗回环定位](underbody-loop-fit.json)仍是图像推导。
 
@@ -58,3 +58,7 @@
 [后框保存轮廓与接合](rear-rake-check.json)、[v27 对照](rear-rake-check-v27.json)、[局部叠加](rear-rake-detail.png)和[重建记录](rear-rake-rebuild-review.json)记录 v28。六块后框零件的保存实体均通过自相交检查；旧手工取点混有反光折线，其数值仅保留作历史诊断；v29 新可见下缘检查取代其外轮廓精度解释。
 
 [后框弧面当前检查](rear-transition-check.json)、[同方法 v28 对照](rear-transition-check-v28.json)、[撤回的加深候选](rear-transition-check-v29b.json)及[局部叠加](rear-transition-detail.png)记录 v29。27 个可见下缘点的 RMS 从 11.22 降至 5.19 像素；弧面通过后结构框相接，邻近后盖的 0.296mm 分件间隙另行记录。
+
+[2026-10-24 喷口外罩候选](nozzle-fairing-experiments/README.md)保留六个隔离试验、固定相机渲染和可见上缘点检查；F 已合入 v30，其余候选不代表当前模型。
+
+[当前喷口可见上缘](nozzle-fairing-check.json)、[贴片表面与接合](nozzle-surface-check.json)、[前后叠加](nozzle-fairing-detail.png)和[当前差异归属](object-ids-v30/contour-attribution.json)记录 v30；局部抽样不代表整体外观达标。
