@@ -1,0 +1,1073 @@
+{
+  "fcstd_sha256": "7b61aa95bb66d86fccb13c42552073b22820174ab46ac8a0c82247b865c4b062",
+  "source_fit_sha256": "637dcaa930f372e7cc77a93cc61c7666e86f724f00d406fa9a23bb93711fcd7a",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "source_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "measurement_script_sha256": "2e1c192f52b00d6897805c73524da82ed6000b887a8641999bfaf27c3dfc387f",
+  "saved_mark_centers_mm": {
+    "-1": [
+      [
+        -97.78740291,
+        206.6679879,
+        173.55953009
+      ],
+      [
+        -97.78740291,
+        206.6679879,
+        162.90176478
+      ],
+      [
+        -97.78740291,
+        206.6679879,
+        152.24399947
+      ]
+    ],
+    "1": [
+      [
+        97.78740291,
+        206.6679879,
+        173.55953009
+      ],
+      [
+        97.78740291,
+        206.6679879,
+        162.90176478
+      ],
+      [
+        97.78740291,
+        206.6679879,
+        152.24399947
+      ]
+    ]
+  },
+  "groups": {
+    "fitted": {
+      "observations": [
+        {
+          "source_frame": 150,
+          "side": 1,
+          "reference_px": [
+            [
+              387,
+              424
+            ],
+            [
+              386,
+              447
+            ],
+            [
+              385,
+              469
+            ]
+          ],
+          "saved_px": [
+            [
+              386.39097996640226,
+              423.7078446154161
+            ],
+            [
+              386.49800028197745,
+              446.661317871287
+            ],
+            [
+              386.6047469738146,
+              469.5561049317492
+            ]
+          ],
+          "distance_px": [
+            0.6754703324830545,
+            0.6022539872505578,
+            1.698371439080063
+          ]
+        },
+        {
+          "source_frame": 180,
+          "side": 1,
+          "reference_px": [
+            [
+              545,
+              424
+            ],
+            [
+              546,
+              447
+            ],
+            [
+              545,
+              470
+            ]
+          ],
+          "saved_px": [
+            [
+              544.6527039735614,
+              424.1100989579244
+            ],
+            [
+              544.5570258934025,
+              447.0923457729195
+            ],
+            [
+              544.4615927495157,
+              470.01575794313476
+            ]
+          ],
+          "distance_px": [
+            0.36432994732256674,
+            1.4459260057440424,
+            0.538637800517086
+          ]
+        },
+        {
+          "source_frame": 210,
+          "side": 1,
+          "reference_px": [
+            [
+              666,
+              412
+            ],
+            [
+              666,
+              434
+            ],
+            [
+              666,
+              457
+            ]
+          ],
+          "saved_px": [
+            [
+              666.7630607546558,
+              412.17392836158956
+            ],
+            [
+              666.5204175676009,
+              434.3017720311341
+            ],
+            [
+              666.2783720862475,
+              456.375107933612
+            ]
+          ],
+          "distance_px": [
+            0.7826319634803884,
+            0.6015819174829439,
+            0.6840914507844875
+          ]
+        }
+      ],
+      "distance_rms_px": 0.922520658714527,
+      "max_distance_px": 1.698371439080063
+    },
+    "held_out": {
+      "observations": [
+        {
+          "source_frame": 60,
+          "side": -1,
+          "reference_px": [
+            [
+              405,
+              425
+            ],
+            [
+              406,
+              449
+            ],
+            [
+              407,
+              472
+            ]
+          ],
+          "saved_px": [
+            [
+              402.4630235162466,
+              424.653182304038
+            ],
+            [
+              402.5497307054866,
+              447.6742740473423
+            ],
+            [
+              402.63621554254877,
+              470.63633043350893
+            ]
+          ],
+          "distance_px": [
+            2.5605726299697316,
+            3.6962017675192333,
+            4.571893423699516
+          ]
+        },
+        {
+          "source_frame": 90,
+          "side": -1,
+          "reference_px": [
+            [
+              561,
+              423
+            ],
+            [
+              560,
+              447
+            ],
+            [
+              561,
+              470
+            ]
+          ],
+          "saved_px": [
+            [
+              561.7376932450429,
+              423.56548753509054
+            ],
+            [
+              561.620321180005,
+              446.5087775429595
+            ],
+            [
+              561.5032490701543,
+              469.39343384744154
+            ]
+          ],
+          "distance_px": [
+            0.9294985078657886,
+            1.693145070179691,
+            0.7881510794516166
+          ]
+        }
+      ],
+      "distance_rms_px": 2.752954140738895,
+      "max_distance_px": 4.571893423699516
+    }
+  },
+  "saved_joints": {
+    "Left": {
+      "plate_shell_overlap_mm3": 145.00040840144464,
+      "detail_plate_gaps_mm": {
+        "SideStatusMarkLeft0": 0.0,
+        "SideStatusMarkLeft1": 0.0,
+        "SideStatusMarkLeft2": 0.0,
+        "SideStatusBracketLeft": 0.0,
+        "SideStatusSlotLeft": 0.0
+      },
+      "plate_solids": 1
+    },
+    "Right": {
+      "plate_shell_overlap_mm3": 145.00040840144464,
+      "detail_plate_gaps_mm": {
+        "SideStatusMarkRight0": 0.0,
+        "SideStatusMarkRight1": 0.0,
+        "SideStatusMarkRight2": 0.0,
+        "SideStatusBracketRight": 0.0,
+        "SideStatusSlotRight": 0.0
+      },
+      "plate_solids": 1
+    }
+  },
+  "cavity_probes": [
+    {
+      "side": -1,
+      "mark_center_mm": [
+        -97.78740291,
+        206.6679879,
+        173.55953009
+      ],
+      "recess_probe_overlap_mm3": 0.0,
+      "backing_probe_overlap_mm3": 0.0072382294738710185,
+      "outward_occlusion_overlap_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "side": -1,
+      "mark_center_mm": [
+        -97.78740291,
+        206.6679879,
+        162.90176478
+      ],
+      "recess_probe_overlap_mm3": 0.0,
+      "backing_probe_overlap_mm3": 0.0072382294738710185,
+      "outward_occlusion_overlap_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "side": -1,
+      "mark_center_mm": [
+        -97.78740291,
+        206.6679879,
+        152.24399947
+      ],
+      "recess_probe_overlap_mm3": 0.0,
+      "backing_probe_overlap_mm3": 0.0072382294738710185,
+      "outward_occlusion_overlap_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "side": 1,
+      "mark_center_mm": [
+        97.78740291,
+        206.6679879,
+        173.55953009
+      ],
+      "recess_probe_overlap_mm3": 0.0,
+      "backing_probe_overlap_mm3": 0.0072382294738710185,
+      "outward_occlusion_overlap_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "side": 1,
+      "mark_center_mm": [
+        97.78740291,
+        206.6679879,
+        162.90176478
+      ],
+      "recess_probe_overlap_mm3": 0.0,
+      "backing_probe_overlap_mm3": 0.0072382294738710185,
+      "outward_occlusion_overlap_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "side": 1,
+      "mark_center_mm": [
+        97.78740291,
+        206.6679879,
+        152.24399947
+      ],
+      "recess_probe_overlap_mm3": 0.0,
+      "backing_probe_overlap_mm3": 0.0072382294738710185,
+      "outward_occlusion_overlap_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "view_visibility": [
+    {
+      "source_frame": 150,
+      "side": 1,
+      "rays": [
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            206.6679879,
+            173.55953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            170.40953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            176.70953009000002
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            170.40953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            176.70953009000002
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            206.6679879,
+            162.90176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            159.75176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            166.05176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            159.75176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            166.05176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            206.6679879,
+            152.24399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            149.09399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            155.39399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            149.09399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            155.39399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 180,
+      "side": 1,
+      "rays": [
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            206.6679879,
+            173.55953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            170.40953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            176.70953009000002
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            170.40953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            176.70953009000002
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            206.6679879,
+            162.90176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            159.75176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            166.05176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            159.75176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            166.05176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            206.6679879,
+            152.24399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            149.09399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            155.39399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            149.09399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            155.39399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 210,
+      "side": 1,
+      "rays": [
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            206.6679879,
+            173.55953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            170.40953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            176.70953009000002
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            170.40953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            176.70953009000002
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            206.6679879,
+            162.90176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            159.75176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            166.05176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            159.75176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            166.05176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            206.6679879,
+            152.24399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            149.09399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            203.5179879,
+            155.39399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            149.09399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            97.78740291,
+            209.81798790000002,
+            155.39399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 60,
+      "side": -1,
+      "rays": [
+        {
+          "mark_index": 0,
+          "target_mm": [
+            -97.78740291,
+            206.6679879,
+            173.55953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            -97.78740291,
+            203.5179879,
+            170.40953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            -97.78740291,
+            203.5179879,
+            176.70953009000002
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            -97.78740291,
+            209.81798790000002,
+            170.40953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            -97.78740291,
+            209.81798790000002,
+            176.70953009000002
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            -97.78740291,
+            206.6679879,
+            162.90176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            -97.78740291,
+            203.5179879,
+            159.75176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            -97.78740291,
+            203.5179879,
+            166.05176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            -97.78740291,
+            209.81798790000002,
+            159.75176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            -97.78740291,
+            209.81798790000002,
+            166.05176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            -97.78740291,
+            206.6679879,
+            152.24399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            -97.78740291,
+            203.5179879,
+            149.09399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            -97.78740291,
+            203.5179879,
+            155.39399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            -97.78740291,
+            209.81798790000002,
+            149.09399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            -97.78740291,
+            209.81798790000002,
+            155.39399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 90,
+      "side": -1,
+      "rays": [
+        {
+          "mark_index": 0,
+          "target_mm": [
+            -97.78740291,
+            206.6679879,
+            173.55953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            -97.78740291,
+            203.5179879,
+            170.40953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            -97.78740291,
+            203.5179879,
+            176.70953009000002
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            -97.78740291,
+            209.81798790000002,
+            170.40953009
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 0,
+          "target_mm": [
+            -97.78740291,
+            209.81798790000002,
+            176.70953009000002
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            -97.78740291,
+            206.6679879,
+            162.90176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            -97.78740291,
+            203.5179879,
+            159.75176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            -97.78740291,
+            203.5179879,
+            166.05176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            -97.78740291,
+            209.81798790000002,
+            159.75176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 1,
+          "target_mm": [
+            -97.78740291,
+            209.81798790000002,
+            166.05176478
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            -97.78740291,
+            206.6679879,
+            152.24399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            -97.78740291,
+            203.5179879,
+            149.09399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            -97.78740291,
+            203.5179879,
+            155.39399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            -97.78740291,
+            209.81798790000002,
+            149.09399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        },
+        {
+          "mark_index": 2,
+          "target_mm": [
+            -97.78740291,
+            209.81798790000002,
+            155.39399947
+          ],
+          "cladding_intersection_length_mm": 0.0
+        }
+      ]
+    }
+  ],
+  "visibility_method": "individual cladding BRep intersections; sum is diagnostic and may double-count overlaps",
+  "limitations": [
+    "manual mark centers on partly occluded dark panels",
+    "shared vertical spacing, mirrored left side and side-normal mounting plane assumed",
+    "right-side observations fit geometry; left-side points held out",
+    "appearance fitting only; connector function and dimensions unverified",
+    "local cavity/backing probes do not prove sealing or physical assembly"
+  ]
+}

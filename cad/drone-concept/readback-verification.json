@@ -3,12 +3,12 @@
   "scope": "saved static appearance study only",
   "physical_validation": false,
   "errors": [],
-  "visible_features": 533,
-  "step_solids": 636,
+  "visible_features": 721,
+  "step_solids": 830,
   "group_count": 0,
   "non_chinese_labels": [],
-  "chinese_named_objects": 537,
-  "chinese_step_part_names": 533,
+  "chinese_named_objects": 725,
+  "chinese_step_part_names": 721,
   "screen_panel_mm": [
     210.0,
     160.0,
@@ -23,8 +23,36 @@
     40
   ],
   "woofer_shell_overlap_mm3": 0.0,
-  "screen_side_unwanted_features": [],
-  "removed_external_pod_parts_present": [],
+  "restored_reference_modules": {
+    "FrontCheek": [
+      "FrontCheekLeft",
+      "FrontCheekRight"
+    ],
+    "CheekDial": [
+      "CheekDialLeft",
+      "CheekDialRight"
+    ],
+    "VentBacking": [
+      "VentBackingLeft",
+      "VentBackingRight"
+    ],
+    "CheekPerforatedPanel": [
+      "CheekPerforatedPanelLeft",
+      "CheekPerforatedPanelRight"
+    ],
+    "UtilityBarrel": [
+      "UtilityBarrelLeft"
+    ],
+    "UtilityCap": [
+      "UtilityCapLeft"
+    ],
+    "UtilityIndicator": [
+      "UtilityIndicatorLeft"
+    ],
+    "SideCable": [
+      "SideCableLeft"
+    ]
+  },
   "central_support_shafts": [
     {
       "name": "SupportShaftFrontLeft",
@@ -96,27 +124,470 @@
   "removed_rear_supports_present": [],
   "closure_probes_passed": 24,
   "closure_probe_count": 24,
+  "underbody_loop_connections": [
+    {
+      "name": "UnderbodyLoop0",
+      "end_centre_mm": [
+        -44.50000002806763,
+        72.8,
+        57.0
+      ],
+      "probe_radius_mm": 12,
+      "body_overlap_mm3": 85.35901973684587
+    },
+    {
+      "name": "UnderbodyLoop0",
+      "end_centre_mm": [
+        -44.50000002806763,
+        126.6,
+        57.00000000000004
+      ],
+      "probe_radius_mm": 12,
+      "body_overlap_mm3": 84.94255169116151
+    },
+    {
+      "name": "UnderbodyLoop1",
+      "end_centre_mm": [
+        44.49999997193237,
+        72.8,
+        57.00000000000001
+      ],
+      "probe_radius_mm": 12,
+      "body_overlap_mm3": 85.359019736841
+    },
+    {
+      "name": "UnderbodyLoop1",
+      "end_centre_mm": [
+        44.49999997193237,
+        126.59999999999998,
+        57.000000000000014
+      ],
+      "probe_radius_mm": 12,
+      "body_overlap_mm3": 84.9425516911517
+    }
+  ],
   "nozzle_loft_surface_count": 2,
-  "curved_nozzle_petals": 24,
+  "curved_nozzle_petals": 16,
   "non_volumetric_components": [],
   "armour_relief_depths_mm": {
-    "WingPaintLeft": 3.5,
-    "WingPaintRight": 3.5,
-    "WingSpineLeft": 4.199999999999989,
-    "WingSpineRight": 4.199999999999989,
-    "HoodShoulderPlateLeft": 4.0,
-    "HoodShoulderPlateRight": 4.0,
-    "RearArmourCheekLeft": 9.0,
-    "RearArmourCheekRight": 9.0
+    "WingPaintLeft": 13.32935793210001,
+    "WingPaintRight": 13.329357932050016,
+    "WingSpineLeft": 10.37723815999999,
+    "WingSpineRight": 10.37723816000998,
+    "HoodShoulderPlateLeft": 43.698549925199984,
+    "HoodShoulderPlateRight": 43.69854992526999,
+    "RearArmourCheekLeft": 85.35549848581678,
+    "RearArmourCheekRight": 85.35549848581678
   },
-  "nozzle_hinges": 24,
-  "step_relative_volume_error": 5.198050739558443e-07,
-  "step_bbox_max_delta_mm": 2.0463630789890885e-12,
-  "bbox_mm": [
-    350.6,
-    333.3654250107118,
-    479.62080699756166
+  "nozzle_hinges": 16,
+  "nozzle_detail_connections": [
+    {
+      "petal": 0,
+      "detail_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 48.31276409575807
+    },
+    {
+      "petal": 1,
+      "detail_gaps_mm": [
+        7.105427357601002e-15,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 50.09306542432812
+    },
+    {
+      "petal": 2,
+      "detail_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 51.57135158266241
+    },
+    {
+      "petal": 3,
+      "detail_gaps_mm": [
+        1.7763568394002505e-15,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 52.415738193848746
+    },
+    {
+      "petal": 4,
+      "detail_gaps_mm": [
+        8.881784197001252e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 52.4157340660771
+    },
+    {
+      "petal": 5,
+      "detail_gaps_mm": [
+        0.0,
+        0.0,
+        3.552713678800501e-15,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 51.571356346849534
+    },
+    {
+      "petal": 6,
+      "detail_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 50.093064416030145
+    },
+    {
+      "petal": 7,
+      "detail_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 48.31276325387185
+    },
+    {
+      "petal": 8,
+      "detail_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 46.563006326213845
+    },
+    {
+      "petal": 9,
+      "detail_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 45.09434995729784
+    },
+    {
+      "petal": 10,
+      "detail_gaps_mm": [
+        3.552713678800501e-15,
+        3.552713678800501e-15,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 44.057127977344464
+    },
+    {
+      "petal": 11,
+      "detail_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 43.52479483257152
+    },
+    {
+      "petal": 12,
+      "detail_gaps_mm": [
+        8.881784197001252e-16,
+        0.0,
+        4.440892098500626e-16,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 43.524794522766214
+    },
+    {
+      "petal": 13,
+      "detail_gaps_mm": [
+        1.4210854715202004e-14,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 44.05712777949392
+    },
+    {
+      "petal": 14,
+      "detail_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 45.09435020388654
+    },
+    {
+      "petal": 15,
+      "detail_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 46.56300713752293
+    }
   ],
-  "fcstd_sha256": "fe014fff58c9d9183f3943a6a998015af256a8700dd60c7be92ab162df78976d",
-  "step_sha256": "6fae7a5b3afb87e8b9dd03d66b3e8e6be6d299173982b64f5a8c4305de295be4"
+  "handle_connections": {
+    "Left": {
+      "inset_arm_overlap_mm3": 1113.088418157135,
+      "grip_joint_gaps_mm": [
+        0.0,
+        0.0
+      ],
+      "mark_inset_overlap_mm3": [
+        10.599260849499428,
+        10.20992165749942,
+        14.929818465499157
+      ],
+      "arm_sidewall_overlap_mm3": 26.526339672892632
+    },
+    "Right": {
+      "inset_arm_overlap_mm3": 1113.0883941033467,
+      "grip_joint_gaps_mm": [
+        0.0,
+        0.0
+      ],
+      "mark_inset_overlap_mm3": [
+        10.599260849499428,
+        10.20992165749942,
+        14.929818465499157
+      ],
+      "arm_sidewall_overlap_mm3": 26.526249182052613
+    }
+  },
+  "wing_connections": {
+    "Left": {
+      "paint_raised_overlap_mm3": 7686.746645756307,
+      "raised_blade_gap_mm": 0.0,
+      "fold_blade_overlap_mm3": 2975.3087376808076,
+      "inner_blade_gap_mm": 0.0,
+      "mark_paint_gap_mm": 1.9915487475094384e-12
+    },
+    "Right": {
+      "paint_raised_overlap_mm3": 7686.775336786486,
+      "raised_blade_gap_mm": 0.0,
+      "fold_blade_overlap_mm3": 2975.308742617093,
+      "inner_blade_gap_mm": 0.0,
+      "mark_paint_gap_mm": 4.0194366942304644e-14
+    }
+  },
+  "roof_connections": {
+    "rim_panel_overlap_mm3": 20.927928862249548,
+    "rim_mount_overlap_mm3": 420.6505375828762,
+    "mount_roof_overlap_mm3": 901.8028084743685,
+    "access_roof_overlap_mm3": 2988.1410980188016,
+    "side_cap_gap_mm": [
+      0.0,
+      0.0
+    ]
+  },
+  "rear_connections": {
+    "panel_carrier_overlap_mm3": 499.31042513000205,
+    "carrier_shell_overlap_mm3": 125557.54468042566,
+    "seat_panel_overlap_mm3": 260.53789506390797,
+    "slider_seat_overlap_mm3": 39.60300000000691,
+    "index_slider_overlap_mm3": 0.7519999999997418,
+    "vent_inlay_overlap_mm3": [
+      1.1254845100064044,
+      1.1254845100064044,
+      1.1254845100064046,
+      1.1254845100064046,
+      1.1254845100064044,
+      1.1254845100064044,
+      1.1254845100064041
+    ],
+    "vent_cavity_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "beacons": [
+      {
+        "side": -1,
+        "joint_gap_mm": [
+          0.0,
+          0.0
+        ],
+        "band_body_overlap_mm3": [
+          214.65815325911967,
+          233.4515544873492,
+          147.33493158499112
+        ]
+      },
+      {
+        "side": 1,
+        "joint_gap_mm": [
+          0.0,
+          0.0
+        ],
+        "band_body_overlap_mm3": [
+          214.65814283897902,
+          233.45155448727675,
+          147.3349315849922
+        ]
+      }
+    ]
+  },
+  "warning_shell_overlap_mm3": 1140.35317712777,
+  "shoulder_bolt_plate_overlap_mm3": {
+    "Left": 9.80902073263803,
+    "Right": 9.806031095297184
+  },
+  "hood_mark_crown_gap_mm": {
+    "HoodMark_1_0": 5.429959962425187e-13,
+    "HoodMark_1_1": 5.266171559608148e-13,
+    "HoodMark_1_2": 5.407628192453576e-13,
+    "HoodMark_1_3": 5.407599016518943e-13,
+    "HoodMark_1_001": 5.429959962425187e-13,
+    "HoodMark_1_002": 5.266171559608148e-13,
+    "HoodMark_1_003": 5.400241656093768e-13,
+    "HoodMark_1_004": 5.407599016518943e-13
+  },
+  "side_frame_bolt_gap_mm": {
+    "SideFrameBoltLeft0": 0.0,
+    "SideFrameBoltLeft1": 0.0,
+    "SideFrameBoltLeft2": 0.0,
+    "SideFrameBoltLeft3": 0.0,
+    "SideFrameBoltRight0": 0.0,
+    "SideFrameBoltRight1": 0.0,
+    "SideFrameBoltRight2": 0.0,
+    "SideFrameBoltRight3": 0.0
+  },
+  "side_frame_bolt_contact_targets": {
+    "SideFrameBoltLeft0": "SideFrameShoeLeft",
+    "SideFrameBoltLeft1": "SideFrameShoeLeft",
+    "SideFrameBoltLeft2": "SideGuardLeft",
+    "SideFrameBoltLeft3": "SideGuardLeft",
+    "SideFrameBoltRight0": "SideFrameShoeRight",
+    "SideFrameBoltRight1": "SideFrameShoeRight",
+    "SideFrameBoltRight2": "SideGuardRight",
+    "SideFrameBoltRight3": "SideGuardRight"
+  },
+  "side_frame_connections": {
+    "Left": {
+      "shoe_frame_overlap_mm3": 109.21177292225391,
+      "light_frame_overlap_mm3": 1480.4107027617351,
+      "frame_closure_gap_mm": 0.0
+    },
+    "Right": {
+      "shoe_frame_overlap_mm3": 109.21177292272661,
+      "light_frame_overlap_mm3": 1480.4107215817514,
+      "frame_closure_gap_mm": 0.0
+    }
+  },
+  "side_spine_perforation_probes_passed": 56,
+  "side_spine_perforation_probe_count": 56,
+  "front_cheek_connections": {
+    "Left": {
+      "cheek_bridge_overlap_mm3": 4153.0412736443795,
+      "bridge_spine_gap_mm": 0.0
+    },
+    "Right": {
+      "cheek_bridge_overlap_mm3": 4153.04127364437,
+      "bridge_spine_gap_mm": 0.0
+    }
+  },
+  "control_end_rail_overlap_mm3": {
+    "Left": 101.40878906206146,
+    "Right": 101.40878906206146
+  },
+  "lower_exhaust_petals": 36,
+  "lower_exhaust_edge_rails": 72,
+  "lower_exhaust_edge_gap_max_mm": 0.0,
+  "lower_exhaust_body_overlap_mm3": {
+    "LowerPod_1": {
+      "MainEnclosureShell": 901.1019683050916,
+      "BottomChassis": 710.7893275800345,
+      "ClosedBellyPan": 3507.0956700513125,
+      "RearLowerSlope": 0.0
+    },
+    "LowerPod_001": {
+      "MainEnclosureShell": 901.1032786874241,
+      "BottomChassis": 710.789324585624,
+      "ClosedBellyPan": 3507.101843222711,
+      "RearLowerSlope": 0.0
+    }
+  },
+  "side_ring_connections": {
+    "Left": {
+      "hub_wing_overlap_mm3": 1437.7621415025915,
+      "hub_cone_overlap_mm3": 69.34999989585572,
+      "hub_paint_overlap_mm3": 0.0,
+      "seal_body_overlap_mm3": 4639.234369169683,
+      "lip_flange_overlap_mm3": 2160.018898598732,
+      "flange_solid_count": 2,
+      "bridge_wire_flange_overlap_mm3": [
+        6.220685993827482,
+        16.156801801843084
+      ],
+      "lower_wire_end_overlap_mm3": [
+        17.19780614686891,
+        15.729988225291889,
+        18.132240463135872,
+        5.319894364037824
+      ]
+    },
+    "Right": {
+      "hub_wing_overlap_mm3": 1437.7616587159532,
+      "hub_cone_overlap_mm3": 69.35002562259073,
+      "hub_paint_overlap_mm3": 0.0,
+      "seal_body_overlap_mm3": 4639.235803730461,
+      "lip_flange_overlap_mm3": 2160.0189111890036,
+      "flange_solid_count": 2,
+      "bridge_wire_flange_overlap_mm3": [
+        12.441370765038704,
+        12.441370785714012
+      ],
+      "lower_wire_end_overlap_mm3": [
+        17.19779932298657,
+        15.729999502921281,
+        18.13228094035759,
+        5.319948977980316
+      ]
+    }
+  },
+  "step_relative_volume_error": 2.025495793927453e-07,
+  "step_bbox_max_delta_mm": 1.864464138634503e-11,
+  "bbox_mm": [
+    301.85566297978323,
+    352.2906174932922,
+    485.09868316645463
+  ],
+  "fcstd_sha256": "7b61aa95bb66d86fccb13c42552073b22820174ab46ac8a0c82247b865c4b062",
+  "step_sha256": "0da7bc3d2d9a82ac2e2b61336430c78e2ff733bf173318599c2d7945d9aea96c"
 }

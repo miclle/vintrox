@@ -1,0 +1,141 @@
+{
+  "fcstd_sha256": "7b61aa95bb66d86fccb13c42552073b22820174ab46ac8a0c82247b865c4b062",
+  "inputs": [
+    {
+      "source": "references/alexander-shevchuk-drone/alexander-shevchuk-01.jpg",
+      "sha256": "bd46720affbbdd4fa413a584a5effaa163fedd024e9087467301496fec4eda72",
+      "comparison_views": [
+        "still-01"
+      ],
+      "status": "visually reviewed; differences remain"
+    },
+    {
+      "source": "references/alexander-shevchuk-drone/alexander-shevchuk-02.jpg",
+      "sha256": "87249224262f977a018c0ba3964740bd1bc780d57c3735502e75389a17502da1",
+      "comparison_views": [
+        "still-02"
+      ],
+      "status": "visually reviewed; differences remain"
+    },
+    {
+      "source": "references/alexander-shevchuk-drone/alexander-shevchuk-03.jpg",
+      "sha256": "584543636adef77d34f994925e684b28208c29993a077b4ae9662a55e3283fd8",
+      "comparison_views": [
+        "still-03"
+      ],
+      "status": "visually reviewed; differences remain"
+    },
+    {
+      "source": "references/alexander-shevchuk-drone/alexander-shevchuk-04.jpg",
+      "sha256": "c2635b57d04092802341979a23e74876884bc00075d0ec9c8a3594b930e686ce",
+      "comparison_views": [
+        "still-04"
+      ],
+      "status": "visually reviewed; differences remain"
+    },
+    {
+      "source": "references/alexander-shevchuk-drone/alexander-shevchuk-05.jpg",
+      "sha256": "3860ef57bfcf146ea337493b1860771edc072454c5b1330dc12f8dbdf4c8b58d",
+      "comparison_views": [
+        "still-05"
+      ],
+      "status": "visually reviewed; differences remain"
+    },
+    {
+      "source": "references/alexander-shevchuk-drone/alexander-shevchuk-06.jpg",
+      "sha256": "f3438ec9a537500e14906bb8c706ab516ac7d10204c5e25716ffc43e006c2f3d",
+      "comparison_views": [
+        "still-06"
+      ],
+      "status": "visually reviewed; differences remain"
+    },
+    {
+      "source": "references/alexander-shevchuk-drone/closeup-2026-10-19.png",
+      "sha256": "94f0b548d3767ea2e6371761cb83353da5d56c935e51f8c2e8be40ebdfcc063b",
+      "comparison_views": [
+        "still-closeup"
+      ],
+      "status": "visually reviewed; differences remain"
+    },
+    {
+      "source": "references/alexander-shevchuk-drone/video-cam.jpeg",
+      "sha256": "3454322208bda002a9fd3d8c12ebe41d0e6c1615f9be37b4a02b7cdbc48772d3",
+      "comparison_views": [
+        "video-00",
+        "video-01",
+        "video-02",
+        "video-03",
+        "video-04",
+        "video-05",
+        "video-06",
+        "video-07",
+        "video-08",
+        "video-09"
+      ],
+      "status": "visually reviewed; differences remain"
+    },
+    {
+      "source": "references/alexander-shevchuk-drone/video-cam.mp4",
+      "sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+      "comparison_views": [
+        "video-00",
+        "video-01",
+        "video-02",
+        "video-03",
+        "video-04",
+        "video-05",
+        "video-06",
+        "video-07",
+        "video-08",
+        "video-09"
+      ],
+      "status": "visually reviewed; differences remain"
+    }
+  ],
+  "video_comparison": "iteration-63/comparison-report.json",
+  "still_comparison": "stills-34/comparison-report.json",
+  "landmarks": "landmark-check.json",
+  "physical_validation": false,
+  "nozzle_outline": "nozzle-outline-check.json",
+  "cooling_fins": "cooling-fin-check.json",
+  "brow_outline": "brow-outline-check.json",
+  "side_frame": "side-frame-check.json",
+  "side_frame_detail": "side-frame-detail.json",
+  "cheek_position": "cheek-position-check.json",
+  "cheek_detail": "cheek-position-detail.json",
+  "contour_attribution": "object-ids-v29/contour-attribution.json",
+  "loop_profile": "loop-profile-check.json",
+  "loop_detail": "loop-profile-detail.json",
+  "lower_pod_outline": "lower-pod-outline-check.json",
+  "lower_pod_detail": "lower-pod-detail.json",
+  "side_ring": "side-ring-check.json",
+  "side_ring_detail": "side-ring-detail.json",
+  "nozzle_root": "nozzle-root-check.json",
+  "nozzle_root_detail": "nozzle-root-detail.json",
+  "handle_profile": "handle-profile-check.json",
+  "handle_detail": "handle-profile-detail.json",
+  "roof_instrument": "roof-instrument-check.json",
+  "roof_detail": "roof-instrument-detail.json",
+  "rear_rail": "rear-rail-check.json",
+  "rear_detail": "rear-panel-detail.json",
+  "side_light": "side-light-check.json",
+  "side_rounding_detail": "side-rounding-detail.json",
+  "wing_profile": "wing-profile-check.json",
+  "wing_detail": "wing-profile-detail.json",
+  "front_control": "front-control-check.json",
+  "front_detail": "front-control-detail.json",
+  "knob_outline": "knob-outline-check.json",
+  "knob_detail": "knob-outline-detail.json",
+  "side_status": "side-status-check.json",
+  "side_status_detail": "side-status-detail.json",
+  "side_socket": "side-socket-check.json",
+  "side_socket_detail": "side-socket-detail.json",
+  "flange_detail": "flange-detail-check.json",
+  "flange_comparison": "flange-detail.json",
+  "side_cable": "side-cable-check.json",
+  "side_cable_detail": "side-cable-detail.json",
+  "rear_rake": "rear-rake-check.json",
+  "rear_rake_detail": "rear-rake-detail.json",
+  "rear_transition": "rear-transition-check.json",
+  "rear_transition_detail": "rear-transition-detail.json"
+}

@@ -1,0 +1,104 @@
+{
+  "fcstd_sha256": "7b61aa95bb66d86fccb13c42552073b22820174ab46ac8a0c82247b865c4b062",
+  "camera_fit_sha256": "328d9e47d561ab543c80f31453618d89772d3a5badfa1c6debc5723d5b7afd19",
+  "source_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "fitted_shared_y_z_mm": [
+    15.859808129351533,
+    164.80087131742474
+  ],
+  "fit_coordinate_rms_px": 1.1168697569315142,
+  "observations": [
+    {
+      "frame": 60,
+      "side": "Left",
+      "source_px": [
+        807,
+        432
+      ],
+      "saved_center_mm": [
+        -126.5,
+        15.859999999999996,
+        164.79999999999998
+      ],
+      "saved_px": [
+        805.8492411540196,
+        433.0929148350384
+      ],
+      "saved_distance_px": 1.5870440316037548,
+      "fit_px": [
+        805.8496401314205,
+        433.09107382633573
+      ]
+    },
+    {
+      "frame": 180,
+      "side": "Right",
+      "source_px": [
+        140,
+        435
+      ],
+      "saved_center_mm": [
+        126.0,
+        15.859999999999996,
+        164.79999999999998
+      ],
+      "saved_px": [
+        138.86455835445804,
+        433.91295683590926
+      ],
+      "saved_distance_px": 1.5719066674034592,
+      "fit_px": [
+        138.8641537776133,
+        433.9111126536093
+      ]
+    }
+  ],
+  "limitations": [
+    "two manual disc center observations",
+    "X stations retained from existing geometry",
+    "joint Y/Z placement only",
+    "fit points are not independent validation and do not certify entire contours"
+  ],
+  "end_mount_fit_shared_y_z_mm": [
+    6.883287389061949,
+    47.11761351062656
+  ],
+  "end_mount_observations": [
+    {
+      "frame": 60,
+      "side": "Left",
+      "source_px": [
+        799,
+        665
+      ],
+      "saved_center_mm": [
+        -109.10900000000002,
+        6.879999999999956,
+        47.11774125520671
+      ],
+      "saved_px": [
+        801.5606006472195,
+        666.1785032399139
+      ],
+      "saved_distance_px": 2.818784411945793
+    },
+    {
+      "frame": 180,
+      "side": "Right",
+      "source_px": [
+        139,
+        669
+      ],
+      "saved_center_mm": [
+        109.10900000000002,
+        6.879999999999956,
+        47.1222587447933
+      ],
+      "saved_px": [
+        141.49890676850606,
+        667.815487004611
+      ],
+      "saved_distance_px": 2.7654305404278112
+    }
+  ]
+}
