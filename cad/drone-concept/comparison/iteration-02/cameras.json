@@ -1,0 +1,211 @@
+{
+  "status": "screen-anchored perspective estimate; curved reference screen prevents exact planar calibration",
+  "resolution": [
+    940,
+    800
+  ],
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "views": [
+    {
+      "name": "video-00",
+      "source_frame": 0,
+      "time_seconds": 0,
+      "eye_mm": [
+        -461.9525874212777,
+        -503.0704256005837,
+        329.32935265420747
+      ],
+      "target_mm": [
+        -2,
+        130,
+        163
+      ],
+      "ortho_scale_mm": 412.280701754386,
+      "projection": "PERSP",
+      "lens_mm": 58.2,
+      "sensor_width_mm": 36
+    },
+    {
+      "name": "video-01",
+      "source_frame": 30,
+      "time_seconds": 1,
+      "eye_mm": [
+        -746.2189196610848,
+        -111.81138530706147,
+        329.32935265420747
+      ],
+      "target_mm": [
+        -2,
+        130,
+        163
+      ],
+      "ortho_scale_mm": 412.280701754386,
+      "projection": "PERSP",
+      "lens_mm": 58.2,
+      "sensor_width_mm": 36
+    },
+    {
+      "name": "video-02",
+      "source_frame": 60,
+      "time_seconds": 2,
+      "eye_mm": [
+        -746.2189196610849,
+        371.8113853070613,
+        329.32935265420747
+      ],
+      "target_mm": [
+        -2,
+        130,
+        163
+      ],
+      "ortho_scale_mm": 412.280701754386,
+      "projection": "PERSP",
+      "lens_mm": 58.2,
+      "sensor_width_mm": 36
+    },
+    {
+      "name": "video-03",
+      "source_frame": 90,
+      "time_seconds": 3,
+      "eye_mm": [
+        -461.9525874212779,
+        763.0704256005836,
+        329.32935265420747
+      ],
+      "target_mm": [
+        -2,
+        130,
+        163
+      ],
+      "ortho_scale_mm": 412.280701754386,
+      "projection": "PERSP",
+      "lens_mm": 58.2,
+      "sensor_width_mm": 36
+    },
+    {
+      "name": "video-04",
+      "source_frame": 120,
+      "time_seconds": 4,
+      "eye_mm": [
+        -2.000000000000144,
+        912.5180805870446,
+        329.32935265420747
+      ],
+      "target_mm": [
+        -2,
+        130,
+        163
+      ],
+      "ortho_scale_mm": 412.280701754386,
+      "projection": "PERSP",
+      "lens_mm": 58.2,
+      "sensor_width_mm": 36
+    },
+    {
+      "name": "video-05",
+      "source_frame": 150,
+      "time_seconds": 5,
+      "eye_mm": [
+        457.95258742127766,
+        763.0704256005838,
+        329.32935265420747
+      ],
+      "target_mm": [
+        -2,
+        130,
+        163
+      ],
+      "ortho_scale_mm": 412.280701754386,
+      "projection": "PERSP",
+      "lens_mm": 58.2,
+      "sensor_width_mm": 36
+    },
+    {
+      "name": "video-06",
+      "source_frame": 180,
+      "time_seconds": 6,
+      "eye_mm": [
+        742.2189196610848,
+        371.8113853070616,
+        329.32935265420747
+      ],
+      "target_mm": [
+        -2,
+        130,
+        163
+      ],
+      "ortho_scale_mm": 412.280701754386,
+      "projection": "PERSP",
+      "lens_mm": 58.2,
+      "sensor_width_mm": 36
+    },
+    {
+      "name": "video-07",
+      "source_frame": 210,
+      "time_seconds": 7,
+      "eye_mm": [
+        742.2189196610849,
+        -111.81138530706119,
+        329.32935265420747
+      ],
+      "target_mm": [
+        -2,
+        130,
+        163
+      ],
+      "ortho_scale_mm": 412.280701754386,
+      "projection": "PERSP",
+      "lens_mm": 58.2,
+      "sensor_width_mm": 36
+    },
+    {
+      "name": "video-08",
+      "source_frame": 240,
+      "time_seconds": 8,
+      "eye_mm": [
+        457.952587421278,
+        -503.0704256005836,
+        329.32935265420747
+      ],
+      "target_mm": [
+        -2,
+        130,
+        163
+      ],
+      "ortho_scale_mm": 412.280701754386,
+      "projection": "PERSP",
+      "lens_mm": 58.2,
+      "sensor_width_mm": 36
+    },
+    {
+      "name": "video-09",
+      "source_frame": 270,
+      "time_seconds": 9,
+      "eye_mm": [
+        -1.9999999999997604,
+        -652.5180805870446,
+        329.32935265420747
+      ],
+      "target_mm": [
+        -2,
+        130,
+        163
+      ],
+      "ortho_scale_mm": 412.280701754386,
+      "projection": "PERSP",
+      "lens_mm": 58.2,
+      "sensor_width_mm": 36
+    }
+  ],
+  "calibration": {
+    "anchor": "frame 270 display width; frames 0 and 240 mirrored screen positions; approximate planar interpretation of curved glass",
+    "active_width_mm": 200,
+    "focal_length_mm": 58.2,
+    "sensor_width_mm": 36,
+    "orbit_radius_mm": 800,
+    "elevation_degrees": 12,
+    "limitation": "manual image landmarks, not recovered source camera; inspect overlays before interpreting scores",
+    "orbit_degrees_per_second": 36,
+    "initial_azimuth_degrees": -126
+  }
+}

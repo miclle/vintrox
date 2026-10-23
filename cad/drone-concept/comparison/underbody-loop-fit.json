@@ -1,0 +1,102 @@
+{
+  "status": "historical v9 sparse low-point fit; full path superseded by loop-profile-check.json",
+  "parameter_names": [
+    "absolute_x_mm",
+    "y_mm",
+    "z_mm"
+  ],
+  "parameters": [
+    44.473620412121655,
+    106.04614206884443,
+    2.68678930596474
+  ],
+  "coordinate_rms_px": 2.4449118988294343,
+  "observations": [
+    {
+      "source_frame": 180,
+      "side": 1,
+      "pixel": [
+        377,
+        734
+      ]
+    },
+    {
+      "source_frame": 60,
+      "side": -1,
+      "pixel": [
+        563,
+        739
+      ]
+    },
+    {
+      "source_frame": 120,
+      "side": 1,
+      "pixel": [
+        386,
+        704
+      ]
+    },
+    {
+      "source_frame": 120,
+      "side": -1,
+      "pixel": [
+        554,
+        709
+      ]
+    }
+  ],
+  "residuals_px": [
+    [
+      1.505840277725099,
+      4.508754669988548
+    ],
+    [
+      0.7533121901615232,
+      -0.6445987588101616
+    ],
+    [
+      0.4612909602854529,
+      0.7424724807624443
+    ],
+    [
+      -0.37978604052523224,
+      -4.830429684937485
+    ]
+  ],
+  "camera_fit_sha256": "328d9e47d561ab543c80f31453618d89772d3a5badfa1c6debc5723d5b7afd19",
+  "fit_script_sha256": "c41d5fa9f3e0da83446aed5cdef024a213271196b1a71d4eb28192fc014c404b",
+  "historical_v9_world_path_mm": [
+    [
+      44.5,
+      54,
+      51
+    ],
+    [
+      44.5,
+      65,
+      15
+    ],
+    [
+      44.5,
+      106,
+      3
+    ],
+    [
+      44.5,
+      143,
+      14
+    ],
+    [
+      44.5,
+      162,
+      78
+    ]
+  ],
+  "tube_radius_mm": 5,
+  "mirror_other_side": true,
+  "limitations": [
+    "manual centerline estimates on dark tubes",
+    "low-point position only",
+    "full path and thickness inferred visually, not measured hardware"
+  ]
+}

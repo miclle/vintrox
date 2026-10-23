@@ -1,0 +1,108 @@
+{
+  "fcstd_sha256": "ec321cb134dc86fe382a2686e49657722ee0493bdb0b16f28abf2bf83ebf654c",
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "render_manifest_sha256": "f9bec83c61a8d8d7e6cbc9ab17f5c186889db7fc7e6000bc20d8aeb084272895",
+  "comparison_script_sha256": "cc43d400586d3018e893152ce4393d14522dd7583ac8b4d15ed81cac9d5056bf",
+  "camera_config_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+  "camera_status": "01/02/03/closeup display-corner fit; 04/05/06 reference wing and beacon landmark fits",
+  "registration": "camera projection only; no image warp, stretch or per-part alignment",
+  "excluded_from_cad": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "mask_method": "reference max(RGB)>18; one-pixel closing; fill holes smaller than 100 pixels; CAD alpha>127",
+  "limitations": [
+    "black-material/background ambiguity",
+    "camera fit uncertainty",
+    "visible surfaces only"
+  ],
+  "mean_silhouette_iou": 0.8132590638995333,
+  "views": [
+    {
+      "view": "still-01",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-01.jpg",
+      "score_interpretation": "display-corner camera fit; curved screen and corner uncertainty remain",
+      "silhouette_iou": 0.8594337518502081,
+      "symmetric_edge_mean_px": 32.34631766143539,
+      "symmetric_edge_p95_px": 131.67497859624453,
+      "reference_foreground_px": 391299,
+      "cad_foreground_px": 434046
+    },
+    {
+      "view": "still-02",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-02.jpg",
+      "score_interpretation": "display-corner camera fit; curved screen and corner uncertainty remain",
+      "silhouette_iou": 0.8560075877759071,
+      "symmetric_edge_mean_px": 31.665300877520103,
+      "symmetric_edge_p95_px": 137.12530690883284,
+      "reference_foreground_px": 417181,
+      "cad_foreground_px": 461440
+    },
+    {
+      "view": "still-03",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-03.jpg",
+      "score_interpretation": "display-corner camera fit; curved screen and corner uncertainty remain",
+      "silhouette_iou": 0.8507004858936189,
+      "symmetric_edge_mean_px": 45.89044287196653,
+      "symmetric_edge_p95_px": 165.0,
+      "reference_foreground_px": 359851,
+      "cad_foreground_px": 358119
+    },
+    {
+      "view": "still-04",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-04.jpg",
+      "score_interpretation": "four reference-only reconstructed wing/beacon landmarks; manual pixel uncertainty",
+      "silhouette_iou": 0.7769538951821345,
+      "symmetric_edge_mean_px": 59.74035022952541,
+      "symmetric_edge_p95_px": 193.49664079689558,
+      "reference_foreground_px": 360988,
+      "cad_foreground_px": 456441
+    },
+    {
+      "view": "still-05",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-05.jpg",
+      "score_interpretation": "four reference-only reconstructed wing/beacon landmarks; manual pixel uncertainty",
+      "silhouette_iou": 0.7637527761318732,
+      "symmetric_edge_mean_px": 70.70757730512808,
+      "symmetric_edge_p95_px": 227.1992517086998,
+      "reference_foreground_px": 362789,
+      "cad_foreground_px": 464725
+    },
+    {
+      "view": "still-06",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-06.jpg",
+      "score_interpretation": "wireframe: foreground score is not silhouette accuracy; landmark fit only",
+      "silhouette_iou": 0.7289633009288106,
+      "symmetric_edge_mean_px": 82.25593319149799,
+      "symmetric_edge_p95_px": 217.00264974817816,
+      "reference_foreground_px": 330417,
+      "cad_foreground_px": 443773
+    },
+    {
+      "view": "still-closeup",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/closeup-2026-10-19.png",
+      "score_interpretation": "display-corner camera fit; curved screen and corner uncertainty remain",
+      "silhouette_iou": 0.8570016495341808,
+      "symmetric_edge_mean_px": 32.23527754366227,
+      "symmetric_edge_p95_px": 143.0,
+      "reference_foreground_px": 418128,
+      "cad_foreground_px": 461101
+    }
+  ]
+}

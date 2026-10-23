@@ -1,0 +1,176 @@
+{
+  "parameters": [
+    97.78740290673511,
+    206.66798790088808,
+    173.55953008888287,
+    10.657765309990996
+  ],
+  "parameter_names": [
+    "absolute_x",
+    "y",
+    "upper_center_z",
+    "vertical_pitch"
+  ],
+  "observations": [
+    {
+      "source_frame": 150,
+      "side": 1,
+      "reference_px": [
+        [
+          387,
+          424
+        ],
+        [
+          386,
+          447
+        ],
+        [
+          385,
+          469
+        ]
+      ],
+      "fitted_px": [
+        [
+          386.390979973362,
+          423.7078446174557
+        ],
+        [
+          386.498000288928,
+          446.66131787327464
+        ],
+        [
+          386.60474698075603,
+          469.5561049336851
+        ]
+      ],
+      "distance_px": [
+        0.6754703253258203,
+        0.6022539918801428,
+        1.6983714462727288
+      ]
+    },
+    {
+      "source_frame": 180,
+      "side": 1,
+      "reference_px": [
+        [
+          545,
+          424
+        ],
+        [
+          546,
+          447
+        ],
+        [
+          545,
+          470
+        ]
+      ],
+      "fitted_px": [
+        [
+          544.6527039773074,
+          424.1100989594854
+        ],
+        [
+          544.5570258971441,
+          447.09234577439406
+        ],
+        [
+          544.4615927532528,
+          470.01575794452333
+        ]
+      ],
+      "distance_px": [
+        0.36432994422346326,
+        1.4459260021043088,
+        0.5386377968221948
+      ]
+    },
+    {
+      "source_frame": 210,
+      "side": 1,
+      "reference_px": [
+        [
+          666,
+          412
+        ],
+        [
+          666,
+          434
+        ],
+        [
+          666,
+          457
+        ]
+      ],
+      "fitted_px": [
+        [
+          666.7630607535875,
+          412.17392836297995
+        ],
+        [
+          666.520417566535,
+          434.30177203243335
+        ],
+        [
+          666.2783720851837,
+          456.37510793482056
+        ]
+      ],
+      "distance_px": [
+        0.782631962747782,
+        0.601581917212583,
+        0.6840914492476531
+      ]
+    }
+  ],
+  "held_out_observations": [
+    {
+      "source_frame": 60,
+      "side": -1,
+      "reference_px": [
+        [
+          405,
+          425
+        ],
+        [
+          406,
+          449
+        ],
+        [
+          407,
+          472
+        ]
+      ]
+    },
+    {
+      "source_frame": 90,
+      "side": -1,
+      "reference_px": [
+        [
+          561,
+          423
+        ],
+        [
+          560,
+          447
+        ],
+        [
+          561,
+          470
+        ]
+      ]
+    }
+  ],
+  "distance_rms_px": 0.922520658714536,
+  "max_distance_px": 1.6983714462727288,
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "source_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "fit_script_sha256": "8dde8a5f39a17b6fdfca07fadcf01b3d25b1b134a1d6579ca861457669c6d796",
+  "limitations": [
+    "manual mark centers on partly occluded dark panels",
+    "shared vertical spacing, mirrored left side and side-normal mounting plane assumed",
+    "right-side observations fit geometry; left-side points held out",
+    "appearance fitting only; connector function and dimensions unverified"
+  ]
+}
