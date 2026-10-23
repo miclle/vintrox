@@ -505,6 +505,37 @@ def main():
     require(ids['camera_config_sha256']==digest(comparison/'cameras.json'), 'Changed object ID cameras')
     for item in ids['images']:
         require(digest(attribution_path.parent/item['path'])==item['sha256'], 'Changed object ID render')
+    fairing=read(comparison/index['nozzle_fairing'])
+    require(fairing['fcstd_sha256']==model_hash and
+            fairing['camera_config_sha256']==digest(comparison/'cameras.json'), 'Stale nozzle fairing comparison')
+    require(fairing['measurement_script_sha256']==digest(root/'tools/measure_drone_nozzle_fairing.py'),
+            'Changed nozzle fairing measurement script')
+    require(fairing['object_id_manifest_sha256']==digest(attribution_path.parent/'object-id-manifest.json'),
+            'Changed nozzle fairing object-ID input')
+    require(fairing['reference_video_sha256']==digest(root/'references/alexander-shevchuk-drone/video-cam.mp4'),
+            'Changed nozzle fairing reference video')
+    require([len(o['reference_px']) for o in fairing['observations']]==[11,12,12] and
+            fairing['max_px']<22.75, 'Missing nozzle fairing samples or local target exceeded')
+    for item in fairing['source_files']:
+        require(digest(root/item['path'])==item['sha256'], 'Changed nozzle fairing comparison source')
+    require(digest(root/fairing['image_path'])==fairing['image_sha256'], 'Changed nozzle fairing comparison board')
+    fairing_detail=read(comparison/index['nozzle_fairing_detail'])
+    require(fairing_detail['fcstd_sha256']==model_hash and fairing_detail['camera_config_sha256']==
+            digest(comparison/'cameras.json'), 'Stale nozzle fairing detail board')
+    require(digest(root/fairing_detail['image_path'])==fairing_detail['image_sha256'],
+            'Changed nozzle fairing detail board')
+    for item in fairing_detail['source_files']:
+        require(digest(root/item['path'])==item['sha256'], 'Changed nozzle fairing detail source')
+    surface=read(comparison/index['nozzle_surfaces'])
+    require(surface['fcstd_sha256']==model_hash and surface['measurement_script_sha256']==
+            digest(root/'tools/measure_drone_nozzle_surfaces.py'), 'Stale nozzle surface checks')
+    require(surface['passed'] and len(surface['parts'])==5 and all(p['valid'] and
+            p['closed'] and p['solids']==1 for p in surface['parts']), 'Invalid nozzle surfaces')
+    require(len(surface['contacts'])==6 and all(c['gap_mm']<.01 for c in surface['contacts']),
+            'Detached nozzle surface patch or collar')
+    require(len(surface['surface_probes'])==15 and all(p['forward_exposure_mm']>.1
+            for p in surface['surface_probes']), 'Nozzle surface patch hidden by shell')
+    require(surface['woofer_shell_overlap_mm3']<1e-6, 'Nozzle surface intersects woofer reservation')
     result = {'passed':not errors, 'errors':errors, 'fcstd_sha256':model_hash,
               'visible_features':saved['visible_features'], 'step_solids':saved['step_solids'],
               'verified_images':len(images), 'reference_inputs':len(index['inputs']),

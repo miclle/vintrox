@@ -19,9 +19,10 @@ def main():
     parser.add_argument('--meshes',type=Path,required=True)
     parser.add_argument('--output',type=Path,required=True)
     parser.add_argument('--cameras',type=Path,required=True)
+    parser.add_argument('--model',type=Path,help='Saved FCStd bound to candidate meshes')
     args=parser.parse_args(sys.argv[sys.argv.index('--')+1:])
     root=Path(__file__).resolve().parents[1]
-    model=root/'cad/drone-concept/vintrox-drone-concept.FCStd'
+    model=args.model or root/'cad/drone-concept/vintrox-drone-concept.FCStd'
     data=json.loads(args.meshes.read_text())
     digest=hashlib.sha256(model.read_bytes()).hexdigest()
     if digest!=data['fcstd_sha256']:raise ValueError('Stale CAD triangles')
