@@ -1,5 +1,5 @@
 {
-  "revision": "v53-belly-side-relief",
+  "revision": "v53-underbody-loop-35mm",
   "tree_structure": "flat",
   "group_count": 0,
   "status": "appearance-study-only",
@@ -75,7 +75,7 @@
     287.73201123630713,
     385.09868316645463
   ],
-  "fcstd_sha256": "aa3de1dc9dcea5a511dd01cfba77d394fdd4a178254d170eb1f1bc369c0389b4",
+  "fcstd_sha256": "715c5ada8002a3c7ceb4ae766edf8718e940825b9b9f37386dbc545fcb4b7b4a",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4341,5 +4341,7 @@
     "central_strip_width_mm": 64.0,
     "outer_flat_start_x_mm": 62,
     "basis": "appearance-derived closed lower shell; support geometry retained, no load validation"
-  }
+  },
+  "underbody_loop_radius_mm": 3.5,
+  "underbody_loop_basis": "fixed ten-view video and seven-image appearance fit; decorative cable only; not electrical or structural validation"
 }
