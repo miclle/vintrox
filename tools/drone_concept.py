@@ -42,6 +42,7 @@ COOLING_FINS = 15  # Repeating 22–23 px bands in the fixed rear video view.
 UNDERBODY_LOOP_RADIUS = 3.5  # Fixed-video cable thickness fit; appearance only.
 NOZZLE_RADIAL_SCALE = 0.90  # Rear fixed-view fit; local X/Y only, appearance only.
 NOZZLE_SHELL_RADIAL_SCALE = 0.96  # Recessed housing fit; kept wider than the nozzle interior.
+NOZZLE_PETAL_TANGENTIAL_SCALE = 0.94  # Fixed-view petal span fit; root band remains unchanged.
 
 CHINESE_LABELS = {
     'MainEnclosureShell': '主机连续外壳', 'SlopedUpperArmour': '顶部斜面外罩',
@@ -304,6 +305,46 @@ def contract_nozzle_radial(shape, factor=NOZZLE_RADIAL_SCALE, preserve_root=Fals
         local = local.fuse(root_piece).removeSplitter()
     if local.isNull() or not local.isValid() or not local.Solids:
         raise ValueError('Invalid contracted nozzle solid')
+    local.Placement = placement
+    return local
+
+
+def contract_nozzle_petal_tangential(shape, index,
+                                     factor=NOZZLE_PETAL_TANGENTIAL_SCALE,
+                                     preserve_root=False):
+    """Narrow one petal in its local tangential direction.
+
+    The rear reference shows a slightly narrower repeated petal span than the
+    earlier fit.  The transform is applied in the saved nozzle frame, so the
+    axial station and the four added supports remain unchanged.  The lower
+    root band is retained as a real BRep piece to keep its existing overlap
+    with the mouth assembly.
+    """
+    if abs(factor - 1.0) < 1e-12:
+        return shape
+    placement = shape.Placement
+    local = shape.copy()
+    local.Placement = App.Placement()
+    theta = math.radians(index * 30 + 15)
+    radial = App.Vector(math.cos(theta), math.sin(theta), 0)
+    tangent = App.Vector(-math.sin(theta), math.cos(theta), 0)
+    matrix = App.Matrix()
+    matrix.A11 = radial.x * radial.x + factor * tangent.x * tangent.x
+    matrix.A12 = radial.x * radial.y + factor * tangent.x * tangent.y
+    matrix.A21 = radial.y * radial.x + factor * tangent.y * tangent.x
+    matrix.A22 = radial.y * radial.y + factor * tangent.y * tangent.y
+    matrix.A33 = 1.0
+    if preserve_root:
+        root_band = Part.makeBox(200, 200, 8, App.Vector(-100, -100, 94))
+        root = local.common(root_band)
+        upper = local.cut(root_band)
+        local = upper.transformShape(matrix)
+        if not root.isNull() and not local.isNull():
+            local = local.fuse(root).removeSplitter()
+    else:
+        local = local.transformShape(matrix)
+    if local.isNull() or not local.isValid() or not local.Solids:
+        raise ValueError('Invalid tangentially contracted nozzle petal')
     local.Placement = placement
     return local
 
@@ -1875,10 +1916,13 @@ def build(root, frame_view=True):
             elif name.startswith('NozzlePetalGuide'):color,category=(.58,.59,.54),'Details'
             else:color,category=(.49,.50,.46),'Details'
             b.add(name,place(contract_nozzle_radial(
-                shape, preserve_root=(name == f'NozzlePetal{i}'))),
+                contract_nozzle_petal_tangential(
+                    shape, i, preserve_root=(name == f'NozzlePetal{i}')),
+                preserve_root=(name == f'NozzlePetal{i}'))),
                 color,category,'metal')
         hinge=root_shifted_hinge(i)
-        b.add(f'NozzlePetalHinge{i}',place(hinge),(.30,.32,.29),'Details','metal')
+        b.add(f'NozzlePetalHinge{i}',place(contract_nozzle_petal_tangential(
+            hinge, i)),(.30,.32,.29),'Details','metal')
     # Projected surface patches remain in contact with the revised fairing.
     for name,shape in fairing.items():
         if name=='BassNozzleShell':continue
@@ -2024,6 +2068,7 @@ def save_outputs(doc, items, out):
         'petal_inset_window_degrees': [4.4, 18.1],
         'nozzle_radial_scale': NOZZLE_RADIAL_SCALE,
         'nozzle_shell_radial_scale': NOZZLE_SHELL_RADIAL_SCALE,
+        'nozzle_petal_tangential_scale': NOZZLE_PETAL_TANGENTIAL_SCALE,
         'rear_lower_edge_rise_mm': 6,
         'nozzle_lip_parameters_mm': {'gold_major_radius':52.82+ROOT_DELTA[1],'gold_minor_radius':1.0,'gold_station':95.6+ROOT_DELTA[0],'metal_major_radius':52.3215+ROOT_DELTA[1],'metal_minor_radius':1.0,'metal_station':96.8067+ROOT_DELTA[0],'gasket_outer_radius':52.5+ROOT_DELTA[1]},
         'nozzle_root_profile': {'local_delta_z_radius_y_tilt':list(ROOT_DELTA),'guide_span_degrees':5.4,'terminal_circle_preserved':True,'basis':'five fixed video views; manual root centreline observations'},
