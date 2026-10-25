@@ -1,5 +1,5 @@
 {
-  "revision": "v57-nozzle-shell-shadow-contract",
+  "revision": "v58-petal-tangential-contract",
   "belly_relief": {
     "outer_floor_z_mm": 52.5,
     "central_strip_width_mm": 64,
@@ -156,7 +156,7 @@
     287.619455769915,
     385.09868316645463
   ],
-  "fcstd_sha256": "f756d4d000ed875ff4927ca828420e567eac037074f55e30e32b018680d337cd",
+  "fcstd_sha256": "cf25bc7193b3051a5aa8bb28e19685990768e4c0e71a4c19432b19137da680aa",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -1859,7 +1859,7 @@
     {
       "name": "NozzlePetal0",
       "label": "低音喷口曲面叶片 — ·01",
-      "solids": 2,
+      "solids": 3,
       "valid": true
     },
     {
@@ -1913,7 +1913,7 @@
     {
       "name": "NozzlePetal1",
       "label": "低音喷口曲面叶片 — ·02",
-      "solids": 2,
+      "solids": 5,
       "valid": true
     },
     {
@@ -1967,7 +1967,7 @@
     {
       "name": "NozzlePetal2",
       "label": "低音喷口曲面叶片 — ·03",
-      "solids": 2,
+      "solids": 5,
       "valid": true
     },
     {
@@ -2021,7 +2021,7 @@
     {
       "name": "NozzlePetal3",
       "label": "低音喷口曲面叶片 — ·04",
-      "solids": 2,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2075,7 +2075,7 @@
     {
       "name": "NozzlePetal4",
       "label": "低音喷口曲面叶片 — ·05",
-      "solids": 2,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2129,7 +2129,7 @@
     {
       "name": "NozzlePetal5",
       "label": "低音喷口曲面叶片 — ·06",
-      "solids": 2,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2183,7 +2183,7 @@
     {
       "name": "NozzlePetal6",
       "label": "低音喷口曲面叶片 — ·07",
-      "solids": 2,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2237,7 +2237,7 @@
     {
       "name": "NozzlePetal7",
       "label": "低音喷口曲面叶片 — ·08",
-      "solids": 2,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2345,7 +2345,7 @@
     {
       "name": "NozzlePetal9",
       "label": "低音喷口曲面叶片 — ·10",
-      "solids": 2,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2399,7 +2399,7 @@
     {
       "name": "NozzlePetal10",
       "label": "低音喷口曲面叶片 — ·11",
-      "solids": 2,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2453,7 +2453,7 @@
     {
       "name": "NozzlePetal11",
       "label": "低音喷口曲面叶片 — ·12",
-      "solids": 2,
+      "solids": 3,
       "valid": true
     },
     {
@@ -4347,5 +4347,6 @@
       "valid": true
     }
   ],
-  "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation"
+  "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
+  "nozzle_petal_tangential_scale": 0.94
 }

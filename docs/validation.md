@@ -4,7 +4,7 @@
 
 本文件统一维护测量字段、验证条件与证据；[路线图](roadmap.md) 仅引用执行顺序，[配件参考资料](../references/README.md) 保存商品图与购买来源，不另建平行测量清单。
 
-**外形 CAD 进展（2026-10-25，Drone v57）**：v57 保存读回 696 个可见几何对象、817 个 STEP 实体，700 个对象全部中文显示名且无分组；本轮将容纳喷口外罩局部 X/Y 收窄到 0.96，将 12 片叶片、内腔和凹槽细节收窄到 0.90，主叶片局部 Z=94–102mm 保留根部搭接带，四根支柱、后壳保护对象和凹舱阴影语义保持。警示牌和红白表面片同步收形以保持实体接合。保存 FCStd、STEP、正式预览、十方位/七图渲染清单、叠加报告与零件归属图绑定同一 SHA-256；视频平均 IoU 85.40371793%，静态图平均 IoU 82.20106910%。详见[v57 交付检查](../cad/drone-concept/delivery-verification-v57-nozzle-shell-shadow.json)、[v57 研究记录](../cad/drone-concept/comparison/v57-nozzle-shell-study3/formal-v57-nozzle-shell-shadow/README.md)和[叠加记录](drone-overlay-comparison.md)。这些是静态外观检查，不证明打印、装配、声学、热或电气验收。
+**外形 CAD 进展（2026-10-25，Drone v58）**：v58 保存读回 696 个可见几何对象、832 个 STEP 实体，700 个对象全部中文显示名且无分组；在 v57 的喷口外罩 0.96、内腔/径向 0.90 基础上，将 12 片叶片及凹槽、导轨、边轨和铰接细节沿局部切向收窄到 0.94，主叶片局部 Z=94–102mm 保留根部搭接带，四根支柱、后壳保护对象和凹舱阴影语义保持。保存 FCStd、STEP、正式预览、十方位/七图渲染清单与叠加报告绑定同一 SHA-256；视频平均 IoU 85.44520663%，静态图平均 IoU 82.21528870%。详见[v58 交付检查](../cad/drone-concept/delivery-verification-v58-petal-tangential.json)和[叠加记录](drone-overlay-comparison.md)。这些是静态外观检查，不证明打印、装配、声学、热或电气验收。
 
 ## 1. 测绘表
 
