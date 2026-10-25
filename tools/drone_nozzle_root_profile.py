@@ -197,7 +197,9 @@ def root_shifted_leaf_parts(i, root_fraction=1.0, guide_span=5.4):
         tool.rotate(App.Vector(),App.Vector(0,0,1),math.degrees(theta)-90)
         return tool
     recess=skin(1,-.8,0,22.5).common(window(2.7,19.8,99.5,127,1.0))
-    inset=skin(-.65,-.95,0,22.5).common(window(3.1,19.4,99.8,126.7,.8))
+    # Keep the recessed strip embedded in the petal while narrowing its
+    # visible angular window. The radial backing and cavity shadow remain.
+    inset=skin(-.65,-.95,0,22.5).common(window(4.4,18.1,99.8,126.7,.8))
     parts={f'NozzlePetal{i}':petal.cut(recess),f'NozzlePetalInset{i}':inset}
     for edge_index,edge_offset in enumerate((1.7,20.8)):
         edge=a+edge_offset*angular_scale

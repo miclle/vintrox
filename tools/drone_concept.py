@@ -645,10 +645,12 @@ class Study:
         obj.EvidenceStatus = '外形草模；尺寸假设；未试装/打印/声学验证'
         obj.addProperty('App::PropertyString', 'RenderMaterial', 'Design')
         obj.RenderMaterial = material
-        obj.ViewObject.ShapeColor = color
-        obj.ViewObject.LineColor = tuple(v*.45 for v in color)
-        obj.ViewObject.DisplayMode = 'Flat Lines'
-        obj.ViewObject.LineWidth = .6
+        view=getattr(obj,'ViewObject',None)
+        if view is not None:
+            view.ShapeColor = color
+            view.LineColor = tuple(v*.45 for v in color)
+            view.DisplayMode = 'Flat Lines'
+            view.LineWidth = .6
         obj.Visibility = visible
         self.items.append(obj)
         return obj
@@ -1409,7 +1411,7 @@ def build(root, frame_view=True):
     panel.Placement.Base = App.Vector(-105, -1, 70)
     panel.addProperty('App::PropertyString', 'EvidenceStatus', 'Design')
     panel.EvidenceStatus = '用户测量210×160×2mm；接口与安装净空待验证'
-    panel.ViewObject.ShapeColor = DARK
+    if panel.ViewObject is not None: panel.ViewObject.ShapeColor = DARK
     panel.addProperty('App::PropertyString', 'RenderMaterial', 'Design')
     panel.RenderMaterial = 'rubber'
     panel.Visibility = True
@@ -1420,7 +1422,7 @@ def build(root, frame_view=True):
     active.Width = .8
     active.setExpression('Height', 'Parameters.ActiveHeight')
     active.Placement.Base = App.Vector(-100, -9, 75)
-    active.ViewObject.ShapeColor = GREEN
+    if active.ViewObject is not None: active.ViewObject.ShapeColor = GREEN
     active.addProperty('App::PropertyString', 'RenderMaterial', 'Design')
     active.RenderMaterial = 'screen'
     b.items.append(active)
@@ -1442,7 +1444,7 @@ def build(root, frame_view=True):
     glass = Part.makeSphere(1000,App.Vector(0,981,150)).cut(Part.makeSphere(998.8,App.Vector(0,981,150)))
     glass = glass.common(rounded_plate(200,150,22,(-100,-25,75),12))
     cover=b.add('ScreenCurvedCover',glass,(.8,.94,.74),'Face','glass')
-    cover.ViewObject.Transparency=88
+    if cover.ViewObject is not None: cover.ViewObject.Transparency=88
     # Video frames 270, 0 and 240 jointly locate the housing, key faces and
     # knob caps. Dimensions below are appearance fits, not manufacturing data.
     rail_w,rail_h,rail_y,rail_z=206.19156238,26.29319470,-6.93125240,44.54044806
@@ -1541,8 +1543,9 @@ def build(root, frame_view=True):
         for i, (y,z) in enumerate(((83,62),(115,62),(178,229),(70,223))):
             screw=b.bolt(f'SideFrameBolt{suffix}{i}', (side*139, y, z), direction, 1.7 if i<2 else 2.6)
             if i<2:
-                screw.ViewObject.ShapeColor=(.12,.13,.12)
-                screw.ViewObject.LineColor=(.054,.0585,.054)
+                if screw.ViewObject is not None:
+                    screw.ViewObject.ShapeColor=(.12,.13,.12)
+                    screw.ViewObject.LineColor=(.054,.0585,.054)
         # Source shows continuous curved bends, not mitered glowing sticks.
         # Work in final coordinates so the circular tube stays circular.
         lightface=profile([(y*1.25,z*.84+24) for y,z in light_outline],
@@ -1853,7 +1856,7 @@ def build(root, frame_view=True):
     reserve.AssumedDiameter = 88
     reserve.addProperty('App::PropertyLength', 'AssumedDepth', 'Reservation')
     reserve.AssumedDepth = 40
-    reserve.ViewObject.Transparency = 70
+    if reserve.ViewObject is not None: reserve.ViewObject.Transparency = 70
     # Four-view terminal-circle fit; shell and petals share a real oblique axis.
     for side in (-1, 1):
         direction = App.Vector(side*.70841617, -.15711996, -.68808419)
@@ -1971,13 +1974,14 @@ def save_outputs(doc, items, out):
         local_patches[name]=local
     label_metadata=warning_label_positions(local_patches)
     manifest = {
-        'revision': 'v53-belly-side-relief',
+        'revision': 'v55-petal-inset-window',
         'belly_relief': {'outer_floor_z_mm':52.5,'central_strip_width_mm':64,'outer_flat_start_x_mm':62,'basis':'appearance-derived closed lower shell; support geometry retained, no load validation'},
         'nozzle_marking_spec': MARKING_SPEC,
         'rear_shoulder_section_exponent': 1.5,
         'gold_wing_crease_offsets_local_y_mm': list(GOLD_WING_CREASE_OFFSETS),
         'petal_recess_stations_mm': [shifted_z(99.5,1),shifted_z(127.0,1)],
         'petal_recess_corner_radius_mm': 1.0,
+        'petal_inset_window_degrees': [4.4, 18.1],
         'rear_lower_edge_rise_mm': 6,
         'nozzle_lip_parameters_mm': {'gold_major_radius':52.82+ROOT_DELTA[1],'gold_minor_radius':1.0,'gold_station':95.6+ROOT_DELTA[0],'metal_major_radius':52.3215+ROOT_DELTA[1],'metal_minor_radius':1.0,'metal_station':96.8067+ROOT_DELTA[0],'gasket_outer_radius':52.5+ROOT_DELTA[1]},
         'nozzle_root_profile': {'local_delta_z_radius_y_tilt':list(ROOT_DELTA),'guide_span_degrees':5.4,'terminal_circle_preserved':True,'basis':'five fixed video views; manual root centreline observations'},
@@ -2012,8 +2016,10 @@ def save_outputs(doc, items, out):
     meshes = []
     for obj in visible:
         vertices, faces = obj.Shape.tessellate(.12)
+        view=getattr(obj,'ViewObject',None)
+        color=list(view.ShapeColor[:3]) if view is not None else list(getattr(obj,'ShapeColor',GOLD))
         meshes.append({'name': obj.Name, 'vertices': [[v.x, v.y, v.z] for v in vertices],
-                       'faces': faces, 'color': list(obj.ViewObject.ShapeColor[:3]),
+                       'faces': faces, 'color': color,
                        'material': getattr(obj, 'RenderMaterial', 'paint')})
     meshfile = Path(tempfile.gettempdir())/'vintrox-drone-render-meshes.json'
     meshfile.write_text(json.dumps({'fcstd_sha256': manifest['fcstd_sha256'],
