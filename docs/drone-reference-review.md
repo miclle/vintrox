@@ -44,3 +44,7 @@
 [装甲与提手细节](../cad/drone-concept/renders/armour-detail.png) · [喷口细节](../cad/drone-concept/renders/nozzle-detail.png) · [顶部](../cad/drone-concept/renders/top.png) · [底部](../cad/drone-concept/renders/underside.png)
 
 当前仍为外观模型。已增加曲面透明罩示意，但未完成原作曲面显示效果、复杂磨损/污渍、参考图全部标识的复现；没有打印、装配、强度或声学实测。
+
+## v53 侧后壳与喷口暗部试验（2026-10-25，未采用）
+
+后壳面板/凹舱背板内收 2 mm 及喷口内盆径向收小 3 mm 均从精确 v53 保存为真实 CAD 候选，四支柱与喷口外罩保持。两者相对基线的平均视频轮廓差异都只有 0.000913 个百分点，且没有稳定逐视角收益，因此不覆盖正式模型。叠加板和读回证据见 [研究包](../cad/drone-concept/comparison/v53-shadow-nozzle-study/README.md)。暗部仍按阴影/遮挡解释，不把它误建成喷口筒壁。

@@ -444,3 +444,9 @@ PYTHONPATH=/Applications/FreeCAD.app/Contents/Resources/lib \
 [局部前后对比](../cad/drone-concept/comparison/nozzle-fairing-detail.png) · [上缘点位](../cad/drone-concept/comparison/nozzle-fairing-check.png) · [曲面检查](../cad/drone-concept/comparison/nozzle-surface-check.json) · [六候选记录](../cad/drone-concept/comparison/nozzle-fairing-experiments/README.md)。
 
 本子任务已完成正式 FCStd/STEP、九视角预览、转台、十方位视频与逐图对照同步，保存读回和交付完整性审计通过。按用户要求在此暂停，并分阶段提交代码、模型与证据、文档。90% 整体目标尚未达到；恢复时继续依据固定相机检查剩余侧后方、喷口及翼板差异，不把此次局部收尾视为完整目标达成。
+
+## v53 侧后壳与喷口暗部试验（2026-10-25，未采用）
+
+本轮继续使用 v53 的固定十方位相机，专门分离后壳/凹舱阴影与喷口实体。后壳面板及凹舱背板横向内收 2 mm 的真实 CAD 候选平均 IoU 为 85.031174%，相对 v53 的 85.030261% 只增加 0.000913 个百分点；喷口 `BassVisualCone` 径向收小 3 mm 的候选轮廓 IoU 与基线完全相同。两者均没有形成稳定的整圈改善，正式模型保持 v53。
+
+本轮的关键判断是：凹舱暗边在参考中不能直接解释为连续圆筒壁。候选仍以独立平面/斜面容纳空间和真实凹盆表示，未把阴影补成新的喷口筒壁。完整候选 FCStd、STEP、读回检查和同角度叠加见 [v53 暗部研究](../cad/drone-concept/comparison/v53-shadow-nozzle-study/README.md)。

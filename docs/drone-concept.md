@@ -105,3 +105,7 @@ PYTHONPATH=/Applications/FreeCAD.app/Contents/Resources/lib \
 外罩上部改为较饱满的圆角截面，中段收敛，避免旧圆截面形成尖拱；出口圆周、口沿和叶片保持已有拟合位置。白色警示牌、红色边条、三角标记及侧纹均从新曲面截取有厚度的实体层，代替旧固定弧度的贴片。四个截面、圆角指数和壁厚均是外观推定，不是实测尺寸。
 
 固定三个后方视角的 35 个可见上缘点 RMS 从 18.09 降至 10.04 像素，最大值从 38.83 降至 19.42 像素；只验证局部抽样。六组贴片/口沿接合、15 个表面露出探针和低音占位无交叠检查通过。见[外罩叠加](../cad/drone-concept/comparison/nozzle-fairing-detail.png)、[可见上缘检查](../cad/drone-concept/comparison/nozzle-fairing-check.json)和[表面读回](../cad/drone-concept/comparison/nozzle-surface-check.json)。整体轮廓及材质细节仍需继续优化。
+
+## v53 侧后壳与喷口暗部试验（2026-10-25，未采用）
+
+本轮使用相同十方位相机检查后壳面板、凹舱背板与喷口内盆。后壳/凹舱横向内收 2 mm 的候选平均视频 IoU 为 85.031174%，相对 v53 只增加 0.000913 个百分点；喷口 `BassVisualCone` 径向收小 3 mm 的候选与基线差异也只有 0.000913 个百分点。两者都没有稳定整圈收益，正式模型仍为 v53。凹舱暗部继续按独立容纳空间的阴影和遮挡处理，未补成连续喷口筒壁。候选和固定角度叠加见 [v53 暗部研究](../cad/drone-concept/comparison/v53-shadow-nozzle-study/README.md)。
