@@ -1,6 +1,14 @@
 # Drone 外形评审草模
 
-2026-10-26，当前为 v60 喷口叶片切向收形修订。按最新要求保留四根新增支柱，其余造型尽可能向全部参考图片和旋转视频靠近。逐张图片采用独立透视相机，视频抽取十方位；保存真实 CAD 渲染、50% 叠加及差异图。比较方法、相机假设、历史回退和剩余差异见[叠加记录](drone-overlay-comparison.md)、[逐图记录](drone-reference-review.md)及[本轮彩色叠加板](../cad/drone-concept/comparison/iteration-120-petal-contract08648-video-comparison-color/comparison-board.png)。目前仍未达到 90% 的整圈轮廓目标，不宣称与原作完全一致。
+2026-10-26，当前为 v61 喷口外罩中段减薄修订。按最新要求保留四根新增支柱，其余造型尽可能向全部参考图片和旋转视频靠近。逐张图片采用独立透视相机，视频抽取十方位；保存真实 CAD 渲染、50% 叠加及差异图。比较方法、相机假设、历史回退和剩余差异见[叠加记录](drone-overlay-comparison.md)、[逐图记录](drone-reference-review.md)及[v61 视频叠加板](../cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-board.png)。目前仍未达到 90% 的整圈轮廓目标，不宣称与原作完全一致。
+
+## v61 喷口外罩中段减薄（2026-10-26）
+
+本轮只修改喷口容纳外罩的中段截面：中段深度减薄 3 mm，同时恢复肩部外展；根部连接、喷口本体、警示贴片和四根支柱保持。凹舱暗部继续作为独立的阴影/遮挡空间处理，没有把它补成连续喷口筒壁。
+
+正式模型保存读回为 696 个可见对象、1008 个 STEP 实体，四根支柱实体差集为 0 mm³。相同固定相机下视频十方位平均轮廓 IoU 为 **85.49201687%**，七张静态图为 **82.22681557%**；视频较 v60 提升约 0.025389 个百分点，静态图基本持平。这些是外观轮廓诊断，不代表完全一致、可打印、可装配或实物验收。
+
+[v61 视频叠加板](../cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-board.png) · [v61 静态叠加板](../cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-stills-comparison/comparison-board.png) · [v61 视频报告](../cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-report.json) · [v61 交付检查](../cad/drone-concept/delivery-verification-v61-nozzle-fairing-depth3.json)
 
 ## v60 喷口叶片切向收形与彩色渲染修复（2026-10-26）
 
