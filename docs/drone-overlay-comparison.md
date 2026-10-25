@@ -1,12 +1,20 @@
 # Drone 参考叠加与迭代
 
-2026-10-25，按用户要求恢复侧后方优化，当前为 v54 屏幕外框 220×172mm。用户要求除四根新增支柱外尽可能完整还原参考，使用真实模型截图与原图重叠比较，并利用 `video-cam.mp4` 检查整圈。目标是主要部件轮廓误差尽量控制在正面屏幕投影宽度的 5% 内，争取十方位平均轮廓 IoU 达到 90%。这是执行目标，尚未达到，不能把轮廓分数解释成细节还原率。
+2026-10-25，按用户要求恢复侧后方优化，当前为 v55 喷口叶片凹槽窗口修订。用户要求除四根新增支柱外尽可能完整还原参考，使用真实模型截图与原图重叠比较，并利用 `video-cam.mp4` 检查整圈。目标是主要部件轮廓误差尽量控制在正面屏幕投影宽度的 5% 内，争取十方位平均轮廓 IoU 达到 90%。这是执行目标，尚未达到，不能把轮廓分数解释成细节还原率。
 
 ## 当前阶段结果
 
 当前保存模型的十方位平均前景轮廓 IoU 为 **85.13408%**；同设置 v6 基线为 **66.23%**，提高约 **18.90 个百分点**。相对 v53 3.5mm 基线提升 0.041821 个百分点。90% 目标尚未达到，局部亮边、末端和外壳细节仍有差异。
 
 [当前十方位比较板](../cad/drone-concept/comparison/iteration-89/comparison-board.png) · [当前逐图比较板](../cad/drone-concept/comparison/stills-60/comparison-board.png) · [当前报告](../cad/drone-concept/comparison/iteration-89/comparison-report.json) · [同设置 v6 基线](../cad/drone-concept/comparison/baseline-raw-v23/comparison-report.json)
+
+## v55 喷口叶片凹槽窗口
+
+本轮固定相机、固定参考帧和固定遮罩规则，只收窄 12 件 `NozzlePetalInset` 的可见窗口至 4.4°–18.1°。视频十方位平均 IoU 为 **85.13413035%**，七张静态图平均 IoU 为 **82.04483420%**；相对 v54 的差异在千分之一百分点量级，因此把它记录为局部凹槽细节修订。四根支柱保持不变，后壳与喷口容纳凹舱保持阴影/遮挡语义。
+
+[v55 十方位叠加板](../cad/drone-concept/comparison/iteration-90/comparison-board.png) · [v55 七图叠加板](../cad/drone-concept/comparison/stills-61/comparison-board.png) · [v55 零件归属图](../cad/drone-concept/comparison/object-ids-v56/contour-attribution.json) · [v55 研究记录](../cad/drone-concept/comparison/v55-petal-inset-study/README.md) · [v55 交付检查](../cad/drone-concept/delivery-verification-v55-petal-inset-window.json)
+
+每一份报告、渲染清单和零件归属图都记录同一个保存 FCStd SHA-256；这些数值只说明静态外观比较的输入一致，不代表与参考完全一致、可打印、可装配或已完成声学验证。
 
 ## v54 屏幕外框 220×172mm（2026-10-25）
 
