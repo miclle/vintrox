@@ -450,13 +450,13 @@ def verify(root):
                   'step_bbox_max_delta_mm': bbox_delta,
                   'bbox_mm': [bbox.XLength, bbox.YLength, bbox.ZLength],
                   'fcstd_sha256': digest, 'step_sha256': hashlib.sha256(step.read_bytes()).hexdigest()}
-        (out/'readback-verification.json').write_text(json.dumps(report, indent=2)+'\n')
+        (out/'readback-verification.json').write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8')
         if not errors:
             manifest['bbox_mm'] = report['bbox_mm']
             manifest['bbox_min_mm'] = [bbox.XMin, bbox.YMin, bbox.ZMin]
             manifest['bbox_max_mm'] = [bbox.XMax, bbox.YMax, bbox.ZMax]
             manifest['bounds_basis'] = 'saved FCStd independent readback; optimal trimmed-surface bounds without triangulation'
-            (out/'concept-manifest.json').write_text(json.dumps(manifest, indent=2, ensure_ascii=False)+'\n')
+            (out/'concept-manifest.json').write_text(json.dumps(manifest, indent=2, ensure_ascii=False)+'\n', encoding='utf-8')
         print(json.dumps(report, indent=2))
         if errors:
             raise RuntimeError('Appearance package verification failed')

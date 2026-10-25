@@ -1,5 +1,5 @@
 {
-  "revision": "v58-petal-tangential-contract",
+  "revision": "v58-rear-fold-radius24-shadow-contract",
   "belly_relief": {
     "outer_floor_z_mm": 52.5,
     "central_strip_width_mm": 64,
@@ -37,7 +37,9 @@
   ],
   "nozzle_radial_scale": 0.9,
   "nozzle_shell_radial_scale": 0.96,
+  "nozzle_petal_tangential_scale": 0.94,
   "rear_lower_edge_rise_mm": 6,
+  "rear_fold_radius_mm": 24,
   "nozzle_lip_parameters_mm": {
     "gold_major_radius": 54.019312188677304,
     "gold_minor_radius": 1.0,
@@ -156,7 +158,7 @@
     287.619455769915,
     385.09868316645463
   ],
-  "fcstd_sha256": "cf25bc7193b3051a5aa8bb28e19685990768e4c0e71a4c19432b19137da680aa",
+  "fcstd_sha256": "b8aec8226ad6d66ec37c3d37777844bc3c6e51b6cb4152076b632ed045331eb0",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4347,6 +4349,5 @@
       "valid": true
     }
   ],
-  "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
-  "nozzle_petal_tangential_scale": 0.94
+  "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation"
 }

@@ -10,6 +10,8 @@ VINTROX 是一台带实体 CD 光驱、iPad 改装屏、树莓派、移动硬盘
 
 2026-10-24 推进至 v53 [逐图与整圈叠加修订](docs/drone-overlay-comparison.md)：收薄侧后方底壳，露出底部环件和线束；四支柱与中央连接条带不变。固定十方位轮廓 IoU 84.88%→85.03%，90% 目标未达，保留全部退步视角。见[同角度对照](cad/drone-concept/comparison/rear-belly-study/README.md)。
 
+2026-10-26 后壳折角跟进至 v58：后壳斜折段半径 24mm，凹舱继续按独立阴影内衬处理，四根支柱保持不变；固定相机视频/静态轮廓均有小幅变化，仍是外观研究，见[后壳叠加板](cad/drone-concept/comparison/v58-rear-followup-study/README.md)。
+
 底部支撑按 2026-10-22 用户要求改为从中央向四角斜下伸出的四根细光轴，抬高机身；Ø6mm 轴径与高度为外观假设，固定和稳定性未实测，见 [支撑方案](docs/enclosure.md#底部中央四光轴支撑2026-10-22)。
 
 ![Drone 外形评审草模](cad/drone-concept/renders/hero.png)
