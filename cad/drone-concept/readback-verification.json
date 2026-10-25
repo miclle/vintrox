@@ -7,6 +7,7 @@
   "step_solids": 805,
   "group_count": 0,
   "non_chinese_labels": [],
+  "gui_document_present": false,
   "chinese_named_objects": 700,
   "chinese_step_part_names": 696,
   "screen_panel_mm": [
@@ -186,55 +187,55 @@
       "detail_gaps_mm": [
         0.0,
         0.0,
-        0.0,
+        7.105427357601002e-15,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 15.141403286178619
+      "root_roll_overlap_mm3": 15.141403286181594
     },
     {
       "petal": 1,
       "detail_gaps_mm": [
         0.0,
         0.0,
-        3.552713678800501e-15,
+        0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 14.56634199412633
+      "root_roll_overlap_mm3": 14.56634204290036
     },
     {
       "petal": 2,
       "detail_gaps_mm": [
-        0.0,
-        1.7763568394002505e-15,
-        0.0,
+        4.440892098500626e-16,
+        1.4210854715202004e-14,
+        8.881784197001252e-16,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 14.349627620790677
+      "root_roll_overlap_mm3": 14.349627620787771
     },
     {
       "petal": 3,
       "detail_gaps_mm": [
-        3.552713678800501e-15,
-        7.105427357601002e-15,
-        1.7763568394002505e-15,
         0.0,
-        0.0
+        7.944109290391274e-15,
+        0.0,
+        0.0,
+        3.552713678800501e-15
       ],
-      "root_roll_overlap_mm3": 14.566353354537416
+      "root_roll_overlap_mm3": 14.56635331234838
     },
     {
       "petal": 4,
       "detail_gaps_mm": [
         0.0,
         0.0,
-        7.105427357601002e-15,
+        0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 15.141412299198956
+      "root_roll_overlap_mm3": 15.141412308491796
     },
     {
       "petal": 5,
@@ -245,18 +246,18 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 15.885086803164233
+      "root_roll_overlap_mm3": 15.88508679571586
     },
     {
       "petal": 6,
       "detail_gaps_mm": [
         0.0,
-        0.0,
         7.105427357601002e-15,
+        0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 16.57925975119148
+      "root_roll_overlap_mm3": 16.579259757954908
     },
     {
       "petal": 7,
@@ -267,7 +268,7 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.056080904666885
+      "root_roll_overlap_mm3": 17.05608090503052
     },
     {
       "petal": 8,
@@ -278,40 +279,40 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.224077878651684
+      "root_roll_overlap_mm3": 17.224077330392053
     },
     {
       "petal": 9,
       "detail_gaps_mm": [
         0.0,
-        1.4210854715202004e-14,
-        0.0,
+        7.105427357601002e-15,
+        3.552713678800501e-15,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.05608037032169
+      "root_roll_overlap_mm3": 17.05608054805751
     },
     {
       "petal": 10,
       "detail_gaps_mm": [
         0.0,
-        0.0,
+        7.105427357601002e-15,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 16.57925537736615
+      "root_roll_overlap_mm3": 16.579255377364742
     },
     {
       "petal": 11,
       "detail_gaps_mm": [
         0.0,
         0.0,
-        7.105427357601002e-15,
+        0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 15.885086907990384
+      "root_roll_overlap_mm3": 15.88508690799271
     }
   ],
   "handle_connections": {
@@ -419,7 +420,7 @@
       }
     ]
   },
-  "warning_shell_overlap_mm3": 169.46318363866098,
+  "warning_shell_overlap_mm3": 169.46318381276518,
   "shoulder_bolt_plate_overlap_mm3": {
     "Left": 9.80902073263803,
     "Right": 9.806031095297184
@@ -457,12 +458,12 @@
   "side_frame_connections": {
     "Left": {
       "shoe_frame_overlap_mm3": 112.15541860497089,
-      "light_frame_overlap_mm3": 1493.9087417179303,
+      "light_frame_overlap_mm3": 1493.9087417060587,
       "frame_closure_gap_mm": 0.0
     },
     "Right": {
       "shoe_frame_overlap_mm3": 112.15541860468063,
-      "light_frame_overlap_mm3": 1493.9087547738204,
+      "light_frame_overlap_mm3": 1493.90875478099,
       "frame_closure_gap_mm": 0.0
     }
   },
@@ -495,7 +496,7 @@
     "LowerPod_001": {
       "MainEnclosureShell": 901.1032786874241,
       "BottomChassis": 710.789324585624,
-      "ClosedBellyPan": 478.00078443259406,
+      "ClosedBellyPan": 478.0007844325941,
       "RearLowerSlope": 0.0
     }
   },
@@ -537,15 +538,13 @@
       ]
     }
   },
-  "step_relative_volume_error": 2.979092308841409e-07,
-  "step_bbox_max_delta_mm": 2.5920599000528455e-11,
+  "step_relative_volume_error": 2.97964802824334e-07,
+  "step_bbox_max_delta_mm": 2.575006874394603e-11,
   "bbox_mm": [
     301.85566297978323,
-    351.8244508900195,
+    351.82445089001965,
     485.09868316645463
   ],
   "fcstd_sha256": "e64613e11be81eb528a9d0863266a8ade031bf306e40eb9865d28601d57998eb",
-  "step_sha256": "4ec4e4a1f5d3262fcc2a2d435e0f5b4e3d9addb30f4ed67fd920837543eb4583",
-  "saved_readback_method": "FreeCAD 1.1.4 headless openDocument plus independent STEP import; GuiDocument.xml is not present in headless saves",
-  "gui_document_present": false
+  "step_sha256": "4ec4e4a1f5d3262fcc2a2d435e0f5b4e3d9addb30f4ed67fd920837543eb4583"
 }
