@@ -21,7 +21,7 @@
 
 [v36 侧后壳收窄候选与回退](rear-side-width-study/README.md) · [正式模型与候选实体核对](rear-side-width-study/formal-geometry-check.json) · [左后](rear-side-width-detail-left.png) · [正后](rear-side-width-detail-back.png) · [右后](rear-side-width-detail-right.png)。
 
-当前模型：v53 侧后壳底部收形。十方位轮廓约 85.03%，目标继续执行。当前完整图组为 `iteration-87` / `stills-58`，对象分色为 `object-ids-v53`。旧候选和旧报告按其版本理解。
+历史索引中的 v53 侧后壳底部收形记录继续保留；当前正式图组为 `iteration-92` / `stills-63`，对象分色为 `object-ids-v58`。旧候选和旧报告按其版本理解。
 
 - [当前十方位比较板](iteration-83/comparison-board.png)、[报告](iteration-83/comparison-report.json)、[CAD 原始渲染](iteration-83-renders/render-manifest.json)。
 - [七张独立图片比较板](stills-54/comparison-board.png)、[报告](stills-54/comparison-report.json)、[原始渲染](stills-54-renders/render-manifest.json)。06 是线框图，不计入十方位轮廓目标。
