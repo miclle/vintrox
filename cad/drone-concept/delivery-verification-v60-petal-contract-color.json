@@ -1,0 +1,48 @@
+{
+  "revision": "v60-petal-contract-color",
+  "status": "appearance-study-only",
+  "fcstd_sha256": "091c0948c5d9643e57aa939439076699c2085d3bb2ab424d28789f743ac7555b",
+  "step_sha256": "44cdccd458eead857270bf704c84abfe34aec0ed8bd3c636a3a41dc972829f46",
+  "visible_objects": 696,
+  "mesh_fcstd_sha256": "091c0948c5d9643e57aa939439076699c2085d3bb2ab424d28789f743ac7555b",
+  "mesh_color_repair": {
+    "source_archive": "drone-nozzle-marking-cache/formal/render-meshes.json",
+    "source_archive_sha256": "6e946dc961b10da482337e3c42f1f26e6f716ba3d26043468c6be6cef6b99e07",
+    "source_objects": 696,
+    "source_color_count": 74,
+    "current_color_count": 74,
+    "object_name_mapping_complete": true,
+    "geometry_changed": false,
+    "method": "copy color and material by stable object name; retain current v60 vertices and faces"
+  },
+  "support": {
+    "shafts": 4,
+    "geometry_symmetric_difference_mm3": 0.0,
+    "basis": "saved CAD check; load/stability untested"
+  },
+  "video_comparison": {
+    "path": "cad/drone-concept/comparison/iteration-120-petal-contract08648-video-comparison-color/comparison-report.json",
+    "mean_silhouette_iou": 0.8546662726244785,
+    "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+    "registration": "camera projection only; no image warp, stretch or per-part alignment"
+  },
+  "stills_comparison": {
+    "path": "cad/drone-concept/comparison/iteration-120-petal-contract08648-stills-comparison-color/comparison-report.json",
+    "mean_silhouette_iou": 0.8223166268040026,
+    "camera_config_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+    "registration": "camera projection only; no image warp, stretch or per-part alignment"
+  },
+  "limitations": [
+    "silhouette diagnostics only",
+    "no image warp or per-part alignment",
+    "dark cavity remains an occluded recessed housing, not a nozzle tube wall",
+    "no printing, assembly, acoustic, thermal, electrical, load, or physical acceptance"
+  ],
+  "formal_renders": {
+    "manifest": "cad/drone-concept/renders/render-manifest.json",
+    "manifest_sha256": "4b4e947593adf8d7f85ffa96499166e1ebbea4d89e0ecdb4c4ca0ff625e46be6",
+    "turntable_sha256": "23c4cd79d8fdc1d91f1b43682791549404b70627ff978a24298f2178793e3a18",
+    "color_status": "object-level palette restored; 74 distinct RGB triples",
+    "image_count": 9
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "revision": "v58-rear-fold-radius24-shadow-contract",
+  "revision": "v60-petal-tangential-contract-08648",
   "belly_relief": {
     "outer_floor_z_mm": 52.5,
     "central_strip_width_mm": 64,
@@ -37,7 +37,7 @@
   ],
   "nozzle_radial_scale": 0.9,
   "nozzle_shell_radial_scale": 0.96,
-  "nozzle_petal_tangential_scale": 0.94,
+  "nozzle_petal_tangential_scale": 0.8648,
   "rear_lower_edge_rise_mm": 6,
   "rear_fold_radius_mm": 24,
   "nozzle_lip_parameters_mm": {
@@ -158,7 +158,7 @@
     287.619455769915,
     385.09868316645463
   ],
-  "fcstd_sha256": "b8aec8226ad6d66ec37c3d37777844bc3c6e51b6cb4152076b632ed045331eb0",
+  "fcstd_sha256": "091c0948c5d9643e57aa939439076699c2085d3bb2ab424d28789f743ac7555b",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -1861,25 +1861,25 @@
     {
       "name": "NozzlePetal0",
       "label": "低音喷口曲面叶片 — ·01",
-      "solids": 3,
+      "solids": 5,
       "valid": true
     },
     {
       "name": "NozzlePetalInset0",
       "label": "喷口叶片凹槽衬片 — ·01",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail0_1",
       "label": "喷口叶片圆边压条 — 0_·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail0_20",
       "label": "喷口叶片圆边压条 — 0_·21",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
@@ -1891,49 +1891,49 @@
     {
       "name": "NozzlePetalRidge0",
       "label": "低音喷口叶片加强条 — ·01",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide0_0",
       "label": "喷口叶片凹槽导轨 — 0_·01",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide0_1",
       "label": "喷口叶片凹槽导轨 — 0_·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalHinge0",
       "label": "低音喷口叶片根铰示意 — ·01",
-      "solids": 1,
+      "solids": 2,
       "valid": true
     },
     {
       "name": "NozzlePetal1",
       "label": "低音喷口曲面叶片 — ·02",
-      "solids": 5,
+      "solids": 8,
       "valid": true
     },
     {
       "name": "NozzlePetalInset1",
       "label": "喷口叶片凹槽衬片 — ·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail1_24",
       "label": "喷口叶片圆边压条 — 1_·25",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail1_43",
       "label": "喷口叶片圆边压条 — 1_·44",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
@@ -1945,49 +1945,49 @@
     {
       "name": "NozzlePetalRidge1",
       "label": "低音喷口叶片加强条 — ·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide1_0",
       "label": "喷口叶片凹槽导轨 — 1_·01",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide1_1",
       "label": "喷口叶片凹槽导轨 — 1_·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalHinge1",
       "label": "低音喷口叶片根铰示意 — ·02",
-      "solids": 1,
+      "solids": 2,
       "valid": true
     },
     {
       "name": "NozzlePetal2",
       "label": "低音喷口曲面叶片 — ·03",
-      "solids": 5,
+      "solids": 8,
       "valid": true
     },
     {
       "name": "NozzlePetalInset2",
       "label": "喷口叶片凹槽衬片 — ·03",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail2_46",
       "label": "喷口叶片圆边压条 — 2_·47",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail2_65",
       "label": "喷口叶片圆边压条 — 2_·66",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
@@ -1999,49 +1999,49 @@
     {
       "name": "NozzlePetalRidge2",
       "label": "低音喷口叶片加强条 — ·03",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide2_0",
       "label": "喷口叶片凹槽导轨 — 2_·01",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide2_1",
       "label": "喷口叶片凹槽导轨 — 2_·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalHinge2",
       "label": "低音喷口叶片根铰示意 — ·03",
-      "solids": 1,
+      "solids": 2,
       "valid": true
     },
     {
       "name": "NozzlePetal3",
       "label": "低音喷口曲面叶片 — ·04",
-      "solids": 3,
+      "solids": 5,
       "valid": true
     },
     {
       "name": "NozzlePetalInset3",
       "label": "喷口叶片凹槽衬片 — ·04",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail3_69",
       "label": "喷口叶片圆边压条 — 3_·70",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail3_88",
       "label": "喷口叶片圆边压条 — 3_·89",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2053,49 +2053,49 @@
     {
       "name": "NozzlePetalRidge3",
       "label": "低音喷口叶片加强条 — ·04",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide3_0",
       "label": "喷口叶片凹槽导轨 — 3_·01",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide3_1",
       "label": "喷口叶片凹槽导轨 — 3_·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalHinge3",
       "label": "低音喷口叶片根铰示意 — ·04",
-      "solids": 1,
+      "solids": 2,
       "valid": true
     },
     {
       "name": "NozzlePetal4",
       "label": "低音喷口曲面叶片 — ·05",
-      "solids": 3,
+      "solids": 5,
       "valid": true
     },
     {
       "name": "NozzlePetalInset4",
       "label": "喷口叶片凹槽衬片 — ·05",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail4_91",
       "label": "喷口叶片圆边压条 — 4_·92",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail4_110",
       "label": "喷口叶片圆边压条 — 4_·111",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2107,49 +2107,49 @@
     {
       "name": "NozzlePetalRidge4",
       "label": "低音喷口叶片加强条 — ·05",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide4_0",
       "label": "喷口叶片凹槽导轨 — 4_·01",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide4_1",
       "label": "喷口叶片凹槽导轨 — 4_·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalHinge4",
       "label": "低音喷口叶片根铰示意 — ·05",
-      "solids": 1,
+      "solids": 2,
       "valid": true
     },
     {
       "name": "NozzlePetal5",
       "label": "低音喷口曲面叶片 — ·06",
-      "solids": 3,
+      "solids": 5,
       "valid": true
     },
     {
       "name": "NozzlePetalInset5",
       "label": "喷口叶片凹槽衬片 — ·06",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail5_114",
       "label": "喷口叶片圆边压条 — 5_·115",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail5_133",
       "label": "喷口叶片圆边压条 — 5_·134",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2161,49 +2161,49 @@
     {
       "name": "NozzlePetalRidge5",
       "label": "低音喷口叶片加强条 — ·06",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide5_0",
       "label": "喷口叶片凹槽导轨 — 5_·01",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide5_1",
       "label": "喷口叶片凹槽导轨 — 5_·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalHinge5",
       "label": "低音喷口叶片根铰示意 — ·06",
-      "solids": 1,
+      "solids": 2,
       "valid": true
     },
     {
       "name": "NozzlePetal6",
       "label": "低音喷口曲面叶片 — ·07",
-      "solids": 3,
+      "solids": 4,
       "valid": true
     },
     {
       "name": "NozzlePetalInset6",
       "label": "喷口叶片凹槽衬片 — ·07",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail6_136",
       "label": "喷口叶片圆边压条 — 6_·137",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail6_155",
       "label": "喷口叶片圆边压条 — 6_·156",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2215,49 +2215,49 @@
     {
       "name": "NozzlePetalRidge6",
       "label": "低音喷口叶片加强条 — ·07",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide6_0",
       "label": "喷口叶片凹槽导轨 — 6_·01",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide6_1",
       "label": "喷口叶片凹槽导轨 — 6_·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalHinge6",
       "label": "低音喷口叶片根铰示意 — ·07",
-      "solids": 1,
+      "solids": 2,
       "valid": true
     },
     {
       "name": "NozzlePetal7",
       "label": "低音喷口曲面叶片 — ·08",
-      "solids": 3,
+      "solids": 4,
       "valid": true
     },
     {
       "name": "NozzlePetalInset7",
       "label": "喷口叶片凹槽衬片 — ·08",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail7_159",
       "label": "喷口叶片圆边压条 — 7_·160",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail7_178",
       "label": "喷口叶片圆边压条 — 7_·179",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2269,49 +2269,49 @@
     {
       "name": "NozzlePetalRidge7",
       "label": "低音喷口叶片加强条 — ·08",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide7_0",
       "label": "喷口叶片凹槽导轨 — 7_·01",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide7_1",
       "label": "喷口叶片凹槽导轨 — 7_·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalHinge7",
       "label": "低音喷口叶片根铰示意 — ·08",
-      "solids": 1,
+      "solids": 2,
       "valid": true
     },
     {
       "name": "NozzlePetal8",
       "label": "低音喷口曲面叶片 — ·09",
-      "solids": 2,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalInset8",
       "label": "喷口叶片凹槽衬片 — ·09",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail8_181",
       "label": "喷口叶片圆边压条 — 8_·182",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail8_200",
       "label": "喷口叶片圆边压条 — 8_·201",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2323,49 +2323,49 @@
     {
       "name": "NozzlePetalRidge8",
       "label": "低音喷口叶片加强条 — ·09",
-      "solids": 1,
+      "solids": 2,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide8_0",
       "label": "喷口叶片凹槽导轨 — 8_·01",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide8_1",
       "label": "喷口叶片凹槽导轨 — 8_·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalHinge8",
       "label": "低音喷口叶片根铰示意 — ·09",
-      "solids": 1,
+      "solids": 2,
       "valid": true
     },
     {
       "name": "NozzlePetal9",
       "label": "低音喷口曲面叶片 — ·10",
-      "solids": 3,
+      "solids": 4,
       "valid": true
     },
     {
       "name": "NozzlePetalInset9",
       "label": "喷口叶片凹槽衬片 — ·10",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail9_204",
       "label": "喷口叶片圆边压条 — 9_·205",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail9_223",
       "label": "喷口叶片圆边压条 — 9_·224",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2377,49 +2377,49 @@
     {
       "name": "NozzlePetalRidge9",
       "label": "低音喷口叶片加强条 — ·10",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide9_0",
       "label": "喷口叶片凹槽导轨 — 9_·01",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide9_1",
       "label": "喷口叶片凹槽导轨 — 9_·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalHinge9",
       "label": "低音喷口叶片根铰示意 — ·10",
-      "solids": 1,
+      "solids": 2,
       "valid": true
     },
     {
       "name": "NozzlePetal10",
       "label": "低音喷口曲面叶片 — ·11",
-      "solids": 3,
+      "solids": 4,
       "valid": true
     },
     {
       "name": "NozzlePetalInset10",
       "label": "喷口叶片凹槽衬片 — ·11",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail10_226",
       "label": "喷口叶片圆边压条 — 10_·227",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail10_245",
       "label": "喷口叶片圆边压条 — 10_·246",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2431,49 +2431,49 @@
     {
       "name": "NozzlePetalRidge10",
       "label": "低音喷口叶片加强条 — ·11",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide10_0",
       "label": "喷口叶片凹槽导轨 — 10_·01",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide10_1",
       "label": "喷口叶片凹槽导轨 — 10_·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalHinge10",
       "label": "低音喷口叶片根铰示意 — ·11",
-      "solids": 1,
+      "solids": 2,
       "valid": true
     },
     {
       "name": "NozzlePetal11",
       "label": "低音喷口曲面叶片 — ·12",
-      "solids": 3,
+      "solids": 5,
       "valid": true
     },
     {
       "name": "NozzlePetalInset11",
       "label": "喷口叶片凹槽衬片 — ·12",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail11_249",
       "label": "喷口叶片圆边压条 — 11_·250",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalEdgeRail11_268",
       "label": "喷口叶片圆边压条 — 11_·269",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
@@ -2485,25 +2485,25 @@
     {
       "name": "NozzlePetalRidge11",
       "label": "低音喷口叶片加强条 — ·12",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide11_0",
       "label": "喷口叶片凹槽导轨 — 11_·01",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalGuide11_1",
       "label": "喷口叶片凹槽导轨 — 11_·02",
-      "solids": 1,
+      "solids": 3,
       "valid": true
     },
     {
       "name": "NozzlePetalHinge11",
       "label": "低音喷口叶片根铰示意 — ·12",
-      "solids": 1,
+      "solids": 2,
       "valid": true
     },
     {
@@ -4349,5 +4349,7 @@
       "valid": true
     }
   ],
-  "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation"
+  "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
+  "petal_contract_relative_to_v58": 0.92,
+  "petal_contract_basis": "fixed-camera candidate; 12 leaves and attached rails/hinges narrowed in their local tangential frames; root band preserved"
 }

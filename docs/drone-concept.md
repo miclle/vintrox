@@ -1,6 +1,12 @@
 # Drone 外形评审草模
 
-2026-10-26，当前为 v58 后壳折角跟进修订。按最新要求保留四根新增支柱，其余造型尽可能向全部参考图片和旋转视频靠近。逐张图片采用独立透视相机，视频抽取十方位；保存真实 CAD 渲染、50% 叠加及差异图。比较方法、相机假设、历史回退和剩余差异见[叠加记录](drone-overlay-comparison.md)、[逐图记录](drone-reference-review.md)及[本轮叠加板](../cad/drone-concept/comparison/v58-rear-followup-study/README.md)。目前仍未达到 90% 的整圈轮廓目标，不宣称与原作完全一致。
+2026-10-26，当前为 v60 喷口叶片切向收形修订。按最新要求保留四根新增支柱，其余造型尽可能向全部参考图片和旋转视频靠近。逐张图片采用独立透视相机，视频抽取十方位；保存真实 CAD 渲染、50% 叠加及差异图。比较方法、相机假设、历史回退和剩余差异见[叠加记录](drone-overlay-comparison.md)、[逐图记录](drone-reference-review.md)及[本轮彩色叠加板](../cad/drone-concept/comparison/iteration-120-petal-contract08648-video-comparison-color/comparison-board.png)。目前仍未达到 90% 的整圈轮廓目标，不宣称与原作完全一致。
+
+## v60 喷口叶片切向收形与彩色渲染修复（2026-10-26）
+
+在 v58 的局部切向比例 0.94 基础上，12 片喷口叶片及各自导轨、边轨、末端折边、根铰与铆钉细节再收窄 8%，最终 `nozzle_petal_tangential_scale=0.8648`；根部连接带、后壳、凹舱和四根支柱保持。容纳喷口的暗部继续按独立凹舱的阴影和遮挡解释，没有补成连续喷口筒壁。四根支柱实体差集为 0 mm³。
+
+正式模型保存读回为 696 个可见对象，STEP 为 1008 个实体。之前生成的正式网格颜色全部退化为单一金色，本轮按归档恢复的 696 对象颜色/材质映射覆盖当前 v60 几何后重新渲染；颜色修复只改变显示网格属性，不改变 CAD 顶点或面。固定相机下视频十方位平均轮廓 IoU 为 **85.46662726%**，七张静态图为 **82.23166268%**；这些仍是轮廓诊断，不代表与原作完全一致、可打印、可装配或实物验收。彩色视频[叠加板](../cad/drone-concept/comparison/iteration-120-petal-contract08648-video-comparison-color/comparison-board.png)、彩色静态[叠加板](../cad/drone-concept/comparison/iteration-120-petal-contract08648-stills-comparison-color/comparison-board.png)和[本轮交付检查](../cad/drone-concept/delivery-verification-v60-petal-contract-color.json)均绑定当前 FCStd 哈希。
 
 ## v58 后壳折角与凹舱阴影跟进（2026-10-26）
 
