@@ -10,7 +10,7 @@ VINTROX 是一台带实体 CD 光驱、iPad 改装屏、树莓派、移动硬盘
 
 2026-10-24 推进至 v53 [逐图与整圈叠加修订](docs/drone-overlay-comparison.md)：收薄侧后方底壳，露出底部环件和线束；四支柱与中央连接条带不变。固定十方位轮廓 IoU 84.88%→85.03%，90% 目标未达，保留全部退步视角。见[同角度对照](cad/drone-concept/comparison/rear-belly-study/README.md)。
 
-2026-10-26 外观模型推进至 v60：后壳斜折段与凹舱阴影保持 v58 结论，喷口 12 片叶片及导轨/边轨/铰接细节沿局部切向继续收窄；四根支柱保持不变。修复正式渲染的材质映射，并以同一固定相机重新生成视频十视角和静态七视角叠加。视频平均轮廓 IoU 85.4666%、静态平均 82.2317%，仍是外观研究，见[本轮叠加板](cad/drone-concept/comparison/iteration-120-petal-contract08648-video-comparison-color/comparison-board.png)。
+2026-10-26 外观模型推进至 v61：喷口外罩中段减薄 3mm 并恢复肩部外展，后壳、喷口本体、凹舱阴影和四根支柱保持不变。以同一固定相机重新生成视频十视角和静态七视角叠加。视频平均轮廓 IoU 85.4920%、静态平均 82.2268%，仍是外观研究，见[v61 叠加板](cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-board.png)。
 
 底部支撑按 2026-10-22 用户要求改为从中央向四角斜下伸出的四根细光轴，抬高机身；Ø6mm 轴径与高度为外观假设，固定和稳定性未实测，见 [支撑方案](docs/enclosure.md#底部中央四光轴支撑2026-10-22)。
 

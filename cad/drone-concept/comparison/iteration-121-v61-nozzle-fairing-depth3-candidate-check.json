@@ -1,0 +1,39 @@
+{
+  "status": "control candidate; current v60 marking spec retained",
+  "baseline_fcstd_sha256": "091c0948c5d9643e57aa939439076699c2085d3bb2ab424d28789f743ac7555b",
+  "fcstd_sha256": "0c5a5e32c69519f8985493906ddc6b5d3f79ffa30cd8463e2604a433de831840",
+  "changed_objects": [
+    "BassNozzleShell",
+    "BassSideStripe0_0",
+    "BassSideStripe0_1",
+    "BassSideStripe0_2",
+    "BassSideStripe1_0",
+    "BassSideStripe1_1",
+    "BassSideStripe1_2",
+    "BassWarningPlaque",
+    "BassWarningRedBand",
+    "BassWarningTriangle",
+    "BassWarningTriangleInset"
+  ],
+  "part_count": 11,
+  "visible_objects": 696,
+  "step_sha256": "3fb6a91e41fa93d54cebc51dafda55c9e6bc6f59d9babca759b930a7d8fe1c93",
+  "depth_reduction_mm": 3,
+  "root_fraction": 0,
+  "shoulder_inset_mm": 0,
+  "depth_extra_mm": 0,
+  "marking_spec": {
+    "triangle": [
+      0.15418656123994104,
+      34.21085354447391,
+      30.111802117826446,
+      26.490943736852692
+    ],
+    "plaque": [
+      0.23496463076827287,
+      68.68872555473642,
+      47.32734150401426,
+      14.065844727972232
+    ]
+  }
+}

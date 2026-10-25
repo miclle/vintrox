@@ -1,6 +1,14 @@
 # Drone 参考叠加与迭代
 
-2026-10-25，按用户要求恢复侧后方优化，当前为 v58 喷口叶片切向收形修订。用户要求除四根新增支柱外尽可能完整还原参考，使用真实模型截图与原图重叠比较，并利用 `video-cam.mp4` 检查整圈。目标是主要部件轮廓误差尽量控制在正面屏幕投影宽度的 5% 内，争取十方位平均轮廓 IoU 达到 90%。这是执行目标，尚未达到，不能把轮廓分数解释成细节还原率。
+2026-10-26，按用户要求继续优化侧后方喷口外罩，当前为 v61 中段减薄修订。用户要求除四根新增支柱外尽可能完整还原参考，使用真实模型截图与原图重叠比较，并利用 `video-cam.mp4` 检查整圈。目标是主要部件轮廓误差尽量控制在正面屏幕投影宽度的 5% 内，争取十方位平均轮廓 IoU 达到 90%。这是执行目标，尚未达到，不能把轮廓分数解释成细节还原率。
+
+## v61 喷口外罩中段减薄
+
+本轮沿同一固定相机重新渲染。只将 `BassNozzleShell` 及其警示贴片关联的外罩中段深度减薄 3mm，同时恢复肩部外展；根部连接、喷口本体、凹舱阴影/遮挡语义和四根支柱保持。
+
+视频十方位平均轮廓 IoU 为 **85.49201687%**，静态七图为 **82.22681557%**。相对 v60，视频增加约 0.025389 个百分点，静态图下降约 0.004847 个百分点，因此本轮只作为当前正式外观候选，不宣称已经达到 90% 或与参考完全一致。
+
+[v61 视频十方位叠加板](../cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-board.png) · [v61 静态七图叠加板](../cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-stills-comparison/comparison-board.png) · [v61 视频报告](../cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-report.json) · [v61 静态报告](../cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-stills-comparison/comparison-report.json) · [v61 交付检查](../cad/drone-concept/delivery-verification-v61-nozzle-fairing-depth3.json)
 
 ## v58 喷口叶片切向收形
 

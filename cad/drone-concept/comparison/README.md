@@ -1,6 +1,6 @@
 # Drone 参考比较证据
 
-当前正式模型为 **v58 喷口叶片切向收形**：十方位视频平均轮廓 IoU **85.44520663%**，七张静态图 **82.21528870%**。正式叠加和渲染见 [iteration-93](iteration-93/comparison-board.png) 与 [stills-64](stills-64/comparison-board.png)；v57 对象归属仍用于残差定位，参数、保存读回和限制见 [v58 交付检查](../delivery-verification-v58-petal-tangential.json)。
+当前正式模型为 **v61 喷口外罩中段减薄**：十方位视频平均轮廓 IoU **85.49201687%**，七张静态图 **82.22681557%**。本轮只调整外罩中段，四根支柱、喷口本体和凹舱阴影语义保持；正式叠加和渲染见 [v61 视频](iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-board.png)、[v61 静态图](iteration-121-v61-nozzle-fairing-depth3-stills-comparison/comparison-board.png) 与 [v61 交付检查](../delivery-verification-v61-nozzle-fairing-depth3.json)。
 
 [v53 底壳收形](rear-belly-study/README.md) · [v52 警示贴片定位](nozzle-marking-study/README.md) · [v51 外罩上肩](fairing-shoulder-study/README.md) · [v50 外罩深度与灯角让位](fairing-depth-v49-study/README.md) · [v49 外罩中段](fairing-blend-study/README.md) · [v48 喷口内部凹腔](nozzle-interior-study/README.md) · [v47 根部与过渡壳联动](source-registration-study/README.md)
 

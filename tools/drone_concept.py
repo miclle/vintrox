@@ -43,6 +43,13 @@ UNDERBODY_LOOP_RADIUS = 3.5  # Fixed-video cable thickness fit; appearance only.
 NOZZLE_RADIAL_SCALE = 0.90  # Rear fixed-view fit; local X/Y only, appearance only.
 NOZZLE_SHELL_RADIAL_SCALE = 0.96  # Recessed housing fit; kept wider than the nozzle interior.
 NOZZLE_PETAL_TANGENTIAL_SCALE = 0.8648  # v60 local tangential contract; 0.92 relative to v58, root band remains unchanged.
+# v61 outer-fairing section fit: flatten the middle depth while restoring the
+# shoulder span. The root is deliberately left at its saved attachment; this
+# is an appearance parameter, not a manufacturing or acoustic dimension.
+NOZZLE_FAIRING_ROOT_FRACTION = 0.0
+NOZZLE_FAIRING_DEPTH_EXTRA = 0.0
+NOZZLE_FAIRING_SHOULDER_INSET = 0.0
+NOZZLE_FAIRING_LOWER_INSET = 0.0
 
 CHINESE_LABELS = {
     'MainEnclosureShell': '主机连续外壳', 'SlopedUpperArmour': '顶部斜面外罩',
@@ -592,7 +599,12 @@ def nozzle_lip_parts():
 
 def nozzle_fairing_parts():
     """Blend the fixed body attachment into the fitted root; retain real wall thickness."""
-    return blended_fairing_parts(blend_power=4, depth_extra=4, shoulder_inset=6, lower_inset=0, marking_spec=MARKING_SPEC)
+    return blended_fairing_parts(root_fraction=NOZZLE_FAIRING_ROOT_FRACTION,
+                                 blend_power=4,
+                                 depth_extra=NOZZLE_FAIRING_DEPTH_EXTRA,
+                                 shoulder_inset=NOZZLE_FAIRING_SHOULDER_INSET,
+                                 lower_inset=NOZZLE_FAIRING_LOWER_INSET,
+                                 marking_spec=MARKING_SPEC)
 
 
 def crowned_plate(points, plane, origin, thickness, rim=2):
@@ -2058,7 +2070,7 @@ def save_outputs(doc, items, out):
         local_patches[name]=local
     label_metadata=warning_label_positions(local_patches)
     manifest = {
-        'revision': 'v58-rear-fold-radius24-shadow-contract',
+        'revision': 'v61-nozzle-fairing-depth3',
         'belly_relief': {'outer_floor_z_mm':52.5,'central_strip_width_mm':64,'outer_flat_start_x_mm':62,'basis':'appearance-derived closed lower shell; support geometry retained, no load validation'},
         'nozzle_marking_spec': MARKING_SPEC,
         'rear_shoulder_section_exponent': 1.5,
@@ -2074,6 +2086,11 @@ def save_outputs(doc, items, out):
         'nozzle_lip_parameters_mm': {'gold_major_radius':52.82+ROOT_DELTA[1],'gold_minor_radius':1.0,'gold_station':95.6+ROOT_DELTA[0],'metal_major_radius':52.3215+ROOT_DELTA[1],'metal_minor_radius':1.0,'metal_station':96.8067+ROOT_DELTA[0],'gasket_outer_radius':52.5+ROOT_DELTA[1]},
         'nozzle_root_profile': {'local_delta_z_radius_y_tilt':list(ROOT_DELTA),'guide_span_degrees':5.4,'terminal_circle_preserved':True,'basis':'five fixed video views; manual root centreline observations'},
         'nozzle_mid_depth_reduction_mm': 3,
+        'nozzle_fairing_fit': {'root_fraction': NOZZLE_FAIRING_ROOT_FRACTION,
+                               'depth_extra_mm': NOZZLE_FAIRING_DEPTH_EXTRA,
+                               'shoulder_inset_mm': NOZZLE_FAIRING_SHOULDER_INSET,
+                               'lower_inset_mm': NOZZLE_FAIRING_LOWER_INSET,
+                               'basis': 'v61 fixed-camera rear fairing candidate; appearance only'},
         'fairing_root_blend_power': 4,
         'fairing_middle_depth_extra_mm': 4,
         'fairing_shoulder_inset_mm': 6,

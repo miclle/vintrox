@@ -1,5 +1,5 @@
 {
-  "revision": "v60-petal-tangential-contract-08648",
+  "revision": "v61-nozzle-fairing-depth3",
   "belly_relief": {
     "outer_floor_z_mm": 52.5,
     "central_strip_width_mm": 64,
@@ -158,7 +158,7 @@
     287.619455769915,
     385.09868316645463
   ],
-  "fcstd_sha256": "091c0948c5d9643e57aa939439076699c2085d3bb2ab424d28789f743ac7555b",
+  "fcstd_sha256": "0c5a5e32c69519f8985493906ddc6b5d3f79ffa30cd8463e2604a433de831840",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4351,5 +4351,31 @@
   ],
   "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
   "petal_contract_relative_to_v58": 0.92,
-  "petal_contract_basis": "fixed-camera candidate; 12 leaves and attached rails/hinges narrowed in their local tangential frames; root band preserved"
+  "petal_contract_basis": "fixed-camera candidate; 12 leaves and attached rails/hinges narrowed in their local tangential frames; root band preserved",
+  "nozzle_fairing_fit": {
+    "root_fraction": 0.0,
+    "depth_extra_mm": 0.0,
+    "shoulder_inset_mm": 0.0,
+    "lower_inset_mm": 0.0,
+    "basis": "v61 fixed-camera rear fairing candidate; appearance only"
+  },
+  "step_sha256": "3fb6a91e41fa93d54cebc51dafda55c9e6bc6f59d9babca759b930a7d8fe1c93",
+  "v61_candidate": {
+    "baseline_fcstd_sha256": "091c0948c5d9643e57aa939439076699c2085d3bb2ab424d28789f743ac7555b",
+    "changed_objects": [
+      "BassNozzleShell",
+      "BassSideStripe0_0",
+      "BassSideStripe0_1",
+      "BassSideStripe0_2",
+      "BassSideStripe1_0",
+      "BassSideStripe1_1",
+      "BassSideStripe1_2",
+      "BassWarningPlaque",
+      "BassWarningRedBand",
+      "BassWarningTriangle",
+      "BassWarningTriangleInset"
+    ],
+    "depth_reduction_mm": 3,
+    "four_supports": "preserved"
+  }
 }
