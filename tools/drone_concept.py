@@ -42,7 +42,7 @@ COOLING_FINS = 15  # Repeating 22–23 px bands in the fixed rear video view.
 UNDERBODY_LOOP_RADIUS = 3.5  # Fixed-video cable thickness fit; appearance only.
 NOZZLE_RADIAL_SCALE = 0.90  # Rear fixed-view fit; local X/Y only, appearance only.
 NOZZLE_SHELL_RADIAL_SCALE = 0.96  # Recessed housing fit; kept wider than the nozzle interior.
-NOZZLE_PETAL_TANGENTIAL_SCALE = 0.94  # Fixed-view petal span fit; root band remains unchanged.
+NOZZLE_PETAL_TANGENTIAL_SCALE = 0.8648  # v60 local tangential contract; 0.92 relative to v58, root band remains unchanged.
 
 CHINESE_LABELS = {
     'MainEnclosureShell': '主机连续外壳', 'SlopedUpperArmour': '顶部斜面外罩',
