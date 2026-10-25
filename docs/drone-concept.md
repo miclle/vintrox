@@ -1,6 +1,12 @@
 # Drone 外形评审草模
 
-2026-10-25，当前为 v58 喷口叶片切向收形修订。按最新要求保留四根新增支柱，其余造型尽可能向全部参考图片和旋转视频靠近。逐张图片采用独立透视相机，视频抽取十方位；保存真实 CAD 渲染、50% 叠加及差异图。比较方法、相机假设、历史回退和剩余差异见[叠加记录](drone-overlay-comparison.md)及[逐图记录](drone-reference-review.md)。目前仍未达到 90% 的整圈轮廓目标，不宣称与原作完全一致。
+2026-10-26，当前为 v58 后壳折角跟进修订。按最新要求保留四根新增支柱，其余造型尽可能向全部参考图片和旋转视频靠近。逐张图片采用独立透视相机，视频抽取十方位；保存真实 CAD 渲染、50% 叠加及差异图。比较方法、相机假设、历史回退和剩余差异见[叠加记录](drone-overlay-comparison.md)、[逐图记录](drone-reference-review.md)及[本轮叠加板](../cad/drone-concept/comparison/v58-rear-followup-study/README.md)。目前仍未达到 90% 的整圈轮廓目标，不宣称与原作完全一致。
+
+## v58 后壳折角与凹舱阴影跟进（2026-10-26）
+
+本轮把后壳斜折段半径设为 **24mm**，同步重建 `RearServicePanel`、`RearStructuralFrame`、`RearRecessLiner`、左右 `RearArmourCheek` 及 `RearLowerSlope`。凹舱仍由后退的背衬、侧壁、前唇和灯座产生阴影，未补成连续喷口筒壁；四根 `SupportShaft` 及其座、脚保持原几何。保存读回通过 696 个可见对象，STEP 832 个实体，FCStd 哈希为 `b8aec8226ad6d66ec37c3d37777844bc3c6e51b6cb4152076b632ed045331eb0`。
+
+同一固定相机下，十方位视频平均轮廓 IoU 为 **85.44749790%**，七张静态图为 **82.21637874%**；它们只是轮廓诊断，不能证明与原作网格一致、打印可行或实物装配通过。完整参考/CAD/50% 叠加/差异板见[v58 后壳跟进](../cad/drone-concept/comparison/v58-rear-followup-study/README.md)。
 
 ## v58 喷口叶片切向收形（2026-10-25）
 

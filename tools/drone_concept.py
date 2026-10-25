@@ -1025,7 +1025,7 @@ def add_reference_side_modules(study):
         study.add(f'UnderbodyHarness{i}',tube(points,1.2),RED if i==0 else WHITE if i<4 else DARK,'Details','cable')
 
 
-def rear_raked_slab(front, back, bottom, top, half_width, knee=134):
+def rear_raked_slab(front, back, bottom, top, half_width, knee=134, fold_radius=8):
     """One rounded prism shared by the raked cavity and closure clearance."""
     shift=(bottom-knee)*.98
     section=[(front+shift,bottom),(back+shift,bottom),(back,knee),
@@ -1033,10 +1033,10 @@ def rear_raked_slab(front, back, bottom, top, half_width, knee=134):
     shape=profile(section,'YZ',(-half_width,0,0),2*half_width)
     edges=[e for e in shape.Edges if e.BoundBox.XLength>2*half_width-.01
            and abs(e.CenterOfMass.z-knee)<.01]
-    return shape.makeFillet(8,edges)
+    return shape.makeFillet(fold_radius,edges)
 
 
-def raked_rear_parts(knee=134, outer_x=116.76, lower_rise=6):
+def raked_rear_parts(knee=134, outer_x=116.76, lower_rise=6, fold_radius=8):
     """Construct folded rear pieces and a curved side-to-back transition.
 
     Keeping each fold inside a single rounded prism avoids the invalid curve-on-
@@ -1045,7 +1045,7 @@ def raked_rear_parts(knee=134, outer_x=116.76, lower_rise=6):
     """
     slope = .98
     def slab(front, back, bottom, top, half_width):
-        return rear_raked_slab(front,back,bottom,top,half_width,knee)
+        return rear_raked_slab(front,back,bottom,top,half_width,knee,fold_radius)
     def framed(w,h,z,border,radius,front,back):
         outline=rounded_frame(w,h,400,border,(-w/2,0,z),radius)
         return outline.common(slab(front,back,z,z+h,w/2))
@@ -1162,7 +1162,7 @@ def rear_cavity_lighting(frame, shell):
 def add_sloping_rear_closure(study):
     """Join the revised outer trim to the retained inner sloping skin."""
     knee=134
-    for name,shape in raked_rear_parts(knee,outer_x=112.76).items():
+    for name,shape in raked_rear_parts(knee,outer_x=108.0,fold_radius=24).items():
         study.doc.getObject(name).Shape=shape
     lighting=rear_cavity_lighting(study.doc.getObject('RearCyanFrame').Shape,study.doc.getObject('BassNozzleShell').Shape)
     for name,(shape,color,material) in lighting.items():
@@ -1190,7 +1190,7 @@ def add_sloping_rear_closure(study):
     slope=profile([(150,58),(228,126),(224.7,129.8),(146.7,61.8)],'YZ',(-100.8,0,0),201.6)
     # The narrower nozzle exposes this closure: trim its cavity intrusion
     # rather than hiding two gold tabs behind an oversized fairing.
-    clearance=rear_raked_slab(223,330,74,194,69).common(
+    clearance=rear_raked_slab(223,330,74,194,69,fold_radius=24).common(
         rounded_plate(138,116,400,(-69,0,76),8))
     slope=slope.cut(clearance)
     study.add('RearLowerSlope',slope,GOLD,'Hull')
@@ -1283,7 +1283,7 @@ def refine_side_cladding(study, inset=4):
         obj.Shape=shape
 
 
-def reprojected_rear_shoulders(outer_x,scale,eye_y,eye_z,exponent=1.5):
+def reprojected_rear_shoulders(outer_x,scale,eye_y,eye_z,exponent=1.5,fold_radius=8):
     def rear_y(z,y,knee,slope,radius=8):
         angle=math.atan(slope);d=radius*math.tan(angle/2)
         top=knee+d;bottom=knee-d/math.sqrt(1+slope*slope)
@@ -1297,7 +1297,7 @@ def reprojected_rear_shoulders(outer_x,scale,eye_y,eye_z,exponent=1.5):
     for side,suffix in [(-1,'Left'),(1,'Right')]:
         wires=[]
         for z in stations:
-            back=rear_y(z,248,134,.98)
+            back=rear_y(z,248,134,.98,fold_radius)
             original_z=eye_z+(z-eye_z)/scale
             original_y=rear_y(original_z,230.5125,136.2828,64.325/69.4764)
             edge=eye_y+scale*(original_y-eye_y)
@@ -1338,7 +1338,7 @@ def reproject_side_cladding(study):
             seat=obj.Shape.common(box(40,21,5,((90 if side>0 else -130),98.5,223)))
             shape=shape.fuse(seat)
         parts[name]=shape
-    parts.update(reprojected_rear_shoulders(outer_x,scale,eye[1],eye[2]))
+    parts.update(reprojected_rear_shoulders(outer_x,scale,eye[1],eye[2],fold_radius=24))
     for side,suffix in [(-1,'Left'),(1,'Right')]:
         inner=[(190,182),(214,182),(214,145),(204,133),(190,145)]
         mouth=[(185,190),(239,190),(239,140),(206,128),(185,140)]
@@ -2058,7 +2058,7 @@ def save_outputs(doc, items, out):
         local_patches[name]=local
     label_metadata=warning_label_positions(local_patches)
     manifest = {
-        'revision': 'v57-nozzle-shell-shadow-contract',
+        'revision': 'v58-rear-fold-radius24-shadow-contract',
         'belly_relief': {'outer_floor_z_mm':52.5,'central_strip_width_mm':64,'outer_flat_start_x_mm':62,'basis':'appearance-derived closed lower shell; support geometry retained, no load validation'},
         'nozzle_marking_spec': MARKING_SPEC,
         'rear_shoulder_section_exponent': 1.5,
@@ -2070,6 +2070,7 @@ def save_outputs(doc, items, out):
         'nozzle_shell_radial_scale': NOZZLE_SHELL_RADIAL_SCALE,
         'nozzle_petal_tangential_scale': NOZZLE_PETAL_TANGENTIAL_SCALE,
         'rear_lower_edge_rise_mm': 6,
+        'rear_fold_radius_mm': 24,
         'nozzle_lip_parameters_mm': {'gold_major_radius':52.82+ROOT_DELTA[1],'gold_minor_radius':1.0,'gold_station':95.6+ROOT_DELTA[0],'metal_major_radius':52.3215+ROOT_DELTA[1],'metal_minor_radius':1.0,'metal_station':96.8067+ROOT_DELTA[0],'gasket_outer_radius':52.5+ROOT_DELTA[1]},
         'nozzle_root_profile': {'local_delta_z_radius_y_tilt':list(ROOT_DELTA),'guide_span_degrees':5.4,'terminal_circle_preserved':True,'basis':'five fixed video views; manual root centreline observations'},
         'nozzle_mid_depth_reduction_mm': 3,
@@ -2099,7 +2100,7 @@ def save_outputs(doc, items, out):
         'fcstd_sha256': hashlib.sha256(path.read_bytes()).hexdigest(),
         'features': [{'name': o.Name, 'label': o.Label, 'solids': len(o.Shape.Solids), 'valid': o.Shape.isValid()} for o in items],
     }
-    (out/'concept-manifest.json').write_text(json.dumps(manifest, indent=2, ensure_ascii=False)+'\n')
+    (out/'concept-manifest.json').write_text(json.dumps(manifest, indent=2, ensure_ascii=False)+'\n', encoding='utf-8')
     meshes = []
     for obj in visible:
         vertices, faces = obj.Shape.tessellate(.12)
@@ -2115,7 +2116,7 @@ def save_outputs(doc, items, out):
                                    'bass_warning_label_local_mm': manifest['bass_warning_label_local_mm'],
                                    'bass_alert_local_mm': manifest['bass_alert_local_mm'],
                                    'bass_warning_text_size_mm': manifest['bass_warning_text_size_mm'],
-                                   'bass_alert_text_size_mm': manifest['bass_alert_text_size_mm'], 'objects': meshes}))
+                                   'bass_alert_text_size_mm': manifest['bass_alert_text_size_mm'], 'objects': meshes}), encoding='utf-8')
     print(json.dumps({'saved': str(path), 'visible_features': len(visible), 'bbox_mm': manifest['bbox_mm'],
                       'meshfile': str(meshfile)}, ensure_ascii=False))
     return doc
