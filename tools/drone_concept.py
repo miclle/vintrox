@@ -40,6 +40,7 @@ OLIVE = (0.36, 0.38, 0.25)
 NOZZLE_PETALS = 12  # Rear guide pitch and both oblique views; appearance inference.
 COOLING_FINS = 15  # Repeating 22–23 px bands in the fixed rear video view.
 UNDERBODY_LOOP_RADIUS = 3.5  # Fixed-video cable thickness fit; appearance only.
+NOZZLE_RADIAL_SCALE = 0.95  # Rear fixed-view fit; local X/Y only, appearance only.
 
 CHINESE_LABELS = {
     'MainEnclosureShell': '主机连续外壳', 'SlopedUpperArmour': '顶部斜面外罩',
@@ -273,6 +274,37 @@ def profile(points, plane, origin, thickness):
     shape = face.extrude(direction)
     shape.translate(vector(origin))
     return shape
+
+
+def contract_nozzle_radial(shape, factor=NOZZLE_RADIAL_SCALE, preserve_root=False):
+    """Contract a nozzle-local solid in X/Y while preserving its axial Z.
+
+    The nozzle parts are created in a local frame and placed only at the final
+    assembly step.  Keep the placement attached to the shape while applying a
+    native BRep transform so the rear cavity shadow remains a separate shell.
+    """
+    if abs(factor - 1.0) < 1e-12:
+        return shape
+    placement = shape.Placement
+    local = shape.copy()
+    local.Placement = App.Placement()
+    root_piece = None
+    if preserve_root:
+        # Keep the fitted root station embedded in the mouth ring.  The
+        # contract is applied only beyond this short attachment band.
+        root_band = Part.makeBox(200, 200, 8, App.Vector(-100, -100, 94))
+        root_piece = local.common(root_band)
+    matrix = App.Matrix()
+    matrix.A11 = factor
+    matrix.A22 = factor
+    matrix.A33 = 1.0
+    local = local.transformShape(matrix)
+    if root_piece is not None and not root_piece.isNull():
+        local = local.fuse(root_piece).removeSplitter()
+    if local.isNull() or not local.isValid() or not local.Solids:
+        raise ValueError('Invalid contracted nozzle solid')
+    local.Placement = placement
+    return local
 
 
 def curved_wing_plate(points, x, thickness, rim_width=0):
@@ -1823,12 +1855,12 @@ def build(root, frame_view=True):
         b.add(f'NozzleRootClamp{i}',place(clamp),METAL,'Rear','metal')
     b.add('BassSpeakerGasket', place(lip['BassSpeakerGasket']), DARK, 'Rear', 'rubber')
     inner = interior_parts(recessed=True)
-    b.add('BassVisualCone',place(inner['BassVisualCone']),DARK,'Rear','rubber')
-    b.add('BassDustCap',place(inner['BassDustCap']),DARK,'Rear','rubber')
+    b.add('BassVisualCone',place(contract_nozzle_radial(inner['BassVisualCone'])),DARK,'Rear','rubber')
+    b.add('BassDustCap',place(contract_nozzle_radial(inner['BassDustCap'])),DARK,'Rear','rubber')
     # Terminal circle comes from 19 pixels across three fixed reference views.
     # Each petal curves inward and its final section tilts gently relative to
     # the gold fairing axis; this is geometry, not a render-space deformation.
-    b.add('BassInnerThroat',place(inner['BassInnerThroat']),DARK,'Rear','rubber')
+    b.add('BassInnerThroat',place(contract_nozzle_radial(inner['BassInnerThroat'])),DARK,'Rear','rubber')
     for i in range(NOZZLE_PETALS):
         for name,shape in nozzle_leaf_parts(i).items():
             if name==f'NozzlePetal{i}':color,category=(.27,.28,.27),'Rear'
@@ -1837,7 +1869,9 @@ def build(root, frame_view=True):
             elif name.startswith('NozzlePetalEdgeRail'):color,category=(.53,.54,.50),'Details'
             elif name.startswith('NozzlePetalGuide'):color,category=(.58,.59,.54),'Details'
             else:color,category=(.49,.50,.46),'Details'
-            b.add(name,place(shape),color,category,'metal')
+            b.add(name,place(contract_nozzle_radial(
+                shape, preserve_root=(name == f'NozzlePetal{i}'))),
+                color,category,'metal')
         hinge=root_shifted_hinge(i)
         b.add(f'NozzlePetalHinge{i}',place(hinge),(.30,.32,.29),'Details','metal')
     # Projected surface patches remain in contact with the revised fairing.
@@ -1974,7 +2008,7 @@ def save_outputs(doc, items, out):
         local_patches[name]=local
     label_metadata=warning_label_positions(local_patches)
     manifest = {
-        'revision': 'v55-petal-inset-window',
+        'revision': 'v56-nozzle-radial-contract',
         'belly_relief': {'outer_floor_z_mm':52.5,'central_strip_width_mm':64,'outer_flat_start_x_mm':62,'basis':'appearance-derived closed lower shell; support geometry retained, no load validation'},
         'nozzle_marking_spec': MARKING_SPEC,
         'rear_shoulder_section_exponent': 1.5,
@@ -1982,6 +2016,7 @@ def save_outputs(doc, items, out):
         'petal_recess_stations_mm': [shifted_z(99.5,1),shifted_z(127.0,1)],
         'petal_recess_corner_radius_mm': 1.0,
         'petal_inset_window_degrees': [4.4, 18.1],
+        'nozzle_radial_scale': NOZZLE_RADIAL_SCALE,
         'rear_lower_edge_rise_mm': 6,
         'nozzle_lip_parameters_mm': {'gold_major_radius':52.82+ROOT_DELTA[1],'gold_minor_radius':1.0,'gold_station':95.6+ROOT_DELTA[0],'metal_major_radius':52.3215+ROOT_DELTA[1],'metal_minor_radius':1.0,'metal_station':96.8067+ROOT_DELTA[0],'gasket_outer_radius':52.5+ROOT_DELTA[1]},
         'nozzle_root_profile': {'local_delta_z_radius_y_tilt':list(ROOT_DELTA),'guide_span_degrees':5.4,'terminal_circle_preserved':True,'basis':'five fixed video views; manual root centreline observations'},

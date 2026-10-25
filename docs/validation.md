@@ -4,7 +4,7 @@
 
 本文件统一维护测量字段、验证条件与证据；[路线图](roadmap.md) 仅引用执行顺序，[配件参考资料](../references/README.md) 保存商品图与购买来源，不另建平行测量清单。
 
-**外形 CAD 进展（2026-10-25，Drone v55）**：v55 保存读回 696 个可见几何对象、805 个 STEP 实体，700 个对象全部中文显示名且无分组；本轮仅收窄 12 件 `NozzlePetalInset` 的可见角度窗口至 4.4°–18.1°，四根支柱、后壳、喷口容纳凹舱和屏幕保持。保存 FCStd、STEP、十方位/七图渲染清单、叠加报告与零件归属图绑定同一 SHA-256；视频平均 IoU 85.13413035%，静态图平均 IoU 82.04483420%，与 v54 基本持平。凹舱暗边继续按阴影/遮挡解释，没有补成连续喷口筒壁。详见[v55 交付检查](../cad/drone-concept/delivery-verification-v55-petal-inset-window.json)、[v55 研究记录](../cad/drone-concept/comparison/v55-petal-inset-study/README.md)和[叠加记录](drone-overlay-comparison.md)。这些是静态外观检查，不证明打印、装配、声学、热或电气验收。
+**外形 CAD 进展（2026-10-25，Drone v56）**：v56 保存读回 696 个可见几何对象、817 个 STEP 实体，700 个对象全部中文显示名且无分组；本轮在喷口局部 X/Y 方向收窄 12 片叶片及内腔细节到 0.95，主叶片局部 Z=94–102mm 保留原始根部搭接带，四根支柱、后壳、喷口容纳凹舱和屏幕保持。保存 FCStd、STEP、正式预览、十方位/七图渲染清单、叠加报告与零件归属图绑定同一 SHA-256；视频平均 IoU 85.29995841%，静态图平均 IoU 82.13591344%。凹舱暗边继续按阴影/遮挡解释，没有补成连续喷口筒壁。详见[v56 交付检查](../cad/drone-concept/delivery-verification-v56-nozzle-radial-contract.json)、[v56 研究记录](../cad/drone-concept/comparison/v56-nozzle-radial-study/README.md)和[叠加记录](drone-overlay-comparison.md)。这些是静态外观检查，不证明打印、装配、声学、热或电气验收。
 
 ## 1. 测绘表
 

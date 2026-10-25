@@ -1,6 +1,12 @@
 # Drone 外形评审草模
 
-2026-10-25，当前为 v55 喷口叶片凹槽窗口修订。按最新要求保留四根新增支柱，其余造型尽可能向全部参考图片和旋转视频靠近。逐张图片采用独立透视相机，视频抽取十方位；保存真实 CAD 渲染、50% 叠加及差异图。比较方法、相机假设、历史回退和剩余差异见[叠加记录](drone-overlay-comparison.md)及[逐图记录](drone-reference-review.md)。目前仍未达到 90% 的整圈轮廓目标，不宣称与原作完全一致。
+2026-10-25，当前为 v56 喷口径向收窄修订。按最新要求保留四根新增支柱，其余造型尽可能向全部参考图片和旋转视频靠近。逐张图片采用独立透视相机，视频抽取十方位；保存真实 CAD 渲染、50% 叠加及差异图。比较方法、相机假设、历史回退和剩余差异见[叠加记录](drone-overlay-comparison.md)及[逐图记录](drone-reference-review.md)。目前仍未达到 90% 的整圈轮廓目标，不宣称与原作完全一致。
+
+## v56 喷口径向收窄（2026-10-25）
+
+本轮将喷口局部 X/Y 方向收窄到 **0.95**，覆盖 12 片叶片及其凹槽细节、低音锥盆和连续深色内衬；轴向保持。每片主叶片在局部 Z=94–102mm 保留原始根部搭接带，确保与口环相接。后壳、喷口外罩、凹舱灯框和四根支柱保持原几何。容纳喷口的暗边仍按阴影/遮挡解释，没有补成连续筒壁。
+
+固定相机和同一分割规则下，视频十方位平均轮廓 IoU 为 **85.29995841%**，七张静态图为 **82.13591344%**；相对 v55 分别提升约 **0.1658** 和 **0.0911** 个百分点。完整证据见[v56 研究记录](../cad/drone-concept/comparison/v56-nozzle-radial-study/README.md)和[v56 交付检查](../cad/drone-concept/delivery-verification-v56-nozzle-radial-contract.json)。
 
 v53 收薄侧后方底壳两翼，露出原先被厚横块遮挡的底部环件和线束；中央 64mm 条带与四根支柱保持原几何。仅改变底壳、两块检修板和四颗螺钉，共 7 个对象，其余 691 个非空形体原样保留。固定十方位轮廓 IoU 84.87990%→85.03031%，七张原图 81.97004%→81.99829%；视频 00/01/02 与原图 03/closeup 略退步，完整保留记录。 见 [v53 记录](../cad/drone-concept/comparison/rear-belly-study/README.md)。
 
@@ -41,7 +47,7 @@ v53 收薄侧后方底壳两翼，露出原先被厚横块遮挡的底部环件�
 - [FreeCAD 模型](../cad/drone-concept/vintrox-drone-concept.FCStd)：700 个对象（含参数、说明及隐藏占位）直接位于模型树顶层，无零件分组，显示名称全部为中文。
 - [整体 STEP](../cad/drone-concept/vintrox-drone-concept.step)：导出可见模型，不含隐藏 CD 和低音占位，保留中文零件名。
 - [几何清单](../cad/drone-concept/concept-manifest.json)与[独立保存读回](../cad/drone-concept/readback-verification.json)：有效实体、体积、包络、支撑连接和屏幕输入等检查。
-- [交付一致性检查](../cad/drone-concept/delivery-verification.json)：模型、STEP、九张正式静态图、十方位/七单图比较及转台的来源绑定。
+- [v56 交付检查](../cad/drone-concept/delivery-verification-v56-nozzle-radial-contract.json)：当前模型、STEP、九张正式静态图、十方位/七单图比较及转台的来源绑定；历史轮次的综合审计仍保留在旧文件中。
 
 | 项目 | 当前输入或结果 | 状态 |
 | --- | --- | --- |
