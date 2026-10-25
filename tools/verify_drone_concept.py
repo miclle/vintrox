@@ -157,8 +157,8 @@ def verify(root):
         if curved_faces == 0:
             errors.append('Nozzle lost its smooth lofted fairing')
         petals = [obj for obj in objects if re.fullmatch(r'NozzlePetal\d+', obj.Name)]
-        if len(petals) != 16 or len(petals) != manifest['nozzle_petals']:
-            errors.append('Expected 16 separately modelled curved nozzle petals')
+        if len(petals) != 12 or len(petals) != manifest['nozzle_petals']:
+            errors.append('Expected 12 separately modelled curved nozzle petals')
         # Every component must remain volumetric in FCStd/STEP, independent of
         # Blender materials or edge highlights. Graphics also have real depth.
         non_solid_components = [obj.Name for obj in objects
@@ -205,11 +205,17 @@ def verify(root):
                 if gap > .01:
                     errors.append('Side frame bolt detached from its mounting face: '+name)
             spine = doc.getObject('SideFrontSpine'+side).Shape
+            spine_plane_x=spine.optimalBoundingBox(False,False).Center.x
             for row in range(7):
                 for col in range(4):
                     y,z = 42+col*6,80+row*4
-                    hole_open = not spine.isInside(App.Vector(sign*116,y,z),.001,True)
-                    web_present = spine.isInside(App.Vector(sign*116,y+2.5,z+2),.001,True)
+                    reprojection=manifest.get('side_profile_reprojection')
+                    scale=reprojection['scale'] if reprojection else 1
+                    if reprojection:
+                        ey,ez=reprojection['eye_mm'][1:]
+                        y,z=ey+scale*(y-ey),ez+scale*(z-ez)
+                    hole_open = not spine.isInside(App.Vector(spine_plane_x,y,z),.001,True)
+                    web_present = spine.isInside(App.Vector(spine_plane_x,y+2.5*scale,z+2*scale),.001,True)
                     spine_holes.append(hole_open and web_present)
         if not all(spine_holes):
             errors.append('Side spine perforations or surrounding material missing')
@@ -312,10 +318,10 @@ def verify(root):
             rear_connections['beacons'].append({'side':side,'joint_gap_mm':gaps,'band_body_overlap_mm3':overlaps})
             if len(bands)!=3 or max(gaps)>.01 or min(overlaps)<=.01:errors.append('Detached beacon body or rings')
         hinges = [obj for obj in objects if re.fullmatch(r'NozzlePetalHinge\d+',obj.Name)]
-        if len(hinges) != 16:
+        if len(hinges) != 12:
             errors.append('Missing independent nozzle petal hinges')
         nozzle_detail_connections=[]
-        for i in range(16):
+        for i in range(12):
             petal=doc.getObject(f'NozzlePetal{i}').Shape
             ridge=doc.getObject(f'NozzlePetalRidge{i}').Shape
             hem=doc.getObject(f'NozzlePetalEndHem{i}').Shape

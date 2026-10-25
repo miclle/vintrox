@@ -14,7 +14,17 @@ import tempfile
 import FreeCAD as App
 import FreeCADGui as Gui
 import Part
+from drone_guard_notch import trim_guard_notch
+from drone_status_rim import restore_status_rim
+from drone_petal_hardware import petal_surface_parts
+from drone_nozzle_interior import interior_parts
+from drone_fairing_shoulder import root_shifted_fairing as blended_fairing_parts
+from drone_nozzle_markings import MARKING_SPEC, label_positions as warning_label_positions
+from drone_belly_relief import relieved_belly, moved_service_shape
+from drone_nozzle_root_profile import (root_shifted_leaf_parts,
+    root_shifted_rolls, root_shifted_hinge, root_shifted_fairing, ROOT_DELTA, shifted_z)
 import Import
+from drone_wing_fold import WING_OUTLINE, WING_CREASE, GOLD_WING_CREASE_OFFSETS, gold_wing_fold_parts
 
 
 GOLD = (0.61, 0.52, 0.25)
@@ -27,7 +37,7 @@ WHITE = (0.85, 0.83, 0.65)
 CYAN = (0.05, 0.90, 0.94)
 GREEN = (0.27, 0.67, 0.19)
 OLIVE = (0.36, 0.38, 0.25)
-NOZZLE_PETALS = 16  # Visible pitch in rear close-ups; appearance inference.
+NOZZLE_PETALS = 12  # Rear guide pitch and both oblique views; appearance inference.
 COOLING_FINS = 15  # Repeating 22–23 px bands in the fixed rear video view.
 
 CHINESE_LABELS = {
@@ -60,6 +70,17 @@ CHINESE_LABELS = {
     'TopInstrumentPanel': '顶部仪表装饰面板', 'TopMeterLatch': '顶部仪表红色拨片',
     'TopMeter': '顶部仪表刻线', 'RearCoolingFin': '后部散热鳍片示意',
     'RearCoolingCore': '后部鳍片内层暗色基座',
+    'RearCyanUpperLeft': '后凹舱左上灯角',
+    'RearCyanLowerRight': '后凹舱右下灯角',
+    'RearCyanLowerLeft': '后凹舱左下灯角',
+    'RearCavityEmitterLeft': '左后凹舱圆头灯条',
+    'RearCavityReflectorLeft': '左后凹舱金属反射背板',
+    'RearCavityClipUpperLeft': '左后凹舱上灯条压座',
+    'RearCavityClipLowerLeft': '左后凹舱下灯条压座',
+    'RearCavityEmitterRight': '右后凹舱圆头灯条',
+    'RearCavityReflectorRight': '右后凹舱金属反射背板',
+    'RearCavityClipUpperRight': '右后凹舱上灯条压座',
+    'RearCavityClipLowerRight': '右后凹舱下灯条压座',
     'RearCyanFrame': '后部青色灯框', 'RearRecessLiner': '后部内嵌封板',
     'RearPortRail': '后部接口凹面板', 'RearRedInsert': '后部阶梯红色滑条',
     'RearRailCarrier': '后部圆角接口承接面', 'RearRailAntennaSlot': '天线两侧凹槽衬片',
@@ -488,44 +509,15 @@ def round_loft(sections):
     return Part.makeLoft(wires, True, False)
 
 
-def nozzle_fairing_parts():
-    """Rounded shoulder sections and conforming surface patches, in nozzle axes.
+def nozzle_lip_parts():
+    """Root rolls reconstructed from five fixed reference-video views."""
+    return {name: shape for name, shape in root_shifted_rolls().items()
+            if name in ('BassNozzleRolledLip', 'BassNozzleMouthRing', 'BassSpeakerGasket')}
 
-    Four stations avoid ripples from dense, independently adjusted circles.
-    Superellipse exponents, section widths and thickness are appearance choices;
-    fixed-camera candidate F improved visible upper boundaries, not all contours.
-    """
-    sections=[(0,49,49,0,2),(28,84,66,-1,2.7),
-              (60,73,66,1,2.3),(94.81,53.82,53.82,-1.15,2)]
-    def loft(inset=0,expand=0):
-        wires=[]
-        for z,rx,ry,dy,n in sections:
-            points=[]
-            for i in range(128):
-                angle=i*math.tau/128;c,s=math.cos(angle),math.sin(angle)
-                points.append(App.Vector((rx-inset+expand)*math.copysign(abs(c)**(2/n),c),
-                    dy+(ry-inset+expand)*math.copysign(abs(s)**(2/n),s),z))
-            curve=Part.BSplineCurve();curve.interpolate(points,PeriodicFlag=True)
-            wires.append(Part.Wire([curve.toShape()]))
-        return Part.makeLoft(wires,True,False)
-    outer=loft()
-    parts={'BassNozzleShell':outer.cut(loft(inset=4))}
-    coating=loft(expand=.35).cut(outer)
-    for side,(start,end) in enumerate(((212,234),(306,328))):
-        for i,z in enumerate((76,84,92)):
-            stencil=Part.Face(sector_wire(100,40,z,start,end)).extrude(App.Vector(0,0,2.5))
-            parts[f'BassSideStripe{side}_{i}']=coating.common(stencil)
-    white=loft(expand=.65).cut(loft(inset=.25))
-    red=loft(expand=.95).cut(loft(expand=.4))
-    parts['BassWarningPlaque']=white.common(rounded_plate(44,17,110,(-22,-110,65),1.3))
-    parts['BassWarningRedBand']=red.common(rounded_plate(4.5,14.5,110,(16,-110,66.25),.7))
-    parts['BassWarningTriangle']=white.common(profile([(-14,53),(14,53),(0,28)],'XZ',(0,-110,0),110))
-    parts['BassWarningTriangleInset']=red.common(profile([(-11.5,51),(11.5,51),(0,31)],'XZ',(0,-110,0),110))
-    for name,shape in parts.items():
-        if not shape.isValid() or len(shape.Solids)!=1:
-            raise ValueError('Invalid nozzle surface: '+name)
-        shape.check(True)
-    return parts
+
+def nozzle_fairing_parts():
+    """Blend the fixed body attachment into the fitted root; retain real wall thickness."""
+    return blended_fairing_parts(blend_power=4, depth_extra=4, shoulder_inset=6, lower_inset=0, marking_spec=MARKING_SPEC)
 
 
 def crowned_plate(points, plane, origin, thickness, rim=2):
@@ -560,6 +552,79 @@ def sector_wire(outer, inner, z, start, stop):
         Part.Arc(p(inner, stop), p(inner, mid), p(inner, start)).toShape(),
         Part.makeLine(p(inner, start), p(outer, start)),
     ])
+
+
+def nozzle_leaf_parts(i, phase=15, stepped=True, pitch=30):
+    """Round-edged leaves with a stepped strap; count/pitch inferred from views."""
+    if stepped and phase == 15 and pitch == 30:
+        return root_shifted_leaf_parts(i)
+    a=i*pitch+phase
+    angular_scale=pitch/22.5
+    sections=[(96.8067,52.3215,-1.149,0),(108,49.4,.7,-1.5),
+              (120,46,2.8,-3),(128.43,43.6,4.28,-4.2)]
+    def section(ro,ri,z,dy,tilt,start,stop):
+        w=sector_wire(ro,ri,z,start,stop)
+        w.rotate(App.Vector(0,0,z),App.Vector(1,0,0),tilt)
+        w.translate(App.Vector(0,dy,0))
+        return w
+    def skin(outer,inner,start,stop,stations=sections):
+        return Part.makeLoft([section(r+outer,r+inner,z,dy,t,a+start*angular_scale,a+stop*angular_scale)
+                             for z,r,dy,t in stations],True,True)
+    petal=skin(0,-2,1.2,21.3)
+    # Round the four radial section edges: visible sheet corners, not an
+    # arbitrary render bevel. Keep most of the fitted terminal circular arc.
+    end_normal=App.Vector(0,-math.sin(math.radians(-4.2)),math.cos(math.radians(-4.2)))
+    radial=[e for e in petal.Edges if abs(e.Length-2)<1e-5 and (
+        abs(e.CenterOfMass.z-96.8067)<1e-5 or
+        abs(end_normal.dot(e.CenterOfMass-App.Vector(0,4.28,128.43)))<1e-5)]
+    if len(radial)!=4:raise ValueError('Expected four radial petal corner edges')
+    petal=petal.makeFillet(.85,radial)
+    # Round tapered cutters before trimming the curved sheet surfaces.
+    def window(start,stop,z0,z1,radius):
+        theta=math.radians(a+11.25*angular_scale)
+        tangent=App.Vector(math.sin(theta),-math.cos(theta),0)
+        def point(z,angle):
+            lo,hi=next((l,h) for l,h in zip(sections,sections[1:]) if l[0]<=z<=h[0])
+            f=(z-lo[0])/(hi[0]-lo[0]);r,dy,tilt=[lo[j]+f*(hi[j]-lo[j]) for j in [1,2,3]]
+            t=math.radians(a+angle*angular_scale);q=App.Vector(r*math.cos(t),dy+r*math.sin(t)*math.cos(math.radians(tilt)),z+r*math.sin(t)*math.sin(math.radians(tilt)))
+            return (tangent.dot(q),q.z)
+        pts=[point(z0,start),point(z0,stop),point(z1,stop),point(z1,start)]
+        tool=profile(pts,'XZ',(0,-80,0),160)
+        axial=[e for e in tool.Edges if abs(e.Length-160)<1e-6]
+        assert len(axial)==4
+        tool=tool.makeFillet(radius,axial)
+        tool.rotate(App.Vector(),App.Vector(0,0,1),math.degrees(theta)-90)
+        return tool
+    recess=skin(1,-.8,0,22.5).common(window(2.7,19.8,99.5,127,1.0))
+    inset=skin(-.65,-.95,0,22.5).common(window(3.1,19.4,99.8,126.7,.8))
+    parts={f'NozzlePetal{i}':petal.cut(recess),f'NozzlePetalInset{i}':inset}
+    guides=[(100,51.49,-.62,-.43),(108,49.4,.7,-1.5),(120,46,2.8,-3),(123.5,45,3.41,-3.5)]
+    if stepped:
+        # A raised upper strap ends halfway down the leaf; the narrower
+        # recessed guide continues below it, as seen in the rear close-ups.
+        upper=[(98,52.05,-.98,-.15),(108,49.4,.7,-1.5),(111.6,48.38,1.33,-1.95)]
+        lower=[(111.4,48.44,1.295,-1.925),(120,46,2.8,-3),(123.5,45,3.41,-3.5)]
+        parts[f'NozzlePetalRidge{i}']=skin(.7,-1.1,9.5,13.0,upper).fuse(skin(-.2,-1.1,9.8,12.7,lower)).removeSplitter()
+        guides=lower
+    else:
+        parts[f'NozzlePetalRidge{i}']=skin(-.2,-1.1,9.8,12.7,guides)
+    for edge_index,edge_offset in enumerate((1.7,20.8)):
+        edge=a+edge_offset*angular_scale
+        t=math.radians(edge)
+        # Stop before the rounded corners rather than overhanging their ends.
+        stations=[(98,52.05,-.98,-.15),*sections[1:-1],(127.3,43.92,4.08,-4.04)]
+        points=[((r+.05)*math.cos(t),dy+(r+.05)*math.sin(t)*math.cos(math.radians(tilt)),
+                 z+(r+.05)*math.sin(t)*math.sin(math.radians(tilt))) for z,r,dy,tilt in stations]
+        parts[f'NozzlePetalEdgeRail{i}_{int(i*22.5+(1.7,20.8)[edge_index])}']=tube(points,.28)
+    for j,ang in enumerate((a+10.1*angular_scale,a+12.4*angular_scale)):
+        t=math.radians(ang)
+        points=[((r-.12)*math.cos(t),dy+(r-.12)*math.sin(t)*math.cos(math.radians(tilt)),
+                 z+(r-.12)*math.sin(t)*math.sin(math.radians(tilt))) for z,r,dy,tilt in guides]
+        parts[f'NozzlePetalGuide{i}_{j}']=tube(points,.28)
+    parts[f'NozzlePetalEndHem{i}']=skin(.1,-.4,2.6,19.9,[(127.7,43.81,4.15,-4.1),(128.43,43.6,4.28,-4.2)])
+    if stepped and phase==15 and pitch==30:
+        parts.update(petal_surface_parts(i))
+    return parts
 
 
 class Study:
@@ -883,7 +948,18 @@ def add_reference_side_modules(study):
         study.add(f'UnderbodyHarness{i}',tube(points,1.2),RED if i==0 else WHITE if i<4 else DARK,'Details','cable')
 
 
-def raked_rear_parts(knee=134):
+def rear_raked_slab(front, back, bottom, top, half_width, knee=134):
+    """One rounded prism shared by the raked cavity and closure clearance."""
+    shift=(bottom-knee)*.98
+    section=[(front+shift,bottom),(back+shift,bottom),(back,knee),
+             (back,top),(front,top),(front,knee)]
+    shape=profile(section,'YZ',(-half_width,0,0),2*half_width)
+    edges=[e for e in shape.Edges if e.BoundBox.XLength>2*half_width-.01
+           and abs(e.CenterOfMass.z-knee)<.01]
+    return shape.makeFillet(8,edges)
+
+
+def raked_rear_parts(knee=134, outer_x=116.76, lower_rise=6):
     """Construct folded rear pieces and a curved side-to-back transition.
 
     Keeping each fold inside a single rounded prism avoids the invalid curve-on-
@@ -892,26 +968,33 @@ def raked_rear_parts(knee=134):
     """
     slope = .98
     def slab(front, back, bottom, top, half_width):
-        shift=(bottom-knee)*slope
-        section=[(front+shift,bottom),(back+shift,bottom),(back,knee),
-                 (back,top),(front,top),(front,knee)]
-        shape=profile(section,'YZ',(-half_width,0,0),2*half_width)
-        fold_edges=[e for e in shape.Edges if e.BoundBox.XLength>2*half_width-.01
-                    and abs(e.CenterOfMass.z-knee)<.01]
-        return shape.makeFillet(8,fold_edges)
+        return rear_raked_slab(front,back,bottom,top,half_width,knee)
     def framed(w,h,z,border,radius,front,back):
         outline=rounded_frame(w,h,400,border,(-w/2,0,z),radius)
         return outline.common(slab(front,back,z,z+h,w/2))
     # Appearance-derived narrower back face and rounded side transition.
     # The shell backing overlaps the retained internal sloping skin.
-    panel=rounded_plate(178.6,173.68,400,(-89.3,0,60.12),3.36)
-    panel=panel.common(slab(218.75,244,60.12,233.8,89.3))
+    # Raise the lower cladding edge without thinning the rounded frame border
+    # or moving the cavity, nozzle, shoulders and upper antenna connections.
+    panel_bottom=60.12+lower_rise
+    panel=rounded_plate(178.6,233.8-panel_bottom,400,(-89.3,0,panel_bottom),3.36)
+    panel=panel.common(slab(218.75,244,panel_bottom,233.8,89.3))
     bore_axis=App.Vector(0,.574,-.819);bore_axis.normalize()
     bore=cylinder(50,180,tuple(App.Vector(0,180,173)-bore_axis*40),tuple(bore_axis))
-    parts={'RearServicePanel':panel.cut(bore),
-           'RearStructuralFrame':framed(178,170,61.8,7.56,10.08,241.75,248),
-           'RearCyanFrame':framed(144,110,80,3,8,244,247.75),
-           'RearRecessLiner':slab(243.5,247,82,188,70).cut(bore)}
+    # The dark region around the nozzle is a recessed housing, not another
+    # cylindrical nozzle wall. Open the cladding and retain an actual backing,
+    # side walls, forward lip and recessed light mounting ledge. Dimensions are
+    # appearance assumptions checked in both fixed rear-oblique cameras.
+    opening=rounded_plate(138,116,400,(-69,0,76),8)
+    backing=slab(220,223,74,194,71).cut(bore)
+    walls=slab(222,244,74,194,71).cut(opening)
+    lip=framed(142,120,74,2,10,242,247)
+    light_seat=framed(142,120,74,4,10,238,240)
+    liner=backing.fuse(walls).fuse(lip).fuse(light_seat).removeSplitter()
+    parts={'RearServicePanel':panel.cut(bore).cut(opening),
+           'RearStructuralFrame':framed(178,170-lower_rise,61.8+lower_rise,7.56,10.08,241.75,248),
+           'RearCyanFrame':framed(137,115,76.5,1.6,7.5,239.8,241.2),
+           'RearRecessLiner':liner}
     def rear_y(z,y,h,s,r=8):
         angle=math.atan(s);d=r*math.tan(angle/2)
         top=h+d;bottom=h-d/math.sqrt(1+s*s)
@@ -923,7 +1006,7 @@ def raked_rear_parts(knee=134):
         for z in (67.3,100,123,125,127,129,131,133,135,137,139,141,143,145,180,222):
             back=rear_y(z,248,knee,slope)
             edge=rear_y(z,230.5125,136.2828,64.325/69.4764)
-            rx=116.76-89;ry=back-edge
+            rx=outer_x-89;ry=back-edge
             def curve(inset,reverse=False):
                 points=[App.Vector(side*(89+(rx-inset)*math.sin(a)),
                                    edge+(ry-inset)*math.cos(a),z)
@@ -943,11 +1026,82 @@ def raked_rear_parts(knee=134):
     return parts
 
 
+def rear_cavity_lighting(frame, shell):
+    """Rounded primary rails, real reflectors and four separate luminous corners.
+
+    The secondary dim reference trace can be produced by reflection; it is not
+    modelled as another lamp. The fitted rail axis and the hidden bend lengths
+    are appearance inferences. Only these new parts clear the nozzle envelope.
+    """
+    wires=[]
+    for z,rx,ry,dy in [(0,49,49,0),(28,70,66,-1),(60,68,66,1),(94.81,53.82,53.82,-1.15)]:
+        points=[App.Vector((rx+.3)*math.cos(i*math.tau/128),dy+(ry+.3)*math.sin(i*math.tau/128),z) for i in range(128)]
+        curve=Part.BSplineCurve();curve.interpolate(points,PeriodicFlag=True)
+        wires.append(Part.Wire([curve.toShape()]))
+    envelope=Part.makeLoft(wires,True,False)
+    axis=App.Vector(0,.574,-.819);axis.normalize()
+    envelope.Placement=App.Placement(App.Vector(0,180,173),App.Rotation(App.Vector(0,0,1),axis))
+    updated_envelope = root_shifted_fairing(envelope_only=True)
+    updated_envelope.Placement = envelope.Placement
+    envelope = envelope.fuse(updated_envelope)
+    # Keep the rail/reflector positions and their previously checked clearances.
+    # Only the two upper corner ends meet the deeper v50 fairing envelope.
+    fixture_envelope = envelope
+    corner_envelope = blended_fairing_parts(envelope_only=True, depth_extra=4)
+    corner_envelope.Placement = updated_envelope.Placement
+    envelope = envelope.fuse(corner_envelope)
+    # Narrowing one interpolated station can bulge a neighbouring span.
+    # Validate the actual loft independently of historical light clearance cuts.
+    shoulder_envelope = blended_fairing_parts(envelope_only=True, depth_extra=4,
+                                             shoulder_inset=6, lower_inset=0)
+    shoulder_envelope.Placement = updated_envelope.Placement
+    # Keep existing light ends: the extra 0.3 mm envelope would shave a clear
+    # lower corner. Every light is checked against the actual shell below.
+    if shell.cut(shoulder_envelope).Volume>1e-5:raise ValueError('Nozzle clearance envelope does not contain shell')
+    pieces=frame.cut(box(200,400,81,(-100,0,94))).cut(envelope).Solids
+    upper=sorted([s for s in pieces if s.CenterOfMass.z>150],key=lambda s:s.CenterOfMass.x)
+    lower=sorted([s for s in pieces if s.CenterOfMass.z<100],key=lambda s:s.CenterOfMass.x)
+    if len(upper)!=2 or len(lower)!=2:raise ValueError('Expected four separate cavity light corners')
+    parts={name:(s,CYAN,'emission') for name,s in [('RearCyanFrame',upper[0]),('RearCyanUpperLeft',upper[1]),
+            ('RearCyanLowerRight',lower[0]),('RearCyanLowerLeft',lower[1])]}
+    for side,suffix in [(1,'Left'),(-1,'Right')]:
+        x=side*65.36773626
+        rail=tube([(x,231,176),(x,234.6,175),(x,236.50410262,172),
+                   (x,236.50410262,147),(x,235.6,142),(x,231,138)],1.5)
+        parts['RearCavityEmitter'+suffix]=(rail.cut(fixture_envelope),CYAN,'emission')
+        backing=rounded_plate(9,42,2,(x-4.5,229.8,136),2)
+        parts['RearCavityReflector'+suffix]=(backing.cut(fixture_envelope),(.42,.45,.43),'metal')
+        for name,z in [('Upper',173.5),('Lower',136.8)]:
+            clip=rounded_plate(9,4.2,10.5,(x-4.5,230,z),1.6)
+            clip=clip.cut(cylinder(1.35,7,(x,236.50410262,z-1))).cut(fixture_envelope)
+            parts['RearCavityClip'+name+suffix]=(clip,(.055,.065,.06),'metal')
+    for name,(s,_,_) in parts.items():
+        s.check(True)
+        if not s.isValid() or len(s.Solids)!=1 or s.common(shell).Volume>1e-6:
+            raise ValueError('Invalid cavity lighting or nozzle interference: '+name)
+    return parts
+
+
 def add_sloping_rear_closure(study):
     """Join the revised outer trim to the retained inner sloping skin."""
     knee=134
-    for name,shape in raked_rear_parts(knee).items():
+    for name,shape in raked_rear_parts(knee,outer_x=112.76).items():
         study.doc.getObject(name).Shape=shape
+    lighting=rear_cavity_lighting(study.doc.getObject('RearCyanFrame').Shape,study.doc.getObject('BassNozzleShell').Shape)
+    for name,(shape,color,material) in lighting.items():
+        if name=='RearCyanFrame':study.doc.getObject(name).Shape=shape
+        else:study.add(name,shape,color,'Rear',material)
+    # Partition overlapping front faces instead of letting two coincident
+    # gold surfaces shadow each other. Both parts retain the real slot cuts;
+    # otherwise the frame behind the carrier fills the antenna-side recesses.
+    frame=study.doc.getObject('RearStructuralFrame')
+    carrier=study.doc.getObject('RearRailCarrier')
+    frame_shape=frame.Shape.copy();carrier_shape=carrier.Shape.copy()
+    for side in (-1,1):
+        slot=rounded_plate(13.5,2.8,2.1,(side*15.5-6.75,246.7,228),1.3)
+        frame_shape=frame_shape.cut(slot);carrier_shape=carrier_shape.cut(slot)
+    frame.Shape=frame_shape
+    carrier.Shape=carrier_shape.cut(frame_shape).removeSplitter()
     cut=profile([(150,58),(228,126),(360,126),(360,-30),(49,-30)],
                 'YZ',(-180,0,0),360)
     for obj in study.items:
@@ -957,12 +1111,177 @@ def add_sloping_rear_closure(study):
                 raise ValueError('Invalid sloping rear closure: '+obj.Name)
             obj.Shape=shape
     slope=profile([(150,58),(228,126),(224.7,129.8),(146.7,61.8)],'YZ',(-100.8,0,0),201.6)
+    # The narrower nozzle exposes this closure: trim its cavity intrusion
+    # rather than hiding two gold tabs behind an oversized fairing.
+    clearance=rear_raked_slab(223,330,74,194,69).common(
+        rounded_plate(138,116,400,(-69,0,76),8))
+    slope=slope.cut(clearance)
     study.add('RearLowerSlope',slope,GOLD,'Hull')
     for obj in list(study.items):
         if obj.Name.startswith('RearArmourBolt'):
             study.items.remove(obj);study.doc.removeObject(obj.Name)
         elif obj.Name.startswith(('RearRecessWire','RearRecessCornerBoss')):
             shape=obj.Shape.copy();shape.translate(App.Vector(0,12,0));obj.Shape=shape
+
+
+def rebuilt_side_closure(side, with_status_cut=True):
+    """Recreate planar extrusion before rounding, avoiding affine 3D fillets.
+
+    The Y/Z perimeter retains the existing transformed corner curves. The
+    thickness-edge fillet is now a true 2.1mm world-space radius; this is an
+    intentional small geometric change, not a lossless normalization.
+    """
+    outline=[(54.4,187.9),(69.67,241.01),(171.39,244.33),(183.98,232.58),
+             (184.41,133.67),(132.95,50.96),(80.38,49.36),(53.38,72.45)]
+    source=profile(outline,'YZ',(0,0,0),1)
+    source=source.makeFillet(10,[e for e in source.Edges if e.BoundBox.XLength>.99])
+    face=min((f for f in source.Faces if abs(f.normalAt(0,0).x)>.99),key=lambda f:f.CenterOfMass.x)
+    matrix=App.Matrix();matrix.A22=1.25;matrix.A33=.84;matrix.A34=24;matrix.A14=side*100.8
+    wire=Part.Wire(face.OuterWire.transformGeometry(matrix).Edges)
+    result=Part.Face(wire).extrude(App.Vector(side*12.6,0,0))
+    result=result.makeFillet(2.1,[e for e in result.Edges if e.BoundBox.XLength<.01])
+    result=result.cut(cylinder(64,17,(side*100,129.09686,153.62312),(side,0,0)))
+    result=result.cut(cylinder(21.2,23,(side*97.8,192.27910630805997,201.20766206780763),(side,0,0)))
+    if not with_status_cut:
+        return result
+    inner=[(190,182),(214,182),(214,145),(204,133),(190,145)]
+    mouth=[(185,190),(239,190),(239,140),(206,128),(185,140)]
+    def section(points,x):
+        vs=[App.Vector(x,y,z) for y,z in points]
+        return Part.Wire(Part.makePolygon(vs+[vs[0]]).Edges)
+    result=result.cut(profile(inner,'YZ',(side*94.6,0,0),side*25))
+    return result.cut(Part.makeLoft([section(inner,side*94.6),section(mouth,side*117)],True,True))
+
+
+def rebuilt_side_bolt(side,index):
+    """Analytic elliptical extrusion with the original scaled screwdriver slot."""
+    y,z=((83,62),(115,62),(178,229),(70,223))[index]
+    radius=1.7 if index<2 else 2.6
+    center=App.Vector(side*139*.84,y*1.25,z*.84+24)
+    ellipse=Part.Ellipse(center+App.Vector(0,radius*1.25,0),center+App.Vector(0,0,radius*.84),center)
+    result=Part.Face(Part.Wire([ellipse.toShape()])).extrude(App.Vector(side*1.8*.84,0,0))
+    slot=box(radius*1.2,.9,2.8,(-radius*.6,-.45,-.5))
+    slot.rotate(App.Vector(),App.Vector(0,0,1),25)
+    slot.Placement=App.Placement(App.Vector(side*139,y,z),App.Rotation(App.Vector(0,0,1),App.Vector(side,0,0))).multiply(slot.Placement)
+    matrix=App.Matrix();matrix.A11=.84;matrix.A22=1.25;matrix.A33=.84;matrix.A34=24
+    return result.cut(slot.transformGeometry(matrix))
+
+
+def refine_side_cladding(study, inset=4):
+    """Narrow the connected trim while preserving the fixed side controls.
+
+    Video/still candidate E retains visibility through a wider guard notch.
+    The supported screen, nozzle, ring-connected wires and four shafts do not
+    move. World-space repairs avoid invalid affine fillet parameter curves.
+    """
+    prefixes=('SideClosure','SideMechanicalBacking','SideGuard','SideFrameShoe',
+              'SideFrameBolt','CyanSideTube','SideFrontSpine')
+    for obj in study.items:
+        name=obj.Name
+        if not name.startswith(prefixes):continue
+        side=-1 if 'Left' in name else 1
+        if name.startswith('SideClosure'):shape=rebuilt_side_closure(side)
+        elif name.startswith('SideGuard'):shape=obj.Shape.toNurbs()
+        elif name.startswith('SideFrameBolt'):shape=rebuilt_side_bolt(side,int(name[-1]))
+        else:shape=obj.Shape.copy()
+        # Keep the original small mounting patch beneath each unchanged arm.
+        seat=shape.common(box(40,21,5,((90 if side>0 else -130),98.5,223))) if name.startswith('SideClosure') else None
+        shape.translate(App.Vector(-side*inset,0,0))
+        if seat is not None:shape=shape.fuse(seat)
+        if name.startswith(('SideClosure','SideMechanicalBacking')):
+            inner=[(190,182),(214,182),(214,145),(204,133),(190,145)]
+            mouth=[(185,190),(239,190),(239,140),(206,128),(185,140)]
+            def wire(points,x):
+                vs=[App.Vector(x,y,z) for y,z in points]
+                return Part.Wire(Part.makePolygon(vs+[vs[0]]).Edges)
+            shape=shape.cut(profile(inner,'YZ',(side*94.6,0,0),side*25))
+            shape=shape.cut(Part.makeLoft([wire(inner,side*94.6),wire(mouth,side*117)],True,True))
+        elif name.startswith('SideGuard'):
+            relief=profile([(219.8,140),(239,140),(239,189),(219.8,189)],
+                           'YZ',(side*100,0,0),side*16.5)
+            shape=shape.cut(relief)
+        shape.check(True)
+        if not shape.isValid() or len(shape.Solids)!=len(obj.Shape.Solids):
+            raise ValueError('Invalid narrowed side cladding: '+name)
+        obj.Shape=shape
+
+
+def reprojected_rear_shoulders(outer_x,scale,eye_y,eye_z,exponent=1.5):
+    def rear_y(z,y,knee,slope,radius=8):
+        angle=math.atan(slope);d=radius*math.tan(angle/2)
+        top=knee+d;bottom=knee-d/math.sqrt(1+slope*slope)
+        if z>=top:return y
+        if z<=bottom:return y+(z-knee)*slope
+        return y-radius+math.sqrt(radius*radius-(z-top)**2)
+    map_z=lambda z:eye_z+scale*(z-eye_z)
+    stations=sorted(set([map_z(z) for z in [67.3,100,123,125,127,129,131,133,135,137,139,141,143,145,180,222]]+
+                        [125,127,129,131,133,135,137,139,141,143,145]))
+    result={}
+    for side,suffix in [(-1,'Left'),(1,'Right')]:
+        wires=[]
+        for z in stations:
+            back=rear_y(z,248,134,.98)
+            original_z=eye_z+(z-eye_z)/scale
+            original_y=rear_y(original_z,230.5125,136.2828,64.325/69.4764)
+            edge=eye_y+scale*(original_y-eye_y)
+            rx=outer_x-89;ry=back-edge
+            def curve(inset,reverse=False):
+                pts=[App.Vector(side*(89+(rx-inset)*math.sin(i*math.pi/32)**(2/exponent)),edge+(ry-inset)*math.cos(i*math.pi/32)**(2/exponent),z) for i in range(17)]
+                if reverse:pts.reverse()
+                spline=Part.BSplineCurve();spline.interpolate(pts)
+                return spline.toShape(),pts
+            outer,op=curve(0);inner,ip=curve(3.5,True)
+            ot=op[-1]+App.Vector(0,-4*scale,0);it=ip[0]+App.Vector(0,-4*scale,0)
+            wires.append(Part.Wire([outer,Part.makeLine(op[-1],ot),Part.makeLine(ot,it),Part.makeLine(it,ip[0]),inner,Part.makeLine(ip[-1],op[0])]))
+        result['RearArmourCheek'+suffix]=Part.makeLoft(wires,True,True)
+    return result
+
+
+def reproject_side_cladding(study):
+    """Use the reviewed X108 frame plane and retain the unchanged arm seats.
+
+    Camera-space rays determine Y/Z, then actual BReps are uniformly scaled.
+    The reference camera remains fixed; this does not transform rendered pixels.
+    """
+    outer_x=108.0
+    eye=(1100.478706826763,481.9590609254328,317.0386845391606)
+    scale=(outer_x-eye[0])/(116.76-eye[0])
+    prefixes=('SideClosure','SideMechanicalBacking','SideGuard','SideFrameShoe',
+              'SideFrameBolt','CyanSideTube','SideFrontSpine')
+    parts={}
+    for obj in study.items:
+        name=obj.Name
+        if not name.startswith(prefixes):continue
+        side=-1 if 'Left' in name else 1
+        shape=obj.Shape.copy()
+        shape.translate(App.Vector(side*4,0,0))
+        shape.scale(scale)
+        shape.translate(App.Vector(side*(outer_x-scale*116.76),eye[1]*(1-scale),eye[2]*(1-scale)))
+        if name.startswith('SideClosure'):
+            seat=obj.Shape.common(box(40,21,5,((90 if side>0 else -130),98.5,223)))
+            shape=shape.fuse(seat)
+        parts[name]=shape
+    parts.update(reprojected_rear_shoulders(outer_x,scale,eye[1],eye[2]))
+    for side,suffix in [(-1,'Left'),(1,'Right')]:
+        inner=[(190,182),(214,182),(214,145),(204,133),(190,145)]
+        mouth=[(185,190),(239,190),(239,140),(206,128),(185,140)]
+        def wire(points,x):
+            vs=[App.Vector(x,y,z) for y,z in points];return Part.Wire(Part.makePolygon(vs+[vs[0]]).Edges)
+        pocket=profile(inner,'YZ',(side*94.6,0,0),side*25)
+        flared=Part.makeLoft([wire(inner,side*94.6),wire(mouth,side*117)],True,True)
+        for prefix in ['SideClosure','SideMechanicalBacking','RearArmourCheek']:
+            name=prefix+suffix;parts[name]=parts[name].cut(pocket).cut(flared)
+        relief=profile([(212,140),(239,140),(239,189),(212,189)],'YZ',(side*90,0,0),side*30)
+        name='SideGuard'+suffix;parts[name]=parts[name].cut(relief)
+        parts[name]=trim_guard_notch(parts[name],side)
+        name='SideClosure'+suffix
+        parts[name]=restore_status_rim(parts[name],side,rebuilt_side_closure(side,with_status_cut=False))
+    for obj in study.items:
+        if obj.Name not in parts:continue
+        shape=parts[obj.Name];shape.check(True)
+        if not shape.isValid() or not shape.Solids or not all(s.isClosed() for s in shape.Solids):
+            raise ValueError('Invalid reprojected side cladding: '+obj.Name)
+        obj.Shape=shape
 
 
 def build(root, frame_view=True):
@@ -1192,12 +1511,7 @@ def build(root, frame_view=True):
                      for y,z in light_outline]
     # Full colored boundary back-projected from video frame 30 onto the inclined
     # wing plane. Earlier endpoint-only fitting missed the broad trailing edge.
-    wing = [(210.33,366.67),(202.26,357.61),(162.35,311.86),(133.92,270.72),
-            (95.92,216.13),(59.43,173.79),(53.07,161.74),(54.98,147.46),
-            (62.36,136.36),(76.97,127.85),(90.54,127.89),(102.98,134.78),
-            (112.07,144.17),(116.91,158.36),(121.32,174.38),(127.9,189.4),
-            (138.83,202.93),(153.77,218.65),(168.39,239.46),(182.19,258.6),
-            (196.51,278.3),(208.65,299.93),(215.85,318.48),(214.45,337.47)]
+    wing = list(WING_OUTLINE)
     for side in (-1, 1):
         suffix = 'Left' if side < 0 else 'Right'
         direction = (side, 0, 0)
@@ -1284,8 +1598,7 @@ def build(root, frame_view=True):
             lug=box(3.4,9,5.4,(cx-1.7 if side>0 else -cx-1.7,cy+46,cz-2.7),.8)
             lug.rotate(App.Vector(0,cy,cz),App.Vector(1,0,0),i*60+15)
             b.add(f'SpeakerRetainer{suffix}{i}',lug,(.20,.24,.24),'Sides','metal')
-        crease = [(116.91,158.36),(121.43,193.27),(129.37,224.39),
-                  (142.50,248.67),(174.21,286.70),(214.00,335.21)]
+        crease = list(WING_CREASE)
         main_face = wing[:14]+crease[1:]
         blade = curved_wing_plate(wing,side*167,side*1)
         b.add('WingEdge'+suffix, blade, RED if side<0 else GOLD, 'Wings')
@@ -1494,67 +1807,31 @@ def build(root, frame_view=True):
     b.add('BassNozzleShell',place(fairing['BassNozzleShell'].copy()),(.52,.37,.21),'Rear')
     b.add('BassNozzleRearCollar', place(ring(55, 45, 8, (0, 0, -3))), METAL, 'Rear', 'metal')
     b.add('BassChamberBackplate', place(cylinder(45, 4, (0, 0, 5))), DARK, 'Rear', 'metal')
-    b.add('BassNozzleMouthRing', place(Part.makeTorus(52.3215,2,App.Vector(0,-1.149,96.8067))), METAL, 'Rear', 'metal')
-    b.add('BassNozzleRolledLip',place(Part.makeTorus(53.62,1.7,App.Vector(0,-1.15,94.81))),(.52,.37,.21),'Rear')
+    lip=nozzle_lip_parts()
+    b.add('BassNozzleMouthRing', place(lip['BassNozzleMouthRing']), METAL, 'Rear', 'metal')
+    b.add('BassNozzleRolledLip',place(lip['BassNozzleRolledLip']),(.52,.37,.21),'Rear')
     for i in range(6):
         clamp=box(9,8,13,(-4.5,49,-2),1.5)
         clamp.rotate(App.Vector(),App.Vector(0,0,1),i*60)
         b.add(f'NozzleRootClamp{i}',place(clamp),METAL,'Rear','metal')
-    b.add('BassSpeakerGasket', place(ring(55, 48, 4, (0, -1.15, 91))), DARK, 'Rear', 'rubber')
-    b.add('BassVisualCone',place(round_loft([(103,20,0),(110,28,1),(119,37,3),(123,39,4)])),DARK,'Rear','rubber')
-    b.add('BassDustCap',place(Part.makeSphere(8,App.Vector(0,4,118),App.Vector(0,0,1),0,90)),DARK,'Rear','rubber')
+    b.add('BassSpeakerGasket', place(lip['BassSpeakerGasket']), DARK, 'Rear', 'rubber')
+    inner = interior_parts(recessed=True)
+    b.add('BassVisualCone',place(inner['BassVisualCone']),DARK,'Rear','rubber')
+    b.add('BassDustCap',place(inner['BassDustCap']),DARK,'Rear','rubber')
     # Terminal circle comes from 19 pixels across three fixed reference views.
     # Each petal curves inward and its final section tilts gently relative to
     # the gold fairing axis; this is geometry, not a render-space deformation.
-    sections=[(96.8067,52.3215,48.8215,-1.149,0),(108,49.4,45.9,.7,-1.5),
-              (120,46,42.5,2.8,-3),(128.43,43.6,40.1,4.28,-4.2)]
-    def nozzle_section(ro,ri,z,dy,tilt,start,stop):
-        wire=sector_wire(ro,ri,z,start,stop)
-        wire.rotate(App.Vector(0,0,z),App.Vector(1,0,0),tilt)
-        wire.translate(App.Vector(0,dy,0))
-        return wire
-    def throat_wire(radius,z,dy,tilt):
-        wire=Part.Wire([Part.makeCircle(radius,App.Vector(0,0,z))])
-        wire.rotate(App.Vector(0,0,z),App.Vector(1,0,0),tilt)
-        wire.translate(App.Vector(0,dy,0))
-        return wire
-    throat=Part.makeLoft([throat_wire(ri-.1,z,dy,tilt) for z,_,ri,dy,tilt in sections],True,False)
-    bore=Part.makeLoft([throat_wire(ri-2.6,z,dy,tilt) for z,_,ri,dy,tilt in sections],True,False)
-    b.add('BassInnerThroat',place(throat.cut(bore)),DARK,'Rear','rubber')
+    b.add('BassInnerThroat',place(inner['BassInnerThroat']),DARK,'Rear','rubber')
     for i in range(NOZZLE_PETALS):
-        a=i*360/NOZZLE_PETALS
-        petal=Part.makeLoft([nozzle_section(ro,ri,z,dy,tilt,a+1.2,a+21.3)
-                            for z,ro,ri,dy,tilt in sections],True,True)
-        recess=Part.makeLoft([nozzle_section(ro+1,ro-1.3,z,dy,tilt,a+3.4,a+19.1)
-                             for z,ro,ri,dy,tilt in sections],True,True)
-        recess=recess.common(box(160,160,26.3,(-80,-80,99.5)))
-        b.add(f'NozzlePetal{i}',place(petal.cut(recess)),(.27,.28,.27),'Rear','metal')
-        inset=Part.makeLoft([nozzle_section(ro-1.12,ro-1.43,z,dy,tilt,a+4.2,a+18.3)
-                             for z,ro,ri,dy,tilt in sections],True,True)
-        inset=inset.common(box(160,160,25.7,(-80,-80,99.8)))
-        b.add(f'NozzlePetalInset{i}',place(inset),(.07,.08,.075),'Details','metal')
-        guide_sections=[(100,51.49,-.62,-.43),(108,49.4,.7,-1.5),(120,46,2.8,-3),
-                        (123.5,45.0,3.41,-3.5)]
-        ridge=Part.makeLoft([nozzle_section(ro-.4,ro-1.6,z,dy,tilt,a+9.2,a+13.3)
-                            for z,ro,dy,tilt in guide_sections],True,True)
-        b.add(f'NozzlePetalRidge{i}',place(ridge),(.39,.41,.38),'Details','metal')
-        for edge_angle in (a+1.7,a+20.8):
-            theta=math.radians(edge_angle)
-            points=[((ro+.15)*math.cos(theta),dy+(ro+.15)*math.sin(theta)*math.cos(math.radians(tilt)),
-                     z+(ro+.15)*math.sin(theta)*math.sin(math.radians(tilt))) for z,ro,_,dy,tilt in sections]
-            b.add(f'NozzlePetalEdgeRail{i}_{int(edge_angle)}',place(tube(points,.45)),(.53,.54,.50),'Details','metal')
-        for j,angle in enumerate((a+9.7,a+12.8)):
-            theta=math.radians(angle)
-            points=[((ro-.35)*math.cos(theta),dy+(ro-.35)*math.sin(theta)*math.cos(math.radians(tilt)),
-                     z+(ro-.35)*math.sin(theta)*math.sin(math.radians(tilt))) for z,ro,dy,tilt in guide_sections]
-            b.add(f'NozzlePetalGuide{i}_{j}',place(tube(points,.4)),(.58,.59,.54),'Details','metal')
-        hem=Part.makeLoft([nozzle_section(ro+.2,ro-.5,z,dy,tilt,a+1.7,a+20.8)
-                           for z,ro,dy,tilt in ((127.3,43.92,4.08,-4.04),(128.43,43.6,4.28,-4.2))],True,True)
-        b.add(f'NozzlePetalEndHem{i}',place(hem),(.49,.50,.46),'Details','metal')
-        theta=math.radians(a+11.25)
-        radial=(math.cos(theta),math.sin(theta),0)
-        tangent=(-math.sin(theta),math.cos(theta),0)
-        hinge=cylinder(1.3,6,(51.5*radial[0]-3*tangent[0],-1.149+51.5*radial[1]-3*tangent[1],95.8),tangent)
+        for name,shape in nozzle_leaf_parts(i).items():
+            if name==f'NozzlePetal{i}':color,category=(.27,.28,.27),'Rear'
+            elif name.startswith('NozzlePetalInset'):color,category=(.07,.08,.075),'Details'
+            elif name.startswith('NozzlePetalRidge'):color,category=(.39,.41,.38),'Details'
+            elif name.startswith('NozzlePetalEdgeRail'):color,category=(.53,.54,.50),'Details'
+            elif name.startswith('NozzlePetalGuide'):color,category=(.58,.59,.54),'Details'
+            else:color,category=(.49,.50,.46),'Details'
+            b.add(name,place(shape),color,category,'metal')
+        hinge=root_shifted_hinge(i)
         b.add(f'NozzlePetalHinge{i}',place(hinge),(.30,.32,.29),'Details','metal')
     # Projected surface patches remain in contact with the revised fairing.
     for name,shape in fairing.items():
@@ -1631,6 +1908,8 @@ def build(root, frame_view=True):
     disc = cylinder(60, 1.2, (0, 63, 338), (0, 1, 0))
     b.add('CDInsertionStudy_D120', disc, SILVER, 'Reservations', visible=False)
     refine_reference_proportions(b)
+    for name, shape in gold_wing_fold_parts().items():
+        doc.getObject(name).Shape = shape
     # Trim exposed grip ends into the sloping shoulders; retain the central wrap.
     grip=doc.getObject('HandleGrip')
     keep=box(202,100,100,(-101,125,260))
@@ -1648,6 +1927,14 @@ def build(root, frame_view=True):
                 raise ValueError('Invalid side ring pocket: '+obj.Name)
     add_sloping_rear_closure(b)
     add_reference_side_modules(b)
+    refine_side_cladding(b)
+    reproject_side_cladding(b)
+    pan=doc.getObject('ClosedBellyPan')
+    pan.Shape=relieved_belly(pan.Shape,52.5,32)
+    for obj in b.items:
+        if obj.Name.startswith(('BellyServicePlate','BellyServiceBolt')):
+            obj.Shape=moved_service_shape(obj.Shape,-1 if 'Left' in obj.Name else 1,52.5,
+                                          is_bolt=obj.Name.startswith('BellyServiceBolt'))
     info = doc.addObject('App::FeaturePython', 'ConceptStatus')
     info.Label = chinese_label('ConceptStatus')
     info.addProperty('App::PropertyString', 'Scope')
@@ -1673,22 +1960,40 @@ def save_outputs(doc, items, out):
     bbox = Part.makeCompound([o.Shape for o in visible]).optimalBoundingBox(False, False)
     nozzle_axis=App.Vector(0,.574,-.819);nozzle_axis.normalize()
     nozzle_frame=App.Placement(App.Vector(0,180,173),App.Rotation(App.Vector(0,0,1),nozzle_axis))
-    label_positions={}
-    for name,key,x,z in [('BassWarningPlaque','warning',14,73),
-                         ('BassWarningTriangleInset','alert',1,40)]:
+    local_patches={}
+    for name in ('BassWarningPlaque','BassWarningTriangleInset'):
         local=doc.getObject(name).Shape.copy()
         local.Placement=nozzle_frame.inverse().multiply(local.Placement)
-        label_positions[key]=[x,local.optimalBoundingBox(False,False).YMin-.25,z]
+        local_patches[name]=local
+    label_metadata=warning_label_positions(local_patches)
     manifest = {
-        'revision': 'v30-rounded-nozzle-fairing',
+        'revision': 'v53-belly-side-relief',
+        'belly_relief': {'outer_floor_z_mm':52.5,'central_strip_width_mm':64,'outer_flat_start_x_mm':62,'basis':'appearance-derived closed lower shell; support geometry retained, no load validation'},
+        'nozzle_marking_spec': MARKING_SPEC,
+        'rear_shoulder_section_exponent': 1.5,
+        'gold_wing_crease_offsets_local_y_mm': list(GOLD_WING_CREASE_OFFSETS),
+        'petal_recess_stations_mm': [shifted_z(99.5,1),shifted_z(127.0,1)],
+        'petal_recess_corner_radius_mm': 1.0,
+        'rear_lower_edge_rise_mm': 6,
+        'nozzle_lip_parameters_mm': {'gold_major_radius':52.82+ROOT_DELTA[1],'gold_minor_radius':1.0,'gold_station':95.6+ROOT_DELTA[0],'metal_major_radius':52.3215+ROOT_DELTA[1],'metal_minor_radius':1.0,'metal_station':96.8067+ROOT_DELTA[0],'gasket_outer_radius':52.5+ROOT_DELTA[1]},
+        'nozzle_root_profile': {'local_delta_z_radius_y_tilt':list(ROOT_DELTA),'guide_span_degrees':5.4,'terminal_circle_preserved':True,'basis':'five fixed video views; manual root centreline observations'},
+        'nozzle_mid_depth_reduction_mm': 3,
+        'fairing_root_blend_power': 4,
+        'fairing_middle_depth_extra_mm': 4,
+        'fairing_shoulder_inset_mm': 6,
+        'fairing_lower_inset_mm': 0,
+        'nozzle_interior': {'throat_end_station_before_root_map_mm':112,'bowl_depth_mm':23,'bowl_radial_wall_mm':1,'back_plate_mm':1,'basis':'appearance-only recessed bowl; hidden speaker hardware unselected'},
+        'side_profile_reprojection': {'outer_x_mm':108.0,'scale':1.0089049846660512,'eye_mm':[1100.478706826763,481.9590609254328,317.0386845391606]},
         'tree_structure': 'flat', 'group_count': 0,
         'status': 'appearance-study-only', 'physical_tests': False,
         'screen_panel_mm': [210, 160, 2], 'active_area_mm': [200, 150],
         'bass_axis': [0, .574, -.819],
         'bass_origin_mm': [0, 180, 173],
         'nozzle_petals': NOZZLE_PETALS,
-        'bass_warning_label_local_mm': label_positions['warning'],
-        'bass_alert_local_mm': label_positions['alert'],
+        'rear_cavity': {'aperture_mm': [138,116], 'back_y_mm':223,
+                        'lip_y_mm':247, 'light_front_y_mm':241.2,
+                        'basis':'appearance assumption; shadow is not a nozzle boundary'},
+        **label_metadata,
         'woofer_reservation_mm': {'diameter': 88, 'depth': 40, 'basis': 'unselected placeholder'},
         'support': {'shafts': 4, 'shaft_diameter_mm': 6, 'ground_z_mm': -100,
                     'foot_centres_span_mm': [244, 216],
@@ -1711,7 +2016,9 @@ def save_outputs(doc, items, out):
                                    'bass_axis': manifest['bass_axis'],
                                    'bass_origin_mm': manifest['bass_origin_mm'],
                                    'bass_warning_label_local_mm': manifest['bass_warning_label_local_mm'],
-                                   'bass_alert_local_mm': manifest['bass_alert_local_mm'], 'objects': meshes}))
+                                   'bass_alert_local_mm': manifest['bass_alert_local_mm'],
+                                   'bass_warning_text_size_mm': manifest['bass_warning_text_size_mm'],
+                                   'bass_alert_text_size_mm': manifest['bass_alert_text_size_mm'], 'objects': meshes}))
     print(json.dumps({'saved': str(path), 'visible_features': len(visible), 'bbox_mm': manifest['bbox_mm'],
                       'meshfile': str(meshfile)}, ensure_ascii=False))
     return doc

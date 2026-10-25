@@ -1,27 +1,27 @@
 # Drone 参考叠加与迭代
 
-2026-10-24，完成 v30 喷口外罩子任务，按用户要求暂停后续优化。用户要求除四根新增支柱外尽可能完整还原参考，使用真实模型截图与原图重叠比较，并利用 `video-cam.mp4` 检查整圈。目标是主要部件轮廓误差尽量控制在正面屏幕投影宽度的 5% 内，争取十方位平均轮廓 IoU 达到 90%。这是执行目标，尚未达到，不能把轮廓分数解释成细节还原率。
+2026-10-24，按用户要求恢复侧后方优化，当前为 v53 侧后壳底部收形。用户要求除四根新增支柱外尽可能完整还原参考，使用真实模型截图与原图重叠比较，并利用 `video-cam.mp4` 检查整圈。目标是主要部件轮廓误差尽量控制在正面屏幕投影宽度的 5% 内，争取十方位平均轮廓 IoU 达到 90%。这是执行目标，尚未达到，不能把轮廓分数解释成细节还原率。
 
 ## 当前阶段结果
 
-当前保存模型的十方位平均前景轮廓 IoU 为 **84.38%**；以相同相机、相同原始 CAD 网格渲染设置重算的 v6 基线为 **66.23%**，提高约 **18.15 个百分点**。90% 目标尚未达到，尤其侧后方、喷口和翼板轮廓仍有差异。
+当前保存模型的十方位平均前景轮廓 IoU 为 **85.03%**；同设置 v6 基线为 **66.23%**，提高约 **18.80 个百分点**。90% 目标尚未达到，局部亮边、末端和外壳细节仍有差异。
 
-[当前十方位比较板](../cad/drone-concept/comparison/iteration-64/comparison-board.png) · [当前逐图比较板](../cad/drone-concept/comparison/stills-35/comparison-board.png) · [当前报告](../cad/drone-concept/comparison/iteration-64/comparison-report.json) · [同设置 v6 基线](../cad/drone-concept/comparison/baseline-raw-v23/comparison-report.json)
+[当前十方位比较板](../cad/drone-concept/comparison/iteration-87/comparison-board.png) · [当前逐图比较板](../cad/drone-concept/comparison/stills-58/comparison-board.png) · [当前报告](../cad/drone-concept/comparison/iteration-87/comparison-report.json) · [同设置 v6 基线](../cad/drone-concept/comparison/baseline-raw-v23/comparison-report.json)
 
 [稀疏标志点检查](../cad/drone-concept/comparison/landmark-check.json)直接读取保存 BRep 的翼尖顶点、翼根/灯头中心和实际平面屏角点，投影到固定相机。42 个观测点全部低于 22.75 像素阈值（正面参考显示宽度 455 像素的 5%）；最大偏差 10.92 像素，距离 RMS 5.95 像素。这只验证这些位置，**不代表各零件完整轮廓都满足 5%**。脚本见 [measure_drone_landmarks.py](../tools/measure_drone_landmarks.py)。
 
-| 视频时间 | v6 基线 | 当前 v30 |
+| 视频时间 | v6 基线 | 当前 v53 |
 | --- | --- | --- |
-| 0 s | 75.10% | 86.68% |
-| 1 s | 64.68% | 85.23% |
-| 2 s | 65.58% | 83.60% |
-| 3 s | 64.17% | 81.02% |
-| 4 s | 59.80% | 81.01% |
-| 5 s | 62.54% | 79.81% |
-| 6 s | 63.63% | 82.38% |
-| 7 s | 65.33% | 87.67% |
-| 8 s | 74.44% | 88.35% |
-| 9 s | 67.00% | 88.02% |
+| 0 s | 75.10% | 87.33% |
+| 1 s | 64.68% | 85.49% |
+| 2 s | 65.58% | 83.70% |
+| 3 s | 64.17% | 82.24% |
+| 4 s | 59.80% | 82.26% |
+| 5 s | 62.54% | 80.73% |
+| 6 s | 63.63% | 82.84% |
+| 7 s | 65.33% | 88.26% |
+| 8 s | 74.44% | 89.42% |
+| 9 s | 67.00% | 88.03% |
 
 当前比较与正式效果图直接使用 CAD 三角网格，移除了可能在裁剪曲面三角化上崩溃的展示倒角及加权法线修改器；渲染清单记录脚本哈希和网格有效性清理对象。第九轮开始使用这一设置，基线已同步重渲染，旧轮次数字按各自记录保留。
 
@@ -444,6 +444,260 @@ PYTHONPATH=/Applications/FreeCAD.app/Contents/Resources/lib \
 [局部前后对比](../cad/drone-concept/comparison/nozzle-fairing-detail.png) · [上缘点位](../cad/drone-concept/comparison/nozzle-fairing-check.png) · [曲面检查](../cad/drone-concept/comparison/nozzle-surface-check.json) · [六候选记录](../cad/drone-concept/comparison/nozzle-fairing-experiments/README.md)。
 
 本子任务已完成正式 FCStd/STEP、九视角预览、转台、十方位视频与逐图对照同步，保存读回和交付完整性审计通过。按用户要求在此暂停，并分阶段提交代码、模型与证据、文档。90% 整体目标尚未达到；恢复时继续依据固定相机检查剩余侧后方、喷口及翼板差异，不把此次局部收尾视为完整目标达成。
+
+## v31 后壳凹舱判读（2026-10-24，继续执行）
+
+用户提醒喷口周边阴影会造成筒状错觉。本轮冻结喷口本体、四支柱及其余零件，比较五个真实凹舱候选。最终采用 E：开真实圆角窗口，保留后退背板和侧壁，细灯带通过台阶相接并藏于前压边内侧。上沿和远侧竖边可见，斜段主要被后壳及喷口遮住；两个侧后视均比粗亮整圈更接近参考的遮挡层次。
+
+[左后同角度叠加](../cad/drone-concept/comparison/rear-cavity-detail-left.png) · [正后叠加](../cad/drone-concept/comparison/rear-cavity-detail-back.png) · [右后叠加](../cad/drone-concept/comparison/rear-cavity-detail-right.png) · [候选和局限](../cad/drone-concept/comparison/rear-cavity-study/README.md)。
+
+五轮候选及正式模型的整机 IoU 均为 84.37622%，外轮廓未改变。新凹舱通过四个空隙和四个内壁材料探针、灯带/内衬与内衬/后壳两组接合检查；四支柱与 v30 的对称实体差集为零。保存模型、STEP、全部视角和转台已同步。
+
+**保留的视觉失败**：旧 35 点上缘检查 RMS 从 10.04 变为 10.24 像素，最大值从 19.42 变为 27.00 像素。正后视的 (584,432) 与 (598,456) 两点回落，27.00 超出原 22.75 阈值，交付审计因此未全部通过。两处参考色值表现为向凹舱连续变暗，未能确认都是物理边界；喷口本体网格未变，不将这一结果直接解释为实体形状退化。下一轮继续区分阴影、遮挡和真实外缘，并从多视角修订外罩肩部与后壳整体形体。阈值、原点位及失败记录均未删除。
+
+## v32 肩部圆收与暴露外缘复核（2026-10-24）
+
+保持 v31 的凹舱、相机、材料与光照，比较 G/H/I 三个真实外罩。I 收圆肩部，同时切除下部封板伸入凹舱的两处区域。该侵入在宽肩模型中被遮住，不能以加宽外罩隐藏。四支柱、口沿和出口叶片不变，警示层随真实曲面重新贴合。
+
+[左后叠加](../cad/drone-concept/comparison/nozzle-shoulder-detail-left.png) · [正后叠加](../cad/drone-concept/comparison/nozzle-shoulder-detail-back.png) · [右后叠加](../cad/drone-concept/comparison/nozzle-shoulder-detail-right.png) · [候选记录](../cad/drone-concept/comparison/nozzle-shoulder-study/README.md)。
+
+旧上缘 35 点 RMS 从 10.24 降至 6.09 像素，最大值从 27.00 降至 19.24，原 22.75 阈值未改；该检查仍有阴影判读歧义。另检查第 60/180 帧对黑背景的 14 个暴露外缘行样本，将外罩与贴片并为对象 ID 边界，避免把警示牌遮挡误作外罩边缘：RMS 从 5.91 降至 4.72、最大从 9 降至 8 像素，参考阈值 12/18/24 的边缘变化最大 1 像素。两者分开报告，不代表完整外罩精度。
+
+整体 IoU 从 84.37622% 变为 84.38323%，仅增加约 0.007 个百分点。正式模型与候选的测量结果一致，保存读回、贴片/凹舱接合、六个空隙及四个内壁探针、四支柱保留和交付审计通过。v31 失败报告继续保留。整体目标仍在执行，未达到 90%，本轮未提交或推送。
+
+## v33 叶片数量、周向位置与加强条（2026-10-24）
+
+只旋转 16 片布局虽能将完整叶片放到中央，但无法匹配参考的相邻节距。A/B 直接旋转整圈还连带改变倾斜出口平面，因此未采用；C 在各截面内部调相并细化叶片，仍有约 11.50 像素的中央节距最大误差。D 改为 12 片，保留截面中心、圆半径和倾角，薄边、圆角和上下分段加强条均为真实 CAD 实体。三处导轨中点最大横向偏差由 v32 的 18.50 降为 2.50 像素，RMS 12.23 → 1.66；人工源图识别约有 2 像素不确定性，不能由三处样本宣称所有叶片达标。
+
+[候选记录](../cad/drone-concept/comparison/nozzle-petals-study/README.md) · [局部节距诊断](../cad/drone-concept/comparison/petal-pitch-check.png) · [左后](../cad/drone-concept/comparison/nozzle-petal-detail-left.png) · [正后](../cad/drone-concept/comparison/nozzle-petal-detail-back.png) · [右后叠加](../cad/drone-concept/comparison/nozzle-petal-detail-right.png)。三张局部板当前为 v32 → v35（叶片改动发生于 v33），使用同一相机与像素裁剪，无局部拉伸。
+
+正式 v33 十方位轮廓 IoU 为 84.39019%，相对 v32 只增加约 0.00695 个百分点；本轮主要改善内部叶片排列，不夸大成整体轮廓提升。正式模型与候选的三个导轨和出口圆测量相同。108 个叶片相关对象修改、36 个冗余对象移除，其余 577 个可见对象记录不变，四支柱实体差集为零。保存读回通过；预览、转台、逐图与十方位证据已同步，交付审计通过。后壳边框厚度与过渡、喷口金属层次、标记和材质仍有差异，目标继续执行，未提交或推送。
+
+
+## v34 后肩候选与假黑缝修复（2026-10-24）
+
+[七候选记录](../cad/drone-concept/comparison/rear-shoulders-study/README.md)保留相同十方位相机的比较。A/B 收窄后肩后在侧后方引入了无参考依据的黑沟；C 改变曲率未获得明确多视角改善；D 扩大承接面使共面黑缝更明显；E 修复共面但包含缺乏依据的增宽；F 保留原形消除共面，但浅槽仍被后框填实。采用 G：保留 v33 后肩，仅分离后框和承接面的重叠实体，并真正切开两处浅槽。
+
+[左后](../cad/drone-concept/comparison/rear-seam-detail-left.png) · [正后](../cad/drone-concept/comparison/rear-seam-detail-back.png) · [右后](../cad/drone-concept/comparison/rear-seam-detail-right.png) · [放大近景](../cad/drone-concept/comparison/rear-seam-closeup.png)。图板已滚动更新为参考、v33、v35、50% 叠加（黑缝修复发生于 v34），使用同一相机和裁剪，不改变材质或光照来掩盖差异。重叠平面面积 637.94 → 0mm²，组合实体仅因浅槽减少 94.51mm³；四支柱及喷口不变。整圈 IoU 84.39019%，与 v33 相同，仍未达到 90%。源图的金色区域、阴影与真实实体边界尚需进一步区分，不由单个视角或轮廓分数宣称整体后壳已吻合。
+
+
+v34 的 FCStd、STEP、九张预览、12 秒旋转视频、十方位和七张独立参考图已同步；[交付一致性审计](../cad/drone-concept/delivery-verification.json)通过。该检查不证明整体视觉目标或实物验收通过。
+
+
+## 凹舱比例与亮条候选（2026-10-24，未合入）
+
+以 v34 为基线继续比较五种开口比例和灯带深度，见[完整记录](../cad/drone-concept/comparison/cavity-proportion-study/README.md)。B 把开口由 144 × 110mm 改为 138 × 116mm，顶部上移 2mm、底部下移 4mm，四个凹舱对象修改，喷口和四支柱保持；三个后方视角共 12 处外侧亮边 RMS 6.09 → 1.40 像素，最大偏差 9.50 → 2.50 像素。进一步后退灯条的 C/D 反而变差。E 暂将中段发光框断开，正后方更接近参考的暗区分布，但原图 04 中的成对亮条及压座还没复现，分段位置仍属假设。B/E 均完成七张独立图片复核，暂不合入正式模型。
+
+所有候选十方位 IoU 仍为 84.39019%。新增保存实体检查发现灯框与喷口壳体有隐藏交叠，详见[穿插表](../cad/drone-concept/comparison/cavity-proportion-study/interference-check.json)；原交付一致性检查未涵盖这些配合净空，不能由其通过推导无穿插。下一步区分发光件、压座和遮挡关系，再生成独立闭合部件。
+
+
+## v35 主灯条与反光分离（2026-10-24）
+
+[单灯条、双灯条和弯曲修订候选](../cad/drone-concept/comparison/cavity-emitter-study/README.md)使用相同相机和渲染器。单灯条加金属背板已经产生内侧暗亮带；双灯条没有明确多视角收益，还增加隐藏穿插，未采用。四行手工主亮条中心拟合出镜像竖轴 |X|≈65.37mm、Y≈236.50mm，另八行复核同三个视角；这种拟合不能证明发光件材质或端部构造。
+
+采用弯曲单灯条及实体压座、反射背板；四个灯角从实际喷口包络让出空间。保存对象 ID 渲染测得 12 行主亮条可见中心 RMS 1.40 像素、最大 2.50 像素。它与此前“外侧青色边”的测量对象不同，即使数字相同也不能直接作前后改善比。正式模型与候选全部 15 个修改/新增对象的保存实体对称差检查见[报告](../cad/drone-concept/comparison/cavity-emitter-study/formal-geometry-check.json)。
+
+[左后](../cad/drone-concept/comparison/cavity-lighting-detail-left.png) · [正后](../cad/drone-concept/comparison/cavity-lighting-detail-back.png) · [右后](../cad/drone-concept/comparison/cavity-lighting-detail-right.png)，各板为参考、v34、v35、50% 叠加。全圈 IoU 仍为 84.39019%。后壳外侧转折、喷口表面、叶片和标记材质仍有差异；没有通过移动相机或图像形变掩盖这些差异。
+
+
+v35 的 FCStd、STEP、九张预览、12 秒旋转视频、十方位及七张独立参考图已同步；[交付一致性审计](../cad/drone-concept/delivery-verification.json)通过。它只确认交付物对应与检查覆盖，不证明完整外观或实物验收。
+
+## v36 侧后壳联合收窄及完整连接复核
+
+在相同相机下比较五个候选。较强的 8.76mm 收窄虽然提高轮廓分数，却使侧框局部偏差和控件遮挡增大；4mm 方案也需要修正状态板开口与护框缺口。完整保存检查进一步发现提手支臂约 2.92mm 悬空间隙，最终保留支臂下原有局部安装面，形成 E 方案。四支柱、喷口与凹舱形体保持；未按暗部范围增加筒壁。
+
+正式 v36 十方位平均 IoU 为 **84.57358%**，比 v35 增加约 **0.18339 个百分点**；七张独立图片的诊断均值由 81.72442% 到 **81.85922%**，其中包含线框图，因此不作实体还原率。十个视频方向均略有改善，独立图 03 约下降 0.0001 个百分点，保留该结果。90% 目标仍未达到。
+
+侧框外缘抽样 RMS 从 2.65 增至 4.50 像素、最大偏差从 5.26 增至 7.18 像素；后壳下缘 RMS 仍约 4.97 像素。这个局部代价说明还需调整侧框曲面和后壳截面，不能继续仅靠整片内收。状态标记五视角 75 条采样线恢复无遮挡，提手两侧约 26.54mm³ 接合，侧框随动零件保持连接。
+
+本轮修改 24 个既有对象，无增删；其余 672 个可见对象的网格、材质记录一致。改动实体高级检查与候选逐件比对通过。原侧壳曲面参数问题、修复产生的小圆角差异和未改线束的既有高级检查缺陷均见[候选记录](../cad/drone-concept/comparison/rear-side-width-study/README.md)，不把普通有效性检查扩大为整机曲面无缺陷结论。
+
+[左后叠加](../cad/drone-concept/comparison/rear-side-width-detail-left.png) · [正后叠加](../cad/drone-concept/comparison/rear-side-width-detail-back.png) · [右后叠加](../cad/drone-concept/comparison/rear-side-width-detail-right.png) · [候选汇总](../cad/drone-concept/comparison/rear-side-width-study/review.json)。图列依次为参考、v35、v36、50% 叠加。
+
+
+## v37 后壳安装平面与侧视轮廓联合修订
+
+此前侧框 X 安装位置来自假设；直接内收虽然改善后视宽度，却使侧视轮廓变差。本轮在固定相机下比较 X=108mm、102mm 两档，并按第 180 帧的投影射线重新计算实体 Y/Z。选择 X=108mm 的 C 候选，实际局部缩放为 1.0089049847；后肩保持内侧连接位置，重新放样到新的外侧边缘。这里改变的是真实 BRep，没有图像拉伸。
+
+A 使提手悬空约 3.72mm；更窄的 B 虽达到 84.86114%，却使提手间隙增至 9.73mm，前侧桥接处另有约 2.74mm 间隙。C 保留原提手局部安装面，恢复连接，十方位结果为 **84.76776%**，比 v36 提高 **0.19418 个百分点**。侧框外缘 RMS 从 4.50 降到 **2.65 像素**，最大误差从 7.18 降到 **5.26 像素**。十方位均略有改善，仍未达到 90%。
+
+本轮 24 个既有对象改变，其余 672 个可见对象的网格与材质记录保持一致。四支柱、屏幕、喷口及凹舱实体保持；不依据黑色阴影扩大喷口外罩或补筒壁。局部统一缩放也使灯条半径、板厚等增大约 0.89%，属于外观假设，未作为制造尺寸。固定状态板的 75 条可见性采样线无遮挡，提手和前侧桥接均恢复接触。
+
+[左后叠加](../cad/drone-concept/comparison/rear-profile-study/c/detail-03.png) · [正后叠加](../cad/drone-concept/comparison/rear-profile-study/c/detail-04.png) · [右后叠加](../cad/drone-concept/comparison/rear-profile-study/c/detail-05.png) · [候选与失败记录](../cad/drone-concept/comparison/rear-profile-study/README.md)。图列为参考、v36、v37、50% 叠加。后肩折面厚度、喷口表面曲率、叶片与贴花材质仍有差异。
+
+七张独立图片诊断均值 **81.85921%→81.90136%**，其中图片 03 **85.60404%→85.08764%**，下降约 **0.51640 个百分点**。侧后图 04 提高约 0.18419 个百分点，图 05 提高约 0.00353 个百分点。保留这处侧前视退步，后续对象 ID 归因定位到右后肩丢失 1767 个、侧护框丢失 240 个参考轮廓像素；此前推测的侧前护板并非主要原因，不能用整圈均值掩盖；线框图 06 只作辅助诊断。
+
+
+## v38 喷口中段收浅，保留凹舱阴影
+
+在相同相机下测试外罩两中间截面收浅 2、4、3mm，保持根部、金属卷边、出口叶片与轴向位置。采用 3mm 档 C：两个中间截面的纵向半径从 66 降到 63mm，横向半径仍为 70/68mm；六条白纹和四片警示标记重新贴合真实曲面，显示文字平面随贴片外表面定位。后壳凹舱保持，不把阴影范围当作喷口筒壁。
+
+两侧外缘原有 14 点 RMS **4.72077→3.15096 像素**，最大仍为 **8 像素**，来自未改卷边区域。中段 12 点 RMS 为 0.95743 像素，仅作为分区诊断，不删去末端两点来替换原指标。上缘 35 点 RMS **5.77927→5.93777 像素**，最大 **18→17.46 像素**，仍保留暗部边界的不确定性。十方位平均 IoU **84.76776%→84.77781%**，整圈提升很小，不将局部改善写成全面还原。
+
+另试后肩截面更饱满的 2.5 / 3.5 指数，以修复图片 03；但其余六张独立图和视频均值下降，均不采用。参见[后肩试验](../cad/drone-concept/comparison/rear-bow-study/README.md)。保留 v37 后肩，下一步需对不同高度截面与视角遮挡继续取证。
+
+[左后叠加](../cad/drone-concept/comparison/nozzle-depth-detail-left.png) · [正后叠加](../cad/drone-concept/comparison/nozzle-depth-detail-back.png) · [右后叠加](../cad/drone-concept/comparison/nozzle-depth-detail-right.png) · [喷口试验](../cad/drone-concept/comparison/nozzle-depth-study/README.md)。图列为参考、v37、v38、50% 叠加。
+
+七张独立图诊断均值 **81.90136%→81.90796%**；图片 05 增加约 0.04618 个百分点，其余六张轮廓分数相同。轮廓相同不代表曲面、材质和遮挡完全一致，仍逐图保留真实渲染。
+
+
+## v39 喷口卷边与垫圈内收
+
+对象 ID 确认侧缘末端 8px 偏差来自金色卷边，其后黑色垫圈也外露较宽。比较三档真实几何后，C 将金色卷边截面半径改为 1mm，中心线半径 52.82mm、轴向位置 95.6mm；金属口环仅将截面半径由 2 改为 1mm，保持拟合的中心线、位置和轴向；垫圈外半径由 55 收到 52.5mm。外罩、后壳凹舱、叶片、四支柱均保持。
+
+A/B 只修订金色卷边与垫圈，B 在正后视图只剩约 193 个金色卷边可见像素，金属口环遮挡过多。C 同步收薄金属环后恢复约 849 个可见像素，保留双层口沿；这些像素数仅作遮挡诊断，不作为还原分数。侧缘 14 点 RMS **3.15096→2.22004 像素**，最大 **8→5 像素**；全圈 IoU **84.77781%→84.78016%**，增幅很小。七张独立图均值 **81.90796%→81.90992%**，图 05 略增，其余六张保持。
+
+两个圆环的布尔交集曾返回零，但 24 个严格内部采样点同时位于两环材料内；保留原始布尔结果并用独立包含检查核对，不把零值当作完全分离。12 片叶片与金属环仍有正体积接合。详见[口沿检查](../cad/drone-concept/comparison/nozzle-lip-study/lip-contact-check.json)及[试验记录](../cad/drone-concept/comparison/nozzle-lip-study/README.md)。
+
+[左后叠加](../cad/drone-concept/comparison/nozzle-lip-study/c/detail-03.png) · [正后叠加](../cad/drone-concept/comparison/nozzle-lip-study/c/detail-04.png) · [右后叠加](../cad/drone-concept/comparison/nozzle-lip-study/c/detail-05.png)。图列为参考、v38、v39、50% 叠加。
+
+另对 v38 的固定分割作[内部暗区诊断](../cad/drone-concept/comparison/mask-interior-diagnostic-v38.json)：472523 个 CAD 多出像素中，235752 个处于参考内部闭合暗区。对两幅掩膜无差别填孔后的诊断均值为 91.56%，但其中混有真实孔隙、阴影和黑色材料，**不能替换原始 84.78% 指标或据此宣称达成 90%**。后续应按可见物理边界、材质与遮挡分别取证，不为减少这些像素擅自挖孔。
+
+
+## v40 后盖与外框下沿
+
+固定物体 ID 视图显示，两侧后斜视的金色下沿主要由后盖外框与检修盖板形成，局部比参考低约 8～11 像素。分别试验下沿抬高 2、4、6mm，保持顶部位置、7.56mm 框边厚度及原圆角；采用 6mm 的 C。后壳凹舱、喷口、侧后肩及四支柱保持，不按阴影扩展筒壁。
+
+27 个边界抽样 RMS **4.98145→3.57978 像素**，最大 **11.18034→8 像素**。其中左右后斜视改善，纯侧视有小幅退步，未宣称所有角度都更好；七张独立图的轮廓分数均保持。十方位主指标 **84.78016%→84.78071%**，增益很小，本轮主要改善内部可见下沿。未达到 90% 或完整曲面一致。
+
+[三档试验与逐视角结果](../cad/drone-concept/comparison/rear-lower-edge-study/README.md) · [左后叠加](../cad/drone-concept/comparison/rear-lower-edge-study/c/detail-left.png) · [正后叠加](../cad/drone-concept/comparison/rear-lower-edge-study/c/detail-back.png) · [右后叠加](../cad/drone-concept/comparison/rear-lower-edge-study/c/detail-right.png)。图列为参考、v39、v40、50% 叠加。
+
+仅两件变化，694 个可见对象网格与材质保持；696 个未改 BRep 原样保留。上部 Z≥84mm 的两件实体差集为零，四支柱差集为零。天线槽及共面接缝的联合体保持检查明确限定于 Z≥134mm，上部外的变化另由完整实体源代码/候选/保存读回相等检查覆盖；记录整件增减体积，不以局部检查替代全部几何。
+
+
+## v41 叶片圆角凹槽与较窄底边
+
+正后及左右后视近景显示，旧叶片的矩形槽角和宽底边显得偏平。采用 B：先给渐缩的平面切削体倒圆，再与实际叶片曲面求交，形成圆角凹槽及曲面衬片，扩大槽口并收窄底边。保留 12 片叶片、30° 节距、外圈、导轨和金属材质。圆角尺寸仍为外观假设。
+
+[候选与复核](../cad/drone-concept/comparison/petal-recess-study/README.md) · [正后放大叠加](../cad/drone-concept/comparison/petal-recess-study/b/closeup-back.png) · [左后](../cad/drone-concept/comparison/petal-recess-study/b/detail-left.png) · [右后](../cad/drone-concept/comparison/petal-recess-study/b/detail-right.png)。图列为参考、v40、v41、50% 叠加。本轮依据可见槽口层次选择，不把局部观感改善夸大为整体轮廓提升。
+
+十方位 IoU 保持 **84.78071%**，出口圆 RMS 仍约 **3.29834px**，三处导轨中点 RMS 仍约 **1.66px**。七张独立图中，图 05 的 CAD 前景增加一个像素，其余六张轮廓分数保持，均值为 **81.90989%**；这不证明内部细节还原率。
+
+24 个叶片/衬片实体变化，672 个可见对象网格及材质保持；674 个未改 BRep 与 GUI 状态原样保留。后壳、真实凹舱、喷口外罩、四支柱保持。旧全局平面切槽在三片背向叶片末端局部贯出，新切槽补回内缘；出口外圆仍为同一个圆，不宣称全部端面不变。
+
+原出口检测按端面延长线与轴的交点排序，会误选新增凹槽面。修订为从所有叶片实际圆弧中寻找完整共享的根部圆和末端圆，沿轴选择最后一个完整圆，未依照参考像素挑选。v40、A、B 得到同一出口圆；单独缩短一片末端 0.63mm 的反例被拒绝。相关原始失败与复核保留。
+
+
+## v42 后肩截面收平
+
+保持侧框和后盖连接端点，试验截面指数 1.75 与 1.5，采用较平缓的 1.5（A）。两件后肩变化，其余 694 个可见网格和材质保持；喷口、凹舱、屏幕及四支柱不动。[试验与读回](../cad/drone-concept/comparison/rear-shoulder-relief-study/README.md)记录两档参数、完整对比及高级实体检查。
+
+十方位 IoU **84.78071%→84.84236%**，其中视频 3s / 5s 提高约 0.2384 / 0.1490 个百分点，7s 下降约 0.0947 个百分点，6s 有约 0.0009 个百分点的微小下降，9s 保持。七张独立图均值 **81.90989%→81.94409%**，六张增加，第 03 张下降 **0.20794 个百分点**，未将退步图排除。
+
+第 03 张有 801 个原已覆盖的参考像素丢失，已[标为红色](../cad/drone-concept/comparison/rear-shoulder-relief-study/a/still-03-lost-reference.png)。部分像素位于翼板投影区；CAD 像素所属后肩不等于参考像素也属于后肩，后续须联合核对翼板姿态和后肩遮挡，不能仅靠覆盖数判断曲面正确。
+
+[左后叠加](../cad/drone-concept/comparison/rear-shoulder-relief-study/a/detail-left.png) · [正后叠加](../cad/drone-concept/comparison/rear-shoulder-relief-study/a/detail-back.png) · [右后叠加](../cad/drone-concept/comparison/rear-shoulder-relief-study/a/detail-right.png)，依次为参考、v41、v42、50% 叠加。后下沿抽样 RMS 3.57978→3.54338px，最大仍为 8px；整体还原目标未达成。
+
+### 翼板姿态交叉检查：未采用
+
+[双侧翼板旋转试验](../cad/drone-concept/comparison/wing-pose-study/README.md)补充视频 7s 金色翼板完整外缘观察，并保持全部相机和比较规则。候选图 03 / 视频 7s 分别提高 0.57946 / 0.21410 个百分点，但十方位均值降至 84.75886%，正面与正后方均退步，因此正式模型仍为 v42、84.84236%。局部投影抽样改善不能替代整圈结果；下一步检查局部折面与外缘，保留翼根、翼尖定位。
+
+
+## v43 金色翼板局部折面
+
+[联合候选 B](../cad/drone-concept/comparison/wing-crease-study/README.md)只改变金色翼板三件表面，保留基底、翼根、翼尖、红色翼板及四支柱。保存模型的金色折线抽样 RMS 在视频 7s / 6s 分别由 9.108 / 7.785 降至 5.527 / 6.961px；这两组观察点参与构造，不是独立验收。
+
+十方位轮廓 IoU **84.84236%→84.84932%**，七张独立图分数保持。新表面使视频 4s / 8s 分别有 213 / 3 个 alpha 像素变化，不宣称整个投影外缘完全不变。三件通过高级 BOP 检查，源代码与保存几何相符；其余 11 个翼板对象的旧高级检查问题仍保留。
+
+[侧视](../cad/drone-concept/comparison/wing-crease-study/b/detail-side.png) · [斜侧视](../cad/drone-concept/comparison/wing-crease-study/b/detail-oblique.png) · [前斜视](../cad/drone-concept/comparison/wing-crease-study/b/detail-front.png)，依次为参考、v42、v43、50% 叠加。
+
+## v43 后续：叶片有底凹槽候选
+
+[A/B/C 研究记录](../cad/drone-concept/comparison/petal-channel-study/README.md)区分上段压条、长侧轨和下段有底凹槽。C 的局部层次更接近原图，但下端转折仍偏方，未整合进正式模型。十方位 IoU 为 84.84762%，略低于 v43 的 84.84932%；同机位七图和全部退步视角均保留。共同可见的两组导轨间距 RMS 从 6.519px 降至 0.791px，中间一组受遮挡，不能声称三组全部通过。
+
+C 的 36 个改动实体通过高级检查、保存读回与源代码差集检查；36 处槽中心/槽底探针确认真实有底凹槽。四支柱、12 片主叶片的差集为零，其他 660 个可见网格记录保持。正式 v43 文件不变，下一轮优先继续后壳、凹舱和喷口整体包络。[图 04 局部叠加](../cad/drone-concept/comparison/petal-channel-study/c/channel-still04.png) · [正后叠加](../cad/drone-concept/comparison/petal-channel-study/c/channel-back.png)。
+
+## v44 侧后保护边框切口
+
+扩大后壳折转圆角到 16 / 24mm 的候选只带来不足 0.002 个百分点的轮廓变化，24mm 还使下缘抽样误差增加，均未采用。[折转研究](../cad/drone-concept/comparison/rear-fold-study/README.md)保留了真实截面、空腔探针、固定角度比较及所有退步视角。
+
+随后将状态板下方的尖角定位到左右保护边框，修整两件的可见切口。[可见联合边界](../cad/drone-concept/comparison/guard-notch-study/v44-guard-notch-check.png)的四点 RMS 从 8.888 降至 6.225px，最大差异仍为 12px，主要在上方邻壳交界。四点参与构造，不能作为独立验收。十方位和七图各视角轮廓分数保持；五视角 75 条状态板观察线无遮挡。
+
+v44 保留其余 696 个 BRep 文件和原 GUI 状态，694 个可见网格及材质保持；两件源代码、候选和保存实体差集为零，四支柱不变。后壳凹舱、喷口外罩及叶片保持。见 [v44 研究与保存证据](../cad/drone-concept/comparison/guard-notch-study/README.md)。整体还原目标继续，下一步联合处理切口上方侧壳与后肩交界。
+
+## v45 侧壳开口内退斜边
+
+补回状态板旁被削宽的金色边缘，向内退让并保留外扩开口，避免遮住斜后方观察线。[七点联合边界](../cad/drone-concept/comparison/status-rim-check.png) RMS 从 9.157 降至 1.195px，最大偏差从 12 降至 3px；这些是构造视角取点，不能当作独立验收。[侧视叠加](../cad/drone-concept/comparison/status-rim-detail-right.png)和[斜后视叠加](../cad/drone-concept/comparison/status-rim-detail-oblique.png)保持相同相机，未变形图像。
+
+十方位和七图各视角轮廓 IoU 全部保持。75 条状态标记视线及新增 50 条横槽、括号视线无遮挡；四支柱、屏幕、喷口和凹舱保持，未将后舱阴影补成筒壁。两件侧壳沿用原有双实体结构，高级 BOP 检查通过；源代码、候选与保存读回一致。仍有喷口下缘和叶片导轨差异，整体目标继续。见 [v45 记录](../cad/drone-concept/comparison/status-rim-study/README.md)。
+
+## v46 喷口叶片表面层次
+
+比较 D/E/F 三个候选后采用 F，重建 12 条压条、24 根长导轨和 12 段根部弧形卷边。上段真实圆角与下段有底凹槽替代此前过平的条片；[图 04 叠加](../cad/drone-concept/comparison/petal-hardware-still04.png)、[正后](../cad/drone-concept/comparison/petal-hardware-back.png)及两侧视图保持固定机位、照明与材质。
+
+两组共同可见导轨间距 RMS 6.519→0.791px，中间一组遮挡；人工亮边观察不能当作完整三维精度。十方位轮廓 IoU **84.84526%**，较 v45 下降约 0.00406 个百分点，七图均值 **81.94253%**；所有退步保留在[逐视角记录](../cad/drone-concept/comparison/petal-detail-study/review.json)。本轮采用依据是局部结构更接近参考，不宣称整体轮廓提高。
+
+四支柱、主叶片、金色罩和后舱保持，未将阴影补成筒壁。48 件源码/保存几何一致，72 组接合和 36 处槽底探针通过；650 个未改 BRep、648 个可见网格和材质保持。根部露出、出口边缘和材质仍有差异，整体目标继续。见 [v46 记录](../cad/drone-concept/comparison/petal-detail-study/README.md)。
+
+## v46 出口形态后续试验（2026-10-24）
+
+[出口形态试验](../cad/drone-concept/comparison/exit-profile-study/README.md)保留固定相机：叶片内收 4° 的独立试件十方位 IoU 84.84526%→84.89382%，七图 81.94253%→81.97971%；正后方下降 0.01884 个百分点，两个视频斜视角末端抽样误差略升。仅为候选方向，正式 FCStd/STEP/预览仍为 v46。四根支柱不变，没有将凹舱阴影填成筒壁。共同焦距 79.81mm 的相机诊断不计入几何改善，正式相机未变。
+
+后续完成共同根环曲面试件：末端半径减小 2.1mm，内喉管和锥面同步跟随，98 个对象更新；十方位 84.88164%、七图 81.97064%，原视频出口圆 RMS 3.298→3.675px、导轨间距 RMS 0.791→1.000px。整体偏移未解决，正式继续保持 v46。见[试件与保留的退步证据](../cad/drone-concept/comparison/exit-profile-study/README.md)。
+
+
+## v47 喷口根部与过渡壳联动（2026-10-24）
+
+[固定角度对照和完整证据](../cad/drone-concept/comparison/source-registration-study/README.md)：五个视频角度的根环观察支持向机身回收根部，联动更新 126 个壳体、叶片及内衬对象，出口圆与四支柱保持。保存根环 RMS 5.117→3.636px；十方位 84.84383%、七图 81.95317%，整体基本持平，退步视角全部保留。静态相机重配准未采用，后舱阴影没有补成筒壁。几何、STEP、预览、转台及叠加证据同步；未达到 90% 目标，未做制造或实物验收，未提交或推送。
+
+
+## v48 喷口内部凹腔（2026-10-24）
+
+[本轮固定角度证据](../cad/drone-concept/comparison/nozzle-interior-study/README.md)：只更新三件内部形体，后退连续内衬，将实体放样平封口改为有底凹碗，露出主叶片内侧。外部喷口、后舱、屏幕与四支柱保持。39 个独立空腔探针、12 个底板和各 12 个内部接合探针通过；其余 695 个 BRep 原样保留。十方位 84.85997%、七图 81.95854%，右侧 video-06 略有退步，整体目标继续。FCStd/STEP、预览、转台和叠加证据同步；未制造验证，未提交或推送。
+
+
+## v48 后框边缘复核（2026-10-24，未采用）
+
+[真实圆角试件及叠加](../cad/drone-concept/comparison/rear-rim-study/README.md)只改变后结构框。十方位均值 84.859968% → 84.859348%，七图 81.958539% → 81.958586%；主要后视轮廓不变，后盖接缝反而更明显，因此保持正式 v48。四支柱及喷口未改，后壳与喷口仍有视觉差距。
+
+
+## v49 喷口外罩中段（2026-10-24）
+
+[固定视图证据](../cad/drone-concept/comparison/fairing-blend-study/README.md)：采用局部根部权重 t⁴，保持两端，调整外罩及 10 个随形贴片；其余 687 个 BRep、四支柱和 GUI 原样保留。侧缘 RMS 12.567→8.606px，上缘 6.148→5.863px。十方位 84.87359%，七图 81.96576%，17 个视图分数无退步；整体目标仍未达到。保存读回、STEP、预览和叠加同步，恢复对照文件的包装差异及复现限制见本轮记录。未做制造或实物验收，未提交或推送。
+
+
+## v50 喷口外罩深度与灯角避让（2026-10-24）
+
+v50 加深喷口外罩中段 4mm，保持两端截面；同步重贴 10 个薄片，并修整两处上方灯角端部。其余 685 个 BRep 原样保留，包括四支柱、屏幕、后壳、凹舱、叶片和内部凹碗。固定角度侧缘 RMS 8.606→6.579px，上缘 RMS 5.863→5.853px，但上缘最大误差 17.464→18px。十方位轮廓 84.87945%，七图 81.96951%；整体提升很小，90% 目标未达。
+
+本轮沿用全部相机、阈值和支柱排除规则；没有把后舱阴影视作额外筒壁。4mm 未让位试件与灯角相交，6mm 试件上缘变差并侵入反光片，均未采用。 [本轮证据](../cad/drone-concept/comparison/fairing-depth-v49-study/README.md)。未做制造或实物验收，未提交或推送。
+
+
+## v51 喷口外罩上肩收形（2026-10-24）
+
+v51 仅收窄喷口外罩上站横向半径 6mm，下站、两端截面和纵向深度保持；外罩与 10 个随形贴片更新，其余 687 个 BRep 原样保留。上沿 35 点 RMS 5.853→4.908px，最大 18→11.180px，侧缘 14 点 RMS 保持 6.579px。十方位轮廓 84.87924%，比 v50 微降约 0.00021 个百分点；七图均值 81.96960%。整体目标仍未达到。
+
+比较 S2/S4/S6/U6 四个试件后采用 U6，未改相机或阈值。第 120 帧部分上沿对应受阴影/遮挡影响，原测点继续保留；不将暗区填成筒壁。 [本轮证据](../cad/drone-concept/comparison/fairing-shoulder-study/README.md)。四支柱保持，未做制造或实物验收，未提交或推送。
+
+
+## v52 喷口警示贴片定位（2026-10-24）
+
+v52 调整四片喷口警示标记的位置与尺寸，三角边界 RMS 18.28→4.38px、牌面 9.28→1.14px；同时修正渲染文字落点与字号。外罩、后壳凹舱、叶片和四支柱保持 v51，694 个 BRep 原样保留。十方位轮廓 84.87990%，七图 81.97004%，整体基本持平，90% 目标未达。人工观测点参与拟合，不是独立三维精度验证。
+
+[固定角度对照与保存验证](../cad/drone-concept/comparison/nozzle-marking-study/README.md)。保持凹舱空隙，没有补成筒壁。保存模型、STEP、预览及转台已同步；未制造验证，未提交或推送。
+
+
+## v52 喷口内缘形体试验（2026-10-24，未采用）
+
+连续视频确认下方黑色弧段包含参考自身的背侧叶片与开口，因此未截短或补成筒壁。完成两组各 12 片的真实形体试件：0.65mm 内缘倒角与向内折回 1.5mm 的短边。固定十方位 / 七张原图比较均未显示足够的视觉改善；正式 FCStd、STEP、预览保持 v52，四根支柱不变。倒角会沿相切边传播，未将其误写成仅末端倒角。见[试件、叠加和验证](../cad/drone-concept/comparison/petal-inner-edge-study/README.md)。下一步分开检查叶片表面反光、末端边界和后壳开口转折；目标继续，未提交或推送。
+
+## v53 侧后壳底部收形（2026-10-24）
+
+v53 收薄侧后方底壳两翼，露出原先被厚横块遮挡的底部环件和线束；中央 64mm 条带与四根支柱保持原几何。仅改变底壳、两块检修板和四颗螺钉，共 7 个对象，其余 691 个非空形体原样保留。固定十方位轮廓 IoU 84.87990%→85.03031%，七张原图 81.97004%→81.99829%；视频 00/01/02 与原图 03/closeup 略退步，完整保留记录。
+
+保存几何、原生打开和正式交付检查通过；四颗螺钉重建以消除原有高级 BOP 故障。静态接合不代表承载或制造验证，90% 目标未达。凹舱阴影不作为喷口筒壁。见[全部候选、逐视角退步和同角度叠加](../cad/drone-concept/comparison/rear-belly-study/README.md)。
+
+## v53 后续：后框内缘与转台灯光试验（2026-10-24，未采用）
+
+完成后框内缘 0.8/2.5mm 真实圆角试件；较大圆角强化了参考中不明显的独立内框线，两者均未采用。另在相同 v53 CAD、相机、曝光与材质下，测试摄影棚灯光随相机方位整体旋转：后下斜面变亮，但后盖、喷口外罩与叶片的同像素 RGB 诊断误差均增加，保持正式灯光。两项研究的全部十方位和七张原图轮廓分数保持，灯光试验的 17 个原生 alpha 通道逐像素相同；不是模型还原率提升。正式 FCStd、STEP、预览、生成器及四支柱保持 v53，90% 目标未达。
+
+见[后框圆角试件与连续视频](../cad/drone-concept/comparison/rear-frame-edge-study/README.md)及[灯光假设、控制组与逐图诊断](../cad/drone-concept/comparison/orbit-lighting-study/README.md)。下一步仍须分别核对后壳外侧转角、喷口金属层次和阴影，不将暗区补成筒壁；未提交或推送。
+
+## v53 后续：喷口下站与后框宽度试验（2026-10-25，未采用）
+
+本轮按固定视频十方位和七张原图测试了喷口外罩下站 −2/＋2/＋4mm 与后盖外框 172/184mm 候选。下站候选视频均略退步，后框缩窄或放宽也使视频整圈下降；正式模型保持 v53（85.03031% / 81.99829%）。四根支柱、出口圆、喷口叶片和凹舱均未因这些试验改变。对象 ID 归因中叶片多出像素落在参考暗区/背侧开口，不能据此削短成筒壁。
+
+见[下站收量试验](../cad/drone-concept/comparison/fairing-lower-v53-study/README.md)、[后框宽度试验](../cad/drone-concept/comparison/rear-frame-width-v53-study/README.md)及[当前轮廓对象归因](../cad/drone-concept/comparison/object-ids-v53/contour-attribution.json)。候选均已保存真实 CAD、同角度叠加和哈希检查；未提交或推送。
 
 ## v53 侧后壳与喷口暗部试验（2026-10-25，未采用）
 

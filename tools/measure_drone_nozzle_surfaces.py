@@ -11,6 +11,7 @@ root=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser()
 parser.add_argument('--model',type=Path,default=root/'cad/drone-concept/vintrox-drone-concept.FCStd')
 parser.add_argument('--output',type=Path,default=root/'cad/drone-concept/comparison/nozzle-surface-check.json')
+parser.add_argument('--fitted-markings',action='store_true',help='Use the three-view fitted warning-mask interior probes')
 args=parser.parse_args();p=args.model;d=App.openDocument(str(p))
 shell=d.getObject('BassNozzleShell').Shape
 parts=['BassNozzleShell','BassWarningPlaque','BassWarningRedBand','BassWarningTriangle','BassWarningTriangleInset']
@@ -25,7 +26,11 @@ local={}
 for name in parts:
  s=d.getObject(name).Shape.copy();s.Placement=place.inverse().multiply(s.Placement);local[name]=s
 probes=[]
-for name,points in [('BassWarningPlaque',[(-15,68),(0,68),(12,68),(-15,77),(0,77),(12,77)]),('BassWarningTriangle',[(-10,50),(10,50),(0,30)]),('BassWarningTriangleInset',[(-5,45),(5,45),(0,35)]),('BassWarningRedBand',[(18,69),(18,73),(18,78)])]:
+probe_layout=[('BassWarningPlaque',[(-15,68),(0,68),(12,68),(-15,77),(0,77),(12,77)]),('BassWarningTriangle',[(-10,50),(10,50),(0,30)]),('BassWarningTriangleInset',[(-5,45),(5,45),(0,35)]),('BassWarningRedBand',[(18,69),(18,73),(18,78)])]
+if args.fitted_markings:
+ from drone_nozzle_markings import marking_probe_points
+ probe_layout=marking_probe_points()
+for name,points in probe_layout:
  for x,z in points:
   line=Part.makeLine(App.Vector(x,-120,z),App.Vector(x,0,z))
   body=local['BassNozzleShell'].common(line);tag=local[name].common(line)
