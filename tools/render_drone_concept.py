@@ -211,10 +211,10 @@ def main():
     label_rotation = (rotation @ Quaternion(Vector((1, 0, 0)), math.pi/2)
                       @ Quaternion(Vector((0, 0, 1)), math.pi)).to_euler()
     label_pos = bass_origin + rotation @ Vector(data.get('bass_warning_label_local_mm', (12, -73.5, 57)))
-    text_decal('RearWarning', 'WARNING', tuple(label_pos), 6.2, (.035, .035, .025), label_rotation)
+    text_decal('RearWarning', 'WARNING', tuple(label_pos), data.get('bass_warning_text_size_mm',6.2), (.035, .035, .025), label_rotation)
     alert_local = data.get('bass_alert_local_mm', (1, -66.3, 25) if 'bass_axis' in data else (1, -71.3, 78))
     alert_pos = bass_origin + rotation @ Vector(alert_local)
-    text_decal('RearAlert', '!', tuple(alert_pos), 7, cream, label_rotation)
+    text_decal('RearAlert', '!', tuple(alert_pos), data.get('bass_alert_text_size_mm',7), cream, label_rotation)
     scene = bpy.context.scene
     scene.render.engine = 'CYCLES'
     scene.cycles.device = 'GPU' if args.device == 'METAL' else 'CPU'

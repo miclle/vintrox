@@ -6,6 +6,8 @@ import hashlib
 import json
 from pathlib import Path
 import subprocess
+import xml.etree.ElementTree as ET
+from zipfile import ZipFile
 
 
 def digest(path):
@@ -27,6 +29,17 @@ def main():
     def require(condition, message):
         if not condition:
             errors.append(message)
+
+    with ZipFile(cad/'vintrox-drone-concept.FCStd') as archive:
+        gui_files = list(dict.fromkeys(n.get('file') for n in
+            ET.fromstring(archive.read('GuiDocument.xml')).iter() if n.get('file')))
+        require(len(gui_files)==2094 and
+                [n for n in archive.namelist() if n in set(gui_files)]==gui_files,
+                'GUI resource order differs from XML registration order')
+
+    def check_render_identity(manifest):
+        require(manifest.get('rendered_fcstd_sha256',model_hash)==model_hash,
+                'Expected renders made directly from the current saved model')
 
     geometry = read(cad/'concept-manifest.json')
     saved = read(cad/'readback-verification.json')
@@ -63,9 +76,14 @@ def main():
     for item in light['images'].values():
         require(digest(root/item['path'])==item['sha256'], 'Changed side light image')
         require([s['row_px'] for s in item['samples']]==[430,450,470,490], 'Missing side light samples')
+    reprojection=geometry['side_profile_reprojection']
+    eye=next(v['eye_mm'] for v in read(comparison/'cameras.json')['views'] if v['source_frame']==180)
+    expected_scale=(108.0-eye[0])/(116.76-eye[0])
+    require(reprojection['outer_x_mm']==108.0 and reprojection['eye_mm']==eye and
+            abs(reprojection['scale']-expected_scale)<1e-12, 'Changed reviewed side-profile transform')
     for joint in light['saved_joints'].values():
-        require(joint['light_solids']==1 and joint['straight_tube_radii_mm']==[1.8] and
-                joint['bend_centerline_radii_mm']==[4.0], 'Invalid rounded side light')
+        require(joint['light_solids']==1 and joint['straight_tube_radii_mm']==[round(1.8*expected_scale,6)] and
+                joint['bend_centerline_radii_mm']==[round(4.0*expected_scale,6)], 'Invalid rounded side light')
         require(joint['shoe_guard_overlap_mm3']>.01 and joint['light_guard_overlap_mm3']>.01 and
                 max(joint['screw_shoe_gap_mm'])<.01, 'Detached side detail')
     rounding=read(comparison/index['side_rounding_detail'])
@@ -87,6 +105,7 @@ def main():
     def check_renders(folder):
         manifest = read(folder/'render-manifest.json')
         require(manifest['fcstd_sha256'] == model_hash, 'Stale renders: '+str(folder))
+        check_render_identity(manifest)
         for item in manifest['images']:
             path = folder/item['path']
             require(digest(path) == item['sha256'], 'Changed render: '+str(path))
@@ -125,6 +144,9 @@ def main():
     require(nozzle['camera_fit_sha256'] == digest(comparison/'camera-fit.json'), 'Changed nozzle camera fit')
     require(read(source_fit)['camera_config_sha256'] == digest(comparison/'cameras.json'), 'Changed nozzle cameras')
     require(nozzle['terminal_arc_count'] == geometry['nozzle_petals'], 'Nozzle terminal arc count differs')
+    require(nozzle['measurement_script_sha256']==digest(root/'tools/measure_drone_nozzle_outline.py') and
+            nozzle['center_spread_mm']<.001 and nozzle['max_distance_px']<22.75,
+            'Nozzle shared terminal circle is stale or exceeds the local contour target')
     fins = read(comparison/index['cooling_fins'])
     require(fins['fcstd_sha256'] == model_hash, 'Stale saved cooling fins')
     require(fins['camera_fit_sha256'] == digest(comparison/'camera-fit.json'), 'Changed fin camera fit')
@@ -215,6 +237,11 @@ def main():
     require(len(nozzle_root['observations'])==3 and
             sum(len(o['reference_px']) for o in nozzle_root['observations'])==23,
             'Missing nozzle root observations')
+    require(nozzle_root['measurement_script_sha256']==digest(root/'tools/measure_drone_nozzle_root.py') and
+            nozzle_root['five_view_source_sha256']==digest(comparison/'source-registration-study/five-video-root-fit.json') and
+            len(nozzle_root['five_view_observations'])==5 and
+            sum(len(r['reference_px']) for r in nozzle_root['five_view_observations'])==45 and
+            nozzle_root['five_view_rms_px']<3.7, 'Expanded saved root reconstruction check failed')
     root_detail=read(comparison/index['nozzle_root_detail'])
     require(root_detail['fcstd_sha256']==model_hash, 'Stale nozzle root detail')
     require(root_detail['camera_config_sha256']==digest(comparison/'cameras.json'),
@@ -291,6 +318,18 @@ def main():
     require(digest(root/wing_detail['image_path'])==wing_detail['image_sha256'], 'Changed wing detail image')
     for item in wing_detail['source_files']:
         require(digest(root/item['path'])==item['sha256'], 'Changed wing detail source')
+    crease=read(comparison/'wing-crease-check.json')
+    require(crease['fcstd_sha256']==model_hash and
+            crease['measurement_script_sha256']==digest(root/'tools/measure_drone_wing_crease.py') and
+            crease['source_fit_sha256']==digest(comparison/'wing-crease-study/crease-joint-fit.json') and
+            crease['camera_config_sha256']==digest(comparison/'cameras.json'), 'Stale gold wing crease check')
+    require([r['source_frame'] for r in crease['observations']]==[30,210,180] and
+            all(r['current']['rms_px']<r['baseline']['rms_px'] for r in crease['observations'] if r['side']==1),
+            'Gold wing crease observations missing or regressed')
+    require(len(crease['preserved_edges'])==2 and
+            all(r['bidirectional_sample_distance_max_mm']<1e-6 for r in crease['preserved_edges']) and
+            len(crease['crease_endpoint_distance_mm'])==2 and
+            max(crease['crease_endpoint_distance_mm'])<1e-6, 'Gold wing fixed edges or endpoints changed')
     for key,stem in [('knob_outline','knob-outline'),('side_status','side-status'),('side_socket','side-socket'),('side_cable','side-cable')]:
         check=read(comparison/index[key]);fit=read(comparison/(stem+'-fit.json'))
         require(check['fcstd_sha256']==model_hash, 'Stale '+stem+' readback')
@@ -501,6 +540,7 @@ def main():
     require(attribution['comparison_report_sha256']==digest(comparison/index['video_comparison']),
             'Changed contour attribution comparison')
     ids=read(attribution_path.parent/'object-id-manifest.json')
+    check_render_identity(ids)
     require(ids['fcstd_sha256']==model_hash and len(ids['images'])==10, 'Stale or missing object ID views')
     require(ids['camera_config_sha256']==digest(comparison/'cameras.json'), 'Changed object ID cameras')
     for item in ids['images']:
@@ -514,8 +554,10 @@ def main():
             'Changed nozzle fairing object-ID input')
     require(fairing['reference_video_sha256']==digest(root/'references/alexander-shevchuk-drone/video-cam.mp4'),
             'Changed nozzle fairing reference video')
-    require([len(o['reference_px']) for o in fairing['observations']]==[11,12,12] and
-            fairing['max_px']<22.75, 'Missing nozzle fairing samples or local target exceeded')
+    require([len(o['reference_px']) for o in fairing['observations']]==[11,12,12],
+            'Missing nozzle fairing samples')
+    require(fairing['max_px']<22.75,
+            f"Nozzle fairing local target exceeded: {fairing['max_px']:.2f} px > 22.75 px")
     for item in fairing['source_files']:
         require(digest(root/item['path'])==item['sha256'], 'Changed nozzle fairing comparison source')
     require(digest(root/fairing['image_path'])==fairing['image_sha256'], 'Changed nozzle fairing comparison board')
@@ -536,6 +578,217 @@ def main():
     require(len(surface['surface_probes'])==15 and all(p['forward_exposure_mm']>.1
             for p in surface['surface_probes']), 'Nozzle surface patch hidden by shell')
     require(surface['woofer_shell_overlap_mm3']<1e-6, 'Nozzle surface intersects woofer reservation')
+    cavity=read(comparison/index['rear_cavity'])
+    require(cavity['fcstd_sha256']==model_hash and cavity['measurement_script_sha256']==
+            digest(root/'tools/measure_drone_rear_cavity.py'), 'Stale rear cavity checks')
+    require(cavity['baseline_fcstd_sha256']==index['preservation_baseline_model_sha256'],
+            'Changed rear cavity preservation baseline')
+    lip_contact=read(comparison/'nozzle-lip-contact-check.json')
+    require(lip_contact['passed'] and lip_contact['fcstd_sha256']==model_hash and
+            lip_contact['measurement_script_sha256']==digest(root/'tools/measure_drone_nozzle_lip.py') and
+            len(lip_contact['parts'])==3 and len(lip_contact['interior_contact_probes'])==24 and
+            len(lip_contact['petal_contacts'])==12, 'Nozzle lip layering/contact check failed')
+    require(index['rear_cavity_baseline_sha256']==index['preservation_baseline_model_sha256']==
+            '73e6670b87a9ba0c572181d64a359e6706133d9186e6edcf1cf6436c7c072b07',
+            'Expected exact v52 preservation checkpoint')
+    preservation=read(comparison/index['rear_cavity_preservation'])
+    width=read(comparison/index['rear_side_width'])
+    transfer=read(comparison/index['rear_side_width_archive'])
+    native=read(comparison/index['rear_side_width_gui'])
+    profile_source=read(comparison/index['rear_profile_source'])
+    require(profile_source['passed'] and
+            profile_source['generator_sha256']==digest(root/'tools/drone_concept.py') and
+            profile_source['source_module_sha256']==digest(root/'tools/drone_belly_relief.py') and
+            profile_source['baseline_fcstd_sha256']==index['rear_cavity_baseline_sha256'] and
+            profile_source['candidate_fcstd_sha256']==width['candidate_fcstd_sha256'] and
+            len(profile_source['parts'])==7 and
+            set(p['name'] for p in profile_source['parts'])==set(index['iteration_expected_changes']) and
+            all(p['advanced_check_passed'] and p['source_difference_mm3']<1e-6
+                for p in profile_source['parts']),
+            'Belly relief source/readback mismatch')
+    require(transfer['passed'] and transfer['fcstd_sha256']==model_hash and
+            transfer['baseline_fcstd_sha256']==index['rear_cavity_baseline_sha256'] and
+            transfer['candidate_fcstd_sha256']==width['candidate_fcstd_sha256'] and
+            transfer['gui_document_preserved_exactly'] and transfer['changed_count']==7 and
+            transfer['unchanged_shape_payloads']==691 and
+            len(transfer['shape_payloads'])==698 and all(p['exact_payload_match'] for p in transfer['shape_payloads']),
+            'Unchanged BRep or GUI payload preservation failed')
+    require(native['passed'] and native['fcstd_sha256']==model_hash and
+            native['object_count']==700 and native['visible_shapes']==696 and native['view_providers']==700 and
+            native['native_matches_serialized_colors'] and not native['serialized_mismatches'] and
+            len(native['colors'])==696,
+            'Native GUI open verification failed')
+    require(width['passed'] and width['fcstd_sha256']==model_hash and
+            width['candidate_fcstd_sha256']==digest(comparison/index['rear_side_width_candidate']) and
+            width['measurement_script_sha256']==digest(root/'tools/measure_drone_belly_relief.py') and
+            len(width['candidate_comparisons'])==7 and
+            all(p['symmetric_difference_mm3']<1e-6 for p in width['candidate_comparisons']),
+            'Belly relief candidate/readback mismatch')
+    require(len(width['preserved_objects'])==691 and len(width['shafts'])==4 and
+            all(p['name'] in width['preserved_objects'] and p['symmetric_difference_mm3']<1e-6 for p in width['shafts']) and
+            all(name in width['preserved_objects'] for name in
+                ['BassInnerThroat','BassVisualCone','BassDustCap','RearRecessLiner',
+                 'BassNozzleRolledLip','BassNozzleMouthRing',*[f'NozzlePetal{i}' for i in range(12)]]),
+            'Changed protected shafts, cavity or nozzle endpoints')
+    require(width['central_strip_width_mm']==64 and width['central_strip_symmetric_difference_mm3']<1e-6 and
+            width['outer_floor_z_mm']==52.5 and len(width['floor_probes'])==12 and
+            all(p['inside_at_floor_plus_0_1'] and p['outside_at_floor_minus_0_1'] for p in width['floor_probes']),
+            'Central support strip or closed belly shelf differs from the selected geometry')
+    require(len(width['contacts'])==7 and all(p['gap_mm']<.01 and p['overlap_mm3']>.001 for p in width['contacts']) and
+            len(width['service_screws'])==4 and all(p['advanced_check_passed'] and p['plate_gap_mm']<.01 for p in width['service_screws']),
+            'Belly, support seat, loop or service plate contact failed')
+    markings=read(comparison/index['warning_marking'])
+    require(markings['fcstd_sha256']==model_hash and
+            markings['baseline_fcstd_sha256']==index['preservation_baseline_model_sha256'] and
+            markings['measurement_script_sha256']==digest(root/'tools/measure_drone_nozzle_markings.py') and
+            markings['camera_sha256']==digest(comparison/'cameras.json') and
+            markings['observations_sha256']==digest(comparison/'nozzle-marking-study/observations.json'),
+            'Stale warning marking observations or saved render')
+    require(markings['metrics']['current']['triangle']['count']==9 and
+            markings['metrics']['current']['plaque']['count']==23 and
+            markings['metrics']['current']['triangle']['rms_px']<4.5 and
+            markings['metrics']['current']['plaque']['rms_px']<1.3,
+            'Warning marking boundary realization regressed')
+    require(digest(Path(markings['image_path']))==markings['image_sha256'], 'Changed marking board')
+    for source in markings['source_files']:
+        require(digest(Path(source['path']))==source['sha256'], 'Changed marking comparison input')
+    channel=read(comparison/'petal-hardware-width.json')
+    require(channel['fcstd_sha256']==model_hash and channel['measurement_script_sha256']==digest(root/'tools/measure_drone_petal_channel_width.py') and
+            channel['camera_config_sha256']==digest(comparison/'cameras.json') and
+            channel['object_id_manifest_sha256']==digest(attribution_path.parent/'object-id-manifest.json'),
+            'Stale petal guide separation diagnostic')
+    measured=[r for r in channel['observations'] if r['both_rails_visible']]
+    require({r['petal_index'] for r in measured}=={8,9} and channel['measured_pairs_count']==2 and
+            channel['rms_separation_error_px']<=.8, 'Visible guide separation regressed')
+    require(digest(root/channel['image_path'])==channel['image_sha256'], 'Changed guide separation image')
+    for source in channel['source_files']:
+        require(digest(root/source['path'])==source['sha256'], 'Changed guide separation evidence')
+    petal_still=read(comparison/'petal-hardware-still04.json')
+    require(petal_still['fcstd_sha256']==model_hash and
+            petal_still['camera_config_sha256']==digest((comparison/index['still_comparison']).parent/'cameras.json') and
+            petal_still['script_sha256']==digest(root/'tools/compare_drone_petal_detail.py'),
+            'Stale fixed still-04 hardware detail')
+    require(digest(root/petal_still['image_path'])==petal_still['image_sha256'], 'Changed still-04 detail')
+    for source in petal_still['source_files']:
+        require(digest(root/source['path'])==source['sha256'], 'Changed still-04 comparison evidence')
+    rim=read(comparison/'status-rim-check.json')
+    require(rim['measurement_script_sha256']==digest(root/'tools/measure_drone_status_rim_edge.py') and
+            len(rim['results'])==2, 'Stale status rim boundary check')
+    current_rim=rim['results'][1]
+    require(current_rim['fcstd_sha256']==model_hash and
+            current_rim['camera_config_sha256']==digest(comparison/'cameras.json') and
+            current_rim['reference_px']==[[563,420],[563,450],[563,475],[563,487],[556,499],[543,512],[529,524]] and
+            current_rim['rms_px']<=1.20 and current_rim['max_px']<=3.01,
+            'Status rim boundary regressed')
+    for row in rim['results']:
+        require(row['id_manifest_sha256']==digest(root/row['id_manifest_path']), 'Changed rim ID evidence')
+    require(digest(root/rim['image_path'])==rim['image_sha256'], 'Changed rim comparison image')
+    for source in rim['source_files']:
+        require(digest(root/source['path'])==source['sha256'], 'Changed rim comparison source')
+    visibility=read(comparison/'status-rim-visibility.json')
+    require(visibility['camera_config_sha256']==digest(comparison/'cameras.json') and
+            visibility['script_sha256']==digest(root/'tools/measure_drone_status_rim.py') and
+            visibility['results'][1]['fcstd_sha256']==model_hash and
+            len(visibility['results'][1]['rays'])==50 and not visibility['new_occlusions'] and
+            not any(r['occluded'] for r in visibility['results'][1]['rays']),
+            'Status slot or bracket visibility regressed')
+    notch=read(comparison/'guard-notch-check.json')
+    require(notch['measurement_script_sha256']==digest(root/'tools/measure_drone_guard_notch.py') and
+            len(notch['results'])==2, 'Stale guard-notch boundary check')
+    current_notch=notch['results'][1]
+    require(current_notch['fcstd_sha256']==model_hash and
+            current_notch['camera_config_sha256']==digest(comparison/'cameras.json') and
+            current_notch['reference_px']==[[563,487],[556,499],[543,512],[529,524]] and
+            current_notch['rms_px']<=6.23 and current_notch['max_px']<=12.01,
+            'Guard-notch fitted-view boundary missing or regressed')
+    for row in notch['results']:
+        require(row['id_manifest_sha256']==digest(root/row['id_manifest_path']),
+                'Changed guard-notch ID evidence')
+    require(digest(root/notch['image_path'])==notch['image_sha256'], 'Changed guard-notch comparison image')
+    for source in notch['source_files']:
+        require(digest(root/source['path'])==source['sha256'], 'Changed guard-notch comparison source')
+    require(preservation['passed'] and preservation['fcstd_sha256']==model_hash and
+            preservation['baseline_fcstd_sha256']==index['rear_cavity_baseline_sha256'] and
+            set(preservation['changed_objects'])==set(index['iteration_expected_changes']) and
+            set(preservation.get('removed_objects',[]))==set(index.get('iteration_expected_removals',[])) and
+            set(preservation.get('added_objects',[]))==set(index.get('iteration_expected_additions',[])),
+            'Unexpected geometry or appearance change outside this iteration')
+    require(cavity['passed'] and len(cavity['parts'])==4 and all(p['valid'] and p['closed'] and
+            p['solids']==1 for p in cavity['parts']), 'Invalid rear cavity geometry')
+    require(len(cavity['shafts'])==4 and all(p['symmetric_difference_mm3']<1e-6
+            for p in cavity['shafts']), 'Rear cavity changed protected shafts')
+    require(len(cavity['void_probes'])==6 and all(p['current_overlap_mm3']<1e-6
+            for p in cavity['void_probes']), 'Rear cavity remains filled')
+    require(len(cavity['wall_probes'])==4 and all(p['liner_overlap_mm3']>.01
+            for p in cavity['wall_probes']), 'Rear cavity wall missing')
+    require(len(cavity['contacts'])==3 and all(p['gap_mm']<.01 and p['overlap_mm3']>.001
+            for p in cavity['contacts']), 'Rear cavity light or liner detached')
+    for key in index['rear_cavity_details']:
+        detail=read(comparison/key)
+        require(detail['fcstd_sha256']==model_hash and detail['camera_config_sha256']==
+                digest(comparison/'cameras.json'), 'Stale rear cavity detail')
+        require(digest(root/detail['image_path'])==detail['image_sha256'], 'Changed rear cavity board')
+        for source in detail['source_files']:
+            require(digest(root/source['path'])==source['sha256'], 'Changed rear cavity detail source')
+    nozzle_side=read(comparison/index['nozzle_side'])
+    require(nozzle_side['fcstd_sha256']==model_hash and nozzle_side['measurement_script_sha256']==
+            digest(root/'tools/measure_drone_nozzle_side.py'), 'Stale nozzle exposed-side checks')
+    require(nozzle_side['camera_config_sha256']==digest(comparison/'cameras.json') and
+            nozzle_side['object_id_manifest_sha256']==digest(attribution_path.parent/'object-id-manifest.json'),
+            'Changed nozzle side camera or ID input')
+    require(len(nozzle_side['boundary_objects'])==12 and len(nozzle_side['observations'])==2 and
+            all(len(o['samples'])==7 for o in nozzle_side['observations']), 'Missing nozzle exposed-side samples')
+    require(nozzle_side['max_px']<22.75 and nozzle_side['max_source_threshold_spread_px']<=2,
+            'Nozzle exposed-side target or source stability failed')
+    require(digest(root/nozzle_side['image_path'])==nozzle_side['image_sha256'], 'Changed nozzle side board')
+    for source in nozzle_side['source_files']:
+        require(digest(root/source['path'])==source['sha256'], 'Changed nozzle side source image')
+    pitch=read(comparison/index['petal_pitch'])
+    require(pitch['fcstd_sha256']==model_hash and pitch['measurement_script_sha256']==
+            digest(root/'tools/measure_drone_petal_pitch.py'), 'Stale petal pitch diagnostic')
+    require(pitch['camera_config_sha256']==digest(comparison/'cameras.json') and
+            pitch['object_id_manifest_sha256']==digest(attribution_path.parent/'object-id-manifest.json'),
+            'Changed petal pitch camera or ID input')
+    require(pitch['native_source_frame_verified'] and pitch['reference_video_sha256']==
+            digest(root/'references/alexander-shevchuk-drone/video-cam.mp4'), 'Changed petal pitch reference video')
+    require(pitch['source_frame']==120 and pitch['row_px']==590 and len(pitch['observations'])==3,
+            'Missing central petal guide samples')
+    require(pitch['max_offset_px']<22.75, 'Central petal pitch target exceeded')
+    require(digest(root/pitch['image_path'])==pitch['image_sha256'], 'Changed petal pitch board')
+    for source in pitch['source_files']:
+        require(digest(root/source['path'])==source['sha256'], 'Changed petal pitch source')
+    seam=read(comparison/index['rear_seam'])
+    require(seam['passed'] and seam['fcstd_sha256']==model_hash and
+            seam['baseline_fcstd_sha256']==index['preservation_baseline_model_sha256'] and
+            seam['measurement_script_sha256']==digest(root/'tools/measure_drone_rear_seam.py'),
+            'Stale or failed rear common-face repair')
+    require(len(seam['parts'])==2 and len(seam['slots'])==2 and
+            seam['coplanar_y248_overlap_mm2']<1e-6 and seam['volume_overlap_mm3']<1e-6,
+            'Rear carrier retains coincident faces')
+    require(seam['seam_scope_z_min_mm']==134 and seam['union_added_volume_mm3']<1e-6 and
+            abs(seam['union_removed_volume_mm3']-seam['expected_slot_removed_volume_mm3'])<1e-4,
+            'Upper rear seam changed geometry outside the two slots')
+    lighting=read(comparison/index['cavity_emitters'])
+    require(lighting['passed'] and lighting['fcstd_sha256']==model_hash and
+            lighting['measurement_script_sha256']==digest(root/'tools/measure_drone_cavity_emitters.py'),
+            'Stale or failed cavity lighting readback')
+    require(len(lighting['parts'])==12 and all(p['valid'] and p['closed'] and p['solids']==1
+            and p['nozzle_shell_overlap_mm3']<1e-6 for p in lighting['parts']), 'Cavity lighting intersects nozzle shell')
+    require(len(lighting['contacts'])==14 and all(c['gap_mm']<.01 and c['overlap_mm3']>.001
+            for c in lighting['contacts']), 'Detached cavity rail, clamp or reflector')
+    rail=read(comparison/index['cavity_rail'])
+    require(rail['fcstd_sha256']==model_hash and len(rail['samples'])==12 and
+            rail['measurement_script_sha256']==digest(root/'tools/measure_drone_cavity_rail.py') and
+            rail['source_fit_sha256']==digest(comparison/'cavity-emitter-study/primary-rail-fit.json') and
+            rail['object_id_manifest_sha256']==digest(attribution_path.parent/'object-id-manifest.json'),
+            'Stale or incomplete cavity rail comparison')
+    rail_fit=read(comparison/'cavity-emitter-study/primary-rail-fit.json')
+    require(rail_fit['script_sha256']==digest(root/'tools/fit_drone_cavity_rail.py') and
+            rail_fit['camera_config_sha256']==digest(comparison/'cameras.json'), 'Changed cavity rail fit inputs')
+    for path,sha in rail_fit['source_files'].items():
+        require(digest(root/path)==sha, 'Changed cavity rail reference frame')
+    for path,sha in rail['source_files'].items():
+        require(digest(root/path)==sha, 'Changed cavity rail ID image')
     result = {'passed':not errors, 'errors':errors, 'fcstd_sha256':model_hash,
               'visible_features':saved['visible_features'], 'step_solids':saved['step_solids'],
               'verified_images':len(images), 'reference_inputs':len(index['inputs']),

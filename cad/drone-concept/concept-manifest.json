@@ -1,5 +1,5 @@
 {
-  "revision": "v30-rounded-nozzle-fairing",
+  "revision": "v53-belly-side-relief",
   "tree_structure": "flat",
   "group_count": 0,
   "status": "appearance-study-only",
@@ -23,16 +23,26 @@
     180,
     173
   ],
-  "nozzle_petals": 16,
+  "nozzle_petals": 12,
+  "rear_cavity": {
+    "aperture_mm": [
+      138,
+      116
+    ],
+    "back_y_mm": 223,
+    "lip_y_mm": 247,
+    "light_front_y_mm": 241.2,
+    "basis": "appearance assumption; shadow is not a nozzle boundary"
+  },
   "bass_warning_label_local_mm": [
-    14,
-    -64.8385759879316,
-    73
+    13.8986353827754,
+    -62.12597860298464,
+    76.68872555473642
   ],
   "bass_alert_local_mm": [
-    1,
-    -68.71705240789814,
-    40
+    2.154186561239941,
+    -70.03422595484321,
+    55.93342740869312
   ],
   "woofer_reservation_mm": {
     "diameter": 88,
@@ -49,10 +59,10 @@
     ],
     "basis": "appearance assumptions; load and stability untested"
   },
-  "visible_features": 721,
+  "visible_features": 696,
   "bbox_mm": [
     301.85566297978323,
-    352.2906174932922,
+    351.8244508900195,
     485.09868316645463
   ],
   "bbox_min_mm": [
@@ -62,10 +72,10 @@
   ],
   "bbox_max_mm": [
     142.67460009999616,
-    288.19817783957984,
+    287.73201123630713,
     385.09868316645463
   ],
-  "fcstd_sha256": "7cb4dc6e74b327c4cf63b326b6f57a46057ea54a43fd433615e5f75a39947d5c",
+  "fcstd_sha256": "aa3de1dc9dcea5a511dd01cfba77d394fdd4a178254d170eb1f1bc369c0389b4",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -2414,222 +2424,6 @@
       "valid": true
     },
     {
-      "name": "NozzlePetal12",
-      "label": "低音喷口曲面叶片 — ·13",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalInset12",
-      "label": "喷口叶片凹槽衬片 — ·13",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalRidge12",
-      "label": "低音喷口叶片加强条 — ·13",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalEdgeRail12_271",
-      "label": "喷口叶片圆边压条 — 12_·272",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalEdgeRail12_290",
-      "label": "喷口叶片圆边压条 — 12_·291",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalGuide12_0",
-      "label": "喷口叶片凹槽导轨 — 12_·01",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalGuide12_1",
-      "label": "喷口叶片凹槽导轨 — 12_·02",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalEndHem12",
-      "label": "喷口叶片末端折边 — ·13",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalHinge12",
-      "label": "低音喷口叶片根铰示意 — ·13",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetal13",
-      "label": "低音喷口曲面叶片 — ·14",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalInset13",
-      "label": "喷口叶片凹槽衬片 — ·14",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalRidge13",
-      "label": "低音喷口叶片加强条 — ·14",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalEdgeRail13_294",
-      "label": "喷口叶片圆边压条 — 13_·295",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalEdgeRail13_313",
-      "label": "喷口叶片圆边压条 — 13_·314",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalGuide13_0",
-      "label": "喷口叶片凹槽导轨 — 13_·01",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalGuide13_1",
-      "label": "喷口叶片凹槽导轨 — 13_·02",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalEndHem13",
-      "label": "喷口叶片末端折边 — ·14",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalHinge13",
-      "label": "低音喷口叶片根铰示意 — ·14",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetal14",
-      "label": "低音喷口曲面叶片 — ·15",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalInset14",
-      "label": "喷口叶片凹槽衬片 — ·15",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalRidge14",
-      "label": "低音喷口叶片加强条 — ·15",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalEdgeRail14_316",
-      "label": "喷口叶片圆边压条 — 14_·317",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalEdgeRail14_335",
-      "label": "喷口叶片圆边压条 — 14_·336",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalGuide14_0",
-      "label": "喷口叶片凹槽导轨 — 14_·01",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalGuide14_1",
-      "label": "喷口叶片凹槽导轨 — 14_·02",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalEndHem14",
-      "label": "喷口叶片末端折边 — ·15",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalHinge14",
-      "label": "低音喷口叶片根铰示意 — ·15",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetal15",
-      "label": "低音喷口曲面叶片 — ·16",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalInset15",
-      "label": "喷口叶片凹槽衬片 — ·16",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalRidge15",
-      "label": "低音喷口叶片加强条 — ·16",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalEdgeRail15_339",
-      "label": "喷口叶片圆边压条 — 15_·340",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalEdgeRail15_358",
-      "label": "喷口叶片圆边压条 — 15_·359",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalGuide15_0",
-      "label": "喷口叶片凹槽导轨 — 15_·01",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalGuide15_1",
-      "label": "喷口叶片凹槽导轨 — 15_·02",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalEndHem15",
-      "label": "喷口叶片末端折边 — ·16",
-      "solids": 1,
-      "valid": true
-    },
-    {
-      "name": "NozzlePetalHinge15",
-      "label": "低音喷口叶片根铰示意 — ·16",
-      "solids": 1,
-      "valid": true
-    },
-    {
       "name": "BassSideStripe0_0",
       "label": "喷口两侧薄涂装条纹 — 0_·01",
       "solids": 1,
@@ -3854,6 +3648,72 @@
       "valid": true
     },
     {
+      "name": "RearCyanUpperLeft",
+      "label": "后凹舱左上灯角",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCyanLowerRight",
+      "label": "后凹舱右下灯角",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCyanLowerLeft",
+      "label": "后凹舱左下灯角",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCavityEmitterLeft",
+      "label": "左后凹舱圆头灯条",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCavityReflectorLeft",
+      "label": "左后凹舱金属反射背板",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCavityClipUpperLeft",
+      "label": "左后凹舱上灯条压座",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCavityClipLowerLeft",
+      "label": "左后凹舱下灯条压座",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCavityEmitterRight",
+      "label": "右后凹舱圆头灯条",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCavityReflectorRight",
+      "label": "右后凹舱金属反射背板",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCavityClipUpperRight",
+      "label": "右后凹舱上灯条压座",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "name": "RearCavityClipLowerRight",
+      "label": "右后凹舱下灯条压座",
+      "solids": 1,
+      "valid": true
+    },
+    {
       "name": "RearLowerSlope",
       "label": "后壳下部斜向收口封板",
       "solids": 1,
@@ -4406,5 +4266,80 @@
       "valid": true
     }
   ],
-  "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation"
+  "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
+  "side_profile_reprojection": {
+    "outer_x_mm": 108.0,
+    "scale": 1.0089049846660512,
+    "eye_mm": [
+      1100.478706826763,
+      481.9590609254328,
+      317.0386845391606
+    ]
+  },
+  "nozzle_mid_depth_reduction_mm": 3,
+  "nozzle_lip_parameters_mm": {
+    "gold_major_radius": 54.019312188677304,
+    "gold_minor_radius": 1.0,
+    "gold_station": 92.55336381702557,
+    "metal_major_radius": 53.520812188677304,
+    "metal_minor_radius": 1.0,
+    "metal_station": 93.76006381702558,
+    "gasket_outer_radius": 53.699312188677304
+  },
+  "rear_lower_edge_rise_mm": 6,
+  "petal_recess_stations_mm": [
+    96.71284038119202,
+    126.86223165382317
+  ],
+  "petal_recess_corner_radius_mm": 1.0,
+  "rear_shoulder_section_exponent": 1.5,
+  "gold_wing_crease_offsets_local_y_mm": [
+    1.9071327831418121,
+    6.203890280847322,
+    3.3243336866335516
+  ],
+  "nozzle_root_profile": {
+    "local_delta_z_radius_y_tilt": [
+      -3.0466361829744244,
+      1.199312188677304,
+      8.517128593165324,
+      -0.33662871354521684
+    ],
+    "guide_span_degrees": 5.4,
+    "terminal_circle_preserved": true,
+    "basis": "five fixed video views; manual root centreline observations"
+  },
+  "nozzle_interior": {
+    "throat_end_station_before_root_map_mm": 112,
+    "bowl_depth_mm": 23,
+    "bowl_radial_wall_mm": 1,
+    "back_plate_mm": 1,
+    "basis": "appearance-only recessed bowl; hidden speaker hardware unselected"
+  },
+  "fairing_root_blend_power": 4,
+  "fairing_middle_depth_extra_mm": 4,
+  "fairing_shoulder_inset_mm": 6.0,
+  "fairing_lower_inset_mm": 0.0,
+  "bass_warning_text_size_mm": 6.2,
+  "bass_alert_text_size_mm": 18.5,
+  "nozzle_marking_spec": {
+    "triangle": [
+      0.15418656123994104,
+      34.21085354447391,
+      30.111802117826446,
+      26.490943736852692
+    ],
+    "plaque": [
+      0.23496463076827287,
+      68.68872555473642,
+      47.32734150401426,
+      14.065844727972232
+    ]
+  },
+  "belly_relief": {
+    "outer_floor_z_mm": 52.5,
+    "central_strip_width_mm": 64.0,
+    "outer_flat_start_x_mm": 62,
+    "basis": "appearance-derived closed lower shell; support geometry retained, no load validation"
+  }
 }

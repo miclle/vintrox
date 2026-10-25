@@ -1,8 +1,8 @@
 {
-  "fcstd_sha256": "7cb4dc6e74b327c4cf63b326b6f57a46057ea54a43fd433615e5f75a39947d5c",
+  "fcstd_sha256": "aa3de1dc9dcea5a511dd01cfba77d394fdd4a178254d170eb1f1bc369c0389b4",
   "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
   "measurement_script_sha256": "bc953da166a10a864223a81607273abcfc6b02277b77917672e4d151a29bb922",
-  "render_manifest_sha256": "bd5e855ad0d6fe58305bb98b22a8b59d0f5bd79eb7a8611195a5e1767659f644",
+  "render_manifest_sha256": "78dcce8ff83d40948015a353d4b513594492de14cc1651afd95aecbbd350472b",
   "source_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
   "source_frame": 180,
   "threshold": {
@@ -15,7 +15,7 @@
   },
   "images": {
     "reference": {
-      "path": "cad/drone-concept/comparison/iteration-64/reference-frames/frame-07.png",
+      "path": "cad/drone-concept/comparison/iteration-87/reference-frames/frame-07.png",
       "sha256": "ed7cdc03298e1c8106e1213c9b147088086735663711979ebff9799bbbb2f920",
       "samples": [
         {
@@ -91,40 +91,28 @@
       ]
     },
     "current_cad": {
-      "path": "cad/drone-concept/comparison/iteration-64-renders/video-06.png",
-      "sha256": "652bc258ad7eb4c29f96372bc2a7d020c89527b61fb30f3c31638fcb9d7bb2a6",
+      "path": "cad/drone-concept/comparison/iteration-87-renders/video-06.png",
+      "sha256": "c4450f0557dddb516c0ff1c5e75a3c8be58ab6dbe1474487caa2c3a10b0d5b7e",
       "samples": [
         {
           "row_px": 430,
-          "span_px": [
-            259,
-            266
-          ],
-          "width_px": 8
+          "span_px": null,
+          "width_px": 0
         },
         {
           "row_px": 450,
-          "span_px": [
-            259,
-            266
-          ],
-          "width_px": 8
+          "span_px": null,
+          "width_px": 0
         },
         {
           "row_px": 470,
-          "span_px": [
-            259,
-            266
-          ],
-          "width_px": 8
+          "span_px": null,
+          "width_px": 0
         },
         {
           "row_px": 490,
-          "span_px": [
-            259,
-            266
-          ],
-          "width_px": 8
+          "span_px": null,
+          "width_px": 0
         }
       ]
     }
@@ -133,13 +121,13 @@
     "Left": {
       "light_solids": 1,
       "straight_tube_radii_mm": [
-        1.8
+        1.816029
       ],
       "bend_centerline_radii_mm": [
-        4.0
+        4.03562
       ],
-      "light_guard_overlap_mm3": 1480.4107027617351,
-      "shoe_guard_overlap_mm3": 109.21177292225391,
+      "light_guard_overlap_mm3": 1493.9087417179303,
+      "shoe_guard_overlap_mm3": 112.15541860497089,
       "screw_shoe_gap_mm": [
         0.0,
         0.0
@@ -148,13 +136,13 @@
     "Right": {
       "light_solids": 1,
       "straight_tube_radii_mm": [
-        1.8
+        1.816029
       ],
       "bend_centerline_radii_mm": [
-        4.0
+        4.03562
       ],
-      "light_guard_overlap_mm3": 1480.4107215817514,
-      "shoe_guard_overlap_mm3": 109.21177292272661,
+      "light_guard_overlap_mm3": 1493.9087547738204,
+      "shoe_guard_overlap_mm3": 112.15541860468063,
       "screw_shoe_gap_mm": [
         0.0,
         0.0

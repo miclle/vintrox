@@ -2,6 +2,7 @@
 
 This measures the inferred exit circle only, not the complete nozzle contour.
 """
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -18,7 +19,12 @@ def main():
     root = Path(__file__).resolve().parents[1]
     cad = root/'cad/drone-concept'
     folder = cad/'comparison'
-    model = cad/'vintrox-drone-concept.FCStd'
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--model',type=Path,default=cad/'vintrox-drone-concept.FCStd')
+    parser.add_argument('--output',type=Path,default=folder/'nozzle-outline-check.json')
+    parser.add_argument('--expected-petals',type=int,help='Explicit leaf count for isolated geometry candidates')
+    args=parser.parse_args()
+    model=args.model
     manifest = json.loads((cad/'concept-manifest.json').read_text())
     fit_path = folder/'nozzle-mouth-fit.json'
     fit = json.loads(fit_path.read_text())
@@ -28,46 +34,60 @@ def main():
     origin = App.Vector(*manifest['bass_origin_mm'])
     doc = App.openDocument(str(model))
     try:
-        arcs = []
-        for obj in doc.Objects:
-            if not re.fullmatch(r'NozzlePetal\d+',obj.Name):
-                continue
+        candidates = []
+        names = [o.Name for o in doc.Objects if re.fullmatch(r'NozzlePetal\d+',o.Name)]
+        for name in names:
+            obj = doc.getObject(name)
             faces = [f for f in obj.Shape.Faces if type(f.Surface).__name__ == 'Plane'
                      and abs(f.normalAt(0,0).dot(axis)) > .9]
-            # Axis/plane intersection orders complete section planes correctly
-            # even when a tilted face centroid is axially behind a recess end.
-            def station(face):
-                normal = face.normalAt(0,0)
-                return normal.dot(face.CenterOfMass-origin)/normal.dot(axis)
-            end = max(faces,key=station)
-            normal = end.normalAt(0,0)
-            if normal.dot(axis) < 0:
-                normal = -normal
-            n=np.array(normal)
-            u=np.cross(n,[0,0,1]);u/=np.linalg.norm(u)
-            v=np.cross(n,u)
-            anchor=np.array(end.CenterOfMass)
-            circles=[]
-            # OCCT stores the transferred circular boundaries as B-splines.
-            # Recover circles from saved edge samples, rejecting straight edges.
-            for edge in end.Edges:
-                samples=np.array([list(p) for p in edge.discretize(Number=25)])-anchor
-                x,y=samples@u,samples@v
-                system=np.column_stack([2*x,2*y,np.ones(len(x))])
-                if np.linalg.matrix_rank(system)<3:
+            for end in faces:
+                normal = end.normalAt(0,0)
+                if normal.dot(axis) < 0:
+                    normal = -normal
+                n=np.array(normal)
+                u=np.cross(n,[0,0,1]);u/=np.linalg.norm(u)
+                v=np.cross(n,u)
+                anchor=np.array(end.CenterOfMass)
+                circles=[]
+                # OCCT stores the transferred circular boundaries as B-splines.
+                # Recover circles from saved edge samples, rejecting straight edges.
+                for edge in end.Edges:
+                    samples=np.array([list(p) for p in edge.discretize(Number=25)])-anchor
+                    x,y=samples@u,samples@v
+                    system=np.column_stack([2*x,2*y,np.ones(len(x))])
+                    if np.linalg.matrix_rank(system)<3:
+                        continue
+                    cx,cy,constant=np.linalg.lstsq(system,x*x+y*y,rcond=None)[0]
+                    r2=constant+cx*cx+cy*cy
+                    if r2<=0:
+                        continue
+                    radius=np.sqrt(r2)
+                    error=np.max(abs(np.hypot(x-cx,y-cy)-radius))
+                    if error<.001 and 10<radius<200:
+                        circles.append((radius,anchor+cx*u+cy*v,float(error)))
+                if not circles:
                     continue
-                cx,cy,constant=np.linalg.lstsq(system,x*x+y*y,rcond=None)[0]
-                r2=constant+cx*cx+cy*cy
-                if r2<=0:
-                    continue
-                radius=np.sqrt(r2)
-                error=np.max(abs(np.hypot(x-cx,y-cy)-radius))
-                if error<.001 and 10<radius<200:
-                    circles.append((radius,anchor+cx*u+cy*v,float(error)))
-            radius,center,error=max(circles,key=lambda c:c[0])
-            arcs.append({'name':obj.Name,'center_mm':center.tolist(),
-                         'radius_mm':float(radius),'axis':list(normal),'edge_fit_max_error_mm':error})
-        if len(arcs) != manifest['nozzle_petals']:
+                radius,center,error=max(circles,key=lambda c:c[0])
+                candidates.append({'name':obj.Name,'center_mm':center.tolist(),
+                             'radius_mm':float(radius),'axis':list(normal),'edge_fit_max_error_mm':error})
+        # A recess end plane can cross the nozzle axis beyond the actual tip.
+        # Select complete shared circles instead of ordering extrapolated planes.
+        # This uses saved CAD geometry only, before consulting reference pixels.
+        rings = []
+        for seed in candidates:
+            matches = [c for c in candidates
+                       if np.linalg.norm(np.array(c['center_mm'])-seed['center_mm']) < .001
+                       and abs(c['radius_mm']-seed['radius_mm']) < .001
+                       and np.linalg.norm(np.array(c['axis'])-seed['axis']) < .001]
+            by_name = {c['name']: c for c in matches}
+            if set(by_name) == set(names) and not any(
+                    np.linalg.norm(np.array(ring[0]['center_mm'])-seed['center_mm']) < .001
+                    and abs(ring[0]['radius_mm']-seed['radius_mm']) < .001 for ring in rings):
+                rings.append(list(by_name.values()))
+        if len(rings) < 2:
+            raise RuntimeError('Missing complete shared root or terminal circle')
+        arcs = max(rings,key=lambda ring:np.dot(np.mean([c['center_mm'] for c in ring],axis=0)-np.array(origin),np.array(axis)))
+        if len(arcs) != (args.expected_petals or manifest['nozzle_petals']):
             raise RuntimeError('Missing saved nozzle terminal arcs')
         center = np.mean([a['center_mm'] for a in arcs],axis=0)
         radius = float(np.mean([a['radius_mm'] for a in arcs]))
@@ -90,13 +110,15 @@ def main():
         report = {'fcstd_sha256':hashlib.sha256(model.read_bytes()).hexdigest(),
                   'source_fit_sha256':hashlib.sha256(fit_path.read_bytes()).hexdigest(),
                   'camera_fit_sha256':hashlib.sha256(camera_path.read_bytes()).hexdigest(),
+                  'selection_method':'outer circular arcs shared by all saved leaves; furthest complete section along nozzle axis',
+                  'measurement_script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                   'terminal_arc_count':len(arcs),'terminal_arcs':arcs,'saved_center_mm':center.tolist(),
                   'saved_radius_mm':radius,'saved_axis':normal.tolist(),'center_spread_mm':float(spread),
                   'distance_rms_px':float(np.sqrt(np.mean(np.array(distances)**2))),
                   'max_distance_px':max(distances),'observations':observations,
                   'limitations':['only terminal circle, not complete nozzle','manual source pixel uncertainty',
                                  'continuous circle interpolates gaps between petal ends']}
-        (folder/'nozzle-outline-check.json').write_text(json.dumps(report,indent=2)+'\n')
+        args.output.write_text(json.dumps(report,indent=2)+'\n')
         print(json.dumps({k:report[k] for k in ('terminal_arc_count','saved_center_mm','saved_radius_mm',
                                                 'distance_rms_px','max_distance_px')}))
     finally:

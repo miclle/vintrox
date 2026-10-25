@@ -48,6 +48,11 @@ def main():
     parser.add_argument('--model',type=Path,default=root/'cad/drone-concept/vintrox-drone-concept.FCStd')
     parser.add_argument('--output',type=Path,default=folder/'wing-profile-check.json')
     args=parser.parse_args()
+    manifest_path=args.model.parent/'concept-manifest.json'
+    manifest=json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
+    gold_offsets=manifest.get('gold_wing_crease_offsets_local_y_mm',[0,0,0])
+    if any(gold_offsets):
+        assert manifest['fcstd_sha256']==digest(args.model), 'Stale wing station manifest'
     source=folder/'wing-outline-fit.json';fit=json.loads(source.read_text())
     camera=folder/'cameras.json';cameras=json.loads(camera.read_text())
     doc=App.openDocument(str(args.model))
@@ -72,15 +77,16 @@ def main():
             # The v21 baseline fused this layer into WingEdge.
             raised=raised.Shape if raised else blade
             z=248.67*1.01-8.8
-            high=outward_intersection(paint,sign,(142.5-2)*1.12+33,z)
-            low=outward_intersection(fold,sign,(142.5+2)*1.12+33,z)
+            crease_y=142.5+(gold_offsets[1] if side=='Right' else 0)
+            high=outward_intersection(paint,sign,(crease_y-2)*1.12+33,z)
+            low=outward_intersection(fold,sign,(crease_y+2)*1.12+33,z)
             joints[side]={'paint_raised_overlap_mm3':paint.common(raised).Volume,
                 'raised_blade_gap_mm':raised.distToShape(blade)[0],
                 'fold_blade_overlap_mm3':fold.common(blade).Volume,
                 'inner_blade_gap_mm':doc.getObject('WingInnerPaint'+side).Shape.distToShape(blade)[0],
                 'mark_paint_gap_mm':doc.getObject('WingHubMark'+side).Shape.distToShape(paint)[0],
-                'fold_sample_z_mm':z,'high_sample_y_mm':(142.5-2)*1.12+33,
-                'low_sample_y_mm':(142.5+2)*1.12+33,'outward_high_x_mm':high,
+                'fold_sample_z_mm':z,'high_sample_y_mm':(crease_y-2)*1.12+33,
+                'low_sample_y_mm':(crease_y+2)*1.12+33,'outward_high_x_mm':high,
                 'outward_low_x_mm':low,'surface_step_mm':high-low}
         result={'fcstd_sha256':digest(args.model),'source_fit_sha256':digest(source),
             'camera_config_sha256':digest(camera),'measurement_script_sha256':digest(Path(__file__)),
