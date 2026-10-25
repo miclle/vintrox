@@ -1,12 +1,20 @@
 # Drone 参考叠加与迭代
 
-2026-10-24，按用户要求恢复侧后方优化，当前为 v53 侧后壳底部收形。用户要求除四根新增支柱外尽可能完整还原参考，使用真实模型截图与原图重叠比较，并利用 `video-cam.mp4` 检查整圈。目标是主要部件轮廓误差尽量控制在正面屏幕投影宽度的 5% 内，争取十方位平均轮廓 IoU 达到 90%。这是执行目标，尚未达到，不能把轮廓分数解释成细节还原率。
+2026-10-25，按用户要求恢复侧后方优化，当前为 v54 屏幕外框 220×172mm。用户要求除四根新增支柱外尽可能完整还原参考，使用真实模型截图与原图重叠比较，并利用 `video-cam.mp4` 检查整圈。目标是主要部件轮廓误差尽量控制在正面屏幕投影宽度的 5% 内，争取十方位平均轮廓 IoU 达到 90%。这是执行目标，尚未达到，不能把轮廓分数解释成细节还原率。
 
 ## 当前阶段结果
 
-当前保存模型的十方位平均前景轮廓 IoU 为 **85.03%**；同设置 v6 基线为 **66.23%**，提高约 **18.80 个百分点**。90% 目标尚未达到，局部亮边、末端和外壳细节仍有差异。
+当前保存模型的十方位平均前景轮廓 IoU 为 **85.13408%**；同设置 v6 基线为 **66.23%**，提高约 **18.90 个百分点**。相对 v53 3.5mm 基线提升 0.041821 个百分点。90% 目标尚未达到，局部亮边、末端和外壳细节仍有差异。
 
-[当前十方位比较板](../cad/drone-concept/comparison/iteration-87/comparison-board.png) · [当前逐图比较板](../cad/drone-concept/comparison/stills-58/comparison-board.png) · [当前报告](../cad/drone-concept/comparison/iteration-87/comparison-report.json) · [同设置 v6 基线](../cad/drone-concept/comparison/baseline-raw-v23/comparison-report.json)
+[当前十方位比较板](../cad/drone-concept/comparison/iteration-89/comparison-board.png) · [当前逐图比较板](../cad/drone-concept/comparison/stills-60/comparison-board.png) · [当前报告](../cad/drone-concept/comparison/iteration-89/comparison-report.json) · [同设置 v6 基线](../cad/drone-concept/comparison/baseline-raw-v23/comparison-report.json)
+
+## v54 屏幕外框 220×172mm（2026-10-25）
+
+只修改 `ScreenBezel` 与 `BezelLip`，沿用 v53 3.5mm 回环线束的固定相机、分割阈值和叠加规则。外框为 220×172mm，金属压边为 224×176mm，开口仍为 202×152mm；210×160×2mm 屏幕、200×150mm 可视区和四根支柱保持。视频十方位平均 IoU 为 **85.13408076%**（v53 基线 85.09225998%，+0.041821 个百分点），静态图平均 IoU 为 **82.04490633%**（v53 基线 82.04265405%，+0.002252 个百分点）。所有视角的升降都保留在[视频报告](../cad/drone-concept/comparison/iteration-89/comparison-report.json)与[静态图报告](../cad/drone-concept/comparison/stills-60/comparison-report.json)中。
+
+[十方位叠加板](../cad/drone-concept/comparison/iteration-89/comparison-board.png) · [七图叠加板](../cad/drone-concept/comparison/stills-60/comparison-board.png) · [屏框候选研究](../cad/drone-concept/comparison/screen-bezel-220x172-study/README.md) · [本轮交付检查](../cad/drone-concept/delivery-verification-v54-screen-bezel.json)
+
+本轮没有用图像变形或逐零件配准来提高分数。凹舱暗边继续解释为容纳空间的阴影/遮挡，不能据此增加连续喷口筒壁；轮廓分数仍只是外观诊断，不代表细节完全一致、打印、装配或制造验收。
 
 [稀疏标志点检查](../cad/drone-concept/comparison/landmark-check.json)直接读取保存 BRep 的翼尖顶点、翼根/灯头中心和实际平面屏角点，投影到固定相机。42 个观测点全部低于 22.75 像素阈值（正面参考显示宽度 455 像素的 5%）；最大偏差 10.92 像素，距离 RMS 5.95 像素。这只验证这些位置，**不代表各零件完整轮廓都满足 5%**。脚本见 [measure_drone_landmarks.py](../tools/measure_drone_landmarks.py)。
 

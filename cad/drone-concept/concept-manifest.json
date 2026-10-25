@@ -1,5 +1,5 @@
 {
-  "revision": "v53-underbody-loop-35mm",
+  "revision": "v54-screen-bezel-220x172",
   "tree_structure": "flat",
   "group_count": 0,
   "status": "appearance-study-only",
@@ -75,7 +75,7 @@
     287.73201123630713,
     385.09868316645463
   ],
-  "fcstd_sha256": "715c5ada8002a3c7ceb4ae766edf8718e940825b9b9f37386dbc545fcb4b7b4a",
+  "fcstd_sha256": "0df34a20c2cac4de03bd287734f7aac8da4bab2989dc4865920f1162b5ab9021",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4343,5 +4343,18 @@
     "basis": "appearance-derived closed lower shell; support geometry retained, no load validation"
   },
   "underbody_loop_radius_mm": 3.5,
-  "underbody_loop_basis": "fixed ten-view video and seven-image appearance fit; decorative cable only; not electrical or structural validation"
+  "underbody_loop_basis": "fixed ten-view video and seven-image appearance fit; decorative cable only; not electrical or structural validation",
+  "screen_bezel_outer_mm": [
+    220.0,
+    172.0
+  ],
+  "screen_bezel_lip_mm": [
+    224.0,
+    176.0
+  ],
+  "screen_bezel_opening_mm": [
+    202.0,
+    152.0
+  ],
+  "screen_bezel_basis": "fixed video and seven-image overlay candidate; measured 210x160x2mm screen and active 200x150mm input unchanged"
 }
