@@ -1,0 +1,1920 @@
+{
+  "fcstd_sha256": "f756d4d000ed875ff4927ca828420e567eac037074f55e30e32b018680d337cd",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "comparison_report_sha256": "41e32aa3f67bf6db704c30e80b24e14e44742a97edf915f04f064420fc304435",
+  "top_excess_families": [
+    {
+      "family": "NozzlePetal",
+      "pixels": 23683
+    },
+    {
+      "family": "ScreenBezel",
+      "pixels": 22660
+    },
+    {
+      "family": "SpeakerOuterLip",
+      "pixels": 17271
+    },
+    {
+      "family": "FrontCheek",
+      "pixels": 16940
+    },
+    {
+      "family": "SpeakerVisualCone",
+      "pixels": 13768
+    },
+    {
+      "family": "BrowUnderside",
+      "pixels": 13017
+    },
+    {
+      "family": "UnderbodyLoop",
+      "pixels": 12722
+    },
+    {
+      "family": "LowerPodRib",
+      "pixels": 12592
+    },
+    {
+      "family": "MainEnclosureShell",
+      "pixels": 12482
+    },
+    {
+      "family": "HandleArm",
+      "pixels": 10564
+    },
+    {
+      "family": "SpeakerHubNeck",
+      "pixels": 10239
+    },
+    {
+      "family": "ProjectingBrow",
+      "pixels": 9861
+    },
+    {
+      "family": "PerforatedSpeakerFlange",
+      "pixels": 9770
+    },
+    {
+      "family": "SideStatusPlate",
+      "pixels": 9230
+    },
+    {
+      "family": "LowerPod",
+      "pixels": 8323
+    },
+    {
+      "family": "SideCable",
+      "pixels": 8064
+    },
+    {
+      "family": "RearArmourCheek",
+      "pixels": 7850
+    },
+    {
+      "family": "VentBacking",
+      "pixels": 7263
+    },
+    {
+      "family": "SideGuard",
+      "pixels": 6934
+    },
+    {
+      "family": "SideSocketBase",
+      "pixels": 6933
+    },
+    {
+      "family": "RearCoolingFin",
+      "pixels": 6614
+    },
+    {
+      "family": "NozzlePetalInset",
+      "pixels": 6232
+    },
+    {
+      "family": "Antenna",
+      "pixels": 5978
+    },
+    {
+      "family": "WingInnerPaint",
+      "pixels": 5946
+    },
+    {
+      "family": "RoofRaisedRib",
+      "pixels": 5940
+    },
+    {
+      "family": "FrontCheekBridge",
+      "pixels": 5650
+    },
+    {
+      "family": "HandleInset",
+      "pixels": 5446
+    },
+    {
+      "family": "GripBand",
+      "pixels": 5025
+    },
+    {
+      "family": "UnderbodyHarness",
+      "pixels": 4794
+    },
+    {
+      "family": "LowerPodDiaphragm",
+      "pixels": 4678
+    },
+    {
+      "family": "RoofSideClosure",
+      "pixels": 4585
+    },
+    {
+      "family": "WingFoldFacet",
+      "pixels": 4575
+    },
+    {
+      "family": "ClosedBellyPan",
+      "pixels": 4574
+    },
+    {
+      "family": "NozzlePetalHinge",
+      "pixels": 4309
+    },
+    {
+      "family": "WingPaint",
+      "pixels": 4184
+    }
+  ],
+  "views": [
+    {
+      "view": "video-00",
+      "excess_pixels": 43463,
+      "missing_pixels": 7716,
+      "attributed_excess_pixels": 43387,
+      "id_mask_disagreement_pixels": 158,
+      "top_excess_objects": [
+        {
+          "name": "ScreenBezel",
+          "excess_pixels": 6418
+        },
+        {
+          "name": "BrowUnderside",
+          "excess_pixels": 3963
+        },
+        {
+          "name": "SideCableLeft",
+          "excess_pixels": 1936
+        },
+        {
+          "name": "LowerPod_1",
+          "excess_pixels": 1726
+        },
+        {
+          "name": "ScreenCurvedCover",
+          "excess_pixels": 1694
+        },
+        {
+          "name": "ProjectingBrow",
+          "excess_pixels": 1678
+        },
+        {
+          "name": "SpeakerHubNeckLeft",
+          "excess_pixels": 1662
+        },
+        {
+          "name": "HandleInsetLeft",
+          "excess_pixels": 1537
+        },
+        {
+          "name": "FrontCheekLeft",
+          "excess_pixels": 1441
+        },
+        {
+          "name": "PerforatedSpeakerFlangeLeft",
+          "excess_pixels": 1292
+        },
+        {
+          "name": "UtilityCapLeft",
+          "excess_pixels": 1282
+        },
+        {
+          "name": "GripBand9",
+          "excess_pixels": 948
+        },
+        {
+          "name": "SideGuardLeft",
+          "excess_pixels": 895
+        },
+        {
+          "name": "MainEnclosureShell",
+          "excess_pixels": 874
+        },
+        {
+          "name": "SpeakerOuterLipLeft",
+          "excess_pixels": 818
+        },
+        {
+          "name": "SpeakerVisualConeLeft",
+          "excess_pixels": 731
+        },
+        {
+          "name": "ControlKeyBed",
+          "excess_pixels": 725
+        },
+        {
+          "name": "RearArmourCheekLeft",
+          "excess_pixels": 659
+        },
+        {
+          "name": "WingFoldFacetLeft",
+          "excess_pixels": 591
+        },
+        {
+          "name": "RoofSideClosure_1",
+          "excess_pixels": 576
+        }
+      ],
+      "large_missing_regions": [
+        {
+          "pixels": 919,
+          "bbox_xyxy": [
+            314,
+            1,
+            351,
+            104
+          ]
+        },
+        {
+          "pixels": 877,
+          "bbox_xyxy": [
+            287,
+            176,
+            355,
+            208
+          ]
+        },
+        {
+          "pixels": 846,
+          "bbox_xyxy": [
+            359,
+            176,
+            537,
+            195
+          ]
+        },
+        {
+          "pixels": 787,
+          "bbox_xyxy": [
+            221,
+            654,
+            317,
+            696
+          ]
+        },
+        {
+          "pixels": 780,
+          "bbox_xyxy": [
+            98,
+            20,
+            113,
+            144
+          ]
+        },
+        {
+          "pixels": 681,
+          "bbox_xyxy": [
+            185,
+            175,
+            238,
+            230
+          ]
+        },
+        {
+          "pixels": 418,
+          "bbox_xyxy": [
+            842,
+            409,
+            855,
+            622
+          ]
+        },
+        {
+          "pixels": 398,
+          "bbox_xyxy": [
+            518,
+            30,
+            570,
+            104
+          ]
+        },
+        {
+          "pixels": 342,
+          "bbox_xyxy": [
+            409,
+            752,
+            447,
+            779
+          ]
+        },
+        {
+          "pixels": 257,
+          "bbox_xyxy": [
+            306,
+            663,
+            348,
+            684
+          ]
+        }
+      ]
+    },
+    {
+      "view": "video-01",
+      "excess_pixels": 41365,
+      "missing_pixels": 8775,
+      "attributed_excess_pixels": 41296,
+      "id_mask_disagreement_pixels": 115,
+      "top_excess_objects": [
+        {
+          "name": "SpeakerVisualConeLeft",
+          "excess_pixels": 2909
+        },
+        {
+          "name": "SpeakerOuterLipLeft",
+          "excess_pixels": 2823
+        },
+        {
+          "name": "SideStatusPlateLeft",
+          "excess_pixels": 1892
+        },
+        {
+          "name": "FrontCheekLeft",
+          "excess_pixels": 1746
+        },
+        {
+          "name": "ProjectingBrow",
+          "excess_pixels": 1746
+        },
+        {
+          "name": "SideCableLeft",
+          "excess_pixels": 1565
+        },
+        {
+          "name": "BrowUnderside",
+          "excess_pixels": 1550
+        },
+        {
+          "name": "LowerPodDiaphragm_1",
+          "excess_pixels": 1394
+        },
+        {
+          "name": "MainEnclosureShell",
+          "excess_pixels": 1236
+        },
+        {
+          "name": "HandleInsetLeft",
+          "excess_pixels": 1214
+        },
+        {
+          "name": "VentBackingLeft",
+          "excess_pixels": 1121
+        },
+        {
+          "name": "Antenna",
+          "excess_pixels": 955
+        },
+        {
+          "name": "PerforatedSpeakerFlangeLeft",
+          "excess_pixels": 819
+        },
+        {
+          "name": "UtilityCapLeft",
+          "excess_pixels": 776
+        },
+        {
+          "name": "LowerPod_1",
+          "excess_pixels": 734
+        },
+        {
+          "name": "SideGuardLeft",
+          "excess_pixels": 732
+        },
+        {
+          "name": "ScreenBezel",
+          "excess_pixels": 694
+        },
+        {
+          "name": "UnderbodyLoop0",
+          "excess_pixels": 687
+        },
+        {
+          "name": "WingFoldFacetLeft",
+          "excess_pixels": 550
+        },
+        {
+          "name": "RearArmourCheekLeft",
+          "excess_pixels": 529
+        }
+      ],
+      "large_missing_regions": [
+        {
+          "pixels": 1729,
+          "bbox_xyxy": [
+            363,
+            682,
+            513,
+            772
+          ]
+        },
+        {
+          "pixels": 1390,
+          "bbox_xyxy": [
+            207,
+            1,
+            280,
+            149
+          ]
+        },
+        {
+          "pixels": 1043,
+          "bbox_xyxy": [
+            147,
+            240,
+            203,
+            302
+          ]
+        },
+        {
+          "pixels": 760,
+          "bbox_xyxy": [
+            631,
+            686,
+            654,
+            724
+          ]
+        },
+        {
+          "pixels": 621,
+          "bbox_xyxy": [
+            102,
+            8,
+            132,
+            129
+          ]
+        },
+        {
+          "pixels": 583,
+          "bbox_xyxy": [
+            599,
+            687,
+            624,
+            770
+          ]
+        },
+        {
+          "pixels": 443,
+          "bbox_xyxy": [
+            508,
+            125,
+            592,
+            202
+          ]
+        },
+        {
+          "pixels": 432,
+          "bbox_xyxy": [
+            806,
+            350,
+            813,
+            580
+          ]
+        },
+        {
+          "pixels": 344,
+          "bbox_xyxy": [
+            476,
+            690,
+            499,
+            711
+          ]
+        }
+      ]
+    },
+    {
+      "view": "video-02",
+      "excess_pixels": 47761,
+      "missing_pixels": 7945,
+      "attributed_excess_pixels": 47697,
+      "id_mask_disagreement_pixels": 139,
+      "top_excess_objects": [
+        {
+          "name": "SpeakerOuterLipLeft",
+          "excess_pixels": 3270
+        },
+        {
+          "name": "SideStatusPlateLeft",
+          "excess_pixels": 2387
+        },
+        {
+          "name": "SpeakerVisualConeLeft",
+          "excess_pixels": 1893
+        },
+        {
+          "name": "PerforatedSpeakerFlangeLeft",
+          "excess_pixels": 1770
+        },
+        {
+          "name": "UnderbodyLoop0",
+          "excess_pixels": 1732
+        },
+        {
+          "name": "MainEnclosureShell",
+          "excess_pixels": 1631
+        },
+        {
+          "name": "WingFoldFacetLeft",
+          "excess_pixels": 1566
+        },
+        {
+          "name": "SideCableLeft",
+          "excess_pixels": 1537
+        },
+        {
+          "name": "SideSocketBaseLeft",
+          "excess_pixels": 1490
+        },
+        {
+          "name": "WingInnerPaintRight",
+          "excess_pixels": 1438
+        },
+        {
+          "name": "FrontCheekBridgeLeft",
+          "excess_pixels": 1179
+        },
+        {
+          "name": "VentBackingLeft",
+          "excess_pixels": 1136
+        },
+        {
+          "name": "SideSocketRecessLeft",
+          "excess_pixels": 1065
+        },
+        {
+          "name": "SideGuardLeft",
+          "excess_pixels": 1005
+        },
+        {
+          "name": "FrontCheekLeft",
+          "excess_pixels": 969
+        },
+        {
+          "name": "ProjectingBrow",
+          "excess_pixels": 960
+        },
+        {
+          "name": "RoofSideClosure_1",
+          "excess_pixels": 924
+        },
+        {
+          "name": "Antenna",
+          "excess_pixels": 908
+        },
+        {
+          "name": "RearBeaconBase_1",
+          "excess_pixels": 768
+        },
+        {
+          "name": "LowerPodDiaphragm_1",
+          "excess_pixels": 674
+        }
+      ],
+      "large_missing_regions": [
+        {
+          "pixels": 1072,
+          "bbox_xyxy": [
+            497,
+            697,
+            632,
+            759
+          ]
+        },
+        {
+          "pixels": 1013,
+          "bbox_xyxy": [
+            170,
+            226,
+            223,
+            282
+          ]
+        },
+        {
+          "pixels": 823,
+          "bbox_xyxy": [
+            192,
+            1,
+            266,
+            130
+          ]
+        },
+        {
+          "pixels": 640,
+          "bbox_xyxy": [
+            536,
+            678,
+            619,
+            696
+          ]
+        },
+        {
+          "pixels": 499,
+          "bbox_xyxy": [
+            204,
+            438,
+            223,
+            504
+          ]
+        },
+        {
+          "pixels": 415,
+          "bbox_xyxy": [
+            519,
+            125,
+            601,
+            202
+          ]
+        },
+        {
+          "pixels": 371,
+          "bbox_xyxy": [
+            510,
+            699,
+            533,
+            740
+          ]
+        },
+        {
+          "pixels": 321,
+          "bbox_xyxy": [
+            244,
+            596,
+            274,
+            622
+          ]
+        },
+        {
+          "pixels": 319,
+          "bbox_xyxy": [
+            287,
+            2,
+            342,
+            62
+          ]
+        },
+        {
+          "pixels": 269,
+          "bbox_xyxy": [
+            216,
+            580,
+            241,
+            602
+          ]
+        }
+      ]
+    },
+    {
+      "view": "video-03",
+      "excess_pixels": 50723,
+      "missing_pixels": 9226,
+      "attributed_excess_pixels": 50641,
+      "id_mask_disagreement_pixels": 159,
+      "top_excess_objects": [
+        {
+          "name": "SpeakerOuterLipLeft",
+          "excess_pixels": 2109
+        },
+        {
+          "name": "UnderbodyLoop0",
+          "excess_pixels": 1771
+        },
+        {
+          "name": "SpeakerHubNeckLeft",
+          "excess_pixels": 1738
+        },
+        {
+          "name": "ClosedBellyPan",
+          "excess_pixels": 1703
+        },
+        {
+          "name": "RoofRaisedRib1",
+          "excess_pixels": 1628
+        },
+        {
+          "name": "SideSocketBaseLeft",
+          "excess_pixels": 1600
+        },
+        {
+          "name": "HandleArmRight",
+          "excess_pixels": 1545
+        },
+        {
+          "name": "PerforatedSpeakerFlangeLeft",
+          "excess_pixels": 1389
+        },
+        {
+          "name": "WingInnerPaintRight",
+          "excess_pixels": 1152
+        },
+        {
+          "name": "FrontCheekBridgeLeft",
+          "excess_pixels": 1108
+        },
+        {
+          "name": "UtilityLinerLeft",
+          "excess_pixels": 979
+        },
+        {
+          "name": "SideCableLeft",
+          "excess_pixels": 962
+        },
+        {
+          "name": "SideStatusPlateLeft",
+          "excess_pixels": 844
+        },
+        {
+          "name": "SpeakerVisualConeLeft",
+          "excess_pixels": 812
+        },
+        {
+          "name": "NozzlePetal1",
+          "excess_pixels": 795
+        },
+        {
+          "name": "FrontCheekLeft",
+          "excess_pixels": 784
+        },
+        {
+          "name": "RearArmourCheekRight",
+          "excess_pixels": 732
+        },
+        {
+          "name": "VentBackingLeft",
+          "excess_pixels": 719
+        },
+        {
+          "name": "MainEnclosureShell",
+          "excess_pixels": 704
+        },
+        {
+          "name": "Antenna",
+          "excess_pixels": 701
+        }
+      ],
+      "large_missing_regions": [
+        {
+          "pixels": 1987,
+          "bbox_xyxy": [
+            544,
+            647,
+            647,
+            741
+          ]
+        },
+        {
+          "pixels": 921,
+          "bbox_xyxy": [
+            82,
+            16,
+            98,
+            136
+          ]
+        },
+        {
+          "pixels": 911,
+          "bbox_xyxy": [
+            551,
+            2,
+            626,
+            112
+          ]
+        },
+        {
+          "pixels": 755,
+          "bbox_xyxy": [
+            344,
+            176,
+            561,
+            203
+          ]
+        },
+        {
+          "pixels": 538,
+          "bbox_xyxy": [
+            145,
+            252,
+            175,
+            296
+          ]
+        },
+        {
+          "pixels": 463,
+          "bbox_xyxy": [
+            294,
+            1,
+            337,
+            104
+          ]
+        },
+        {
+          "pixels": 380,
+          "bbox_xyxy": [
+            312,
+            175,
+            343,
+            203
+          ]
+        },
+        {
+          "pixels": 342,
+          "bbox_xyxy": [
+            506,
+            663,
+            538,
+            685
+          ]
+        },
+        {
+          "pixels": 279,
+          "bbox_xyxy": [
+            213,
+            199,
+            258,
+            228
+          ]
+        }
+      ]
+    },
+    {
+      "view": "video-04",
+      "excess_pixels": 39564,
+      "missing_pixels": 13326,
+      "attributed_excess_pixels": 39493,
+      "id_mask_disagreement_pixels": 160,
+      "top_excess_objects": [
+        {
+          "name": "HandleArmLeft",
+          "excess_pixels": 2282
+        },
+        {
+          "name": "HandleArmRight",
+          "excess_pixels": 2112
+        },
+        {
+          "name": "RoofRaisedRib1",
+          "excess_pixels": 1782
+        },
+        {
+          "name": "RearArmourCheekRight",
+          "excess_pixels": 1716
+        },
+        {
+          "name": "RearArmourCheekLeft",
+          "excess_pixels": 1676
+        },
+        {
+          "name": "NozzlePetal2",
+          "excess_pixels": 1179
+        },
+        {
+          "name": "RearRecessLiner",
+          "excess_pixels": 1144
+        },
+        {
+          "name": "SpeakerHubNeckRight",
+          "excess_pixels": 1142
+        },
+        {
+          "name": "LowerPod_001",
+          "excess_pixels": 1008
+        },
+        {
+          "name": "NozzlePetal3",
+          "excess_pixels": 996
+        },
+        {
+          "name": "NozzlePetal1",
+          "excess_pixels": 976
+        },
+        {
+          "name": "LowerPod_1",
+          "excess_pixels": 934
+        },
+        {
+          "name": "ClosedBellyPan",
+          "excess_pixels": 926
+        },
+        {
+          "name": "RoofAccessPanel",
+          "excess_pixels": 841
+        },
+        {
+          "name": "WingSpineLeft",
+          "excess_pixels": 841
+        },
+        {
+          "name": "BassVisualCone",
+          "excess_pixels": 825
+        },
+        {
+          "name": "SpeakerHubNeckLeft",
+          "excess_pixels": 763
+        },
+        {
+          "name": "BassNozzleShell",
+          "excess_pixels": 752
+        },
+        {
+          "name": "WingSpineRight",
+          "excess_pixels": 688
+        },
+        {
+          "name": "NozzlePetal9",
+          "excess_pixels": 685
+        }
+      ],
+      "large_missing_regions": [
+        {
+          "pixels": 2113,
+          "bbox_xyxy": [
+            754,
+            6,
+            788,
+            384
+          ]
+        },
+        {
+          "pixels": 1819,
+          "bbox_xyxy": [
+            162,
+            6,
+            188,
+            377
+          ]
+        },
+        {
+          "pixels": 999,
+          "bbox_xyxy": [
+            719,
+            195,
+            742,
+            368
+          ]
+        },
+        {
+          "pixels": 931,
+          "bbox_xyxy": [
+            640,
+            176,
+            693,
+            241
+          ]
+        },
+        {
+          "pixels": 817,
+          "bbox_xyxy": [
+            205,
+            223,
+            221,
+            371
+          ]
+        },
+        {
+          "pixels": 681,
+          "bbox_xyxy": [
+            544,
+            664,
+            593,
+            724
+          ]
+        },
+        {
+          "pixels": 622,
+          "bbox_xyxy": [
+            249,
+            176,
+            318,
+            227
+          ]
+        },
+        {
+          "pixels": 518,
+          "bbox_xyxy": [
+            476,
+            177,
+            601,
+            201
+          ]
+        },
+        {
+          "pixels": 492,
+          "bbox_xyxy": [
+            562,
+            628,
+            595,
+            686
+          ]
+        },
+        {
+          "pixels": 434,
+          "bbox_xyxy": [
+            356,
+            178,
+            470,
+            201
+          ]
+        },
+        {
+          "pixels": 425,
+          "bbox_xyxy": [
+            394,
+            647,
+            414,
+            709
+          ]
+        },
+        {
+          "pixels": 371,
+          "bbox_xyxy": [
+            477,
+            1,
+            482,
+            104
+          ]
+        },
+        {
+          "pixels": 308,
+          "bbox_xyxy": [
+            347,
+            629,
+            379,
+            671
+          ]
+        },
+        {
+          "pixels": 300,
+          "bbox_xyxy": [
+            653,
+            104,
+            703,
+            113
+          ]
+        }
+      ]
+    },
+    {
+      "view": "video-05",
+      "excess_pixels": 58484,
+      "missing_pixels": 8247,
+      "attributed_excess_pixels": 58405,
+      "id_mask_disagreement_pixels": 163,
+      "top_excess_objects": [
+        {
+          "name": "SideSocketBaseRight",
+          "excess_pixels": 2580
+        },
+        {
+          "name": "SpeakerHubNeckRight",
+          "excess_pixels": 2096
+        },
+        {
+          "name": "ClosedBellyPan",
+          "excess_pixels": 1791
+        },
+        {
+          "name": "UnderbodyLoop1",
+          "excess_pixels": 1763
+        },
+        {
+          "name": "MainEnclosureShell",
+          "excess_pixels": 1666
+        },
+        {
+          "name": "FrontCheekBridgeRight",
+          "excess_pixels": 1649
+        },
+        {
+          "name": "RoofRaisedRib1",
+          "excess_pixels": 1611
+        },
+        {
+          "name": "PerforatedSpeakerFlangeRight",
+          "excess_pixels": 1552
+        },
+        {
+          "name": "SideGuardRight",
+          "excess_pixels": 1476
+        },
+        {
+          "name": "SideCableLeft",
+          "excess_pixels": 1419
+        },
+        {
+          "name": "HandleArmLeft",
+          "excess_pixels": 1395
+        },
+        {
+          "name": "SpeakerOuterLipRight",
+          "excess_pixels": 1285
+        },
+        {
+          "name": "FrontCheekRight",
+          "excess_pixels": 1273
+        },
+        {
+          "name": "LowerPod_001",
+          "excess_pixels": 1097
+        },
+        {
+          "name": "WingInnerPaintLeft",
+          "excess_pixels": 1071
+        },
+        {
+          "name": "SideStatusPlateRight",
+          "excess_pixels": 1066
+        },
+        {
+          "name": "RearBeaconBase_001",
+          "excess_pixels": 1035
+        },
+        {
+          "name": "RearCoolingCore",
+          "excess_pixels": 970
+        },
+        {
+          "name": "UnderbodyLoop0",
+          "excess_pixels": 927
+        },
+        {
+          "name": "RearRecessLiner",
+          "excess_pixels": 867
+        }
+      ],
+      "large_missing_regions": [
+        {
+          "pixels": 1097,
+          "bbox_xyxy": [
+            840,
+            16,
+            862,
+            141
+          ]
+        },
+        {
+          "pixels": 619,
+          "bbox_xyxy": [
+            764,
+            250,
+            798,
+            296
+          ]
+        },
+        {
+          "pixels": 568,
+          "bbox_xyxy": [
+            342,
+            1,
+            405,
+            101
+          ]
+        },
+        {
+          "pixels": 522,
+          "bbox_xyxy": [
+            392,
+            189,
+            564,
+            196
+          ]
+        },
+        {
+          "pixels": 479,
+          "bbox_xyxy": [
+            496,
+            656,
+            544,
+            713
+          ]
+        },
+        {
+          "pixels": 472,
+          "bbox_xyxy": [
+            391,
+            660,
+            407,
+            722
+          ]
+        },
+        {
+          "pixels": 404,
+          "bbox_xyxy": [
+            610,
+            1,
+            654,
+            104
+          ]
+        },
+        {
+          "pixels": 301,
+          "bbox_xyxy": [
+            294,
+            646,
+            324,
+            683
+          ]
+        },
+        {
+          "pixels": 285,
+          "bbox_xyxy": [
+            603,
+            175,
+            626,
+            203
+          ]
+        },
+        {
+          "pixels": 264,
+          "bbox_xyxy": [
+            651,
+            602,
+            683,
+            639
+          ]
+        }
+      ]
+    },
+    {
+      "view": "video-06",
+      "excess_pixels": 51746,
+      "missing_pixels": 7181,
+      "attributed_excess_pixels": 51670,
+      "id_mask_disagreement_pixels": 150,
+      "top_excess_objects": [
+        {
+          "name": "MainEnclosureShell",
+          "excess_pixels": 3335
+        },
+        {
+          "name": "SpeakerOuterLipRight",
+          "excess_pixels": 2942
+        },
+        {
+          "name": "SideStatusPlateRight",
+          "excess_pixels": 2935
+        },
+        {
+          "name": "SpeakerVisualConeRight",
+          "excess_pixels": 2420
+        },
+        {
+          "name": "UnderbodyLoop1",
+          "excess_pixels": 1976
+        },
+        {
+          "name": "PerforatedSpeakerFlangeRight",
+          "excess_pixels": 1863
+        },
+        {
+          "name": "RoofSideClosure_001",
+          "excess_pixels": 1792
+        },
+        {
+          "name": "FrontCheekRight",
+          "excess_pixels": 1687
+        },
+        {
+          "name": "FrontCheekBridgeRight",
+          "excess_pixels": 1502
+        },
+        {
+          "name": "RearBeaconBase_001",
+          "excess_pixels": 1457
+        },
+        {
+          "name": "VentBackingRight",
+          "excess_pixels": 1256
+        },
+        {
+          "name": "SideSocketBaseRight",
+          "excess_pixels": 1199
+        },
+        {
+          "name": "ProjectingBrow",
+          "excess_pixels": 1155
+        },
+        {
+          "name": "ControlRail",
+          "excess_pixels": 1042
+        },
+        {
+          "name": "SideSocketRecessRight",
+          "excess_pixels": 963
+        },
+        {
+          "name": "SideGuardRight",
+          "excess_pixels": 927
+        },
+        {
+          "name": "BottomChassis",
+          "excess_pixels": 912
+        },
+        {
+          "name": "LowerPod_001",
+          "excess_pixels": 870
+        },
+        {
+          "name": "WingInnerPaintLeft",
+          "excess_pixels": 836
+        },
+        {
+          "name": "SlopedUpperArmour",
+          "excess_pixels": 788
+        }
+      ],
+      "large_missing_regions": [
+        {
+          "pixels": 885,
+          "bbox_xyxy": [
+            696,
+            1,
+            751,
+            99
+          ]
+        },
+        {
+          "pixels": 852,
+          "bbox_xyxy": [
+            712,
+            225,
+            767,
+            278
+          ]
+        },
+        {
+          "pixels": 619,
+          "bbox_xyxy": [
+            716,
+            429,
+            738,
+            503
+          ]
+        },
+        {
+          "pixels": 438,
+          "bbox_xyxy": [
+            670,
+            593,
+            702,
+            621
+          ]
+        },
+        {
+          "pixels": 431,
+          "bbox_xyxy": [
+            415,
+            689,
+            484,
+            736
+          ]
+        },
+        {
+          "pixels": 405,
+          "bbox_xyxy": [
+            598,
+            638,
+            634,
+            661
+          ]
+        },
+        {
+          "pixels": 305,
+          "bbox_xyxy": [
+            701,
+            577,
+            727,
+            600
+          ]
+        },
+        {
+          "pixels": 299,
+          "bbox_xyxy": [
+            674,
+            50,
+            696,
+            118
+          ]
+        },
+        {
+          "pixels": 289,
+          "bbox_xyxy": [
+            772,
+            30,
+            787,
+            126
+          ]
+        },
+        {
+          "pixels": 276,
+          "bbox_xyxy": [
+            349,
+            130,
+            425,
+            201
+          ]
+        }
+      ]
+    },
+    {
+      "view": "video-07",
+      "excess_pixels": 33651,
+      "missing_pixels": 6673,
+      "attributed_excess_pixels": 33588,
+      "id_mask_disagreement_pixels": 117,
+      "top_excess_objects": [
+        {
+          "name": "SpeakerVisualConeRight",
+          "excess_pixels": 3117
+        },
+        {
+          "name": "SpeakerOuterLipRight",
+          "excess_pixels": 2002
+        },
+        {
+          "name": "MainEnclosureShell",
+          "excess_pixels": 1919
+        },
+        {
+          "name": "FrontCheekRight",
+          "excess_pixels": 1800
+        },
+        {
+          "name": "ProjectingBrow",
+          "excess_pixels": 1743
+        },
+        {
+          "name": "BrowUnderside",
+          "excess_pixels": 1617
+        },
+        {
+          "name": "LowerPodDiaphragm_001",
+          "excess_pixels": 1377
+        },
+        {
+          "name": "VentBackingRight",
+          "excess_pixels": 1295
+        },
+        {
+          "name": "HandleInsetRight",
+          "excess_pixels": 1020
+        },
+        {
+          "name": "BottomChassis",
+          "excess_pixels": 865
+        },
+        {
+          "name": "Antenna",
+          "excess_pixels": 809
+        },
+        {
+          "name": "UnderbodyLoop1",
+          "excess_pixels": 698
+        },
+        {
+          "name": "WingPaintRight",
+          "excess_pixels": 678
+        },
+        {
+          "name": "WingRaisedFaceRight",
+          "excess_pixels": 654
+        },
+        {
+          "name": "CheekUtilityLabelRight",
+          "excess_pixels": 559
+        },
+        {
+          "name": "SpeakerSurroundRight",
+          "excess_pixels": 543
+        },
+        {
+          "name": "ScreenBezel",
+          "excess_pixels": 531
+        },
+        {
+          "name": "SpeakerHubNeckRight",
+          "excess_pixels": 519
+        },
+        {
+          "name": "SideFrontSpineRight",
+          "excess_pixels": 508
+        },
+        {
+          "name": "SpeakerBarrelRight",
+          "excess_pixels": 492
+        }
+      ],
+      "large_missing_regions": [
+        {
+          "pixels": 1246,
+          "bbox_xyxy": [
+            661,
+            1,
+            729,
+            148
+          ]
+        },
+        {
+          "pixels": 963,
+          "bbox_xyxy": [
+            761,
+            240,
+            798,
+            297
+          ]
+        },
+        {
+          "pixels": 960,
+          "bbox_xyxy": [
+            820,
+            10,
+            843,
+            140
+          ]
+        },
+        {
+          "pixels": 676,
+          "bbox_xyxy": [
+            738,
+            286,
+            762,
+            474
+          ]
+        },
+        {
+          "pixels": 420,
+          "bbox_xyxy": [
+            659,
+            584,
+            699,
+            614
+          ]
+        },
+        {
+          "pixels": 332,
+          "bbox_xyxy": [
+            344,
+            124,
+            428,
+            202
+          ]
+        },
+        {
+          "pixels": 329,
+          "bbox_xyxy": [
+            445,
+            681,
+            483,
+            752
+          ]
+        }
+      ]
+    },
+    {
+      "view": "video-08",
+      "excess_pixels": 35668,
+      "missing_pixels": 5716,
+      "attributed_excess_pixels": 35604,
+      "id_mask_disagreement_pixels": 108,
+      "top_excess_objects": [
+        {
+          "name": "ScreenBezel",
+          "excess_pixels": 4479
+        },
+        {
+          "name": "BrowUnderside",
+          "excess_pixels": 3092
+        },
+        {
+          "name": "SpeakerHubNeckRight",
+          "excess_pixels": 2188
+        },
+        {
+          "name": "ProjectingBrow",
+          "excess_pixels": 1753
+        },
+        {
+          "name": "FrontCheekRight",
+          "excess_pixels": 1499
+        },
+        {
+          "name": "HandleInsetRight",
+          "excess_pixels": 1194
+        },
+        {
+          "name": "ScreenCurvedCover",
+          "excess_pixels": 1129
+        },
+        {
+          "name": "SideGuardRight",
+          "excess_pixels": 1094
+        },
+        {
+          "name": "SpeakerVisualConeRight",
+          "excess_pixels": 1028
+        },
+        {
+          "name": "SpeakerOuterLipRight",
+          "excess_pixels": 1025
+        },
+        {
+          "name": "LowerPod_001",
+          "excess_pixels": 899
+        },
+        {
+          "name": "MainEnclosureShell",
+          "excess_pixels": 877
+        },
+        {
+          "name": "BezelLip",
+          "excess_pixels": 849
+        },
+        {
+          "name": "RoofSideClosure_001",
+          "excess_pixels": 799
+        },
+        {
+          "name": "TopInstrumentPanel",
+          "excess_pixels": 617
+        },
+        {
+          "name": "InstrumentRim",
+          "excess_pixels": 584
+        },
+        {
+          "name": "GripBand0",
+          "excess_pixels": 575
+        },
+        {
+          "name": "RearArmourCheekRight",
+          "excess_pixels": 553
+        },
+        {
+          "name": "PerforatedSpeakerFlangeRight",
+          "excess_pixels": 539
+        },
+        {
+          "name": "ControlInset",
+          "excess_pixels": 532
+        }
+      ],
+      "large_missing_regions": [
+        {
+          "pixels": 1203,
+          "bbox_xyxy": [
+            816,
+            20,
+            840,
+            173
+          ]
+        },
+        {
+          "pixels": 923,
+          "bbox_xyxy": [
+            579,
+            176,
+            656,
+            208
+          ]
+        },
+        {
+          "pixels": 819,
+          "bbox_xyxy": [
+            394,
+            187,
+            576,
+            195
+          ]
+        },
+        {
+          "pixels": 769,
+          "bbox_xyxy": [
+            585,
+            6,
+            618,
+            104
+          ]
+        },
+        {
+          "pixels": 543,
+          "bbox_xyxy": [
+            700,
+            209,
+            741,
+            230
+          ]
+        },
+        {
+          "pixels": 365,
+          "bbox_xyxy": [
+            366,
+            30,
+            414,
+            99
+          ]
+        }
+      ]
+    },
+    {
+      "view": "video-09",
+      "excess_pixels": 32719,
+      "missing_pixels": 10140,
+      "attributed_excess_pixels": 32685,
+      "id_mask_disagreement_pixels": 113,
+      "top_excess_objects": [
+        {
+          "name": "ScreenBezel",
+          "excess_pixels": 10514
+        },
+        {
+          "name": "FrontCheekRight",
+          "excess_pixels": 3167
+        },
+        {
+          "name": "BrowUnderside",
+          "excess_pixels": 2795
+        },
+        {
+          "name": "FrontCheekLeft",
+          "excess_pixels": 2274
+        },
+        {
+          "name": "HandleGrip",
+          "excess_pixels": 1844
+        },
+        {
+          "name": "ControlKeyBed",
+          "excess_pixels": 1500
+        },
+        {
+          "name": "TopInstrumentPanel",
+          "excess_pixels": 964
+        },
+        {
+          "name": "SlopedUpperArmour",
+          "excess_pixels": 799
+        },
+        {
+          "name": "InstrumentRim",
+          "excess_pixels": 663
+        },
+        {
+          "name": "BezelLip",
+          "excess_pixels": 646
+        },
+        {
+          "name": "VentBackingRight",
+          "excess_pixels": 497
+        },
+        {
+          "name": "ControlInset",
+          "excess_pixels": 475
+        },
+        {
+          "name": "WingPaintLeft",
+          "excess_pixels": 331
+        },
+        {
+          "name": "ScreenCurvedCover",
+          "excess_pixels": 305
+        },
+        {
+          "name": "CheekKnobRight",
+          "excess_pixels": 291
+        },
+        {
+          "name": "ProjectingBrow",
+          "excess_pixels": 286
+        },
+        {
+          "name": "UtilityControlLeft",
+          "excess_pixels": 220
+        },
+        {
+          "name": "FrontCheekBridgeLeft",
+          "excess_pixels": 209
+        },
+        {
+          "name": "ControlRailLip",
+          "excess_pixels": 202
+        },
+        {
+          "name": "WingSpineRight",
+          "excess_pixels": 148
+        }
+      ],
+      "large_missing_regions": [
+        {
+          "pixels": 1741,
+          "bbox_xyxy": [
+            701,
+            27,
+            746,
+            283
+          ]
+        },
+        {
+          "pixels": 1161,
+          "bbox_xyxy": [
+            196,
+            26,
+            234,
+            269
+          ]
+        },
+        {
+          "pixels": 1101,
+          "bbox_xyxy": [
+            468,
+            175,
+            681,
+            236
+          ]
+        },
+        {
+          "pixels": 912,
+          "bbox_xyxy": [
+            270,
+            188,
+            465,
+            224
+          ]
+        },
+        {
+          "pixels": 847,
+          "bbox_xyxy": [
+            245,
+            172,
+            264,
+            257
+          ]
+        },
+        {
+          "pixels": 784,
+          "bbox_xyxy": [
+            150,
+            592,
+            196,
+            657
+          ]
+        },
+        {
+          "pixels": 578,
+          "bbox_xyxy": [
+            755,
+            287,
+            768,
+            424
+          ]
+        },
+        {
+          "pixels": 481,
+          "bbox_xyxy": [
+            674,
+            172,
+            689,
+            226
+          ]
+        },
+        {
+          "pixels": 457,
+          "bbox_xyxy": [
+            467,
+            1,
+            474,
+            104
+          ]
+        },
+        {
+          "pixels": 289,
+          "bbox_xyxy": [
+            250,
+            104,
+            297,
+            113
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "visibility attribution is not proof of geometric error",
+    "dark source materials/background ambiguity is unchanged",
+    "opaque ID pass can differ slightly from the presentation alpha",
+    "pixel totals count a component separately in each view"
+  ]
+}
