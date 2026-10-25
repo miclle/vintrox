@@ -1,0 +1,40 @@
+{
+  "baseline_fcstd_sha256": "715c5ada8002a3c7ceb4ae766edf8718e940825b9b9f37386dbc545fcb4b7b4a",
+  "candidate_fcstd_sha256": "8fc7fe8bb9b0135ef5962992fe78cad413a9127fae44ef53ce6fddb363b0ba35",
+  "formal_fcstd_sha256": "0df34a20c2cac4de03bd287734f7aac8da4bab2989dc4865920f1162b5ab9021",
+  "changed_objects": [
+    "ScreenBezel",
+    "BezelLip"
+  ],
+  "protected_objects": [
+    "SupportShaftFrontLeft",
+    "SupportShaftRearLeft",
+    "SupportShaftFrontRight",
+    "SupportShaftRearRight",
+    "SupportFootFrontLeft",
+    "SupportFootRearLeft",
+    "SupportFootFrontRight",
+    "SupportFootRearRight",
+    "ScreenPanel210x160x2",
+    "ActiveArea200x150"
+  ],
+  "protected_difference_mm3": {
+    "SupportShaftFrontLeft": 0.0,
+    "SupportShaftRearLeft": 0.0,
+    "SupportShaftFrontRight": 0.0,
+    "SupportShaftRearRight": 0.0,
+    "SupportFootFrontLeft": 0.0,
+    "SupportFootRearLeft": 0.0,
+    "SupportFootFrontRight": 0.0,
+    "SupportFootRearRight": 0.0,
+    "ScreenPanel210x160x2": 0.0,
+    "ActiveArea200x150": 0.0
+  },
+  "unchanged_object_differences": [],
+  "candidate_formal_difference_mm3": {
+    "ScreenBezel": 0.0,
+    "BezelLip": 0.0
+  },
+  "candidate_step_sha256": "49f1c5dd60a1df2fc3de5eb4fb28fa57cc4bcf9f148168b81453db00b43f2f59",
+  "passed": true
+}

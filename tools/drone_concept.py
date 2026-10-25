@@ -1392,10 +1392,13 @@ def build(root, frame_view=True):
     b.add('HoodEdge', edge, EDGE, 'Hull', 'metal')
     # Extend only the lower surround to the source lower edge; retain the
     # measured screen and the existing opening around its active area.
-    bezel=rounded_plate(216,170,11,(-108,-13,63),12).cut(
+    # The source front frame projects slightly wider and taller than the
+    # measured flat display; keep the 202 x 152 mm opening and screen input
+    # unchanged while matching the outer reference surround.
+    bezel=rounded_plate(220,172,11,(-110,-13,63),12).cut(
           rounded_plate(202,152,13,(-101,-14,74),8.5))
     b.add('ScreenBezel',bezel,DARK,'Face','rubber')
-    lip=rounded_frame(220,174,3,2,(-110,-15,61),13)
+    lip=rounded_frame(224,176,3,2,(-112,-15,61),13)
     lip=lip.makeFillet(.45,[e for e in lip.Edges if e.BoundBox.YLength<.01])
     b.add('BezelLip',lip,GOLD,'Face','metal')
     panel = doc.addObject('Part::Box', 'ScreenPanel210x160x2')
