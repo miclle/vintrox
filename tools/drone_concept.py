@@ -39,6 +39,7 @@ GREEN = (0.27, 0.67, 0.19)
 OLIVE = (0.36, 0.38, 0.25)
 NOZZLE_PETALS = 12  # Rear guide pitch and both oblique views; appearance inference.
 COOLING_FINS = 15  # Repeating 22–23 px bands in the fixed rear video view.
+UNDERBODY_LOOP_RADIUS = 3.5  # Fixed-video cable thickness fit; appearance only.
 
 CHINESE_LABELS = {
     'MainEnclosureShell': '主机连续外壳', 'SlopedUpperArmour': '顶部斜面外罩',
@@ -1883,7 +1884,7 @@ def build(root, frame_view=True):
         path=[(x,72.8,57),(x,72.79,43.28),(x,72.66,28.78),(x,79.02,14.23),
               (x,90.8,4.28),(x,105.26,4.96),(x,117.52,9.58),(x,124.96,19.42),
               (x,127.11,33.41),(x,126.62,47.15),(x,126.6,57)]
-        b.add(f'UnderbodyLoop{i}',tube(path,5),DARK,'Details','cable')
+        b.add(f'UnderbodyLoop{i}',tube(path,UNDERBODY_LOOP_RADIUS),DARK,'Details','cable')
     add_central_support(b)
     # Two recessed belly plates flank the shaft roots without obstructing them.
     for side in (-1,1):

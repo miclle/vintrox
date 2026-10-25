@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "scope": "v53 incremental underbody loop thickness delivery; saved static appearance evidence only",
+  "fcstd_sha256": "715c5ada8002a3c7ceb4ae766edf8718e940825b9b9f37386dbc545fcb4b7b4a",
+  "step_sha256": "9d1871a13ded28248fc45d12cdf025fadb0eafb6240231ca105db2f3efe55dd5",
+  "generator_sha256": "5c14ba676532c95fa81731be6daf1043f0983a4cea3b6737ae0e8e2177b3d443",
+  "visible_features": 696,
+  "step_solids": 805,
+  "changed_objects": [
+    "UnderbodyLoop0",
+    "UnderbodyLoop1"
+  ],
+  "protected_supports_unchanged": true,
+  "readback_verification": "readback-verification.json",
+  "formal_geometry_check": "comparison/underbody-loop-35-study/formal-geometry-check.json",
+  "render_manifest": "renders/render-manifest.json",
+  "video_comparison": "comparison/iteration-88/comparison-report.json",
+  "still_comparison": "comparison/stills-59/comparison-report.json",
+  "object_id_manifest": "comparison/object-ids-v54/object-id-manifest.json",
+  "mean_video_iou": 0.8509225998093729,
+  "mean_stills_iou": 0.8204265404563873,
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "physical_validation": false,
+  "limitations": [
+    "This incremental report does not replace the historical whole-repository review index; historical per-detail reports remain bound to earlier formal hashes.",
+    "Appearance scores are silhouette diagnostics and do not establish printability, assembly, electrical routing, acoustics or manufacturing acceptance."
+  ]
+}
