@@ -1,0 +1,48 @@
+{
+  "baseline_revision": "v54-screen-bezel-220x172",
+  "baseline_fcstd_sha256": "0df34a20c2cac4de03bd287734f7aac8da4bab2989dc4865920f1162b5ab9021",
+  "candidate": {
+    "name": "NozzlePetalInset radial scale 0.95",
+    "changed_objects": "NozzlePetalInset0..11",
+    "scale_local_radial": 0.95,
+    "fixed_objects": [
+      "NozzlePetal0..11",
+      "NozzlePetalRidge0..11",
+      "NozzlePetalGuide0..11",
+      "NozzlePetalHinge0..11",
+      "BassNozzleShell",
+      "SupportShaftFrontLeft",
+      "SupportShaftRearLeft",
+      "SupportShaftFrontRight",
+      "SupportShaftRearRight",
+      "ScreenPanel210x160x2",
+      "ActiveArea200x150"
+    ]
+  },
+  "checks": {
+    "all_candidate_parts_valid_closed_single_solid": true,
+    "protected_objects_unchanged": true,
+    "contact_threshold_mm": 0.01,
+    "max_inset_to_petal_gap_mm": 0.9995469292709722,
+    "per_index_gap_mm": [
+      0.8690168792441253,
+      0.9565391971040461,
+      0.9995469292709722,
+      0.9565391997254538,
+      0.8690168792423745,
+      0.7569417617840657,
+      0.651780141609155,
+      0.5845920981424908,
+      0.5713808527367088,
+      0.5845920979790565,
+      0.6517801415958718,
+      0.7569417617695823
+    ],
+    "overlap_mm3": 0.0
+  },
+  "status": "rejected",
+  "reason": "The scale candidate leaves a 0.57-1.00 mm radial gap from each main petal and fails the 0.01 mm contact gate. It was not merged into the formal model.",
+  "interpretation": "The dark recess remains an appearance layer and is not evidence for a continuous nozzle tube wall.",
+  "generated_at": "2026-10-25",
+  "physical_validation": false
+}
