@@ -140,18 +140,18 @@
   },
   "visible_features": 696,
   "bbox_mm": [
-    301.8556629797832,
-    351.8244508900196,
+    301.85566297978323,
+    351.82445089001965,
     485.09868316645463
   ],
   "bbox_min_mm": [
-    -159.18106287978702,
+    -159.18106287978705,
     -64.09243965371236,
     -100.0
   ],
   "bbox_max_mm": [
     142.67460009999616,
-    287.73201123630724,
+    287.7320112363073,
     385.09868316645463
   ],
   "fcstd_sha256": "e64613e11be81eb528a9d0863266a8ade031bf306e40eb9865d28601d57998eb",
@@ -4376,5 +4376,6 @@
     "object_count": 683,
     "fcstd_sha256": "e64613e11be81eb528a9d0863266a8ade031bf306e40eb9865d28601d57998eb",
     "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e"
-  }
+  },
+  "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation"
 }

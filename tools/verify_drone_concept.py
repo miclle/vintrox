@@ -26,10 +26,16 @@ def verify(root):
     if digest != manifest['fcstd_sha256']:
         errors.append('Saved FCStd hash differs from concept manifest')
     with ZipFile(cad) as archive:
-        gui = ElementTree.fromstring(archive.read('GuiDocument.xml'))
-        visible_names = {node.attrib['name'] for node in gui.findall('.//ViewProvider')
-                         if node.find('./Properties/Property[@name="Visibility"]/Bool') is not None
-                         and node.find('./Properties/Property[@name="Visibility"]/Bool').get('value') == 'true'}
+        gui_document_present = 'GuiDocument.xml' in archive.namelist()
+        if gui_document_present:
+            gui = ElementTree.fromstring(archive.read('GuiDocument.xml'))
+            visible_names = {node.attrib['name'] for node in gui.findall('.//ViewProvider')
+                             if node.find('./Properties/Property[@name="Visibility"]/Bool') is not None
+                             and node.find('./Properties/Property[@name="Visibility"]/Bool').get('value') == 'true'}
+        else:
+            # Headless FreeCAD saves contain Document.xml and persist the same
+            # ViewObject.Visibility values without the GUI-only resource.
+            visible_names = None
     doc = App.openDocument(str(cad))
     try:
         objects = [doc.getObject(entry['name']) for entry in manifest['features']]
@@ -37,7 +43,8 @@ def verify(root):
                    if obj is None or not obj.Shape.isValid() or not obj.Shape.Solids]
         if invalid:
             raise RuntimeError('Invalid saved features: '+str(invalid))
-        visible = [obj for obj in objects if obj.Name in visible_names]
+        visible = [obj for obj in objects if (obj.Name in visible_names if visible_names is not None
+                                              else getattr(obj, 'Visibility', False))]
         if len(visible) != manifest['visible_features']:
             errors.append('Saved GUI visibility count differs from manifest')
         groups = [o.Name for o in doc.Objects if o.TypeId == 'App::DocumentObjectGroup']
@@ -405,6 +412,7 @@ def verify(root):
                   'physical_validation': False, 'errors': errors,
                   'visible_features': len(visible), 'step_solids': len(shape.Solids),
                   'group_count': len(groups), 'non_chinese_labels': non_chinese,
+                  'gui_document_present': gui_document_present,
                   'chinese_named_objects': len(doc.Objects)-len(non_chinese),
                   'chinese_step_part_names': len(chinese_step_names),
                   'screen_panel_mm': screen_dims, 'active_area_mm': [200, 150],
