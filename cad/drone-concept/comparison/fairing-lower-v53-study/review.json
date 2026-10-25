@@ -1,0 +1,163 @@
+{
+  "formal_v53_fcstd_sha256": "aa3de1dc9dcea5a511dd01cfba77d394fdd4a178254d170eb1f1bc369c0389b4",
+  "trials": [
+    {
+      "name": "lower--2",
+      "lower_inset_mm": -2.0,
+      "candidate_fcstd_sha256": "8386c6c3a74f64e13a4735c9fe9235db8c63932fe11610dc80b753daf83af348",
+      "changed_objects": [
+        "BassNozzleShell",
+        "BassSideStripe0_0",
+        "BassSideStripe0_1",
+        "BassSideStripe0_2",
+        "BassSideStripe1_0",
+        "BassSideStripe1_1",
+        "BassSideStripe1_2",
+        "BassWarningPlaque",
+        "BassWarningRedBand",
+        "BassWarningTriangle",
+        "BassWarningTriangleInset"
+      ],
+      "comparisons": [
+        {
+          "group": "video",
+          "mean_percent": 85.02947485155713,
+          "delta_percentage_points": -0.0008390051289941525,
+          "view_deltas_percentage_points": {
+            "video-00": 0.0,
+            "video-01": 0.0,
+            "video-02": -0.0065839505843379165,
+            "video-03": 0.0,
+            "video-04": 0.0,
+            "video-05": 0.0,
+            "video-06": -0.0018061007056813239,
+            "video-07": 0.0,
+            "video-08": 0.0,
+            "video-09": 0.0
+          }
+        },
+        {
+          "group": "stills",
+          "mean_percent": 81.9977554901408,
+          "delta_percentage_points": -0.000536156638930585,
+          "view_deltas_percentage_points": {
+            "still-01": 0.0,
+            "still-02": 0.0,
+            "still-03": 0.0,
+            "still-04": 0.0,
+            "still-05": -0.0037530964726029126,
+            "still-06": 0.0,
+            "still-closeup": 0.0
+          }
+        }
+      ],
+      "adopted": false
+    },
+    {
+      "name": "lower-2b",
+      "lower_inset_mm": 2.0,
+      "candidate_fcstd_sha256": "436459cdf02bcbe064fab32d89bff2b4367ed11c6558a3179072910aa35b3cc9",
+      "changed_objects": [
+        "BassNozzleShell",
+        "BassSideStripe0_0",
+        "BassSideStripe0_1",
+        "BassSideStripe0_2",
+        "BassSideStripe1_0",
+        "BassSideStripe1_1",
+        "BassSideStripe1_2",
+        "BassWarningPlaque",
+        "BassWarningRedBand",
+        "BassWarningTriangle",
+        "BassWarningTriangleInset"
+      ],
+      "comparisons": [
+        {
+          "group": "video",
+          "mean_percent": 85.02973350029,
+          "delta_percentage_points": -0.0005803563961070957,
+          "view_deltas_percentage_points": {
+            "video-00": 0.0,
+            "video-01": 0.0,
+            "video-02": -0.006105111253196238,
+            "video-03": 0.0,
+            "video-04": 0.0,
+            "video-05": 0.0,
+            "video-06": 0.00030154729209197484,
+            "video-07": 0.0,
+            "video-08": 0.0,
+            "video-09": 0.0
+          }
+        },
+        {
+          "group": "stills",
+          "mean_percent": 81.99806994578536,
+          "delta_percentage_points": -0.0002217009943739079,
+          "view_deltas_percentage_points": {
+            "still-01": 0.0,
+            "still-02": 0.0,
+            "still-03": 0.0,
+            "still-04": 0.0,
+            "still-05": -0.0015519069606617641,
+            "still-06": 0.0,
+            "still-closeup": 0.0
+          }
+        }
+      ],
+      "adopted": false
+    },
+    {
+      "name": "lower-4b",
+      "lower_inset_mm": 4.0,
+      "candidate_fcstd_sha256": "d5d3fc803905722844feb1bddd2b309f9b45e008c2877b4d1aeb6d755f2c3e2b",
+      "changed_objects": [
+        "BassNozzleShell",
+        "BassSideStripe0_0",
+        "BassSideStripe0_1",
+        "BassSideStripe0_2",
+        "BassSideStripe1_0",
+        "BassSideStripe1_1",
+        "BassSideStripe1_2",
+        "BassWarningPlaque",
+        "BassWarningRedBand",
+        "BassWarningTriangle",
+        "BassWarningTriangleInset"
+      ],
+      "comparisons": [
+        {
+          "group": "video",
+          "mean_percent": 85.02948899383466,
+          "delta_percentage_points": -0.0008248628514451184,
+          "view_deltas_percentage_points": {
+            "video-00": 0.0,
+            "video-01": 0.0,
+            "video-02": -0.00797663690002004,
+            "video-03": 0.0,
+            "video-04": 0.0,
+            "video-05": 0.0,
+            "video-06": -0.000271991614475553,
+            "video-07": 0.0,
+            "video-08": 0.0,
+            "video-09": 0.0
+          }
+        },
+        {
+          "group": "stills",
+          "mean_percent": 81.99797583490447,
+          "delta_percentage_points": -0.00031581187526219523,
+          "view_deltas_percentage_points": {
+            "still-01": 0.0,
+            "still-02": 0.0,
+            "still-03": 0.0,
+            "still-04": 0.0,
+            "still-05": -0.00221068312690198,
+            "still-06": 0.0,
+            "still-closeup": 0.0
+          }
+        }
+      ],
+      "adopted": false
+    }
+  ],
+  "decision": "All lower station variants regressed at least one rear video view; retain v53 lower inset 0.",
+  "visual_target_met": false
+}

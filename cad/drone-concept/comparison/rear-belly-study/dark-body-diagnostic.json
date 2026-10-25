@@ -1,0 +1,61 @@
+{
+  "purpose": "visual shadow/material diagnosis; not scoring evidence",
+  "display_transform": "uint8((RGB/255)**0.4*255) applied identically; original pixels shown alongside",
+  "baseline_fcstd_sha256": "73e6670b87a9ba0c572181d64a359e6706133d9186e6edcf1cf6436c7c072b07",
+  "sources": [
+    {
+      "view": 2,
+      "crop": [
+        465,
+        590,
+        795,
+        785
+      ],
+      "reference": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/iteration-86/reference-frames/frame-03.png",
+      "reference_sha256": "465dccf34ad81f07df9a1e4f0d48fbe1b55ec606a538f01dcf4da7f21c31004b",
+      "cad": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/iteration-86-renders/video-02.png",
+      "cad_sha256": "151f104e6a2e56d2aefe0f5e25b282009f6db1a2c42be7bf9018b90f2b7a6091"
+    },
+    {
+      "view": 3,
+      "crop": [
+        405,
+        570,
+        735,
+        765
+      ],
+      "reference": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/iteration-86/reference-frames/frame-04.png",
+      "reference_sha256": "0d8806db3363c684e6e42e641883d59705af1a938511637a2cbb9c88a116a82f",
+      "cad": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/iteration-86-renders/video-03.png",
+      "cad_sha256": "5f18cd0ff3e941503da45c044a5712c1a9dd68319794addf00ffae94a5492d47"
+    },
+    {
+      "view": 5,
+      "crop": [
+        215,
+        570,
+        545,
+        765
+      ],
+      "reference": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/iteration-86/reference-frames/frame-06.png",
+      "reference_sha256": "6163748cf00f271a738409696656ddd46ca93481e0bfab683b656e6e8a38a204",
+      "cad": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/iteration-86-renders/video-05.png",
+      "cad_sha256": "eeefbffa28168b9969beb789d6befc5fcfc755f0327b48823b5b9454aea0f8f2"
+    },
+    {
+      "view": 6,
+      "crop": [
+        145,
+        590,
+        475,
+        785
+      ],
+      "reference": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/iteration-86/reference-frames/frame-07.png",
+      "reference_sha256": "ed7cdc03298e1c8106e1213c9b147088086735663711979ebff9799bbbb2f920",
+      "cad": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/iteration-86-renders/video-06.png",
+      "cad_sha256": "5fa3f60e73a01c78978e0b4b5494920845dae463c1d68704bfca5c04842eeb4b"
+    }
+  ],
+  "script_sha256": "fc72c8df6a512f5688934e45ccd215db64d2be096cd41e28a68e5648bc013499",
+  "image_sha256": "12447fab62d9919bb0eacb0718866ca1dfa67ada072824dc64a4b1a7fb526c7b"
+}

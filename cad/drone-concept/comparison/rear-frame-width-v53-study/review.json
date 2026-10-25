@@ -1,0 +1,85 @@
+{
+  "formal_v53_fcstd_sha256": "aa3de1dc9dcea5a511dd01cfba77d394fdd4a178254d170eb1f1bc369c0389b4",
+  "trials": [
+    {
+      "name": "w172",
+      "width_mm": 172.0,
+      "candidate_fcstd_sha256": "5ba6f4be6dd9a61d05cbacb76e845d87ecc15bbab191fcef6da1e8f795bdb227",
+      "comparisons": [
+        {
+          "group": "video",
+          "mean_percent": 85.02863143224909,
+          "delta_percentage_points": -0.0016824244370217123,
+          "view_deltas_percentage_points": {
+            "video-00": 0.0,
+            "video-01": -0.0069824795622785985,
+            "video-02": -0.0022935291019154924,
+            "video-03": 0.0,
+            "video-04": 0.0,
+            "video-05": 0.0,
+            "video-06": -0.0016314760618252322,
+            "video-07": -0.005916759644319924,
+            "video-08": 0.0,
+            "video-09": 0.0
+          }
+        },
+        {
+          "group": "stills",
+          "mean_percent": 81.99837269364086,
+          "delta_percentage_points": 8.104686113341586e-05,
+          "view_deltas_percentage_points": {
+            "still-01": 0.0,
+            "still-02": 0.0,
+            "still-03": 0.0,
+            "still-04": 0.0,
+            "still-05": 0.000567328027789582,
+            "still-06": 0.0,
+            "still-closeup": 0.0
+          }
+        }
+      ],
+      "adopted": false
+    },
+    {
+      "name": "w184",
+      "width_mm": 184.0,
+      "candidate_fcstd_sha256": "bcc4334a27b5b14073626a3c1c69c2b689da1efc27f2eca7c6b2ca8ef7e4ad3e",
+      "comparisons": [
+        {
+          "group": "video",
+          "mean_percent": 85.0267825537705,
+          "delta_percentage_points": -0.0035313029156047726,
+          "view_deltas_percentage_points": {
+            "video-00": 0.0,
+            "video-01": -0.06566672806920248,
+            "video-02": -0.03374327490240914,
+            "video-03": 0.0,
+            "video-04": 0.0,
+            "video-05": 0.0,
+            "video-06": -0.008833775013494805,
+            "video-07": 0.07293074882877004,
+            "video-08": 0.0,
+            "video-09": 0.0
+          }
+        },
+        {
+          "group": "stills",
+          "mean_percent": 81.99656318549414,
+          "delta_percentage_points": -0.0017284612855883452,
+          "view_deltas_percentage_points": {
+            "still-01": 0.0,
+            "still-02": 0.0,
+            "still-03": 0.0,
+            "still-04": 0.0,
+            "still-05": -0.012099228999240541,
+            "still-06": 0.0,
+            "still-closeup": 0.0
+          }
+        }
+      ],
+      "adopted": false
+    }
+  ],
+  "decision": "Both width changes regress the video orbit; retain the 178mm v53 frame.",
+  "visual_target_met": false
+}
