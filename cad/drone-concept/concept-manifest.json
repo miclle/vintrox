@@ -1,5 +1,5 @@
 {
-  "revision": "v56-nozzle-radial-contract",
+  "revision": "v57-nozzle-shell-shadow-contract",
   "belly_relief": {
     "outer_floor_z_mm": 52.5,
     "central_strip_width_mm": 64,
@@ -35,7 +35,8 @@
     4.4,
     18.1
   ],
-  "nozzle_radial_scale": 0.95,
+  "nozzle_radial_scale": 0.9,
+  "nozzle_shell_radial_scale": 0.96,
   "rear_lower_edge_rise_mm": 6,
   "nozzle_lip_parameters_mm": {
     "gold_major_radius": 54.019312188677304,
@@ -110,16 +111,16 @@
     "back_y_mm": 223,
     "lip_y_mm": 247,
     "light_front_y_mm": 241.2,
-    "basis": "appearance assumption; shadow is not a nozzle boundary"
+    "basis": "appearance assumption; recessed housing shadow is not a continuous nozzle wall"
   },
   "bass_warning_label_local_mm": [
     13.8986353827754,
-    -62.12597860298464,
+    -60.464752088625595,
     76.68872555473642
   ],
   "bass_alert_local_mm": [
     2.154186561239941,
-    -70.03422595484321,
+    -68.16068134061956,
     55.93342740869312
   ],
   "bass_warning_text_size_mm": 6.2,
@@ -155,7 +156,7 @@
     287.619455769915,
     385.09868316645463
   ],
-  "fcstd_sha256": "d98aa0207c5808585b42ed53fee95bcb5486438582275a7a6183c3912e5c5977",
+  "fcstd_sha256": "f756d4d000ed875ff4927ca828420e567eac037074f55e30e32b018680d337cd",
   "features": [
     {
       "name": "MainEnclosureShell",
