@@ -40,7 +40,8 @@ OLIVE = (0.36, 0.38, 0.25)
 NOZZLE_PETALS = 12  # Rear guide pitch and both oblique views; appearance inference.
 COOLING_FINS = 15  # Repeating 22–23 px bands in the fixed rear video view.
 UNDERBODY_LOOP_RADIUS = 3.5  # Fixed-video cable thickness fit; appearance only.
-NOZZLE_RADIAL_SCALE = 0.95  # Rear fixed-view fit; local X/Y only, appearance only.
+NOZZLE_RADIAL_SCALE = 0.90  # Rear fixed-view fit; local X/Y only, appearance only.
+NOZZLE_SHELL_RADIAL_SCALE = 0.96  # Recessed housing fit; kept wider than the nozzle interior.
 
 CHINESE_LABELS = {
     'MainEnclosureShell': '主机连续外壳', 'SlopedUpperArmour': '顶部斜面外罩',
@@ -1843,7 +1844,11 @@ def build(root, frame_view=True):
         shape.Placement = App.Placement(origin, rot).multiply(shape.Placement)
         return shape
     fairing=nozzle_fairing_parts()
-    b.add('BassNozzleShell',place(fairing['BassNozzleShell'].copy()),(.52,.37,.21),'Rear')
+    # The dark band around the nozzle is a recessed housing shadow.  Contract
+    # the actual fairing separately so it does not become a continuous tube
+    # wall around the nozzle mouth.
+    b.add('BassNozzleShell',place(contract_nozzle_radial(
+        fairing['BassNozzleShell'].copy(), NOZZLE_SHELL_RADIAL_SCALE)),(.52,.37,.21),'Rear')
     b.add('BassNozzleRearCollar', place(ring(55, 45, 8, (0, 0, -3))), METAL, 'Rear', 'metal')
     b.add('BassChamberBackplate', place(cylinder(45, 4, (0, 0, 5))), DARK, 'Rear', 'metal')
     lip=nozzle_lip_parts()
@@ -1878,7 +1883,8 @@ def build(root, frame_view=True):
     for name,shape in fairing.items():
         if name=='BassNozzleShell':continue
         color=RED if name in ('BassWarningRedBand','BassWarningTriangleInset') else WHITE
-        b.add(name,place(shape.copy()),color,'Details')
+        b.add(name,place(contract_nozzle_radial(
+            shape.copy(), NOZZLE_SHELL_RADIAL_SCALE)),color,'Details')
     for i in range(8):
         a = i*math.tau/8
         bolt = cylinder(2.3, 2, (50*math.cos(a), 50*math.sin(a), 3))
@@ -2008,7 +2014,7 @@ def save_outputs(doc, items, out):
         local_patches[name]=local
     label_metadata=warning_label_positions(local_patches)
     manifest = {
-        'revision': 'v56-nozzle-radial-contract',
+        'revision': 'v57-nozzle-shell-shadow-contract',
         'belly_relief': {'outer_floor_z_mm':52.5,'central_strip_width_mm':64,'outer_flat_start_x_mm':62,'basis':'appearance-derived closed lower shell; support geometry retained, no load validation'},
         'nozzle_marking_spec': MARKING_SPEC,
         'rear_shoulder_section_exponent': 1.5,
@@ -2017,6 +2023,7 @@ def save_outputs(doc, items, out):
         'petal_recess_corner_radius_mm': 1.0,
         'petal_inset_window_degrees': [4.4, 18.1],
         'nozzle_radial_scale': NOZZLE_RADIAL_SCALE,
+        'nozzle_shell_radial_scale': NOZZLE_SHELL_RADIAL_SCALE,
         'rear_lower_edge_rise_mm': 6,
         'nozzle_lip_parameters_mm': {'gold_major_radius':52.82+ROOT_DELTA[1],'gold_minor_radius':1.0,'gold_station':95.6+ROOT_DELTA[0],'metal_major_radius':52.3215+ROOT_DELTA[1],'metal_minor_radius':1.0,'metal_station':96.8067+ROOT_DELTA[0],'gasket_outer_radius':52.5+ROOT_DELTA[1]},
         'nozzle_root_profile': {'local_delta_z_radius_y_tilt':list(ROOT_DELTA),'guide_span_degrees':5.4,'terminal_circle_preserved':True,'basis':'five fixed video views; manual root centreline observations'},
@@ -2035,7 +2042,7 @@ def save_outputs(doc, items, out):
         'nozzle_petals': NOZZLE_PETALS,
         'rear_cavity': {'aperture_mm': [138,116], 'back_y_mm':223,
                         'lip_y_mm':247, 'light_front_y_mm':241.2,
-                        'basis':'appearance assumption; shadow is not a nozzle boundary'},
+                        'basis':'appearance assumption; recessed housing shadow is not a continuous nozzle wall'},
         **label_metadata,
         'woofer_reservation_mm': {'diameter': 88, 'depth': 40, 'basis': 'unselected placeholder'},
         'support': {'shafts': 4, 'shaft_diameter_mm': 6, 'ground_z_mm': -100,
