@@ -1,6 +1,12 @@
 # Drone 参考叠加与迭代
 
-2026-10-25，按用户要求恢复侧后方优化，当前为 v55 喷口叶片凹槽窗口修订。用户要求除四根新增支柱外尽可能完整还原参考，使用真实模型截图与原图重叠比较，并利用 `video-cam.mp4` 检查整圈。目标是主要部件轮廓误差尽量控制在正面屏幕投影宽度的 5% 内，争取十方位平均轮廓 IoU 达到 90%。这是执行目标，尚未达到，不能把轮廓分数解释成细节还原率。
+2026-10-25，按用户要求恢复侧后方优化，当前为 v56 喷口径向收窄修订。用户要求除四根新增支柱外尽可能完整还原参考，使用真实模型截图与原图重叠比较，并利用 `video-cam.mp4` 检查整圈。目标是主要部件轮廓误差尽量控制在正面屏幕投影宽度的 5% 内，争取十方位平均轮廓 IoU 达到 90%。这是执行目标，尚未达到，不能把轮廓分数解释成细节还原率。
+
+## v56 喷口径向收窄
+
+本轮在喷口局部坐标中收窄叶片、凹槽细节、锥盆和深色内衬，主叶片根部保留 94–102mm 原始搭接带；后壳、凹舱和四支柱不变。视频十方位平均 IoU 为 **85.29995841%**，静态七图为 **82.13591344%**。后方 `video-03`～`video-06` 均有改善。比较未使用图像变形、拉伸或逐零件对齐。
+
+[v56 十方位叠加板](../cad/drone-concept/comparison/iteration-91/comparison-board.png) · [v56 七图叠加板](../cad/drone-concept/comparison/stills-62/comparison-board.png) · [v56 零件归属图](../cad/drone-concept/comparison/object-ids-v57/contour-attribution.json) · [v56 研究记录](../cad/drone-concept/comparison/v56-nozzle-radial-study/README.md) · [v56 交付检查](../cad/drone-concept/delivery-verification-v56-nozzle-radial-contract.json)
 
 ## 当前阶段结果
 

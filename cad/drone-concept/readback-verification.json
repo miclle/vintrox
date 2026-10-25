@@ -4,7 +4,7 @@
   "physical_validation": false,
   "errors": [],
   "visible_features": 696,
-  "step_solids": 805,
+  "step_solids": 817,
   "group_count": 0,
   "non_chinese_labels": [],
   "gui_document_present": false,
@@ -187,11 +187,11 @@
       "detail_gaps_mm": [
         0.0,
         0.0,
-        7.105427357601002e-15,
+        0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 15.141403286181594
+      "root_roll_overlap_mm3": 6.554716587305467
     },
     {
       "petal": 1,
@@ -202,40 +202,40 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 14.56634204290036
+      "root_roll_overlap_mm3": 4.074834456074358
     },
     {
       "petal": 2,
       "detail_gaps_mm": [
-        4.440892098500626e-16,
-        1.4210854715202004e-14,
-        8.881784197001252e-16,
+        0.0,
+        0.0,
+        0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 14.349627620787771
+      "root_roll_overlap_mm3": 3.266690604423773
     },
     {
       "petal": 3,
       "detail_gaps_mm": [
         0.0,
-        7.944109290391274e-15,
+        8.881784197001252e-15,
+        1.7763568394002505e-15,
         0.0,
-        0.0,
-        3.552713678800501e-15
+        0.0
       ],
-      "root_roll_overlap_mm3": 14.56635331234838
+      "root_roll_overlap_mm3": 4.074847064364735
     },
     {
       "petal": 4,
       "detail_gaps_mm": [
         0.0,
-        0.0,
+        7.105427357601002e-15,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 15.141412308491796
+      "root_roll_overlap_mm3": 6.5547262636825305
     },
     {
       "petal": 5,
@@ -246,73 +246,73 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 15.88508679571586
+      "root_roll_overlap_mm3": 10.41679842368293
     },
     {
       "petal": 6,
       "detail_gaps_mm": [
         0.0,
-        7.105427357601002e-15,
+        0.0,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 16.579259757954908
+      "root_roll_overlap_mm3": 14.590750827601157
     },
     {
       "petal": 7,
       "detail_gaps_mm": [
         0.0,
-        1.4210854715202004e-14,
-        7.105427357601002e-15,
+        0.0,
+        0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.05608090503052
+      "root_roll_overlap_mm3": 17.042195872533174
     },
     {
       "petal": 8,
       "detail_gaps_mm": [
         0.0,
-        0.0,
+        1.4210854715202004e-14,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.224077330392053
+      "root_roll_overlap_mm3": 17.224077330407425
     },
     {
       "petal": 9,
       "detail_gaps_mm": [
         0.0,
-        7.105427357601002e-15,
-        3.552713678800501e-15,
+        0.0,
+        0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.05608054805751
+      "root_roll_overlap_mm3": 17.042192871009636
     },
     {
       "petal": 10,
       "detail_gaps_mm": [
         0.0,
-        7.105427357601002e-15,
+        0.0,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 16.579255377364742
+      "root_roll_overlap_mm3": 14.590752219551401
     },
     {
       "petal": 11,
       "detail_gaps_mm": [
         0.0,
         0.0,
-        0.0,
+        7.105427357601002e-15,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 15.88508690799271
+      "root_roll_overlap_mm3": 10.416798764523513
     }
   ],
   "handle_connections": {
@@ -538,13 +538,13 @@
       ]
     }
   },
-  "step_relative_volume_error": 2.97964802824334e-07,
-  "step_bbox_max_delta_mm": 2.575006874394603e-11,
+  "step_relative_volume_error": 2.868582154133601e-07,
+  "step_bbox_max_delta_mm": 1.9895196601282805e-12,
   "bbox_mm": [
     301.85566297978323,
-    351.82445089001965,
+    351.71189542362737,
     485.09868316645463
   ],
-  "fcstd_sha256": "e64613e11be81eb528a9d0863266a8ade031bf306e40eb9865d28601d57998eb",
-  "step_sha256": "4ec4e4a1f5d3262fcc2a2d435e0f5b4e3d9addb30f4ed67fd920837543eb4583"
+  "fcstd_sha256": "d98aa0207c5808585b42ed53fee95bcb5486438582275a7a6183c3912e5c5977",
+  "step_sha256": "bb3c9c08e96e884072ec77c296ff1ae0f48ff6fd20b1aced8ac47a9597401f09"
 }
