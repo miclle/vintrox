@@ -1,0 +1,28 @@
+{
+  "tool": "tools/repair_drone_gui_visibility.py",
+  "path": "cad/drone-concept/vintrox-drone-concept.FCStd",
+  "geometry_unchanged": true,
+  "archive_members": 3184,
+  "changed_members": [
+    "GuiDocument.xml"
+  ],
+  "unchanged_members": 3183,
+  "view_providers": 700,
+  "before_visibility": {
+    "true": 697,
+    "false": 3
+  },
+  "after_visibility": {
+    "true": 696,
+    "false": 4
+  },
+  "hidden_research": [
+    "CDInsertionStudy_D120",
+    "WooferEnvelope_D88_Depth40"
+  ],
+  "hidden_research_after": [
+    "CDInsertionStudy_D120",
+    "WooferEnvelope_D88_Depth40"
+  ],
+  "fcstd_sha256": "c68740f51faf0fe279771fbf833e2208ecbc19423c8ad2e4641c64ce79666763"
+}

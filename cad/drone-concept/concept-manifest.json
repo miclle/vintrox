@@ -158,7 +158,7 @@
     287.619455769915,
     385.09868316645463
   ],
-  "fcstd_sha256": "0c5a5e32c69519f8985493906ddc6b5d3f79ffa30cd8463e2604a433de831840",
+  "fcstd_sha256": "c68740f51faf0fe279771fbf833e2208ecbc19423c8ad2e4641c64ce79666763",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4377,5 +4377,16 @@
     ],
     "depth_reduction_mm": 3,
     "four_supports": "preserved"
+  },
+  "gui_document_present": true,
+  "gui_visibility_repair": {
+    "fcstd_sha256": "c68740f51faf0fe279771fbf833e2208ecbc19423c8ad2e4641c64ce79666763",
+    "view_providers": 700,
+    "visible_geometry_objects": 696,
+    "hidden_research": [
+      "WooferEnvelope_D88_Depth40",
+      "CDInsertionStudy_D120"
+    ],
+    "visibility_source": "GuiDocument.xml saved view state; geometry unchanged by repair"
   }
 }

@@ -7,7 +7,7 @@
   "step_solids": 1008,
   "group_count": 0,
   "non_chinese_labels": [],
-  "gui_document_present": false,
+  "gui_document_present": true,
   "chinese_named_objects": 700,
   "chinese_step_part_names": 696,
   "screen_panel_mm": [
@@ -545,6 +545,16 @@
     351.71189542362737,
     485.09868316645463
   ],
-  "fcstd_sha256": "0c5a5e32c69519f8985493906ddc6b5d3f79ffa30cd8463e2604a433de831840",
-  "step_sha256": "3fb6a91e41fa93d54cebc51dafda55c9e6bc6f59d9babca759b930a7d8fe1c93"
+  "fcstd_sha256": "c68740f51faf0fe279771fbf833e2208ecbc19423c8ad2e4641c64ce79666763",
+  "step_sha256": "3fb6a91e41fa93d54cebc51dafda55c9e6bc6f59d9babca759b930a7d8fe1c93",
+  "gui_visibility_repair": {
+    "fcstd_sha256": "c68740f51faf0fe279771fbf833e2208ecbc19423c8ad2e4641c64ce79666763",
+    "view_providers": 700,
+    "visible_geometry_objects": 696,
+    "hidden_research": [
+      "WooferEnvelope_D88_Depth40",
+      "CDInsertionStudy_D120"
+    ],
+    "visibility_source": "GuiDocument.xml saved view state; geometry unchanged by repair"
+  }
 }
