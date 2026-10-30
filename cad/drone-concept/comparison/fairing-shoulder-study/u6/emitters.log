@@ -1,0 +1,210 @@
+{
+  "fcstd_sha256": "b7786b99e881c8900d2d0ca858d44cf9b1d462a4d6cdd451e3267b0dbd33fc38",
+  "measurement_script_sha256": "968e4c14b52d2227319f2a06990afe3a4d63e72eb6abf30f1a24cc9357d3fb02",
+  "parts": [
+    {
+      "name": "RearCyanFrame",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "nozzle_shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "RearCyanUpperLeft",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "nozzle_shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "RearCyanLowerLeft",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "nozzle_shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "RearCyanLowerRight",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "nozzle_shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "RearCavityEmitterLeft",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "nozzle_shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "RearCavityReflectorLeft",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "nozzle_shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "RearCavityClipUpperLeft",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "nozzle_shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "RearCavityClipLowerLeft",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "nozzle_shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "RearCavityEmitterRight",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "nozzle_shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "RearCavityReflectorRight",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "nozzle_shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "RearCavityClipUpperRight",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "nozzle_shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "RearCavityClipLowerRight",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "nozzle_shell_overlap_mm3": 0.0
+    }
+  ],
+  "contacts": [
+    {
+      "objects": [
+        "RearCyanFrame",
+        "RearRecessLiner"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 15.857497304321242
+    },
+    {
+      "objects": [
+        "RearCyanUpperLeft",
+        "RearRecessLiner"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 15.857497526576921
+    },
+    {
+      "objects": [
+        "RearCyanLowerLeft",
+        "RearRecessLiner"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 12.864039124858756
+    },
+    {
+      "objects": [
+        "RearCyanLowerRight",
+        "RearRecessLiner"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 12.864039051981258
+    },
+    {
+      "objects": [
+        "RearCavityReflectorLeft",
+        "RearRecessLiner"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 69.96651415414911
+    },
+    {
+      "objects": [
+        "RearCavityEmitterLeft",
+        "RearCavityClipUpperLeft"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 33.532086757016366
+    },
+    {
+      "objects": [
+        "RearCavityClipUpperLeft",
+        "RearCavityReflectorLeft"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 64.05851193929615
+    },
+    {
+      "objects": [
+        "RearCavityEmitterLeft",
+        "RearCavityClipLowerLeft"
+      ],
+      "gap_mm": 1.4210854715202004e-14,
+      "overlap_mm3": 31.51578357320018
+    },
+    {
+      "objects": [
+        "RearCavityClipLowerLeft",
+        "RearCavityReflectorLeft"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 36.21928011755846
+    },
+    {
+      "objects": [
+        "RearCavityReflectorRight",
+        "RearRecessLiner"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 69.96651415414908
+    },
+    {
+      "objects": [
+        "RearCavityEmitterRight",
+        "RearCavityClipUpperRight"
+      ],
+      "gap_mm": 2.842170943040401e-14,
+      "overlap_mm3": 33.53208675701598
+    },
+    {
+      "objects": [
+        "RearCavityClipUpperRight",
+        "RearCavityReflectorRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 64.05851193929615
+    },
+    {
+      "objects": [
+        "RearCavityEmitterRight",
+        "RearCavityClipLowerRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 31.51582949039538
+    },
+    {
+      "objects": [
+        "RearCavityClipLowerRight",
+        "RearCavityReflectorRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 36.21927986998378
+    }
+  ],
+  "limitations": [
+    "only these twelve lighting parts checked against nozzle shell",
+    "legacy panel/liner/slope hidden intersections are outside this check",
+    "appearance contacts, not fastening or manufacturing clearances"
+  ],
+  "passed": true
+}

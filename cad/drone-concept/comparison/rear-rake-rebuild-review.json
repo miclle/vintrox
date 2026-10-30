@@ -1,17 +1,3 @@
-{
-  "candidate": "iteration-59",
-  "candidate_fcstd_sha256": "dd29ad8bd8519c80127b5d761cbeb57332fe625528cf1e62bd14a44b91f3ae99",
-  "ordinary_shape_valid": true,
-  "additional_bop_check_passed": false,
-  "affected_parts": [
-    "RearServicePanel",
-    "RearStructuralFrame",
-    "RearArmourCheekLeft",
-    "RearArmourCheekRight",
-    "RearCyanFrame",
-    "RearRecessLiner"
-  ],
-  "diagnosis": "piecewise shear and fusion of previously transformed trimmed surfaces retained invalid curve-on-surface boundaries; same failure family exists in v27 baseline",
-  "repair": "reconstruct all six rear trim pieces from world-space analytic sections with rounded folds; retain outer stations, unify knee at Z126; hidden nozzle passage uses an inferred circular bore",
-  "acceptance": "saved rear-rake-check.json must pass all six BOP checks and material/contact probes; reference contour diagnostic remains independent"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3aaf65d9f30b0e4b03409451f9a37ac8aba87bbc3c05c3f17213930d7e60a65d
+size 911

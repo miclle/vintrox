@@ -1,0 +1,9 @@
+Error: Failed to open library "/Library/Frameworks/3DconnexionNavlib.framework/3DconnexionNavlib"! Error: dlopen(/Library/Frameworks/3DconnexionNavlib.framework/3DconnexionNavlib, 0x0005): tried: '/Library/Frameworks/3DconnexionNavlib.framework/3DconnexionNavlib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Library/Frameworks/3DconnexionNavlib.framework/3DconnexionNavlib' (no such file), '/Library/Frameworks/3DconnexionNavlib.framework/3DconnexionNavlib' (no such file)!
+Traceback (most recent call last):
+  File "/Users/miclle/github/miclle/vintrox/tools/experiment_drone_nozzle_interior.py", line 45, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/miclle/github/miclle/vintrox/tools/experiment_drone_nozzle_interior.py", line 22, in main
+    assert shape.isValid() and shape.isClosed() and len(shape.Solids)==1,name
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: BassVisualCone

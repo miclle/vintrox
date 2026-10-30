@@ -1,31 +1,3 @@
-{
-  "sources": [
-    {
-      "path": "references/alexander-shevchuk-drone/alexander-shevchuk-04.jpg",
-      "sha256": "c2635b57d04092802341979a23e74876884bc00075d0ec9c8a3594b930e686ce"
-    },
-    {
-      "path": "references/alexander-shevchuk-drone/alexander-shevchuk-06.jpg",
-      "sha256": "f3438ec9a537500e14906bb8c706ab516ac7d10204c5e25716ffc43e006c2f3d"
-    },
-    {
-      "path": "references/alexander-shevchuk-drone/video-cam.mp4",
-      "sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813"
-    }
-  ],
-  "observations": [
-    "rear frame 120 shows roughly 100-110 px center spacing of adjacent front petal stiffeners in a 2x crop; projected root radius about 260 px",
-    "16-fold pitch projects about 102 px at front center; 24-fold pitch about 68 px under the same approximate radius",
-    "gold rolled lip covers petal roots; exposed hinge tabs above the lip are absent in the source",
-    "dark mouth should occlude the cyan frame behind it",
-    "lower harness center sits above the thick side loops"
-  ],
-  "selected_petal_count": 16,
-  "count_status": "appearance inference from visible pitch and wireframe, not original mesh access",
-  "changes_are": "actual CAD geometry; no camera or image-warp change",
-  "limits": [
-    "manual crop measurements are approximate",
-    "lighting, occlusion and perspective affect apparent spacing",
-    "whole-orbit renders must validate the proposed contour"
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:554f967e97c0df006a8c68102c805a89a020112596142847a2f6734da60bed5c
+size 1442

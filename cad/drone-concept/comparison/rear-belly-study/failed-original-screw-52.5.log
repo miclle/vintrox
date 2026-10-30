@@ -1,0 +1,17 @@
+Error: Failed to open library "/Library/Frameworks/3DconnexionNavlib.framework/3DconnexionNavlib"! Error: dlopen(/Library/Frameworks/3DconnexionNavlib.framework/3DconnexionNavlib, 0x0005): tried: '/Library/Frameworks/3DconnexionNavlib.framework/3DconnexionNavlib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Library/Frameworks/3DconnexionNavlib.framework/3DconnexionNavlib' (no such file), '/Library/Frameworks/3DconnexionNavlib.framework/3DconnexionNavlib' (no such file)!
+Traceback (most recent call last):
+  File "/Users/miclle/github/miclle/vintrox/tools/experiment_drone_belly_relief.py", line 34, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/miclle/github/miclle/vintrox/tools/experiment_drone_belly_relief.py", line 24, in main
+    s.check(True);assert s.isValid() and s.isClosed() and len(s.Solids)==1;d.getObject(n).Shape=s;v,f=s.tessellate(.12);item=next(x for x in mesh['objects'] if x['name']==n);item.update(vertices=[list(p) for p in v],faces=f);records.append({'name':n,'valid':True,'closed':True,'advanced_check_passed':True,'volume_mm3':s.Volume})
+    ^^^^^^^^^^^^^
+ValueError: BOP check found the following errors:
+Error in Edge: BOPAlgo GeomAbs_C0
+Error in Edge: BOPAlgo GeomAbs_C0
+Error in Face: BOPAlgo GeomAbs_C0
+Error in Edge: BOPAlgo_InvalidCurveOnSurface
+Error in Face: BOPAlgo_InvalidCurveOnSurface
+Error in Edge: BOPAlgo_InvalidCurveOnSurface
+Error in Face: BOPAlgo_InvalidCurveOnSurface
+

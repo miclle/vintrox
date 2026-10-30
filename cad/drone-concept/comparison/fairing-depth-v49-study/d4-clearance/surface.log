@@ -1,0 +1,219 @@
+{
+  "fcstd_sha256": "efc7186b63652eab3579587e9e3f9243b245138eaeac0700776390fb13abcdd4",
+  "parts": [
+    {
+      "name": "BassNozzleShell",
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volume_mm3": 144010.58768833207
+    },
+    {
+      "name": "BassWarningPlaque",
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volume_mm3": 664.1431937561656
+    },
+    {
+      "name": "BassWarningRedBand",
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volume_mm3": 35.99163068419883
+    },
+    {
+      "name": "BassWarningTriangle",
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volume_mm3": 305.83754416398097
+    },
+    {
+      "name": "BassWarningTriangleInset",
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volume_mm3": 122.68974870614217
+    }
+  ],
+  "contacts": [
+    {
+      "objects": [
+        "BassWarningPlaque",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 184.523404594508
+    },
+    {
+      "objects": [
+        "BassWarningTriangle",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 1.4210854715202004e-14,
+      "overlap_mm3": 84.9572582824598
+    },
+    {
+      "objects": [
+        "BassWarningRedBand",
+        "BassWarningPlaque"
+      ],
+      "gap_mm": 7.105427357601002e-15,
+      "overlap_mm3": 16.363066545002038
+    },
+    {
+      "objects": [
+        "BassWarningTriangleInset",
+        "BassWarningTriangle"
+      ],
+      "gap_mm": 7.105427357601002e-15,
+      "overlap_mm3": 55.76853601066398
+    },
+    {
+      "objects": [
+        "BassNozzleRolledLip",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 1.423535452242307e-14,
+      "overlap_mm3": 59.61783372157347
+    },
+    {
+      "objects": [
+        "BassNozzleRearCollar",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 6256.706046484611
+    }
+  ],
+  "surface_probes": [
+    {
+      "part": "BassWarningPlaque",
+      "local_xz_mm": [
+        -15,
+        68
+      ],
+      "forward_exposure_mm": 0.6677765219416116
+    },
+    {
+      "part": "BassWarningPlaque",
+      "local_xz_mm": [
+        0,
+        68
+      ],
+      "forward_exposure_mm": 0.6504588493216517
+    },
+    {
+      "part": "BassWarningPlaque",
+      "local_xz_mm": [
+        12,
+        68
+      ],
+      "forward_exposure_mm": 0.6613809564665871
+    },
+    {
+      "part": "BassWarningPlaque",
+      "local_xz_mm": [
+        -15,
+        77
+      ],
+      "forward_exposure_mm": 0.6706369766783524
+    },
+    {
+      "part": "BassWarningPlaque",
+      "local_xz_mm": [
+        0,
+        77
+      ],
+      "forward_exposure_mm": 0.6509596171833962
+    },
+    {
+      "part": "BassWarningPlaque",
+      "local_xz_mm": [
+        12,
+        77
+      ],
+      "forward_exposure_mm": 0.6633487662621036
+    },
+    {
+      "part": "BassWarningTriangle",
+      "local_xz_mm": [
+        -10,
+        50
+      ],
+      "forward_exposure_mm": 0.6563599295455731
+    },
+    {
+      "part": "BassWarningTriangle",
+      "local_xz_mm": [
+        10,
+        50
+      ],
+      "forward_exposure_mm": 0.6563599295455731
+    },
+    {
+      "part": "BassWarningTriangle",
+      "local_xz_mm": [
+        0,
+        30
+      ],
+      "forward_exposure_mm": 0.6499953074520732
+    },
+    {
+      "part": "BassWarningTriangleInset",
+      "local_xz_mm": [
+        -5,
+        45
+      ],
+      "forward_exposure_mm": 0.9522357017075223
+    },
+    {
+      "part": "BassWarningTriangleInset",
+      "local_xz_mm": [
+        5,
+        45
+      ],
+      "forward_exposure_mm": 0.952235701707508
+    },
+    {
+      "part": "BassWarningTriangleInset",
+      "local_xz_mm": [
+        0,
+        35
+      ],
+      "forward_exposure_mm": 0.9499961580884531
+    },
+    {
+      "part": "BassWarningRedBand",
+      "local_xz_mm": [
+        18,
+        69
+      ],
+      "forward_exposure_mm": 0.9881665686600911
+    },
+    {
+      "part": "BassWarningRedBand",
+      "local_xz_mm": [
+        18,
+        73
+      ],
+      "forward_exposure_mm": 0.9906097080954694
+    },
+    {
+      "part": "BassWarningRedBand",
+      "local_xz_mm": [
+        18,
+        78
+      ],
+      "forward_exposure_mm": 0.994237744629288
+    }
+  ],
+  "woofer_shell_overlap_mm3": 0.0,
+  "limitations": [
+    "local appearance contacts only; no print interface or physical test",
+    "text remains flat render annotation outside curved patches"
+  ],
+  "measurement_script_sha256": "c21cf138ee2a087659a04c19cae138a11e8e8f8908f07e883308c694f3ef7560",
+  "passed": true
+}
