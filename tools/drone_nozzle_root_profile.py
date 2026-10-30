@@ -152,7 +152,7 @@ def root_sections(rows, fraction):
                   for value, delta in zip(row, ROOT_DELTA)) for row in rows]
 
 
-def root_shifted_leaf_parts(i, root_fraction=1.0, guide_span=5.4):
+def root_shifted_leaf_parts(i, root_fraction=1.0, guide_span=5.4, corner_radius=.85):
     """Round-edged leaves with a shared root and a smaller terminal section."""
     phase, pitch = 15, 30
     a=i*pitch+phase
@@ -171,14 +171,15 @@ def root_shifted_leaf_parts(i, root_fraction=1.0, guide_span=5.4):
     petal=skin(0,-2,1.2,21.3)
     # Round the four radial section edges: visible sheet corners, not an
     # arbitrary render bevel. Keep most of the fitted terminal circular arc.
-    end_normal=App.Vector(0,-math.sin(math.radians(-4.2)),math.cos(math.radians(-4.2)))
+    end_z, _, end_dy, end_tilt = sections[-1]
+    end_normal=App.Vector(0,-math.sin(math.radians(end_tilt)),math.cos(math.radians(end_tilt)))
     root_z,_,root_dy,root_tilt = sections[0]
     root_normal = App.Vector(0,-math.sin(math.radians(root_tilt)),math.cos(math.radians(root_tilt)))
     radial=[e for e in petal.Edges if abs(e.Length-2)<1e-5 and (
         abs(root_normal.dot(e.CenterOfMass-App.Vector(0,root_dy,root_z)))<1e-5 or
-        abs(end_normal.dot(e.CenterOfMass-App.Vector(0,4.28,128.43)))<1e-5)]
+        abs(end_normal.dot(e.CenterOfMass-App.Vector(0,end_dy,end_z)))<1e-5)]
     if len(radial)!=4:raise ValueError('Expected four radial petal corner edges')
-    petal=petal.makeFillet(.85,radial)
+    petal=petal.makeFillet(corner_radius,radial)
     # Round tapered cutters before trimming the curved sheet surfaces.
     def window(start,stop,z0,z1,radius):
         z0,z1 = shifted_z(z0,root_fraction),shifted_z(z1,root_fraction)
