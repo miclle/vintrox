@@ -1,8 +1,11 @@
 # Generated CAD exchange geometry is reviewed through the model and report.
 /cad/*.step binary
-
 /cad/terminal/*.step binary
 /cad/terminal/parts/*.step binary
 /cad/terminal/parts/*.stl binary
-
 /cad/drone-concept/*.step binary
+cad/drone-concept/comparison/**/*.json filter=lfs diff=lfs merge=lfs -text
+cad/drone-concept/comparison/**/*.FCStd filter=lfs diff=lfs merge=lfs -text
+cad/drone-concept/comparison/**/*.step filter=lfs diff=lfs merge=lfs -text
+cad/drone-concept/comparison/**/*.png filter=lfs diff=lfs merge=lfs -text
+cad/drone-concept/comparison/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
