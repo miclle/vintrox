@@ -6,6 +6,8 @@
 
 v64 后护甲截面候选已完成同一固定相机下的十方位/七图真实 CAD 渲染、半透明叠加、差异图、FCStd/STEP 读回和对象级颜色恢复；视频整圈略退步，正式入口仍为 v61。见 [v64 候选记录](../cad/drone-concept/comparison/v64-rear-shoulder-study/README.md)。
 
+v65 侧音箱外沿径向候选完成解析重建、FCStd/STEP 保存读回、十方位和七图固定相机比较；视频整圈退步，静态图仅略升，正式入口仍为 v61。直接仿射试验因 `GeomAbs_C0` BOP 错误未采用。见 [v65 候选记录](../cad/drone-concept/comparison/v65-speaker-analytic2/README.md)。
+
 
 ## 喷口中间截面评审候选（2026-10-26）
 

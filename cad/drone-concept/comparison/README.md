@@ -4,6 +4,8 @@
 
 [v64 后护甲截面候选](v64-rear-shoulder-study/README.md)仅将左右 `RearArmourCheek` 截面指数改为 1.25。它完成了 FCStd/STEP 独立读回、十方位与七图真实 CAD 渲染、半透明叠加和差异图；视频平均 IoU **85.489951%** 略低于正式 v61，静态图 **82.259796%** 略高，因此保留为候选，正式模型不变。候选结论和哈希见 [candidate-review](v64-rear-shoulder-study/candidate-review.json)。
 
+[v65 侧音箱外沿径向候选](v65-speaker-analytic2/README.md)同步重建左右六个音箱外观对象，完成保存读回、STEP 导出、十方位与七图固定相机比较。视频平均 IoU **85.441017%** 低于正式 v61，静态图 **82.240457%** 略高，因此保留为失败候选证据，正式模型不变；直接仿射候选因 `GeomAbs_C0` BOP 错误未采用。候选结论和哈希见 [candidate-review](v65-speaker-analytic2/candidate-review.json)。
+
 [v53 底壳收形](rear-belly-study/README.md) · [v52 警示贴片定位](nozzle-marking-study/README.md) · [v51 外罩上肩](fairing-shoulder-study/README.md) · [v50 外罩深度与灯角让位](fairing-depth-v49-study/README.md) · [v49 外罩中段](fairing-blend-study/README.md) · [v48 喷口内部凹腔](nozzle-interior-study/README.md) · [v47 根部与过渡壳联动](source-registration-study/README.md)
 
 [v46 喷口叶片细节](petal-detail-study/README.md) · [v45 侧壳内退斜边](status-rim-study/README.md) · [v44 侧后切口修订](guard-notch-study/README.md) · [后壳圆角未采用试验](rear-fold-study/README.md)
