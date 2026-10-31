@@ -20,7 +20,7 @@ def verify(root):
     out = Path(root)/'cad/drone-concept'
     cad = out/'vintrox-drone-concept.FCStd'
     step = out/'vintrox-drone-concept.step'
-    manifest = json.loads((out/'concept-manifest.json').read_text())
+    manifest = json.loads((out/'concept-manifest.json').read_text(encoding='utf-8'))
     errors = []
     digest = hashlib.sha256(cad.read_bytes()).hexdigest()
     if digest != manifest['fcstd_sha256']:
@@ -390,7 +390,7 @@ def verify(root):
             if len(ends)!=4 or min(ends)<=.01:errors.append('Detached lower side wire end: '+side)
             side_ring_connections[side]=connections
         shape = Part.read(str(step))
-        step_names = re.findall(r"PRODUCT\(\s*'([^']*)'", step.read_text())
+        step_names = re.findall(r"PRODUCT\(\s*'([^']*)'", step.read_text(encoding='utf-8'))
         chinese_step_names = [name for name in step_names if re.search(r'[\u4e00-\u9fff]', name)]
         if len(chinese_step_names) != len(visible):
             errors.append('STEP does not preserve every visible Chinese part label')
