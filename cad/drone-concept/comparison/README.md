@@ -6,6 +6,10 @@
 
 [v65 侧音箱外沿径向候选](v65-speaker-analytic2/README.md)同步重建左右六个音箱外观对象，完成保存读回、STEP 导出、十方位与七图固定相机比较。视频平均 IoU **85.441017%** 低于正式 v61，静态图 **82.240457%** 略高，因此保留为失败候选证据，正式模型不变；直接仿射候选因 `GeomAbs_C0` BOP 错误未采用。候选结论和哈希见 [candidate-review](v65-speaker-analytic2/candidate-review.json)。
 
+[v66 屏框外沿 1 mm 候选](v66-screen-bezel-1mm/README.md)只收缩 `ScreenBezel` 与 `BezelLip` 的外部视觉包络，完成保存读回、STEP 导出、十方位与七图比较。视频平均 IoU **85.481944%** 低于正式 v61，静态图 **82.243009%** 略高，因此仍保留为失败候选，正式模型不变；v63 的 2 mm 屏框收缩也未形成整圈收益。
+
+[v67 侧上方圆口座体收形候选](v67-side-socket-body-contract/README.md)仅将 `SideSocketBaseLeft` 与 `SideSocketBaseRight` 的外部径向包络收缩到推定轮廓的 92%，保留口沿、孔口和凹座。完成彩色对象网格恢复、FCStd/STEP 独立读回、十方位与七图固定相机比较；视频平均 IoU **85.492505%**，静态图 **82.226864%**，增益分别仅约 0.000488 和 0.000049 个百分点，处于三角化/渲染噪声量级，因此正式模型仍保持 v61。
+
 [v53 底壳收形](rear-belly-study/README.md) · [v52 警示贴片定位](nozzle-marking-study/README.md) · [v51 外罩上肩](fairing-shoulder-study/README.md) · [v50 外罩深度与灯角让位](fairing-depth-v49-study/README.md) · [v49 外罩中段](fairing-blend-study/README.md) · [v48 喷口内部凹腔](nozzle-interior-study/README.md) · [v47 根部与过渡壳联动](source-registration-study/README.md)
 
 [v46 喷口叶片细节](petal-detail-study/README.md) · [v45 侧壳内退斜边](status-rim-study/README.md) · [v44 侧后切口修订](guard-notch-study/README.md) · [后壳圆角未采用试验](rear-fold-study/README.md)

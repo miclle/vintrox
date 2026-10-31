@@ -8,6 +8,10 @@ v64 后护甲截面候选已完成同一固定相机下的十方位/七图真实
 
 v65 侧音箱外沿径向候选完成解析重建、FCStd/STEP 保存读回、十方位和七图固定相机比较；视频整圈退步，静态图仅略升，正式入口仍为 v61。直接仿射试验因 `GeomAbs_C0` BOP 错误未采用。见 [v65 候选记录](../cad/drone-concept/comparison/v65-speaker-analytic2/README.md)。
 
+v66 屏框外沿 1 mm 候选完成真实 CAD 保存读回、STEP 导出、十方位和七图比较；视频整圈仍低于 v61，正式入口继续保持 v61。实测平面屏、可视区、四根支柱、外挂筒、侧控件和格栅均保留。见 [v66 候选记录](../cad/drone-concept/comparison/v66-screen-bezel-1mm/README.md)。
+
+v67 侧上方圆口座体收形候选完成彩色对象网格恢复、FCStd/STEP 独立读回、十方位和七图比较；仅改变 `SideSocketBaseLeft` 与 `SideSocketBaseRight`，口沿、孔口、凹座、测量屏幕和四根支柱保持。视频平均 IoU **85.492505%**、静态图 **82.226864%**，增益处于渲染/三角化噪声量级，正式入口继续保持 v61。见 [v67 候选记录](../cad/drone-concept/comparison/v67-side-socket-body-contract/README.md)。
+
 
 ## 喷口中间截面评审候选（2026-10-26）
 
