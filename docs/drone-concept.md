@@ -4,6 +4,8 @@
 
 本轮 v63 屏幕外框候选的独立记录见[外观研究报告](drone-v63-study.md)，正式入口仍为 v61。
 
+v64 后护甲截面候选已完成同一固定相机下的十方位/七图真实 CAD 渲染、半透明叠加、差异图、FCStd/STEP 读回和对象级颜色恢复；视频整圈略退步，正式入口仍为 v61。见 [v64 候选记录](../cad/drone-concept/comparison/v64-rear-shoulder-study/README.md)。
+
 
 ## 喷口中间截面评审候选（2026-10-26）
 
