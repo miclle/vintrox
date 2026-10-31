@@ -1,0 +1,8399 @@
+{
+  "status": "gui-appearance-repaired",
+  "model": "cad/drone-concept/vintrox-drone-concept.FCStd",
+  "source_commit": "7550c1f2",
+  "baseline_sha256": "c68740f51faf0fe279771fbf833e2208ecbc19423c8ad2e4641c64ce79666763",
+  "repaired_sha256": "b264b52ab81ca645865ab44196b3cabb8453abfd4f127afa49c29c41ffd973d2",
+  "source_archive_sha256": "0df34a20c2cac4de03bd287734f7aac8da4bab2989dc4865920f1162b5ab9021",
+  "viewproviders": 700,
+  "repaired_objects": 698,
+  "external_payloads_replaced": 2094,
+  "shape_appearance_variants": 71,
+  "line_color_array_variants": 69,
+  "point_color_array_variants": 1,
+  "document_xml_unchanged": true,
+  "geometry_members_changed": [],
+  "geometry_unchanged": true,
+  "limitations": [
+    "颜色恢复按稳定对象名复制 FreeCAD GUI 外观数据；不代表材料实测。",
+    "屏幕仍保留平面实测输入与曲面透明外观占位的既有限制。"
+  ],
+  "objects": [
+    {
+      "name": "InstrumentRim",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "InstrumentMount",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterGrid0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterGrid1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterGrid2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterGrid3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterGrid4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterGrid5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterGrid6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterGrid7",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterGrid8",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterGrid9",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterGrid10",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterGrid11",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterGrid12",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterRule0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterRule1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterRule2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "MainEnclosureShell",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SlopedUpperArmour",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ScreenPanel210x160x2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ActiveArea200x150",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RoofSideClosure_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RoofSideClosure_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearUpperClosure",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BottomChassis",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ClosedBellyPan",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearServicePanel",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearStructuralFrame",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ProjectingBrow",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodShoulderCrownLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodShoulderPlateLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodShoulderSlotLinerLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodShoulderBoltLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodTopInsetLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodShoulderCrownRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodShoulderPlateRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodShoulderSlotLinerRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodShoulderBoltRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodTopInsetRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BrowUnderside",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodEdge",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ScreenBezel",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BezelLip",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "PixelEye_39",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "PixelEyeTop_39",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "PixelEye27",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "PixelEyeTop27",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "PixelMouth",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "PixelSmileHighlight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ScreenCurvedCover",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ControlRail",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ControlInset",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ControlRailLip",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ControlKeyBed",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ControlRailEndLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ControlEndBoltLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ControlRailEndRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ControlEndBoltRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KeySocket0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RedKey0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KeyGlyph0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KeySocket1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RedKey1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KeyGlyph1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KeySocket2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RedKey2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KeyGlyph2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KeySocket3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RedKey3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KeyGlyph3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "StatusKeyFrame",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "StatusKeyLens",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobBase0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobRing0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ControlKnob0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobFace0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobFlute0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobPointer0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobBase1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobRing1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ControlKnob1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobFace1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobFlute1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobPointer1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobBase2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobRing2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "ControlKnob2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobFace2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobFlute2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "KnobPointer2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideClosureLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideMechanicalBackingLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideGuardLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideFrameShoeLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideFrameBoltLeft0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RoofAccessBolt0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideFrameBoltLeft1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideFrameBoltLeft2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideFrameBoltLeft3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CyanSideTubeLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerBarrelLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerScallopCollarLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerRearSealLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "PerforatedSpeakerFlangeLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerBridgeWireLeft0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerBridgeWireLeft1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerVisualConeLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerOuterLipLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerLipTrimLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerSurroundLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerCentreLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerHubNeckLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerRetainerLeft0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerRetainerLeft1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerRetainerLeft2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerRetainerLeft3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerRetainerLeft4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerRetainerLeft5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingEdgeLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingRaisedFaceLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingPaintLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingFoldFacetLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingInnerPaintLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingSpineLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingHubSeatLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingStripeLeft0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingStripeLeft1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingHubMarkLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HandleArmLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HandleInsetLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HandleMarkLeft0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HandleMarkLeft1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HandleMarkLeft2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HandleGripCuffLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "VisibleWireLeft105",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "VisibleWireLeft218",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "VisibleWireLeft230",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideClosureRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideMechanicalBackingRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideGuardRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideFrameShoeRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideFrameBoltRight0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideFrameBoltRight1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideFrameBoltRight2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideFrameBoltRight3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CyanSideTubeRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerBarrelRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerScallopCollarRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerRearSealRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "PerforatedSpeakerFlangeRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerBridgeWireRight0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerBridgeWireRight1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerVisualConeRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerOuterLipRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerLipTrimRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerSurroundRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerCentreRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerHubNeckRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerRetainerRight0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerRetainerRight1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerRetainerRight2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerRetainerRight3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerRetainerRight4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SpeakerRetainerRight5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingEdgeRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingRaisedFaceRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingPaintRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingFoldFacetRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingInnerPaintRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingSpineRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingHubSeatRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WingHubMarkRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HandleArmRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HandleInsetRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HandleMarkRight0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HandleMarkRight1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HandleMarkRight2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HandleGripCuffRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "VisibleWireRight105",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "VisibleWireRight218",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "VisibleWireRight230",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HandleGrip",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "GripBand0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "GripBand1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "GripBand2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "GripBand3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "GripBand4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "GripBand5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "GripBand6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "GripBand7",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "GripBand8",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "GripBand9",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopSlotTrim",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RoofAccessPanel",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RoofAccessBolt1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RoofAccessBolt2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RoofAccessBolt3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RoofRaisedRib0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RoofRaisedRib1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopInstrumentPanel",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin7",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin8",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin9",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin10",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin11",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin12",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin13",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin14",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingCore",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCyanFrame",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRecessLiner",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRecessWire_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRecessCornerBoss_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRecessWire_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRecessCornerBoss_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearArmourCheekLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearArmourCheekRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailAntennaSlot_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailAntennaSlot_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterTrace0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterTrace1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterTick0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterTick1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterTick2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterTick3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterTick4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterTick5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterTick6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "TopMeterLatch",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCoolingFin1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassWarningTriangle",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassWarningTriangleInset",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassNeckFastener0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassNeckFastener1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassNeckFastener2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassNeckFastener3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassNeckFastener4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassNeckFastener5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassNeckFastener6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassNeckFastener7",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WooferMountSeat",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "WooferEnvelope_D88_Depth40",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPod_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodClamp_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRim_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodDiaphragm_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailCarrier",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailVent0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailVent1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailVent2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailVent3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailVent4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailVent5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailVent6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearPortRail",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailBezel",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRedInsert",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailIndex",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailLatch",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailStatusBase_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailStatusLens_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailStatusIndex_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailStatusBase_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailStatusLens_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearRailStatusIndex_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearBeaconBase_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearBeacon_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearBeaconBand_1_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearBeaconBand_1_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearBeaconBand_1_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearBeaconLens_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearBeaconBase_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearBeacon_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearBeaconBand_1_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearBeaconBand_1_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearBeaconBand_1_003",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearBeaconLens_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassNozzleShell",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassNozzleRearCollar",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassChamberBackplate",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassNozzleMouthRing",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassNozzleRolledLip",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzleRootClamp0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzleRootClamp1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzleRootClamp2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzleRootClamp3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzleRootClamp4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzleRootClamp5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassSpeakerGasket",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassVisualCone",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassDustCap",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassInnerThroat",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetal0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalInset0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail0_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail0_20",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEndHem0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalRidge0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide0_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide0_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalHinge0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetal1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalInset1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail1_24",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail1_43",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEndHem1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalRidge1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide1_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide1_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalHinge1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetal2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalInset2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail2_46",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail2_65",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEndHem2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalRidge2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide2_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide2_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalHinge2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetal3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalInset3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail3_69",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail3_88",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEndHem3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalRidge3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide3_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide3_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalHinge3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetal4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalInset4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail4_91",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail4_110",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEndHem4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalRidge4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide4_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide4_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalHinge4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetal5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalInset5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail5_114",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail5_133",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEndHem5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalRidge5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide5_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide5_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalHinge5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetal6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalInset6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail6_136",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail6_155",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEndHem6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalRidge6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide6_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide6_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalHinge6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetal7",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalInset7",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail7_159",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail7_178",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEndHem7",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalRidge7",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide7_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide7_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalHinge7",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetal8",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalInset8",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail8_181",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail8_200",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEndHem8",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalRidge8",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide8_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide8_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalHinge8",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetal9",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalInset9",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail9_204",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail9_223",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEndHem9",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalRidge9",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide9_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide9_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalHinge9",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetal10",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalInset10",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail10_226",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail10_245",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEndHem10",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalRidge10",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide10_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide10_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalHinge10",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetal11",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalInset11",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail11_249",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEdgeRail11_268",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalEndHem11",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalRidge11",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide11_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalGuide11_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "NozzlePetalHinge11",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassSideStripe0_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassSideStripe0_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassSideStripe0_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassSideStripe1_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassSideStripe1_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassSideStripe1_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassWarningPlaque",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BassWarningRedBand",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_0_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_0_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_1_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_1_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_2_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_2_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_3_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_3_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_4_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_4_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_5_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_5_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_6_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_6_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_7",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_7",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_7_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_7_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_8",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_8",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_8_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_8_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_9",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_9",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_9_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_9_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_10",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_10",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_10_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_10_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_11",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_11",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_11_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_11_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_12",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_12",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_12_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_12_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_13",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_13",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_13_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_13_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_14",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_14",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_14_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_14_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_15",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_15",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_15_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_15_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_16",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_16",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_16_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_16_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_17_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_17_17",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPod_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodClamp_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRim_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodDiaphragm_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_0_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_0_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_1_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_1_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_003",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_003",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_2_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_2_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_004",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_004",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_3_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_3_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_005",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_005",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_4_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_4_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_006",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_006",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_5_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_5_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_007",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_007",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_6_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_6_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_008",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_008",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_7_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_7_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_009",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_009",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_8_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_8_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_010",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_010",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_9_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_9_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_011",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_011",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_10_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_10_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_012",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_012",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_11_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_11_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_013",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_013",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_12_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_12_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_014",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_014",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_13_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_13_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_015",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_015",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_14_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_14_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_016",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_016",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_15_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_15_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_017",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_017",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_16_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_16_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodRib_1_018",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodPetalRidge_1_018",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_17_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "LowerPodEdgeRail_1_17_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UnderbodyLoop0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UnderbodyLoop1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CentralSupportSeat",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SupportShaftFrontLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SupportSocketFrontLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SupportFootFrontLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SupportSocketRearLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SupportFootRearLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SupportSocketFrontRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SupportFootFrontRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SupportSocketRearRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SupportFootRearRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BellyServicePlateLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BellyServiceBoltLeft0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BellyServiceBoltLeft1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BellyServicePlateRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BellyServiceBoltRight0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "BellyServiceBoltRight1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "AntennaBase",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "Antenna",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodMark_1_0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodMark_1_1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodMark_1_2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodMark_1_3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodMark_1_001",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodMark_1_002",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodMark_1_003",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "HoodMark_1_004",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CDInsertionStudy_D120",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCyanUpperLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCyanLowerRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCyanLowerLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCavityEmitterLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCavityReflectorLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCavityClipUpperLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCavityClipLowerLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCavityEmitterRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCavityReflectorRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCavityClipUpperRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearCavityClipLowerRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "RearLowerSlope",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "FrontCheekLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekUtilityLabelLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekUtilityRedBandLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "FrontCheekBridgeLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "VentBackingLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibLeft0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibLeft1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibLeft2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibLeft3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibLeft4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibLeft5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibLeft6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibLeft7",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibLeft8",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibLeft9",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekDialLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekButtonLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekArrowLeft0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekArrowLeft1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekArrowLeft2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekArrowLeft3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekPerforatedPanelLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideFrontSpineLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideFrontSpineLinerLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideSocketBaseLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideSocketLipLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideSocketRecessLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideStatusMarkLeft0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideStatusMarkLeft1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideStatusMarkLeft2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideStatusSlotLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideStatusBracketLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideStatusPlateLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityMountLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityLinerLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityBarrelLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityCollarLeft0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityCollarLeft1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityCollarLeft2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityCollarLeft3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityCapLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityCapRibLeft0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityCapRibLeft1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityCapRibLeft2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityCapRibLeft3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityIndicatorLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityFrontLensLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityControlLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityControlInsetLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilitySwitchLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilitySwitchRedLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityLEDLeft0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityLEDLeft1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityLEDLeft2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideCableLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UtilityCableBootLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideCableTopBootLeft",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "FrontCheekRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekUtilityLabelRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekUtilityRedBandRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "FrontCheekBridgeRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "VentBackingRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibRight0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibRight1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibRight2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibRight3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibRight4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibRight5",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibRight6",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibRight7",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibRight8",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekVentRibRight9",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekDialRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekKnobRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "CheekPerforatedPanelRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideFrontSpineRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideFrontSpineLinerRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideSocketBaseRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideSocketLipRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideSocketRecessRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideStatusMarkRight0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideStatusMarkRight1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideStatusMarkRight2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideStatusSlotRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideStatusBracketRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "SideStatusPlateRight",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UnderbodyHarness0",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UnderbodyHarness1",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UnderbodyHarness2",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UnderbodyHarness3",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    },
+    {
+      "name": "UnderbodyHarness4",
+      "properties": [
+        "LineColor",
+        "LineColorArray",
+        "LineMaterial",
+        "PointColor",
+        "PointColorArray",
+        "PointMaterial",
+        "ShapeAppearance"
+      ]
+    }
+  ]
+}
