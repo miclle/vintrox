@@ -29,10 +29,10 @@ def main() -> None:
     palette = json.loads(args.palette.read_text())
     candidate_objects = {item["name"]: item for item in candidate["objects"]}
     palette_objects = {item["name"]: item for item in palette["objects"]}
-    if set(candidate_objects) != set(palette_objects):
-        missing = sorted(set(candidate_objects) - set(palette_objects))
-        extra = sorted(set(palette_objects) - set(candidate_objects))
-        raise SystemExit(f"object names differ; candidate-only={missing[:5]} palette-only={extra[:5]}")
+    missing = sorted(set(candidate_objects) - set(palette_objects))
+    extra = sorted(set(palette_objects) - set(candidate_objects))
+    if missing:
+        raise SystemExit(f"candidate objects lack palette entries: {missing[:5]}")
 
     before_geometry = {
         name: digest({"vertices": obj["vertices"], "faces": obj["faces"]})
@@ -63,6 +63,7 @@ def main() -> None:
         "output": str(args.output),
         "candidate_fcstd_sha256": candidate["fcstd_sha256"],
         "objects": restored,
+        "palette_only_objects": extra,
         "distinct_rgb_triples": len(colors),
         "geometry_unchanged": True,
         "geometry_binding": "candidate vertices and faces retained byte-for-byte",
