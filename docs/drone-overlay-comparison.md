@@ -801,3 +801,8 @@ v53 收薄侧后方底壳两翼，露出原先被厚横块遮挡的底部环件�
 沿用正式 v61 的固定校准相机、分割阈值和不变形规则，测试底部回环半径 2.8 mm（v68）与 2.2 mm（v69）。两候选只改变 `UnderbodyLoop0`、`UnderbodyLoop1`，四根支柱、中心座、外挂筒、屏幕侧控件和格栅保持。v68 视频/静态平均 IoU 为 85.524160% / 82.243173%；v69 为 85.553320% / 82.259620%，v69 两项均优于 v68。
 
 该增益是屏幕空间轮廓诊断，黑色线束/背景分割和相机拟合仍有不确定性，不能视作制造或整机验收。两候选的 FCStd、STEP、网格、保存读回、十方位/七图叠加及差异证据分别见 [v68](../cad/drone-concept/comparison/v68-underbody-loop-radius2p8/README.md) 和 [v69](../cad/drone-concept/comparison/v69-underbody-loop-radius2p2/README.md)。正式模型入口保持 v61。
+
+
+## v70 回环 2.2 mm + 后肩截面候选（2026-11-04）
+
+v70 从 v69 继承 2.2 mm 底部回环，仅将 `RearArmourCheekLeft/Right` 截面指数改为 1.25。视频十方位平均 IoU 为 85.551170%，较 v69 轻微下降；静态七图为 82.292743%，较 v69 上升。该组合未形成全局收益，正式入口仍为 v61，研究优选仍为 v69。候选证据见 `cad/drone-concept/comparison/v70-loop2p2-shoulder125/`。
