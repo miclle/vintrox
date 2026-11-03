@@ -158,3 +158,9 @@ v52 历史：[三视角局部叠加与验证](nozzle-marking-study/README.md)，
 - [v53 喷口外罩下站试验](fairing-lower-v53-study/README.md)与[后盖外框宽度试验](rear-frame-width-v53-study/README.md)均未采用，正式模型仍为 v53。
 
 当前 v53 的后续试件均未采用：下站收量与后框宽度见对应研究目录；对象归因报告只用于定位，不把暗部误判为喷口筒壁。
+
+## v68/v69 底部回环半径候选（2026-11-03）
+
+v68 与 v69 只改变 `UnderbodyLoop0`、`UnderbodyLoop1` 的圆截面半径，分别为 2.8 mm 和 2.2 mm；四根支柱、中心座、外挂筒、屏幕侧控件和格栅保持。两候选均完成保存 FCStd/STEP 独立读回，均为 698 个保存对象、696 个可见对象、1010 个 STEP solids，实体有效闭合，保护支撑与正式 v61 相等。
+
+v68 视频/静态平均轮廓 IoU 为 85.524160% / 82.243173%；v69 为 85.553320% / 82.259620%。v69 在两项均优于 v68，但 90% 目标未达，正式外观入口仍保持 v61。候选只代表固定相机下的屏幕空间外观研究，不代表打印、装配、承力、声学、热、电气或实物验收。详见 [v68](v68-underbody-loop-radius2p8/README.md) 与 [v69](v69-underbody-loop-radius2p2/README.md)。
