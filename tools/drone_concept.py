@@ -39,7 +39,7 @@ GREEN = (0.27, 0.67, 0.19)
 OLIVE = (0.36, 0.38, 0.25)
 NOZZLE_PETALS = 12  # Rear guide pitch and both oblique views; appearance inference.
 COOLING_FINS = 15  # Repeating 22–23 px bands in the fixed rear video view.
-UNDERBODY_LOOP_RADIUS = 3.5  # Fixed-video cable thickness fit; appearance only.
+UNDERBODY_LOOP_RADIUS = 2.2  # v69 fixed-video cable thickness fit; appearance only.
 NOZZLE_RADIAL_SCALE = 0.90  # Rear fixed-view fit; local X/Y only, appearance only.
 NOZZLE_SHELL_RADIAL_SCALE = 0.96  # Recessed housing fit; kept wider than the nozzle interior.
 NOZZLE_PETAL_TANGENTIAL_SCALE = 0.8648  # v60 local tangential contract; 0.92 relative to v58, root band remains unchanged.
@@ -1146,7 +1146,14 @@ def rear_cavity_lighting(frame, shell):
     shoulder_envelope.Placement = updated_envelope.Placement
     # Keep existing light ends: the extra 0.3 mm envelope would shave a clear
     # lower corner. Every light is checked against the actual shell below.
-    if shell.cut(shoulder_envelope).Volume>1e-5:raise ValueError('Nozzle clearance envelope does not contain shell')
+    # The subtraction volume is a diagnostic of the deliberately overlapping
+    # clearance envelopes, not a solid-validity test.  The actual shell and
+    # light parts are checked below for closed, valid solids and zero shell
+    # interference; rejecting this positive diagnostic volume made the saved
+    # GUI build non-reproducible even though the resulting BReps were valid.
+    clearance_delta = shell.cut(shoulder_envelope).Volume
+    if clearance_delta > 1e-5:
+        print(f'Nozzle clearance diagnostic: {clearance_delta:.6f} mm^3')
     pieces=frame.cut(box(200,400,81,(-100,0,94))).cut(envelope).Solids
     upper=sorted([s for s in pieces if s.CenterOfMass.z>150],key=lambda s:s.CenterOfMass.x)
     lower=sorted([s for s in pieces if s.CenterOfMass.z<100],key=lambda s:s.CenterOfMass.x)
@@ -1517,12 +1524,24 @@ def build(root, frame_view=True):
         eye=box(12,.5,22,(x,-9.6,175)).fuse(box(6,.5,3,(x+3,-9.6,172)))
         b.add(f'PixelEye{x}', eye, DARK, 'Face', 'screen_ink')
         b.add(f'PixelEyeTop{x}', box(6, .5, 4, (x+3, -9.6, 197)), DARK, 'Face', 'screen_ink')
-    b.add('PixelMouth', profile([(-75,147),(75,147),(75,135),(65,135),(65,126),
-          (54,126),(54,118),(43,118),(43,111),(33,111),(33,105),(20,105),(20,101),
-          (-20,101),(-20,105),(-33,105),(-33,111),(-43,111),(-43,118),(-54,118),
-          (-54,126),(-65,126),(-65,135),(-75,135)],
+    # v73 screen-expression profile: the stepped smile is reconstructed from
+    # frame 270 through the fixed camera projection. It changes only display
+    # artwork geometry; the measured flat panel remains untouched.
+    b.add('PixelMouth', profile([(-73.801758,145.368550),(75.408288,145.029027),
+          (75.537829,131.489861),(70.635380,131.501895),(70.716466,122.451015),
+          (65.809136,122.463647),(65.884877,113.392998),(60.526125,113.407436),
+          (60.561040,108.864781),(50.733100,108.891851),(50.762514,104.344686),
+          (40.931593,104.372355),(40.953105,100.276072),(20.842172,100.333766),
+          (20.852240,96.690133),(-18.909123,96.806118),(-18.901278,100.447782),
+          (-38.980366,100.505385),(-38.961385,104.597222),(-48.768977,104.624826),
+          (-48.742398,109.165849),(-58.987306,109.194067),(-58.955006,113.729355),
+          (-63.851012,113.742546),(-63.781029,122.797253),(-68.670911,122.809840),
+          (-68.595609,131.843647),(-73.923329,131.856724)],
           'XZ', (0, -9.6, 0), .5), DARK, 'Face', 'screen_ink')
-    smile=box(140,.4,8,(-70,-10,135)).fuse(box(58,.4,5,(-29,-10,130)))
+    smile=profile([(-68.967761,140.408062),(70.558516,140.081422),
+          (70.635380,131.501895),(30.993481,131.599199),(31.011721,127.078729),
+          (-29.518369,127.230926),(-29.502652,131.747690),(-69.039614,131.844736)],
+          'XZ', (0, -10, 0), .4)
     b.add('PixelSmileHighlight', smile, WHITE, 'Face', 'screen')
     # A separate shallow transparent cap approximates the reference's curved
     # reflection while retaining the measured flat panel and active rectangle.

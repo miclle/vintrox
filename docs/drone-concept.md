@@ -2,6 +2,8 @@
 
 2026-10-26，当前为 v61 喷口外罩中段减薄修订。按最新要求保留四根新增支柱，其余造型尽可能向全部参考图片和旋转视频靠近。逐张图片采用独立透视相机，视频抽取十方位；保存真实 CAD 渲染、50% 叠加及差异图。比较方法、相机假设、历史回退和剩余差异见[叠加记录](drone-overlay-comparison.md)、[逐图记录](drone-reference-review.md)及[v61 视频叠加板](../cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-board.png)。目前仍未达到 90% 的整圈轮廓目标，不宣称与原作完全一致。
 
+2026-11-05 当前外观入口为 v95（v69 回环 2.2 mm + v73 表情轮廓），组合证据、哈希和固定相机比较见[ v95 组合基线](../cad/drone-concept/comparison/v95-v69-v73/README.md)。视频十方位平均轮廓 IoU 85.5533%、静态七图 82.2596%，仍低于 90% 目标；实测平面屏与四根支柱保持，外挂筒、侧控件和格栅存在。
+
 本轮 v63 屏幕外框候选的独立记录见[外观研究报告](drone-v63-study.md)，正式入口仍为 v61。
 
 v64 后护甲截面候选已完成同一固定相机下的十方位/七图真实 CAD 渲染、半透明叠加、差异图、FCStd/STEP 读回和对象级颜色恢复；视频整圈略退步，正式入口仍为 v61。见 [v64 候选记录](../cad/drone-concept/comparison/v64-rear-shoulder-study/README.md)。
