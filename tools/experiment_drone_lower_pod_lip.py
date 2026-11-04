@@ -1,6 +1,6 @@
 """Rebuild only saved small-pod shells and petals around a fitted shell lip.
 
-Root and terminal stations stay fixed. Source geometry is read from the saved
+Root and terminal section stations stay fixed, not their neighborhoods. Source geometry is read from the saved
 baseline; only the small-pod family uses its documented circular-section model.
 """
 import argparse
@@ -129,7 +129,7 @@ def main():
                   'new_advanced_check_failures': [], 'contact_checks_pending': True,
                   'support_pair_checks': len(changed)*len(supports), 'nonzero_support_overlaps': collisions,
                   'lip_local_z_mm': lip_z, 'lip_major_radius_mm': radius,
-                  'fixed_root_interval_mm': [0,10], 'fixed_terminal_z_mm': 53,
+                  'fixed_root_stations_mm': [0,10], 'fixed_terminal_z_mm': 53,
                   'limitations': ['documented circular-section pod hypothesis; no complete source geometry',
                                  'piecewise station remapping, not manufacturing design',
                                  'part contacts and fixed-camera comparison require independent checking']}

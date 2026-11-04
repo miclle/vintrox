@@ -23,6 +23,8 @@ def main():
     parser.add_argument('--base', type=Path, required=True)
     parser.add_argument('--appearance-source', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--verification', type=Path,
+                        help='Independent terminal/contact report for small-pod candidates')
     args = parser.parse_args()
     if args.output.exists() and any(args.output.iterdir()):
         raise ValueError('output must be a new empty directory')
@@ -33,6 +35,20 @@ def main():
             report['fcstd_sha256'] != digest(source) or
             mesh['fcstd_sha256'] != digest(source)):
         raise ValueError('diagnostic source hashes differ')
+    if report.get('new_advanced_check_failures') or report.get('contact_regressions'):
+        raise ValueError('diagnostic geometry/contact gate failed')
+    if (report.get('contact_checks_pending') or args.verification is not None or
+            any(n.startswith('LowerPod') for n in report['changed_objects'])):
+        if args.verification is None:
+            raise ValueError('independent small-pod verification required')
+        verification = json.loads(args.verification.read_text())
+        if (verification['fcstd_sha256'] != digest(source) or
+                verification['baseline_fcstd_sha256'] != digest(args.base) or
+                len(verification['terminal_slices']) != 36 or len(verification['contacts']) != 328 or
+                verification['terminal_regressions'] or verification['contact_regressions']):
+            raise ValueError('independent small-pod verification failed or incomplete')
+        report.update(contact_checks_pending=False, contact_regressions=[],
+                      independent_verification_sha256=digest(args.verification))
     changed = set(report['changed_objects'])
     with zipfile.ZipFile(args.base) as base, zipfile.ZipFile(source) as saved, zipfile.ZipFile(args.appearance_source) as appearance:
         payloads = {n: saved.read(n) for n in saved.namelist()}

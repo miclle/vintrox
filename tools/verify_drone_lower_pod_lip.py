@@ -46,14 +46,27 @@ def main():
                 if obj.Name.startswith(('LowerPodRib', 'LowerPodPetalRidge', 'LowerPodEdgeRail')):
                     centre = shape.Solids[0].CenterOfMass
                     index = int((math.degrees(math.atan2(centre.y, centre.x)) % 360)//20)
+                    if not obj.Name.startswith('LowerPodRib'):
+                        pairs.append((obj, rim))
                     if obj.Name.startswith('LowerPodRib'):
-                        # Terminal cross-sections are cut from saved solids,
-                        # including actual angular gaps and recess geometry.
+                        # A finite slab includes the loft's changing derivative;
+                        # compare the actual terminal face for the fixed-station gate.
                         box = Part.makeBox(100, 100, .001, App.Vector(-50, -50, 52.999))
                         first, second = shape.common(box), previous.common(box)
                         delta = first.cut(second).Volume+second.cut(first).Volume
+                        faces = [max([f for f in s.Faces if f.findPlane(1e-6) is not None],
+                                     key=lambda f: f.CenterOfMass.z) for s in (shape, previous)]
+                        face, old_face = faces
+                        area_delta = face.cut(old_face).Area+old_face.cut(face).Area
+                        edge_points = [[p for e in f.Edges for p in e.discretize(Number=25)] for f in faces]
+                        boundary_delta = max(Part.Vertex(p).distToShape(other.OuterWire)[0]
+                                             for points, other in zip(edge_points, reversed(faces)) for p in points)
+                        z_delta = max(abs(f.CenterOfMass.z-53) for f in faces)
                         records.append({'name': obj.Name, 'terminal_slice_difference_mm3': delta,
-                                        'regressed': delta >= 1e-6})
+                                        'terminal_face_difference_mm2': area_delta,
+                                        'terminal_boundary_max_distance_mm': boundary_delta,
+                                        'terminal_station_error_mm': z_delta,
+                                        'regressed': area_delta >= 1e-6 or boundary_delta >= 1e-6 or z_delta >= 1e-6})
                         pairs += [(obj, shell), (obj, rim), (obj, diaphragm)]
                         for detail in objects:
                             if not detail.Name.startswith(('LowerPodPetalRidge', 'LowerPodEdgeRail')):
@@ -77,9 +90,10 @@ def main():
     result = {'fcstd_sha256': digest(args.model), 'baseline_fcstd_sha256': digest(args.baseline),
               'script_sha256': digest(Path(__file__)), 'terminal_slices': records,
               'terminal_regressions': terminal_regressions,
-              'terminal_slice_tolerance_mm3': 1e-6,
+              'terminal_face_tolerance_mm2': 1e-6, 'terminal_boundary_tolerance_mm': 1e-6,
               'contacts': contacts, 'contact_regressions': regressions,
-              'limitations': ['terminal 0.001 mm slice comparison; not the entire leaf shape',
+              'limitations': ['terminal face and sampled complete boundary checked; not the entire leaf shape',
+                             'finite 0.001 mm slab difference retained as a diagnostic, not terminal face equality',
                              'contact gaps compare CAD solids only; no manufacturing tolerance or physical acceptance']}
     args.output.write_text(json.dumps(result, indent=2)+'\n')
     print('terminal checks', len(records), 'terminal regressions', len(terminal_regressions),
