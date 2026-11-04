@@ -40,6 +40,7 @@ OLIVE = (0.36, 0.38, 0.25)
 NOZZLE_PETALS = 12  # Rear guide pitch and both oblique views; appearance inference.
 COOLING_FINS = 15  # Repeating 22–23 px bands in the fixed rear video view.
 UNDERBODY_LOOP_RADIUS = 2.2  # v69 fixed-video cable thickness fit; appearance only.
+FRONT_CHEEK_X_SCALE = 0.970  # v96 fixed-camera side-shell contract; appearance only.
 NOZZLE_RADIAL_SCALE = 0.90  # Rear fixed-view fit; local X/Y only, appearance only.
 NOZZLE_SHELL_RADIAL_SCALE = 0.96  # Recessed housing fit; kept wider than the nozzle interior.
 NOZZLE_PETAL_TANGENTIAL_SCALE = 0.8648  # v60 local tangential contract; 0.92 relative to v58, root band remains unchanged.
@@ -1036,6 +1037,21 @@ def add_reference_side_modules(study):
         points=[(x,70,50),(x+3,95,28),(x+3,150,31),(x,170,55)]
         study.add(f'UnderbodyHarness{i}',tube(points,1.2),RED if i==0 else WHITE if i<4 else DARK,'Details','cable')
 
+    # v96 contracts only the two broad front cheek plates and their bridge
+    # blocks around the model centre plane.  This is a real CAD transform
+    # selected from the fixed-camera candidate study; the measured flat
+    # screen, side controls, grilles, external barrels and supports remain
+    # unchanged.  It is an appearance parameter, not a manufacturing fit.
+    if abs(FRONT_CHEEK_X_SCALE - 1.0) > 1e-12:
+        matrix = App.Matrix()
+        matrix.A11 = FRONT_CHEEK_X_SCALE
+        for obj in study.items:
+            if obj.Name.startswith(('FrontCheek',)):
+                shape = obj.Shape.transformGeometry(matrix)
+                if not shape.isValid() or not shape.Solids or not all(s.isClosed() for s in shape.Solids):
+                    raise ValueError('Invalid front cheek contraction: '+obj.Name)
+                obj.Shape = shape
+
 
 def rear_raked_slab(front, back, bottom, top, half_width, knee=134, fold_radius=8):
     """One rounded prism shared by the raked cavity and closure clearance."""
@@ -1397,6 +1413,7 @@ def build(root, frame_view=True):
         ('ScreenThickness', 2, '用户测量口述 mm'), ('ActiveWidth', 200, '用户指定 mm'),
         ('ActiveHeight', 150, '用户指定 mm'), ('HullWidth', 201.6, '外观假设 mm'),
         ('HullDepth', 220, '外观假设 mm'), ('WingTop', 361.54, '参考轮廓反投影假设 Z mm'),
+        ('FrontCheekXScale', FRONT_CHEEK_X_SCALE, 'v96 固定相机外观候选；真实 CAD 横向缩放，无制造验证'),
         ('WooferDiameter', 88, '占位假设；未选单元 mm'),
         ('WooferDepth', 40, '占位假设；不含接线/行程 mm'),
     ]
@@ -2089,7 +2106,8 @@ def save_outputs(doc, items, out):
         local_patches[name]=local
     label_metadata=warning_label_positions(local_patches)
     manifest = {
-        'revision': 'v61-nozzle-fairing-depth3',
+        'revision': 'v96-front-cheek-contract097',
+        'front_cheek_x_scale': FRONT_CHEEK_X_SCALE,
         'belly_relief': {'outer_floor_z_mm':52.5,'central_strip_width_mm':64,'outer_flat_start_x_mm':62,'basis':'appearance-derived closed lower shell; support geometry retained, no load validation'},
         'nozzle_marking_spec': MARKING_SPEC,
         'rear_shoulder_section_exponent': 1.5,

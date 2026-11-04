@@ -1,5 +1,5 @@
 {
-  "revision": "v95-v69-v73-combined-appearance-baseline",
+  "revision": "v96-front-cheek-contract097",
   "belly_relief": {
     "outer_floor_z_mm": 52.5,
     "central_strip_width_mm": 64,
@@ -165,7 +165,7 @@
     287.619455769915,
     385.09868316645463
   ],
-  "fcstd_sha256": "ed7175189e0827f9eee6851f97a91c8bf51d31cef157e98d7652caf817672508",
+  "fcstd_sha256": "71e0d53bbd8787765a8a45caf6a1530368b52147820e438c38c4cdcabd0eebb2",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4359,6 +4359,7 @@
   "underbody_loop_radius_mm": 2.2,
   "expression_profile": "v73 fixed-camera frame-270 CAD projection; PixelMouth and PixelSmileHighlight only",
   "expression_candidate_source": "comparison/v95-v69-v73/candidate.FCStd",
-  "step_sha256": "606991e6a36f44f0322cc7b3dcd07c602a980279580f722213177a4f78b0c8b1",
-  "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation"
+  "step_sha256": "0896826e0f329ac6965f271b1aac2ecb154c14c53af6291371b0c6b9c0ed30cd",
+  "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
+  "front_cheek_x_scale": 0.97
 }

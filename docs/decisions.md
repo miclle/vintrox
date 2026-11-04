@@ -268,3 +268,9 @@ v91 将 v84 的 108 个 `LowerPod*` 根部修正叠加到 v90 前侧护壳收缩
 基于 v90 的 `ScreenBezel` 高差异归因，v92（每边收缩 1 mm）与 v93（每边收缩 0.5 mm）均完成固定十视频／七静态真实 CAD 比较；视频平均 IoU 分别为 **85.5575252%**、**85.5711819%**，低于 v90 的 **85.5830343%**。静态分别为 **82.3531733%**、**82.3577276%**，只有小幅上升，不能抵消视频退步。
 
 v94 只合并 36 件 `LowerPodRib`，视频／静态为 **85.5779490%／82.3405997%**，均低于 v90。决策：三组均拒绝，保留 v90；v91 的 108 件 `LowerPod` 根部组合也不回退合入。下一轮应继续按跨视角真实遮挡检查 `NozzlePetal`、`BrowUnderside`、`ScreenBezel` 和剩余 `LowerPod` 家族，避免把局部静态增益写成整圈改善。证据见 [v92](../cad/drone-concept/comparison/v92-bezel-contract1mm/README.md)、[v93](../cad/drone-concept/comparison/v93-bezel-contract0p5mm/README.md)、[v94](../cad/drone-concept/comparison/v94-podribs-v90/README.md)。
+
+## 2026-11-05：v96 前脸颊收缩采用
+
+v96 以 v95 为基线，仅将 `FrontCheekLeft/Right` 与 `FrontCheekBridgeLeft/Right` 围绕模型中心 X=0 缩放为 `0.970`；屏幕、四根支柱、外挂筒、屏幕侧控件和格栅保持。固定相机十方位／七静态图平均轮廓 IoU 为 **85.5817875%／82.2961983%**，相对 v95 均提升，但仍低于 90% 目标。
+
+决策：v96 作为当前外观入口，正式入口 FCStd SHA-256 为 `71e0d53bbd8787765a8a45caf6a1530368b52147820e438c38c4cdcabd0eebb2`，STEP SHA-256 为 `0896826e0f329ac6965f271b1aac2ecb154c14c53af6291371b0c6b9c0ed30cd`。保存读回通过，确认 696 个可见渲染对象、1008 个有效闭合 STEP solids、屏幕几何保持、四支柱保护和 74 种 RGB 三元组；证据见 [v96](../cad/drone-concept/comparison/v96-front-cheek-contract097/README.md)。这是静态外观研究结论，曲面参考屏差异以及打印、装配、光学、声学、热、电气和实物验收仍待验证。

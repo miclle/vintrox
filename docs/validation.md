@@ -628,3 +628,9 @@ v76 将两个互不重叠的已保存研究候选合并为一套 FCStd，并重�
 三组候选均以 v90 保存 FCStd 为基线，沿用视频十方位和静态七图固定相机、真实 CAD 三角网格和透明叠加；不使用图像变形、逐件配准或删件。v92 每边收缩 1 mm，FCStd `dce5b0056976fb80ebe4fbdbdcf7bf61bc3b6115894bfb93806cab46568b45bd`、STEP `22888f9748d73a468abfad2b9a88251195b36e20d07471f6b48bb83bec923b2e`，视频／静态 IoU `0.855575251720`／`0.823531732513`；v93 每边收缩 0.5 mm，FCStd `607aca741645356461ed6b738c6bfe09b84585ada13e53acdc5dddde59a3a24a`、STEP `e25a8095e58ae5c0e37a74602b4b574a69d8e8bc2ff70ee9bfbbc073663a5c0b`，视频／静态 `0.855711819111`／`0.823577275736`。两者视频均退步，未采用。
 
 v94 仅改变 36 件 `LowerPodRib`，FCStd `9d4dd9c23ce8703d8aea93eedc3849159a70d797c9ac8cd8c8b9716984599323`、STEP `9feb8a6b080f076b709e1a010f4b942dab9b81d7e183ef1248703b037a921ced`，视频／静态 `0.855779489806`／`0.823405996778`，均低于 v90，未采用。三组均保存读回有效、696 个网格对象与颜色三元组合同保持；GUI 外观成员继承 v90，未执行新的原生截图审计。完整证据见 [v92](../cad/drone-concept/comparison/v92-bezel-contract1mm/README.md)、[v93](../cad/drone-concept/comparison/v93-bezel-contract0p5mm/README.md)、[v94](../cad/drone-concept/comparison/v94-podribs-v90/README.md)。这些是外观研究证据，不转为制造、光学、装配或实物验收。
+
+## 2026-11-05：v96 前脸颊收缩验证
+
+使用固定视频十方位与静态七图相机，以真实 CAD 三角网格进行比较；未使用图像变形、逐件配准或删件。v96 仅改变四件前脸颊及桥接件，X=0 缩放系数为 `0.970`。视频平均轮廓 IoU 为 `0.855817874914`，静态平均为 `0.822961982963`；相对 v95 均提升，但 90% 整机目标仍未达成。
+
+FreeCAD bundled Python 保存读回验证通过：696 个可见渲染对象、1008 个有效闭合 STEP solids、24/24 闭合探针、屏幕面板 `210 × 160 × 2 mm`、四根支柱及其落地高度保持，STEP 体积相对误差 `6.041531985e-7`，边界最大差 `1.99e-12 mm`。入口 FCStd SHA-256 为 `71e0d53bbd8787765a8a45caf6a1530368b52147820e438c38c4cdcabd0eebb2`，STEP SHA-256 为 `0896826e0f329ac6965f271b1aac2ecb154c14c53af6291371b0c6b9c0ed30cd`；颜色审计为 74 种 RGB 三元组。完整证据见 [v96 验证目录](../cad/drone-concept/comparison/v96-front-cheek-contract097/README.md)及入口 [读回报告](../cad/drone-concept/readback-verification.json)。上述仅覆盖保存 CAD 的静态外观研究，未完成打印、装配、光学、声学、热、电气或实物验收。
