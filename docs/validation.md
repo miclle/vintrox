@@ -530,4 +530,10 @@ v78 从 v69 保存叶片出发，在 Z=98 mm 保留根部，末段轴向 1.50 �
 
 `tools/experiment_drone_loop_path.py` 以 40 个半径 2.2 mm 的圆截面平滑放样构建两件回环，并检查高级几何、未改对象、端头接合及支撑相交。复跑在保存读回后发现 `UnderbodyLoop0` 与 `CentralSupportSeat` 相交 12.607588 mm³，基线为零，因此断言失败，未生成通过报告或候选网格。失败前写出的临时 FCStd 不是通过验收的候选，不纳入正式 CAD；正式 v61 和研究优选 v69 保持。
 
-复现需在带 FreeCAD、NumPy 和 SciPy 的 Python 环境中先运行拟合脚本的 `--output <fit.json>`，再运行诊断脚本，传入 `--base cad/drone-concept/comparison/v69-underbody-loop-radius2p2/candidate.FCStd`、同目录的 `--mesh meshes.json`（使用完整路径）、`--fit <fit.json>` 和空目录 `--output <diagnostic-dir>`。当前拟合应触发上述支撑相交拒绝；尚未进入固定多视角渲染、STEP 导出或完整轮廓验收。
+复现需在带 FreeCAD、NumPy 和 SciPy 的 Python 环境中先运行拟合脚本的 `--output <fit.json>`，再运行诊断脚本，传入 `--base cad/drone-concept/comparison/v69-underbody-loop-radius2p2/candidate.FCStd`、同目录的 `--mesh meshes.json`（使用完整路径）、`--fit <fit.json>` 和空目录 `--output <diagnostic-dir>`。上述拒绝对应 b709058c 版本的初始拟合；后续有向外约束的 v79 已另行验证，见下节。该初始失败路径未进入固定多视角渲染、STEP 导出或完整轮廓验收。
+
+## 2026-11-04：v79 回环多视角路径候选
+
+仅改变 v69 两件底部回环路径，半径仍为 2.2 mm，两端坐标保持。初始拟合与中央支撑座新增相交已拒绝；增加向外约束后，两件平滑放样回环保存读回无高级几何错误，26 组支撑相交均为零，四个实际端部与腹板均有正体积交叠。独立 STEP 读回为 1008 有效闭合实体、体积相对误差 3.66×10⁻⁷；未改 BRep／映射与正式 GUI 成员逐字节保持，原生四视角色彩及 696 件可见性核对通过。
+
+固定十视频／七静态 IoU 为 85.502853%／82.291857%；视频低于 v69，未采用。最终保存中心线观察 RMS 为 6.952350 px，但第 180／60 帧最大误差仍为投影屏幕水平跨度的 6.26%／5.56%。观察非新留出，中心线也不等于完整可见部件轮廓。正式 v61、研究优选 v69 及实测平面屏保持，90%／完整主要部件 5% 目标未完成。下一步联合核对回环厚度、根部转折和遮挡；不作为制造或实物验收。见 [v79 全部证据](../cad/drone-concept/comparison/v79-loop-multiview-path/README.md)。
