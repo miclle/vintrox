@@ -1,0 +1,110 @@
+"""Read-only native display audit in a separate FreeCAD GUI process.
+
+Set VINTROX_NATIVE_AUDIT_CONFIG to a JSON file containing an output directory
+and models [{name, model, mesh}]. Run with QT_QPA_PLATFORM=cocoa, --safe-mode,
+and temporary --user-cfg/--system-cfg paths. Never saves or edits a model.
+"""
+import hashlib
+import json
+import os
+from pathlib import Path
+import traceback
+
+import FreeCAD as App
+import FreeCADGui as Gui
+from PySide import QtCore
+
+
+config = json.loads(Path(os.environ['VINTROX_NATIVE_AUDIT_CONFIG']).read_text())
+output = Path(config['output']).resolve()
+output.mkdir(parents=True, exist_ok=True)
+models = iter(config['models'])
+records = []
+source_digest = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+
+
+def digest(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def next_model():
+    try:
+        item = next(models)
+    except StopIteration:
+        (output/'native-display-verification.json').write_text(json.dumps({
+            'status': 'native-open-and-view-capture-completed',
+            'freecad_version': App.Version(),
+            'macro_sha256': source_digest,
+            'models': records,
+            'limitations': ['screenshots require visual review',
+                           'views do not expose every hidden face',
+                           'native GUI uses 8-bit saved colors; mesh palette uses floats',
+                           'no physical, optical, manufacturing or assembly acceptance'],
+        }, indent=2)+'\n')
+        Gui.getMainWindow().close()
+        return
+    try:
+        model = Path(item['model']).resolve()
+        mesh = json.loads(Path(item['mesh']).read_text())
+        before = digest(model)
+        doc = App.openDocument(str(model))
+        names = {obj['name'] for obj in mesh['objects']}
+        visible = {obj.Name for obj in doc.Objects if hasattr(obj, 'Shape') and
+                   not obj.Shape.isNull() and obj.ViewObject.Visibility}
+        if names != visible:
+            raise ValueError('saved native visibility differs from mesh contract')
+        errors = []
+        for obj in mesh['objects']:
+            color = doc.getObject(obj['name']).ViewObject.ShapeColor[:3]
+            errors.append(max(abs(a-b) for a, b in zip(color, obj['color'])))
+        if max(errors) > .5/255+1e-6:
+            raise ValueError('native color differs by more than half an 8-bit level')
+        record = {'name': item['name'], 'model': str(model),
+                  'fcstd_sha256': before, 'visible_objects': len(visible),
+                  'mesh_fcstd_sha256': mesh['fcstd_sha256'],
+                  'palette_contract_sha256': digest(Path(item['mesh'])),
+                  'native_color_triples': len({tuple(doc.getObject(n).ViewObject.ShapeColor[:3]) for n in names}),
+                  'mesh_color_triples': len({tuple(o['color']) for o in mesh['objects']}),
+                  'max_native_vs_mesh_channel_difference': max(errors),
+                  'native_visibility_equals_mesh': True, 'views': []}
+        poses = iter([('isometric', 'viewAxonometric'), ('front', 'viewFront'),
+                      ('rear', 'viewRear'), ('right', 'viewRight')])
+        def next_view():
+            try:
+                name, method = next(poses)
+            except StopIteration:
+                App.closeDocument(doc.Name)
+                record['file_unchanged_after_native_close'] = digest(model) == before
+                if not record['file_unchanged_after_native_close']:
+                    raise ValueError('read-only native inspection changed the file')
+                records.append(record)
+                QtCore.QTimer.singleShot(100, next_model)
+                return
+            try:
+                view = Gui.activeDocument().activeView()
+                getattr(view, method)()
+                view.fitAll()
+                Gui.updateGui()
+                def capture():
+                    try:
+                        path = output/f"{item['name']}-{name}.png"
+                        view.saveImage(str(path), 1400, 1100, 'Current')
+                        record['views'].append({'view': name, 'path': path.name,
+                                                'sha256': digest(path)})
+                        next_view()
+                    except Exception:
+                        fail()
+                QtCore.QTimer.singleShot(700, capture)
+            except Exception:
+                fail()
+        next_view()
+    except Exception:
+        fail()
+
+
+def fail():
+    (output/'native-display-error.txt').write_text(traceback.format_exc())
+    Gui.getMainWindow().close()
+
+
+QtCore.QTimer.singleShot(1000, next_model)
