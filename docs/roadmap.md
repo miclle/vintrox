@@ -229,3 +229,9 @@ v53 收薄侧后方底壳两翼，露出原先被厚横块遮挡的底部环件�
 见[下站收量试验](../cad/drone-concept/comparison/fairing-lower-v53-study/README.md)、[后框宽度试验](../cad/drone-concept/comparison/rear-frame-width-v53-study/README.md)及[当前轮廓对象归因](../cad/drone-concept/comparison/object-ids-v53/contour-attribution.json)。候选均已保存真实 CAD、同角度叠加和哈希检查；未提交或推送。
 
 2026-10-25 侧后壳/喷口暗部候选已完成并排除：后壳与凹舱横向内收 2 mm、喷口内盆收小 3 mm 的平均视频 IoU 变化都只有 0.000913 个百分点，未形成稳定视角收益。正式基线保持 v53；下一轮优先拟合 `RearArmourCheek` 与 `MainEnclosureShell` 的局部折面，并继续把阴影和实体轮廓分开验证。证据见 [v53 暗部研究](../cad/drone-concept/comparison/v53-shadow-nozzle-study/README.md)。
+
+## 2026-11-04：v71 屏框外扩与候选显示补充
+
+v71 从研究优选 v69 出发，仅将两件屏框外沿每边扩大 2 mm。固定视频十方位 / 静态七图 IoU 为 85.551238% / 82.184177%，均低于 v69；未采用，正式模型保持 v61，研究优选保持 v69。保存读回有效闭合，可见 FCStd 与 STEP 均为 1008 个实体，体积相对误差 3.65×10⁻⁷；其余 696 件 BRep 字节不变。详见 [v71 完整证据](../cad/drone-concept/comparison/v71-bezel-expand2mm/README.md)。
+
+v69 原候选缺少 GUI 外观数据，旧颜色结论只覆盖网格；新增显示修复副本，保留原文档与 BRep 字节。v71 已带正式 v61 的 GUI 外观数据，并有彩色预览；原生窗口无法被界面工具读取，目视检查仍待完成。整机轮廓 90% 与所有主要部件完整轮廓 5% 目标未达，后续应优先核对 video-08 的屏框开口/遮挡关系及喷口叶片局部差异；不代表实物、制造或整机集成验收。
