@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/miclle/github/miclle/vintrox/tools/experiment_drone_loop_path.py", line 122, in <module>
+    main()
+  File "/Users/miclle/github/miclle/vintrox/tools/experiment_drone_loop_path.py", line 82, in main
+    assert overlap <= previous+1e-6, (name, support, overlap, previous)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('UnderbodyLoop0', 'CentralSupportSeat', 12.60758805065121, 0.0)
