@@ -8,7 +8,9 @@ the saved model from the currently divergent nozzle generator.
 import argparse
 import hashlib
 import json
+import math
 from pathlib import Path
+import re
 
 import FreeCAD as App
 import Part
@@ -66,7 +68,8 @@ def extend(shape, frame, factor, station):
                     local_result.optimalBoundingBox(False, False).ZMax]
 
 
-def extend_tip(shape, frame, factor, station):
+def extend_tip(shape, frame, factor, station, radial_shift=0, centre_shift=0,
+               leaf_index=0):
     """Keep the root BRep and splice an affine tip at a real planar seam."""
     local = shape.copy()
     local.Placement = frame.inverse().multiply(local.Placement)
@@ -82,6 +85,14 @@ def extend_tip(shape, frame, factor, station):
     matrix = App.Matrix()
     matrix.A33 = factor
     matrix.A34 = station*(1-factor)
+    # Shear about the fixed seam changes the terminal radius and centre without
+    # moving any seam point. 17 mm is the nominal saved terminal span; actual
+    # shifts vary with each point's saved local Z and are recorded as such.
+    angle = math.radians(leaf_index*30+30)
+    matrix.A13 = radial_shift*math.cos(angle)/17
+    matrix.A23 = (radial_shift*math.sin(angle)+centre_shift)/17
+    matrix.A14 = -station*matrix.A13
+    matrix.A24 = -station*matrix.A23
     tip = upper.transformGeometry(matrix)
     result = lower.fuse(tip) if not lower.isNull() else tip
     new_max = result.optimalBoundingBox(False, False).ZMax
@@ -97,11 +108,19 @@ def main():
     parser.add_argument('--station', type=float, default=98)
     parser.add_argument('--construction', choices=['solid-affine', 'tip-splice'],
                         default='solid-affine')
+    parser.add_argument('--tip-radial-shift', type=float, default=0,
+                        help='Tip-splice shear: radial shift per 17 mm of original axial span')
+    parser.add_argument('--tip-centre-shift', type=float, default=0,
+                        help='Tip-splice shear: local Y shift per 17 mm of original axial span')
     args = parser.parse_args()
     if not 1 < args.factor <= 2:
         raise ValueError('Exploratory factor must be in (1, 2]')
     if not -200 < args.station < 300:
         raise ValueError('station is outside the local clipping envelope')
+    if max(abs(args.tip_radial_shift), abs(args.tip_centre_shift)) > 10:
+        raise ValueError('tip shear is outside the exploratory 10 mm range')
+    if args.construction != 'tip-splice' and (args.tip_radial_shift or args.tip_centre_shift):
+        raise ValueError('tip shear requires tip-splice construction')
     if args.output.exists() and any(args.output.iterdir()):
         raise ValueError('Use a new empty output directory')
     mesh = json.loads(args.base_meshes.read_text())
@@ -122,8 +141,12 @@ def main():
         if args.construction == 'tip-splice' and name.startswith(('NozzlePetalGuide', 'NozzlePetalHinge')):
             continue
         old = base.getObject(name).Shape
-        transform = extend_tip if args.construction == 'tip-splice' else extend
-        shape, bounds = transform(old, frame, args.factor, args.station)
+        if args.construction == 'tip-splice':
+            index = int(re.fullmatch(r'NozzlePetal(?:Inset|EdgeRail|EndHem|Ridge)?(\d+)(?:_\d+)?', name)[1])
+            shape, bounds = extend_tip(old, frame, args.factor, args.station,
+                                       args.tip_radial_shift, args.tip_centre_shift, index)
+        else:
+            shape, bounds = extend(old, frame, args.factor, args.station)
         if bounds is None:
             continue
         old_errors, errors = advanced_errors(old), advanced_errors(shape)
@@ -196,6 +219,8 @@ def main():
                   'baseline_fcstd_sha256': base_hash, 'fcstd_sha256': digest(model),
                   'script_sha256': digest(Path(__file__)), 'factor': args.factor,
                   'construction': args.construction,
+                  'tip_radial_shift_per_17mm_span_mm': args.tip_radial_shift,
+                  'tip_centre_y_shift_per_17mm_span_mm': args.tip_centre_shift,
                   'fixed_station_mm': args.station, 'changed_objects': changed,
                   'preserved_objects': preserved, 'protected_supports': supports,
                   'parts': records, 'contacts': contacts,

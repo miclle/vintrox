@@ -59,6 +59,7 @@ def main():
     args.output.mkdir(parents=True,exist_ok=True)
     images=[]
     for pose in config['views']:
+        scene.render.resolution_x,scene.render.resolution_y=pose.get('resolution',config['resolution'])
         camera.data.lens=pose['lens_mm'];camera.data.sensor_width=pose['sensor_width_mm']
         camera.location=Vector(pose['eye_mm'])/1000
         camera.rotation_euler=(Vector(pose['target_mm'])/1000-camera.location).to_track_quat('-Z','Y').to_euler()
