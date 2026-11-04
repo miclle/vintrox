@@ -15,6 +15,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--candidate', type=Path, required=True)
     parser.add_argument('--baseline', type=Path, required=True)
+    parser.add_argument('--label', default='v79')
+    parser.add_argument('--assessment', default='pending assessment of complete fixed-view results and local contour errors')
     args = parser.parse_args()
     candidate, baseline = args.candidate, args.baseline
     model_hash = digest(candidate/'candidate.FCStd')
@@ -44,7 +46,7 @@ def main():
         view = f'video-{frame//30:02d}'
         sources = [candidate/'video-comparison/reference-frames'/f'frame-{frame//30+1:02d}.png',
                    baseline/'video-renders'/(view+'.png'), candidate/'video-renders'/(view+'.png')]
-        for j, (path, label) in enumerate(zip(sources, ['SOURCE', 'V69', 'V79'])):
+        for j, (path, label) in enumerate(zip(sources, ['SOURCE', 'V69', args.label.upper()])):
             im = Image.open(path).convert('RGBA')
             black = Image.new('RGBA', im.size, (0, 0, 0, 255))
             black.alpha_composite(im)
@@ -55,14 +57,14 @@ def main():
     board.save(candidate/'loop-closeup.png')
     board = Image.new('RGB', (1400, 1100))
     for i, view in enumerate(['isometric', 'front', 'rear', 'right']):
-        im = Image.open(candidate/'native-display'/f'v79-{view}.png')
+        im = Image.open(candidate/'native-display'/f'{args.label}-{view}.png')
         im.thumbnail((700, 550))
         board.paste(im, ((i%2)*700, (i//2)*550))
     board.save(candidate/'native-display/native-board.png')
     report = {'fcstd_sha256': model_hash, 'baseline_fcstd_sha256': baseline_hash,
               'script_sha256': digest(Path(__file__)), 'comparisons': comparisons,
               'image_alignment': 'original fixed cameras; identical rectangular crops; no image warp',
-              'adoption': 'not adopted: video mean regresses despite static improvement',
+              'adoption': args.assessment,
               'limitations': ['crop board is illustrative; original full-view metrics remain authoritative',
                              'manual centreline observations do not prove full-part contour accuracy',
                              'formal v61 and preferred exterior study v69 remain unchanged',

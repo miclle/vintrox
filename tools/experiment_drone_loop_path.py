@@ -17,14 +17,15 @@ def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def loop_loft(points):
+def loop_loft(points, parameters=None, radius=2.2):
     curve = Part.BSplineCurve()
-    curve.interpolate([App.Vector(*p) for p in points])
+    keywords = {'Parameters': parameters} if parameters is not None else {}
+    curve.interpolate([App.Vector(*p) for p in points], **keywords)
     # The 3D pipe-shell sweep reports GeomAbs_C0 in OCCT even with a C2
     # centreline. Smooth circular-section lofts avoid that surface failure.
     sections = []
     for value in np.linspace(curve.FirstParameter, curve.LastParameter, 40):
-        sections.append(Part.Wire([Part.makeCircle(2.2, curve.value(float(value)),
+        sections.append(Part.Wire([Part.makeCircle(radius, curve.value(float(value)),
                                                   curve.tangent(float(value))[0])]))
     return Part.makeLoft(sections, True, False)
 
@@ -33,7 +34,10 @@ def main():
     parser = argparse.ArgumentParser()
     for name in ['base', 'mesh', 'fit', 'output']:
         parser.add_argument('--'+name, type=Path, required=True)
+    parser.add_argument('--radius', type=float, default=2.2)
     args = parser.parse_args()
+    if not np.isfinite(args.radius) or args.radius <= 0:
+        raise ValueError('radius must be finite and positive')
     if args.output.exists() and any(args.output.iterdir()):
         raise ValueError('output must be empty')
     mesh = json.loads(args.mesh.read_text())
@@ -47,7 +51,8 @@ def main():
     before = {o.Name: signature(o.Shape) for o in doc.Objects if hasattr(o, 'Shape') and not o.Shape.isNull()}
     try:
         for name in changed:
-            shape = loop_loft(fit['centreline_paths_mm'][name])
+            parameters = fit.get('source_control_parameters') if fit.get('method', '').startswith('11 chord-parameter') else None
+            shape = loop_loft(fit['centreline_paths_mm'][name], parameters, args.radius)
             if not shape.isValid() or not shape.isClosed() or len(shape.Solids) != 1 or advanced_errors(shape):
                 raise ValueError('invalid swept loop: '+name)
             doc.getObject(name).Shape = shape
@@ -69,7 +74,7 @@ def main():
             shape = doc.getObject(name).Shape
             assert not advanced_errors(shape)
             for endpoint in (fit['centreline_paths_mm'][name][0], fit['centreline_paths_mm'][name][-1]):
-                probe = Part.makeSphere(2.2, App.Vector(*endpoint))
+                probe = Part.makeSphere(args.radius, App.Vector(*endpoint))
                 overlap = probe.common(belly).Volume
                 contacts.append({'name': name, 'endpoint_mm': endpoint, 'belly_overlap_mm3': overlap})
                 assert overlap > 0, (name, endpoint)
@@ -108,7 +113,7 @@ def main():
                   'script_sha256': digest(Path(__file__)), 'fit_sha256': digest(args.fit),
                   'changed_objects': changed, 'preserved_objects': preserved,
                   'new_advanced_check_failures': [], 'contact_regressions': [],
-                  'radius_mm': 2.2, 'centreline_paths_mm': fit['centreline_paths_mm'],
+                  'radius_mm': args.radius, 'centreline_paths_mm': fit['centreline_paths_mm'],
                   'construction': 'smooth loft through 40 circular normal sections; pipe-shell sweep rejected for advanced C0 errors',
                   'endpoint_belly_contacts': contacts, 'support_collisions': collisions,
                   'saved_centreline_observations': observations,
