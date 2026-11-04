@@ -250,3 +250,9 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 候选的保存读回、STEP、变化网格、四支柱保护及原生颜色／可见性审计通过；对象 ID 归因显示 `NozzlePetal` 外侧多余像素由 v69 的 17,891 降至 16,351，但 `LowerPodRib`、屏框和前罩仍是主要差异来源。显示修复只恢复 v69 的 GUI 可见性／颜色成员，未改变候选 BRep；最终渲染清单重新绑定修复后的 FCStd 哈希。证据见 [v88 候选](../cad/drone-concept/comparison/v88-petal-contract096/)。
 
 90% 整机轮廓和主要部件投影偏差不超过屏幕宽度 5% 仍未达成；后续继续联合检查叶片端部、外罩、`LowerPodRib`、屏框和真实遮挡，不删减可见零件或改变评分规则。
+
+## 2026-11-05：v89 喷口叶片与前罩组合研究
+
+将 v88 的 `NozzlePetal*` 叶片切向收缩与 v85 的 `ProjectingBrow`、`BrowUnderside` 前罩收缩合并到 v69。两组真实 CAD 变化互不重叠，实测平面屏、外挂筒、侧控件、格栅和四根支柱保持。固定十视频／七静态平均 IoU 为 **85.5545540%／82.3133887%**；相对 v69 视频仅略升，静态提升较明显，但完整目标仍未达成，因此候选不替换正式 v61 或研究优选 v69。
+
+保存读回、1071 个有效闭合 STEP 实体、变化网格、四支柱保护及原生颜色／可见性审计均通过。对象 ID 归因仍由 `NozzlePetal`、`BrowUnderside`、`LowerPodRib` 和屏框主导，不能把局部静态提升解释为整机轮廓通过。证据见 [v89 组合候选](../cad/drone-concept/comparison/v89-petal-brow-combination/README.md)。
