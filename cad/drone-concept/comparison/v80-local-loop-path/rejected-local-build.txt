@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/miclle/github/miclle/vintrox/tools/experiment_drone_loop_path.py", line 130, in <module>
+    main()
+  File "/Users/miclle/github/miclle/vintrox/tools/experiment_drone_loop_path.py", line 53, in main
+    shape = loop_loft(fit['centreline_paths_mm'][name], parameters, args.radius)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/miclle/github/miclle/vintrox/tools/experiment_drone_loop_path.py", line 30, in loop_loft
+    return Part.makeLoft(sections, True, False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Part.OCCError: 15StdFail_NotDone BRep_API: command not done
