@@ -553,3 +553,27 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 真实 CAD 遮挡后的对象 ID 检查显示四组可见边界 RMS 均较 v69／v81 改善，但两个侧面最大观察偏差仍为屏幕投影宽度的 7.52%／14.74%。部分观察在 CAD 中落于小喷口、主壳或外挂筒内衬，提示周边遮挡需联合核对；不删除不利点或把预筛包络当可见边界。参考填洞轮廓外多出像素由 194,695 增至 207,914，不能以局部采样收益掩盖整圈退步。全部观察为人工、非新留出证据。
 
 正式 v61、研究优选 v69 和实测平面屏保持。下一步联合核对小喷口、底壳、外挂筒及回环遮挡，不继续只扭曲回环。90%／完整主要部件 5% 目标未完成，曲面罩与隐藏结构仍是假设，未作制造或实物验收。见 [v82 完整证据](../cad/drone-concept/comparison/v82-loop-visible-boundaries/README.md)。
+
+## 2026-11-04：小喷口口环工具与端部保留检查
+
+新增口环拟合、局部候选生成和独立接合检查工具。拟合使用 v69 保存的喷口轴线和固定相机，以及视频第 0／60／180／240 帧的人工可见口沿观察；全部视角此前已检查，不属于新留出证据。拟合建议局部口环 Z 从 36mm 移至 43.104864mm，主半径从 27.5mm 调至 27.072762mm，观察点 RMS 为 3.518193px。这是圆形口环假设下的图像拟合，不是实测尺寸或完整轮廓验收。
+
+临时候选 FCStd 的 SHA-256 为 `9366d61a26122c39de9cbe7e4bced9195569b197e13e22dce9b955b24814ffa6`。保存读回的 150 件变更对象无新增高级几何错误，1950 组支撑相交检查无退步；独立检查的 220 组接合间隙无退步。但 36 片叶片在局部 Z=52.999–53mm 的端部薄切片对称差体积均约为 `2.208057e-6 mm³`，超过原定 `1e-6 mm³` 门槛，检查以非零状态退出。不得据此宣称端部几何完整保留；尚未区分放样末端邻域变化与布尔运算数值误差。
+
+验证工具保留失败门槛，先写出全部端部和接合记录再退出；生成工具将尚未执行的接合检查明确标为待检查。候选留在临时目录，未归档为通过的 v83 CAD 包，未执行本候选的 STEP、原生显示或整圈图像验收。正式 v61 与研究优选 v69 未修改。下一步定位端部差异后再评估几何修订，当前工具交付不代表外观目标或制造验收完成。
+
+复现命令（使用带 NumPy／SciPy 的 FreeCAD Python 环境；输出候选目录必须为空）：
+
+```sh
+export PYTHONPATH=/Applications/FreeCAD.app/Contents/Resources/lib
+/Applications/FreeCAD.app/Contents/Resources/bin/python tools/fit_drone_lower_pod_rim.py \
+  --output /tmp/vintrox-small-pod-fit.json
+/Applications/FreeCAD.app/Contents/Resources/bin/python tools/experiment_drone_lower_pod_lip.py \
+  --base cad/drone-concept/comparison/v69-underbody-loop-radius2p2/candidate.FCStd \
+  --mesh cad/drone-concept/comparison/v69-underbody-loop-radius2p2/meshes.json \
+  --fit /tmp/vintrox-small-pod-fit.json --output /tmp/vintrox-small-pod-review
+/Applications/FreeCAD.app/Contents/Resources/bin/python tools/verify_drone_lower_pod_lip.py \
+  --model /tmp/vintrox-small-pod-review/candidate.FCStd \
+  --baseline cad/drone-concept/comparison/v69-underbody-loop-radius2p2/candidate.FCStd \
+  --output /tmp/vintrox-small-pod-contacts.json
+```
