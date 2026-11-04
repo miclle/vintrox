@@ -1,9 +1,9 @@
 """Extend saved nozzle leaves in real BRep space for visual diagnosis.
 
-Parts below the root station remain fixed; crossing solids anchor their lower
-end to avoid a sharp piecewise join. This is diagnostic and may fail advanced
-geometry or contact checks. It isolates leaf tips from shell/recess shadow and does
-not rebuild the saved model from the currently divergent nozzle generator.
+The default anchors crossing solids at their lower end. The tip-splice option
+retains the root, guides and hinges and adds an explicit planar seam. Both are
+diagnostic and may fail advanced geometry or contact checks. Neither rebuilds
+the saved model from the currently divergent nozzle generator.
 """
 import argparse
 import hashlib
@@ -66,15 +66,42 @@ def extend(shape, frame, factor, station):
                     local_result.optimalBoundingBox(False, False).ZMax]
 
 
+def extend_tip(shape, frame, factor, station):
+    """Keep the root BRep and splice an affine tip at a real planar seam."""
+    local = shape.copy()
+    local.Placement = frame.inverse().multiply(local.Placement)
+    bounds = local.optimalBoundingBox(False, False)
+    if bounds.ZMax <= station:
+        return shape.copy(), None
+    # Boxes fully cover this saved nozzle in its local frame. The seam is an
+    # explicit CAD edge; no claim of tangent continuity is made at the station.
+    lower = local.common(Part.makeBox(400, 400, station+200,
+                                     App.Vector(-200, -200, -200)))
+    upper = local.common(Part.makeBox(400, 400, 300-station,
+                                     App.Vector(-200, -200, station)))
+    matrix = App.Matrix()
+    matrix.A33 = factor
+    matrix.A34 = station*(1-factor)
+    tip = upper.transformGeometry(matrix)
+    result = lower.fuse(tip) if not lower.isNull() else tip
+    new_max = result.optimalBoundingBox(False, False).ZMax
+    result.Placement = frame.multiply(result.Placement)
+    return result, [bounds.ZMin, bounds.ZMax, new_max]
+
+
 def main():
     parser = argparse.ArgumentParser()
     for name in ['base-model', 'base-meshes', 'output']:
         parser.add_argument('--'+name, type=Path, required=True)
     parser.add_argument('--factor', type=float, required=True)
     parser.add_argument('--station', type=float, default=98)
+    parser.add_argument('--construction', choices=['solid-affine', 'tip-splice'],
+                        default='solid-affine')
     args = parser.parse_args()
     if not 1 < args.factor <= 2:
         raise ValueError('Exploratory factor must be in (1, 2]')
+    if not -200 < args.station < 300:
+        raise ValueError('station is outside the local clipping envelope')
     if args.output.exists() and any(args.output.iterdir()):
         raise ValueError('Use a new empty output directory')
     mesh = json.loads(args.base_meshes.read_text())
@@ -92,8 +119,11 @@ def main():
         name = item['name']
         if not name.startswith('NozzlePetal'):
             continue
+        if args.construction == 'tip-splice' and name.startswith(('NozzlePetalGuide', 'NozzlePetalHinge')):
+            continue
         old = base.getObject(name).Shape
-        shape, bounds = extend(old, frame, args.factor, args.station)
+        transform = extend_tip if args.construction == 'tip-splice' else extend
+        shape, bounds = transform(old, frame, args.factor, args.station)
         if bounds is None:
             continue
         old_errors, errors = advanced_errors(old), advanced_errors(shape)
@@ -132,6 +162,8 @@ def main():
             names += [n for n in changed if n != leaf and (
                 n in [f'NozzlePetalInset{index}', f'NozzlePetalRidge{index}', f'NozzlePetalEndHem{index}']
                 or n.startswith((f'NozzlePetalGuide{index}_', f'NozzlePetalEdgeRail{index}_')))]
+            names += [f'NozzlePetalGuide{index}_{rail}' for rail in range(2)
+                      if f'NozzlePetalGuide{index}_{rail}' not in names]
             for name in names:
                 first, second = saved.getObject(leaf).Shape, saved.getObject(name).Shape
                 gap = first.distToShape(second)[0]
@@ -154,11 +186,16 @@ def main():
         mesh['fcstd_sha256'] = digest(model)
         (args.output/'meshes.json').write_text(json.dumps(mesh))
         issues = [r['name'] for r in records if r['advanced_errors'] != r['baseline_advanced_errors']]
-        report = {'status': 'diagnostic candidate only; adoption blocked until geometry issues resolved',
+        contact_regressions = [c for c in contacts if c['regressed']]
+        status = ('diagnostic candidate; geometry/contact failures prevent adoption'
+                  if issues or contact_regressions else
+                  'saved research candidate; image comparison and export checks required')
+        report = {'status': status,
                   'new_advanced_check_failures': issues,
-                  'contact_regressions': [c for c in contacts if c['regressed']],
+                  'contact_regressions': contact_regressions,
                   'baseline_fcstd_sha256': base_hash, 'fcstd_sha256': digest(model),
                   'script_sha256': digest(Path(__file__)), 'factor': args.factor,
+                  'construction': args.construction,
                   'fixed_station_mm': args.station, 'changed_objects': changed,
                   'preserved_objects': preserved, 'protected_supports': supports,
                   'parts': records, 'contacts': contacts,
