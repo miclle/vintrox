@@ -40,7 +40,10 @@ def deform(points, t, parameters, side):
     weight[np.isclose(t, 0) | np.isclose(t, 1)] = 0
     dx, x_shear, dy, y_spread, dz, z_spread = parameters
     y, z = values[:, 1].copy(), values[:, 2].copy()
-    values[:, 0] = side*(44.5+weight*(dx+x_shear*(y-100)))
+    # Offset and shear are nonnegative at the innermost source station. This
+    # keeps the centreline outside the unchanged central seat; the loft still
+    # needs an exact saved-solid collision check because it can overshoot.
+    values[:, 0] = side*(44.5+weight*(dx+x_shear*(y-72.66)))
     values[:, 1] += weight*(dy+y_spread*(y-100))
     values[:, 2] += weight*(dz+z_spread*(z-30))
     return values
@@ -79,9 +82,9 @@ def main():
         return rows
     def residual(parameters):
         return np.concatenate([r['distance_px'] for r in measure(parameters)])
-    lower = [-20, -1, -30, -.8, -20, -.8]
+    lower = [0, 0, -30, -.8, -20, -.8]
     upper = [30, 1, 30, 1, 20, 1]
-    fit = least_squares(residual, [0]*6, bounds=(lower, upper),
+    fit = least_squares(residual, [1, .2, 0, .1, -2, 0], bounds=(lower, upper),
                         diff_step=.001, max_nfev=250)
     # Construct from the existing eleven interpolation stations. Their saved
     # curve parameter is recovered numerically; final saved pipe is remeasured.
@@ -93,7 +96,7 @@ def main():
     result = {'baseline_fcstd_sha256': digest(model), 'camera_config_sha256': digest(cameras_path),
               'source_video_sha256': cameras['reference_video_sha256'],
               'script_sha256': digest(Path(__file__)),
-              'parameter_names': ['x_offset', 'x_y_shear', 'y_offset', 'y_spread', 'z_offset', 'z_spread'],
+              'parameter_names': ['x_offset_at_y72p66', 'x_y_shear', 'y_offset', 'y_spread', 'z_offset', 'z_spread'],
               'parameters': fit.x.tolist(), 'bounds': [lower, upper],
               'fit_rms_px': float(np.sqrt(np.mean(fit.fun**2))),
               'baseline': measure([0]*6), 'fitted': measure(fit.x),

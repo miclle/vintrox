@@ -80,8 +80,13 @@ def main():
                                    'baseline_overlap_mm3': previous,
                                    'regressed': overlap > previous+1e-6})
                 assert overlap <= previous+1e-6, (name, support, overlap, previous)
-            face = next(f for f in shape.Faces if f.Surface.isUPeriodic())
+            # OCCT lofts store a closed U seam without the periodic flag.
+            # Select the lateral surface and verify its seam at several V
+            # stations before averaging the circular sections.
+            face = max(shape.Faces, key=lambda f: f.Area)
             u0, u1, v0, v1 = face.ParameterRange
+            assert all((face.valueAt(u0, float(v))-face.valueAt(u1, float(v))).Length < 1e-6
+                       for v in np.linspace(v0, v1, 9)), name
             paths[name] = np.asarray([np.mean([list(face.valueAt(float(u),float(v)))
                           for u in np.linspace(u0,u1,16,endpoint=False)],axis=0)
                           for v in np.linspace(v0,v1,500)])
