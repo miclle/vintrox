@@ -76,7 +76,7 @@ def main():
                            'actual_loop_endpoint_belly_overlap_mm3': contacts,
                            'support_overlap_mm3': overlaps})
         observations = []
-        for row in fit['fitted']:
+        for row in ([] if fit.get('observation_kind') else fit['fitted']):
             frame = row['source_frame']
             px = project(paths['UnderbodyLoop1' if row['side'] == 1 else 'UnderbodyLoop0'], frame, cameras)
             distances, indices = cKDTree(px).query(row['reference_px'])
@@ -99,7 +99,8 @@ def main():
               'changed_geometry_archive_members': modified,
               'appearance_archive_members_equal': len(gui),
               'solid_checks': checks, 'observations': observations,
-              'rms_px': float(np.sqrt(np.mean(np.concatenate([r['distance_px'] for r in observations])**2))),
+              'rms_px': float(np.sqrt(np.mean(np.concatenate([r['distance_px'] for r in observations])**2))) if observations else None,
+              'observation_kind': fit.get('observation_kind', 'manual centreline samples'),
               'limitations': ['1000 by 128 surface-parameter samples; finite centreline sampling',
                              'same uncertain manual observations as fitting; no fresh held-out evidence',
                              'centreline errors do not prove complete visible contour within 5 percent',

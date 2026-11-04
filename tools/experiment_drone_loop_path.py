@@ -101,7 +101,7 @@ def main():
         root = Path(__file__).resolve().parents[1]
         cameras = json.loads((root/'cad/drone-concept/comparison/v69-underbody-loop-radius2p2/video-comparison/cameras.json').read_text())
         observations = []
-        for obs in fit['fitted']:
+        for obs in ([] if fit.get('observation_kind') else fit['fitted']):
             name = 'UnderbodyLoop1' if obs['side'] == 1 else 'UnderbodyLoop0'
             px = project(paths[name], obs['source_frame'], cameras)
             distance, index = cKDTree(px).query(obs['reference_px'])
@@ -117,7 +117,7 @@ def main():
                   'construction': 'smooth loft through 40 circular normal sections; pipe-shell sweep rejected for advanced C0 errors',
                   'endpoint_belly_contacts': contacts, 'support_collisions': collisions,
                   'saved_centreline_observations': observations,
-                  'saved_centreline_rms_px': float(np.sqrt(np.mean(np.concatenate([o['saved_distance_px'] for o in observations])**2))),
+                  'saved_centreline_rms_px': float(np.sqrt(np.mean(np.concatenate([o['saved_distance_px'] for o in observations])**2))) if observations else None,
                   'limitations': ['manually inferred decorative cable shape; no electrical specification',
                                  'no fresh held-out fitting observations', 'no physical or manufacturing acceptance']}
         (args.output/'candidate-check.json').write_text(json.dumps(report,indent=2)+'\n')
