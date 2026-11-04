@@ -622,3 +622,9 @@ v76 将两个互不重叠的已保存研究候选合并为一套 FCStd，并重�
 以 v90 为基线叠加 v84 的 108 个 `LowerPod*` 根部对象，使用同一固定相机、真实 CAD 三角网格和屏幕空间比较。视频十方位平均 IoU `0.855699623656`，v90 为 `0.855830343136`，变化 `-0.000130719479`；静态七图平均 IoU `0.823322803658`，v90 为 `0.823507546356`，变化 `-0.000184742697`。视频 1/10、静态 1/7 视角改善，其余退步，故 v91 未采用。
 
 独立保存读回确认 700 个对象、698 个有效闭合形体、696 个渲染网格、屏幕几何保持和四支柱保护对称差 0 mm³；FCStd SHA-256 为 `2f0ea6f5ef04cfc2f3874ce6c64023c2b037919eec8f9b446cbcd9903ad0b34d`，STEP SHA-256 为 `a74dc23764000cc86bae84f90fd9ecd5a7e0732e62556128d18216d903032c7c`。`GuiDocument.xml` 存在但外观成员继承 v90，未执行新的 v91 原生截图审计。完整证据见 [v91 验证目录](../cad/drone-concept/comparison/v91-cheek097-podroot084/README.md)。该结果仅覆盖外观研究和读回，不能转为打印、装配、光学、声学、热、电气或实物验收。
+
+## 2026-11-05：v92/v93 屏框与 v94 小喷口单家族验证
+
+三组候选均以 v90 保存 FCStd 为基线，沿用视频十方位和静态七图固定相机、真实 CAD 三角网格和透明叠加；不使用图像变形、逐件配准或删件。v92 每边收缩 1 mm，FCStd `dce5b0056976fb80ebe4fbdbdcf7bf61bc3b6115894bfb93806cab46568b45bd`、STEP `22888f9748d73a468abfad2b9a88251195b36e20d07471f6b48bb83bec923b2e`，视频／静态 IoU `0.855575251720`／`0.823531732513`；v93 每边收缩 0.5 mm，FCStd `607aca741645356461ed6b738c6bfe09b84585ada13e53acdc5dddde59a3a24a`、STEP `e25a8095e58ae5c0e37a74602b4b574a69d8e8bc2ff70ee9bfbbc073663a5c0b`，视频／静态 `0.855711819111`／`0.823577275736`。两者视频均退步，未采用。
+
+v94 仅改变 36 件 `LowerPodRib`，FCStd `9d4dd9c23ce8703d8aea93eedc3849159a70d797c9ac8cd8c8b9716984599323`、STEP `9feb8a6b080f076b709e1a010f4b942dab9b81d7e183ef1248703b037a921ced`，视频／静态 `0.855779489806`／`0.823405996778`，均低于 v90，未采用。三组均保存读回有效、696 个网格对象与颜色三元组合同保持；GUI 外观成员继承 v90，未执行新的原生截图审计。完整证据见 [v92](../cad/drone-concept/comparison/v92-bezel-contract1mm/README.md)、[v93](../cad/drone-concept/comparison/v93-bezel-contract0p5mm/README.md)、[v94](../cad/drone-concept/comparison/v94-podribs-v90/README.md)。这些是外观研究证据，不转为制造、光学、装配或实物验收。

@@ -27,11 +27,12 @@ def main():
     parser.add_argument("--base-mesh", type=Path, required=True)
     parser.add_argument("--appearance-source", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
-    parser.add_argument("--expansion", type=float, required=True, help="outer expansion per side in mm")
+    parser.add_argument("--expansion", type=float, required=True,
+                        help="outer surround change per side in mm; negative contracts")
     parser.add_argument("--revision", required=True)
     args = parser.parse_args()
-    if not 0 < args.expansion <= 5:
-        raise ValueError("expansion must be in (0, 5] mm per side")
+    if not -5 <= args.expansion <= 5 or args.expansion == 0:
+        raise ValueError("expansion must be in [-5, 5] mm per side, excluding zero")
     if args.output.exists() and any(args.output.iterdir()):
         raise ValueError("output must be a new empty directory")
     mesh = json.loads(args.base_mesh.read_text())

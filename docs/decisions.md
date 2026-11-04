@@ -262,3 +262,9 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 v91 将 v84 的 108 个 `LowerPod*` 根部修正叠加到 v90 前侧护壳收缩候选。视频十方位平均 IoU 为 **85.5699624%**，低于 v90 的 **85.5830343%**；静态七图为 **82.3322804%**，低于 v90 的 **82.3507546%**。只有 1/10 视频和 1/7 静态方位改善，判定为组合退步。
 
 决策：拒绝 v91，保留 v90 为当前外观探索候选；正式入口仍为 v61。`LowerPodRib` 继续列为高差异家族，下一轮应与 `NozzlePetal`、`BrowUnderside`、`ScreenBezel` 结合真实遮挡关系独立研究，不把 v84 根部修正直接合入 v90。90% 整机轮廓、主要部件 5% 投影偏差及制造/实物验收均未完成。证据见 [v91 记录](../cad/drone-concept/comparison/v91-cheek097-podroot084/README.md)。
+
+## 2026-11-05：v92/v93/v94 负向研究决策
+
+基于 v90 的 `ScreenBezel` 高差异归因，v92（每边收缩 1 mm）与 v93（每边收缩 0.5 mm）均完成固定十视频／七静态真实 CAD 比较；视频平均 IoU 分别为 **85.5575252%**、**85.5711819%**，低于 v90 的 **85.5830343%**。静态分别为 **82.3531733%**、**82.3577276%**，只有小幅上升，不能抵消视频退步。
+
+v94 只合并 36 件 `LowerPodRib`，视频／静态为 **85.5779490%／82.3405997%**，均低于 v90。决策：三组均拒绝，保留 v90；v91 的 108 件 `LowerPod` 根部组合也不回退合入。下一轮应继续按跨视角真实遮挡检查 `NozzlePetal`、`BrowUnderside`、`ScreenBezel` 和剩余 `LowerPod` 家族，避免把局部静态增益写成整圈改善。证据见 [v92](../cad/drone-concept/comparison/v92-bezel-contract1mm/README.md)、[v93](../cad/drone-concept/comparison/v93-bezel-contract0p5mm/README.md)、[v94](../cad/drone-concept/comparison/v94-podribs-v90/README.md)。
