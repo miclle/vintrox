@@ -274,3 +274,9 @@ v94 只合并 36 件 `LowerPodRib`，视频／静态为 **85.5779490%／82.34059
 v96 以 v95 为基线，仅将 `FrontCheekLeft/Right` 与 `FrontCheekBridgeLeft/Right` 围绕模型中心 X=0 缩放为 `0.970`；屏幕、四根支柱、外挂筒、屏幕侧控件和格栅保持。固定相机十方位／七静态图平均轮廓 IoU 为 **85.5817875%／82.2961983%**，相对 v95 均提升，但仍低于 90% 目标。
 
 决策：v96 作为当前外观入口，正式入口 FCStd SHA-256 为 `71e0d53bbd8787765a8a45caf6a1530368b52147820e438c38c4cdcabd0eebb2`，STEP SHA-256 为 `0896826e0f329ac6965f271b1aac2ecb154c14c53af6291371b0c6b9c0ed30cd`。保存读回通过，确认 696 个可见渲染对象、1008 个有效闭合 STEP solids、屏幕几何保持、四支柱保护和 74 种 RGB 三元组；证据见 [v96](../cad/drone-concept/comparison/v96-front-cheek-contract097/README.md)。这是静态外观研究结论，曲面参考屏差异以及打印、装配、光学、声学、热、电气和实物验收仍待验证。
+
+## 2026-11-05：保留 v97，拒绝 v98/v99 前眉深度候选
+
+当前保存外观入口为 v97，见 [v97 证据](../cad/drone-concept/comparison/v97-petal096-brow0985-on-v96/README.md)。其视频／静态平均轮廓 IoU 为 85.5731710%／82.3587197%，视频相对 v96 略退步。v98/v99 在 v97 上对完整前眉总成进行深度 0.94／1.04 试探，视频和静态均退步，因此拒绝两组候选，不替换正式入口；完整记录见 [v98](../cad/drone-concept/comparison/v98-brow-depth094/README.md)、[v99](../cad/drone-concept/comparison/v99-brow-depth104/README.md)。
+
+后续应联合检查前眉端部、屏框、叶片及小喷口的跨视角遮挡，避免继续仅对前眉整体做深度缩放。实测平面屏、四支柱、外挂筒、侧控件和格栅保留；90% 整圈轮廓、完整主要部件 5% 目标及制造／实物验收仍未完成。
