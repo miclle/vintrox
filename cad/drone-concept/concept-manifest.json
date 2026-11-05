@@ -1,5 +1,8 @@
 {
-  "revision": "v96-front-cheek-contract097",
+  "revision": "v97-petal096-brow0985-on-v96",
+  "front_cheek_x_scale": 0.97,
+  "front_brow_x_scale": 0.985,
+  "nozzle_petal_comparison_scale": 0.96,
   "belly_relief": {
     "outer_floor_z_mm": 52.5,
     "central_strip_width_mm": 64,
@@ -90,7 +93,7 @@
   },
   "tree_structure": "flat",
   "group_count": 0,
-  "status": "appearance-study-only; v69 geometry plus v73 screen expression",
+  "status": "appearance-study-only",
   "physical_tests": false,
   "screen_panel_mm": [
     210,
@@ -165,7 +168,7 @@
     287.619455769915,
     385.09868316645463
   ],
-  "fcstd_sha256": "71e0d53bbd8787765a8a45caf6a1530368b52147820e438c38c4cdcabd0eebb2",
+  "fcstd_sha256": "2ab40ea74dacd2be487e8c3f77ff540b63110daff9c506f79cf332c8e016412a",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4356,10 +4359,5 @@
       "valid": true
     }
   ],
-  "underbody_loop_radius_mm": 2.2,
-  "expression_profile": "v73 fixed-camera frame-270 CAD projection; PixelMouth and PixelSmileHighlight only",
-  "expression_candidate_source": "comparison/v95-v69-v73/candidate.FCStd",
-  "step_sha256": "0896826e0f329ac6965f271b1aac2ecb154c14c53af6291371b0c6b9c0ed30cd",
-  "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
-  "front_cheek_x_scale": 0.97
+  "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation"
 }

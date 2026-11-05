@@ -41,6 +41,8 @@ NOZZLE_PETALS = 12  # Rear guide pitch and both oblique views; appearance infere
 COOLING_FINS = 15  # Repeating 22–23 px bands in the fixed rear video view.
 UNDERBODY_LOOP_RADIUS = 2.2  # v69 fixed-video cable thickness fit; appearance only.
 FRONT_CHEEK_X_SCALE = 0.970  # v96 fixed-camera side-shell contract; appearance only.
+FRONT_BROW_X_SCALE = 0.985  # v97 fixed-camera brow contract; appearance only.
+NOZZLE_PETAL_COMPARISON_SCALE = 0.960  # v97 saved-petal contract; appearance only.
 NOZZLE_RADIAL_SCALE = 0.90  # Rear fixed-view fit; local X/Y only, appearance only.
 NOZZLE_SHELL_RADIAL_SCALE = 0.96  # Recessed housing fit; kept wider than the nozzle interior.
 NOZZLE_PETAL_TANGENTIAL_SCALE = 0.8648  # v60 local tangential contract; 0.92 relative to v58, root band remains unchanged.
@@ -1414,6 +1416,8 @@ def build(root, frame_view=True):
         ('ActiveHeight', 150, '用户指定 mm'), ('HullWidth', 201.6, '外观假设 mm'),
         ('HullDepth', 220, '外观假设 mm'), ('WingTop', 361.54, '参考轮廓反投影假设 Z mm'),
         ('FrontCheekXScale', FRONT_CHEEK_X_SCALE, 'v96 固定相机外观候选；真实 CAD 横向缩放，无制造验证'),
+        ('FrontBrowXScale', FRONT_BROW_X_SCALE, 'v97 固定相机外观候选；真实 CAD 横向缩放，无制造验证'),
+        ('NozzlePetalComparisonScale', NOZZLE_PETAL_COMPARISON_SCALE, 'v97 固定相机外观候选；真实 CAD 横向缩放，无制造验证'),
         ('WooferDiameter', 88, '占位假设；未选单元 mm'),
         ('WooferDepth', 40, '占位假设；不含接线/行程 mm'),
     ]
@@ -1498,8 +1502,22 @@ def build(root, frame_view=True):
         for i in range(3):
             slots.append(box(8,22,9,(x+6+i*15,-17,261),.8))
         brow.Shape=brow.Shape.cut(Part.makeCompound(slots))
+    if abs(FRONT_BROW_X_SCALE - 1.0) > 1e-12:
+        brow_matrix = App.Matrix()
+        brow_matrix.A11 = FRONT_BROW_X_SCALE
+        brow = doc.getObject('ProjectingBrow')
+        brow.Shape = brow.Shape.transformGeometry(brow_matrix)
+        if not brow.Shape.isValid() or not brow.Shape.Solids or not all(s.isClosed() for s in brow.Shape.Solids):
+            raise ValueError('Invalid front brow contraction: ProjectingBrow')
     hood_liner = brow_u(226.5,255.9,21.1,3.2,201.6,-41,55)
     b.add('BrowUnderside', hood_liner, DARK, 'Hull', 'rubber')
+    if abs(FRONT_BROW_X_SCALE - 1.0) > 1e-12:
+        liner_matrix = App.Matrix()
+        liner_matrix.A11 = FRONT_BROW_X_SCALE
+        liner = doc.getObject('BrowUnderside')
+        liner.Shape = liner.Shape.transformGeometry(liner_matrix)
+        if not liner.Shape.isValid() or not liner.Shape.Solids or not all(s.isClosed() for s in liner.Shape.Solids):
+            raise ValueError('Invalid front brow contraction: BrowUnderside')
     edge = brow_u(226.9,256.1,21.3,.9,201.6,-47,1.2)
     b.add('HoodEdge', edge, EDGE, 'Hull', 'metal')
     # Extend only the lower surround to the source lower edge; retain the
@@ -1963,14 +1981,18 @@ def build(root, frame_view=True):
             elif name.startswith('NozzlePetalEdgeRail'):color,category=(.53,.54,.50),'Details'
             elif name.startswith('NozzlePetalGuide'):color,category=(.58,.59,.54),'Details'
             else:color,category=(.49,.50,.46),'Details'
+            local_petal = contract_nozzle_petal_tangential(
+                shape, i, factor=(NOZZLE_PETAL_TANGENTIAL_SCALE *
+                                 NOZZLE_PETAL_COMPARISON_SCALE),
+                preserve_root=(name == f'NozzlePetal{i}'))
             b.add(name,place(contract_nozzle_radial(
-                contract_nozzle_petal_tangential(
-                    shape, i, preserve_root=(name == f'NozzlePetal{i}')),
-                preserve_root=(name == f'NozzlePetal{i}'))),
+                local_petal, preserve_root=(name == f'NozzlePetal{i}'))),
                 color,category,'metal')
         hinge=root_shifted_hinge(i)
-        b.add(f'NozzlePetalHinge{i}',place(contract_nozzle_petal_tangential(
-            hinge, i)),(.30,.32,.29),'Details','metal')
+        hinge = contract_nozzle_petal_tangential(
+            hinge, i, factor=(NOZZLE_PETAL_TANGENTIAL_SCALE *
+                             NOZZLE_PETAL_COMPARISON_SCALE))
+        b.add(f'NozzlePetalHinge{i}',place(hinge),(.30,.32,.29),'Details','metal')
     # Projected surface patches remain in contact with the revised fairing.
     for name,shape in fairing.items():
         if name=='BassNozzleShell':continue
@@ -2106,8 +2128,10 @@ def save_outputs(doc, items, out):
         local_patches[name]=local
     label_metadata=warning_label_positions(local_patches)
     manifest = {
-        'revision': 'v96-front-cheek-contract097',
+        'revision': 'v97-petal096-brow0985-on-v96',
         'front_cheek_x_scale': FRONT_CHEEK_X_SCALE,
+        'front_brow_x_scale': FRONT_BROW_X_SCALE,
+        'nozzle_petal_comparison_scale': NOZZLE_PETAL_COMPARISON_SCALE,
         'belly_relief': {'outer_floor_z_mm':52.5,'central_strip_width_mm':64,'outer_flat_start_x_mm':62,'basis':'appearance-derived closed lower shell; support geometry retained, no load validation'},
         'nozzle_marking_spec': MARKING_SPEC,
         'rear_shoulder_section_exponent': 1.5,

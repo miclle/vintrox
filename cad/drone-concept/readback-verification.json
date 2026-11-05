@@ -4,7 +4,7 @@
   "physical_validation": false,
   "errors": [],
   "visible_features": 696,
-  "step_solids": 1008,
+  "step_solids": 852,
   "group_count": 0,
   "non_chinese_labels": [],
   "gui_document_present": true,
@@ -186,26 +186,37 @@
       "petal": 0,
       "detail_gaps_mm": [
         0.0,
-        3.552713678800501e-15,
+        0.0,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 6.554716587305034
+      "root_roll_overlap_mm3": 6.554716587305467
     },
     {
       "petal": 1,
       "detail_gaps_mm": [
         0.0,
+        1.4210854715202004e-14,
         0.0,
+        3.552713678800501e-15,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 4.074834456074358
+    },
+    {
+      "petal": 2,
+      "detail_gaps_mm": [
+        0.0,
+        8.881784197001252e-16,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 4.074834456104464
+      "root_roll_overlap_mm3": 3.266690604423773
     },
     {
-      "petal": 2,
+      "petal": 3,
       "detail_gaps_mm": [
         0.0,
         5.329070518200751e-15,
@@ -213,29 +224,18 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 3.2666906044370174
-    },
-    {
-      "petal": 3,
-      "detail_gaps_mm": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "root_roll_overlap_mm3": 4.074847064358888
+      "root_roll_overlap_mm3": 4.074847064364735
     },
     {
       "petal": 4,
       "detail_gaps_mm": [
         0.0,
         0.0,
-        0.0,
+        1.0658141036401503e-14,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 6.554726263681656
+      "root_roll_overlap_mm3": 6.5547262636825305
     },
     {
       "petal": 5,
@@ -246,7 +246,7 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 10.416798423683217
+      "root_roll_overlap_mm3": 10.41679842368293
     },
     {
       "petal": 6,
@@ -257,18 +257,18 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 14.590750827598464
+      "root_roll_overlap_mm3": 14.590750827601157
     },
     {
       "petal": 7,
       "detail_gaps_mm": [
+        1.7763568394002505e-15,
         0.0,
-        1.4210854715202004e-14,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.042195868526626
+      "root_roll_overlap_mm3": 17.042195872533174
     },
     {
       "petal": 8,
@@ -279,7 +279,7 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.22407779142769
+      "root_roll_overlap_mm3": 17.224077330407425
     },
     {
       "petal": 9,
@@ -290,7 +290,7 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.042193067317502
+      "root_roll_overlap_mm3": 17.042192871009636
     },
     {
       "petal": 10,
@@ -301,7 +301,7 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 14.590752218961233
+      "root_roll_overlap_mm3": 14.590752219551401
     },
     {
       "petal": 11,
@@ -312,7 +312,7 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 10.416798766481895
+      "root_roll_overlap_mm3": 10.416798764523513
     }
   ],
   "handle_connections": {
@@ -352,7 +352,7 @@
       "mark_paint_gap_mm": 1.9915487475094384e-12
     },
     "Right": {
-      "paint_raised_overlap_mm3": 8059.296827719621,
+      "paint_raised_overlap_mm3": 8059.296827719618,
       "raised_blade_gap_mm": 0.0,
       "fold_blade_overlap_mm3": 2614.9132555437304,
       "inner_blade_gap_mm": 0.0,
@@ -420,7 +420,7 @@
       }
     ]
   },
-  "warning_shell_overlap_mm3": 169.5054207944933,
+  "warning_shell_overlap_mm3": 156.21620619507132,
   "shoulder_bolt_plate_overlap_mm3": {
     "Left": 9.80902073263803,
     "Right": 9.806031095297184
@@ -471,11 +471,11 @@
   "side_spine_perforation_probe_count": 56,
   "front_cheek_connections": {
     "Left": {
-      "cheek_bridge_overlap_mm3": 4028.4534452524886,
+      "cheek_bridge_overlap_mm3": 4028.4534574012578,
       "bridge_spine_gap_mm": 0.0
     },
     "Right": {
-      "cheek_bridge_overlap_mm3": 4028.453439793688,
+      "cheek_bridge_overlap_mm3": 4028.4533946997117,
       "bridge_spine_gap_mm": 0.0
     }
   },
@@ -538,13 +538,13 @@
       ]
     }
   },
-  "step_relative_volume_error": 6.041531985071129e-07,
+  "step_relative_volume_error": 7.480617899916464e-07,
   "step_bbox_max_delta_mm": 1.9895196601282805e-12,
   "bbox_mm": [
     301.85566297978323,
     351.71189542362737,
     485.09868316645463
   ],
-  "fcstd_sha256": "71e0d53bbd8787765a8a45caf6a1530368b52147820e438c38c4cdcabd0eebb2",
-  "step_sha256": "0896826e0f329ac6965f271b1aac2ecb154c14c53af6291371b0c6b9c0ed30cd"
+  "fcstd_sha256": "2ab40ea74dacd2be487e8c3f77ff540b63110daff9c506f79cf332c8e016412a",
+  "step_sha256": "739c3c02b13c532d3b72fc7b29701558b458b77e37410d2f75e078020c72d178"
 }
