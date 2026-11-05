@@ -1,8 +1,9 @@
 """Build a fixed-camera front-brow contraction candidate from saved CAD.
 
-Only the two front brow solids are transformed about the model X=0 plane.
+The default transforms the two front brow solids about model X=0. An optional
+depth scaling transforms the complete brow assembly about its rear plane.
 The measured flat screen, active area, four supports, side controls, grilles,
-external barrels, and all other saved BRep members remain bound to the v69
+external barrels, and all other saved BRep members remain bound to the supplied
 baseline.  This is an appearance candidate; it does not claim physical fit.
 """
 from __future__ import annotations
@@ -50,10 +51,14 @@ def main():
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--scale", type=float, required=True,
                         help="X scale about model centre, e.g. 0.985")
+    parser.add_argument("--depth-scale", type=float, default=1.0,
+                        help="Y scale of complete brow assembly about its rear plane")
     parser.add_argument("--revision", required=True)
     args = parser.parse_args()
-    if not 0.95 <= args.scale < 1:
-        raise ValueError("scale must be in [0.95, 1)")
+    if not 0.95 <= args.scale <= 1 or not 0.85 <= args.depth_scale <= 1.1:
+        raise ValueError("X scale must be in [0.95, 1], depth scale in [0.85, 1.1]")
+    if args.scale == args.depth_scale == 1:
+        raise ValueError("at least one scale must change")
     if args.output.exists() and any(args.output.iterdir()):
         raise ValueError("output must be a new empty directory")
 
@@ -69,13 +74,21 @@ def main():
         objects = {o.Name: o for o in doc.Objects
                    if hasattr(o, "Shape") and not o.Shape.isNull()}
         before = {name: signature(objects[name].Shape) for name in objects}
+        changed = set(CHANGED)
+        if args.depth_scale != 1:
+            prefixes = ("HoodShoulder", "HoodTopInset", "HoodMark")
+            changed.update(n for n in objects if n == "HoodEdge" or n.startswith(prefixes))
+        changed = sorted(changed)
+        rear_y = objects["ProjectingBrow"].Shape.optimalBoundingBox(False, False).YMax
         matrix = App.Matrix()
         matrix.A11 = args.scale
-        for name in CHANGED:
+        matrix.A22 = args.depth_scale
+        matrix.A24 = rear_y * (1 - args.depth_scale)
+        for name in changed:
             source = objects[name].Shape.copy()
             transformed = source.transformGeometry(matrix)
-            if (not transformed.isValid() or len(transformed.Solids) != 1 or
-                    not transformed.Solids[0].isClosed()):
+            if (not transformed.isValid() or not transformed.Solids or
+                    not all(s.isClosed() for s in transformed.Solids)):
                 raise ValueError(f"invalid transformed solid: {name}")
             objects[name].Shape = transformed
         doc.recompute()
@@ -100,7 +113,7 @@ def main():
             raise ValueError("appearance source lacks GuiDocument.xml")
         preserved_members = [name for name in base_zip.namelist()
                              if (name.endswith(".brp") or ".Shape.Map." in name)
-                             and name.split(".Shape.")[0] not in CHANGED]
+                             and name.split(".Shape.")[0] not in changed]
         for name in preserved_members:
             payloads[name] = base_zip.read(name)
         geometry_hashes = {name: hashlib.sha256(data).hexdigest()
@@ -119,14 +132,14 @@ def main():
     base = App.openDocument(str(args.base.resolve()))
     try:
         checks = {}
-        for name in CHANGED:
+        for name in changed:
             shape = saved.getObject(name).Shape
             checks[name] = signature(shape)
-            if not shape.isValid() or len(shape.Solids) != 1 or not shape.Solids[0].isClosed():
+            if not shape.isValid() or not shape.Solids or not all(s.isClosed() for s in shape.Solids):
                 raise ValueError(f"saved readback failed: {name}")
         preserved = []
         for name, expected in before.items():
-            if name in CHANGED:
+            if name in changed:
                 continue
             actual = signature(saved.getObject(name).Shape)
             if actual != expected:
@@ -141,10 +154,14 @@ def main():
                 raise ValueError(f"protected support changed: {obj.Name}")
             support_checks.append({"name": obj.Name, "symmetric_difference_mm3": delta})
         for item in mesh["objects"]:
-            if item["name"] in CHANGED:
+            if item["name"] in changed:
                 vertices, faces = saved.getObject(item["name"]).Shape.tessellate(.12)
                 item["vertices"] = [[v.x, v.y, v.z] for v in vertices]
                 item["faces"] = faces
+        # Export after final archive restoration and saved readback, so STEP
+        # describes exactly the same visible geometry as the bound meshes.
+        Import.export([saved.getObject(item["name"]) for item in mesh["objects"]],
+                      str((args.output / "candidate.step").resolve()))
         mesh["fcstd_sha256"] = sha(model)
         (args.output / "meshes.json").write_text(json.dumps(mesh, separators=(",", ":")))
         report = {
@@ -154,9 +171,11 @@ def main():
             "fcstd_sha256": sha(model),
             "step_sha256": sha(args.output / "candidate.step"),
             "source_script_sha256": sha(Path(globals().get("__file__", "tools/experiment_drone_front_brow_contract.py"))),
-            "changed_objects": list(CHANGED),
+            "changed_objects": list(changed),
             "x_scale_about_model_center": args.scale,
-            "before": {name: before[name] for name in CHANGED},
+            "depth_scale": args.depth_scale,
+            "depth_pivot_y_mm": rear_y,
+            "before": {name: before[name] for name in changed},
             "after": checks,
             "preserved_shape_count": len(preserved),
             "protected_supports": support_checks,
