@@ -640,3 +640,7 @@ FreeCAD bundled Python 保存读回验证通过：696 个可见渲染对象、10
 当前保存入口为 v97，视频十方位／静态七图平均 IoU 为 85.5731710%／82.3587197%；视频相对 v96 略退步，不能写成整圈改善。保存读回、696 个可见对象、852 个有效闭合 STEP 实体、实测平面屏及四支柱检查见 [v97 证据](../cad/drone-concept/comparison/v97-petal096-brow0985-on-v96/README.md)。生成脚本与保存 CAD 的完整几何等价性仍未验证。
 
 v98/v99 仅将 21 件前眉总成绕 Y=30.172439653712 mm 做深度 0.94／1.04 缩放，其余 677 件形体保持。视频／静态平均 IoU 分别为 85.5272726%／82.3529647% 和 85.4811058%／82.2043060%，均低于 v97，未采用。两组均完成独立保存读回、852 个有效闭合 STEP 实体、21 件变化网格一致性、四支柱保护、固定相机叠加／差异、对象 ID 归因及原生四视图颜色／可见性审计；关闭后文件哈希保持。见 [v98](../cad/drone-concept/comparison/v98-brow-depth094/README.md)、[v99](../cad/drone-concept/comparison/v99-brow-depth104/README.md)。90% 整圈轮廓、完整主要部件 5% 以及制造与实物验收均未完成。
+
+## 2026-11-05：v97 展示媒体刷新
+
+使用保存 v97 的 696 件真实 CAD 网格重新生成九张展示视图、八方位板和 12 秒／96 个不同角度转台。渲染清单绑定 FCStd SHA-256 `2ab40ea74dacd2be487e8c3f77ff540b63110daff9c506f79cf332c8e016412a`；全部媒体哈希核对通过，ffprobe 确认 H.264、900 × 900、360 帧、12 秒，关键预览及原生四视图已目视检查。原生显示审计为 696 件可见对象、70 个 8-bit RGB 三元组，对应网格 74 个浮点 RGB 三元组，最大通道差 `0.001960814`，关闭后模型哈希保持。见 [展示清单](../cad/drone-concept/renders/render-manifest.json)和[原生记录](../cad/drone-concept/comparison/v97-petal096-brow0985-on-v96/native-display/native-display-verification.json)。历史全套交付审计未刷新；无制造或实物验收结论。

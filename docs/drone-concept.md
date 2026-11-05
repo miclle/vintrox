@@ -4,6 +4,8 @@
 
 2026-11-05 当前外观入口为 v97（沿用 v96 的 `FrontCheek`/`FrontCheekBridge` 横向缩放 0.970，并加入前眉 0.985、喷口叶片局部切向 0.960），候选、保存读回和固定相机比较见[v97 证据包](../cad/drone-concept/comparison/v97-petal096-brow0985-on-v96/README.md)。视频十方位平均轮廓 IoU 85.5732%、静态七图 82.3587%，仍低于 90% 目标；实测平面屏与四根支柱保持，外挂筒、侧控件和格栅存在。
 
+2026-11-05 展示预览已同步当前保存 v97：九视角、八方位板及 12 秒／96 角度转台的模型和媒体哈希核对通过，另有原生 FreeCAD 四视图颜色／可见性审计。见[渲染清单](../cad/drone-concept/renders/render-manifest.json)及[原生显示记录](../cad/drone-concept/comparison/v97-petal096-brow0985-on-v96/native-display/native-display-verification.json)。这只更新展示证据，未刷新历史全套交付审计，也不代表制造或实物验收。
+
 本轮 v63 屏幕外框候选的独立记录见[外观研究报告](drone-v63-study.md)，正式入口仍为 v61。
 
 v64 后护甲截面候选已完成同一固定相机下的十方位/七图真实 CAD 渲染、半透明叠加、差异图、FCStd/STEP 读回和对象级颜色恢复；视频整圈略退步，正式入口仍为 v61。见 [v64 候选记录](../cad/drone-concept/comparison/v64-rear-shoulder-study/README.md)。

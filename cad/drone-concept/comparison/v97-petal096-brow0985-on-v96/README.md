@@ -22,4 +22,4 @@ PYTHONPATH=/Applications/FreeCAD.app/Contents/Resources/lib:$PWD/tools \
   --cameras "$PACKAGE/video-comparison/cameras.json"
 ```
 
-静态七图使用 `stills-comparison/cameras.json` 同法重放。历史全套交付审计和主展示预览未在本轮刷新。以上仅为静态外观研究，不代表打印、装配、光学、声学、热、电气或实物验收。
+静态七图使用 `stills-comparison/cameras.json` 同法重放。2026-11-05 已从当前保存 v97 网格刷新[九视角预览与转台](../../renders/render-manifest.json)，12 秒视频含 96 个不同角度；[原生 FreeCAD 四视图审计](native-display/native-display-verification.json)确认颜色／可见性及关闭后哈希保持，截图已目视检查。历史全套交付审计未刷新。以上仅为静态外观研究，不代表打印、装配、光学、声学、热、电气或实物验收。
