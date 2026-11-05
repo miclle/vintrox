@@ -2,7 +2,7 @@
 
 2026-10-26，当前为 v61 喷口外罩中段减薄修订。按最新要求保留四根新增支柱，其余造型尽可能向全部参考图片和旋转视频靠近。逐张图片采用独立透视相机，视频抽取十方位；保存真实 CAD 渲染、50% 叠加及差异图。比较方法、相机假设、历史回退和剩余差异见[叠加记录](drone-overlay-comparison.md)、[逐图记录](drone-reference-review.md)及[v61 视频叠加板](../cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-board.png)。目前仍未达到 90% 的整圈轮廓目标，不宣称与原作完全一致。
 
-2026-11-05 当前外观入口为 v96（v95 + `FrontCheek`/`FrontCheekBridge` 横向缩放 0.970），候选、保存读回、颜色审计和固定相机比较见[v96 证据包](../cad/drone-concept/comparison/v96-front-cheek-contract097/README.md)。视频十方位平均轮廓 IoU 85.5818%、静态七图 82.2962%，仍低于 90% 目标；实测平面屏与四根支柱保持，外挂筒、侧控件和格栅存在。
+2026-11-05 当前外观入口为 v97（沿用 v96 的 `FrontCheek`/`FrontCheekBridge` 横向缩放 0.970，并加入前眉 0.985、喷口叶片局部切向 0.960），候选、保存读回和固定相机比较见[v97 证据包](../cad/drone-concept/comparison/v97-petal096-brow0985-on-v96/README.md)。视频十方位平均轮廓 IoU 85.5732%、静态七图 82.3587%，仍低于 90% 目标；实测平面屏与四根支柱保持，外挂筒、侧控件和格栅存在。
 
 本轮 v63 屏幕外框候选的独立记录见[外观研究报告](drone-v63-study.md)，正式入口仍为 v61。
 
