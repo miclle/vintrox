@@ -19,6 +19,8 @@ def main():
     for name in ('base', 'mesh', 'output'):
         parser.add_argument('--' + name, type=Path, required=True)
     parser.add_argument('--axial-scale', type=float, choices=(.94, 1.06, 1.10), required=True)
+    parser.add_argument('--anchor-z', type=float, choices=(30, 36), default=30,
+                        help='Fixed axial station in the saved pod frame, in mm')
     args = parser.parse_args()
 
     mesh = json.loads(args.mesh.read_text(encoding='utf-8'))
@@ -31,7 +33,7 @@ def main():
     contact_records = []
     matrix = App.Matrix()
     matrix.A33 = args.axial_scale
-    matrix.A34 = 30 * (1 - args.axial_scale)
+    matrix.A34 = args.anchor_z * (1 - args.axial_scale)
     base = App.openDocument(str(args.base.resolve()))
     try:
         pod_names = {-1: 'LowerPod_1', 1: 'LowerPod_001'}
@@ -58,7 +60,7 @@ def main():
                 bounds = local.optimalBoundingBox(False, False)
                 if abs(bounds.ZMin - 42) > 1e-6 or abs(bounds.ZMax - 44) > 1e-6:
                     raise ValueError(f'Unexpected diaphragm stations: {name}')
-                start = App.Vector(0, 0, 30 + 12 * args.axial_scale)
+                start = App.Vector(0, 0, args.anchor_z + (42 - args.anchor_z) * args.axial_scale)
                 edited = Part.makeCone(22.815, 19.015, 2 * args.axial_scale, start)
             else:
                 edited = local.transformGeometry(matrix)
@@ -116,7 +118,7 @@ def main():
     mesh['fcstd_sha256'] = digest(output)
     report = {
         'baseline_fcstd_sha256': base_hash, 'fcstd_sha256': mesh['fcstd_sha256'],
-        'axial_scale': args.axial_scale, 'anchor_z_mm': 30,
+        'axial_scale': args.axial_scale, 'anchor_z_mm': args.anchor_z,
         'gap_change_tolerance_mm': .001, 'diaphragm_radial_allowance_mm': .015,
         'parts': part_records, 'contacts': contact_records,
         'new_advanced_failures': [name for name, record in part_records.items()
