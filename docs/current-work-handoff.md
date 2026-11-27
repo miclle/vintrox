@@ -47,6 +47,7 @@
 - v287 将 v276 的前侧脸颊和桥板沿横向再收窄 1.5%。正面 `video-09` 提高 0.13391 个百分点，三组均值中视频和拼图提高、静态持平，采用为正式版。[正式对照与复建](../cad/drone-concept/comparison/v287-front-cheek-x0985/README.md)
 - v288 将 v287 的前侧脸颊和桥板再收窄 3%。视频均值下降 0.004814 个百分点，拼图均值提高 0.001838 个百分点，正式采用 v287。[三组对照](../cad/drone-concept/comparison/v288-front-cheek-x097/README.md)
 - v289 小喷口叶片轴向延长 6% 后，两个未参与原拟合的视角端缘 RMS 降至 6.28 px，整机三组 IoU 均下降，正式采用 v287。[保存几何和三组对照](../cad/drone-concept/comparison/v289-small-pod-axial-extension/README.md)
+- v289 接合复核已改用同侧和局部扇区配对，延长档的 216 项距离检查全部通过。缩短 6% 时，20 对叶片与口环的原有间隙增大。[更正后的接合检查](../cad/drone-concept/comparison/v289-small-pod-axial-extension/README.md)
 
 ## 续接
 

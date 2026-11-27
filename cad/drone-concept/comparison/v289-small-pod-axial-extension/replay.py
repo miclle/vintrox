@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import math
 from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile
 
@@ -17,7 +18,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     for name in ('base', 'mesh', 'output'):
         parser.add_argument('--' + name, type=Path, required=True)
-    parser.add_argument('--axial-scale', type=float, choices=(1.06, 1.10), required=True)
+    parser.add_argument('--axial-scale', type=float, choices=(.94, 1.06, 1.10), required=True)
     args = parser.parse_args()
 
     mesh = json.loads(args.mesh.read_text(encoding='utf-8'))
@@ -36,6 +37,7 @@ def main():
         pod_names = {-1: 'LowerPod_1', 1: 'LowerPod_001'}
         frames = {side: base.getObject(name).Shape.Placement for side, name in pod_names.items()}
         suffixes = {-1: '_1', 1: '_001'}
+        leaves = {}
         for item in mesh['objects']:
             name = item['name']
             if not name.startswith((*LEAF_PREFIXES, 'LowerPodDiaphragm')):
@@ -45,6 +47,12 @@ def main():
             frame = frames[side]
             local = shape.copy()
             local.Placement = frame.inverse().multiply(local.Placement)
+            center = local.Solids[0].CenterOfMass
+            sector = int((math.degrees(math.atan2(center.y, center.x)) % 360) // 20)
+            if name.startswith('LowerPodRib'):
+                if (side, sector) in leaves:
+                    raise ValueError(f'Duplicate leaf sector on side {side}: {sector}')
+                leaves[side, sector] = name
             if name.startswith('LowerPodDiaphragm'):
                 # Rebuild the analytic cone so axial scaling does not convert its seams to splines.
                 bounds = local.optimalBoundingBox(False, False)
@@ -58,12 +66,14 @@ def main():
             filename = f'{name}.Shape.brp'
             edited.exportBrep(str(args.output / filename))
             part_records[name] = {
-                'archive_member': filename, 'side': side,
+                'archive_member': filename, 'side': side, 'sector': sector,
                 'baseline_solids': len(shape.Solids),
                 'baseline_advanced_errors': advanced_errors(shape),
             }
         if len(part_records) != 146:
             raise ValueError(f'Expected 146 leaf-band and diaphragm shapes, found {len(part_records)}')
+        if len(leaves) != 36:
+            raise ValueError(f'Expected 36 occupied leaf sectors, found {len(leaves)}')
         with ZipFile(args.base) as source, ZipFile(output, 'w', ZIP_DEFLATED) as target:
             replacements = {record['archive_member'] for record in part_records.values()}
             if not replacements.issubset(source.namelist()):
@@ -88,11 +98,7 @@ def main():
                 if name.startswith('LowerPodRib'):
                     neighbors = [pod_names[side], 'LowerPodRim' + suffix, 'LowerPodDiaphragm' + suffix]
                 elif name.startswith(LEAF_PREFIXES):
-                    # Object IDs place the side suffix before the leaf station.
-                    leaf_id = name.removeprefix('LowerPodEdgeRail').removeprefix('LowerPodPetalRidge')
-                    if name.startswith('LowerPodEdgeRail'):
-                        leaf_id = leaf_id.rsplit('_', 1)[0]
-                    neighbors = ['LowerPodRib' + leaf_id]
+                    neighbors = [leaves[side, record['sector']]]
                 else:
                     neighbors = []
                 for neighbor in neighbors:

@@ -13,6 +13,8 @@
 
 端缘测量覆盖既有人工标注到保存叶片外端圆弧的距离。正式版采用 v287。v289 检查范围为保存 FCStd 和三组固定相机，候选 STEP 及原生窗口显示尚待验证。[参考与 v287 端缘近景](pod-closeups.png) · [v287 样点](base-outline.json) · [v289 样点](outline.json)
 
-初次延长使四对原接触的叶片与封片分离约 0.11–0.12 mm。随后对封片直接做非均匀变换，产生两处高级几何检查失败。最终试件采用解析锥台，两轮失败记录保留。[试验失败记录](failed-geometry-checks.json)
+初次延长使四对原接触的叶片与封片分离约 0.11–0.12 mm。随后对封片直接做非均匀变换，产生两处高级几何检查失败。最终试件采用解析锥台。[初始试验记录](failed-geometry-checks.json)
+
+复核修正了原报告中的 36 对右侧压条配对。现按同侧和局部 20° 扇区匹配主叶片，重跑后 216 项距离检查全部通过，FCStd 成员及渲染网格数据与原试件一致。用同一流程将轴向跨度缩短 6% 时，20 对叶片与口环的间隙增加约 0.068–0.073 mm，该档停在接合检查。[更正后的接合检查](candidate-check.json) · [缩短档接合检查](axial-0.94-contact-check.json)
 
 从 v287 保存模型重建网格，在 FreeCAD Python 环境下运行 `PYTHONPATH="$VINTROX_FREECAD/lib:$PWD/tools" "$VINTROX_FREECAD/bin/python" cad/drone-concept/comparison/v289-small-pod-axial-extension/replay.py --base <v287 FCStd> --mesh <v287 网格> --output <新目录> --axial-scale 1.06`。用 `tools/measure_drone_lower_pod_outline.py` 复测，三组渲染沿用 v287 固定相机。[视频十方位](video-comparison/comparison-board.png) · [静态七图](stills-comparison/comparison-board.png) · [拼图十格](sheet-comparison/comparison-board.png)
