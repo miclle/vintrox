@@ -1,0 +1,80 @@
+{
+  "baseline": "v315-antenna-multiview",
+  "baseline_mean_silhouette_iou": 0.8268771416641085,
+  "candidates": [
+    {
+      "scale": 0.97,
+      "mean_silhouette_iou": 0.826876630830028,
+      "delta_pp": -5.108340804804712e-05,
+      "candidate_check": {
+        "revision": "raw-.97",
+        "baseline_fcstd_sha256": "be041c71d0190ffaf7cc275b1747405977c2529bd67025fe36224304852f31eb",
+        "fcstd_sha256": "2d1bcfd1e3a00fda641b75d4b7feb0d9cd341ba07962ff5a7ac0f7a3398dfe55",
+        "step_sha256": "46d6316bc82b9a2451766a1027f0001a5e7c0e9c1d63ef6ad622300f0ba5ea70",
+        "changed_objects": [
+          "ClosedBellyPan"
+        ],
+        "y_scale": 0.97,
+        "fixed_y_min_mm": 25.0,
+        "visible_features": 696,
+        "status": "saved candidate; fixed-camera screening pending"
+      }
+    },
+    {
+      "scale": 0.98,
+      "mean_silhouette_iou": 0.8268762703241864,
+      "delta_pp": -8.713399221038642e-05,
+      "candidate_check": {
+        "revision": "raw-.98",
+        "baseline_fcstd_sha256": "be041c71d0190ffaf7cc275b1747405977c2529bd67025fe36224304852f31eb",
+        "fcstd_sha256": "6e78661c78b5fe55e4f78c02f2bfd19d5dbb88a4869bb955c0ffc813e1464b3c",
+        "step_sha256": "a1cabde3587979f40c8d5e7551572034ebbb0aed95051d87e0b674a4a46d47f8",
+        "changed_objects": [
+          "ClosedBellyPan"
+        ],
+        "y_scale": 0.98,
+        "fixed_y_min_mm": 25.0,
+        "visible_features": 696,
+        "status": "saved candidate; fixed-camera screening pending"
+      }
+    },
+    {
+      "scale": 1.02,
+      "mean_silhouette_iou": 0.8268737678200583,
+      "delta_pp": -0.0003373844050247321,
+      "candidate_check": {
+        "revision": "raw-1.02",
+        "baseline_fcstd_sha256": "be041c71d0190ffaf7cc275b1747405977c2529bd67025fe36224304852f31eb",
+        "fcstd_sha256": "f41f69dcb84ad9b6f09d779ddcf83c56197383abd8ef6e093fb73c17032b8aa8",
+        "step_sha256": "326d999239d247b1636ff27f93e03493c00f9bd997f1e9d682dd9a1e0f594eab",
+        "changed_objects": [
+          "ClosedBellyPan"
+        ],
+        "y_scale": 1.02,
+        "fixed_y_min_mm": 25.0,
+        "visible_features": 696,
+        "status": "saved candidate; fixed-camera screening pending"
+      }
+    },
+    {
+      "scale": 1.03,
+      "mean_silhouette_iou": 0.8268730469237967,
+      "delta_pp": -0.0004094740311821887,
+      "candidate_check": {
+        "revision": "raw-1.03",
+        "baseline_fcstd_sha256": "be041c71d0190ffaf7cc275b1747405977c2529bd67025fe36224304852f31eb",
+        "fcstd_sha256": "8e02d1cf87a6abd8ffdcb0715a97bbfb48c85d52daf354b74c71e045514b9b93",
+        "step_sha256": "f5fbdb6513aa1e9303dbb072403b15c0a51dccd891ae91172a52db1253502b19",
+        "changed_objects": [
+          "ClosedBellyPan"
+        ],
+        "y_scale": 1.03,
+        "fixed_y_min_mm": 25.0,
+        "visible_features": 696,
+        "status": "saved candidate; fixed-camera screening pending"
+      }
+    }
+  ],
+  "method": "same calibrated still cameras; no image warp, per-part registration, or omitted visible parts",
+  "decision": "retain v315"
+}

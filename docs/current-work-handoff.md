@@ -102,6 +102,8 @@
 
 - v323 降低大喷口末段联合变形幅度，十方位视频 IoU 仍下降。v324 仅调整对称中心第 8 号叶片，视频和拼图小幅上升，静态第 05 图及第 150 帧的局部末缘退步。v324 通过保存、STEP 和原生颜色核验，正式评审采用 v315。[改动范围试验](../cad/drone-concept/comparison/v323-v324-nozzle-terminal-scope/README.md)
 
+- v325 对 ClosedBellyPan 做 Y 向 0.97、0.98、1.02、1.03 四档宽范围筛选。四档静态七图均未形成有效收益，正式评审保持 v315。[筛选记录](../cad/drone-concept/comparison/v325-closed-belly-wide-screen/README.md)
+
 ## 续接
 
 1. 结合 `video-02`、`video-03`、`video-06` 和 `still-05` 核对喷口口环及叶片末缘。沿第 9、10 号叶片在静态近景中的外缘定位外溢截面，检查末段收窄能否同时保住两个侧后视频方位的轮廓收益。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口视频近景](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/v276-tip-crops.png) · [大喷口静态近景](../cad/drone-concept/comparison/v283-visible-petal-pairs/still-delta-crops.png)
