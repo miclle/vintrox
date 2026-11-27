@@ -35,6 +35,7 @@
 
 - v276 将前侧脸颊与桥板对称收窄 1%，27 个固定视角的轮廓 IoU 均持平或提高。保存读回、桥板接合和原生显示均通过，采用为当前模型。[正式对照](../cad/drone-concept/comparison/v276-front-cheek-x099/README.md)
 - v277 筛查了两档底部回环渐变半径，四组局部采样 RMS 均下降，视频十方位均值下降 0.052838 和 0.096477 个百分点。两端半径和四支柱净空通过复核，正式采用 v276。[回环筛选与放样参数](../cad/drone-concept/comparison/v277-loop-radius-screen/README.md)
+- v278 联动拟合回环路径与渐变半径，第 120 帧左右回环的最大采样偏差降到投影屏宽的 5% 以内，第 180 帧右回环上升到 25.75%。三组整机均值均下降，正式采用 v276。[三组比较与可见边界](../cad/drone-concept/comparison/v278-loop-path-fit/README.md)
 
 ## 续接
 
