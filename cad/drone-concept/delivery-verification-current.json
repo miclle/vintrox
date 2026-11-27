@@ -1,9 +1,11 @@
 {
-  "passed": true,
-  "errors": [],
-  "revision": "v335-tracked-nozzle-corner",
-  "fcstd_sha256": "4320b3b1f69000bb0a88613fee2921089654316703140ab3997d38b4e6881925",
-  "step_sha256": "85934a19a8fa35026f844271ae8acae18d24c145eb0659b56425cb1f0b4e28f6",
+  "passed": false,
+  "errors": [
+    "native FreeCAD four-view screenshots pending because the macOS session was locked"
+  ],
+  "revision": "v338-small-pod-y-minus1",
+  "fcstd_sha256": "9a36a751af8d45f8d85ede360202cf72f732a510740cc9b51f4d4c8751470930",
+  "step_sha256": "a10055963c208a125aad8cf9fcf20e3f111bdfc2ef6f6e07666129d721d9471d",
   "visible_features": 696,
   "step_solids": 853,
   "screen_panel_mm": [
@@ -12,42 +14,38 @@
     2.0
   ],
   "active_area_mm": [
-    200,
-    150
+    200.0,
+    150.0
   ],
   "support_shafts": 4,
-  "native_display_views": 4,
-  "native_max_color_channel_difference": 2.9685450542160652e-08,
+  "native_display_views": 0,
+  "native_max_color_channel_difference": null,
+  "saved_gui_visible_objects": 696,
+  "saved_gui_color_triples": 70,
   "presentation_images": 9,
   "turntable": {
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "nb_frames": "360"
-      }
-    ],
-    "format": {
-      "duration": "12.000000"
-    }
+    "path": "turntable.mp4",
+    "sha256": "cda74d7bd7aca3e3a94661c4ca46cdd04444bd5c773b24f39f7a369d94692284",
+    "duration_seconds": 12,
+    "unique_angles": 96
   },
   "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
   "reference_contact_sheet_sha256": "3454322208bda002a9fd3d8c12ebe41d0e6c1615f9be37b4a02b7cdbc48772d3",
-  "reference_contact_sheet_use": "Direct cropped cells at their matched video poses",
   "comparisons": {
     "video": {
       "views": 10,
-      "mean_silhouette_iou": 0.8601660903623621
+      "mean_silhouette_iou": 0.8604075817682023
     },
     "stills": {
       "views": 7,
-      "mean_silhouette_iou": 0.8260498289847672
+      "mean_silhouette_iou": 0.8261858027957171
     },
     "sheet": {
       "views": 10,
-      "mean_silhouette_iou": 0.8987424109908615
+      "mean_silhouette_iou": 0.8989582881791668
     }
   },
   "physical_validation": false,
-  "visual_target_status": "Artifact integrity check; component contour target requires visual evidence"
+  "visual_target_status": "v338 improved all three fixed-camera means, but 90% whole-orbit and component 5% targets remain unmet",
+  "native_display_status": "saved-gui-payload-verified-native-window-pending"
 }
