@@ -1,0 +1,37 @@
+{
+  "revision": "v340-small-pod-y-minus0p5",
+  "method": "v315 saved model plus symmetric small-pod Y=-0.5 mm replay, GUI appearance restored from v315 source",
+  "fcstd_sha256": "1ca14043ec3132386d423f107cfc0676f9a328181124616069c27f01b695062d",
+  "step_sha256": "e7b18fccb7e4bae980ff723af716fd47408b492225ceacc9b8239a837eee00c3",
+  "visible_features": 696,
+  "step_solids": 853,
+  "fcstd_valid": true,
+  "step_valid": true,
+  "step_volume_relative_error": 5.393714560248882e-07,
+  "visual_metrics": {
+    "video-comparison": 0.8621892184936228,
+    "stills-comparison": 0.8269425979416221,
+    "sheet-comparison": 0.8996984971420883
+  },
+  "comparison_references": {
+    "video-comparison": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+    "stills-comparison": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+    "sheet-comparison": "fcaae951889ac59207fc04bbae5443623c50557ac082654668189a279f8c57cf"
+  },
+  "changed_objects": 152,
+  "new_advanced_check_failures": [],
+  "support_overlaps": [],
+  "registration": "camera projection only; no image warp, stretch, per-part alignment or omitted visible parts",
+  "excluded_from_score": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "limitations": [
+    "90% whole-orbit aspiration not reached",
+    "native FreeCAD window screenshots pending due locked macOS session",
+    "flat screen input and curved cover remain explicit appearance assumptions",
+    "physical print, assembly, optical, thermal and electrical validation not included"
+  ]
+}
