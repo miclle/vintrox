@@ -1,0 +1,16 @@
+{
+  "revision": "v342-antenna-combination-rejected",
+  "method": "v341 with v310 right-wing Antenna BRep replacement",
+  "fcstd_sha256": "439a940bbad63e385785d166d29f3784ca017c5e5f3a12b2d9ad316a48f47e7c",
+  "step_sha256": "277498cdf8e63f607140f65155b1ae7f2bdf17cbc9f915ccf0ef913414ed84a9",
+  "visual_metrics": {
+    "video-comparison": 0.8620958162307808,
+    "stills-comparison": 0.8266118261077825,
+    "sheet-comparison": 0.8991946733784648
+  },
+  "visible_features": 696,
+  "step_solids": 853,
+  "step_volume_relative_error": 5.396242779368339e-07,
+  "decision": "rejected because all three aggregate metrics regress versus v341",
+  "registration": "camera projection only; no image warp, stretch, per-part alignment or omitted visible parts"
+}
