@@ -1,9 +1,9 @@
 {
   "passed": true,
   "errors": [],
-  "revision": "v287-front-cheek-x0985",
-  "fcstd_sha256": "8735550b165cba423af223935a47ec3f3e0b2359110d17f957c8eaf50697966d",
-  "step_sha256": "227b73c6a840038004ed5541a942a3b7e0890cc6b499b51dae5d5191b8766dab",
+  "revision": "v292-brow-shoulder-inset",
+  "fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
+  "step_sha256": "ea920ee43975abef1653ddace3bd3c2022cb79853e825d2da57cf52055300e6a",
   "visible_features": 696,
   "step_solids": 853,
   "screen_panel_mm": [
@@ -37,15 +37,15 @@
   "comparisons": {
     "video": {
       "views": 10,
-      "mean_silhouette_iou": 0.8603319832230998
+      "mean_silhouette_iou": 0.86034597378122
     },
     "stills": {
       "views": 7,
-      "mean_silhouette_iou": 0.8257476022403079
+      "mean_silhouette_iou": 0.8258720774268677
     },
     "sheet": {
       "views": 10,
-      "mean_silhouette_iou": 0.8978280900714356
+      "mean_silhouette_iou": 0.8978354872447
     }
   },
   "physical_validation": false,

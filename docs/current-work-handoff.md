@@ -1,12 +1,12 @@
 # VINTROX Drone 外观迭代交接
 
-目标仍在执行。当前发布基线为 `miclle/vintrox` 的 `main` 上的 v287，采用普通 Git 交付。[v287 正式记录](../cad/drone-concept/comparison/v287-front-cheek-x0985/README.md) · [v259 基线](../cad/drone-concept/comparison/v259-rear-beacon-length/README.md)
+目标仍在执行。当前发布基线为 `miclle/vintrox` 的 `main` 上的 v292，采用普通 Git 交付。[v292 正式记录](../cad/drone-concept/comparison/v292-brow-shoulder-inset/README.md) · [v259 基线](../cad/drone-concept/comparison/v259-rear-beacon-length/README.md)
 
 ## 当前证据
 
-- v287 保留实测 210 × 160 × 2 mm 平面屏、外挂筒、侧控件、格栅和四根支柱。曲面罩按参考外观推导，原作内部和遮挡细节仍有未知项。[设计说明](drone-concept.md)
-- 视频十方位、静态七图和拼图十格的平均 IoU 分别为 86.0332%、82.5748% 和 89.7828%。固定相机使用保存 CAD 渲染，比较时排除新增支撑总成。90% 视频整圈与主要部件轮廓偏差 5% 的目标仍待达成。v257 的大喷口叶片末端复测中，两处侧后视的最大偏差为 20.96% 和 21.94%。[交付与固定相机](../cad/drone-concept/delivery-verification-current.json) · [叶片复测](../cad/drone-concept/comparison/v257-mirrored-nozzle-tips/visible-petal-edges.json)
-- `python3 tools/verify_drone_current_delivery.py` 核对 FCStd 和 STEP 哈希、696 个可见对象、853 个闭合 STEP 实体，以及预览和四个原生显示视图。v287 的独立保存读回和 FreeCAD 颜色记录随正式交付保存。[读回报告](../cad/drone-concept/readback-verification.json) · [颜色记录](../cad/drone-concept/comparison/v287-front-cheek-x0985/native-display/native-display-verification.json)
+- v292 保留实测 210 × 160 × 2 mm 平面屏、外挂筒、侧控件、格栅和四根支柱。曲面罩按参考外观推导，原作内部和遮挡细节仍有未知项。[设计说明](drone-concept.md)
+- 视频十方位、静态七图和拼图十格的平均 IoU 分别为 86.0346%、82.5872% 和 89.7835%。固定相机使用保存 CAD 渲染，比较时排除新增支撑总成。90% 视频整圈与主要部件轮廓偏差 5% 的目标仍待达成。v257 的大喷口叶片末端复测中，两处侧后视的最大偏差为 20.96% 和 21.94%。[交付与固定相机](../cad/drone-concept/delivery-verification-current.json) · [叶片复测](../cad/drone-concept/comparison/v257-mirrored-nozzle-tips/visible-petal-edges.json)
+- `python3 tools/verify_drone_current_delivery.py` 核对 FCStd 和 STEP 哈希、696 个可见对象、853 个闭合 STEP 实体，以及预览和四个原生显示视图。v292 的独立保存读回和 FreeCAD 颜色记录随正式交付保存。[读回报告](../cad/drone-concept/readback-verification.json) · [颜色记录](../cad/drone-concept/comparison/v292-brow-shoulder-inset/native-display/native-display-verification.json)
 - v245 新增三处高级几何检查失败。v246 通过候选几何与接合检查，视频得分微升，静态图略降，七个叶片采样视角仍有六个超过 5%。两版均保留试验记录，v246 的 STEP 独立读回和原生颜色显示待验证。参数可配合 v242 的保存网格重建候选。[试验记录](../cad/drone-concept/comparison/v245-v246-petal-terminal/README.md)
 - 重新运行 `tools/measure_drone_lower_pod_outline.py` 读取 v242，确认两侧各 18 片小喷口叶片。四个拟合视角的口沿测量 RMS 为 4.53 px，两个未参与拟合的视角为 7.38 px，最大 12.62 px。测量限定于外端圆弧。小喷口外露部分与前罩内衬仍待结合可见边缘和参考阴影核对。[小喷口读回](../cad/drone-concept/comparison/v242-belly-y097/lower-pod-outline-check.json) · [视频对象归因](../cad/drone-concept/comparison/v242-belly-y097/video-comparison/boundary-regions.json)
 - v247 小喷口镜像姿态试验降低了两张未参与拟合视图的末端偏差，三组整机 IoU 均下降。六处参考近景显示前罩内衬和小喷口多处像素归因落在仍可辨认的暗色表面。后续几何更新应以可辨认的外沿及实体交界为依据。[v247 对照与参数](../cad/drone-concept/comparison/v247-small-pod-pose/README.md)
@@ -50,9 +50,10 @@
 - v289 接合复核已改用同侧和局部扇区配对，延长档的 216 项距离检查全部通过。缩短 6% 时，20 对叶片与口环的原有间隙增大。[更正后的接合检查](../cad/drone-concept/comparison/v289-small-pod-axial-extension/README.md)
 - v290 以口环站位为基准缩短叶片 6%，通过 216 项距离检查，三组整机均值均提高。原拟合外两视角的端缘 RMS 由 7.38 升至 8.30 px，正式版采用 v287。[整机与端缘对照](../cad/drone-concept/comparison/v290-small-pod-axial-contraction/README.md)
 - v291 将小喷口外罩和口环延长 0.25 mm，三组整机均值略降，正式版采用 v287。1 mm、2 mm 档分别导致 2 处和 8 处原有口环与叶片接触分离。[小喷口外罩筛查](../cad/drone-concept/comparison/v291-small-pod-shell-extension/README.md)
+- v292 将前罩肩部弧面内罩及白纹各向内移 2 mm。静态第 05 图的左内罩外溢下降，前罩主体仍有外溢。三组整机均值提高，采用为正式版。[几何、像素归因与交付](../cad/drone-concept/comparison/v292-brow-shoulder-inset/README.md)
 
 ## 续接
 
 1. 结合 `video-02`、`video-03`、`video-06` 和 `still-05` 核对喷口口环及叶片末缘。沿第 9、10 号叶片在静态近景中的外缘定位外溢截面，检查末段收窄能否同时保住两个侧后视频方位的轮廓收益。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口视频近景](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/v276-tip-crops.png) · [大喷口静态近景](../cad/drone-concept/comparison/v283-visible-petal-pairs/still-delta-crops.png)
-2. 从保存 v287 生成候选，在临时目录保存 FCStd 和网格。沿用十个视频姿态、七张静态图与十格拼图检查整机轮廓，再复测关键局部，以同相机的投影屏宽归一化。进入正式交付的候选需补齐 STEP 独立读回、接合与四支柱复查、原生颜色与可见性检查，并同步正式模型、预览与文档。[编辑与复现](drone-concept.md#编辑与复现)
+2. 从保存 v292 生成候选，在临时目录保存 FCStd 和网格。沿用十个视频姿态、七张静态图与十格拼图检查整机轮廓，再复测关键局部，以同相机的投影屏宽归一化。进入正式交付的候选需补齐 STEP 独立读回、接合与四支柱复查、原生颜色与可见性检查，并同步正式模型、预览与文档。[编辑与复现](drone-concept.md#编辑与复现)
 3. GitHub 发布分支使用精简历史，保留当前正式包、关键基线对照和试验报告。用正式 CAD 与固定相机生成新候选所需网格。[存储说明](storage-cleanup.md)

@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v292",
+      "model": "/private/tmp/vintrox-v292.Cc9KSi/candidate/candidate.FCStd",
+      "fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
+      "palette_contract_sha256": "0e85cc2bd29e1c25e53e0e72f7c947f9205ca71b076f5d964182c50fc2e79f79",
+      "native_color_triples": 70,
+      "mesh_color_triples": 70,
+      "max_native_vs_mesh_channel_difference": 2.9685450542160652e-08,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v292-isometric.png",
+          "sha256": "e47662e6b2fbbf329d9ea356910182675efb7370c310040c723715e24ff132a8"
+        },
+        {
+          "view": "front",
+          "path": "v292-front.png",
+          "sha256": "b2eb86fc5dfada89d6ff5233483bf603c8d255045601e249086679ed881237a3"
+        },
+        {
+          "view": "rear",
+          "path": "v292-rear.png",
+          "sha256": "98aaae336bae65d55742d70c80582fd8153f14faf41278b739a6aeb568177d0d"
+        },
+        {
+          "view": "right",
+          "path": "v292-right.png",
+          "sha256": "e2d17c5cd6b800be5a4cdc32a46285eef20354ea54d45fa1ab1c36c03a37de82"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

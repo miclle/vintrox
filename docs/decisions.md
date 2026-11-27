@@ -421,3 +421,5 @@ v289 将小喷口叶片轴向跨度增加 6%，同步复建封片。两个未参
 v290 固定小喷口口环站位，将叶片轴向跨度缩短 6%。三组整机平均 IoU 提高，端缘复测误差增大，正式模型采用 v287。[整机评分与端缘复测](../cad/drone-concept/comparison/v290-small-pod-axial-contraction/README.md)
 
 v291 筛查小喷口外罩与口环的三档轴向延长。0.25 mm 档无接触分离但三组评分略降，1 mm、2 mm 档分别有 2 处和 8 处口环与叶片接触分离，正式模型采用 v287。[外罩延长筛查](../cad/drone-concept/comparison/v291-small-pod-shell-extension/README.md)
+
+采用 v292，前罩肩部弧面内罩及白纹各向内移 2 mm。三组平均 IoU 均提高，静态第 05 图提升 0.03421 个百分点。保存读回、接合、STEP 和 FreeCAD 原生颜色复核通过。[固定相机对照](../cad/drone-concept/comparison/v292-brow-shoulder-inset/README.md)
