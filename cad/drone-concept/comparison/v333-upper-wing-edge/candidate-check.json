@@ -1,0 +1,173 @@
+{
+  "baseline_fcstd_sha256": "80bc4e79909333999eb85aedde9c097437587673d03c7d0bca2009ab9ed1e92f",
+  "fcstd_sha256": "012f7c6d2b689f46963236e6cfcc058802cfcde4137d2afb826096a5c3acd610",
+  "script_sha256": "009835a5efdd76dd724c750374f73fb9754316b2d8c0deeebc2ac630a0616370",
+  "changed_objects": [
+    "WingEdgeRight",
+    "WingFoldFacetRight",
+    "WingInnerPaintRight",
+    "WingPaintRight",
+    "WingRaisedFaceRight"
+  ],
+  "inset_local_mm": 5,
+  "fit_sha256": "9d90ce340fb9eeedacf89b9290280105fb9f4a8f6bb66102af85866a7739419b",
+  "pose_sha256": "5a69426e233fc0740ff3e7a55a8678b8f81f92d91b970f583860acf2fb308070",
+  "fit_scale": 1.0,
+  "rear_station_weights": {
+    "17": 0.2,
+    "18": 0.75,
+    "19": 1,
+    "20": 0.9,
+    "21": 0.25
+  },
+  "front_offsets_local_mm": {
+    "1": 0.5,
+    "2": 5.5,
+    "3": 2.5,
+    "4": 2.0,
+    "14": 2.8,
+    "15": 3.8,
+    "16": 1.0,
+    "17": -3.5,
+    "18": -3.5
+  },
+  "advanced_checks": [
+    {
+      "name": "WingEdgeRight",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "WingInnerPaintRight",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "WingFoldFacetRight",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "WingRaisedFaceRight",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "WingPaintRight",
+      "baseline_errors": [],
+      "candidate_errors": []
+    }
+  ],
+  "contacts": [
+    {
+      "objects": [
+        "WingEdgeRight",
+        "WingInnerPaintRight"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingEdgeRight",
+        "WingFoldFacetRight"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "overlap_mm3": 2262.904564555894,
+      "baseline_overlap_mm3": 2401.042692025009,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingEdgeRight",
+        "WingRaisedFaceRight"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingEdgeRight",
+        "WingHubSeatRight"
+      ],
+      "gap_mm": 2.302860127537616e-12,
+      "baseline_gap_mm": 2.3607134130094305e-12,
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingInnerPaintRight",
+        "WingSpineRight"
+      ],
+      "gap_mm": 5.975322222192471e-13,
+      "baseline_gap_mm": 4.263256414560601e-13,
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingFoldFacetRight",
+        "WingRaisedFaceRight"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "overlap_mm3": 8.916043085680398,
+      "baseline_overlap_mm3": 8.918111609413845,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingFoldFacetRight",
+        "WingPaintRight"
+      ],
+      "gap_mm": 0.4081800156171577,
+      "baseline_gap_mm": 0.40818001561715683,
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingRaisedFaceRight",
+        "WingPaintRight"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "overlap_mm3": 7613.402716622408,
+      "baseline_overlap_mm3": 7613.402716279256,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingPaintRight",
+        "WingHubMarkRight"
+      ],
+      "gap_mm": 1.4210854715202004e-14,
+      "baseline_gap_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    }
+  ],
+  "new_advanced_check_failures": [],
+  "contact_regressions": [],
+  "status": "geometry diagnostic pending final readback and rendering",
+  "diagnostic_fcstd_sha256": "ef37d9a5e7f30541410c03d7886bf1d74614c449805f02ea2b94e30081cf1809",
+  "step_sha256": "0e75d58f57e3d2179a64ce27518f19089674a551dc5c1cac1e9d20f3b1ab3791",
+  "finalizer_sha256": "116e96bd548782a090f1da8e07458e7983d6291c1754e76844877b3b2b146f7f",
+  "appearance_source_sha256": "80bc4e79909333999eb85aedde9c097437587673d03c7d0bca2009ab9ed1e92f",
+  "gui_members_copied": 2095,
+  "unchanged_archive_members_restored": 1112,
+  "geometry_unchanged_during_gui_restore": true,
+  "changed_mesh_geometry": "retessellated from final reopened FCStd"
+}
