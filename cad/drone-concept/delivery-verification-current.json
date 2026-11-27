@@ -1,9 +1,9 @@
 {
   "passed": true,
   "errors": [],
-  "revision": "v310-right-wing-fold",
-  "fcstd_sha256": "92d27fc7d9b33ab40c30d237a30c456d3e8054660a97013603ef8b7b79af933b",
-  "step_sha256": "2a8dc1e6662cf40f768a5024b834d49f4eddcfc6e09be83e282de20a48bc3e83",
+  "revision": "v315-antenna-multiview",
+  "fcstd_sha256": "be041c71d0190ffaf7cc275b1747405977c2529bd67025fe36224304852f31eb",
+  "step_sha256": "a7f91c1ba1279b14079d9afee187d41e381c1412d8f9fcafa39acfda3e5090ef",
   "visible_features": 696,
   "step_solids": 853,
   "screen_panel_mm": [
@@ -37,15 +37,15 @@
   "comparisons": {
     "video": {
       "views": 10,
-      "mean_silhouette_iou": 0.8618476156216441
+      "mean_silhouette_iou": 0.8620458988433513
     },
     "stills": {
       "views": 7,
-      "mean_silhouette_iou": 0.82639128415158
+      "mean_silhouette_iou": 0.8268771416641086
     },
     "sheet": {
       "views": 10,
-      "mean_silhouette_iou": 0.899054957915151
+      "mean_silhouette_iou": 0.8995823431479039
     }
   },
   "physical_validation": false,
