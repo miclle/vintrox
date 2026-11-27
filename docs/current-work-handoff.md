@@ -66,6 +66,7 @@
 - v303 筛选两档水平和两档斜向后肩接续。斜率 1 档静态第 03 图提高 0.02057 个百分点，第 06 图得分相同，三组整机均值略降。正式采用 v302。[接续几何与固定相机](../cad/drone-concept/comparison/v303-rear-shoulder-transition/README.md)
 
 - v304 将前侧护壳厚度缩至 75%。正面视频提高 0.04802 个百分点。六个直接邻件的距离复核在左右两侧均保住原有接触。侧后桥板接续试验未改变视频分数，仍需按参考边界判断。[v304 固定相机与复建](../cad/drone-concept/comparison/v304-front-cheek-thickness/README.md)
+- v305 分对延长第 0、4 号和第 5、11 号喷口叶片。第 5、11 号使第 60、180 帧的末缘偏差降至 18.94% 和 20.68%，两档视频、静态均值均下降。正式采用 v304。[侧后视对照](../cad/drone-concept/comparison/v305-nozzle-pair-terminal/README.md)
 
 ## 续接
 
