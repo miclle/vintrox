@@ -37,6 +37,7 @@
 - v277 筛查了两档底部回环渐变半径，四组局部采样 RMS 均下降，视频十方位均值下降 0.052838 和 0.096477 个百分点。两端半径和四支柱净空通过复核，正式采用 v276。[回环筛选与放样参数](../cad/drone-concept/comparison/v277-loop-radius-screen/README.md)
 - v278 联动拟合回环路径与渐变半径，第 120 帧左右回环的最大采样偏差降到投影屏宽的 5% 以内，第 180 帧右回环上升到 25.75%。三组整机均值均下降，正式采用 v276。[三组比较与可见边界](../cad/drone-concept/comparison/v278-loop-path-fit/README.md)
 - v279 将后部鳍片暗色基座的顶部降低 1.5 mm、3 mm。两档十方位逐视角 IoU 均与 v276 相同，槽顶露出的金色壳面与参考暗槽有差异，继续采用 v276。[近景与保存几何](../cad/drone-concept/comparison/v279-cooling-core-recess/README.md)
+- v280 将顶罩两条凸筋从 6 mm 降到 4.5 mm、3 mm。保存实体检查通过，视频十方位均值分别降至 85.9295%、85.8692%，正式采用 v276。[固定相机对照与复建](../cad/drone-concept/comparison/v280-roof-rib-height/README.md)
 
 ## 续接
 
