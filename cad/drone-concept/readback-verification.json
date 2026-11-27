@@ -171,10 +171,10 @@
   "curved_nozzle_petals": 12,
   "non_volumetric_components": [],
   "armour_relief_depths_mm": {
-    "WingPaintLeft": 13.32935793210001,
-    "WingPaintRight": 12.331007278997873,
-    "WingSpineLeft": 10.37723815999999,
-    "WingSpineRight": 10.37723816000998,
+    "WingPaintLeft": 11.160303502803686,
+    "WingPaintRight": 10.369498448335435,
+    "WingSpineLeft": 8.938936766995525,
+    "WingSpineRight": 8.93893676700553,
     "HoodShoulderPlateLeft": 43.698549925199984,
     "HoodShoulderPlateRight": 43.69854992526999,
     "RearArmourCheekLeft": 92.16086408395219,
@@ -345,16 +345,16 @@
   },
   "wing_connections": {
     "Left": {
-      "paint_raised_overlap_mm3": 7686.746645756307,
+      "paint_raised_overlap_mm3": 7686.744579918622,
       "raised_blade_gap_mm": 0.0,
-      "fold_blade_overlap_mm3": 2975.3087376808076,
+      "fold_blade_overlap_mm3": 2975.2797090465165,
       "inner_blade_gap_mm": 0.0,
-      "mark_paint_gap_mm": 1.9915487475094384e-12
+      "mark_paint_gap_mm": 1.990534462367251e-12
     },
     "Right": {
-      "paint_raised_overlap_mm3": 7613.402716530527,
+      "paint_raised_overlap_mm3": 7613.402716572654,
       "raised_blade_gap_mm": 0.0,
-      "fold_blade_overlap_mm3": 2302.658249473918,
+      "fold_blade_overlap_mm3": 2302.658569585225,
       "inner_blade_gap_mm": 0.0,
       "mark_paint_gap_mm": 0.0
     }
@@ -502,7 +502,7 @@
   },
   "side_ring_connections": {
     "Left": {
-      "hub_wing_overlap_mm3": 1437.7621415025915,
+      "hub_wing_overlap_mm3": 1534.9980029800386,
       "hub_cone_overlap_mm3": 69.34999989585572,
       "hub_paint_overlap_mm3": 0.0,
       "seal_body_overlap_mm3": 4639.234369169683,
@@ -520,7 +520,7 @@
       ]
     },
     "Right": {
-      "hub_wing_overlap_mm3": 1437.7616574326507,
+      "hub_wing_overlap_mm3": 1537.4973173171654,
       "hub_cone_overlap_mm3": 69.35002562259073,
       "hub_paint_overlap_mm3": 0.0,
       "seal_body_overlap_mm3": 4639.235803730461,
@@ -542,10 +542,10 @@
   "step_volume_basis": "sum of individually integrated solid volumes",
   "step_bbox_max_delta_mm": 5.8903992794512305e-12,
   "bbox_mm": [
-    297.1719949168737,
+    296.96318075074987,
     360.58442207898185,
     485.79434211138766
   ],
-  "fcstd_sha256": "cbd3841eb55228d5b2a5c6edfce1fc18eacd9775aa39ff966513b49d3e4f7695",
-  "step_sha256": "b8969b0ef6fe9cf0bc552ab1cf45743371c25e399fc6c6f27d79e3342966ecbf"
+  "fcstd_sha256": "a4184749e09e60d2620f84e857b3b73853c173b7e98b5d48e78d3791e02c861d",
+  "step_sha256": "e731b65bcc3f5123112fdc75aaaa6f5dbceb6ed4b03825792c2cbacb62ee9e28"
 }

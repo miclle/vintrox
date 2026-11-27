@@ -1,5 +1,5 @@
 {
-  "revision": "v304-front-cheek-thickness",
+  "revision": "v306-wing-pose",
   "front_cheek_x_scale": 0.995,
   "front_brow_x_scale": 0.985,
   "nozzle_petal_comparison_scale": 0.96,
@@ -154,7 +154,7 @@
   },
   "visible_features": 696,
   "bbox_mm": [
-    297.1719949168737,
+    296.96318075074987,
     360.58442207898185,
     485.79434211138766
   ],
@@ -164,11 +164,11 @@
     -100.0
   ],
   "bbox_max_mm": [
-    142.67460009999616,
+    142.46578593387235,
     297.8988975305577,
     385.79434211138766
   ],
-  "fcstd_sha256": "cbd3841eb55228d5b2a5c6edfce1fc18eacd9775aa39ff966513b49d3e4f7695",
+  "fcstd_sha256": "a4184749e09e60d2620f84e857b3b73853c173b7e98b5d48e78d3791e02c861d",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4360,7 +4360,7 @@
     }
   ],
   "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
-  "step_sha256": "b8969b0ef6fe9cf0bc552ab1cf45743371c25e399fc6c6f27d79e3342966ecbf",
+  "step_sha256": "e731b65bcc3f5123112fdc75aaaa6f5dbceb6ed4b03825792c2cbacb62ee9e28",
   "gold_wing_rear_inset_local_mm": 5,
   "gold_wing_rear_station_weights": {
     "17": 0.2,
@@ -4667,6 +4667,33 @@
       ],
       "thickness_scale": 0.75,
       "anchor": "inner X face of each cheek"
+    },
+    "wing_pose_v306": {
+      "baseline_fcstd_sha256": "cbd3841eb55228d5b2a5c6edfce1fc18eacd9775aa39ff966513b49d3e4f7695",
+      "changed_objects": [
+        "WingEdgeLeft",
+        "WingRaisedFaceLeft",
+        "WingPaintLeft",
+        "WingFoldFacetLeft",
+        "WingInnerPaintLeft",
+        "WingSpineLeft",
+        "WingHubSeatLeft",
+        "WingStripeLeft0",
+        "WingStripeLeft1",
+        "WingHubMarkLeft",
+        "WingEdgeRight",
+        "WingRaisedFaceRight",
+        "WingPaintRight",
+        "WingFoldFacetRight",
+        "WingInnerPaintRight",
+        "WingSpineRight",
+        "WingHubSeatRight",
+        "WingHubMarkRight"
+      ],
+      "angles_deg": [
+        -0.1401062831291276,
+        0.4704694486496271
+      ]
     }
   },
   "rear_belly_relief": {

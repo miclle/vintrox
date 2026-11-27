@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v306",
+      "model": "cad/drone-concept/comparison/v306-wing-pose/candidate.FCStd",
+      "fcstd_sha256": "a4184749e09e60d2620f84e857b3b73853c173b7e98b5d48e78d3791e02c861d",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "a4184749e09e60d2620f84e857b3b73853c173b7e98b5d48e78d3791e02c861d",
+      "palette_contract_sha256": "c22c7072abfb80517a4b89910bea20561e41d04827647d942de54711d19eb47d",
+      "native_color_triples": 70,
+      "mesh_color_triples": 70,
+      "max_native_vs_mesh_channel_difference": 2.9685450542160652e-08,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v306-isometric.png",
+          "sha256": "71ba809b5f4bc7dcbb144567e9638b9e96d324a3af81b9505a628222a6276a3e"
+        },
+        {
+          "view": "front",
+          "path": "v306-front.png",
+          "sha256": "59696d308e1f5ddeac15258a9d8afe1ee246231144eb72e52f4c24e7b1cd915a"
+        },
+        {
+          "view": "rear",
+          "path": "v306-rear.png",
+          "sha256": "6708b4d6994bdec52c938e2c759e9abb07d92f18f7c376b8bd0767f32d6cc3e4"
+        },
+        {
+          "view": "right",
+          "path": "v306-right.png",
+          "sha256": "31bfbf5577f64e261e755ce9c6486bd795b010093e0aa6a193bdcc4667112283"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}
