@@ -1,0 +1,108 @@
+{
+  "fcstd_sha256": "74e13f54fe076e30cbfcd87fcde8d8f9abf42810b2df80806b869f54dd4092cc",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "measurement_script_sha256": "cf26a7290c2f9c65a31a552078b5fcb65efcef33dec01bfe0f47c718eacb02a3",
+  "object_id_manifest_sha256": "5b96cc88cd0d8be419bd52dc67191a466aab0a15be89c9ce7967b81ccedc026f",
+  "render_manifest_sha256": "6a4b86c86b719d514b054167764bc732eacb438a0a15e9f0af1515b298c25dc9",
+  "source_frame": 120,
+  "row_px": 590,
+  "manual_uncertainty_px": 2,
+  "observations": [
+    {
+      "petal_index": 9,
+      "reference_positions_px": [
+        417,
+        429
+      ],
+      "reference_separation_px": 12,
+      "rail_ranges_px": [
+        null,
+        null
+      ],
+      "rail_centres_px": [
+        null,
+        null
+      ],
+      "both_rails_visible": false,
+      "centre_separation_px": null,
+      "separation_error_px": null,
+      "whole_assembly_range_px": [
+        429,
+        439
+      ],
+      "whole_assembly_span_px": 10
+    },
+    {
+      "petal_index": 8,
+      "reference_positions_px": [
+        470,
+        483
+      ],
+      "reference_separation_px": 13,
+      "rail_ranges_px": [
+        null,
+        null
+      ],
+      "rail_centres_px": [
+        null,
+        null
+      ],
+      "both_rails_visible": false,
+      "centre_separation_px": null,
+      "separation_error_px": null,
+      "whole_assembly_range_px": [
+        465,
+        476
+      ],
+      "whole_assembly_span_px": 11
+    },
+    {
+      "petal_index": 7,
+      "reference_positions_px": [
+        519,
+        530
+      ],
+      "reference_separation_px": 11,
+      "rail_ranges_px": [
+        null,
+        null
+      ],
+      "rail_centres_px": [
+        null,
+        null
+      ],
+      "both_rails_visible": false,
+      "centre_separation_px": null,
+      "separation_error_px": null,
+      "whole_assembly_range_px": [
+        511,
+        515
+      ],
+      "whole_assembly_span_px": 4
+    }
+  ],
+  "measured_pairs_count": 0,
+  "rms_separation_error_px": null,
+  "image_path": "/private/tmp/vintrox-v331-guides.SUVn44/width.png",
+  "image_sha256": "404e8a218c3300045fc7745b121af8e646f97ca560f49b5730ff1e3702331a31",
+  "source_files": [
+    {
+      "path": "/private/tmp/vintrox-v331-guides.SUVn44/video-comparison/reference-frames/frame-05.png",
+      "sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb"
+    },
+    {
+      "path": "/private/tmp/vintrox-v331-guides.SUVn44/video-renders/video-04.png",
+      "sha256": "c2a90c630d922280cdcdba07ab2ad717c8601f90c2c776d9f748214177af619d"
+    },
+    {
+      "path": "/private/tmp/vintrox-v331-guides.SUVn44/video-ids/video-04.png",
+      "sha256": "043855a28b0890924d240e698e074fd36c9ca84686dda2cafdb4611f1eee92b3"
+    }
+  ],
+  "limitations": [
+    "three central guide pairs only",
+    "reference bright positions may be edges rather than rail centres",
+    "object-ID visibility is approximate at antialiased pixels",
+    "not a complete nozzle acceptance test"
+  ]
+}
