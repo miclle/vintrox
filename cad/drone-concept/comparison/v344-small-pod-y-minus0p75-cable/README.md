@@ -16,9 +16,4 @@
 
 ## 复现
 
-```sh
-PYTHONPATH=/Applications/FreeCAD.app/Contents/Resources/lib \
-/Applications/FreeCAD.app/Contents/Resources/bin/freecadcmd /tmp/run_freecad_script.py
-```
-
-脚本参数为 `tools/experiment_drone_small_pod_pose.py --base cad/drone-concept/comparison/v341-small-pod-cable-combination/candidate.FCStd --offset 0 -0.25 0 --rotation-vector 0 0 0`。随后使用 `tools/restore_candidate_display.py` 从 v341 恢复 GUI 载荷，再用 `tools/export_candidate_drone_meshes.py` 导出网格。视频、静态与拼图分别使用 `comparison/cameras.json`、`still-cameras.json` 和 `contact-sheet-cameras.json`，并通过 `tools/render_drone_concept.py` 与 `tools/compare_drone_reference.py` 生成固定相机渲染、叠加和差异。
+运行 `tools/experiment_drone_small_pod_pose.py`，基线为 v341 保存模型，参数为 `--offset 0 -0.25 0 --rotation-vector 0 0 0`。随后使用 `tools/restore_candidate_display.py` 从 v341 恢复 GUI 载荷，再用 `tools/export_candidate_drone_meshes.py` 导出网格。视频、静态与拼图分别使用 `comparison/cameras.json`、`still-cameras.json` 和 `contact-sheet-cameras.json`，并通过 `tools/render_drone_concept.py` 与 `tools/compare_drone_reference.py` 生成固定相机渲染、叠加和差异。
