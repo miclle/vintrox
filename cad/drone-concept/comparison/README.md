@@ -1,6 +1,10 @@
 # Drone 参考比较证据
 
-当前正式模型为 **v61 喷口外罩中段减薄**：十方位视频平均轮廓 IoU **85.49201687%**，七张静态图 **82.22681557%**。本轮只调整外罩中段，四根支柱、喷口本体和凹舱阴影语义保持；正式叠加和渲染见 [v61 视频](iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-board.png)、[v61 静态图](iteration-121-v61-nozzle-fairing-depth3-stills-comparison/comparison-board.png) 与 [v61 交付检查](../delivery-verification-v61-nozzle-fairing-depth3.json)。
+正式 v259 包含视频十方位、七张静态原图和十格参考拼图的半透明叠加及轮廓差异。历史 v164 三组总览板保留供交叉核对。[v259 正式对照](v259-rear-beacon-length/README.md) · [v164 视频基线](v164-front-brow-depth/video-comparison/comparison-board.png) · [v164 静态基线](v164-front-brow-depth/stills-comparison/comparison-board.png) · [v164 拼图基线](v164-front-brow-depth/sheet-comparison/comparison-board.png) · [v269 筛选](v269-rear-shoulder-screening/README.md)
+
+## 历次评审记录
+
+当时的正式模型为 **v61 喷口外罩中段减薄**：十方位视频平均轮廓 IoU **85.49201687%**，七张静态图 **82.22681557%**。本轮只调整外罩中段，四根支柱、喷口本体和凹舱阴影语义保持；正式叠加和渲染见 [v61 视频](iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-board.png)、[v61 静态图](iteration-121-v61-nozzle-fairing-depth3-stills-comparison/comparison-board.png) 与 [v61 交付检查](../delivery-verification-v61-nozzle-fairing-depth3.json)。
 
 [v64 后护甲截面候选](v64-rear-shoulder-study/README.md)仅将左右 `RearArmourCheek` 截面指数改为 1.25。它完成了 FCStd/STEP 独立读回、十方位与七图真实 CAD 渲染、半透明叠加和差异图；视频平均 IoU **85.489951%** 略低于正式 v61，静态图 **82.259796%** 略高，因此保留为候选，正式模型不变。候选结论和哈希见 [candidate-review](v64-rear-shoulder-study/candidate-review.json)。
 

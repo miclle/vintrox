@@ -1,6 +1,6 @@
 # VINTROX Drone 外观迭代交接
 
-目标仍在执行。当前发布基线为 `miclle/vintrox` 的 `main` 上的 v259，采用普通 Git 交付。可从 `b0da9f19` 追溯 v242 模型，从 `6c87b15b` 查阅 v245、v246 的试验参数和对照。[v259 正式记录](../cad/drone-concept/comparison/v259-rear-beacon-length/README.md) · [v245 与 v246](../cad/drone-concept/comparison/v245-v246-petal-terminal/README.md)
+目标仍在执行。当前发布基线为 `miclle/vintrox` 的 `main` 上的 v259，采用普通 Git 交付。v245、v246 的试验参数和逐视角数据可在归档目录查阅。[v259 正式记录](../cad/drone-concept/comparison/v259-rear-beacon-length/README.md) · [v245 与 v246](../cad/drone-concept/comparison/v245-v246-petal-terminal/README.md)
 
 ## 当前证据
 
@@ -27,9 +27,10 @@
 - v266 尝试用历史拟合口沿重建 v259 小喷口族，`LowerPodRib_1_0` 未通过有效、闭合、单实体门槛，候选在几何阶段停止，没有进入渲染或正式交付。[v266 门槛记录](../cad/drone-concept/comparison/v266-lower-pod-lip-gate/README.md)
 - v267 筛选 `BassVisualCone` 凹碗收缩 0.5 mm 与 1.5 mm。视频分别提高约 0.000071 和 0.000068 个百分点，0.5 mm 档静态和拼图分别下降 0.000112 和 0.000066 个百分点，均不采用。[v267 筛选](../cad/drone-concept/comparison/v267-bass-visual-cone-screening/README.md)
 - v268 筛选 `BottomChassis` Y 向 0.99 倍，视频、静态图和拼图分别提高 0.000021、0.000010 和 0.000003 个百分点，属于噪声量级，未采用。[v268 筛选](../cad/drone-concept/comparison/v268-bottom-chassis-screening/README.md)
+- v269 重建后肩护甲和接片，视频十方位均值降至 85.767475%，继续采用 v259。重新生成的对象 ID 将静态第 05 图两处前罩外溢归因到弧面内罩和甲片。[后肩筛选和静态诊断](../cad/drone-concept/comparison/v269-rear-shoulder-screening/README.md)
 
 ## 续接
 
-1. 以 v257 的大喷口末端复测和 v259 的对象级外溢分布为基线，沿 `video-02`、`video-03` 和 `video-06` 的可见边缘核对叶片与邻件遮挡，再试验真实 CAD 端部几何。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口复测板](../cad/drone-concept/comparison/v257-mirrored-nozzle-tips/visible-petal-edges.png) · [v259 对象归因](../cad/drone-concept/comparison/v260-gold-wing-v259-screening/video-diagnostic/boundary-regions-board.png) · [小喷口近景](../cad/drone-concept/comparison/v247-small-pod-pose/v242-contour-detail.png)
+1. 以 v257 的大喷口末端复测和 v259 的对象级外溢分布为基线，沿 `video-02`、`video-03` 和 `video-06` 的可见边缘核对叶片与邻件遮挡，再试验真实 CAD 端部几何。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口复测](../cad/drone-concept/comparison/v257-mirrored-nozzle-tips/visible-petal-edges.json) · [前罩对象归因](../cad/drone-concept/comparison/v269-rear-shoulder-screening/still-05-boundary.json)
 2. 从保存 v259 生成候选，在临时目录保存 FCStd 和网格。沿用十个视频姿态、七张静态图与十格拼图检查整机轮廓，再复测关键局部，以同相机的投影屏宽归一化。进入正式交付的候选需补齐 STEP 独立读回、接合与四支柱复查、原生颜色与可见性检查，并同步正式模型、预览与文档。[编辑与复现](drone-concept.md#编辑与复现)
-3. `24e3f39f` 已从当前快照移除 112 个落选 Drone 候选 FCStd、STEP 和几何副本。精简历史保留正式 v259 包与复现证据，当前活动分支采用普通 Git 交付，不依赖 GitHub LFS。[存储说明](storage-cleanup.md)
+3. GitHub 发布分支使用精简历史，保留 v259 正式包、关键基线对照和试验报告。用正式 CAD 与固定相机生成新候选所需网格。[存储说明](storage-cleanup.md)

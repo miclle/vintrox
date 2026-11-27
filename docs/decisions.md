@@ -377,3 +377,5 @@ v265 对 `ClosedBellyPan` 做 Y 向 0.99 和 1.01 倍筛选。0.99 倍三组均�
 v266 的小喷口口沿重建在 `LowerPodRib_1_0` 处未通过有效、闭合、单实体检查，停止候选。v267 的 `BassVisualCone` 0.5 mm 和 1.5 mm 凹碗收缩虽提高视频噪声量级，0.5 mm 档静态与拼图退步，正式入口继续采用 v259。[v266](../cad/drone-concept/comparison/v266-lower-pod-lip-gate/README.md) · [v267](../cad/drone-concept/comparison/v267-bass-visual-cone-screening/README.md)
 
 v268 对 `BottomChassis` 做 Y 向 0.99 倍筛选，三组均值仅有噪声量级提升，正式入口保持 v259。[v268](../cad/drone-concept/comparison/v268-bottom-chassis-screening/README.md)
+
+v269 重建左右后肩护甲和接片后，视频十方位平均 IoU 由 86.008085% 降至 85.767475%，继续采用 v259。用 v259 复查静态第 05 图，可见左前罩弧面内罩和甲片是两处前罩外溢来源。[v269 筛选与对象归因](../cad/drone-concept/comparison/v269-rear-shoulder-screening/README.md)
