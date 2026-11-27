@@ -51,6 +51,7 @@
 - v290 以口环站位为基准缩短叶片 6%，通过 216 项距离检查，三组整机均值均提高。原拟合外两视角的端缘 RMS 由 7.38 升至 8.30 px，正式版采用 v287。[整机与端缘对照](../cad/drone-concept/comparison/v290-small-pod-axial-contraction/README.md)
 - v291 将小喷口外罩和口环延长 0.25 mm，三组整机均值略降，正式版采用 v287。1 mm、2 mm 档分别导致 2 处和 8 处原有口环与叶片接触分离。[小喷口外罩筛查](../cad/drone-concept/comparison/v291-small-pod-shell-extension/README.md)
 - v292 将前罩肩部弧面内罩及白纹各向内移 2 mm。静态第 05 图的左内罩外溢下降，前罩主体仍有外溢。三组整机均值提高，采用为正式版。[几何、像素归因与交付](../cad/drone-concept/comparison/v292-brow-shoulder-inset/README.md)
+- v293 核对 v292 底部六个固定视角。参考线框显示回环根部板件，静态图 05 的底壳外溢归因同时覆盖暗底面、线束和间隙。下一轮结合可见弧段联动筛选回环路径与粗细，复核第 180 帧的遮挡。[底部近景与复现](../cad/drone-concept/comparison/v293-underbody-visibility/README.md)
 
 ## 续接
 

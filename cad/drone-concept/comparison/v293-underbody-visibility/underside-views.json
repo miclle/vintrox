@@ -1,0 +1,226 @@
+{
+  "method": "Baseline reference segmentation and fixed cameras, with visible CAD mesh attribution.",
+  "limitations": [
+    "The reference mask can omit dark surfaces.",
+    "The still-06 source is a wireframe.",
+    "The object ID pass is opaque, with approximate attribution at antialiased edges."
+  ],
+  "views": [
+    {
+      "view": "still-04",
+      "fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
+      "camera_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+      "reference_sha256": "c2635b57d04092802341979a23e74876884bc00075d0ec9c8a3594b930e686ce",
+      "render_sha256": "1ec82af746710eea7d0e9bb8b52be94356661aefe986b0bac2b61d971bac507f",
+      "object_id_sha256": "2d643e423c108fc4fa9c103aaf5c9484ab20412e6805fcce8ce6aeb9b0cfa40a",
+      "comparison_report_sha256": "0bffeec35377e43f7477e746ea1a90053bdf7719f3995b4df3d49111737c839d",
+      "crop_xyxy": [
+        262,
+        620,
+        669,
+        823
+      ],
+      "silhouette_iou": 0.7871966490104386,
+      "visible_cad_groups": {
+        "ClosedBellyPan": {
+          "visible_px": 15044,
+          "outside_reference_mask_px": 10515,
+          "outside_filled_reference_mask_px": 7111,
+          "outside_mask_with_nonzero_reference_rgb_px": 10509
+        },
+        "UnderbodyLoop": {
+          "visible_px": 4076,
+          "outside_reference_mask_px": 2496,
+          "outside_filled_reference_mask_px": 2207,
+          "outside_mask_with_nonzero_reference_rgb_px": 2494
+        },
+        "UnderbodyHarness": {
+          "visible_px": 3600,
+          "outside_reference_mask_px": 1419,
+          "outside_filled_reference_mask_px": 1194,
+          "outside_mask_with_nonzero_reference_rgb_px": 1415
+        }
+      }
+    },
+    {
+      "view": "still-05",
+      "fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
+      "camera_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+      "reference_sha256": "3860ef57bfcf146ea337493b1860771edc072454c5b1330dc12f8dbdf4c8b58d",
+      "render_sha256": "10908df8e4e200a2274dc2912d25118295c54207e84b2de07cb1159b25d9882e",
+      "object_id_sha256": "bf5635493e0abe982ae772a902c9615f4aed0981c77cfc88b363eeb8635b21ac",
+      "comparison_report_sha256": "0bffeec35377e43f7477e746ea1a90053bdf7719f3995b4df3d49111737c839d",
+      "crop_xyxy": [
+        315,
+        581,
+        766,
+        823
+      ],
+      "silhouette_iou": 0.7865690435517673,
+      "visible_cad_groups": {
+        "ClosedBellyPan": {
+          "visible_px": 18258,
+          "outside_reference_mask_px": 11075,
+          "outside_filled_reference_mask_px": 11002,
+          "outside_mask_with_nonzero_reference_rgb_px": 11072
+        },
+        "UnderbodyLoop": {
+          "visible_px": 4711,
+          "outside_reference_mask_px": 2234,
+          "outside_filled_reference_mask_px": 1826,
+          "outside_mask_with_nonzero_reference_rgb_px": 2232
+        },
+        "UnderbodyHarness": {
+          "visible_px": 3284,
+          "outside_reference_mask_px": 1721,
+          "outside_filled_reference_mask_px": 1646,
+          "outside_mask_with_nonzero_reference_rgb_px": 1712
+        }
+      }
+    },
+    {
+      "view": "still-06",
+      "fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
+      "camera_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+      "reference_sha256": "f3438ec9a537500e14906bb8c706ab516ac7d10204c5e25716ffc43e006c2f3d",
+      "render_sha256": "7f06ad94087585a7c5d1ec9029d56a3c98a97a2352339d73bc83cd3eb33db6c2",
+      "object_id_sha256": "8d90470987cc85c6efa26c9f94abe17256a077b1e122b3891dcdc33f3b0f282c",
+      "comparison_report_sha256": "0bffeec35377e43f7477e746ea1a90053bdf7719f3995b4df3d49111737c839d",
+      "crop_xyxy": [
+        279,
+        627,
+        685,
+        823
+      ],
+      "silhouette_iou": 0.7473561165977892,
+      "visible_cad_groups": {
+        "ClosedBellyPan": {
+          "visible_px": 15909,
+          "outside_reference_mask_px": 1827,
+          "outside_filled_reference_mask_px": 347,
+          "outside_mask_with_nonzero_reference_rgb_px": 1496
+        },
+        "UnderbodyLoop": {
+          "visible_px": 4075,
+          "outside_reference_mask_px": 1154,
+          "outside_filled_reference_mask_px": 912,
+          "outside_mask_with_nonzero_reference_rgb_px": 1062
+        },
+        "UnderbodyHarness": {
+          "visible_px": 3561,
+          "outside_reference_mask_px": 546,
+          "outside_filled_reference_mask_px": 0,
+          "outside_mask_with_nonzero_reference_rgb_px": 411
+        }
+      }
+    },
+    {
+      "view": "video-02",
+      "fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "reference_sha256": "465dccf34ad81f07df9a1e4f0d48fbe1b55ec606a538f01dcf4da7f21c31004b",
+      "render_sha256": "e89ba17ea0d5acc0f9b686dc6b07b4ce88a56dd725f714790b6c6a8c434d28fd",
+      "object_id_sha256": "e55c1f0120b7374f0b6fe8b6272b615b22df1d0a7bbebb146f5b6c86044b7e1c",
+      "comparison_report_sha256": "26095b18abef045c17503ed3cb1cde4dff0be4fd5e85f14c0c1c61db3a6b1a0e",
+      "crop_xyxy": [
+        387,
+        590,
+        649,
+        761
+      ],
+      "silhouette_iou": 0.8518317113441566,
+      "visible_cad_groups": {
+        "ClosedBellyPan": {
+          "visible_px": 3,
+          "outside_reference_mask_px": 0,
+          "outside_filled_reference_mask_px": 0,
+          "outside_mask_with_nonzero_reference_rgb_px": 0
+        },
+        "UnderbodyLoop": {
+          "visible_px": 2167,
+          "outside_reference_mask_px": 1436,
+          "outside_filled_reference_mask_px": 172,
+          "outside_mask_with_nonzero_reference_rgb_px": 1332
+        },
+        "UnderbodyHarness": {
+          "visible_px": 1131,
+          "outside_reference_mask_px": 893,
+          "outside_filled_reference_mask_px": 805,
+          "outside_mask_with_nonzero_reference_rgb_px": 578
+        }
+      }
+    },
+    {
+      "view": "video-03",
+      "fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "reference_sha256": "0d8806db3363c684e6e42e641883d59705af1a938511637a2cbb9c88a116a82f",
+      "render_sha256": "902f917b6e8317c28f96e6aafd71a518302cfccfdb6302cf27ad9815806ed935",
+      "object_id_sha256": "18f1984bb17d9fe58b21981fc8ae9b50fecf75cbbe2f8394b73514058cf0c326",
+      "comparison_report_sha256": "26095b18abef045c17503ed3cb1cde4dff0be4fd5e85f14c0c1c61db3a6b1a0e",
+      "crop_xyxy": [
+        384,
+        594,
+        641,
+        742
+      ],
+      "silhouette_iou": 0.835525973086384,
+      "visible_cad_groups": {
+        "ClosedBellyPan": {
+          "visible_px": 2342,
+          "outside_reference_mask_px": 1320,
+          "outside_filled_reference_mask_px": 837,
+          "outside_mask_with_nonzero_reference_rgb_px": 1301
+        },
+        "UnderbodyLoop": {
+          "visible_px": 2361,
+          "outside_reference_mask_px": 1746,
+          "outside_filled_reference_mask_px": 705,
+          "outside_mask_with_nonzero_reference_rgb_px": 1477
+        },
+        "UnderbodyHarness": {
+          "visible_px": 1887,
+          "outside_reference_mask_px": 992,
+          "outside_filled_reference_mask_px": 575,
+          "outside_mask_with_nonzero_reference_rgb_px": 618
+        }
+      }
+    },
+    {
+      "view": "video-06",
+      "fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "reference_sha256": "ed7cdc03298e1c8106e1213c9b147088086735663711979ebff9799bbbb2f920",
+      "render_sha256": "c788f4c88c3390edba741f0117f2c0c86b7edd8866eb6ad129b7da6340f43c45",
+      "object_id_sha256": "2b391e061b5a1efde212b02874c0f5b055ba41f50027e25a1ab5fbbcf94a0ec1",
+      "comparison_report_sha256": "26095b18abef045c17503ed3cb1cde4dff0be4fd5e85f14c0c1c61db3a6b1a0e",
+      "crop_xyxy": [
+        295,
+        590,
+        556,
+        762
+      ],
+      "silhouette_iou": 0.8417060425657734,
+      "visible_cad_groups": {
+        "ClosedBellyPan": {
+          "visible_px": 134,
+          "outside_reference_mask_px": 112,
+          "outside_filled_reference_mask_px": 89,
+          "outside_mask_with_nonzero_reference_rgb_px": 100
+        },
+        "UnderbodyLoop": {
+          "visible_px": 2356,
+          "outside_reference_mask_px": 1903,
+          "outside_filled_reference_mask_px": 1545,
+          "outside_mask_with_nonzero_reference_rgb_px": 1841
+        },
+        "UnderbodyHarness": {
+          "visible_px": 1587,
+          "outside_reference_mask_px": 1261,
+          "outside_filled_reference_mask_px": 661,
+          "outside_mask_with_nonzero_reference_rgb_px": 864
+        }
+      }
+    }
+  ]
+}
