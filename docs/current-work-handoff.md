@@ -88,6 +88,8 @@
 
 - v315 联合拟合视频与静态图的天线中心线，采用 1.65 mm 半径。三组平均 IoU 提高，保存读回、STEP 和 FreeCAD 四视图颜色检查通过。[固定相机与重放](../cad/drone-concept/comparison/v315-antenna-multiview/README.md)
 
+- v316 对两对镜像喷口叶片试验末段内收。第 5、11 号让第 60、180 帧最大偏差降至 18.94% 和 20.68%，两档视频和静态均值略降，正式采用 v315。[固定相机和末缘测量](../cad/drone-concept/comparison/v316-nozzle-terminal-inset/README.md)
+
 ## 续接
 
 1. 结合 `video-02`、`video-03`、`video-06` 和 `still-05` 核对喷口口环及叶片末缘。沿第 9、10 号叶片在静态近景中的外缘定位外溢截面，检查末段收窄能否同时保住两个侧后视频方位的轮廓收益。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口视频近景](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/v276-tip-crops.png) · [大喷口静态近景](../cad/drone-concept/comparison/v283-visible-petal-pairs/still-delta-crops.png)
