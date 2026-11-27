@@ -96,6 +96,8 @@
 
 - v319 筛选后肩折面指数 1.25 与 1.75。两档视频与静态均值均下降，正式采用 v315。候选保留 696 个原对象和 13 件支柱保护。[后肩几何与三组对照](../cad/drone-concept/comparison/v319-rear-shoulder-profile/README.md)
 
+- v321 将红翼侧卷线圆截面半径收至 1.5 mm，下部线圈半径参数收至 85%。三组整机平均 IoU 微升，线束中心线的拟合与独立样本 RMS 均增大。候选通过 FCStd、STEP、四支柱和原生显示检查，正式评审采用 v315。[三组对照与局部复测](../cad/drone-concept/comparison/v321-side-cable-coils/README.md)
+
 ## 续接
 
 1. 结合 `video-02`、`video-03`、`video-06` 和 `still-05` 核对喷口口环及叶片末缘。沿第 9、10 号叶片在静态近景中的外缘定位外溢截面，检查末段收窄能否同时保住两个侧后视频方位的轮廓收益。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口视频近景](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/v276-tip-crops.png) · [大喷口静态近景](../cad/drone-concept/comparison/v283-visible-petal-pairs/still-delta-crops.png)

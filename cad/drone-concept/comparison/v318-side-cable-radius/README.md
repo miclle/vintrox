@@ -8,6 +8,6 @@
 | 静态七图 | 82.687714% | 82.700248% |
 | 拼图十格 | 89.958234% | 89.957320% |
 
-视频与拼图均未提高，静态均值小幅提高，正式模型继续采用 v315。侧线束内部中心线仍是外观推定，候选未替换正式 FCStd、STEP 或预览。[视频](video-board.png) · [静态图](stills-board.png) · [拼图](sheet-board.png)
+视频和静态均值小幅提高，拼图均值略降，正式模型继续采用 v315。侧线束内部中心线仍是外观推定，候选未替换正式 FCStd、STEP 或预览。[视频](video-board.png) · [静态图](stills-board.png) · [拼图](sheet-board.png)
 
 使用 `tools/experiment_drone_side_cable_radius.py --radius 1.5` 从 v315 保存模型重放。再运行 `tools/finalize_drone_petal_axial.py` 恢复显示数据并沿 v315 固定相机渲染。[v315 输入](../v315-antenna-multiview/README.md)
