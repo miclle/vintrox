@@ -10,7 +10,7 @@ VINTROX 是一台带实体 CD 光驱、iPad 改装屏、树莓派、移动硬盘
 
 2026-10-24 推进至 v53 [逐图与整圈叠加修订](docs/drone-overlay-comparison.md)：收薄侧后方底壳，露出底部环件和线束；四支柱与中央连接条带不变。固定十方位轮廓 IoU 84.88%→85.03%，90% 目标未达，保留全部退步视角。见[同角度对照](cad/drone-concept/comparison/rear-belly-study/README.md)。
 
-当前外观入口为 v335。按连续视频端角调整大喷口第 6、10 号叶片，第 90 帧端角偏差由 5 px 降到 1 px，七个标注视角有六个末缘 RMS 下降。视频十方位、静态七图和拼图十格平均轮廓 IoU 为 86.0166%、82.6050% 和 89.8742%。实测平面屏、外挂筒、屏幕侧控件、格栅和四根支柱均保留。视频整圈 90% 与主要部件轮廓偏差 5% 仍待达成。[固定相机对照](cad/drone-concept/comparison/v335-tracked-nozzle-corner/README.md)
+当前外观入口为 v338。以 v335 为基线，两侧小喷口总成沿局部装配根部对称 Y 向移动 −1 mm。视频十方位、静态七图和拼图十格平均轮廓 IoU 为 86.0408%、82.6186% 和 89.8958%。实测平面屏、外挂筒、屏幕侧控件、格栅和四根支柱均保留。视频整圈 90% 与主要部件轮廓偏差 5% 仍待达成。[固定相机对照](cad/drone-concept/comparison/v338-small-pod-y-minus1/README.md)
 
 2026-10-26 外观模型推进至 v61：喷口外罩中段减薄 3mm 并恢复肩部外展，后壳、喷口本体、凹舱阴影和四根支柱保持不变。以同一固定相机重新生成视频十视角和静态七视角叠加。视频平均轮廓 IoU 85.4920%、静态平均 82.2268%，仍是外观研究，见[v61 叠加板](cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-board.png)。
 
