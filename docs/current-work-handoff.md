@@ -74,6 +74,8 @@
 
 - v308 收窄第 6、10 号叶片末缘，静态第 05 图的回退缩小约一半，视频和拼图增益也缩小。静态均值仍低于 v306。[外溢归因、几何与三组对照](../cad/drone-concept/comparison/v308-nozzle-outer-flank/README.md)
 
+- v309 延长第 1、3 号叶片末段，第 90 帧局部最大偏差从 8.85% 降到 8.42%。三组平均 IoU 略降，正式采用 v306。[保存几何与固定相机](../cad/drone-concept/comparison/v309-inner-nozzle-leaf-pair/README.md)
+
 ## 续接
 
 1. 结合 `video-02`、`video-03`、`video-06` 和 `still-05` 核对喷口口环及叶片末缘。沿第 9、10 号叶片在静态近景中的外缘定位外溢截面，检查末段收窄能否同时保住两个侧后视频方位的轮廓收益。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口视频近景](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/v276-tip-crops.png) · [大喷口静态近景](../cad/drone-concept/comparison/v283-visible-petal-pairs/still-delta-crops.png)
