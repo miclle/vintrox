@@ -403,3 +403,5 @@ v280 筛查 4.5 mm、3 mm 的顶罩凸筋。两档均使视频十方位的九个
 v281 延长第 0、4、5、11 号镜像叶片末段并略收径向。两处侧后视的局部末端偏差下降，视频与静态整机均值下降，正式模型采用 v276。[三组对照与射线检查](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/README.md)
 
 v282 筛查更靠近根部的三档叶片接续面。101 mm 档通过保存几何与接合检查，视频均值下降 0.036292 个百分点，正式模型采用 v276。[接续面筛查](../cad/drone-concept/comparison/v282-petal-splice-stations/README.md)
+
+v283 延长第 6、7、9、10 号叶片末段。视频和拼图平均 IoU 提高，静态 `still-05` 外溢增大，正式模型采用 v276。[三组对照与静态近景](../cad/drone-concept/comparison/v283-visible-petal-pairs/README.md)
