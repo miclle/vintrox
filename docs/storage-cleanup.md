@@ -12,7 +12,11 @@ v164 成为历史基线后，工作树移除其压缩网格分卷，已发布提
 
 `main` 已重写为精简历史，移除了历史中旧 Drone FCStd/STEP 文件，只在当前 v339 交付目录和主模型路径保留 4 个正式 CAD 文件。旧分阶段参数、报告和脚本仍可按目录检索，部分旧报告中的模型或图片路径仅用于追溯当时的输入和输出。原提交号也可能只在清理前的 bundle 或本机会话引用中可查。
 
-当前 v339 的 FCStd、STEP、九视角预览、转台、三组逐视角渲染与对照、颜色核验、真实参考图片和视频均可用普通 Git 检出。正式交付检查为 `python3 tools/verify_drone_current_delivery.py`。主分支可达对象扫描仅发现当前 v339 STEP 超过 50 MiB。迁移分支仍是独立的旧发布线，另行清理。[正式交付](../cad/drone-concept/comparison/v339-small-pod-y-minus0p5/README.md)
+当前 v339 的 FCStd、STEP、九视角预览、转台、三组逐视角渲染与对照、颜色核验、真实参考图片和视频均可用普通 Git 检出。正式交付检查为 `python3 tools/verify_drone_current_delivery.py`。主分支和 `migration/no-github-lfs` 可达对象扫描均仅发现当前 v339 STEP 超过 50 MiB。两条远端分支都已同步到清理后的普通 Git 历史。[正式交付](../cad/drone-concept/comparison/v339-small-pod-y-minus0p5/README.md)
+
+## 2026-11-28 迁移分支同步
+
+`migration/no-github-lfs` 原本仍保留 v259 CAD。已先保存本机 bundle，再将该分支同步到清理后的 v339 主线。
 
 ## 2026-11-24 保留范围
 
