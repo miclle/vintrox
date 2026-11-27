@@ -1,0 +1,35 @@
+{
+  "revision": "v341-small-pod-cable-combination",
+  "method": "v340 small-pod Y=-0.5 mm pose combined with v321 SideCableLeft lower-coil radius study",
+  "fcstd_sha256": "ec87f3fe05e3862b7eba6e697f0cda592bac6271ad3ad1dd6de912624c8cb001",
+  "step_sha256": "ba258086b8690c75d5bd8b0dfc50fd3f3ae811fa8349cfced8bb85cfd436759a",
+  "visible_features": 696,
+  "step_solids": 853,
+  "fcstd_valid": true,
+  "step_valid": true,
+  "step_volume_relative_error": 5.395176699831291e-07,
+  "support_interferences": [],
+  "visual_metrics": {
+    "video-comparison": 0.8622940785970924,
+    "stills-comparison": 0.827097810279526,
+    "sheet-comparison": 0.8997221731271979
+  },
+  "comparison_references": {
+    "video-comparison": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+    "stills-comparison": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+    "sheet-comparison": "fcaae951889ac59207fc04bbae5443623c50557ac082654668189a279f8c57cf"
+  },
+  "registration": "camera projection only; no image warp, stretch, per-part alignment or omitted visible parts",
+  "excluded_from_score": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "limitations": [
+    "90% whole-orbit aspiration not reached",
+    "native FreeCAD window screenshots not added in this combination package",
+    "flat screen input and curved cover remain explicit appearance assumptions",
+    "physical print, assembly, optical, thermal and electrical validation not included"
+  ]
+}
