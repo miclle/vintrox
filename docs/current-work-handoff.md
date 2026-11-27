@@ -56,6 +56,7 @@
 - v295 新增第 90 帧标注并提高第 180 帧拟合权重。第 120 帧左右最大偏差均低于 5%，第 180 帧仍为 19.65%，独立第 150 帧由 5.94% 升至 9.02%。正式采用 v292。下一次筛选优先评估保存 CAD 的可见边缘及遮挡。[拟合与固定相机复测](../cad/drone-concept/comparison/v295-loop-multiview-fit/README.md)
 - v296 按射线遮挡结果限制回环前段的位移，第 180 帧最大偏差回到 v292 的 6.28%，第 150 帧仍退步，视频十方位均值为 85.9433%。正式采用 v292。[射线与候选](../cad/drone-concept/comparison/v296-loop-root-blend/README.md)
 - v297 将第 6、10 号和第 7、9 号喷口叶片分对筛选。第 7、9 号内移 3 mm 后视频和拼图均值分别为 86.0532% 和 89.8290%，静态图 05 下降 0.04870 个百分点。正式采用 v292。[固定相机、接合与复建](../cad/drone-concept/comparison/v297-nozzle-pair-screen/README.md)
+- v298 收窄第 7、9 号叶片末段外侧切向边缘，静态图 05 的降幅收窄到 0.03189 个百分点，视频十方位均值为 86.0440%，正式采用 v292。[三组对照与复建](../cad/drone-concept/comparison/v298-nozzle-flank/README.md)
 
 ## 续接
 
