@@ -8,7 +8,7 @@
 | v272 弧面内罩和白纹 | 86.009839% | 82.586852% | 89.773446% |
 | v273 甲片、滑槽内衬和螺钉 | 85.999641% | 82.579264% | 89.756716% |
 
-v272 的静态第 05 图提高 0.034646 个百分点，视频第 04 方位下降 0.002980 个百分点。该静态图的参考外侧像素从 56,550 降至 56,360，其中左内罩归因从 2,616 降至 1,407，前罩主体从 1,527 升至 2,673。内罩内移后，剩余外溢集中在与其相邻的前罩主体。v273 的视频和拼图均值下降。正式入口继续采用 v259。[基线归因](../v269-rear-shoulder-screening/still-05-boundary.json) · [v272 归因](crown/still-05-boundary.json) · [差异图](crown/still-05-boundary-diagnostic.png)
+v272 的静态第 05 图提高 0.034646 个百分点，视频第 04 方位下降 0.002980 个百分点。该静态图的参考外侧像素从 56,550 降至 56,360，其中左内罩归因从 2,616 降至 1,407，前罩主体从 1,527 升至 2,673。内罩内移后，前罩主体新出现的 1,146 个外溢像素中，有 1,022 个像素在原图中归属左内罩。新区域集中在 960 × 823 图像的 x=775–853、y=206–231。v273 的视频和拼图均值下降。正式入口继续采用 v259。[基线归因](../v269-rear-shoulder-screening/still-05-boundary.json) · [v272 归因](crown/still-05-boundary.json) · [差异图](crown/still-05-boundary-diagnostic.png) · [像素重合记录](crown/still-05-brow-pixel-transfer.json)
 
 - v272 [视频](crown/video-comparison/comparison-board.png) · [静态](crown/still-comparison/comparison-board.png) · [拼图](crown/sheet-comparison/comparison-board.png)
 - v273 [视频](plate/video-comparison/comparison-board.png) · [静态](plate/still-comparison/comparison-board.png) · [拼图](plate/sheet-comparison/comparison-board.png)

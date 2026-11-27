@@ -30,6 +30,7 @@
 - v269 重建后肩护甲和接片，视频十方位均值降至 85.767475%，继续采用 v259。重新生成的对象 ID 将静态第 05 图两处前罩外溢归因到弧面内罩和甲片。[后肩筛选和静态诊断](../cad/drone-concept/comparison/v269-rear-shoulder-screening/README.md)
 - v270、v271 对称内移前罩肩部 4 mm、2 mm。静态第 05 图分别提高 0.117545 和 0.061475 个百分点。2 mm 档避开了 4 mm 档的内衬交叠，两档视频和拼图均值下降。[三组对照](../cad/drone-concept/comparison/v270-v271-front-shoulder/README.md)
 - v272、v273 分别内移弧面内罩和甲片。v272 三组均值略升，静态第 05 图的内罩外溢转为由前罩主体形成。v273 视频和拼图均值下降。[三组对照与对象归因](../cad/drone-concept/comparison/v272-v273-front-shoulder-parts/README.md)
+- v274 将前罩主体和内衬横向收至 0.985 倍，十方位视频均值下降 0.028486 个百分点。静态第 05 图定位到内罩内移后露出的前罩主体上缘，可优先核对该处的局部截面。[v274 视频筛选](../cad/drone-concept/comparison/v274-brow-x0985/README.md)
 
 ## 续接
 
