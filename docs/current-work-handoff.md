@@ -28,6 +28,7 @@
 - v267 筛选 `BassVisualCone` 凹碗收缩 0.5 mm 与 1.5 mm。视频分别提高约 0.000071 和 0.000068 个百分点，0.5 mm 档静态和拼图分别下降 0.000112 和 0.000066 个百分点，均不采用。[v267 筛选](../cad/drone-concept/comparison/v267-bass-visual-cone-screening/README.md)
 - v268 筛选 `BottomChassis` Y 向 0.99 倍，视频、静态图和拼图分别提高 0.000021、0.000010 和 0.000003 个百分点，属于噪声量级，未采用。[v268 筛选](../cad/drone-concept/comparison/v268-bottom-chassis-screening/README.md)
 - v269 重建后肩护甲和接片，视频十方位均值降至 85.767475%，继续采用 v259。重新生成的对象 ID 将静态第 05 图两处前罩外溢归因到弧面内罩和甲片。[后肩筛选和静态诊断](../cad/drone-concept/comparison/v269-rear-shoulder-screening/README.md)
+- v270、v271 对称内移前罩肩部 4 mm、2 mm。静态第 05 图分别提高 0.117545 和 0.061475 个百分点。2 mm 档避开了 4 mm 档的内衬交叠，两档视频和拼图均值下降。[三组对照](../cad/drone-concept/comparison/v270-v271-front-shoulder/README.md)
 
 ## 续接
 

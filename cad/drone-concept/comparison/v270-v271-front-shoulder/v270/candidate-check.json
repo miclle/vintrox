@@ -1,0 +1,465 @@
+{
+  "baseline_fcstd_sha256": "f27892986cd8605bab3dcbbfc0c725e0cfbb09bb7d79efdc9b296af6214a8b2c",
+  "fcstd_sha256": "0289d62408a2ea47c23d896335a22ec65f656a7b02cb72bb917cd9fb88704a74",
+  "inward_mm_per_side": 4,
+  "geometry": {
+    "HoodShoulderCrownLeft": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 2.8443385208352465e-14,
+      "relative_volume_difference": 0.0,
+      "baseline_advanced_errors": [
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ],
+      "candidate_advanced_errors": [
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ]
+    },
+    "HoodShoulderPlateLeft": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 2.864289338439558e-14,
+      "relative_volume_difference": 1.1102230246251565e-16,
+      "baseline_advanced_errors": [],
+      "candidate_advanced_errors": []
+    },
+    "HoodShoulderBoltLeft": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 6.355287432313019e-14,
+      "relative_volume_difference": 4.440892098500626e-16,
+      "baseline_advanced_errors": [
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ],
+      "candidate_advanced_errors": [
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ]
+    },
+    "HoodShoulderSlotLinerLeft": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "baseline_advanced_errors": [],
+      "candidate_advanced_errors": []
+    },
+    "HoodMark_1_0": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 1.7763568394002505e-15,
+      "relative_volume_difference": 1.1102230246251565e-15,
+      "baseline_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ],
+      "candidate_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ]
+    },
+    "HoodMark_1_1": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 1.7763568394002505e-15,
+      "relative_volume_difference": 2.220446049250313e-16,
+      "baseline_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ],
+      "candidate_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ]
+    },
+    "HoodMark_1_2": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 0.0,
+      "relative_volume_difference": 2.220446049250313e-16,
+      "baseline_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ],
+      "candidate_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ]
+    },
+    "HoodMark_1_3": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 0.0,
+      "relative_volume_difference": 4.440892098500626e-16,
+      "baseline_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ],
+      "candidate_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ]
+    },
+    "HoodShoulderCrownRight": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 4.029008381314416e-14,
+      "relative_volume_difference": 1.1102230246251565e-16,
+      "baseline_advanced_errors": [
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ],
+      "candidate_advanced_errors": [
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ]
+    },
+    "HoodShoulderPlateRight": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 0.0,
+      "relative_volume_difference": 1.1102230246251565e-16,
+      "baseline_advanced_errors": [],
+      "candidate_advanced_errors": []
+    },
+    "HoodShoulderBoltRight": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 4.263256414560601e-14,
+      "relative_volume_difference": 2.220446049250313e-16,
+      "baseline_advanced_errors": [
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ],
+      "candidate_advanced_errors": [
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ]
+    },
+    "HoodShoulderSlotLinerRight": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "baseline_advanced_errors": [],
+      "candidate_advanced_errors": []
+    },
+    "HoodMark_1_001": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 5.687116766346677e-14,
+      "relative_volume_difference": 6.661338147750939e-16,
+      "baseline_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ],
+      "candidate_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ]
+    },
+    "HoodMark_1_002": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 5.684515355781502e-14,
+      "relative_volume_difference": 2.220446049250313e-16,
+      "baseline_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ],
+      "candidate_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ]
+    },
+    "HoodMark_1_003": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 0.0,
+      "relative_volume_difference": 2.220446049250313e-16,
+      "baseline_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ],
+      "candidate_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ]
+    },
+    "HoodMark_1_004": {
+      "solids": 1,
+      "valid": true,
+      "closed": true,
+      "positive_volume": true,
+      "center_difference_mm": 0.0,
+      "relative_volume_difference": 4.440892098500626e-16,
+      "baseline_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ],
+      "candidate_advanced_errors": [
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ]
+    }
+  },
+  "contacts": [
+    {
+      "objects": [
+        "HoodShoulderCrownLeft",
+        "HoodMark_1_0"
+      ],
+      "baseline_gap_mm": 5.40012524828292e-13,
+      "candidate_gap_mm": 5.40012524828292e-13,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "HoodShoulderCrownLeft",
+        "HoodMark_1_1"
+      ],
+      "baseline_gap_mm": 5.400124791776761e-13,
+      "candidate_gap_mm": 5.400124791776761e-13,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "HoodShoulderCrownLeft",
+        "HoodMark_1_2"
+      ],
+      "baseline_gap_mm": 5.400124791776761e-13,
+      "candidate_gap_mm": 5.400124791776761e-13,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "HoodShoulderCrownLeft",
+        "HoodMark_1_3"
+      ],
+      "baseline_gap_mm": 5.407715719313007e-13,
+      "candidate_gap_mm": 5.407715719313007e-13,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "HoodShoulderPlateLeft",
+        "HoodShoulderBoltLeft"
+      ],
+      "baseline_gap_mm": 0.0,
+      "candidate_gap_mm": 0.0,
+      "baseline_overlap_mm3": 9.663736141752633,
+      "candidate_overlap_mm3": 9.663736141757099
+    },
+    {
+      "objects": [
+        "HoodShoulderPlateLeft",
+        "HoodShoulderSlotLinerLeft"
+      ],
+      "baseline_gap_mm": 0.0,
+      "candidate_gap_mm": 0.0,
+      "baseline_overlap_mm3": 52.14490517996339,
+      "candidate_overlap_mm3": 52.14490517977953
+    },
+    {
+      "objects": [
+        "HoodShoulderCrownLeft",
+        "ProjectingBrow"
+      ],
+      "baseline_gap_mm": 0.0,
+      "candidate_gap_mm": 0.0,
+      "baseline_overlap_mm3": 4252.37634038743,
+      "candidate_overlap_mm3": 7881.101591609335
+    },
+    {
+      "objects": [
+        "HoodShoulderPlateLeft",
+        "ProjectingBrow"
+      ],
+      "baseline_gap_mm": 0.0,
+      "candidate_gap_mm": 0.0,
+      "baseline_overlap_mm3": 5447.84824654823,
+      "candidate_overlap_mm3": 9231.025427338674
+    },
+    {
+      "objects": [
+        "HoodShoulderPlateLeft",
+        "BrowUnderside"
+      ],
+      "baseline_gap_mm": 2.4446836364747067,
+      "candidate_gap_mm": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 343.9416106317336
+    },
+    {
+      "objects": [
+        "HoodShoulderPlateLeft",
+        "ScreenBezel"
+      ],
+      "baseline_gap_mm": 6.289966543997766,
+      "candidate_gap_mm": 2.3189352035312254,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "HoodShoulderCrownRight",
+        "HoodMark_1_001"
+      ],
+      "baseline_gap_mm": 5.40012524828292e-13,
+      "candidate_gap_mm": 5.40012524828292e-13,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "HoodShoulderCrownRight",
+        "HoodMark_1_002"
+      ],
+      "baseline_gap_mm": 5.400124791776761e-13,
+      "candidate_gap_mm": 5.400124791776761e-13,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "HoodShoulderCrownRight",
+        "HoodMark_1_003"
+      ],
+      "baseline_gap_mm": 5.400124791776761e-13,
+      "candidate_gap_mm": 5.400124791776761e-13,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "HoodShoulderCrownRight",
+        "HoodMark_1_004"
+      ],
+      "baseline_gap_mm": 5.407715719313007e-13,
+      "candidate_gap_mm": 5.407715719313007e-13,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "HoodShoulderPlateRight",
+        "HoodShoulderBoltRight"
+      ],
+      "baseline_gap_mm": 0.0,
+      "candidate_gap_mm": 0.0,
+      "baseline_overlap_mm3": 9.66081468728506,
+      "candidate_overlap_mm3": 9.660814687288351
+    },
+    {
+      "objects": [
+        "HoodShoulderPlateRight",
+        "HoodShoulderSlotLinerRight"
+      ],
+      "baseline_gap_mm": 0.0,
+      "candidate_gap_mm": 0.0,
+      "baseline_overlap_mm3": 52.14490516110292,
+      "candidate_overlap_mm3": 52.144905165930865
+    },
+    {
+      "objects": [
+        "HoodShoulderCrownRight",
+        "ProjectingBrow"
+      ],
+      "baseline_gap_mm": 0.0,
+      "candidate_gap_mm": 0.0,
+      "baseline_overlap_mm3": 4252.922619012763,
+      "candidate_overlap_mm3": 7881.103387710311
+    },
+    {
+      "objects": [
+        "HoodShoulderPlateRight",
+        "ProjectingBrow"
+      ],
+      "baseline_gap_mm": 0.0,
+      "candidate_gap_mm": 0.0,
+      "baseline_overlap_mm3": 5447.86831763661,
+      "candidate_overlap_mm3": 9231.015002210894
+    },
+    {
+      "objects": [
+        "HoodShoulderPlateRight",
+        "BrowUnderside"
+      ],
+      "baseline_gap_mm": 2.4446836365071993,
+      "candidate_gap_mm": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 343.941562415677
+    },
+    {
+      "objects": [
+        "HoodShoulderPlateRight",
+        "ScreenBezel"
+      ],
+      "baseline_gap_mm": 6.2899665440312935,
+      "candidate_gap_mm": 2.3189352035651605,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    }
+  ]
+}

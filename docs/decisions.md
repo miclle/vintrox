@@ -379,3 +379,5 @@ v266 的小喷口口沿重建在 `LowerPodRib_1_0` 处未通过有效、闭合�
 v268 对 `BottomChassis` 做 Y 向 0.99 倍筛选，三组均值仅有噪声量级提升，正式入口保持 v259。[v268](../cad/drone-concept/comparison/v268-bottom-chassis-screening/README.md)
 
 v269 重建左右后肩护甲和接片后，视频十方位平均 IoU 由 86.008085% 降至 85.767475%，继续采用 v259。用 v259 复查静态第 05 图，可见左前罩弧面内罩和甲片是两处前罩外溢来源。[v269 筛选与对象归因](../cad/drone-concept/comparison/v269-rear-shoulder-screening/README.md)
+
+v270 与 v271 分别内移前罩肩部 4 mm 和 2 mm。静态七图均值提高，视频和拼图均值下降。v270 的两侧甲片与内衬新增交叠，v271 的对应交叠为零。正式采用 v259。[三组对照与接合记录](../cad/drone-concept/comparison/v270-v271-front-shoulder/README.md)
