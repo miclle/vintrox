@@ -53,6 +53,7 @@
 - v292 将前罩肩部弧面内罩及白纹各向内移 2 mm。静态第 05 图的左内罩外溢下降，前罩主体仍有外溢。三组整机均值提高，采用为正式版。[几何、像素归因与交付](../cad/drone-concept/comparison/v292-brow-shoulder-inset/README.md)
 - v293 核对 v292 底部六个固定视角。参考线框显示回环根部板件，静态图 05 的底壳外溢归因同时覆盖暗底面、线束和间隙。下一轮结合可见弧段联动筛选回环路径与粗细，复核第 180 帧的遮挡。[底部近景与复现](../cad/drone-concept/comparison/v293-underbody-visibility/README.md)
 - v294 对回环路径与截面做三档筛选，视频十方位均值均下降。等径档在第 120 帧左侧达到 4.84% 局部最大偏差，第 180 帧右侧升至 22.95%。正式采用 v292。后续路径拟合应约束第 180 帧可见边界，并引入独立侧后视角检查。[候选对照与复现](../cad/drone-concept/comparison/v294-underbody-loop-screen/README.md)
+- v295 新增第 90 帧标注并提高第 180 帧拟合权重。第 120 帧左右最大偏差均低于 5%，第 180 帧仍为 19.65%，独立第 150 帧由 5.94% 升至 9.02%。正式采用 v292。下一次筛选优先评估保存 CAD 的可见边缘及遮挡。[拟合与固定相机复测](../cad/drone-concept/comparison/v295-loop-multiview-fit/README.md)
 
 ## 续接
 
