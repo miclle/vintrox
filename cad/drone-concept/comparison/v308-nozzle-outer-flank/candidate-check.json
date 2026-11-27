@@ -1,0 +1,191 @@
+{
+  "baseline_fcstd_sha256": "8f341acbb35d4770e380a141fa64bddcff9480acbc4720e73405a092140c6b6c",
+  "fcstd_sha256": "5b8392e905feefe9a526b4b6f3294196a07c4f3e31d4a464f117ecfc09d4393e",
+  "changed_objects": [
+    "NozzlePetal6",
+    "NozzlePetalInset6",
+    "NozzlePetalEdgeRail6_136",
+    "NozzlePetalEndHem6",
+    "NozzlePetal10",
+    "NozzlePetalInset10",
+    "NozzlePetalEdgeRail10_245",
+    "NozzlePetalEndHem10"
+  ],
+  "parts": {
+    "NozzlePetal6": {
+      "archive_member": "NozzlePetal6.Shape.brp",
+      "removed_volume_mm3": 162.20305576147757,
+      "baseline_solids": 5,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 5,
+      "advanced_errors": []
+    },
+    "NozzlePetalInset6": {
+      "archive_member": "NozzlePetalInset6.Shape.brp",
+      "removed_volume_mm3": 1.2591729137133996,
+      "baseline_solids": 1,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_errors": []
+    },
+    "NozzlePetalEdgeRail6_136": {
+      "archive_member": "NozzlePetalEdgeRail6_136.Shape.brp",
+      "removed_volume_mm3": 1.025142753479952,
+      "baseline_solids": 1,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_errors": []
+    },
+    "NozzlePetalEndHem6": {
+      "archive_member": "NozzlePetalEndHem6.Shape.brp",
+      "removed_volume_mm3": 19.367501119256904,
+      "baseline_solids": 1,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_errors": []
+    },
+    "NozzlePetal10": {
+      "archive_member": "NozzlePetal10.Shape.brp",
+      "removed_volume_mm3": 117.97111362643909,
+      "baseline_solids": 5,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 5,
+      "advanced_errors": []
+    },
+    "NozzlePetalInset10": {
+      "archive_member": "NozzlePetalInset10.Shape.brp",
+      "removed_volume_mm3": 0.001405574513697161,
+      "baseline_solids": 1,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_errors": []
+    },
+    "NozzlePetalEdgeRail10_245": {
+      "archive_member": "NozzlePetalEdgeRail10_245.Shape.brp",
+      "removed_volume_mm3": 1.0251344399874922,
+      "baseline_solids": 1,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_errors": []
+    },
+    "NozzlePetalEndHem10": {
+      "archive_member": "NozzlePetalEndHem10.Shape.brp",
+      "removed_volume_mm3": 14.868334506266866,
+      "baseline_solids": 1,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_errors": []
+    }
+  },
+  "contacts": [
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalHinge6"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "BassNozzleMouthRing"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalInset6"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalEdgeRail6_136"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalEndHem6"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalHinge10"
+      ],
+      "baseline_gap_mm": 7.105427357601002e-15,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "BassNozzleMouthRing"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalInset10"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalEdgeRail10_245"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalEndHem10"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    }
+  ],
+  "taper_start_axial_mm": 112,
+  "tangential_limit_at_start_mm": 8,
+  "tangential_taper_slope": 0.4
+}
