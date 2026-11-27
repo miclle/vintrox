@@ -378,3 +378,5 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 - 2026-11-26：采用 v229 `ClosedBellyPan` 中央保留带 60 mm 候选。视频／静态／拼图平均轮廓 IoU 为 **85.915758%／82.535037%／89.669190%**，三组均高于 v222。保存读回、853 个闭合 STEP 实体、四支柱保护、9 张展示图、96 角度转台、原生 FreeCAD 四视图和颜色可见性检查通过。90%／主要部件 5% 目标仍未达成。[v229 交付](../cad/drone-concept/comparison/v229-belly-center60/README.md)
 
 - 2026-11-26：基于正式 v229 重新生成 still-05 当前对象 ID 归因。填洞参考轮廓之外降至 56,366 像素，`ClosedBellyPan` 12,243、`ControlRail` 3,188、`BassVisualCone` 2,877。下一轮继续研究控制条与相邻底部部件遮挡。[v229 当前归因](../cad/drone-concept/comparison/v229-belly-center60/stills-comparison/still-05-boundary-regions.json)
+
+- 2026-11-27 采用 v306 翼板姿态半角度档。视频十方位、静态七图和拼图十格平均轮廓 IoU 提高至 86.1810%、82.6384% 和 89.9023%。FCStd、STEP、颜色与固定相机交付通过核验。视频整圈 90% 与主要部件轮廓偏差 5% 仍待达成。[v306 正式记录](../cad/drone-concept/comparison/v306-wing-pose/README.md)

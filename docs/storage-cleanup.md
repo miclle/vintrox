@@ -2,7 +2,7 @@
 
 ## 普通 Git 交付
 
-现行模型的派生网格从保存 FCStd 在临时目录重建。原生显示与固定相机记录随当前交付归档。[当前交付](../cad/drone-concept/comparison/v304-front-cheek-thickness/README.md)
+现行模型的派生网格从保存 FCStd 在临时目录重建。原生显示与固定相机记录随当前交付归档。[当前交付](../cad/drone-concept/comparison/v306-wing-pose/README.md)
 
 v164 成为历史基线后，工作树移除其压缩网格分卷，已发布提交仍可追溯。v155、v161、v163 的旧 FCStd、STEP 和派生网格已在此前迁移中移出主分支历史。历史相机、对照、读回报告和试验参数仍可查阅。
 
@@ -10,7 +10,7 @@ v164 成为历史基线后，工作树移除其压缩网格分卷，已发布提
 
 `main` 与远端迁移分支自 `e7a4ea25` 起采用精简历史。清理移出了 112 个旧候选 CAD 文件与几何副本，并移除了 6,135 个旧试验媒体文件。旧分阶段参数、报告和脚本仍可按目录检索，部分旧报告中的模型或图片路径仅用于追溯当时的输入和输出。原提交号也可能只在清理前的副本可查。
 
-当前 v304 正式 FCStd、STEP、九视角预览、转台、三组逐视角渲染与对照、颜色核验、真实参考图片和视频均可用普通 Git 检出。正式交付检查为 `python3 tools/verify_drone_current_delivery.py`。发布分支可达对象扫描未发现超过 50 MiB 的文件。本机仍有其他 Git 引用，包括 Codex 会话快照，因此本机对象库体积可能高于从远端重新克隆得到的大小。[正式交付](../cad/drone-concept/comparison/v304-front-cheek-thickness/README.md)
+当前 v306 正式 FCStd、STEP、九视角预览、转台、三组逐视角渲染与对照、颜色核验、真实参考图片和视频均可用普通 Git 检出。正式交付检查为 `python3 tools/verify_drone_current_delivery.py`。发布分支可达对象扫描未发现超过 50 MiB 的文件。本机仍有其他 Git 引用，包括 Codex 会话快照，因此本机对象库体积可能高于从远端重新克隆得到的大小。[正式交付](../cad/drone-concept/comparison/v306-wing-pose/README.md)
 
 ## 2026-11-24 保留范围
 

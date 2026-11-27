@@ -1,12 +1,12 @@
 # VINTROX Drone 外观迭代交接
 
-目标仍在执行。当前发布基线为 `miclle/vintrox` 的 `main` 上的 v304，采用普通 Git 交付。[v304 正式记录](../cad/drone-concept/comparison/v304-front-cheek-thickness/README.md) · [v259 基线](../cad/drone-concept/comparison/v259-rear-beacon-length/README.md)
+目标仍在执行。当前发布基线为 `miclle/vintrox` 的 `main` 上的 v306，采用普通 Git 交付。[v306 正式记录](../cad/drone-concept/comparison/v306-wing-pose/README.md) · [v259 基线](../cad/drone-concept/comparison/v259-rear-beacon-length/README.md)
 
 ## 当前证据
 
-- v304 保留实测 210 × 160 × 2 mm 平面屏、外挂筒、侧控件、格栅和四根支柱。曲面罩按参考外观推导，原作内部和遮挡细节仍有未知项。[设计说明](drone-concept.md)
-- 视频十方位、静态七图和拼图十格的平均 IoU 分别为 86.0644%、82.5923% 和 89.8391%。固定相机使用保存 CAD 渲染，比较时排除新增支撑总成。90% 视频整圈与主要部件轮廓偏差 5% 的目标仍待达成。v304 的局部标注复测中，前罩端部最大偏差为 4.69%，右侧翼板为 8.10%，大喷口两处侧后视为 20.96% 和 21.94%。[交付与固定相机](../cad/drone-concept/delivery-verification-current.json) · [部件复测](../cad/drone-concept/comparison/v304-front-cheek-thickness/visible-components.json)
-- `python3 tools/verify_drone_current_delivery.py` 核对 FCStd 和 STEP 哈希、696 个可见对象、853 个闭合 STEP 实体，以及预览和四个原生显示视图。v304 的独立保存读回和 FreeCAD 颜色记录随正式交付保存。[读回报告](../cad/drone-concept/readback-verification.json) · [颜色记录](../cad/drone-concept/comparison/v304-front-cheek-thickness/native-display/native-display-verification.json)
+- v306 保留实测 210 × 160 × 2 mm 平面屏、外挂筒、侧控件、格栅和四根支柱。曲面罩按参考外观推导，原作内部和遮挡细节仍有未知项。[设计说明](drone-concept.md)
+- 视频十方位、静态七图和拼图十格的平均 IoU 为 86.1810%、82.6384% 和 89.9023%。三组均值较 v304 提高。右侧翼板标注最大偏差由 8.10% 降至 7.65%，两处未参与拟合的翼根方位偏差与 v304 相同。90% 视频整圈与主要部件轮廓偏差 5% 的目标仍待达成。[交付核验](../cad/drone-concept/delivery-verification-current.json) · [翼板复测](../cad/drone-concept/comparison/v306-wing-pose/visible-wing-edges.json)
+- `python3 tools/verify_drone_current_delivery.py` 通过。FCStd 与 STEP 独立读回确认 696 个可见对象、853 个闭合实体。FreeCAD 原生四视图复核颜色和可见性。九张预览、转台和三组固定相机对照已同步。[读回报告](../cad/drone-concept/readback-verification.json) · [原生显示](../cad/drone-concept/comparison/v306-wing-pose/native-display/native-display-verification.json)
 - v245 新增三处高级几何检查失败。v246 通过候选几何与接合检查，视频得分微升，静态图略降，七个叶片采样视角仍有六个超过 5%。两版均保留试验记录，v246 的 STEP 独立读回和原生颜色显示待验证。参数可配合 v242 的保存网格重建候选。[试验记录](../cad/drone-concept/comparison/v245-v246-petal-terminal/README.md)
 - 重新运行 `tools/measure_drone_lower_pod_outline.py` 读取 v242，确认两侧各 18 片小喷口叶片。四个拟合视角的口沿测量 RMS 为 4.53 px，两个未参与拟合的视角为 7.38 px，最大 12.62 px。测量限定于外端圆弧。小喷口外露部分与前罩内衬仍待结合可见边缘和参考阴影核对。[小喷口读回](../cad/drone-concept/comparison/v242-belly-y097/lower-pod-outline-check.json) · [视频对象归因](../cad/drone-concept/comparison/v242-belly-y097/video-comparison/boundary-regions.json)
 - v247 小喷口镜像姿态试验降低了两张未参与拟合视图的末端偏差，三组整机 IoU 均下降。六处参考近景显示前罩内衬和小喷口多处像素归因落在仍可辨认的暗色表面。后续几何更新应以可辨认的外沿及实体交界为依据。[v247 对照与参数](../cad/drone-concept/comparison/v247-small-pod-pose/README.md)
@@ -66,10 +66,12 @@
 - v303 筛选两档水平和两档斜向后肩接续。斜率 1 档静态第 03 图提高 0.02057 个百分点，第 06 图得分相同，三组整机均值略降。正式采用 v302。[接续几何与固定相机](../cad/drone-concept/comparison/v303-rear-shoulder-transition/README.md)
 
 - v304 将前侧护壳厚度缩至 75%。正面视频提高 0.04802 个百分点。六个直接邻件的距离复核在左右两侧均保住原有接触。侧后桥板接续试验未改变视频分数，仍需按参考边界判断。[v304 固定相机与复建](../cad/drone-concept/comparison/v304-front-cheek-thickness/README.md)
-- v305 分对延长第 0、4 号和第 5、11 号喷口叶片。第 5、11 号使第 60、180 帧的末缘偏差降至 18.94% 和 20.68%，两档视频、静态均值均下降。正式采用 v304。[侧后视对照](../cad/drone-concept/comparison/v305-nozzle-pair-terminal/README.md)
+- v305 分对延长第 0、4 号和第 5、11 号喷口叶片。第 5、11 号使第 60、180 帧的末缘偏差降至 18.94% 和 20.68%，两档视频、静态均值均下降。该阶段采用 v304。[侧后视对照](../cad/drone-concept/comparison/v305-nozzle-pair-terminal/README.md)
+
+- v306 对称微调左右翼板，采用半角度档。视频十方位提高 0.11662 个百分点，静态七图和拼图十格均值同时提高。静态第 01 图下降 0.26592 个百分点，需复核翼缘及遮挡。翼板四处接合检查通过。[v306 固定相机与重放](../cad/drone-concept/comparison/v306-wing-pose/README.md)
 
 ## 续接
 
 1. 结合 `video-02`、`video-03`、`video-06` 和 `still-05` 核对喷口口环及叶片末缘。沿第 9、10 号叶片在静态近景中的外缘定位外溢截面，检查末段收窄能否同时保住两个侧后视频方位的轮廓收益。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口视频近景](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/v276-tip-crops.png) · [大喷口静态近景](../cad/drone-concept/comparison/v283-visible-petal-pairs/still-delta-crops.png)
-2. 从保存 v304 生成候选，在临时目录保存 FCStd 和网格。沿用十个视频姿态、七张静态图与十格拼图检查整机轮廓，再复测关键局部，以同相机的投影屏宽归一化。进入正式交付的候选需补齐 STEP 独立读回、接合与四支柱复查、原生颜色与可见性检查，并同步正式模型、预览与文档。[编辑与复现](drone-concept.md#编辑与复现)
+2. 从保存 v306 生成候选，在临时目录保存 FCStd 和网格。沿用十个视频姿态、七张静态图与十格拼图检查整机轮廓，再复测关键局部，以同相机的投影屏宽归一化。进入正式交付的候选需补齐 STEP 独立读回、接合与四支柱复查、原生颜色与可见性检查，并同步正式模型、预览与文档。[编辑与复现](drone-concept.md#编辑与复现)
 3. GitHub 发布分支使用精简历史，保留当前正式包、关键基线对照和试验报告。用正式 CAD 与固定相机生成新候选所需网格。[存储说明](storage-cleanup.md)
