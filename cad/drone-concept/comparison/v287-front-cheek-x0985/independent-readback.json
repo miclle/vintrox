@@ -1,0 +1,52 @@
+{
+  "baseline_fcstd_sha256": "6f859b6abff820416d4ae26011ff2ec3f4e2182f4ace7dacdc602185413c46c9",
+  "fcstd_sha256": "8735550b165cba423af223935a47ec3f3e0b2359110d17f957c8eaf50697966d",
+  "step_sha256": "227b73c6a840038004ed5541a942a3b7e0890cc6b499b51dae5d5191b8766dab",
+  "advanced_checks": {
+    "FrontCheekLeft": {
+      "baseline_advanced_errors": [],
+      "candidate_advanced_errors": [],
+      "effective_solid_count": 1
+    },
+    "FrontCheekRight": {
+      "baseline_advanced_errors": [],
+      "candidate_advanced_errors": [],
+      "effective_solid_count": 1
+    },
+    "FrontCheekBridgeLeft": {
+      "baseline_advanced_errors": [],
+      "candidate_advanced_errors": [],
+      "effective_solid_count": 1
+    },
+    "FrontCheekBridgeRight": {
+      "baseline_advanced_errors": [],
+      "candidate_advanced_errors": [],
+      "effective_solid_count": 1
+    }
+  },
+  "contacts": {
+    "Left": {
+      "baseline": {
+        "cheek_bridge_overlap_mm3": 3968.1857684506526,
+        "bridge_spine_gap_mm": 0.0
+      },
+      "candidate": {
+        "cheek_bridge_overlap_mm3": 3908.7045842847992,
+        "bridge_spine_gap_mm": 0.0
+      }
+    },
+    "Right": {
+      "baseline": {
+        "cheek_bridge_overlap_mm3": 3968.2280583335128,
+        "bridge_spine_gap_mm": 0.0
+      },
+      "candidate": {
+        "cheek_bridge_overlap_mm3": 3908.7046510887208,
+        "bridge_spine_gap_mm": 0.0
+      }
+    }
+  },
+  "gui_payloads_match": true,
+  "step_solids": 853,
+  "all_step_solids_valid_and_closed": true
+}
