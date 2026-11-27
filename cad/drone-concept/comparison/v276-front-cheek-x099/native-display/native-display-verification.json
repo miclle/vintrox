@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v276",
+      "model": "cad/drone-concept/comparison/v276-front-cheek-x099/candidate.FCStd",
+      "fcstd_sha256": "6f859b6abff820416d4ae26011ff2ec3f4e2182f4ace7dacdc602185413c46c9",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "6f859b6abff820416d4ae26011ff2ec3f4e2182f4ace7dacdc602185413c46c9",
+      "palette_contract_sha256": "6548d79f2fa16578ae3fc4c36978b329f69f4ed671801cefefc8ae6ee7eda187",
+      "native_color_triples": 70,
+      "mesh_color_triples": 70,
+      "max_native_vs_mesh_channel_difference": 2.9685450542160652e-08,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v276-isometric.png",
+          "sha256": "b6f9a760a4dfdce08d0bec130ccd4a92eda04e030dbdbacaab6d56590f6036aa"
+        },
+        {
+          "view": "front",
+          "path": "v276-front.png",
+          "sha256": "495bfec0ac838ee196e8503fff2684819e1eae2ed34e25be4f989ee5e2dd8804"
+        },
+        {
+          "view": "rear",
+          "path": "v276-rear.png",
+          "sha256": "875d97d4855f1418b303ba930144ed55faadf89fe9a8a367e20185b2ae333ff3"
+        },
+        {
+          "view": "right",
+          "path": "v276-right.png",
+          "sha256": "41a3556c7ec44a9e653857e12256c9b3a5a36add214491464fe78fe0e927d1e6"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

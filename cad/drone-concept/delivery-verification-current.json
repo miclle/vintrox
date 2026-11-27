@@ -1,9 +1,9 @@
 {
   "passed": true,
   "errors": [],
-  "revision": "v259-rear-beacon-length",
-  "fcstd_sha256": "f27892986cd8605bab3dcbbfc0c725e0cfbb09bb7d79efdc9b296af6214a8b2c",
-  "step_sha256": "be9d82e32cc6fb02c3a3f943f9e979a6eacfe82bdf05dae741c762a10232eb28",
+  "revision": "v276-front-cheek-x099",
+  "fcstd_sha256": "6f859b6abff820416d4ae26011ff2ec3f4e2182f4ace7dacdc602185413c46c9",
+  "step_sha256": "45a8b26bb84dad68824fc07a4463bbf513bac99beb02984fec041c7960dad2f0",
   "visible_features": 696,
   "step_solids": 853,
   "screen_panel_mm": [
@@ -37,15 +37,15 @@
   "comparisons": {
     "video": {
       "views": 10,
-      "mean_silhouette_iou": 0.8600808511309672
+      "mean_silhouette_iou": 0.8601948644630142
     },
     "stills": {
       "views": 7,
-      "mean_silhouette_iou": 0.8257434211210278
+      "mean_silhouette_iou": 0.8257476022403079
     },
     "sheet": {
       "views": 10,
-      "mean_silhouette_iou": 0.8977270609525689
+      "mean_silhouette_iou": 0.8977742969912335
     }
   },
   "physical_validation": false,
