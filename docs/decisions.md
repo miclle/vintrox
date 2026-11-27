@@ -381,3 +381,5 @@ v268 对 `BottomChassis` 做 Y 向 0.99 倍筛选，三组均值仅有噪声量�
 v269 重建左右后肩护甲和接片后，视频十方位平均 IoU 由 86.008085% 降至 85.767475%，继续采用 v259。用 v259 复查静态第 05 图，可见左前罩弧面内罩和甲片是两处前罩外溢来源。[v269 筛选与对象归因](../cad/drone-concept/comparison/v269-rear-shoulder-screening/README.md)
 
 v270 与 v271 分别内移前罩肩部 4 mm 和 2 mm。静态七图均值提高，视频和拼图均值下降。v270 的两侧甲片与内衬新增交叠，v271 的对应交叠为零。正式采用 v259。[三组对照与接合记录](../cad/drone-concept/comparison/v270-v271-front-shoulder/README.md)
+
+v272 单独内移弧面内罩和白纹，静态第 05 图的主要前罩外溢转移至前罩主体。v273 内移甲片、滑槽内衬和螺钉，视频和拼图均值下降。正式采用 v259。[分件对照与接合记录](../cad/drone-concept/comparison/v272-v273-front-shoulder-parts/README.md)

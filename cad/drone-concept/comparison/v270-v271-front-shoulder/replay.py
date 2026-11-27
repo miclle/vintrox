@@ -12,6 +12,7 @@ parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--base', type=Path, required=True)
 parser.add_argument('--output', type=Path, required=True)
 parser.add_argument('--inward-mm', type=float, choices=(2, 4), required=True)
+parser.add_argument('--group', choices=('all', 'crown', 'plate'), default='all')
 args = parser.parse_args()
 base = args.base.resolve()
 output = args.output.resolve()
@@ -33,7 +34,9 @@ for side in ('Left', 'Right'):
     pairs += [(crown, mark) for mark in marks] + [(plate, bolt), (plate, liner),
               (crown, 'ProjectingBrow'), (plate, 'ProjectingBrow'),
               (plate, 'BrowUnderside'), (plate, 'ScreenBezel')]
-    for name in (crown, plate, bolt, liner, *marks):
+    groups = {'all': (crown, plate, bolt, liner, *marks),
+              'crown': (crown, *marks), 'plate': (plate, bolt, liner)}
+    for name in groups[args.group]:
         shape = source.getObject(name).Shape
         originals[name] = shape.copy()
         moved = shape.copy()
@@ -78,6 +81,8 @@ for left, right in pairs:
 report = {'baseline_fcstd_sha256': hashlib.sha256(base.read_bytes()).hexdigest(),
           'fcstd_sha256': hashlib.sha256(model.read_bytes()).hexdigest(),
           'inward_mm_per_side': args.inward_mm, 'geometry': geometry, 'contacts': contacts}
+if args.group != 'all':
+    report['group'] = args.group
 (output / 'candidate-check.json').write_text(json.dumps(report, indent=2) + '\n')
 App.closeDocument(saved.Name)
 App.closeDocument(source.Name)
