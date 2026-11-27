@@ -1,5 +1,7 @@
 """Build the mirrored decorative loops in final assembly coordinates."""
 
+from math import pi, sin
+
 import FreeCAD as App
 import Part
 
@@ -25,7 +27,7 @@ RIGHT_LOOP_POINTS = (
 )
 
 
-def loop_loft(points, parameters=None, radius=LOOP_RADIUS):
+def loop_loft(points, parameters=None, radius=LOOP_RADIUS, *, end_radius=None):
     curve = Part.BSplineCurve()
     interpolation = {"Parameters": parameters} if parameters is not None else {}
     curve.interpolate([App.Vector(*point) for point in points], **interpolation)
@@ -34,8 +36,14 @@ def loop_loft(points, parameters=None, radius=LOOP_RADIUS):
     first, last = curve.FirstParameter, curve.LastParameter
     step = (last - first) / 39
     stations = [first + index * step for index in range(39)] + [last]
-    sections = [
-        Part.Wire([Part.makeCircle(radius, curve.value(station), curve.tangent(station)[0])])
-        for station in stations
-    ]
+    sections = []
+    for index, station in enumerate(stations):
+        section_radius = radius
+        if end_radius is not None:
+            fraction = index / 39
+            station = first + fraction * (last - first)
+            section_radius = end_radius + (radius - end_radius) * sin(pi * fraction) ** 2
+        sections.append(Part.Wire([
+            Part.makeCircle(section_radius, curve.value(station), curve.tangent(station)[0])
+        ]))
     return Part.makeLoft(sections, True, False)

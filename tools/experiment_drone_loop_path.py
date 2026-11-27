@@ -23,9 +23,14 @@ def main():
     for name in ['base', 'mesh', 'fit', 'output']:
         parser.add_argument('--'+name, type=Path, required=True)
     parser.add_argument('--radius', type=float, default=2.2)
+    parser.add_argument('--end-radius', type=float,
+                        help='End radius in mm for a smooth taper to --radius in the middle')
     args = parser.parse_args()
     if not np.isfinite(args.radius) or args.radius <= 0:
         raise ValueError('radius must be finite and positive')
+    if args.end_radius is not None and not 0 < args.end_radius <= args.radius:
+        raise ValueError('end radius must be positive and no greater than the middle radius')
+    end_radius = args.radius if args.end_radius is None else args.end_radius
     if args.output.exists() and any(args.output.iterdir()):
         raise ValueError('output must be empty')
     mesh = json.loads(args.mesh.read_text())
@@ -40,7 +45,8 @@ def main():
     try:
         for name in changed:
             parameters = fit.get('source_control_parameters') if fit.get('method', '').startswith('11 chord-parameter') else None
-            shape = loop_loft(fit['centreline_paths_mm'][name], parameters, args.radius)
+            shape = loop_loft(fit['centreline_paths_mm'][name], parameters, args.radius,
+                              end_radius=args.end_radius)
             if not shape.isValid() or not shape.isClosed() or len(shape.Solids) != 1 or advanced_errors(shape):
                 raise ValueError('invalid swept loop: '+name)
             doc.getObject(name).Shape = shape
@@ -62,7 +68,7 @@ def main():
             shape = doc.getObject(name).Shape
             assert not advanced_errors(shape)
             for endpoint in (fit['centreline_paths_mm'][name][0], fit['centreline_paths_mm'][name][-1]):
-                probe = Part.makeSphere(args.radius, App.Vector(*endpoint))
+                probe = Part.makeSphere(end_radius, App.Vector(*endpoint))
                 overlap = probe.common(belly).Volume
                 contacts.append({'name': name, 'endpoint_mm': endpoint, 'belly_overlap_mm3': overlap})
                 assert overlap > 0, (name, endpoint)
@@ -102,6 +108,7 @@ def main():
                   'changed_objects': changed, 'preserved_objects': preserved,
                   'new_advanced_check_failures': [], 'contact_regressions': [],
                   'radius_mm': args.radius, 'centreline_paths_mm': fit['centreline_paths_mm'],
+                  'end_radius_mm': end_radius,
                   'construction': 'smooth loft through 40 circular normal sections; pipe-shell sweep rejected for advanced C0 errors',
                   'endpoint_belly_contacts': contacts, 'support_collisions': collisions,
                   'saved_centreline_observations': observations,

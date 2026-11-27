@@ -34,6 +34,7 @@
 - v275 通过射线将 `still-05` 前罩主体外溢分为上缘和前端两段。局部切削上缘后，静态第 05 图 IoU 与 v272 一致，视频和拼图均值略降。[固定相机对照与几何记录](../cad/drone-concept/comparison/v275-brow-upper-edge/README.md)
 
 - v276 将前侧脸颊与桥板对称收窄 1%，27 个固定视角的轮廓 IoU 均持平或提高。保存读回、桥板接合和原生显示均通过，采用为当前模型。[正式对照](../cad/drone-concept/comparison/v276-front-cheek-x099/README.md)
+- v277 筛查了两档底部回环渐变半径，四组局部采样 RMS 均下降，视频十方位均值下降 0.052838 和 0.096477 个百分点。两端半径和四支柱净空通过复核，正式采用 v276。[回环筛选与放样参数](../cad/drone-concept/comparison/v277-loop-radius-screen/README.md)
 
 ## 续接
 
