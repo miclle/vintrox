@@ -106,6 +106,8 @@
 
 - v326 筛选了底盘的六个长度，三个缩短候选保持九处接合。0.965 档在第 05 张静态图仅移除 64 个前景像素，三个缩短档的拼图均值均下降，正式评审继续使用 v315。[底盘近景与逐视角结果](../cad/drone-concept/comparison/v326-bottom-chassis-length/README.md)
 
+- v327 同时收窄两对大喷口叶片末端侧缘，静态第 05 图改善 0.02196 个百分点。第 60、180 帧的末缘 RMS 均上升，采用 v315。继续依据参考出口环核对各片实际伸出长度。[固定相机复测](../cad/drone-concept/comparison/v327-nozzle-flanks/README.md)
+
 ## 续接
 
 1. 结合 `video-02`、`video-03`、`video-06` 和 `still-05` 核对喷口口环及叶片末缘。沿第 9、10 号叶片在静态近景中的外缘定位外溢截面，检查末段收窄能否同时保住两个侧后视频方位的轮廓收益。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口视频近景](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/v276-tip-crops.png) · [大喷口静态近景](../cad/drone-concept/comparison/v283-visible-petal-pairs/still-delta-crops.png)
