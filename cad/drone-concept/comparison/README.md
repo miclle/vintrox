@@ -1,6 +1,6 @@
 # Drone 参考比较证据
 
-正式 v259 包含视频十方位、七张静态原图和十格参考拼图的半透明叠加及轮廓差异。历史 v164 三组总览板保留供交叉核对。[v259 正式对照](v259-rear-beacon-length/README.md) · [v164 视频基线](v164-front-brow-depth/video-comparison/comparison-board.png) · [v164 静态基线](v164-front-brow-depth/stills-comparison/comparison-board.png) · [v164 拼图基线](v164-front-brow-depth/sheet-comparison/comparison-board.png) · [v269 筛选](v269-rear-shoulder-screening/README.md)
+正式 v276 包含视频十方位、七张静态原图和十格参考拼图的半透明叠加及轮廓差异。[v276 正式对照](v276-front-cheek-x099/README.md) · [v259 基线](v259-rear-beacon-length/README.md) · [v164 视频基线](v164-front-brow-depth/video-comparison/comparison-board.png) · [v164 静态基线](v164-front-brow-depth/stills-comparison/comparison-board.png) · [v164 拼图基线](v164-front-brow-depth/sheet-comparison/comparison-board.png)
 
 ## 历次评审记录
 

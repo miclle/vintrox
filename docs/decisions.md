@@ -387,3 +387,7 @@ v272 单独内移弧面内罩和白纹，静态第 05 图的主要前罩外溢�
 v274 将前罩主体和内衬横向收至 0.985 倍，视频十方位平均 IoU 下降 0.028486 个百分点，正式采用 v259。[v274 筛选](../cad/drone-concept/comparison/v274-brow-x0985/README.md)
 
 v275 在 v272 上局部切削前罩主体上缘，六组邻件接合距离仍为零，静态第 05 图的轮廓 IoU 与 v272 一致，视频和拼图均值略降。正式采用 v259。[三组对照](../cad/drone-concept/comparison/v275-brow-upper-edge/README.md)
+
+## v276 前侧脸颊与桥板收形
+
+采用左右前侧脸颊及桥板横向收窄 1% 的方案。视频、静态图和拼图平均 IoU 分别提升 0.011401、0.000418 和 0.004724 个百分点，桥板与侧脊接合通过保存读回检查。[三组对照](../cad/drone-concept/comparison/v276-front-cheek-x099/README.md)
