@@ -1,8 +1,10 @@
 # VINTROX Drone 外观迭代交接
 
-目标仍在执行。当前发布基线为 `miclle/vintrox` 的 `main` 上的 v339，采用普通 Git 交付。[v339 正式记录](../cad/drone-concept/comparison/v339-small-pod-y-minus0p5/README.md) · [v259 基线](../cad/drone-concept/comparison/v259-rear-beacon-length/README.md)
+目标仍在执行。当前发布基线为 `miclle/vintrox` 的 `main` 上的 v344 研究候选，采用普通 Git 交付。正式外观入口仍按评审记录保留 v339。[v339 正式记录](../cad/drone-concept/comparison/v339-small-pod-y-minus0p5/README.md) · [v259 基线](../cad/drone-concept/comparison/v259-rear-beacon-length/README.md)
 
 ## 当前证据
+
+- v344 在 v341 上将两侧小喷口追加对称 Y−0.25 mm，累计为 Y−0.75 mm，并保留 v321 卷线。视频十方位、静态七图和拼图十格均值为 86.2369%、82.7143% 和 89.9778%，三组均高于 v341，但仍未达到 90%。FCStd/STEP 独立读回与保存 GUI 颜色/可见性恢复通过，正式入口仍未切换。
 
 - v339 保留实测 210 × 160 × 2 mm 平面屏、外挂筒、侧控件、格栅和四根支柱。曲面罩按参考外观推导，原作内部和遮挡细节仍有未知项。[设计说明](drone-concept.md)
 - 视频十方位、静态七图和拼图十格平均 IoU 为 86.0408%、82.6186% 和 89.8958%。第 60 和 180 帧末缘最大偏差为屏宽的 8.42% 和 5.01%。视频整圈 90% 与主要部件轮廓偏差 5% 仍待达成。[交付核验](../cad/drone-concept/delivery-verification-current.json)
