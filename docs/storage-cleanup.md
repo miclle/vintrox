@@ -8,11 +8,11 @@
 
 v164 成为历史基线后，工作树移除其压缩网格分卷，已发布提交仍可追溯。v155、v161、v163 的旧 FCStd、STEP 和派生网格已在此前迁移中移出主分支历史。历史相机、对照、读回报告和试验参数仍可查阅。
 
-## 2026-11-27 发布历史清理
+## 2026-11-28 发布历史清理
 
-`main` 与远端迁移分支自 `e7a4ea25` 起采用精简历史。清理移出了 112 个旧候选 CAD 文件与几何副本，并移除了 6,135 个旧试验媒体文件。旧分阶段参数、报告和脚本仍可按目录检索，部分旧报告中的模型或图片路径仅用于追溯当时的输入和输出。原提交号也可能只在清理前的副本可查。
+`main` 已重写为精简历史，移除了历史中旧 Drone FCStd/STEP 文件，只在当前 v339 交付目录和主模型路径保留 4 个正式 CAD 文件。旧分阶段参数、报告和脚本仍可按目录检索，部分旧报告中的模型或图片路径仅用于追溯当时的输入和输出。原提交号也可能只在清理前的 bundle 或本机会话引用中可查。
 
-清理时的 v315 正式 FCStd、STEP、九视角预览、转台、三组逐视角渲染与对照、颜色核验、真实参考图片和视频均可用普通 Git 检出。正式交付检查为 `python3 tools/verify_drone_current_delivery.py`。发布分支可达对象扫描未发现超过 50 MiB 的文件。本机仍有其他 Git 引用，包括 Codex 会话快照，因此本机对象库体积可能高于从远端重新克隆得到的大小。[正式交付](../cad/drone-concept/comparison/v315-antenna-multiview/README.md)
+当前 v339 的 FCStd、STEP、九视角预览、转台、三组逐视角渲染与对照、颜色核验、真实参考图片和视频均可用普通 Git 检出。正式交付检查为 `python3 tools/verify_drone_current_delivery.py`。主分支可达对象扫描仅发现当前 v339 STEP 超过 50 MiB。迁移分支仍是独立的旧发布线，另行清理。[正式交付](../cad/drone-concept/comparison/v339-small-pod-y-minus0p5/README.md)
 
 ## 2026-11-24 保留范围
 
@@ -24,7 +24,7 @@ v164 成为历史基线后，工作树移除其压缩网格分卷，已发布提
 
 - 正式入口保留当前版本的 FCStd、STEP、九视角预览、转台，以及当前交付校验所用的相机、网格和逐图对照。原始参考素材及 terminal 布局资料继续可用。[正式入口](drone-concept.md)
 - 旧试验保留参数、分析报告、代表性对照板和复建工具。旧 FCStd、STEP、中间网格和可重建的逐帧图从本地 `main` 历史清出，涵盖 v121 和 v122 落选候选。旧文档中的附件链接用于追溯历史证据，复建需要相应版本的输入和工具。
-- 本地分支已重写。旧 LFS 对象仍由远端跟踪历史和 Codex 会话快照引用，缓存随这些引用保留。当前交付通过 `python3 tools/verify_drone_delivery.py --output /tmp/vintrox-delivery.json` 校验。
+- 本地主工作区已对齐重写后的 `origin/main`。原始主线通过 bundle 保存在本机临时目录以便回滚，Codex 会话引用和迁移分支仍可能保留旧对象。当前交付通过 `python3 tools/verify_drone_current_delivery.py` 校验。
 - v130 接替正式入口后，从本地 `main` 历史清出 v120 的 FCStd、STEP、网格和可重建逐帧图。v120 的相机、对照板、读回报告及几何参数保留。清理报告目录中的 `v120-retirement.*` 保存 Git 恢复包和清单，恢复 LFS 文件还需本机对象缓存。[v120 基线](../cad/drone-concept/comparison/v120-barrel-rear-cap/README.md) · [v130 正式模型](../cad/drone-concept/comparison/v130-underbody-loop-path/README.md)
 - v140 接替正式入口后，从本地 `main` 历史清出 v130 的 FCStd、STEP 和压缩网格。v130 的相机、叠加、对照板、读回报告和参数随仓库保留。本机清理报告 `v130-retirement.9OzTSn/` 包含已校验的 `pre-cleanup.bundle`、提交映射及旧对象清单。恢复时在独立仓库导入恢复包，然后从清理前的提交和本机 LFS 缓存取出文件。[v130 历史对照](../cad/drone-concept/comparison/v130-underbody-loop-path/README.md) · [v140 正式模型](../cad/drone-concept/comparison/v140-shoulder-petal-pod/README.md)
 
