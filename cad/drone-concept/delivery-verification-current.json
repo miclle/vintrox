@@ -1,9 +1,9 @@
 {
   "passed": true,
   "errors": [],
-  "revision": "v300-rear-shoulder-nozzle",
-  "fcstd_sha256": "abdfdd0c2b1a78ec9e9c59000c56dd9394a26ac4a46cea7b8d4245766a7b6651",
-  "step_sha256": "4ced319f8ad7e355153da31e2eb25a46beb98d5e28f9f085affceb18b2b84491",
+  "revision": "v302-upper-rear-shoulder",
+  "fcstd_sha256": "94e35335cfab56f16acac7562f82757a02d87f2c88e1405a0c7c1a9932a804a8",
+  "step_sha256": "e708bb38a1ee0371345f243eedd0be5fb73ec0ac153e57510ad45fa79c018ef9",
   "visible_features": 696,
   "step_solids": 853,
   "screen_panel_mm": [
@@ -37,15 +37,15 @@
   "comparisons": {
     "video": {
       "views": 10,
-      "mean_silhouette_iou": 0.8604495455525619
+      "mean_silhouette_iou": 0.8605962619593841
     },
     "stills": {
       "views": 7,
-      "mean_silhouette_iou": 0.8258997926401506
+      "mean_silhouette_iou": 0.8259225887253819
     },
     "sheet": {
       "views": 10,
-      "mean_silhouette_iou": 0.8982540724332951
+      "mean_silhouette_iou": 0.8983866273239887
     }
   },
   "physical_validation": false,
