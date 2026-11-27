@@ -39,6 +39,7 @@
 - v279 将后部鳍片暗色基座的顶部降低 1.5 mm、3 mm。两档十方位逐视角 IoU 均与 v276 相同，槽顶露出的金色壳面与参考暗槽有差异，继续采用 v276。[近景与保存几何](../cad/drone-concept/comparison/v279-cooling-core-recess/README.md)
 - v280 将顶罩两条凸筋从 6 mm 降到 4.5 mm、3 mm。保存实体检查通过，视频十方位均值分别降至 85.9295%、85.8692%，正式采用 v276。[固定相机对照与复建](../cad/drone-concept/comparison/v280-roof-rib-height/README.md)
 - v281 在 v276 上延长四组镜像叶片末段；两个侧后视最大偏差降至投影屏宽的 17.63%、20.68%，视频和静态图整机均值均下降，正式采用 v276。[固定相机、射线与读回](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/README.md)
+- v282 将四组叶片的接续面向根部前移。98 mm 与 103 mm 档出现第 4 号叶片高级几何错误，101 mm 档通过保存读回，视频十方位均值降至 85.9832%，正式采用 v276。[接续面筛查](../cad/drone-concept/comparison/v282-petal-splice-stations/README.md)
 
 ## 续接
 
