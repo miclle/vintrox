@@ -41,9 +41,10 @@
 - v281 在 v276 上延长四组镜像叶片末段；两个侧后视最大偏差降至投影屏宽的 17.63%、20.68%，视频和静态图整机均值均下降，正式采用 v276。[固定相机、射线与读回](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/README.md)
 - v282 将四组叶片的接续面向根部前移。98 mm 与 103 mm 档出现第 4 号叶片高级几何错误，101 mm 档通过保存读回，视频十方位均值降至 85.9832%，正式采用 v276。[接续面筛查](../cad/drone-concept/comparison/v282-petal-splice-stations/README.md)
 - v283 延长第 6、7、9、10 号可见叶片，视频和拼图均值分别提高 0.03880 和 0.06363 个百分点。静态 `still-05` 的第 9、10 号叶片向背景伸出，静态均值下降 0.03261 个百分点，正式采用 v276。[固定相机对照与局部归因](../cad/drone-concept/comparison/v283-visible-petal-pairs/README.md)
+- v284 将同一组末段径向内收并取消局部 Y 位移。视频和拼图均值分别提高 0.03663、0.06820 个百分点，静态均值仍下降 0.02598 个百分点，正式采用 v276。[径向内收对照](../cad/drone-concept/comparison/v284-petal-tip-inward/README.md)
 
 ## 续接
 
-1. 用 v281 近景对照在 `video-02`、`video-03` 和 `video-06` 同时标出喷口口环和叶片末缘，再按两条边之间的跨度检查叶片的伸出方向。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口近景](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/v276-tip-crops.png) · [前罩对象归因](../cad/drone-concept/comparison/v269-rear-shoulder-screening/still-05-boundary.json)
+1. 结合 `video-02`、`video-03`、`video-06` 和 `still-05` 核对喷口口环及叶片末缘。沿第 9、10 号叶片在静态近景中的外缘定位外溢截面，检查末段收窄能否同时保住两个侧后视频方位的轮廓收益。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口视频近景](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/v276-tip-crops.png) · [大喷口静态近景](../cad/drone-concept/comparison/v283-visible-petal-pairs/still-delta-crops.png)
 2. 从保存 v276 生成候选，在临时目录保存 FCStd 和网格。沿用十个视频姿态、七张静态图与十格拼图检查整机轮廓，再复测关键局部，以同相机的投影屏宽归一化。进入正式交付的候选需补齐 STEP 独立读回、接合与四支柱复查、原生颜色与可见性检查，并同步正式模型、预览与文档。[编辑与复现](drone-concept.md#编辑与复现)
 3. GitHub 发布分支使用精简历史，保留当前正式包、关键基线对照和试验报告。用正式 CAD 与固定相机生成新候选所需网格。[存储说明](storage-cleanup.md)

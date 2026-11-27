@@ -405,3 +405,5 @@ v281 延长第 0、4、5、11 号镜像叶片末段并略收径向。两处侧�
 v282 筛查更靠近根部的三档叶片接续面。101 mm 档通过保存几何与接合检查，视频均值下降 0.036292 个百分点，正式模型采用 v276。[接续面筛查](../cad/drone-concept/comparison/v282-petal-splice-stations/README.md)
 
 v283 延长第 6、7、9、10 号叶片末段。视频和拼图平均 IoU 提高，静态 `still-05` 外溢增大，正式模型采用 v276。[三组对照与静态近景](../cad/drone-concept/comparison/v283-visible-petal-pairs/README.md)
+
+v284 保留 v283 的轴向延长，将末段改为径向内收。`still-05` 的评分较 v283 回升 0.02217 个百分点，静态平均 IoU 仍低于 v276，正式模型采用 v276。[三组固定相机对照](../cad/drone-concept/comparison/v284-petal-tip-inward/README.md)
