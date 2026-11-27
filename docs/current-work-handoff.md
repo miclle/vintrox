@@ -60,6 +60,7 @@
 - v299 将第 7、9 号叶片末段径向内收增至 3.6 mm。静态图 05 较 v292 略退步，4.5 mm 档在脊条的保存几何检查失败。正式采用 v292。[径向筛选](../cad/drone-concept/comparison/v299-nozzle-radial-inset/README.md)
 
 - v300 组合后肩收窄和第 7、9 号叶片末段内收。三组整机均值均提高，静态第 03 图下降 0.12913 个百分点。正式包通过 STEP 读回与原生颜色检查。[固定相机与复建](../cad/drone-concept/comparison/v300-rear-shoulder-nozzle/README.md)
+- v301 按静态第 03 图和视频第 150 帧的射线定位，在四档接续位置恢复后肩前段宽度。Y=240 mm 档恢复静态第 03 图的轮廓得分，静态七图均值略降。正式采用 v300。[局部宽度与固定相机](../cad/drone-concept/comparison/v301-local-rear-shoulder/README.md)
 
 ## 续接
 
