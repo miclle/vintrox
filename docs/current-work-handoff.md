@@ -45,6 +45,7 @@
 - v285 在 v284 叶片末段采用两档单侧斜切。静态七图均值较 v284 回升不足 0.003 个百分点，正式采用 v276。[保存读回与固定相机对照](../cad/drone-concept/comparison/v285-petal-flank-taper/README.md)
 - v286 在 v276 上对提手支臂试验内倾和外倾 1.5°。两档通过 14 项接合检查，三组平均 IoU 均低于 v276。[提手倾角筛查](../cad/drone-concept/comparison/v286-handle-tilt-screen/README.md)
 - v287 将 v276 的前侧脸颊和桥板沿横向再收窄 1.5%。正面 `video-09` 提高 0.13391 个百分点，三组均值中视频和拼图提高、静态持平，采用为正式版。[正式对照与复建](../cad/drone-concept/comparison/v287-front-cheek-x0985/README.md)
+- v288 将 v287 的前侧脸颊和桥板再收窄 3%。视频均值下降 0.004814 个百分点，拼图均值提高 0.001838 个百分点，正式采用 v287。[三组对照](../cad/drone-concept/comparison/v288-front-cheek-x097/README.md)
 
 ## 续接
 
