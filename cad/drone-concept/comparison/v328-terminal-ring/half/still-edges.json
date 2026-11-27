@@ -1,0 +1,391 @@
+{
+  "fcstd_sha256": "ab0d89cfa913a4f9596a369aaeccf601e672485f8bef066c2110e07f19bad76c",
+  "baseline_fcstd_sha256": "be041c71d0190ffaf7cc275b1747405977c2529bd67025fe36224304852f31eb",
+  "observations_sha256": "7df87b7421be783684b9f77786ef394e2948692d104ab1c7d57102cd8ffff40e",
+  "script_sha256": "ffd0691030adad603dcba58e5412518a2c8d218a4ceb8a1e2a50f155c540afab",
+  "views": [
+    {
+      "view": "still-04",
+      "reference_px": [
+        [
+          600,
+          657
+        ],
+        [
+          636,
+          662
+        ],
+        [
+          675,
+          652
+        ],
+        [
+          713,
+          629
+        ],
+        [
+          745,
+          606
+        ],
+        [
+          753,
+          577
+        ],
+        [
+          627,
+          579
+        ],
+        [
+          658,
+          560
+        ],
+        [
+          686,
+          556
+        ],
+        [
+          725,
+          555
+        ],
+        [
+          605,
+          609
+        ]
+      ],
+      "crop_xyxy": [
+        565,
+        520,
+        788,
+        697
+      ],
+      "projected_screen_horizontal_span_px": 334.81441130167775,
+      "baseline": {
+        "rms_px": 8.949352439752783,
+        "max_px": 17.0,
+        "distance_px": [
+          8.0,
+          15.297058540778355,
+          17.0,
+          11.180339887498949,
+          9.219544457292887,
+          2.0,
+          6.324555320336759,
+          1.0,
+          1.0,
+          2.0,
+          5.830951894845301
+        ],
+        "max_fraction_projected_screen_width": 0.05077439747562865,
+        "nearest_visible_boundary_px": [
+          [
+            600,
+            649
+          ],
+          [
+            633,
+            647
+          ],
+          [
+            667,
+            637
+          ],
+          [
+            708,
+            619
+          ],
+          [
+            738,
+            600
+          ],
+          [
+            751,
+            577
+          ],
+          [
+            625,
+            573
+          ],
+          [
+            658,
+            559
+          ],
+          [
+            687,
+            556
+          ],
+          [
+            727,
+            555
+          ],
+          [
+            600,
+            606
+          ]
+        ],
+        "id_manifest_sha256": "cb2de53b5f6f6946da5ec3ce76fb82950a4f28c4031d3d64dcf10834070d331f"
+      },
+      "candidate": {
+        "rms_px": 4.8896923123128015,
+        "max_px": 9.848857801796104,
+        "distance_px": [
+          3.0,
+          3.0,
+          2.0,
+          5.0,
+          9.848857801796104,
+          1.0,
+          7.211102550927978,
+          7.0,
+          0.0,
+          4.0,
+          1.0
+        ],
+        "max_fraction_projected_screen_width": 0.029415871806431862,
+        "nearest_visible_boundary_px": [
+          [
+            600,
+            654
+          ],
+          [
+            636,
+            659
+          ],
+          [
+            675,
+            654
+          ],
+          [
+            717,
+            626
+          ],
+          [
+            749,
+            615
+          ],
+          [
+            752,
+            577
+          ],
+          [
+            631,
+            585
+          ],
+          [
+            658,
+            567
+          ],
+          [
+            686,
+            556
+          ],
+          [
+            725,
+            559
+          ],
+          [
+            604,
+            609
+          ]
+        ],
+        "id_manifest_sha256": "eb0ea8dfdc2a0e2e14c0a4c1226c7fd3edc424dda919d154656bab25dc266d5f"
+      },
+      "source_sha256": "c2635b57d04092802341979a23e74876884bc00075d0ec9c8a3594b930e686ce"
+    },
+    {
+      "view": "still-05",
+      "reference_px": [
+        [
+          118,
+          570
+        ],
+        [
+          132,
+          600
+        ],
+        [
+          166,
+          626
+        ],
+        [
+          199,
+          648
+        ],
+        [
+          229,
+          659
+        ],
+        [
+          253,
+          653
+        ],
+        [
+          139,
+          543
+        ],
+        [
+          176,
+          557
+        ],
+        [
+          205,
+          582
+        ],
+        [
+          238,
+          616
+        ],
+        [
+          255,
+          636
+        ]
+      ],
+      "crop_xyxy": [
+        83,
+        508,
+        290,
+        694
+      ],
+      "projected_screen_horizontal_span_px": 215.7705334538083,
+      "baseline": {
+        "rms_px": 10.87950533634854,
+        "max_px": 19.235384061671343,
+        "distance_px": [
+          12.36931687685298,
+          4.123105625617661,
+          12.529964086141668,
+          17.46424919657298,
+          19.235384061671343,
+          8.0,
+          3.0,
+          0.0,
+          13.0,
+          5.0990195135927845,
+          5.656854249492381
+        ],
+        "max_fraction_projected_screen_width": 0.08914740930456667,
+        "nearest_visible_boundary_px": [
+          [
+            106,
+            567
+          ],
+          [
+            133,
+            596
+          ],
+          [
+            172,
+            615
+          ],
+          [
+            203,
+            631
+          ],
+          [
+            232,
+            640
+          ],
+          [
+            253,
+            645
+          ],
+          [
+            142,
+            543
+          ],
+          [
+            176,
+            557
+          ],
+          [
+            210,
+            570
+          ],
+          [
+            237,
+            621
+          ],
+          [
+            251,
+            640
+          ]
+        ],
+        "id_manifest_sha256": "cb2de53b5f6f6946da5ec3ce76fb82950a4f28c4031d3d64dcf10834070d331f"
+      },
+      "candidate": {
+        "rms_px": 8.38830354503438,
+        "max_px": 24.041630560342615,
+        "distance_px": [
+          24.041630560342615,
+          0.0,
+          4.123105625617661,
+          2.0,
+          1.0,
+          3.605551275463989,
+          2.23606797749979,
+          1.0,
+          1.4142135623730951,
+          2.8284271247461903,
+          12.041594578792296
+        ],
+        "max_fraction_projected_screen_width": 0.11142221403224828,
+        "nearest_visible_boundary_px": [
+          [
+            135,
+            553
+          ],
+          [
+            132,
+            600
+          ],
+          [
+            165,
+            630
+          ],
+          [
+            199,
+            650
+          ],
+          [
+            229,
+            660
+          ],
+          [
+            255,
+            656
+          ],
+          [
+            141,
+            544
+          ],
+          [
+            177,
+            557
+          ],
+          [
+            204,
+            583
+          ],
+          [
+            240,
+            614
+          ],
+          [
+            246,
+            628
+          ]
+        ],
+        "id_manifest_sha256": "eb0ea8dfdc2a0e2e14c0a4c1226c7fd3edc424dda919d154656bab25dc266d5f"
+      },
+      "source_sha256": "3860ef57bfcf146ea337493b1860771edc072454c5b1330dc12f8dbdf4c8b58d"
+    }
+  ],
+  "method": "nearest visible opaque petal-family mask boundary; fixed cameras and identical crops",
+  "limitations": [
+    "partial observed tips only; not full-part 5 percent contour acceptance",
+    "family boundary includes root and occlusion edges as well as terminal edges",
+    "opaque IDs approximate glass occlusion and raster edges",
+    "all observations previously inspected; no fresh held-out validation",
+    "projected screen horizontal span is view dependent, especially near side views",
+    "no revised primary whole-model IoU, image warp or part omission"
+  ]
+}

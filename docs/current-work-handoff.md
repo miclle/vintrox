@@ -108,6 +108,8 @@
 
 - v327 同时收窄两对大喷口叶片末端侧缘，静态第 05 图改善 0.02196 个百分点。第 60、180 帧的末缘 RMS 均上升，采用 v315。继续依据参考出口环核对各片实际伸出长度。[固定相机复测](../cad/drone-concept/comparison/v327-nozzle-flanks/README.md)
 
+- v328 按三帧参考出口环调整十二片大喷口叶片。半量档通过几何与接合复核，两个侧后方位的局部最大偏差缩至屏宽的 11.91% 和 11.35%，视频均值降至 86.1031%。全量档在第 8 号加强筋引入曲面错误。继续检查同时使用视频与静态标注的出口环。[出口环与固定相机复测](../cad/drone-concept/comparison/v328-terminal-ring/README.md)
+
 ## 续接
 
 1. 结合 `video-02`、`video-03`、`video-06` 和 `still-05` 核对喷口口环及叶片末缘。沿第 9、10 号叶片在静态近景中的外缘定位外溢截面，检查末段收窄能否同时保住两个侧后视频方位的轮廓收益。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口视频近景](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/v276-tip-crops.png) · [大喷口静态近景](../cad/drone-concept/comparison/v283-visible-petal-pairs/still-delta-crops.png)

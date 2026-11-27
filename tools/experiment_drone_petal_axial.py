@@ -68,8 +68,32 @@ def extend(shape, frame, factor, station):
                     local_result.optimalBoundingBox(False, False).ZMax]
 
 
+def ring_tip_slopes(doc, frame, path, station, fraction):
+    """Displace each saved hem centroid toward the nearest point on the fitted circle."""
+    fit = json.loads(path.read_text())
+    if fit['parameter_names'] != ['center_y_mm', 'center_z_mm', 'radius_mm', 'axis_angle_from_down_deg']:
+        raise ValueError('Expected the reference nozzle-mouth circle fit')
+    y, z, radius, angle = fit['parameters']
+    center = App.Vector(0, y, z)
+    angle = math.radians(angle)
+    normal = App.Vector(0, math.sin(angle), -math.cos(angle))
+    inverse = frame.inverse()
+    slopes = {}
+    for index in range(12):
+        solids = doc.getObject(f'NozzlePetalEndHem{index}').Shape.Solids
+        tip = sum((s.CenterOfMass * s.Volume for s in solids), App.Vector()) / sum(s.Volume for s in solids)
+        offset = tip - center
+        radial = offset - normal * offset.dot(normal)
+        target = center + radial * (radius / radial.Length)
+        local = inverse.multVec(tip)
+        if local.z <= station:
+            raise ValueError(f'Splice station must precede hem {index}')
+        slopes[index] = (inverse.multVec(target) - local) * (fraction / (local.z - station))
+    return slopes
+
+
 def extend_tip(shape, frame, factor, station, radial_shift=0, centre_shift=0,
-               leaf_index=0):
+               leaf_index=0, ring_slope=None):
     """Keep the root BRep and splice an affine tip at a real planar seam."""
     local = shape.copy()
     local.Placement = frame.inverse().multiply(local.Placement)
@@ -91,6 +115,10 @@ def extend_tip(shape, frame, factor, station, radial_shift=0, centre_shift=0,
     angle = math.radians(leaf_index*30+30)
     matrix.A13 = radial_shift*math.cos(angle)/17
     matrix.A23 = (radial_shift*math.sin(angle)+centre_shift)/17
+    if ring_slope is not None:
+        matrix.A13, matrix.A23 = ring_slope.x, ring_slope.y
+        matrix.A33 = 1 + ring_slope.z
+        matrix.A34 = -station * ring_slope.z
     matrix.A14 = -station*matrix.A13
     matrix.A24 = -station*matrix.A23
     tip = upper.transformGeometry(matrix)
@@ -104,7 +132,10 @@ def main():
     parser = argparse.ArgumentParser()
     for name in ['base-model', 'base-meshes', 'output']:
         parser.add_argument('--'+name, type=Path, required=True)
-    parser.add_argument('--factor', type=float, required=True)
+    mode = parser.add_mutually_exclusive_group(required=True)
+    mode.add_argument('--factor', type=float)
+    mode.add_argument('--terminal-ring-fit', type=Path)
+    parser.add_argument('--ring-fraction', type=float, default=1.0)
     parser.add_argument('--station', type=float, default=98)
     parser.add_argument('--construction', choices=['solid-affine', 'tip-splice'],
                         default='solid-affine')
@@ -115,8 +146,15 @@ def main():
     parser.add_argument('--leaf-indices', type=int, nargs='+', choices=range(12),
                         help='Limit the tip splice to a mirror-symmetric set of leaf families')
     args = parser.parse_args()
-    if not 1 < args.factor <= 2:
+    if args.factor is not None and not 1 < args.factor <= 2:
         raise ValueError('Exploratory factor must be in (1, 2]')
+    if args.terminal_ring_fit:
+        if args.construction != 'tip-splice' or args.tip_radial_shift or args.tip_centre_shift:
+            parser.error('A fitted terminal ring requires tip-splice without additional shear')
+        if not 0 < args.ring_fraction <= 1:
+            parser.error('--ring-fraction must be in (0, 1]')
+    elif args.ring_fraction != 1:
+        parser.error('--ring-fraction requires --terminal-ring-fit')
     if not -200 < args.station < 300:
         raise ValueError('station is outside the local clipping envelope')
     if max(abs(args.tip_radial_shift), abs(args.tip_centre_shift)) > 10:
@@ -138,6 +176,8 @@ def main():
     frame = App.Placement(App.Vector(0, 180, 173),
                           App.Rotation(App.Vector(0, 0, 1), axis))
     base = App.openDocument(str(args.base_model))
+    ring = (ring_tip_slopes(base, frame, args.terminal_ring_fit, args.station, args.ring_fraction)
+            if args.terminal_ring_fit else {})
     before = {obj.Name: signature(obj.Shape) for obj in base.Objects
               if hasattr(obj, 'Shape') and not obj.Shape.isNull()}
     changed, records = [], []
@@ -152,8 +192,8 @@ def main():
             index = int(re.fullmatch(r'NozzlePetal(?:Inset|EdgeRail|EndHem|Ridge)?(\d+)(?:_\d+)?', name)[1])
             if index not in selected:
                 continue
-            shape, bounds = extend_tip(old, frame, args.factor, args.station,
-                                       args.tip_radial_shift, args.tip_centre_shift, index)
+            shape, bounds = extend_tip(old, frame, args.factor or 1, args.station,
+                                       args.tip_radial_shift, args.tip_centre_shift, index, ring.get(index))
         else:
             shape, bounds = extend(old, frame, args.factor, args.station)
         if bounds is None:
@@ -235,6 +275,10 @@ def main():
                   'preserved_objects': preserved, 'protected_supports': supports,
                   'parts': records, 'contacts': contacts,
                   'limitations': ['image-derived axial shape study', 'no manufacturing acceptance']}
+        if ring:
+            report.update(terminal_ring_sha256=digest(args.terminal_ring_fit),
+                          ring_fraction=args.ring_fraction,
+                          hem_displacement_per_mm={i: list(v) for i, v in ring.items()})
         (args.output/'candidate-check.json').write_text(json.dumps(report, indent=2)+'\n')
         print(json.dumps({'model': str(model), 'changed': len(changed),
                           'protected_supports': len(supports)}), flush=True)
