@@ -1,0 +1,249 @@
+{
+  "baseline_fcstd_sha256": "7220fb911bb93eeb54d1b2de24cbe46011ab73e253c629eb2d723f40c1fd3110",
+  "fcstd_sha256": "1adc05d057184ba24d9579b388873060106ec0aa5ecd7ccf9e2fb6e35e96d9a5",
+  "changed_objects": [
+    "NozzlePetal6",
+    "NozzlePetalEdgeRail6_136",
+    "NozzlePetalEndHem6",
+    "NozzlePetal7",
+    "NozzlePetalEndHem7",
+    "NozzlePetal9",
+    "NozzlePetalEdgeRail9_223",
+    "NozzlePetalEndHem9",
+    "NozzlePetal10",
+    "NozzlePetalEndHem10"
+  ],
+  "parts": {
+    "NozzlePetal6": {
+      "archive_member": "NozzlePetal6.Shape.brp",
+      "removed_volume_mm3": 39.997901380006624,
+      "baseline_solids": 5,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 5,
+      "advanced_errors": []
+    },
+    "NozzlePetalEdgeRail6_136": {
+      "archive_member": "NozzlePetalEdgeRail6_136.Shape.brp",
+      "removed_volume_mm3": 0.561612968730377,
+      "baseline_solids": 1,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_errors": []
+    },
+    "NozzlePetalEndHem6": {
+      "archive_member": "NozzlePetalEndHem6.Shape.brp",
+      "removed_volume_mm3": 5.23919913045906,
+      "baseline_solids": 1,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_errors": []
+    },
+    "NozzlePetal7": {
+      "archive_member": "NozzlePetal7.Shape.brp",
+      "removed_volume_mm3": 7.253093645896115,
+      "baseline_solids": 5,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 5,
+      "advanced_errors": []
+    },
+    "NozzlePetalEndHem7": {
+      "archive_member": "NozzlePetalEndHem7.Shape.brp",
+      "removed_volume_mm3": 0.47199781793093365,
+      "baseline_solids": 1,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_errors": []
+    },
+    "NozzlePetal9": {
+      "archive_member": "NozzlePetal9.Shape.brp",
+      "removed_volume_mm3": 24.37158050601579,
+      "baseline_solids": 5,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 5,
+      "advanced_errors": []
+    },
+    "NozzlePetalEdgeRail9_223": {
+      "archive_member": "NozzlePetalEdgeRail9_223.Shape.brp",
+      "removed_volume_mm3": 0.5105983549566897,
+      "baseline_solids": 1,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_errors": []
+    },
+    "NozzlePetalEndHem9": {
+      "archive_member": "NozzlePetalEndHem9.Shape.brp",
+      "removed_volume_mm3": 2.599221518830298,
+      "baseline_solids": 1,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_errors": []
+    },
+    "NozzlePetal10": {
+      "archive_member": "NozzlePetal10.Shape.brp",
+      "removed_volume_mm3": 12.930033567823784,
+      "baseline_solids": 5,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 5,
+      "advanced_errors": []
+    },
+    "NozzlePetalEndHem10": {
+      "archive_member": "NozzlePetalEndHem10.Shape.brp",
+      "removed_volume_mm3": 1.4757524777490545,
+      "baseline_solids": 1,
+      "baseline_advanced_errors": [],
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_errors": []
+    }
+  },
+  "contacts": [
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalHinge6"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "BassNozzleMouthRing"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalEdgeRail6_136"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalEndHem6"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "NozzlePetalHinge7"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 1.7763568394002505e-15,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "BassNozzleMouthRing"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "NozzlePetalEndHem7"
+      ],
+      "baseline_gap_mm": 3.552713678800501e-15,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalHinge9"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "BassNozzleMouthRing"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalEdgeRail9_223"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 3.552713678800501e-15,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalEndHem9"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalHinge10"
+      ],
+      "baseline_gap_mm": 7.105427357601002e-15,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "BassNozzleMouthRing"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalEndHem10"
+      ],
+      "baseline_gap_mm": 7.105427357601002e-15,
+      "gap_mm": 0.0,
+      "regressed": false
+    }
+  ],
+  "taper_start_axial_mm": 112,
+  "tangential_limit_at_start_mm": 12,
+  "tangential_taper_slope": 0.32
+}

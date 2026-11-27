@@ -42,6 +42,7 @@
 - v282 将四组叶片的接续面向根部前移。98 mm 与 103 mm 档出现第 4 号叶片高级几何错误，101 mm 档通过保存读回，视频十方位均值降至 85.9832%，正式采用 v276。[接续面筛查](../cad/drone-concept/comparison/v282-petal-splice-stations/README.md)
 - v283 延长第 6、7、9、10 号可见叶片，视频和拼图均值分别提高 0.03880 和 0.06363 个百分点。静态 `still-05` 的第 9、10 号叶片向背景伸出，静态均值下降 0.03261 个百分点，正式采用 v276。[固定相机对照与局部归因](../cad/drone-concept/comparison/v283-visible-petal-pairs/README.md)
 - v284 将同一组末段径向内收并取消局部 Y 位移。视频和拼图均值分别提高 0.03663、0.06820 个百分点，静态均值仍下降 0.02598 个百分点，正式采用 v276。[径向内收对照](../cad/drone-concept/comparison/v284-petal-tip-inward/README.md)
+- v285 在 v284 叶片末段采用两档单侧斜切。静态七图均值较 v284 回升不足 0.003 个百分点，正式采用 v276。[保存读回与固定相机对照](../cad/drone-concept/comparison/v285-petal-flank-taper/README.md)
 
 ## 续接
 
