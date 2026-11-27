@@ -1,0 +1,131 @@
+{
+  "fcstd_sha256": "155c0e66a85e99be02b86e1749d14c3e32884ed1dace09ccce03b3503eb73872",
+  "baseline_fcstd_sha256": "94e35335cfab56f16acac7562f82757a02d87f2c88e1405a0c7c1a9932a804a8",
+  "thickness_scale": 0.5,
+  "changed_archive_members": [
+    "FrontCheekLeft.Shape.brp",
+    "FrontCheekRight.Shape.brp"
+  ],
+  "parts": [
+    {
+      "name": "FrontCheekLeft",
+      "bridge_overlap_mm3": 3908.655834422089,
+      "contacts": [
+        {
+          "objects": [
+            "FrontCheekLeft",
+            "FrontCheekBridgeLeft"
+          ],
+          "before_gap_mm": 0.0,
+          "gap_mm": 0.0,
+          "contact_lost": false
+        },
+        {
+          "objects": [
+            "FrontCheekLeft",
+            "CheekUtilityLabelLeft"
+          ],
+          "before_gap_mm": 8.095413210000018,
+          "gap_mm": 11.860077350000026,
+          "contact_lost": false
+        },
+        {
+          "objects": [
+            "FrontCheekLeft",
+            "VentBackingLeft"
+          ],
+          "before_gap_mm": 7.795413210000007,
+          "gap_mm": 11.560077350000014,
+          "contact_lost": false
+        },
+        {
+          "objects": [
+            "FrontCheekLeft",
+            "CheekDialLeft"
+          ],
+          "before_gap_mm": 7.795413210000007,
+          "gap_mm": 11.560077350000014,
+          "contact_lost": false
+        },
+        {
+          "objects": [
+            "FrontCheekLeft",
+            "SideFrontSpineLeft"
+          ],
+          "before_gap_mm": 0.0,
+          "gap_mm": 0.0,
+          "contact_lost": false
+        },
+        {
+          "objects": [
+            "FrontCheekLeft",
+            "HoodShoulderPlateLeft"
+          ],
+          "before_gap_mm": 0.9177203065091493,
+          "gap_mm": 4.655120128076793,
+          "contact_lost": false
+        }
+      ]
+    },
+    {
+      "name": "FrontCheekRight",
+      "bridge_overlap_mm3": 3908.7138884880583,
+      "contacts": [
+        {
+          "objects": [
+            "FrontCheekRight",
+            "FrontCheekBridgeRight"
+          ],
+          "before_gap_mm": 0.0,
+          "gap_mm": 0.0,
+          "contact_lost": false
+        },
+        {
+          "objects": [
+            "FrontCheekRight",
+            "CheekUtilityLabelRight"
+          ],
+          "before_gap_mm": 8.095413210000004,
+          "gap_mm": 11.860077350000012,
+          "contact_lost": false
+        },
+        {
+          "objects": [
+            "FrontCheekRight",
+            "VentBackingRight"
+          ],
+          "before_gap_mm": 7.795413210000007,
+          "gap_mm": 11.560077350000014,
+          "contact_lost": false
+        },
+        {
+          "objects": [
+            "FrontCheekRight",
+            "CheekDialRight"
+          ],
+          "before_gap_mm": 7.795413210000007,
+          "gap_mm": 11.560077350000014,
+          "contact_lost": false
+        },
+        {
+          "objects": [
+            "FrontCheekRight",
+            "SideFrontSpineRight"
+          ],
+          "before_gap_mm": 0.0,
+          "gap_mm": 0.0,
+          "contact_lost": false
+        },
+        {
+          "objects": [
+            "FrontCheekRight",
+            "HoodShoulderPlateRight"
+          ],
+          "before_gap_mm": 0.9177203065516865,
+          "gap_mm": 4.6551201281189405,
+          "contact_lost": false
+        }
+      ]
+    }
+  ]
+}

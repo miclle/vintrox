@@ -1,5 +1,5 @@
 {
-  "revision": "v302-upper-rear-shoulder",
+  "revision": "v304-front-cheek-thickness",
   "front_cheek_x_scale": 0.995,
   "front_brow_x_scale": 0.985,
   "nozzle_petal_comparison_scale": 0.96,
@@ -168,7 +168,7 @@
     297.8988975305577,
     385.79434211138766
   ],
-  "fcstd_sha256": "94e35335cfab56f16acac7562f82757a02d87f2c88e1405a0c7c1a9932a804a8",
+  "fcstd_sha256": "cbd3841eb55228d5b2a5c6edfce1fc18eacd9775aa39ff966513b49d3e4f7695",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4360,7 +4360,7 @@
     }
   ],
   "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
-  "step_sha256": "e708bb38a1ee0371345f243eedd0be5fb73ec0ac153e57510ad45fa79c018ef9",
+  "step_sha256": "b8969b0ef6fe9cf0bc552ab1cf45743371c25e399fc6c6f27d79e3342966ecbf",
   "gold_wing_rear_inset_local_mm": 5,
   "gold_wing_rear_station_weights": {
     "17": 0.2,
@@ -4658,6 +4658,15 @@
         "RearArmourCheekRight"
       ],
       "transition_z_mm": 137
+    },
+    "front_cheek_thickness_v304": {
+      "baseline_fcstd_sha256": "94e35335cfab56f16acac7562f82757a02d87f2c88e1405a0c7c1a9932a804a8",
+      "changed_objects": [
+        "FrontCheekLeft",
+        "FrontCheekRight"
+      ],
+      "thickness_scale": 0.75,
+      "anchor": "inner X face of each cheek"
     }
   },
   "rear_belly_relief": {

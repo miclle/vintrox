@@ -1,9 +1,9 @@
 {
   "passed": true,
   "errors": [],
-  "revision": "v302-upper-rear-shoulder",
-  "fcstd_sha256": "94e35335cfab56f16acac7562f82757a02d87f2c88e1405a0c7c1a9932a804a8",
-  "step_sha256": "e708bb38a1ee0371345f243eedd0be5fb73ec0ac153e57510ad45fa79c018ef9",
+  "revision": "v304-front-cheek-thickness",
+  "fcstd_sha256": "cbd3841eb55228d5b2a5c6edfce1fc18eacd9775aa39ff966513b49d3e4f7695",
+  "step_sha256": "b8969b0ef6fe9cf0bc552ab1cf45743371c25e399fc6c6f27d79e3342966ecbf",
   "visible_features": 696,
   "step_solids": 853,
   "screen_panel_mm": [
@@ -37,7 +37,7 @@
   "comparisons": {
     "video": {
       "views": 10,
-      "mean_silhouette_iou": 0.8605962619593841
+      "mean_silhouette_iou": 0.8606442775821268
     },
     "stills": {
       "views": 7,
@@ -45,7 +45,7 @@
     },
     "sheet": {
       "views": 10,
-      "mean_silhouette_iou": 0.8983866273239887
+      "mean_silhouette_iou": 0.8983908166287469
     }
   },
   "physical_validation": false,
