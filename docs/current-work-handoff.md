@@ -84,6 +84,8 @@
 
 - v313 分别将屏框与压边横向、竖向每侧内收 1 mm。横向静态均值提高，两个方向的视频和拼图均值都下降，正式采用 v310。[保存几何和三组对照](../cad/drone-concept/comparison/v313-bezel-axis-screen/README.md)
 
+- v314 将天线半径试增到 1.65 mm。五个视频方位的上段宽度差缩小，视频与拼图均值升高，七张静态图均回退，正式采用 v310。[保存几何与逐视角证据](../cad/drone-concept/comparison/v314-antenna-radius/README.md)
+
 ## 续接
 
 1. 结合 `video-02`、`video-03`、`video-06` 和 `still-05` 核对喷口口环及叶片末缘。沿第 9、10 号叶片在静态近景中的外缘定位外溢截面，检查末段收窄能否同时保住两个侧后视频方位的轮廓收益。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口视频近景](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/v276-tip-crops.png) · [大喷口静态近景](../cad/drone-concept/comparison/v283-visible-petal-pairs/still-delta-crops.png)
