@@ -415,3 +415,5 @@ v286 筛查提手支臂相对于 v276 的内倾和外倾 1.5°。两档通过接
 采用 v287，将 v276 的左右前侧脸颊和桥板沿横向再收窄 1.5%。视频和拼图均值分别提高 0.013712、0.005379 个百分点，静态七图持平。保存读回、STEP、桥板接合及 FreeCAD 原生颜色均通过复核。[正式对照](../cad/drone-concept/comparison/v287-front-cheek-x0985/README.md)
 
 v288 筛查较 v287 再收窄 3% 的脸颊和桥板。视频均值下降，正式模型采用 v287。[三组固定相机对照](../cad/drone-concept/comparison/v288-front-cheek-x097/README.md)
+
+v289 将小喷口叶片轴向跨度增加 6%，同步复建封片。两个未参与原拟合的视角，端缘 RMS 从 7.38 降至 6.28 px，三组整机 IoU 均下降，正式模型采用 v287。[小喷口对照与接合](../cad/drone-concept/comparison/v289-small-pod-axial-extension/README.md)

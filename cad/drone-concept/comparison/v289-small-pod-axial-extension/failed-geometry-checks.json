@@ -1,0 +1,349 @@
+{
+  "axial-1.06": {
+    "fcstd_sha256": "3ed442d8273600e6acffde359ec5480d021156a74c46990861b6fd1da63f204d",
+    "advanced_geometry_failures": {},
+    "regressed_contacts": [
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_0",
+          "LowerPodRib_1_0"
+        ],
+        "baseline_gap_mm": 0.5566371980197965,
+        "gap_mm": 0.556894892639006,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_1",
+          "LowerPodRib_1_1"
+        ],
+        "baseline_gap_mm": 0.7722355686504857,
+        "gap_mm": 0.7725886836901413,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_2",
+          "LowerPodRib_1_2"
+        ],
+        "baseline_gap_mm": 0.9336894658429095,
+        "gap_mm": 0.9341057737031723,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_3",
+          "LowerPodRib_1_3"
+        ],
+        "baseline_gap_mm": 1.0131134892307831,
+        "gap_mm": 1.0135499706826103,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_4",
+          "LowerPodRib_1_4"
+        ],
+        "baseline_gap_mm": 0.9814645222342306,
+        "gap_mm": 0.9818697225066927,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_5",
+          "LowerPodRib_1_5"
+        ],
+        "baseline_gap_mm": 0.8385409796647978,
+        "gap_mm": 0.8388742782099055,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_6",
+          "LowerPodRib_1_6"
+        ],
+        "baseline_gap_mm": 0.6012277061141859,
+        "gap_mm": 0.6014589744026237,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_7",
+          "LowerPodRib_1_7"
+        ],
+        "baseline_gap_mm": 0.30268980924586436,
+        "gap_mm": 0.3028034604715374,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_9",
+          "LowerPodDiaphragm_1"
+        ],
+        "baseline_gap_mm": 0.0,
+        "gap_mm": 0.10661745082508392,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_10",
+          "LowerPodDiaphragm_1"
+        ],
+        "baseline_gap_mm": 0.13255166380832997,
+        "gap_mm": 0.3256257749207013,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_11",
+          "LowerPodDiaphragm_1"
+        ],
+        "baseline_gap_mm": 0.25994359950124407,
+        "gap_mm": 0.4542232186089843,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_12",
+          "LowerPodDiaphragm_1"
+        ],
+        "baseline_gap_mm": 0.24260135983452577,
+        "gap_mm": 0.43774277775164944,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_13",
+          "LowerPodDiaphragm_1"
+        ],
+        "baseline_gap_mm": 0.11542494699631412,
+        "gap_mm": 0.3104627295636376,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_14",
+          "LowerPodDiaphragm_1"
+        ],
+        "baseline_gap_mm": 7.105427357601002e-15,
+        "gap_mm": 0.12333548079017825,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_16",
+          "LowerPodRib_1_16"
+        ],
+        "baseline_gap_mm": 0.069930587467598,
+        "gap_mm": 0.06996233602237303,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_17",
+          "LowerPodRib_1_17"
+        ],
+        "baseline_gap_mm": 0.3147989819054022,
+        "gap_mm": 0.3149443544375617,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_002",
+          "LowerPodRib_1_002"
+        ],
+        "baseline_gap_mm": 0.2711949896585888,
+        "gap_mm": 0.2712966277752592,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_003",
+          "LowerPodRib_1_003"
+        ],
+        "baseline_gap_mm": 0.5734386402994072,
+        "gap_mm": 0.573658591073681,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_004",
+          "LowerPodRib_1_004"
+        ],
+        "baseline_gap_mm": 0.8186482249053988,
+        "gap_mm": 0.8189724555932907,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_005",
+          "LowerPodRib_1_005"
+        ],
+        "baseline_gap_mm": 0.9719848999983776,
+        "gap_mm": 0.9723846192982438,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_006",
+          "LowerPodRib_1_006"
+        ],
+        "baseline_gap_mm": 1.0156453014031883,
+        "gap_mm": 1.0160812339709342,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_007",
+          "LowerPodRib_1_007"
+        ],
+        "baseline_gap_mm": 0.9457461572637109,
+        "gap_mm": 0.9461665374358755,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_008",
+          "LowerPodRib_1_008"
+        ],
+        "baseline_gap_mm": 0.7912992156823133,
+        "gap_mm": 0.7916603270097318,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_009",
+          "LowerPodRib_1_009"
+        ],
+        "baseline_gap_mm": 0.5798109281162614,
+        "gap_mm": 0.5800791945675285,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_010",
+          "LowerPodRib_1_010"
+        ],
+        "baseline_gap_mm": 0.33945570622414,
+        "gap_mm": 0.3396126105861981,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodPetalRidge_1_011",
+          "LowerPodRib_1_011"
+        ],
+        "baseline_gap_mm": 0.09401102754658372,
+        "gap_mm": 0.09405380681478215,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_013",
+          "LowerPodDiaphragm_001"
+        ],
+        "baseline_gap_mm": 7.105427357601002e-15,
+        "gap_mm": 0.12333548079019237,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_014",
+          "LowerPodDiaphragm_001"
+        ],
+        "baseline_gap_mm": 0.11542494699631556,
+        "gap_mm": 0.31046272956363824,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_015",
+          "LowerPodDiaphragm_001"
+        ],
+        "baseline_gap_mm": 0.24260135983452175,
+        "gap_mm": 0.43774277775165393,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_016",
+          "LowerPodDiaphragm_001"
+        ],
+        "baseline_gap_mm": 0.25994359950123946,
+        "gap_mm": 0.454223218608988,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_017",
+          "LowerPodDiaphragm_001"
+        ],
+        "baseline_gap_mm": 0.1325516638083352,
+        "gap_mm": 0.32562577492069517,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_018",
+          "LowerPodDiaphragm_001"
+        ],
+        "baseline_gap_mm": 0.0,
+        "gap_mm": 0.10661745082507548,
+        "regressed": true
+      }
+    ]
+  },
+  "axial-1.06-band": {
+    "fcstd_sha256": "1ee2d883e84f26d96fa3522966b2f476271f8153a349fc7fb9aad8dd5a67d60b",
+    "advanced_geometry_failures": {
+      "LowerPodDiaphragm_1": [
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ],
+      "LowerPodDiaphragm_001": [
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ]
+    },
+    "regressed_contacts": [
+      {
+        "objects": [
+          "LowerPodRib_1_11",
+          "LowerPodDiaphragm_1"
+        ],
+        "baseline_gap_mm": 0.25994359950124407,
+        "gap_mm": 0.2611408875509475,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_12",
+          "LowerPodDiaphragm_1"
+        ],
+        "baseline_gap_mm": 0.24260135983452577,
+        "gap_mm": 0.2437290827841382,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_015",
+          "LowerPodDiaphragm_001"
+        ],
+        "baseline_gap_mm": 0.24260135983452175,
+        "gap_mm": 0.2437290827841467,
+        "regressed": true
+      },
+      {
+        "objects": [
+          "LowerPodRib_1_016",
+          "LowerPodDiaphragm_001"
+        ],
+        "baseline_gap_mm": 0.25994359950123946,
+        "gap_mm": 0.2611408875509427,
+        "regressed": true
+      }
+    ]
+  }
+}

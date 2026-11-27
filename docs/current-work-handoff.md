@@ -46,6 +46,7 @@
 - v286 在 v276 上对提手支臂试验内倾和外倾 1.5°。两档通过 14 项接合检查，三组平均 IoU 均低于 v276。[提手倾角筛查](../cad/drone-concept/comparison/v286-handle-tilt-screen/README.md)
 - v287 将 v276 的前侧脸颊和桥板沿横向再收窄 1.5%。正面 `video-09` 提高 0.13391 个百分点，三组均值中视频和拼图提高、静态持平，采用为正式版。[正式对照与复建](../cad/drone-concept/comparison/v287-front-cheek-x0985/README.md)
 - v288 将 v287 的前侧脸颊和桥板再收窄 3%。视频均值下降 0.004814 个百分点，拼图均值提高 0.001838 个百分点，正式采用 v287。[三组对照](../cad/drone-concept/comparison/v288-front-cheek-x097/README.md)
+- v289 小喷口叶片轴向延长 6% 后，两个未参与原拟合的视角端缘 RMS 降至 6.28 px，整机三组 IoU 均下降，正式采用 v287。[保存几何和三组对照](../cad/drone-concept/comparison/v289-small-pod-axial-extension/README.md)
 
 ## 续接
 
