@@ -385,3 +385,5 @@ v270 与 v271 分别内移前罩肩部 4 mm 和 2 mm。静态七图均值提高�
 v272 单独内移弧面内罩和白纹，静态第 05 图的主要前罩外溢转移至前罩主体。v273 内移甲片、滑槽内衬和螺钉，视频和拼图均值下降。正式采用 v259。[分件对照与接合记录](../cad/drone-concept/comparison/v272-v273-front-shoulder-parts/README.md)
 
 v274 将前罩主体和内衬横向收至 0.985 倍，视频十方位平均 IoU 下降 0.028486 个百分点，正式采用 v259。[v274 筛选](../cad/drone-concept/comparison/v274-brow-x0985/README.md)
+
+v275 在 v272 上局部切削前罩主体上缘，六组邻件接合距离仍为零，静态第 05 图的轮廓 IoU 与 v272 一致，视频和拼图均值略降。正式采用 v259。[三组对照](../cad/drone-concept/comparison/v275-brow-upper-edge/README.md)

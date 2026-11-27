@@ -1,0 +1,64 @@
+{
+  "base_fcstd_sha256": "4706b2ec400703a987045b7a339e175d2a04cfd90ffbf901c16a4b515bd8803b",
+  "fcstd_sha256": "402b8af9d514306df09c9cc5dc40bef226418cbf69241b3643b1ca9c83577151",
+  "valid": true,
+  "closed": true,
+  "solid_count": 1,
+  "removed_mm3": 2752.899074480956,
+  "before_errors": [
+    "Error in Edge: BOPAlgo GeomAbs_C0",
+    "Error in Face: BOPAlgo GeomAbs_C0",
+    "Error in Face: BOPAlgo GeomAbs_C0",
+    "Error in Face: BOPAlgo GeomAbs_C0"
+  ],
+  "after_errors": [
+    "Error in Edge: BOPAlgo GeomAbs_C0",
+    "Error in Face: BOPAlgo GeomAbs_C0",
+    "Error in Face: BOPAlgo GeomAbs_C0",
+    "Error in Face: BOPAlgo GeomAbs_C0"
+  ],
+  "contacts": [
+    {
+      "object": "HoodShoulderCrownLeft",
+      "before_gap_mm": 0.0,
+      "after_gap_mm": 0.0,
+      "before_overlap_mm3": 6551.79675479361,
+      "after_overlap_mm3": 5577.536383900664
+    },
+    {
+      "object": "HoodShoulderCrownRight",
+      "before_gap_mm": 0.0,
+      "after_gap_mm": 0.0,
+      "before_overlap_mm3": 6551.825616278336,
+      "after_overlap_mm3": 5577.552511548478
+    },
+    {
+      "object": "HoodShoulderPlateLeft",
+      "before_gap_mm": 0.0,
+      "after_gap_mm": 0.0,
+      "before_overlap_mm3": 5447.848425877561,
+      "after_overlap_mm3": 5442.311250915269
+    },
+    {
+      "object": "HoodShoulderPlateRight",
+      "before_gap_mm": 0.0,
+      "after_gap_mm": 0.0,
+      "before_overlap_mm3": 5447.850165829692,
+      "after_overlap_mm3": 5442.292222111942
+    },
+    {
+      "object": "BrowUnderside",
+      "before_gap_mm": 0.0,
+      "after_gap_mm": 0.0,
+      "before_overlap_mm3": 16805.006183529786,
+      "after_overlap_mm3": 16805.006183529786
+    },
+    {
+      "object": "HoodEdge",
+      "before_gap_mm": 0.0,
+      "after_gap_mm": 0.0,
+      "before_overlap_mm3": 36.39056887780537,
+      "after_overlap_mm3": 36.39056887568176
+    }
+  ]
+}
