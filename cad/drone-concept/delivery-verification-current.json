@@ -1,9 +1,9 @@
 {
   "passed": true,
   "errors": [],
-  "revision": "v315-antenna-multiview",
-  "fcstd_sha256": "be041c71d0190ffaf7cc275b1747405977c2529bd67025fe36224304852f31eb",
-  "step_sha256": "a7f91c1ba1279b14079d9afee187d41e381c1412d8f9fcafa39acfda3e5090ef",
+  "revision": "v329-five-view-exit-ring",
+  "fcstd_sha256": "80bc4e79909333999eb85aedde9c097437587673d03c7d0bca2009ab9ed1e92f",
+  "step_sha256": "0a0d2507907b1966785507e4d718a9cd8839b322edbd4c42edd280b29ddfe9dc",
   "visible_features": 696,
   "step_solids": 853,
   "screen_panel_mm": [
@@ -37,15 +37,15 @@
   "comparisons": {
     "video": {
       "views": 10,
-      "mean_silhouette_iou": 0.8620458988433513
+      "mean_silhouette_iou": 0.8601487577724457
     },
     "stills": {
       "views": 7,
-      "mean_silhouette_iou": 0.8268771416641086
+      "mean_silhouette_iou": 0.8261125520102287
     },
     "sheet": {
       "views": 10,
-      "mean_silhouette_iou": 0.8995823431479039
+      "mean_silhouette_iou": 0.8987747185246565
     }
   },
   "physical_validation": false,

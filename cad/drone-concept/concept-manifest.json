@@ -1,5 +1,5 @@
 {
-  "revision": "v315-antenna-multiview",
+  "revision": "v329-five-view-exit-ring",
   "front_cheek_x_scale": 0.995,
   "front_brow_x_scale": 0.985,
   "nozzle_petal_comparison_scale": 0.96,
@@ -168,7 +168,7 @@
     316.22196846545813,
     396.3425161547856
   ],
-  "fcstd_sha256": "be041c71d0190ffaf7cc275b1747405977c2529bd67025fe36224304852f31eb",
+  "fcstd_sha256": "80bc4e79909333999eb85aedde9c097437587673d03c7d0bca2009ab9ed1e92f",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4360,7 +4360,7 @@
     }
   ],
   "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
-  "step_sha256": "a7f91c1ba1279b14079d9afee187d41e381c1412d8f9fcafa39acfda3e5090ef",
+  "step_sha256": "0a0d2507907b1966785507e4d718a9cd8839b322edbd4c42edd280b29ddfe9dc",
   "gold_wing_rear_inset_local_mm": 5,
   "gold_wing_rear_station_weights": {
     "17": 0.2,
@@ -4828,6 +4828,99 @@
           395
         ]
       ]
+    },
+    "nozzle_exit_ring_v329": {
+      "base_fcstd_sha256": "be041c71d0190ffaf7cc275b1747405977c2529bd67025fe36224304852f31eb",
+      "changed_objects": [
+        "NozzlePetal0",
+        "NozzlePetalInset0",
+        "NozzlePetalEdgeRail0_1",
+        "NozzlePetalEdgeRail0_20",
+        "NozzlePetalEndHem0",
+        "NozzlePetalRidge0",
+        "NozzlePetal1",
+        "NozzlePetalInset1",
+        "NozzlePetalEdgeRail1_24",
+        "NozzlePetalEdgeRail1_43",
+        "NozzlePetalEndHem1",
+        "NozzlePetalRidge1",
+        "NozzlePetal2",
+        "NozzlePetalInset2",
+        "NozzlePetalEdgeRail2_46",
+        "NozzlePetalEdgeRail2_65",
+        "NozzlePetalEndHem2",
+        "NozzlePetalRidge2",
+        "NozzlePetal3",
+        "NozzlePetalInset3",
+        "NozzlePetalEdgeRail3_69",
+        "NozzlePetalEdgeRail3_88",
+        "NozzlePetalEndHem3",
+        "NozzlePetalRidge3",
+        "NozzlePetal4",
+        "NozzlePetalInset4",
+        "NozzlePetalEdgeRail4_91",
+        "NozzlePetalEdgeRail4_110",
+        "NozzlePetalEndHem4",
+        "NozzlePetalRidge4",
+        "NozzlePetal5",
+        "NozzlePetalInset5",
+        "NozzlePetalEdgeRail5_114",
+        "NozzlePetalEdgeRail5_133",
+        "NozzlePetalEndHem5",
+        "NozzlePetalRidge5",
+        "NozzlePetal6",
+        "NozzlePetalInset6",
+        "NozzlePetalEdgeRail6_136",
+        "NozzlePetalEdgeRail6_155",
+        "NozzlePetalEndHem6",
+        "NozzlePetalRidge6",
+        "NozzlePetal7",
+        "NozzlePetalInset7",
+        "NozzlePetalEdgeRail7_159",
+        "NozzlePetalEdgeRail7_178",
+        "NozzlePetalEndHem7",
+        "NozzlePetalRidge7",
+        "NozzlePetal8",
+        "NozzlePetalInset8",
+        "NozzlePetalEdgeRail8_181",
+        "NozzlePetalEdgeRail8_200",
+        "NozzlePetalEndHem8",
+        "NozzlePetalRidge8",
+        "NozzlePetal9",
+        "NozzlePetalInset9",
+        "NozzlePetalEdgeRail9_204",
+        "NozzlePetalEdgeRail9_223",
+        "NozzlePetalEndHem9",
+        "NozzlePetalRidge9",
+        "NozzlePetal10",
+        "NozzlePetalInset10",
+        "NozzlePetalEdgeRail10_226",
+        "NozzlePetalEdgeRail10_245",
+        "NozzlePetalEndHem10",
+        "NozzlePetalRidge10",
+        "NozzlePetal11",
+        "NozzlePetalInset11",
+        "NozzlePetalEdgeRail11_249",
+        "NozzlePetalEdgeRail11_268",
+        "NozzlePetalEndHem11",
+        "NozzlePetalRidge11"
+      ],
+      "fit_parameters": {
+        "parameter_names": [
+          "center_y_mm",
+          "center_z_mm",
+          "radius_mm",
+          "axis_angle_from_down_deg"
+        ],
+        "parameters": [
+          244.11221451761065,
+          65.91059323177183,
+          38.97500907239486,
+          31.533015054047205
+        ]
+      },
+      "station_mm": 99,
+      "ring_fraction": 1
     }
   },
   "rear_belly_relief": {
