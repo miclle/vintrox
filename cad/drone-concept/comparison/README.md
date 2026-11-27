@@ -1,5 +1,7 @@
 # Drone 参考比较证据
 
+v343 尝试在 v341 上叠加 v324 第 8 号喷口叶片末段 6 件 BRep，视频和拼图升至 86.2357% 与 89.9814%，静态降至 82.7085%，因此筛除。详见 [v343 筛选候选](v343-petal8-combination-screened/README.md)。
+
 v342 尝试在 v341 上叠加 v310 右翼折面 BRep，视频、静态和拼图分别降至 86.2096%、82.6612% 和 89.9195%，三组均退步，已否决。详见 [v342 否决候选](v342-antenna-combination-rejected/README.md)。
 
 v341 在 v340 基础上合并 v321 的外挂筒下段卷线 BRep。视频、静态和拼图 IoU 分别为 86.2294%、82.7098% 和 89.9722%，三组均有小幅改善，但仍未达到 90%。详见 [v341 组合候选](v341-small-pod-cable-combination/README.md)。

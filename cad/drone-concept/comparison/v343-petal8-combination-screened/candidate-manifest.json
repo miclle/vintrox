@@ -1,0 +1,16 @@
+{
+  "revision": "v343-petal8-combination-screened",
+  "method": "v341 with six v324 NozzlePetal8 detail BReps",
+  "fcstd_sha256": "fb4db22b2c484deb4f38a7342379d617b5b588eabd826600fa09b66f74b00dc9",
+  "step_sha256": "71ce002ccf79c38f719852965715197b8e832bd59a7a0dfa9926bcffabd3a57a",
+  "visual_metrics": {
+    "video-comparison": 0.8623566773391633,
+    "stills-comparison": 0.8270847985422394,
+    "sheet-comparison": 0.8998138668269554
+  },
+  "visible_features": 696,
+  "step_solids": 853,
+  "step_volume_relative_error": 5.394904487585669e-07,
+  "decision": "screened out because static seven-view IoU regresses versus v341",
+  "registration": "camera projection only; no image warp, stretch, per-part alignment or omitted visible parts"
+}
