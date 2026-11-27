@@ -1,9 +1,9 @@
 {
   "passed": true,
   "errors": [],
-  "revision": "v306-wing-pose",
-  "fcstd_sha256": "a4184749e09e60d2620f84e857b3b73853c173b7e98b5d48e78d3791e02c861d",
-  "step_sha256": "e731b65bcc3f5123112fdc75aaaa6f5dbceb6ed4b03825792c2cbacb62ee9e28",
+  "revision": "v310-right-wing-fold",
+  "fcstd_sha256": "92d27fc7d9b33ab40c30d237a30c456d3e8054660a97013603ef8b7b79af933b",
+  "step_sha256": "2a8dc1e6662cf40f768a5024b834d49f4eddcfc6e09be83e282de20a48bc3e83",
   "visible_features": 696,
   "step_solids": 853,
   "screen_panel_mm": [
@@ -37,15 +37,15 @@
   "comparisons": {
     "video": {
       "views": 10,
-      "mean_silhouette_iou": 0.8618104418626193
+      "mean_silhouette_iou": 0.8618476156216441
     },
     "stills": {
       "views": 7,
-      "mean_silhouette_iou": 0.8263837112714663
+      "mean_silhouette_iou": 0.82639128415158
     },
     "sheet": {
       "views": 10,
-      "mean_silhouette_iou": 0.8990226539622113
+      "mean_silhouette_iou": 0.899054957915151
     }
   },
   "physical_validation": false,

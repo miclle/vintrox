@@ -172,7 +172,7 @@
   "non_volumetric_components": [],
   "armour_relief_depths_mm": {
     "WingPaintLeft": 11.160303502803686,
-    "WingPaintRight": 10.369498448335435,
+    "WingPaintRight": 10.369498448339982,
     "WingSpineLeft": 8.938936766995525,
     "WingSpineRight": 8.93893676700553,
     "HoodShoulderPlateLeft": 43.698549925199984,
@@ -352,9 +352,9 @@
       "mark_paint_gap_mm": 1.990534462367251e-12
     },
     "Right": {
-      "paint_raised_overlap_mm3": 7613.402716572654,
+      "paint_raised_overlap_mm3": 7613.402716279258,
       "raised_blade_gap_mm": 0.0,
-      "fold_blade_overlap_mm3": 2302.658569585225,
+      "fold_blade_overlap_mm3": 2401.042582109478,
       "inner_blade_gap_mm": 0.0,
       "mark_paint_gap_mm": 0.0
     }
@@ -520,7 +520,7 @@
       ]
     },
     "Right": {
-      "hub_wing_overlap_mm3": 1537.4973173171654,
+      "hub_wing_overlap_mm3": 1537.4971444514433,
       "hub_cone_overlap_mm3": 69.35002562259073,
       "hub_paint_overlap_mm3": 0.0,
       "seal_body_overlap_mm3": 4639.235803730461,
@@ -538,7 +538,7 @@
       ]
     }
   },
-  "step_relative_volume_error": 6.003483083725638e-07,
+  "step_relative_volume_error": 5.37069360682517e-07,
   "step_volume_basis": "sum of individually integrated solid volumes",
   "step_bbox_max_delta_mm": 5.8903992794512305e-12,
   "bbox_mm": [
@@ -546,6 +546,6 @@
     360.58442207898185,
     485.79434211138766
   ],
-  "fcstd_sha256": "a4184749e09e60d2620f84e857b3b73853c173b7e98b5d48e78d3791e02c861d",
-  "step_sha256": "e731b65bcc3f5123112fdc75aaaa6f5dbceb6ed4b03825792c2cbacb62ee9e28"
+  "fcstd_sha256": "92d27fc7d9b33ab40c30d237a30c456d3e8054660a97013603ef8b7b79af933b",
+  "step_sha256": "2a8dc1e6662cf40f768a5024b834d49f4eddcfc6e09be83e282de20a48bc3e83"
 }

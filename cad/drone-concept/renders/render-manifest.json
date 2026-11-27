@@ -4,7 +4,7 @@
   "renderer_script_sha256": "bf79f2d4a1ea54a97efcd8e4f1f23221bf8434c9eda69a67e3fbf6642c59db4b",
   "compute_device": "METAL",
   "mesh_validation_repairs": [],
-  "fcstd_sha256": "a4184749e09e60d2620f84e857b3b73853c173b7e98b5d48e78d3791e02c861d",
+  "fcstd_sha256": "92d27fc7d9b33ab40c30d237a30c456d3e8054660a97013603ef8b7b79af933b",
   "cad_geometry_features": 696,
   "render_only": [
     "studio lighting",
@@ -14,59 +14,59 @@
   "physical_validation": false,
   "images": [
     {
-      "view": "closeup",
-      "path": "closeup.png",
-      "sha256": "6c1fb7472827aa512f202e16c3c7faa0005b0bab2be613620ee39c01be616c52"
-    },
-    {
       "view": "hero",
       "path": "hero.png",
-      "sha256": "dad12188fe7eae1946f2d1b56e36b2c2ce166d8a9c1a7d48b8a24b16a655bb2d"
+      "sha256": "30d88fba3a67bf93b8d7336f6f4670455e5c2b444c876341bc9330815f9b0e86"
     },
     {
       "view": "rear",
       "path": "rear.png",
-      "sha256": "db10fbe7061ab72a010634ef38d32909bc749718ca1057cb1963fcb8c6c07d80"
+      "sha256": "6939a34b3bdedcd623e5b628eb73ab8be2c5753a10aa0e70855bf0199256d62c"
     },
     {
       "view": "front",
       "path": "front.png",
-      "sha256": "9e4b88a638ab9effb75db1e4aad6d678217c8d77abb3729858db2c02c60cfe01"
+      "sha256": "fe0327ea1db39e868f4bc683a6f2ec2c12ed42d164d995fff91a02c5ffe9afb6"
     },
     {
       "view": "right",
       "path": "right.png",
-      "sha256": "ed41c359af86b68bf7785434954faa3ceea98cc0e1bbb0f07f4a1c9973bba1f8"
+      "sha256": "49b3b1f349ff3755c0b5f0a16caf4fa3480c105c29f5188b791857df20c851a2"
+    },
+    {
+      "view": "closeup",
+      "path": "closeup.png",
+      "sha256": "c4daddc71397167ebc70121cfc3ac2cf0c92c7fdaedf4efea80611d2a901321a"
     },
     {
       "view": "armour-detail",
       "path": "armour-detail.png",
-      "sha256": "c77a290b0ac06941d6b5263ebc16f696d906eccbcdc909069ddf7af8fde612fd"
+      "sha256": "959cd3f91f744093db9116a56b32de9943cfd94e369cb6e2695753782c73698c"
     },
     {
       "view": "nozzle-detail",
       "path": "nozzle-detail.png",
-      "sha256": "18f86fa746039b908365b3cf2a7fa425f8b7068f6d1294b14f9fa31758ab1037"
+      "sha256": "5494468776814b8fd16968a0e70a6c839add6c87a65c227f7d632ad0a6584496"
     },
     {
       "view": "top",
       "path": "top.png",
-      "sha256": "bd0d9760d7fe83fc8a22f0fdd7501359bd12c1ae96e5e8059aac7f7d713ebd8b"
+      "sha256": "1deac50420152e352c4117b6990fd1248cca82258ed66f7a2782898fe489f392"
     },
     {
       "view": "underside",
       "path": "underside.png",
-      "sha256": "11fcfc450471053fb9963b015cc7bff249a49835bd828ad9108ba1273cc056c5"
+      "sha256": "4f26ac59dfc24483b73ab854130ebd96bfd4e2ac106934617a3609bf2c5a92ce"
     }
   ],
   "turntable": {
     "path": "turntable.mp4",
-    "sha256": "58a49114c0e7523743dc1b771575d50b760498e4db15a477253106f596ac8569",
+    "sha256": "e9095e386ab7de5488386948035b5c570d0737a6b66ecd402ea1e271bf785f9b",
     "duration_seconds": 12,
     "unique_angles": 96
   },
   "review_board": {
     "path": "orbit-board.png",
-    "sha256": "37bd111dd11b62649f80e07c3e5433efeecf3bee64c20430ae71fe2e194547ac"
+    "sha256": "06a12ea85f264aacbf3a299de0e02ab962454cdd4eb931722d71f6067dc5b51d"
   }
 }

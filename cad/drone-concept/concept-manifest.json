@@ -1,5 +1,5 @@
 {
-  "revision": "v306-wing-pose",
+  "revision": "v310-right-wing-fold",
   "front_cheek_x_scale": 0.995,
   "front_brow_x_scale": 0.985,
   "nozzle_petal_comparison_scale": 0.96,
@@ -168,7 +168,7 @@
     297.8988975305577,
     385.79434211138766
   ],
-  "fcstd_sha256": "a4184749e09e60d2620f84e857b3b73853c173b7e98b5d48e78d3791e02c861d",
+  "fcstd_sha256": "92d27fc7d9b33ab40c30d237a30c456d3e8054660a97013603ef8b7b79af933b",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4360,7 +4360,7 @@
     }
   ],
   "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
-  "step_sha256": "e731b65bcc3f5123112fdc75aaaa6f5dbceb6ed4b03825792c2cbacb62ee9e28",
+  "step_sha256": "2a8dc1e6662cf40f768a5024b834d49f4eddcfc6e09be83e282de20a48bc3e83",
   "gold_wing_rear_inset_local_mm": 5,
   "gold_wing_rear_station_weights": {
     "17": 0.2,
@@ -4694,6 +4694,21 @@
         -0.1401062831291276,
         0.4704694486496271
       ]
+    },
+    "right_wing_fold_v310": {
+      "baseline_fcstd_sha256": "a4184749e09e60d2620f84e857b3b73853c173b7e98b5d48e78d3791e02c861d",
+      "changed_objects": [
+        "WingEdgeRight",
+        "WingFoldFacetRight",
+        "WingInnerPaintRight",
+        "WingPaintRight",
+        "WingRaisedFaceRight"
+      ],
+      "local_y_offsets_added_mm": {
+        "14": 2.8,
+        "15": 3.8,
+        "16": 1.0
+      }
     }
   },
   "rear_belly_relief": {

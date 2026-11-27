@@ -2,7 +2,7 @@
 
 2026-10-26，v61 完成喷口外罩中段减薄修订。该阶段建立逐图透视相机、视频十方位、真实 CAD 渲染、50% 叠加和差异图流程。相机假设与历史修订见[叠加记录](drone-overlay-comparison.md)、[逐图记录](drone-reference-review.md)及[v61 视频叠加板](../cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-board.png)。
 
-当前外观入口为 v306。在 v304 前护壳基础上，绕两侧各自轮毂中心微调翼板总成姿态。视频十方位、静态七图和拼图十格的平均轮廓 IoU 分别为 86.1810%、82.6384% 和 89.9023%。实测平面屏、外挂筒、屏幕侧控件、格栅和四根支柱均保留。视频整圈 90% 与主要部件轮廓偏差 5% 的目标仍待达成。[固定相机对照](../cad/drone-concept/comparison/v306-wing-pose/README.md)
+当前外观入口为 v310。在 v306 翼板姿态基础上，调整右翼折面外缘的三处站位。视频十方位、静态七图和拼图十格的平均轮廓 IoU 分别为 86.1848%、82.6391% 和 89.9055%。实测平面屏、外挂筒、屏幕侧控件、格栅和四根支柱均保留。视频整圈 90% 与主要部件轮廓偏差 5% 的目标仍待达成。[固定相机对照](../cad/drone-concept/comparison/v310-right-wing-fold/README.md)
 
 在 v259 之后的 v260–v263 局部筛选中，黄翼轮廓重放及大喷口整体、镜像叶片收窄均未达到超过噪声量级的三组共同收益，正式入口继续保持 v259。对象级视频诊断的主要外溢来源为 `NozzlePetal`、`LowerPodRib`、`BrowUnderside` 和 `ScreenBezel`，静态 `still-05` 主要集中在 `ClosedBellyPan`、`ControlRail`、`BottomChassis` 与 `BassVisualCone`。[筛选记录](../cad/drone-concept/comparison/v260-gold-wing-v259-screening/README.md) · [喷口筛选](../cad/drone-concept/comparison/v261-nozzle-contract-screening/README.md) · [镜像叶片筛选](../cad/drone-concept/comparison/v263-mirrored-petal-screening/README.md)
 
@@ -17,7 +17,7 @@ v268 对底盘 Y 向微调进行筛选，三组收益处于噪声量级，正式
 
 同日基于 v229 筛选 `ClosedBellyPan` 外沿高度。中央 60 mm 保留带、屏幕、外挂筒、侧控件、格栅和四根支柱保持。v235 取 50.5 mm，视频十方位平均 IoU 为 85.9131649%；v236 取 52.5 mm，为 85.9144715%；两者均低于 v229，正式模型保持不变。[底壳高度筛选记录](../cad/drone-concept/comparison/belly-floor-v229-screening/README.md)
 
-九张展示图、八方位板和 12 秒、96 个不同角度的转台均来自保存 v306 的网格。FreeCAD 原生四视图的颜色和可见性通过复查。屏幕本体采用实测平面尺寸，曲面罩属于外观假设。[渲染清单](../cad/drone-concept/renders/render-manifest.json) · [原生显示](../cad/drone-concept/comparison/v306-wing-pose/native-display/native-display-verification.json)
+九张展示图、八方位板和 12 秒、96 个不同角度的转台均来自保存 v310 的网格。FreeCAD 原生四视图的颜色和可见性通过复查。屏幕本体采用实测平面尺寸，曲面罩属于外观假设。[渲染清单](../cad/drone-concept/renders/render-manifest.json) · [原生显示](../cad/drone-concept/comparison/v310-right-wing-fold/native-display/native-display-verification.json)
 
 2026-11-26 重新生成 v193 的保存 CAD 对象 ID 后，still-05 的固定相机局部诊断显示填洞参考轮廓之外有 56,398 像素，主要落在 `ClosedBellyPan`、`ControlRail`、`BassVisualCone`、`HoodShoulderCrownLeft`、`BottomChassis` 和 `WingFoldFacetLeft`。这组结果来自保存 FCStd 的真实三角网格和对象遮挡，未做非刚性图像变形、逐件配准或零件省略。它只用于决定下一轮局部几何检查，主 IoU 仍为 78.4412%（still-05），整圈目标仍未达成。[still-05 报告](../cad/drone-concept/comparison/v193-lowerpod-rib-rails-bezel/stills-comparison/still-05-boundary-regions.json)
 
