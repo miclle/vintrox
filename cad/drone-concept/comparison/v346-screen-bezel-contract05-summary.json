@@ -1,0 +1,39 @@
+{
+  "revision": "v346-screen-bezel-contract05-cable",
+  "status": "screened and rejected",
+  "baseline_revision": "v345-small-pod-y-minus1p0-cable",
+  "baseline_fcstd_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+  "candidate_fcstd_sha256": "48ad504f7beca15abd0883f28e2cbf979f639fdd4eba5c00949851892a92d05b",
+  "candidate_step_sha256": "6230f1f78bc4da8d6992edaae40a914d585f619c35adc38f0a000c7445977568",
+  "changed_objects": [
+    "BezelLip",
+    "ScreenBezel"
+  ],
+  "expansion_per_side_mm": -0.5,
+  "visual_metrics": {
+    "video-comparison": {
+      "mean_silhouette_iou": 0.86225578137749,
+      "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "comparison_report_sha256": "0dcf1597e9acc114d8a726f47a01dfe1715a54f699ee71b60abf13a72258a02b"
+    },
+    "stills-comparison": {
+      "mean_silhouette_iou": 0.827299900331986,
+      "camera_config_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+      "comparison_report_sha256": "9d5b6116d46045844f726f0a3454fc116e38f6639de5dd3cde7d5a252f39ee2e"
+    },
+    "sheet-comparison": {
+      "mean_silhouette_iou": 0.8996563529774786,
+      "camera_config_sha256": "fcaae951889ac59207fc04bbae5443623c50557ac082654668189a279f8c57cf",
+      "comparison_report_sha256": "ec59e69231f2743f3b56c83ec2e018037eb9c7f9593642f348712b068cfa91e5"
+    }
+  },
+  "decision": "reject because video and contact-sheet means regress versus v345 despite a static-view increase",
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+  "geometry_gate": "ScreenBezel and BezelLip were valid closed single solids, with 696 preserved shapes",
+  "cleanup": "candidate CAD, STEP, meshes and rendered PNGs removed after distillation",
+  "limitations": [
+    "90% whole-orbit target not reached",
+    "major-part 5% projection-screen-width target not established",
+    "flat screen retained; curved cover remains an appearance assumption"
+  ]
+}
