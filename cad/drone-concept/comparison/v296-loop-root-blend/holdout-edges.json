@@ -1,0 +1,197 @@
+{
+  "fcstd_sha256": "cdc87458d6b23e27e7fba031025a15ec0cdccaa7a301c3b4d8e90b9a852d78f1",
+  "fit_sha256": "fb5f4d70c02b455da6f2606ffe54b304b55061758472aed17e3cb3069d58fd99",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "script_sha256": "d01135e55abdfcddb06893ef614fc7263bec501855afb126d0f5e2dbc12440ee",
+  "views": [
+    {
+      "source_frame": 150,
+      "side": 1,
+      "reference_px": [
+        [
+          307,
+          685
+        ],
+        [
+          320,
+          705
+        ],
+        [
+          340,
+          720
+        ],
+        [
+          360,
+          727
+        ],
+        [
+          380,
+          726
+        ],
+        [
+          395,
+          715
+        ],
+        [
+          401,
+          701
+        ],
+        [
+          401,
+          686
+        ],
+        [
+          397,
+          669
+        ]
+      ],
+      "projected_screen_horizontal_span_px": 321.59017880195296,
+      "measurements": [
+        {
+          "model": "baseline",
+          "fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
+          "id_manifest_sha256": "e07647dbbb74ee791a931691329b28de59fd93db49b4c71223f1be520695a475",
+          "rms_px": 13.063945294843617,
+          "max_px": 19.1049731745428,
+          "distance_px": [
+            19.1049731745428,
+            12.36931687685298,
+            3.605551275463989,
+            6.0,
+            9.219544457292887,
+            14.7648230602334,
+            17.0,
+            16.0,
+            11.0
+          ],
+          "max_fraction_projected_screen_width": 0.05940782534378434,
+          "visible_object_at_observation": [
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              326,
+              683
+            ],
+            [
+              332,
+              702
+            ],
+            [
+              342,
+              717
+            ],
+            [
+              360,
+              721
+            ],
+            [
+              374,
+              719
+            ],
+            [
+              382,
+              708
+            ],
+            [
+              384,
+              701
+            ],
+            [
+              385,
+              686
+            ],
+            [
+              386,
+              669
+            ]
+          ]
+        },
+        {
+          "model": "candidate",
+          "fcstd_sha256": "cdc87458d6b23e27e7fba031025a15ec0cdccaa7a301c3b4d8e90b9a852d78f1",
+          "id_manifest_sha256": "2e4c485bd5321caf1f82d17536c9e781f46cca62f6fdb358b21b1331554c7492",
+          "rms_px": 15.22789837400056,
+          "max_px": 23.08679276123039,
+          "distance_px": [
+            17.46424919657298,
+            9.848857801796104,
+            2.23606797749979,
+            4.0,
+            6.4031242374328485,
+            17.0,
+            23.0,
+            23.08679276123039,
+            16.492422502470642
+          ],
+          "max_fraction_projected_screen_width": 0.07178948327103013,
+          "visible_object_at_observation": [
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              324,
+              681
+            ],
+            [
+              329,
+              701
+            ],
+            [
+              341,
+              718
+            ],
+            [
+              360,
+              723
+            ],
+            [
+              376,
+              721
+            ],
+            [
+              378,
+              715
+            ],
+            [
+              378,
+              701
+            ],
+            [
+              378,
+              684
+            ],
+            [
+              381,
+              665
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "method": "nearest observed pixels to per-loop opaque visible mask boundary; fixed cameras",
+  "limitations": [
+    "manual uncertain dark-material edge observations, same data as fitting",
+    "opaque ID boundaries include occlusion edges and hidden-root boundaries",
+    "observation-to-CAD distances only; no complete contour or held-out acceptance",
+    "mask attribution is approximate at antialiasing and transparency",
+    "original whole-model IoU and segmentation remain unchanged"
+  ]
+}
