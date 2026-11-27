@@ -49,7 +49,7 @@
 - v289 小喷口叶片轴向延长 6% 后，两个未参与原拟合的视角端缘 RMS 降至 6.28 px，整机三组 IoU 均下降，正式采用 v287。[保存几何和三组对照](../cad/drone-concept/comparison/v289-small-pod-axial-extension/README.md)
 - v289 接合复核已改用同侧和局部扇区配对，延长档的 216 项距离检查全部通过。缩短 6% 时，20 对叶片与口环的原有间隙增大。[更正后的接合检查](../cad/drone-concept/comparison/v289-small-pod-axial-extension/README.md)
 - v290 以口环站位为基准缩短叶片 6%，通过 216 项距离检查，三组整机均值均提高。原拟合外两视角的端缘 RMS 由 7.38 升至 8.30 px，正式版采用 v287。[整机与端缘对照](../cad/drone-concept/comparison/v290-small-pod-axial-contraction/README.md)
-- v291 将小喷口外罩和口环延长 0.25 mm，三组整机均值略降，正式版采用 v287。1 mm、2 mm 档拉开 8 个原有口环—叶片接触。[小喷口外罩筛查](../cad/drone-concept/comparison/v291-small-pod-shell-extension/README.md)
+- v291 将小喷口外罩和口环延长 0.25 mm，三组整机均值略降，正式版采用 v287。1 mm、2 mm 档分别导致 2 处和 8 处原有口环与叶片接触分离。[小喷口外罩筛查](../cad/drone-concept/comparison/v291-small-pod-shell-extension/README.md)
 
 ## 续接
 

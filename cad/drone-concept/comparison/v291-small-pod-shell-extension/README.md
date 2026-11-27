@@ -7,6 +7,6 @@
 | v287 | 86.033198% | 82.574760% | 89.782809% |
 | 0.25 mm | 86.033177% | 82.574491% | 89.782487% |
 
-0.25 mm 档三组均略低于 v287，正式模型继续采用 v287。1 mm 和 2 mm 档各有 8 个原有口环—叶片接触被拉开，停止在几何接合检查。[0.25 mm 视频](video-comparison/comparison-board.png) · [静态图](stills-comparison/comparison-board.png) · [拼图](sheet-comparison/comparison-board.png) · [失败档记录](failed-candidates.json)
+0.25 mm 档三组均略低于 v287，正式模型继续采用 v287。1 mm 和 2 mm 档分别有 2 处和 8 处原有口环与叶片接触分离，停止在几何接合检查。[0.25 mm 视频](video-comparison/comparison-board.png) · [静态图](stills-comparison/comparison-board.png) · [拼图](sheet-comparison/comparison-board.png) · [失败档记录](failed-candidates.json)
 
 候选采用真实保存 CAD 和固定相机渲染。使用 v287 保存模型和网格运行 `replay.py --extension .25`，大档可用 `--extension 1`、`--extension 2` 复现。[固定相机流程](../../../../docs/drone-concept.md#编辑与复现)
