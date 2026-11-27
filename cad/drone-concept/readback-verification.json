@@ -177,8 +177,8 @@
     "WingSpineRight": 10.37723816000998,
     "HoodShoulderPlateLeft": 43.698549925199984,
     "HoodShoulderPlateRight": 43.69854992526999,
-    "RearArmourCheekLeft": 88.19898974102082,
-    "RearArmourCheekRight": 88.19898974102082
+    "RearArmourCheekLeft": 92.16086408395219,
+    "RearArmourCheekRight": 92.16086408395219
   },
   "nozzle_hinges": 12,
   "nozzle_detail_connections": [
@@ -263,12 +263,12 @@
       "petal": 7,
       "detail_gaps_mm": [
         0.0,
-        0.0,
+        1.4238583238573986e-14,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.04219587232581
+      "root_roll_overlap_mm3": 17.04219586852234
     },
     {
       "petal": 8,
@@ -285,12 +285,12 @@
       "petal": 9,
       "detail_gaps_mm": [
         0.0,
-        1.7763568394002505e-15,
+        0.0,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.042192871013448
+      "root_roll_overlap_mm3": 17.0421929403678
     },
     {
       "petal": 10,
@@ -538,7 +538,7 @@
       ]
     }
   },
-  "step_relative_volume_error": 5.818893318886201e-07,
+  "step_relative_volume_error": 1.9303758508214564e-07,
   "step_volume_basis": "sum of individually integrated solid volumes",
   "step_bbox_max_delta_mm": 5.8903992794512305e-12,
   "bbox_mm": [
@@ -546,6 +546,6 @@
     360.58442207898185,
     485.79434211138766
   ],
-  "fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
-  "step_sha256": "ea920ee43975abef1653ddace3bd3c2022cb79853e825d2da57cf52055300e6a"
+  "fcstd_sha256": "abdfdd0c2b1a78ec9e9c59000c56dd9394a26ac4a46cea7b8d4245766a7b6651",
+  "step_sha256": "4ced319f8ad7e355153da31e2eb25a46beb98d5e28f9f085affceb18b2b84491"
 }

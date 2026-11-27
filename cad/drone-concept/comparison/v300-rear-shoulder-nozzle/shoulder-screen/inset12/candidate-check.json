@@ -1,0 +1,135 @@
+{
+  "baseline_fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
+  "fcstd_sha256": "043716e7670099e8afc4e13642f73f6fe0cfafdc818045dbe9c1ab7b5da38c8a",
+  "scale": 0.88,
+  "fixed_inner_x_mm": [
+    -89,
+    89
+  ],
+  "changed_archive_members": [
+    "RearArmourCheekLeft.Shape.brp",
+    "RearArmourCheekRight.Shape.brp"
+  ],
+  "parts": [
+    {
+      "name": "RearArmourCheekLeft",
+      "valid_closed_solid": true,
+      "advanced_errors": []
+    },
+    {
+      "name": "RearArmourCheekRight",
+      "valid_closed_solid": true,
+      "advanced_errors": []
+    }
+  ],
+  "contacts": [
+    {
+      "objects": [
+        "RearArmourCheekLeft",
+        "RearStructuralFrame"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "RearArmourCheekLeft",
+        "RearServicePanel"
+      ],
+      "baseline_gap_mm": 0.26898722710765066,
+      "gap_mm": 0.2537061937019303,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "RearArmourCheekLeft",
+        "RearLowerSlope"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "RearArmourCheekLeft",
+        "SideClosureLeft"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "RearArmourCheekLeft",
+        "SideGuardLeft"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "RearArmourCheekLeft",
+        "SideMechanicalBackingLeft"
+      ],
+      "baseline_gap_mm": 10.716527890345551,
+      "gap_mm": 10.715155144595144,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "RearArmourCheekRight",
+        "RearStructuralFrame"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "RearArmourCheekRight",
+        "RearServicePanel"
+      ],
+      "baseline_gap_mm": 0.26898722710765066,
+      "gap_mm": 0.2537061937019303,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "RearArmourCheekRight",
+        "RearLowerSlope"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "RearArmourCheekRight",
+        "SideClosureRight"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "RearArmourCheekRight",
+        "SideGuardRight"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "RearArmourCheekRight",
+        "SideMechanicalBackingRight"
+      ],
+      "baseline_gap_mm": 10.716527890345558,
+      "gap_mm": 10.715155144595144,
+      "regressed": false
+    }
+  ]
+}

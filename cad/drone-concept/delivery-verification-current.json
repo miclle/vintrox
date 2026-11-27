@@ -1,9 +1,9 @@
 {
   "passed": true,
   "errors": [],
-  "revision": "v292-brow-shoulder-inset",
-  "fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
-  "step_sha256": "ea920ee43975abef1653ddace3bd3c2022cb79853e825d2da57cf52055300e6a",
+  "revision": "v300-rear-shoulder-nozzle",
+  "fcstd_sha256": "abdfdd0c2b1a78ec9e9c59000c56dd9394a26ac4a46cea7b8d4245766a7b6651",
+  "step_sha256": "4ced319f8ad7e355153da31e2eb25a46beb98d5e28f9f085affceb18b2b84491",
   "visible_features": 696,
   "step_solids": 853,
   "screen_panel_mm": [
@@ -37,15 +37,15 @@
   "comparisons": {
     "video": {
       "views": 10,
-      "mean_silhouette_iou": 0.86034597378122
+      "mean_silhouette_iou": 0.8604495455525619
     },
     "stills": {
       "views": 7,
-      "mean_silhouette_iou": 0.8258720774268677
+      "mean_silhouette_iou": 0.8258997926401506
     },
     "sheet": {
       "views": 10,
-      "mean_silhouette_iou": 0.8978354872447
+      "mean_silhouette_iou": 0.8982540724332951
     }
   },
   "physical_validation": false,

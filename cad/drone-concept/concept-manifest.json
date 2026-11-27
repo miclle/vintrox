@@ -1,5 +1,5 @@
 {
-  "revision": "v292-brow-shoulder-inset",
+  "revision": "v300-rear-shoulder-nozzle",
   "front_cheek_x_scale": 0.995,
   "front_brow_x_scale": 0.985,
   "nozzle_petal_comparison_scale": 0.96,
@@ -168,7 +168,7 @@
     297.8988975305577,
     385.79434211138766
   ],
-  "fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
+  "fcstd_sha256": "abdfdd0c2b1a78ec9e9c59000c56dd9394a26ac4a46cea7b8d4245766a7b6651",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4360,7 +4360,7 @@
     }
   ],
   "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
-  "step_sha256": "ea920ee43975abef1653ddace3bd3c2022cb79853e825d2da57cf52055300e6a",
+  "step_sha256": "4ced319f8ad7e355153da31e2eb25a46beb98d5e28f9f085affceb18b2b84491",
   "gold_wing_rear_inset_local_mm": 5,
   "gold_wing_rear_station_weights": {
     "17": 0.2,
@@ -4618,6 +4618,37 @@
         "NozzlePetalInset8",
         "NozzlePetalInset9"
       ]
+    },
+    "rear_shoulder_nozzle_v300": {
+      "baseline_fcstd_sha256": "17f9f587f9148cb7e7b2abf2056c3522148db12937fab3eed2068b3372c52c58",
+      "changed_objects": [
+        "NozzlePetal7",
+        "NozzlePetal9",
+        "NozzlePetalEdgeRail7_159",
+        "NozzlePetalEdgeRail7_178",
+        "NozzlePetalEdgeRail9_204",
+        "NozzlePetalEdgeRail9_223",
+        "NozzlePetalEndHem7",
+        "NozzlePetalEndHem9",
+        "NozzlePetalInset7",
+        "NozzlePetalInset9",
+        "NozzlePetalRidge7",
+        "NozzlePetalRidge9",
+        "RearArmourCheekLeft",
+        "RearArmourCheekRight"
+      ],
+      "rear_shoulder_x_scale": 0.88,
+      "fixed_inner_x_mm": [
+        -89,
+        89
+      ],
+      "petal_indices": [
+        7,
+        9
+      ],
+      "petal_station_mm": 105,
+      "petal_axial_factor": 1.5,
+      "petal_radial_shift_per_17_mm": -3.6
     }
   },
   "rear_belly_relief": {
