@@ -63,6 +63,7 @@
 - v301 按静态第 03 图和视频第 150 帧的射线定位，在四档接续位置恢复后肩前段宽度。Y=240 mm 档恢复静态第 03 图的轮廓得分，静态七图均值略降。正式采用 v300。[局部宽度与固定相机](../cad/drone-concept/comparison/v301-local-rear-shoulder/README.md)
 
 - v302 仅在 Z=137 mm 以上恢复后肩宽度。静态第 03 图较 v300 提高 0.07055 个百分点，三组整机均值均提高。正式包通过独立 STEP 读回与 FreeCAD 原生颜色检查。[v302 固定相机与复建](../cad/drone-concept/comparison/v302-upper-rear-shoulder/README.md)
+- v303 筛选两档水平和两档斜向后肩接续。斜率 1 档静态第 03 图提高 0.02057 个百分点，第 06 图得分相同，三组整机均值略降。正式采用 v302。[接续几何与固定相机](../cad/drone-concept/comparison/v303-rear-shoulder-transition/README.md)
 
 ## 续接
 
