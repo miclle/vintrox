@@ -399,3 +399,5 @@ v278 联动拟合回环路径与渐变半径，第 120 帧左右回环的最大�
 v279 将后部鳍片暗色基座的顶部降低 1.5 mm、3 mm。两档十方位逐视角 IoU 均与 v276 相同，槽顶露出的金色壳面与参考暗槽有差异，继续采用 v276。[近景与保存几何](../cad/drone-concept/comparison/v279-cooling-core-recess/README.md)
 
 v280 筛查 4.5 mm、3 mm 的顶罩凸筋。两档均使视频十方位的九个方位得分下降，另一个方位持平，正式模型采用 v276 的 6 mm 高度。[固定相机评分与保存几何](../cad/drone-concept/comparison/v280-roof-rib-height/README.md)
+
+v281 延长第 0、4、5、11 号镜像叶片末段并略收径向。两处侧后视的局部末端偏差下降，视频与静态整机均值下降，正式模型采用 v276。[三组对照与射线检查](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/README.md)

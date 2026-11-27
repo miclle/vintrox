@@ -38,9 +38,10 @@
 - v278 联动拟合回环路径与渐变半径，第 120 帧左右回环的最大采样偏差降到投影屏宽的 5% 以内，第 180 帧右回环上升到 25.75%。三组整机均值均下降，正式采用 v276。[三组比较与可见边界](../cad/drone-concept/comparison/v278-loop-path-fit/README.md)
 - v279 将后部鳍片暗色基座的顶部降低 1.5 mm、3 mm。两档十方位逐视角 IoU 均与 v276 相同，槽顶露出的金色壳面与参考暗槽有差异，继续采用 v276。[近景与保存几何](../cad/drone-concept/comparison/v279-cooling-core-recess/README.md)
 - v280 将顶罩两条凸筋从 6 mm 降到 4.5 mm、3 mm。保存实体检查通过，视频十方位均值分别降至 85.9295%、85.8692%，正式采用 v276。[固定相机对照与复建](../cad/drone-concept/comparison/v280-roof-rib-height/README.md)
+- v281 在 v276 上延长四组镜像叶片末段；两个侧后视最大偏差降至投影屏宽的 17.63%、20.68%，视频和静态图整机均值均下降，正式采用 v276。[固定相机、射线与读回](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/README.md)
 
 ## 续接
 
-1. 以 v257 的大喷口末端复测和 v259 的对象级外溢分布为基线，沿 `video-02`、`video-03` 和 `video-06` 的可见边缘核对叶片与邻件遮挡，再试验真实 CAD 端部几何。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口复测](../cad/drone-concept/comparison/v257-mirrored-nozzle-tips/visible-petal-edges.json) · [前罩对象归因](../cad/drone-concept/comparison/v269-rear-shoulder-screening/still-05-boundary.json)
+1. 用 v281 近景对照在 `video-02`、`video-03` 和 `video-06` 同时标出喷口口环和叶片末缘，再按两条边之间的跨度检查叶片的伸出方向。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口近景](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/v276-tip-crops.png) · [前罩对象归因](../cad/drone-concept/comparison/v269-rear-shoulder-screening/still-05-boundary.json)
 2. 从保存 v276 生成候选，在临时目录保存 FCStd 和网格。沿用十个视频姿态、七张静态图与十格拼图检查整机轮廓，再复测关键局部，以同相机的投影屏宽归一化。进入正式交付的候选需补齐 STEP 独立读回、接合与四支柱复查、原生颜色与可见性检查，并同步正式模型、预览与文档。[编辑与复现](drone-concept.md#编辑与复现)
 3. GitHub 发布分支使用精简历史，保留当前正式包、关键基线对照和试验报告。用正式 CAD 与固定相机生成新候选所需网格。[存储说明](storage-cleanup.md)

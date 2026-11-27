@@ -1,0 +1,214 @@
+{
+  "fcstd_sha256": "a82a7c2ed5db88fe6ba22679bdc2ad7085114df7150b61ae59bce67edf94f7e3",
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "render_manifest_sha256": "71a2abd184b17a7181346a35cffec73e2a992d79e6e850869a2d1b2330c8666c",
+  "comparison_script_sha256": "ed57fa2f00c3e600fb773d14b16c33179904e1210d307ca9a8de058ba6cfcfa4",
+  "camera_config_sha256": "fcaae951889ac59207fc04bbae5443623c50557ac082654668189a279f8c57cf",
+  "camera_status": "direct reference cells with cameras from matching video frames",
+  "registration": "camera projection only; no image warp, stretch or per-part alignment",
+  "excluded_from_cad": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "mask_method": "reference max(RGB)>18; one-pixel closing; fill holes smaller than 100 pixels; CAD alpha>127",
+  "limitations": [
+    "black-material/background ambiguity",
+    "camera fit uncertainty",
+    "visible surfaces only"
+  ],
+  "mean_silhouette_iou": 0.897887459056457,
+  "views": [
+    {
+      "view": "sheet-01",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/video-cam.jpeg",
+      "score_interpretation": "contact sheet diagnostic at matched orbit pose",
+      "silhouette_iou": 0.9142538297656487,
+      "symmetric_edge_mean_px": 10.081488069987058,
+      "symmetric_edge_p95_px": 65.07302216797763,
+      "reference_foreground_px": 92557,
+      "cad_foreground_px": 96131,
+      "source_crop": [
+        0,
+        0,
+        470,
+        400
+      ],
+      "matched_video_frame": 14
+    },
+    {
+      "view": "sheet-02",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/video-cam.jpeg",
+      "score_interpretation": "contact sheet diagnostic at matched orbit pose",
+      "silhouette_iou": 0.8939332779294789,
+      "symmetric_edge_mean_px": 12.089291910927843,
+      "symmetric_edge_p95_px": 67.0,
+      "reference_foreground_px": 78055,
+      "cad_foreground_px": 81471,
+      "source_crop": [
+        470,
+        0,
+        940,
+        400
+      ],
+      "matched_video_frame": 44
+    },
+    {
+      "view": "sheet-03",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/video-cam.jpeg",
+      "score_interpretation": "contact sheet diagnostic at matched orbit pose",
+      "silhouette_iou": 0.8962920807249486,
+      "symmetric_edge_mean_px": 14.074504449965682,
+      "symmetric_edge_p95_px": 94.59832924248317,
+      "reference_foreground_px": 85596,
+      "cad_foreground_px": 87672,
+      "source_crop": [
+        940,
+        0,
+        1410,
+        400
+      ],
+      "matched_video_frame": 74
+    },
+    {
+      "view": "sheet-04",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/video-cam.jpeg",
+      "score_interpretation": "contact sheet diagnostic at matched orbit pose",
+      "silhouette_iou": 0.8803182631221859,
+      "symmetric_edge_mean_px": 7.340822871614629,
+      "symmetric_edge_p95_px": 40.792156108742276,
+      "reference_foreground_px": 75080,
+      "cad_foreground_px": 77348,
+      "source_crop": [
+        1410,
+        0,
+        1880,
+        400
+      ],
+      "matched_video_frame": 104
+    },
+    {
+      "view": "sheet-05",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/video-cam.jpeg",
+      "score_interpretation": "contact sheet diagnostic at matched orbit pose",
+      "silhouette_iou": 0.8714854502556036,
+      "symmetric_edge_mean_px": 6.701863297455342,
+      "symmetric_edge_p95_px": 37.96313234541435,
+      "reference_foreground_px": 73958,
+      "cad_foreground_px": 78336,
+      "source_crop": [
+        1880,
+        0,
+        2350,
+        400
+      ],
+      "matched_video_frame": 134
+    },
+    {
+      "view": "sheet-06",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/video-cam.jpeg",
+      "score_interpretation": "contact sheet diagnostic at matched orbit pose",
+      "silhouette_iou": 0.8741861692767904,
+      "symmetric_edge_mean_px": 16.227376998865555,
+      "symmetric_edge_p95_px": 91.57564649268973,
+      "reference_foreground_px": 82572,
+      "cad_foreground_px": 87844,
+      "source_crop": [
+        0,
+        400,
+        470,
+        800
+      ],
+      "matched_video_frame": 164
+    },
+    {
+      "view": "sheet-07",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/video-cam.jpeg",
+      "score_interpretation": "contact sheet diagnostic at matched orbit pose",
+      "silhouette_iou": 0.9022591609517061,
+      "symmetric_edge_mean_px": 13.897407900517448,
+      "symmetric_edge_p95_px": 65.30390187064951,
+      "reference_foreground_px": 77397,
+      "cad_foreground_px": 80987,
+      "source_crop": [
+        470,
+        400,
+        940,
+        800
+      ],
+      "matched_video_frame": 194
+    },
+    {
+      "view": "sheet-08",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/video-cam.jpeg",
+      "score_interpretation": "contact sheet diagnostic at matched orbit pose",
+      "silhouette_iou": 0.9325543449655245,
+      "symmetric_edge_mean_px": 10.802485900956684,
+      "symmetric_edge_p95_px": 83.0351912280108,
+      "reference_foreground_px": 90574,
+      "cad_foreground_px": 93009,
+      "source_crop": [
+        940,
+        400,
+        1410,
+        800
+      ],
+      "matched_video_frame": 224
+    },
+    {
+      "view": "sheet-09",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/video-cam.jpeg",
+      "score_interpretation": "contact sheet diagnostic at matched orbit pose",
+      "silhouette_iou": 0.9115014176338788,
+      "symmetric_edge_mean_px": 6.936566450323049,
+      "symmetric_edge_p95_px": 45.0,
+      "reference_foreground_px": 88419,
+      "cad_foreground_px": 91589,
+      "source_crop": [
+        1410,
+        400,
+        1880,
+        800
+      ],
+      "matched_video_frame": 254
+    },
+    {
+      "view": "sheet-10",
+      "source_frame": null,
+      "time_seconds": null,
+      "source_image": "references/alexander-shevchuk-drone/video-cam.jpeg",
+      "score_interpretation": "contact sheet diagnostic at matched orbit pose",
+      "silhouette_iou": 0.9020905959388027,
+      "symmetric_edge_mean_px": 7.891535546396191,
+      "symmetric_edge_p95_px": 50.30109012849836,
+      "reference_foreground_px": 90402,
+      "cad_foreground_px": 93475,
+      "source_crop": [
+        1880,
+        400,
+        2350,
+        800
+      ],
+      "matched_video_frame": 284
+    }
+  ]
+}
