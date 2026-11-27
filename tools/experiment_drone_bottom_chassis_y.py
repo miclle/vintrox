@@ -3,9 +3,11 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
+from zipfile import ZipFile
 
 import FreeCAD as App
 import Import
+from export_candidate_drone_meshes import saved_colors
 
 
 def main():
@@ -39,7 +41,8 @@ def main():
         App.closeDocument(doc.Name)
     doc = App.openDocument(str(model))
     try:
-        visible = [obj for obj in doc.Objects if hasattr(obj, "Shape") and not obj.Shape.isNull()]
+        with ZipFile(args.base) as archive:
+            visible = [doc.getObject(name) for name in saved_colors(archive)]
         Import.export(visible, str((args.output / "candidate.step").resolve()))
         report = {
             "revision": args.output.name,
