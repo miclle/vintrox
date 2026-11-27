@@ -15,10 +15,10 @@ def main():
     for name in ('base', 'mesh', 'output'):
         parser.add_argument('--' + name, type=Path, required=True)
     parser.add_argument('--angle', type=float, required=True,
-                        help='Additional inward rotation in degrees')
+                        help='Rotation in degrees: positive inward, negative outward')
     args = parser.parse_args()
-    if not math.isfinite(args.angle) or not 0 < args.angle <= 2.5:
-        parser.error('--angle must be finite and in (0, 2.5] degrees')
+    if not math.isfinite(args.angle) or not 0 < abs(args.angle) <= 2.5:
+        parser.error('--angle magnitude must be finite and in (0, 2.5] degrees')
     if args.output.exists() and any(args.output.iterdir()):
         parser.error('output must be empty')
     base_hash = digest(args.base)

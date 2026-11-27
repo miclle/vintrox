@@ -409,3 +409,5 @@ v283 延长第 6、7、9、10 号叶片末段。视频和拼图平均 IoU 提高
 v284 保留 v283 的轴向延长，将末段改为径向内收。`still-05` 的评分较 v283 回升 0.02217 个百分点，静态平均 IoU 仍低于 v276，正式模型采用 v276。[三组固定相机对照](../cad/drone-concept/comparison/v284-petal-tip-inward/README.md)
 
 v285 在 v284 的末段进行两档单侧斜切，静态七图均值回升不足 0.003 个百分点，正式模型采用 v276。[切面参数和对照](../cad/drone-concept/comparison/v285-petal-flank-taper/README.md)
+
+v286 筛查提手支臂相对于 v276 的内倾和外倾 1.5°。两档通过接合检查，三组平均 IoU 均下降，正式模型采用 v276。[提手倾角筛查](../cad/drone-concept/comparison/v286-handle-tilt-screen/README.md)

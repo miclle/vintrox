@@ -43,6 +43,7 @@
 - v283 延长第 6、7、9、10 号可见叶片，视频和拼图均值分别提高 0.03880 和 0.06363 个百分点。静态 `still-05` 的第 9、10 号叶片向背景伸出，静态均值下降 0.03261 个百分点，正式采用 v276。[固定相机对照与局部归因](../cad/drone-concept/comparison/v283-visible-petal-pairs/README.md)
 - v284 将同一组末段径向内收并取消局部 Y 位移。视频和拼图均值分别提高 0.03663、0.06820 个百分点，静态均值仍下降 0.02598 个百分点，正式采用 v276。[径向内收对照](../cad/drone-concept/comparison/v284-petal-tip-inward/README.md)
 - v285 在 v284 叶片末段采用两档单侧斜切。静态七图均值较 v284 回升不足 0.003 个百分点，正式采用 v276。[保存读回与固定相机对照](../cad/drone-concept/comparison/v285-petal-flank-taper/README.md)
+- v286 在 v276 上对提手支臂试验内倾和外倾 1.5°。两档通过 14 项接合检查，三组平均 IoU 均低于 v276。[提手倾角筛查](../cad/drone-concept/comparison/v286-handle-tilt-screen/README.md)
 
 ## 续接
 

@@ -1,0 +1,402 @@
+{
+  "baseline_fcstd_sha256": "6f859b6abff820416d4ae26011ff2ec3f4e2182f4ace7dacdc602185413c46c9",
+  "fcstd_sha256": "505aeb05742fb627bbaa07a9856af1f25edd7d01cb1cac65f7396cdb3bc8b1a2",
+  "script_sha256": "9c135814e306e353c3f5ae3f5939b9b39aa7b41368adfd1b21dc53d855a5b911",
+  "angle_degrees": -1.5,
+  "axis_pivots_world_mm": [
+    [
+      -116,
+      110,
+      220
+    ],
+    [
+      116,
+      110,
+      220
+    ]
+  ],
+  "rotation_axes": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      -1,
+      0
+    ]
+  ],
+  "changed_objects": [
+    "HandleArmLeft",
+    "HandleArmRight",
+    "HandleGripCuffLeft",
+    "HandleGripCuffRight",
+    "HandleInsetLeft",
+    "HandleInsetRight",
+    "HandleMarkLeft0",
+    "HandleMarkLeft1",
+    "HandleMarkLeft2",
+    "HandleMarkRight0",
+    "HandleMarkRight1",
+    "HandleMarkRight2"
+  ],
+  "advanced_checks": [
+    {
+      "name": "HandleArmLeft",
+      "baseline_errors": [
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+      ],
+      "candidate_errors": [
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+      ]
+    },
+    {
+      "name": "HandleInsetLeft",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "HandleGripCuffLeft",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "HandleMarkLeft0",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "HandleMarkLeft1",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "HandleMarkLeft2",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "HandleArmRight",
+      "baseline_errors": [
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+      ],
+      "candidate_errors": [
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+      ]
+    },
+    {
+      "name": "HandleInsetRight",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "HandleGripCuffRight",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "HandleMarkRight0",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "HandleMarkRight1",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "HandleMarkRight2",
+      "baseline_errors": [],
+      "candidate_errors": []
+    }
+  ],
+  "contacts": [
+    {
+      "objects": [
+        "HandleArmLeft",
+        "SideClosureLeft"
+      ],
+      "baseline_gap_mm": 2.0097183471152322e-14,
+      "gap_mm": 0.0,
+      "baseline_overlap_mm3": 48.19954333060214,
+      "overlap_mm3": 39.35310257923586,
+      "requires_overlap": true,
+      "failed": false
+    },
+    {
+      "objects": [
+        "HandleArmLeft",
+        "HandleGrip"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "baseline_overlap_mm3": 7417.04871272832,
+      "overlap_mm3": 5538.1727669774655,
+      "requires_overlap": false,
+      "failed": false
+    },
+    {
+      "objects": [
+        "HandleGripCuffLeft",
+        "HandleGrip"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "baseline_overlap_mm3": 8162.788167779618,
+      "overlap_mm3": 8148.738019361319,
+      "requires_overlap": false,
+      "failed": false
+    },
+    {
+      "objects": [
+        "HandleInsetLeft",
+        "HandleArmLeft"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "baseline_overlap_mm3": 1113.0884181614908,
+      "overlap_mm3": 1113.0884181597419,
+      "requires_overlap": true,
+      "failed": false
+    },
+    {
+      "objects": [
+        "HandleMarkLeft0",
+        "HandleInsetLeft"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "baseline_overlap_mm3": 10.599260849499107,
+      "overlap_mm3": 10.59926084949628,
+      "requires_overlap": true,
+      "failed": false
+    },
+    {
+      "objects": [
+        "HandleMarkLeft1",
+        "HandleInsetLeft"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "baseline_overlap_mm3": 10.209921657499056,
+      "overlap_mm3": 10.209921657496313,
+      "requires_overlap": true,
+      "failed": false
+    },
+    {
+      "objects": [
+        "HandleMarkLeft2",
+        "HandleInsetLeft"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "baseline_overlap_mm3": 14.929818465498567,
+      "overlap_mm3": 14.929818465494435,
+      "requires_overlap": true,
+      "failed": false
+    },
+    {
+      "objects": [
+        "HandleArmRight",
+        "SideClosureRight"
+      ],
+      "baseline_gap_mm": 2.0097183471152322e-14,
+      "gap_mm": 0.0,
+      "baseline_overlap_mm3": 48.199550981129555,
+      "overlap_mm3": 39.35304457902208,
+      "requires_overlap": true,
+      "failed": false
+    },
+    {
+      "objects": [
+        "HandleArmRight",
+        "HandleGrip"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "baseline_overlap_mm3": 7417.058465968982,
+      "overlap_mm3": 5538.177011063885,
+      "requires_overlap": false,
+      "failed": false
+    },
+    {
+      "objects": [
+        "HandleGripCuffRight",
+        "HandleGrip"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "baseline_overlap_mm3": 8162.788173983852,
+      "overlap_mm3": 8148.737968466059,
+      "requires_overlap": false,
+      "failed": false
+    },
+    {
+      "objects": [
+        "HandleInsetRight",
+        "HandleArmRight"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "baseline_overlap_mm3": 1113.0883941071952,
+      "overlap_mm3": 1113.08839410502,
+      "requires_overlap": true,
+      "failed": false
+    },
+    {
+      "objects": [
+        "HandleMarkRight0",
+        "HandleInsetRight"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "baseline_overlap_mm3": 10.599260849499107,
+      "overlap_mm3": 10.59926084949628,
+      "requires_overlap": true,
+      "failed": false
+    },
+    {
+      "objects": [
+        "HandleMarkRight1",
+        "HandleInsetRight"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "baseline_overlap_mm3": 10.209921657499054,
+      "overlap_mm3": 10.209921657496315,
+      "requires_overlap": true,
+      "failed": false
+    },
+    {
+      "objects": [
+        "HandleMarkRight2",
+        "HandleInsetRight"
+      ],
+      "baseline_gap_mm": 0.0,
+      "gap_mm": 0.0,
+      "baseline_overlap_mm3": 14.929818465498567,
+      "overlap_mm3": 14.929818465494435,
+      "requires_overlap": true,
+      "failed": false
+    }
+  ],
+  "new_advanced_check_failures": [],
+  "contact_regressions": [],
+  "diagnostic_fcstd_sha256": "579b26f1b955e6cbc5e8c71d4a6d716eae862ce29dd57e800d7084c86abe0d1e",
+  "step_sha256": "fa075bfb96c9b0fec8558a35205307741d2c2c33a35c88c5260a0380674af7c0",
+  "finalizer_sha256": "116e96bd548782a090f1da8e07458e7983d6291c1754e76844877b3b2b146f7f",
+  "appearance_source_sha256": "6f859b6abff820416d4ae26011ff2ec3f4e2182f4ace7dacdc602185413c46c9",
+  "gui_members_copied": 2095,
+  "unchanged_archive_members_restored": 1080,
+  "geometry_unchanged_during_gui_restore": true,
+  "changed_mesh_geometry": "retessellated from final reopened FCStd"
+}
