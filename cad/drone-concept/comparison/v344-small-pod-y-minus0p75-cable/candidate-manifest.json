@@ -1,0 +1,35 @@
+{
+  "revision": "v344-small-pod-y-minus0p75-cable",
+  "method": "v341 cable-combination candidate with additional symmetric Y=-0.25 mm small-pod pose, total Y=-0.75 mm from the prior Y=-0.5 mm chain",
+  "fcstd_sha256": "f857e4d1645229492e9e6cbd32f0cd2609172625c1a03b21e86baec47df1d8fd",
+  "step_sha256": "a042aafe92acb9cb43380a5986aeefe92b52df862f82f0462182072aedcb13d5",
+  "visible_features": 696,
+  "step_solids": 853,
+  "fcstd_valid": true,
+  "step_valid": true,
+  "step_volume_relative_error": 5.371090059506655e-07,
+  "support_interferences": [],
+  "visual_metrics": {
+    "video-comparison": 0.8623692337855404,
+    "stills-comparison": 0.8271432155834884,
+    "sheet-comparison": 0.8997777865052594
+  },
+  "comparison_references": {
+    "video-comparison": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+    "stills-comparison": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+    "sheet-comparison": "fcaae951889ac59207fc04bbae5443623c50557ac082654668189a279f8c57cf"
+  },
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+  "excluded_from_score": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "limitations": [
+    "90% whole-orbit target not reached",
+    "major-part 5% projection-screen-width target not established",
+    "flat screen retained; curved cover and hidden details remain appearance assumptions",
+    "no manufacturing or physical acceptance"
+  ]
+}
