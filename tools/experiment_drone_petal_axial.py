@@ -136,6 +136,8 @@ def main():
     mode.add_argument('--factor', type=float)
     mode.add_argument('--terminal-ring-fit', type=Path)
     parser.add_argument('--ring-fraction', type=float, default=1.0)
+    parser.add_argument('--follow-guides', action='store_true',
+                        help='Apply the terminal-ring splice to the two surface guides on each leaf')
     parser.add_argument('--station', type=float, default=98)
     parser.add_argument('--construction', choices=['solid-affine', 'tip-splice'],
                         default='solid-affine')
@@ -155,6 +157,8 @@ def main():
             parser.error('--ring-fraction must be in (0, 1]')
     elif args.ring_fraction != 1:
         parser.error('--ring-fraction requires --terminal-ring-fit')
+    if args.follow_guides and not args.terminal_ring_fit:
+        parser.error('--follow-guides requires --terminal-ring-fit')
     if not -200 < args.station < 300:
         raise ValueError('station is outside the local clipping envelope')
     if max(abs(args.tip_radial_shift), abs(args.tip_centre_shift)) > 10:
@@ -185,11 +189,12 @@ def main():
         name = item['name']
         if not name.startswith('NozzlePetal'):
             continue
-        if args.construction == 'tip-splice' and name.startswith(('NozzlePetalGuide', 'NozzlePetalHinge')):
+        if args.construction == 'tip-splice' and (name.startswith('NozzlePetalHinge')
+                or (name.startswith('NozzlePetalGuide') and not args.follow_guides)):
             continue
         old = base.getObject(name).Shape
         if args.construction == 'tip-splice':
-            index = int(re.fullmatch(r'NozzlePetal(?:Inset|EdgeRail|EndHem|Ridge)?(\d+)(?:_\d+)?', name)[1])
+            index = int(re.fullmatch(r'NozzlePetal(?:Inset|EdgeRail|EndHem|Ridge|Guide)?(\d+)(?:_\d+)?', name)[1])
             if index not in selected:
                 continue
             shape, bounds = extend_tip(old, frame, args.factor or 1, args.station,
@@ -279,6 +284,22 @@ def main():
             report.update(terminal_ring_sha256=digest(args.terminal_ring_fit),
                           ring_fraction=args.ring_fraction,
                           hem_displacement_per_mm={i: list(v) for i, v in ring.items()})
+        if args.follow_guides:
+            guide_contacts = []
+            for i in sorted(selected):
+                ridge_name = f'NozzlePetalRidge{i}'
+                for side in range(2):
+                    guide_name = f'NozzlePetalGuide{i}_{side}'
+                    gaps = [doc.getObject(ridge_name).Shape.distToShape(doc.getObject(guide_name).Shape)[0]
+                            for doc in (base, saved)]
+                    contact = {'objects': [ridge_name, guide_name], 'baseline_gap_mm': gaps[0],
+                               'gap_mm': gaps[1], 'regressed': gaps[1] > max(.01, gaps[0]+1e-5)}
+                    guide_contacts.append(contact)
+                    if contact['regressed']:
+                        contact_regressions.append(contact)
+            report['guide_to_ridge_contacts'] = guide_contacts
+            if any(contact['regressed'] for contact in guide_contacts):
+                report['status'] = 'diagnostic candidate; guide contact failures prevent adoption'
         (args.output/'candidate-check.json').write_text(json.dumps(report, indent=2)+'\n')
         print(json.dumps({'model': str(model), 'changed': len(changed),
                           'protected_supports': len(supports)}), flush=True)
