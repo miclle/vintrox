@@ -52,6 +52,7 @@
 - v291 将小喷口外罩和口环延长 0.25 mm，三组整机均值略降，正式版采用 v287。1 mm、2 mm 档分别导致 2 处和 8 处原有口环与叶片接触分离。[小喷口外罩筛查](../cad/drone-concept/comparison/v291-small-pod-shell-extension/README.md)
 - v292 将前罩肩部弧面内罩及白纹各向内移 2 mm。静态第 05 图的左内罩外溢下降，前罩主体仍有外溢。三组整机均值提高，采用为正式版。[几何、像素归因与交付](../cad/drone-concept/comparison/v292-brow-shoulder-inset/README.md)
 - v293 核对 v292 底部六个固定视角。参考线框显示回环根部板件，静态图 05 的底壳外溢归因同时覆盖暗底面、线束和间隙。下一轮结合可见弧段联动筛选回环路径与粗细，复核第 180 帧的遮挡。[底部近景与复现](../cad/drone-concept/comparison/v293-underbody-visibility/README.md)
+- v294 对回环路径与截面做三档筛选，视频十方位均值均下降。等径档在第 120 帧左侧达到 4.84% 局部最大偏差，第 180 帧右侧升至 22.95%。正式采用 v292。后续路径拟合应约束第 180 帧可见边界，并引入独立侧后视角检查。[候选对照与复现](../cad/drone-concept/comparison/v294-underbody-loop-screen/README.md)
 
 ## 续接
 
