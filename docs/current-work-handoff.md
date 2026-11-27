@@ -78,6 +78,8 @@
 
 - v310 采用右翼折面局部站位调整。三组整机均值小幅提高，第 180 帧翼根复测与 v306 相同。全量拟合使跨视角整机指标下降。[重放与候选记录](../cad/drone-concept/comparison/v310-right-wing-fold/README.md)
 
+- v311 按十方位对象归因筛选两档小喷口叶片轴向收短。两档三组整机均值均升，六个视频视角叶片可见边缘采样 RMS 均增大，正式采用 v310。[归因、三组对照与局部测量](../cad/drone-concept/comparison/v311-small-pod-axial-screen/README.md)
+
 ## 续接
 
 1. 结合 `video-02`、`video-03`、`video-06` 和 `still-05` 核对喷口口环及叶片末缘。沿第 9、10 号叶片在静态近景中的外缘定位外溢截面，检查末段收窄能否同时保住两个侧后视频方位的轮廓收益。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口视频近景](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/v276-tip-crops.png) · [大喷口静态近景](../cad/drone-concept/comparison/v283-visible-petal-pairs/still-delta-crops.png)
