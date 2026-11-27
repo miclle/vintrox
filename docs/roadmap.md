@@ -386,3 +386,5 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 - 2026-11-27 采用 v315 天线中心线修订。三组固定相机平均 IoU 为 86.2046%、82.6877% 和 89.9582%。保存读回、STEP、预览和原生显示均通过。视频整圈 90% 与主要部件轮廓偏差 5% 仍待达成。[v315 正式记录](../cad/drone-concept/comparison/v315-antenna-multiview/README.md)
 
 - v329 以五视角参考出口环调整十二片喷口末端。第 60、180 帧最大采样偏差分别为屏宽的 8.42%、5.01%。视频十方位平均 IoU 为 86.0149%，两项目标仍待完成。[当前模型](../cad/drone-concept/comparison/v329-five-view-exit-ring/README.md)
+
+- v335 按原视频中连续可见的端角调整两片镜像大喷口叶片，第 90 帧偏差从 5 px 降至 1 px。七个标注视角有六个末缘 RMS 改善，视频十方位平均 IoU 为 86.0166%。[v335 固定相机评审](../cad/drone-concept/comparison/v335-tracked-nozzle-corner/README.md)

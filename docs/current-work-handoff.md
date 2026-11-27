@@ -1,12 +1,12 @@
 # VINTROX Drone 外观迭代交接
 
-目标仍在执行。当前发布基线为 `miclle/vintrox` 的 `main` 上的 v329，采用普通 Git 交付。[v329 正式记录](../cad/drone-concept/comparison/v329-five-view-exit-ring/README.md) · [v259 基线](../cad/drone-concept/comparison/v259-rear-beacon-length/README.md)
+目标仍在执行。当前发布基线为 `miclle/vintrox` 的 `main` 上的 v335，采用普通 Git 交付。[v335 正式记录](../cad/drone-concept/comparison/v335-tracked-nozzle-corner/README.md) · [v259 基线](../cad/drone-concept/comparison/v259-rear-beacon-length/README.md)
 
 ## 当前证据
 
-- v329 保留实测 210 × 160 × 2 mm 平面屏、外挂筒、侧控件、格栅和四根支柱。曲面罩按参考外观推导，原作内部和遮挡细节仍有未知项。[设计说明](drone-concept.md)
-- 视频十方位、静态七图和拼图十格平均 IoU 为 86.0149%、82.6113% 和 89.8775%。第 60 和 180 帧末缘最大偏差为屏宽的 8.42% 和 5.01%。视频整圈 90% 与主要部件轮廓偏差 5% 仍待达成。[交付核验](../cad/drone-concept/delivery-verification-current.json)
-- `python3 tools/verify_drone_current_delivery.py` 通过。FCStd 与 STEP 独立读回确认 696 个可见对象、853 个闭合实体。FreeCAD 原生四视图复核颜色和可见性。九张预览、转台和三组固定相机对照已同步。[读回报告](../cad/drone-concept/readback-verification.json) · [原生显示](../cad/drone-concept/comparison/v329-five-view-exit-ring/native-display/native-display-verification.json)
+- v335 保留实测 210 × 160 × 2 mm 平面屏、外挂筒、侧控件、格栅和四根支柱。曲面罩按参考外观推导，原作内部和遮挡细节仍有未知项。[设计说明](drone-concept.md)
+- 视频十方位、静态七图和拼图十格平均 IoU 为 86.0166%、82.6050% 和 89.8742%。第 60 和 180 帧末缘最大偏差为屏宽的 8.42% 和 5.01%。视频整圈 90% 与主要部件轮廓偏差 5% 仍待达成。[交付核验](../cad/drone-concept/delivery-verification-current.json)
+- `python3 tools/verify_drone_current_delivery.py` 通过。FCStd 与 STEP 独立读回确认 696 个可见对象、853 个闭合实体。FreeCAD 原生四视图复核颜色和可见性。九张预览、转台和三组固定相机对照已同步。[读回报告](../cad/drone-concept/readback-verification.json) · [原生显示](../cad/drone-concept/comparison/v335-tracked-nozzle-corner/native-display/native-display-verification.json)
 - v245 新增三处高级几何检查失败。v246 通过候选几何与接合检查，视频得分微升，静态图略降，七个叶片采样视角仍有六个超过 5%。两版均保留试验记录，v246 的 STEP 独立读回和原生颜色显示待验证。参数可配合 v242 的保存网格重建候选。[试验记录](../cad/drone-concept/comparison/v245-v246-petal-terminal/README.md)
 - 重新运行 `tools/measure_drone_lower_pod_outline.py` 读取 v242，确认两侧各 18 片小喷口叶片。四个拟合视角的口沿测量 RMS 为 4.53 px，两个未参与拟合的视角为 7.38 px，最大 12.62 px。测量限定于外端圆弧。小喷口外露部分与前罩内衬仍待结合可见边缘和参考阴影核对。[小喷口读回](../cad/drone-concept/comparison/v242-belly-y097/lower-pod-outline-check.json) · [视频对象归因](../cad/drone-concept/comparison/v242-belly-y097/video-comparison/boundary-regions.json)
 - v247 小喷口镜像姿态试验降低了两张未参与拟合视图的末端偏差，三组整机 IoU 均下降。六处参考近景显示前罩内衬和小喷口多处像素归因落在仍可辨认的暗色表面。后续几何更新应以可辨认的外沿及实体交界为依据。[v247 对照与参数](../cad/drone-concept/comparison/v247-small-pod-pose/README.md)
@@ -120,8 +120,10 @@
 
 - v334 沿三段连续视频追踪喷口端角，第 60、90、180 帧相应端角距 v329 可见边界 5、5、1 px。历史采样与附加追踪均保留，正式评分沿用 v329。[端角追踪](../cad/drone-concept/comparison/v334-nozzle-video-tracks/README.md)
 
+- v335 已采用第 6、10 号喷口叶片的端角修订。第 120 帧原标注最大偏差降至屏宽的 2.17%。第 60 帧 RMS 升至 8.74 px，原标注最大偏差仍为 8.42%。[正式记录](../cad/drone-concept/comparison/v335-tracked-nozzle-corner/README.md)
+
 ## 续接
 
-1. 在 v329 已保存的叶片上测量参考后视与两个斜后视的叶片宽度、末缘和间隙。第 120 帧第 590 行未分辨出三片中央叶片上的独立导轨。沿连续多行对照加强筋、双导轨与叶片基体的实际可见边界，核对参考亮边对应的面。
-2. 从保存 v329 生成候选，在临时目录保存 FCStd 和网格。沿用十个视频姿态、七张静态图与十格拼图检查整机轮廓，再复测关键局部，以同相机的投影屏宽归一化。进入正式交付的候选需补齐 STEP 独立读回、接合与四支柱复查、原生颜色与可见性检查，并同步正式模型、预览与文档。[编辑与复现](drone-concept.md#编辑与复现)
+1. 在 v335 已保存的叶片上测量参考后视与两个斜后视的叶片宽度、末缘和间隙。第 120 帧第 590 行未分辨出三片中央叶片上的独立导轨。沿连续多行对照加强筋、双导轨与叶片基体的实际可见边界，核对参考亮边对应的面。
+2. 从保存 v335 生成候选，在临时目录保存 FCStd 和网格。沿用十个视频姿态、七张静态图与十格拼图检查整机轮廓，再复测关键局部，以同相机的投影屏宽归一化。进入正式交付的候选需补齐 STEP 独立读回、接合与四支柱复查、原生颜色与可见性检查，并同步正式模型、预览与文档。[编辑与复现](drone-concept.md#编辑与复现)
 3. GitHub 发布分支使用精简历史，保留当前正式包、关键基线对照和试验报告。用正式 CAD 与固定相机生成新候选所需网格。[存储说明](storage-cleanup.md)

@@ -1,0 +1,48 @@
+{
+  "fcstd_sha256": "4320b3b1f69000bb0a88613fee2921089654316703140ab3997d38b4e6881925",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "views": [
+    {
+      "view": "video-02",
+      "reference_px": [
+        280,
+        626
+      ],
+      "baseline_px": 5.0,
+      "candidate_px": 5.0,
+      "nearest_px": [
+        280,
+        631
+      ],
+      "object": "NozzlePetalEndHem5"
+    },
+    {
+      "view": "video-03",
+      "reference_px": [
+        263,
+        606
+      ],
+      "baseline_px": 5.0,
+      "candidate_px": 1.0,
+      "nearest_px": [
+        264,
+        606
+      ],
+      "object": "NozzlePetal10"
+    },
+    {
+      "view": "video-06",
+      "reference_px": [
+        632,
+        646
+      ],
+      "baseline_px": 1.0,
+      "candidate_px": 1.0,
+      "nearest_px": [
+        632,
+        645
+      ],
+      "object": "NozzlePetalEndHem0"
+    }
+  ]
+}
