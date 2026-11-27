@@ -1,0 +1,70 @@
+{
+  "revision": "v61-nozzle-fairing-depth3",
+  "status": "appearance-study-only",
+  "physical_validation": false,
+  "fcstd_sha256": "0c5a5e32c69519f8985493906ddc6b5d3f79ffa30cd8463e2604a433de831840",
+  "step_sha256": "3fb6a91e41fa93d54cebc51dafda55c9e6bc6f59d9babca759b930a7d8fe1c93",
+  "visible_objects": 696,
+  "step_solids": 1008,
+  "saved_readback": "cad/drone-concept/readback-verification.json",
+  "saved_readback_sha256": "92c440dd66e494b5d70f8df742f49eeafefc5c467c55c2131becfcd2887b5372",
+  "candidate": {
+    "baseline_fcstd_sha256": "091c0948c5d9643e57aa939439076699c2085d3bb2ab424d28789f743ac7555b",
+    "changed_objects": [
+      "BassNozzleShell",
+      "BassSideStripe0_0",
+      "BassSideStripe0_1",
+      "BassSideStripe0_2",
+      "BassSideStripe1_0",
+      "BassSideStripe1_1",
+      "BassSideStripe1_2",
+      "BassWarningPlaque",
+      "BassWarningRedBand",
+      "BassWarningTriangle",
+      "BassWarningTriangleInset"
+    ],
+    "outer_fairing_middle_depth_reduction_mm": 3,
+    "root_fraction": 0.0,
+    "shoulder_inset_mm": 0.0,
+    "lower_inset_mm": 0.0,
+    "supports_preserved": true
+  },
+  "mesh_archive": {
+    "instructions": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/MESH_ARCHIVE.txt",
+    "source": "drone-nozzle-marking-cache/formal/render-meshes.json",
+    "method": "restored only the required historical mesh mapping before candidate rendering"
+  },
+  "support": {
+    "shafts": 4,
+    "geometry_symmetric_difference_mm3": 0.0,
+    "basis": "saved CAD check; load/stability untested"
+  },
+  "video_comparison": {
+    "path": "cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-report.json",
+    "mean_silhouette_iou": 0.8549201687353198,
+    "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+    "render_manifest_sha256": "a5071ebccbc90c3029172db7986360e9828627a0a37cdd94ab5827746a58fc94",
+    "registration": "camera projection only; no image warp, stretch or per-part alignment"
+  },
+  "stills_comparison": {
+    "path": "cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-stills-comparison/comparison-report.json",
+    "mean_silhouette_iou": 0.8222681557450596,
+    "camera_config_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+    "render_manifest_sha256": "3113e48c16d449828cc51bd11e03871fc15da6fade30a823b101acb55a4bcbcd",
+    "registration": "camera projection only; no image warp, stretch or per-part alignment"
+  },
+  "formal_renders": {
+    "manifest": "cad/drone-concept/renders/render-manifest.json",
+    "manifest_sha256": "a32a9a1700d9944e0c268f4a13b50dde8c2df86944d3a59aa4b8753d5006bdcf",
+    "turntable_sha256": "e015b24aaefed8eaf9953d32c855c4c1d03e299e3cafd6d2d0a138ab796a9b6d",
+    "image_count": 9,
+    "turntable_angles": 96,
+    "color_status": "object-level palette retained from v60 and rendered from v61 meshes"
+  },
+  "limitations": [
+    "silhouette diagnostics only",
+    "no image warp or per-part alignment",
+    "dark cavity remains an occluded recessed housing, not a nozzle tube wall",
+    "no printing, assembly, acoustic, thermal, electrical, load, or physical acceptance"
+  ]
+}

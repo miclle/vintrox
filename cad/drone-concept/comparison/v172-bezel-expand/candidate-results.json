@@ -1,0 +1,27 @@
+{
+  "baseline": "v164",
+  "candidate": "bezel-expansion-0.25mm",
+  "metrics": {
+    "video": {
+      "baseline": 0.8589730720993112,
+      "candidate": 0.8590222053486135,
+      "views": 10
+    },
+    "stills": {
+      "baseline": 0.8252284208832837,
+      "candidate": 0.825167833639025,
+      "views": 7
+    },
+    "sheet": {
+      "baseline": 0.8965107470029394,
+      "candidate": 0.8965865253792551,
+      "views": 10
+    }
+  },
+  "decision": "retain v164",
+  "reason": "Video and contact-sheet means improve, but static mean decreases.",
+  "changed_objects": [
+    "ScreenBezel",
+    "BezelLip"
+  ]
+}

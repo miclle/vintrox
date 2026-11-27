@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v111",
+      "model": "/private/tmp/vintrox-v111.VvqsOV/final-0.3-thin/candidate.FCStd",
+      "fcstd_sha256": "9dd9681ce95c1d67ac99418b0610133229ac332fdcab3c20f016f3e42da6e0d6",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "9dd9681ce95c1d67ac99418b0610133229ac332fdcab3c20f016f3e42da6e0d6",
+      "palette_contract_sha256": "baad11c8ef0054339553da72decb2aabc622a369cdca1aaaaab440a9ad56f27b",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v111-isometric.png",
+          "sha256": "9ac0ebc9888d6b7f0e9e1679c320523df159bbf19ea872afd2442281a151b4e8"
+        },
+        {
+          "view": "front",
+          "path": "v111-front.png",
+          "sha256": "286ac1c81f684120a26280ec455891c649f132e03a2d9a380a7e0c9d419722df"
+        },
+        {
+          "view": "rear",
+          "path": "v111-rear.png",
+          "sha256": "8c93f850721ae5b394d40eb1c4454924bd747db39cfd8cac0b90d22d122d9a82"
+        },
+        {
+          "view": "right",
+          "path": "v111-right.png",
+          "sha256": "31f4fe2e540160ca481697687b157ac5783e208ee2a5e136e83592b2d74c4041"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

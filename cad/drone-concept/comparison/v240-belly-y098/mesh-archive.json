@@ -1,0 +1,10 @@
+{
+  "method": "rebuild-from-saved-fcstd",
+  "fcstd_sha256": "5a1d8e8c0fb8f2140a41c1dbf97da21b69df2af01fd2ef4011fda3feea8b670f",
+  "exporter": "tools/export_saved_drone_meshes.py",
+  "exporter_sha256": "57eb2d587a74fdcd6ad48a0e6ce328ccab8ac3e87fe58313c506056997def57a",
+  "visible_features": 696,
+  "stored_mesh": false,
+  "rebuild_command": "tools/export_saved_drone_meshes.py --output <temporary-mesh-json>",
+  "palette_source": "v239 saved GUI payload"
+}

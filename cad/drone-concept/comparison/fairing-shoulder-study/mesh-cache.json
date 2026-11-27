@@ -1,0 +1,68 @@
+{
+  "mesh_files": [
+    {
+      "role": "s2",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-shoulder-cache/s2-meshes.json",
+      "sha256": "901b126e90fcc1acde9a552a26fb0b553b6173a99599981b7011f21dc10690b3"
+    },
+    {
+      "role": "s4",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-shoulder-cache/s4-meshes.json",
+      "sha256": "95700d590ed115807ac1e5238fd67ca90b7023ee0decece8328b29cba6fa18b3"
+    },
+    {
+      "role": "s6",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-shoulder-cache/s6-meshes.json",
+      "sha256": "8f5e0757cee0645ef54788528aafcc4eb407d90736c3ccd613ae0ad8ed97a4ac"
+    },
+    {
+      "role": "u6",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-shoulder-cache/u6-meshes.json",
+      "sha256": "3f5c72bed5a5eb00983fa4c73763716fd322f766d48177209abdabc05dff16f0"
+    },
+    {
+      "role": "formal-v51",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-shoulder-cache/formal/render-meshes.json",
+      "sha256": "b2639e08e569c2380a07e1db181b6712128914ebb2cf4b45d95eba1931ff1c8b"
+    }
+  ],
+  "exact_v50_baseline": {
+    "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-depth-cache/checkpoint-v50/vintrox-drone-concept.FCStd",
+    "sha256": "094bb2e63081b879e865db74d375f975126968bd2473772973c3dc0b2bd8171a"
+  },
+  "checkpoint": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-shoulder-cache/checkpoint-v51/checkpoint.json",
+  "frozen_sources": [
+    {
+      "repo_source": "tools/drone_concept.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-shoulder-cache/drone_concept.py",
+      "sha256": "e10e6019c972e25f9dc5ee17f7f7fe2c820b7636ef41094a1a2165001cdd7326"
+    },
+    {
+      "repo_source": "tools/drone_fairing_shoulder.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-shoulder-cache/drone_fairing_shoulder.py",
+      "sha256": "4ad28a79eb0a2c48884990fb926d56c9b224f47c75c2bb82c84b95aa1935cc9e"
+    },
+    {
+      "repo_source": "tools/experiment_drone_fairing_shoulder.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-shoulder-cache/experiment_drone_fairing_shoulder.py",
+      "sha256": "0554bc064f118d74ced2a172979011c02f3ae54ae86e474c11604e7c63f01dea"
+    },
+    {
+      "repo_source": "tools/refine_drone_fairing_shoulder.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-shoulder-cache/refine_drone_fairing_shoulder.py",
+      "sha256": "fd53c215233f48edcfc2abacfd12913d65f96b1e1efa04657e895be162328b8e"
+    },
+    {
+      "repo_source": "tools/measure_drone_fairing_shoulder.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-shoulder-cache/measure_drone_fairing_shoulder.py",
+      "sha256": "6e1a0187575cdbf60124cd8d949792b187206e18865ecea72c350eb271f6647f"
+    },
+    {
+      "repo_source": "tools/verify_drone_delivery.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-shoulder-cache/verify_drone_delivery.py",
+      "sha256": "c7d18d11c9fef55dfb00bad93dc2916e509c1a79bc0ade93af994091cc4142dd"
+    }
+  ],
+  "execution_logs_and_scripts": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-shoulder-cache/work",
+  "candidate_rerender_note": "Restore each candidate meshes.json from its cache entry before using review-candidate.py."
+}

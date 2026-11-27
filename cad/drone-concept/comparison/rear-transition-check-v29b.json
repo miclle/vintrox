@@ -1,0 +1,421 @@
+{
+  "fcstd_sha256": "095d3d53367526f0a8d6a2f3936cb8ec1cdea3bf70227f7c27e7b97f98a2b545",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "source_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "measurement_script_sha256": "7289d932d780460de8a9022a4ed1aa3178c1a130cf57776574f56818b0f83e6a",
+  "object_id_manifest_sha256": "3987cae5744cf1dcd7145dcd2f7b92887e28eb97cb364aa208baad87826769dd",
+  "boundary_objects": [
+    "RearArmourCheekLeft",
+    "RearArmourCheekRight",
+    "RearServicePanel",
+    "RearStructuralFrame",
+    "SideGuardLeft",
+    "SideGuardRight",
+    "RearLowerSlope",
+    "MainEnclosureShell",
+    "SideClosureLeft",
+    "SideClosureRight"
+  ],
+  "method": "visible named rear-gold group boundary from flat object-ID render; RGB distance < 6, alpha > 127",
+  "observations": [
+    {
+      "source_frame": 60,
+      "side": "Left",
+      "reference_px": [
+        [
+          326,
+          533
+        ],
+        [
+          350,
+          558
+        ],
+        [
+          376,
+          584
+        ],
+        [
+          405,
+          610
+        ],
+        [
+          433,
+          633
+        ],
+        [
+          460,
+          648
+        ]
+      ],
+      "object_id_image": {
+        "view": "video-02",
+        "path": "video-02.png",
+        "sha256": "1ef157665aa44d7cba425659ef3b87eb8de2df34d6404e985dfd923af0d8721a"
+      },
+      "saved_nearest_px": [
+        [
+          327,
+          531
+        ],
+        [
+          353,
+          556
+        ],
+        [
+          378,
+          582
+        ],
+        [
+          408,
+          612
+        ],
+        [
+          432,
+          633
+        ],
+        [
+          458,
+          646
+        ]
+      ],
+      "distance_px": [
+        2.23606797749979,
+        3.605551275463989,
+        2.8284271247461903,
+        3.605551275463989,
+        1.0,
+        2.8284271247461903
+      ],
+      "distance_rms_px": 2.8284271247461903,
+      "max_distance_px": 3.605551275463989
+    },
+    {
+      "source_frame": 180,
+      "side": "Right",
+      "reference_px": [
+        [
+          621,
+          531
+        ],
+        [
+          597,
+          555
+        ],
+        [
+          572,
+          581
+        ],
+        [
+          546,
+          607
+        ],
+        [
+          520,
+          629
+        ],
+        [
+          492,
+          646
+        ],
+        [
+          467,
+          651
+        ]
+      ],
+      "object_id_image": {
+        "view": "video-06",
+        "path": "video-06.png",
+        "sha256": "690331233e05f232cd0ad10aba4e0f32032e9f14c3c7ee73c093949b26dcb66c"
+      },
+      "saved_nearest_px": [
+        [
+          618,
+          529
+        ],
+        [
+          594,
+          552
+        ],
+        [
+          568,
+          578
+        ],
+        [
+          546,
+          607
+        ],
+        [
+          519,
+          629
+        ],
+        [
+          494,
+          648
+        ],
+        [
+          467,
+          653
+        ]
+      ],
+      "distance_px": [
+        3.605551275463989,
+        4.242640687119285,
+        5.0,
+        0.0,
+        1.0,
+        2.8284271247461903,
+        2.0
+      ],
+      "distance_rms_px": 3.1396087108337016,
+      "max_distance_px": 5.0
+    },
+    {
+      "source_frame": 90,
+      "side": "Left",
+      "reference_px": [
+        [
+          459,
+          504
+        ],
+        [
+          476,
+          530
+        ],
+        [
+          494,
+          556
+        ],
+        [
+          511,
+          582
+        ],
+        [
+          529,
+          608
+        ],
+        [
+          549,
+          630
+        ],
+        [
+          571,
+          636
+        ]
+      ],
+      "object_id_image": {
+        "view": "video-03",
+        "path": "video-03.png",
+        "sha256": "f49c954923699e2bb212a85803bf37bda0e32bdc55c546dd3b3f166c0d47c611"
+      },
+      "saved_nearest_px": [
+        [
+          446,
+          518
+        ],
+        [
+          465,
+          537
+        ],
+        [
+          482,
+          563
+        ],
+        [
+          486,
+          582
+        ],
+        [
+          524,
+          639
+        ],
+        [
+          549,
+          643
+        ],
+        [
+          568,
+          646
+        ]
+      ],
+      "distance_px": [
+        19.1049731745428,
+        13.038404810405298,
+        13.892443989449804,
+        25.0,
+        31.400636936215164,
+        13.0,
+        10.44030650891055
+      ],
+      "distance_rms_px": 19.335385769545507,
+      "max_distance_px": 31.400636936215164
+    },
+    {
+      "source_frame": 150,
+      "side": "Right",
+      "reference_px": [
+        [
+          481,
+          504
+        ],
+        [
+          465,
+          529
+        ],
+        [
+          447,
+          555
+        ],
+        [
+          430,
+          580
+        ],
+        [
+          413,
+          605
+        ],
+        [
+          393,
+          630
+        ],
+        [
+          371,
+          639
+        ]
+      ],
+      "object_id_image": {
+        "view": "video-05",
+        "path": "video-05.png",
+        "sha256": "1fac3ad749519b9df5e238cbb5b433311894105eb1a1d5f62eaf2bb756d3110b"
+      },
+      "saved_nearest_px": [
+        [
+          498,
+          521
+        ],
+        [
+          478,
+          542
+        ],
+        [
+          464,
+          564
+        ],
+        [
+          460,
+          580
+        ],
+        [
+          420,
+          639
+        ],
+        [
+          396,
+          643
+        ],
+        [
+          373,
+          647
+        ]
+      ],
+      "distance_px": [
+        24.041630560342615,
+        18.384776310850235,
+        19.235384061671343,
+        30.0,
+        34.713109915419565,
+        13.341664064126334,
+        8.246211251235321
+      ],
+      "distance_rms_px": 22.7941095147722,
+      "max_distance_px": 34.713109915419565
+    }
+  ],
+  "distance_rms_px": 15.361085995559135,
+  "max_distance_px": 34.713109915419565,
+  "contacts": [
+    {
+      "objects": [
+        "RearArmourCheekLeft",
+        "RearStructuralFrame"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "RearArmourCheekLeft",
+        "RearServicePanel"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 153.27233550166292
+    },
+    {
+      "objects": [
+        "RearArmourCheekLeft",
+        "SideGuardLeft"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 1205.180478185637
+    },
+    {
+      "objects": [
+        "RearArmourCheekRight",
+        "RearStructuralFrame"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "RearArmourCheekRight",
+        "RearServicePanel"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 153.27233550166764
+    },
+    {
+      "objects": [
+        "RearArmourCheekRight",
+        "SideGuardRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 1205.1804783043517
+    }
+  ],
+  "parts": [
+    {
+      "name": "RearArmourCheekLeft",
+      "valid": true,
+      "solids": 1,
+      "bounds_mm": [
+        -116.76002997578523,
+        -88.99999989999993,
+        162.64450141418322,
+        248.0000001,
+        67.29999989999999,
+        222.00000010000005
+      ]
+    },
+    {
+      "name": "RearArmourCheekRight",
+      "valid": true,
+      "solids": 1,
+      "bounds_mm": [
+        88.99999989999993,
+        116.76002997578523,
+        162.64450141418322,
+        248.0000001,
+        67.29999989999999,
+        222.00000010000005
+      ]
+    }
+  ],
+  "rear_armour_bolt_objects": [],
+  "limitations": [
+    "manual lower gold boundaries, including some partly occluded segments",
+    "visible object-ID group boundary includes occlusion by adjacent non-gold parts",
+    "fixed cameras and unchanged source/CAD masks; no image warping",
+    "cross-section, thickness and upper hidden joins remain appearance assumptions",
+    "point distances do not establish the complete 3D contour or manufacturing accuracy"
+  ]
+}

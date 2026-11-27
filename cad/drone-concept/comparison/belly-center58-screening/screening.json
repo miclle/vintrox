@@ -1,0 +1,26 @@
+{
+  "baseline": "v229-belly-center60",
+  "baseline_fcstd_sha256": "2d33864c9ef400875d67a4197b93b84889557a1ece28354f2e9cb36dbf2d7a09",
+  "candidate_fcstd_sha256": "21a055d4b1f4fac8060534f079910ad527cde8ec4bb82817ba2d70d76cab6631",
+  "candidate_step_sha256": "09b57358d7d0471ddcb2626b2abfbbb95002d77464ae9851f3589a63829a1db1",
+  "central_half_width_mm": 29.0,
+  "video_baseline": 0.859157578083332,
+  "video_candidate": 0.8591557704178973,
+  "delta": -1.8076654347831678e-06,
+  "decision": "retain v229",
+  "changed_objects": [
+    "ClosedBellyPan",
+    "BellyServicePlateLeft",
+    "BellyServicePlateRight",
+    "BellyServiceBoltLeft0",
+    "BellyServiceBoltLeft1",
+    "BellyServiceBoltRight0",
+    "BellyServiceBoltRight1"
+  ],
+  "method": "saved real-CAD belly side-wing screening with fixed ten-video cameras",
+  "limitations": [
+    "video-only screening after v230 regression",
+    "central support strip remains protected",
+    "no manufacturing, fit, acoustic, thermal, electrical or physical acceptance"
+  ]
+}

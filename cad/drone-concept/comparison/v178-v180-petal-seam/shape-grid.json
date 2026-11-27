@@ -1,0 +1,159 @@
+{
+  "fcstd_sha256": "5ad1ff683bea72703edbf43bf349d99f13a73149772ccc08a5fb238e6b684a02",
+  "trials": [
+    {
+      "station_mm": 110,
+      "factor": 1.5,
+      "radial_shift": 7,
+      "centre_shift": 3.5,
+      "failures": [
+        {
+          "name": "NozzlePetal0",
+          "advanced_errors": [
+            "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+          ],
+          "baseline_errors": []
+        },
+        {
+          "name": "NozzlePetal4",
+          "advanced_errors": [
+            "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+          ],
+          "baseline_errors": []
+        }
+      ]
+    },
+    {
+      "station_mm": 108,
+      "factor": 1.5,
+      "radial_shift": 7,
+      "centre_shift": 3.5,
+      "failures": [
+        {
+          "name": "NozzlePetal0",
+          "advanced_errors": [
+            "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+          ],
+          "baseline_errors": []
+        },
+        {
+          "name": "NozzlePetal4",
+          "advanced_errors": [
+            "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+          ],
+          "baseline_errors": []
+        },
+        {
+          "name": "NozzlePetalRidge9",
+          "valid": true,
+          "closed": true,
+          "solids": 2
+        },
+        {
+          "name": "NozzlePetalRidge10",
+          "valid": true,
+          "closed": true,
+          "solids": 2
+        }
+      ]
+    },
+    {
+      "station_mm": 107,
+      "factor": 1.5,
+      "radial_shift": 7,
+      "centre_shift": 3.5,
+      "failures": [
+        {
+          "name": "NozzlePetal0",
+          "advanced_errors": [
+            "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Face: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+          ],
+          "baseline_errors": []
+        },
+        {
+          "name": "NozzlePetal4",
+          "advanced_errors": [
+            "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+          ],
+          "baseline_errors": []
+        },
+        {
+          "name": "NozzlePetalRidge9",
+          "valid": true,
+          "closed": true,
+          "solids": 2
+        },
+        {
+          "name": "NozzlePetalRidge10",
+          "valid": true,
+          "closed": true,
+          "solids": 2
+        }
+      ]
+    },
+    {
+      "station_mm": 110,
+      "factor": 1.5,
+      "radial_shift": 9.84,
+      "centre_shift": 0,
+      "failures": [
+        {
+          "name": "NozzlePetal0",
+          "advanced_errors": [
+            "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+          ],
+          "baseline_errors": []
+        },
+        {
+          "name": "NozzlePetal4",
+          "advanced_errors": [
+            "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+          ],
+          "baseline_errors": []
+        }
+      ]
+    },
+    {
+      "station_mm": 108,
+      "factor": 1.5,
+      "radial_shift": 5,
+      "centre_shift": 2,
+      "failures": [
+        {
+          "name": "NozzlePetal4",
+          "advanced_errors": [
+            "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+            "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+          ],
+          "baseline_errors": []
+        },
+        {
+          "name": "NozzlePetalRidge9",
+          "valid": true,
+          "closed": true,
+          "solids": 2
+        },
+        {
+          "name": "NozzlePetalRidge10",
+          "valid": true,
+          "closed": true,
+          "solids": 2
+        }
+      ]
+    }
+  ]
+}

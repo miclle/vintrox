@@ -1,0 +1,144 @@
+{
+  "fcstd_sha256": "35643a0e7ca7aae08e4053c44077528466d16d0202f3b9ce5caf0956f7cfd0bf",
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "render_manifest_sha256": "8410716b628ed8242912f750e02b46fdc96517652a4b3514c5d5f9dbf7709b93",
+  "comparison_script_sha256": "ed57fa2f00c3e600fb773d14b16c33179904e1210d307ca9a8de058ba6cfcfa4",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "camera_status": "joint 32-landmark perspective fit; 1.95 px coordinate RMS; source curved screen approximated",
+  "registration": "camera projection only; no image warp, stretch or per-part alignment",
+  "excluded_from_cad": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "mask_method": "reference max(RGB)>18; one-pixel closing; fill holes smaller than 100 pixels; CAD alpha>127",
+  "limitations": [
+    "black-material/background ambiguity",
+    "camera fit uncertainty",
+    "visible surfaces only"
+  ],
+  "mean_silhouette_iou": 0.8591482620649231,
+  "views": [
+    {
+      "view": "video-00",
+      "source_frame": 0,
+      "time_seconds": 0,
+      "source_image": null,
+      "score_interpretation": "silhouette diagnostic only",
+      "silhouette_iou": 0.8767055284314723,
+      "symmetric_edge_mean_px": 35.312759804936746,
+      "symmetric_edge_p95_px": 138.0746096876252,
+      "reference_foreground_px": 361385,
+      "cad_foreground_px": 394704
+    },
+    {
+      "view": "video-01",
+      "source_frame": 30,
+      "time_seconds": 1,
+      "source_image": null,
+      "score_interpretation": "silhouette diagnostic only",
+      "silhouette_iou": 0.8650835671552625,
+      "symmetric_edge_mean_px": 43.35654901515973,
+      "symmetric_edge_p95_px": 155.42550236154523,
+      "reference_foreground_px": 314446,
+      "cad_foreground_px": 344281
+    },
+    {
+      "view": "video-02",
+      "source_frame": 60,
+      "time_seconds": 2,
+      "source_image": null,
+      "score_interpretation": "silhouette diagnostic only",
+      "silhouette_iou": 0.8500770359604427,
+      "symmetric_edge_mean_px": 43.612586913970524,
+      "symmetric_edge_p95_px": 167.23606003664324,
+      "reference_foreground_px": 310982,
+      "cad_foreground_px": 345849
+    },
+    {
+      "view": "video-03",
+      "source_frame": 90,
+      "time_seconds": 3,
+      "source_image": null,
+      "score_interpretation": "silhouette diagnostic only",
+      "silhouette_iou": 0.834259990111806,
+      "symmetric_edge_mean_px": 40.65647656920789,
+      "symmetric_edge_p95_px": 178.0,
+      "reference_foreground_px": 300403,
+      "cad_foreground_px": 334007
+    },
+    {
+      "view": "video-04",
+      "source_frame": 120,
+      "time_seconds": 4,
+      "source_image": null,
+      "score_interpretation": "silhouette diagnostic only",
+      "silhouette_iou": 0.8358661809422656,
+      "symmetric_edge_mean_px": 18.843825202711187,
+      "symmetric_edge_p95_px": 86.88498144098322,
+      "reference_foreground_px": 265993,
+      "cad_foreground_px": 288859
+    },
+    {
+      "view": "video-05",
+      "source_frame": 150,
+      "time_seconds": 5,
+      "source_image": null,
+      "score_interpretation": "silhouette diagnostic only",
+      "silhouette_iou": 0.8172363654988148,
+      "symmetric_edge_mean_px": 36.35527755920317,
+      "symmetric_edge_p95_px": 164.75648696808847,
+      "reference_foreground_px": 297264,
+      "cad_foreground_px": 341391
+    },
+    {
+      "view": "video-06",
+      "source_frame": 180,
+      "time_seconds": 6,
+      "source_image": null,
+      "score_interpretation": "silhouette diagnostic only",
+      "silhouette_iou": 0.8396700367699294,
+      "symmetric_edge_mean_px": 45.096414000110514,
+      "symmetric_edge_p95_px": 167.14664220378464,
+      "reference_foreground_px": 303371,
+      "cad_foreground_px": 344042
+    },
+    {
+      "view": "video-07",
+      "source_frame": 210,
+      "time_seconds": 7,
+      "source_image": null,
+      "score_interpretation": "silhouette diagnostic only",
+      "silhouette_iou": 0.8941447324983566,
+      "symmetric_edge_mean_px": 44.95050300276953,
+      "symmetric_edge_p95_px": 174.20272970268056,
+      "reference_foreground_px": 319018,
+      "cad_foreground_px": 340813
+    },
+    {
+      "view": "video-08",
+      "source_frame": 240,
+      "time_seconds": 8,
+      "source_image": null,
+      "score_interpretation": "silhouette diagnostic only",
+      "silhouette_iou": 0.8988941223076548,
+      "symmetric_edge_mean_px": 37.42994046266866,
+      "symmetric_edge_p95_px": 139.3549359185848,
+      "reference_foreground_px": 355925,
+      "cad_foreground_px": 382253
+    },
+    {
+      "view": "video-09",
+      "source_frame": 270,
+      "time_seconds": 9,
+      "source_image": null,
+      "score_interpretation": "silhouette diagnostic only",
+      "silhouette_iou": 0.8795450609732254,
+      "symmetric_edge_mean_px": 23.385977726196863,
+      "symmetric_edge_p95_px": 94.0,
+      "reference_foreground_px": 325484,
+      "cad_foreground_px": 347442
+    }
+  ]
+}

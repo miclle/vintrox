@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v88-petal-contract096",
+      "model": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/v88-petal-contract096/candidate.FCStd",
+      "fcstd_sha256": "e2442193a009663bebf925ba67bf00030851d0129759ddf778d0bfcc594a8fe4",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "e2442193a009663bebf925ba67bf00030851d0129759ddf778d0bfcc594a8fe4",
+      "palette_contract_sha256": "b10cc25e021d270f9238f565fca02867c52242805724e063323cf69cbcae78bb",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v88-petal-contract096-isometric.png",
+          "sha256": "5b8f3711f9605eae7f37361a100ee4803c086badce791b062dfcb29839b2f65c"
+        },
+        {
+          "view": "front",
+          "path": "v88-petal-contract096-front.png",
+          "sha256": "565399f0a5208ead6b4d272cfddde1ed257bfe70d1dc579675e68f4fee7b201a"
+        },
+        {
+          "view": "rear",
+          "path": "v88-petal-contract096-rear.png",
+          "sha256": "28e0cd038e51346a04deeab759e21ae395a3e8a3027291e79234dc3b3b485b51"
+        },
+        {
+          "view": "right",
+          "path": "v88-petal-contract096-right.png",
+          "sha256": "c082c9b8d8bf08dcee30e4954534243331b27121bd491e78b5d4cb9fb0f0afad"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "candidate_fcstd_sha256": "7425814609758177b4c21e64aaf78757422376ed695de556e608571ee0d7ff99",
+  "source_script_sha256": "4439153a5aa9573d982ccdb77547e5dfe4e13ed696c7901bc35ce67a86c0f343",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "method": "fixed whole upper-strip ROI, reference black-background mask vs CAD alpha; no part omission or registration",
+  "limitations": [
+    "ROI includes adjacent wings and antenna; not isolated grip contour acceptance",
+    "dark material ambiguity; manual cross-section hypothesis; no dimensional measurement"
+  ],
+  "views": [
+    {
+      "view": "video-00",
+      "roi_px": [
+        180,
+        90,
+        750,
+        200
+      ],
+      "baseline": {
+        "iou": 0.8527354484136898,
+        "edge_mean_px": 4.127520573578736,
+        "edge_p95_px": 22.360679774997898
+      },
+      "candidate": {
+        "iou": 0.85561002451103,
+        "edge_mean_px": 4.059438261775325,
+        "edge_p95_px": 22.360679774997898
+      }
+    },
+    {
+      "view": "video-01",
+      "roi_px": [
+        180,
+        90,
+        750,
+        200
+      ],
+      "baseline": {
+        "iou": 0.8470427435387674,
+        "edge_mean_px": 3.587883501113738,
+        "edge_p95_px": 15.016648189186455
+      },
+      "candidate": {
+        "iou": 0.8434524545566959,
+        "edge_mean_px": 3.684471522188081,
+        "edge_p95_px": 15.264337522473747
+      }
+    },
+    {
+      "view": "video-02",
+      "roi_px": [
+        180,
+        90,
+        750,
+        200
+      ],
+      "baseline": {
+        "iou": 0.9053955572350131,
+        "edge_mean_px": 4.5512928093956715,
+        "edge_p95_px": 21.0
+      },
+      "candidate": {
+        "iou": 0.9017561788989592,
+        "edge_mean_px": 4.634083943085449,
+        "edge_p95_px": 21.0
+      }
+    },
+    {
+      "view": "video-03",
+      "roi_px": [
+        180,
+        90,
+        750,
+        200
+      ],
+      "baseline": {
+        "iou": 0.8813018057153591,
+        "edge_mean_px": 2.8600748742930415,
+        "edge_p95_px": 13.038404810405298
+      },
+      "candidate": {
+        "iou": 0.8828985371122643,
+        "edge_mean_px": 2.832271748306986,
+        "edge_p95_px": 13.124311031075754
+      }
+    },
+    {
+      "view": "video-04",
+      "roi_px": [
+        180,
+        90,
+        750,
+        200
+      ],
+      "baseline": {
+        "iou": 0.8558273961553973,
+        "edge_mean_px": 3.328849480679276,
+        "edge_p95_px": 11.0
+      },
+      "candidate": {
+        "iou": 0.8591375677977497,
+        "edge_mean_px": 3.264449888330905,
+        "edge_p95_px": 11.0
+      }
+    },
+    {
+      "view": "video-05",
+      "roi_px": [
+        180,
+        90,
+        750,
+        200
+      ],
+      "baseline": {
+        "iou": 0.8842535787321063,
+        "edge_mean_px": 3.030134197751664,
+        "edge_p95_px": 16.845277531107975
+      },
+      "candidate": {
+        "iou": 0.8884257697682263,
+        "edge_mean_px": 2.950431133528927,
+        "edge_p95_px": 16.94968187891555
+      }
+    },
+    {
+      "view": "video-06",
+      "roi_px": [
+        180,
+        90,
+        750,
+        200
+      ],
+      "baseline": {
+        "iou": 0.9479596387557141,
+        "edge_mean_px": 1.9571923999871965,
+        "edge_p95_px": 7.0710678118654755
+      },
+      "candidate": {
+        "iou": 0.944977073780742,
+        "edge_mean_px": 2.055140016551495,
+        "edge_p95_px": 8.06225774829855
+      }
+    },
+    {
+      "view": "video-07",
+      "roi_px": [
+        180,
+        90,
+        750,
+        200
+      ],
+      "baseline": {
+        "iou": 0.852332268370607,
+        "edge_mean_px": 3.580063603941921,
+        "edge_p95_px": 14.198563447587688
+      },
+      "candidate": {
+        "iou": 0.8472429446684232,
+        "edge_mean_px": 3.709842846123019,
+        "edge_p95_px": 16.0
+      }
+    },
+    {
+      "view": "video-08",
+      "roi_px": [
+        180,
+        90,
+        750,
+        200
+      ],
+      "baseline": {
+        "iou": 0.8619590320313284,
+        "edge_mean_px": 4.099248246113833,
+        "edge_p95_px": 19.235384061671343
+      },
+      "candidate": {
+        "iou": 0.864547235196625,
+        "edge_mean_px": 4.079316505540249,
+        "edge_p95_px": 19.274295988749657
+      }
+    },
+    {
+      "view": "video-09",
+      "roi_px": [
+        180,
+        90,
+        750,
+        200
+      ],
+      "baseline": {
+        "iou": 0.8494731443491235,
+        "edge_mean_px": 3.4589472463930746,
+        "edge_p95_px": 12.041594578792296
+      },
+      "candidate": {
+        "iou": 0.8508812832229786,
+        "edge_mean_px": 3.428136554494823,
+        "edge_p95_px": 12.041594578792296
+      }
+    }
+  ]
+}

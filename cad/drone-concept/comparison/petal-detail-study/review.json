@@ -1,0 +1,573 @@
+{
+  "baseline_revision": "v45-inset-status-rim",
+  "baseline_fcstd_sha256": "b386c41de3c1ad8983d5397d1c5509545b22864bc1194007796de6a55102d958",
+  "formal_revision": "v46-curved-petal-hardware",
+  "formal_fcstd_sha256": "475c208851231c3c98da53e59c62ad1a18de1bf969f6d0622db8e5f93b03b7e5",
+  "adopted": "F",
+  "frozen_sources": [
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-detail-cache/experiment_drone_petal_detail.py",
+      "sha256": "5f72ec0b1346378bc81521c5ae6dc4a7e38711ff5127ad06222a9dcdc0abfabe"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-detail-cache/experiment_drone_petal_roll.py",
+      "sha256": "f39ee40804d916627545300482a71ba89fc358d50212bfc278b62da8b7026471"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-detail-cache/experiment_drone_petal_roll_f.py",
+      "sha256": "bbeb97fd4af8e4280cd66ba74871ed0034ec18783c2426ddeb22099cd6507a66"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-detail-cache/measure_drone_petal_detail.py",
+      "sha256": "7b64b352ad432658adec348ec3647deb4d78e91e44293ace5e9dbf9805772821"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-detail-cache/measure_drone_petal_roll_f.py",
+      "sha256": "31789d7bdf8fed39639c96a20065344c73331cb0f1f4b57aed76a7d668e198f7"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-detail-cache/drone_petal_hardware.py",
+      "sha256": "93002869bb9045ffd60caaa53236e4e42af8d956bd3c9e072688b78b6ca92bd2"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-detail-cache/measure_drone_petal_hardware.py",
+      "sha256": "17f9e98568bde22c045c65eb00ea309c0a2d45384f2fdeeda6ddc5b1a95ec27f"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-detail-cache/refine_drone_petal_detail.py",
+      "sha256": "a167a2c16bd7b4daffcedcf7a4e5ac2543e4cea17e3787c7f66c1f94d7305040"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-detail-cache/drone_concept-v45.py",
+      "sha256": "ea0e8d19af84a27eb2312faef51a10bc5eee8f52829f75d1fe33f4dd40ba2edf"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-detail-cache/drone_concept-v46.py",
+      "sha256": "8ca4ba0e60ed48148d98ce8ce6dbffc5f15bc12d41d36babf7c0a19345bad63e"
+    }
+  ],
+  "candidates": {
+    "d": {
+      "fcstd_sha256": "618f698de91a34c3182e14328ed50609120252b338c32b21bfba0cc441335bab",
+      "changed_objects": [
+        "NozzlePetalRidge0",
+        "NozzlePetalGuide0_0",
+        "NozzlePetalGuide0_1",
+        "NozzlePetalRidge1",
+        "NozzlePetalGuide1_0",
+        "NozzlePetalGuide1_1",
+        "NozzlePetalRidge2",
+        "NozzlePetalGuide2_0",
+        "NozzlePetalGuide2_1",
+        "NozzlePetalRidge3",
+        "NozzlePetalGuide3_0",
+        "NozzlePetalGuide3_1",
+        "NozzlePetalRidge4",
+        "NozzlePetalGuide4_0",
+        "NozzlePetalGuide4_1",
+        "NozzlePetalRidge5",
+        "NozzlePetalGuide5_0",
+        "NozzlePetalGuide5_1",
+        "NozzlePetalRidge6",
+        "NozzlePetalGuide6_0",
+        "NozzlePetalGuide6_1",
+        "NozzlePetalRidge7",
+        "NozzlePetalGuide7_0",
+        "NozzlePetalGuide7_1",
+        "NozzlePetalRidge8",
+        "NozzlePetalGuide8_0",
+        "NozzlePetalGuide8_1",
+        "NozzlePetalRidge9",
+        "NozzlePetalGuide9_0",
+        "NozzlePetalGuide9_1",
+        "NozzlePetalRidge10",
+        "NozzlePetalGuide10_0",
+        "NozzlePetalGuide10_1",
+        "NozzlePetalRidge11",
+        "NozzlePetalGuide11_0",
+        "NozzlePetalGuide11_1"
+      ],
+      "mesh_cache": {
+        "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-detail-cache/d-meshes.json",
+        "sha256": "84d63849d844d74f79776790418eff5fc04e1a493ad1cad92b1821872ef6a638"
+      },
+      "geometry_check_sha256": "85ebfc34e9455fb9c81f00d355ec0a559f94832fec423bade09a425dae37f630",
+      "views": {
+        "video": {
+          "baseline_mean_iou": 0.8484931564112387,
+          "mean_iou": 0.8484761214214315,
+          "comparison_sha256": "c09e717f0b43252ce93c141824506da10204be6af24f58abcf80eaa049f97490",
+          "per_view": [
+            {
+              "view": "video-00",
+              "baseline_iou": 0.8734462579322946,
+              "candidate_iou": 0.8734462579322946,
+              "delta": 0.0
+            },
+            {
+              "view": "video-01",
+              "baseline_iou": 0.8554437506968446,
+              "candidate_iou": 0.8553960644406042,
+              "delta": -4.768625624040901e-05
+            },
+            {
+              "view": "video-02",
+              "baseline_iou": 0.8376149942932578,
+              "candidate_iou": 0.8376034762520282,
+              "delta": -1.1518041229563458e-05
+            },
+            {
+              "view": "video-03",
+              "baseline_iou": 0.819057038865555,
+              "candidate_iou": 0.8190111426466097,
+              "delta": -4.5896218945351563e-05
+            },
+            {
+              "view": "video-04",
+              "baseline_iou": 0.8183989362388815,
+              "candidate_iou": 0.8183989362388815,
+              "delta": 0.0
+            },
+            {
+              "view": "video-05",
+              "baseline_iou": 0.8039326978185211,
+              "candidate_iou": 0.803921568627451,
+              "delta": -1.1129191070047284e-05
+            },
+            {
+              "view": "video-06",
+              "baseline_iou": 0.8251796327508205,
+              "candidate_iou": 0.8251796327508205,
+              "delta": 0.0
+            },
+            {
+              "view": "video-07",
+              "baseline_iou": 0.8779943118931869,
+              "candidate_iou": 0.8779401917026004,
+              "delta": -5.4120190586481876e-05
+            },
+            {
+              "view": "video-08",
+              "baseline_iou": 0.893606489195306,
+              "candidate_iou": 0.893606489195306,
+              "delta": 0.0
+            },
+            {
+              "view": "video-09",
+              "baseline_iou": 0.8802574544277193,
+              "candidate_iou": 0.8802574544277193,
+              "delta": 0.0
+            }
+          ]
+        },
+        "stills": {
+          "baseline_mean_iou": 0.8194408597662175,
+          "mean_iou": 0.819436848750427,
+          "comparison_sha256": "3e16382068ee68acf2c5f3d2c080b1aeaad215be72ee4a50dd1dce9179582718",
+          "per_view": [
+            {
+              "view": "still-01",
+              "baseline_iou": 0.8650207256828119,
+              "candidate_iou": 0.8650207256828119,
+              "delta": 0.0
+            },
+            {
+              "view": "still-02",
+              "baseline_iou": 0.8671098682331476,
+              "candidate_iou": 0.8671098682331476,
+              "delta": 0.0
+            },
+            {
+              "view": "still-03",
+              "baseline_iou": 0.8487970010695631,
+              "candidate_iou": 0.8487970010695631,
+              "delta": 0.0
+            },
+            {
+              "view": "still-04",
+              "baseline_iou": 0.7805294806579615,
+              "candidate_iou": 0.7805294806579615,
+              "delta": 0.0
+            },
+            {
+              "view": "still-05",
+              "baseline_iou": 0.7693838471875765,
+              "candidate_iou": 0.7693557700770431,
+              "delta": -2.807711053331996e-05
+            },
+            {
+              "view": "still-06",
+              "baseline_iou": 0.7372434930981249,
+              "candidate_iou": 0.7372434930981249,
+              "delta": 0.0
+            },
+            {
+              "view": "still-closeup",
+              "baseline_iou": 0.8680016024343364,
+              "candidate_iou": 0.8680016024343364,
+              "delta": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "e": {
+      "fcstd_sha256": "2e1950d057a20999b6c6225012239dea3ed68a63b3c1688c8609c8dda7a27195",
+      "changed_objects": [
+        "NozzlePetalRidge0",
+        "NozzlePetalGuide0_0",
+        "NozzlePetalGuide0_1",
+        "NozzlePetalHinge0",
+        "NozzlePetalRidge1",
+        "NozzlePetalGuide1_0",
+        "NozzlePetalGuide1_1",
+        "NozzlePetalHinge1",
+        "NozzlePetalRidge2",
+        "NozzlePetalGuide2_0",
+        "NozzlePetalGuide2_1",
+        "NozzlePetalHinge2",
+        "NozzlePetalRidge3",
+        "NozzlePetalGuide3_0",
+        "NozzlePetalGuide3_1",
+        "NozzlePetalHinge3",
+        "NozzlePetalRidge4",
+        "NozzlePetalGuide4_0",
+        "NozzlePetalGuide4_1",
+        "NozzlePetalHinge4",
+        "NozzlePetalRidge5",
+        "NozzlePetalGuide5_0",
+        "NozzlePetalGuide5_1",
+        "NozzlePetalHinge5",
+        "NozzlePetalRidge6",
+        "NozzlePetalGuide6_0",
+        "NozzlePetalGuide6_1",
+        "NozzlePetalHinge6",
+        "NozzlePetalRidge7",
+        "NozzlePetalGuide7_0",
+        "NozzlePetalGuide7_1",
+        "NozzlePetalHinge7",
+        "NozzlePetalRidge8",
+        "NozzlePetalGuide8_0",
+        "NozzlePetalGuide8_1",
+        "NozzlePetalHinge8",
+        "NozzlePetalRidge9",
+        "NozzlePetalGuide9_0",
+        "NozzlePetalGuide9_1",
+        "NozzlePetalHinge9",
+        "NozzlePetalRidge10",
+        "NozzlePetalGuide10_0",
+        "NozzlePetalGuide10_1",
+        "NozzlePetalHinge10",
+        "NozzlePetalRidge11",
+        "NozzlePetalGuide11_0",
+        "NozzlePetalGuide11_1",
+        "NozzlePetalHinge11"
+      ],
+      "mesh_cache": {
+        "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-detail-cache/e-meshes.json",
+        "sha256": "61feddb874bcf9bfecacab7442ea6c659305405c1565c1382ba445ec6eb5e2e0"
+      },
+      "geometry_check_sha256": "cf06e68c72328726b6e3bc37b98312d80d89877c078076984f06f463dfd6b604",
+      "views": {
+        "video": {
+          "baseline_mean_iou": 0.8484931564112387,
+          "mean_iou": 0.848467575895022,
+          "comparison_sha256": "077ca176b14d5a1949211ff0dea4f5384f7709f133aab984c59e8db95349924d",
+          "per_view": [
+            {
+              "view": "video-00",
+              "baseline_iou": 0.8734462579322946,
+              "candidate_iou": 0.8734462579322946,
+              "delta": 0.0
+            },
+            {
+              "view": "video-01",
+              "baseline_iou": 0.8554437506968446,
+              "candidate_iou": 0.8553817596004304,
+              "delta": -6.199109641424894e-05
+            },
+            {
+              "view": "video-02",
+              "baseline_iou": 0.8376149942932578,
+              "candidate_iou": 0.837568924028876,
+              "delta": -4.6070264381858905e-05
+            },
+            {
+              "view": "video-03",
+              "baseline_iou": 0.819057038865555,
+              "candidate_iou": 0.8190111426466097,
+              "delta": -4.5896218945351563e-05
+            },
+            {
+              "view": "video-04",
+              "baseline_iou": 0.8183989362388815,
+              "candidate_iou": 0.8183989362388815,
+              "delta": 0.0
+            },
+            {
+              "view": "video-05",
+              "baseline_iou": 0.8039326978185211,
+              "candidate_iou": 0.803921568627451,
+              "delta": -1.1129191070047284e-05
+            },
+            {
+              "view": "video-06",
+              "baseline_iou": 0.8251796327508205,
+              "candidate_iou": 0.825143034550051,
+              "delta": -3.6598200769510925e-05
+            },
+            {
+              "view": "video-07",
+              "baseline_iou": 0.8779943118931869,
+              "candidate_iou": 0.8779401917026004,
+              "delta": -5.4120190586481876e-05
+            },
+            {
+              "view": "video-08",
+              "baseline_iou": 0.893606489195306,
+              "candidate_iou": 0.893606489195306,
+              "delta": 0.0
+            },
+            {
+              "view": "video-09",
+              "baseline_iou": 0.8802574544277193,
+              "candidate_iou": 0.8802574544277193,
+              "delta": 0.0
+            }
+          ]
+        },
+        "stills": {
+          "baseline_mean_iou": 0.8194408597662175,
+          "mean_iou": 0.8194330739441563,
+          "comparison_sha256": "b5d1eeb11ffc25a2e6edc0d9c21db6cda865c7970a42ac765b45d2fbaf2eb9f4",
+          "per_view": [
+            {
+              "view": "still-01",
+              "baseline_iou": 0.8650207256828119,
+              "candidate_iou": 0.8650207256828119,
+              "delta": 0.0
+            },
+            {
+              "view": "still-02",
+              "baseline_iou": 0.8671098682331476,
+              "candidate_iou": 0.8671098682331476,
+              "delta": 0.0
+            },
+            {
+              "view": "still-03",
+              "baseline_iou": 0.8487970010695631,
+              "candidate_iou": 0.8487970010695631,
+              "delta": 0.0
+            },
+            {
+              "view": "still-04",
+              "baseline_iou": 0.7805294806579615,
+              "candidate_iou": 0.7805294806579615,
+              "delta": 0.0
+            },
+            {
+              "view": "still-05",
+              "baseline_iou": 0.7693838471875765,
+              "candidate_iou": 0.7693293464331482,
+              "delta": -5.450075442825497e-05
+            },
+            {
+              "view": "still-06",
+              "baseline_iou": 0.7372434930981249,
+              "candidate_iou": 0.7372434930981249,
+              "delta": 0.0
+            },
+            {
+              "view": "still-closeup",
+              "baseline_iou": 0.8680016024343364,
+              "candidate_iou": 0.8680016024343364,
+              "delta": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "f": {
+      "fcstd_sha256": "2c347bfbc03e049803c348c1717cca61e7a9002c375db0a9b706b05947a3645f",
+      "changed_objects": [
+        "NozzlePetalRidge0",
+        "NozzlePetalGuide0_0",
+        "NozzlePetalGuide0_1",
+        "NozzlePetalHinge0",
+        "NozzlePetalRidge1",
+        "NozzlePetalGuide1_0",
+        "NozzlePetalGuide1_1",
+        "NozzlePetalHinge1",
+        "NozzlePetalRidge2",
+        "NozzlePetalGuide2_0",
+        "NozzlePetalGuide2_1",
+        "NozzlePetalHinge2",
+        "NozzlePetalRidge3",
+        "NozzlePetalGuide3_0",
+        "NozzlePetalGuide3_1",
+        "NozzlePetalHinge3",
+        "NozzlePetalRidge4",
+        "NozzlePetalGuide4_0",
+        "NozzlePetalGuide4_1",
+        "NozzlePetalHinge4",
+        "NozzlePetalRidge5",
+        "NozzlePetalGuide5_0",
+        "NozzlePetalGuide5_1",
+        "NozzlePetalHinge5",
+        "NozzlePetalRidge6",
+        "NozzlePetalGuide6_0",
+        "NozzlePetalGuide6_1",
+        "NozzlePetalHinge6",
+        "NozzlePetalRidge7",
+        "NozzlePetalGuide7_0",
+        "NozzlePetalGuide7_1",
+        "NozzlePetalHinge7",
+        "NozzlePetalRidge8",
+        "NozzlePetalGuide8_0",
+        "NozzlePetalGuide8_1",
+        "NozzlePetalHinge8",
+        "NozzlePetalRidge9",
+        "NozzlePetalGuide9_0",
+        "NozzlePetalGuide9_1",
+        "NozzlePetalHinge9",
+        "NozzlePetalRidge10",
+        "NozzlePetalGuide10_0",
+        "NozzlePetalGuide10_1",
+        "NozzlePetalHinge10",
+        "NozzlePetalRidge11",
+        "NozzlePetalGuide11_0",
+        "NozzlePetalGuide11_1",
+        "NozzlePetalHinge11"
+      ],
+      "mesh_cache": {
+        "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-detail-cache/f-meshes.json",
+        "sha256": "8e5a94c8943a292b4f5d7162be263a0f270f6c5158ed20a285ee51ea1ecd053a"
+      },
+      "geometry_check_sha256": "312adcd1998bd4a46f7ed3cd8e85accb91b58ed4099ac95a6eea431cc28e504b",
+      "views": {
+        "video": {
+          "baseline_mean_iou": 0.8484931564112387,
+          "mean_iou": 0.848452603140878,
+          "comparison_sha256": "b308230f4d6a6a262fab88281c1eb9343a2914e903382b0041d67e064ad4e5a2",
+          "per_view": [
+            {
+              "view": "video-00",
+              "baseline_iou": 0.8734462579322946,
+              "candidate_iou": 0.8734462579322946,
+              "delta": 0.0
+            },
+            {
+              "view": "video-01",
+              "baseline_iou": 0.8554437506968446,
+              "candidate_iou": 0.8553412318180171,
+              "delta": -0.00010251887882750665
+            },
+            {
+              "view": "video-02",
+              "baseline_iou": 0.8376149942932578,
+              "candidate_iou": 0.8375228588321028,
+              "delta": -9.213546115505178e-05
+            },
+            {
+              "view": "video-03",
+              "baseline_iou": 0.819057038865555,
+              "candidate_iou": 0.8190111426466097,
+              "delta": -4.5896218945351563e-05
+            },
+            {
+              "view": "video-04",
+              "baseline_iou": 0.8183989362388815,
+              "candidate_iou": 0.8183989362388815,
+              "delta": 0.0
+            },
+            {
+              "view": "video-05",
+              "baseline_iou": 0.8039326978185211,
+              "candidate_iou": 0.803921568627451,
+              "delta": -1.1129191070047284e-05
+            },
+            {
+              "view": "video-06",
+              "baseline_iou": 0.8251796327508205,
+              "candidate_iou": 0.8250995784029204,
+              "delta": -8.00543479001492e-05
+            },
+            {
+              "view": "video-07",
+              "baseline_iou": 0.8779943118931869,
+              "candidate_iou": 0.8779205132874774,
+              "delta": -7.379860570944086e-05
+            },
+            {
+              "view": "video-08",
+              "baseline_iou": 0.893606489195306,
+              "candidate_iou": 0.893606489195306,
+              "delta": 0.0
+            },
+            {
+              "view": "video-09",
+              "baseline_iou": 0.8802574544277193,
+              "candidate_iou": 0.8802574544277193,
+              "delta": 0.0
+            }
+          ]
+        },
+        "stills": {
+          "baseline_mean_iou": 0.8194408597662175,
+          "mean_iou": 0.8194252892250636,
+          "comparison_sha256": "e9a247ac13417a6e04692ba538283e46db1134c9e6bb547a13762377b1b377c3",
+          "per_view": [
+            {
+              "view": "still-01",
+              "baseline_iou": 0.8650207256828119,
+              "candidate_iou": 0.8650207256828119,
+              "delta": 0.0
+            },
+            {
+              "view": "still-02",
+              "baseline_iou": 0.8671098682331476,
+              "candidate_iou": 0.8671098682331476,
+              "delta": 0.0
+            },
+            {
+              "view": "still-03",
+              "baseline_iou": 0.8487970010695631,
+              "candidate_iou": 0.8487970010695631,
+              "delta": 0.0
+            },
+            {
+              "view": "still-04",
+              "baseline_iou": 0.7805294806579615,
+              "candidate_iou": 0.7805294806579615,
+              "delta": 0.0
+            },
+            {
+              "view": "still-05",
+              "baseline_iou": 0.7693838471875765,
+              "candidate_iou": 0.7692748533995003,
+              "delta": -0.00010899378807616156
+            },
+            {
+              "view": "still-06",
+              "baseline_iou": 0.7372434930981249,
+              "candidate_iou": 0.7372434930981249,
+              "delta": 0.0
+            },
+            {
+              "view": "still-closeup",
+              "baseline_iou": 0.8680016024343364,
+              "candidate_iou": 0.8680016024343364,
+              "delta": 0.0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Root roll size and location inferred from visible still-04 and fixed video views.",
+    "Guide width comparison has only two jointly visible pairs; middle pair occluded.",
+    "All silhouette regressions retained; local detail improvement is not whole-model fidelity.",
+    "No material, lighting, camera or segmentation changes."
+  ]
+}

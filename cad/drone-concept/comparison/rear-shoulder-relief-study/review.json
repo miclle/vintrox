@@ -1,0 +1,174 @@
+{
+  "baseline_fcstd_sha256": "72f70bbc88e8ec059fb033c6388f89bd8a96a877e0f683a1a0d805848d590adc",
+  "fcstd_sha256": "5534f124a394523e711ca6508d23d57754275f9be3ac0d45ec4e359a7a355cc0",
+  "selected": "a",
+  "candidates": [
+    {
+      "candidate": "a",
+      "exponent": 1.5,
+      "fcstd_sha256": "57b303e098f692790f85d47a69f411fecb8cc4a7f448a99ad258aba9a1244afc",
+      "video_mean_iou": 0.8484236466639168,
+      "still_mean_iou": 0.8194408597662175,
+      "boundary_rms_px": 3.5433819375782165,
+      "boundary_max_px": 8.0,
+      "video_deltas": [
+        {
+          "view": "video-00",
+          "delta": 0.0009819393631526063
+        },
+        {
+          "view": "video-01",
+          "delta": 0.0010109745461936992
+        },
+        {
+          "view": "video-02",
+          "delta": 0.00020696367528949544
+        },
+        {
+          "view": "video-03",
+          "delta": 0.0023843655888234894
+        },
+        {
+          "view": "video-04",
+          "delta": 2.050770340877861e-06
+        },
+        {
+          "view": "video-05",
+          "delta": 0.0014896232248943209
+        },
+        {
+          "view": "video-06",
+          "delta": -8.56641323154772e-06
+        },
+        {
+          "view": "video-07",
+          "delta": -0.0009467021046785096
+        },
+        {
+          "view": "video-08",
+          "delta": 0.001045000511986638
+        },
+        {
+          "view": "video-09",
+          "delta": 0.0
+        }
+      ],
+      "still_deltas": [
+        {
+          "view": "still-01",
+          "delta": 0.0006310994384536306
+        },
+        {
+          "view": "still-02",
+          "delta": 0.0003582693631152267
+        },
+        {
+          "view": "still-03",
+          "delta": -0.0020794176592143776
+        },
+        {
+          "view": "still-04",
+          "delta": 0.001244601400563372
+        },
+        {
+          "view": "still-05",
+          "delta": 0.00018494089532294922
+        },
+        {
+          "view": "still-06",
+          "delta": 0.0017049258996650885
+        },
+        {
+          "view": "still-closeup",
+          "delta": 0.0003490936699545033
+        }
+      ]
+    },
+    {
+      "candidate": "b",
+      "exponent": 1.75,
+      "fcstd_sha256": "0da4cf920499edd21636cbc9081b2f998af0d3ad3813f4f2d4e86e033704053d",
+      "video_mean_iou": 0.8481159126789851,
+      "still_mean_iou": 0.81925172914846,
+      "boundary_rms_px": 3.559026084010437,
+      "boundary_max_px": 8.0,
+      "video_deltas": [
+        {
+          "view": "video-00",
+          "delta": 0.0004825365656944136
+        },
+        {
+          "view": "video-01",
+          "delta": 0.000495074983116961
+        },
+        {
+          "view": "video-02",
+          "delta": 0.00011341869565362206
+        },
+        {
+          "view": "video-03",
+          "delta": 0.0010600353042881094
+        },
+        {
+          "view": "video-04",
+          "delta": 2.050770340877861e-06
+        },
+        {
+          "view": "video-05",
+          "delta": 0.0007230822649969548
+        },
+        {
+          "view": "video-06",
+          "delta": 0.00010509011120740652
+        },
+        {
+          "view": "video-07",
+          "delta": -0.00047294558204735715
+        },
+        {
+          "view": "video-08",
+          "delta": 0.0005799662002051731
+        },
+        {
+          "view": "video-09",
+          "delta": 0.0
+        }
+      ],
+      "still_deltas": [
+        {
+          "view": "still-01",
+          "delta": 0.0002960781822728409
+        },
+        {
+          "view": "still-02",
+          "delta": 0.00015458467149309651
+        },
+        {
+          "view": "still-03",
+          "delta": -0.0009683180860011742
+        },
+        {
+          "view": "still-04",
+          "delta": 0.0005736699993306171
+        },
+        {
+          "view": "still-05",
+          "delta": 8.750559050729745e-05
+        },
+        {
+          "view": "still-06",
+          "delta": 0.0007792688116838864
+        },
+        {
+          "view": "still-closeup",
+          "delta": 0.0001468095142717063
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Still 03 regresses; marked source coverage loss is retained rather than excluded",
+    "source-part identity cannot be inferred from CAD object-ID ownership alone",
+    "corner exponent is an appearance assumption; fixed cameras and score masks unchanged"
+  ]
+}

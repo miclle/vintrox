@@ -1,0 +1,834 @@
+{
+  "fcstd_sha256": "6194897e49ecdc3e3fa3cfaf2af7c05a84086cda9b414a890524abc6b0f48958",
+  "baseline_fcstd_sha256": "d78a7df3e0c30b9c9571b800d308b93ecc75080ae431346db978942929e9550d",
+  "measurement_script_sha256": "bfa46a7452f7f311f978035b72b5b413aba1b1c70efb95b8838ad2a3959b238a",
+  "observations_sha256": "49adf620c04b1f6968076feb16b492d5faeba2b28fa2c5b810f3a0bd48382467",
+  "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "metrics": {
+    "baseline": {
+      "triangle": {
+        "rms_px": 18.281745601069453,
+        "max_px": 24.186773244895647,
+        "count": 9
+      },
+      "plaque": {
+        "rms_px": 9.275962390009436,
+        "max_px": 15.0,
+        "count": 23
+      }
+    },
+    "current": {
+      "triangle": {
+        "rms_px": 4.384315479321969,
+        "max_px": 7.0,
+        "count": 9
+      },
+      "plaque": {
+        "rms_px": 1.1420804814403216,
+        "max_px": 3.0,
+        "count": 23
+      }
+    }
+  },
+  "views": [
+    {
+      "source_frame": 90,
+      "baseline": {
+        "fcstd_sha256": "d78a7df3e0c30b9c9571b800d308b93ecc75080ae431346db978942929e9550d",
+        "id_manifest_sha256": "22f4c2d6e3b82dcedd25a969d461bc41f48d9dcc19c02307f2c150ab8300cf3b",
+        "parts": {
+          "triangle": {
+            "reference_px": [
+              [
+                334,
+                397
+              ],
+              [
+                294,
+                448
+              ],
+              [
+                344,
+                456
+              ]
+            ],
+            "nearest_visible_px": [
+              [
+                334,
+                397
+              ],
+              [
+                295,
+                427
+              ],
+              [
+                341,
+                432
+              ]
+            ],
+            "distances_px": [
+              0.0,
+              21.02379604162864,
+              24.186773244895647
+            ],
+            "rms_px": 18.502252115170556,
+            "max_px": 24.186773244895647
+          },
+          "plaque": {
+            "reference_px": [
+              [
+                283,
+                466
+              ],
+              [
+                310,
+                469
+              ],
+              [
+                338,
+                472
+              ],
+              [
+                273,
+                484
+              ],
+              [
+                281,
+                500
+              ],
+              [
+                310,
+                503
+              ],
+              [
+                338,
+                506
+              ],
+              [
+                354,
+                489
+              ]
+            ],
+            "nearest_visible_px": [
+              [
+                277,
+                466
+              ],
+              [
+                312,
+                455
+              ],
+              [
+                341,
+                460
+              ],
+              [
+                276,
+                484
+              ],
+              [
+                281,
+                492
+              ],
+              [
+                310,
+                494
+              ],
+              [
+                341,
+                500
+              ],
+              [
+                350,
+                488
+              ]
+            ],
+            "distances_px": [
+              6.0,
+              14.142135623730951,
+              12.36931687685298,
+              3.0,
+              8.0,
+              9.0,
+              6.708203932499369,
+              4.123105625617661
+            ],
+            "rms_px": 8.696263565463044,
+            "max_px": 14.142135623730951
+          }
+        }
+      },
+      "current": {
+        "fcstd_sha256": "6194897e49ecdc3e3fa3cfaf2af7c05a84086cda9b414a890524abc6b0f48958",
+        "id_manifest_sha256": "f55e3508fb57f8004c5859683c96f6e9b067d34a4462b8d56d1ea3bab3c3bd1b",
+        "parts": {
+          "triangle": {
+            "reference_px": [
+              [
+                334,
+                397
+              ],
+              [
+                294,
+                448
+              ],
+              [
+                344,
+                456
+              ]
+            ],
+            "nearest_visible_px": [
+              [
+                327,
+                397
+              ],
+              [
+                294,
+                448
+              ],
+              [
+                338,
+                453
+              ]
+            ],
+            "distances_px": [
+              7.0,
+              0.0,
+              6.708203932499369
+            ],
+            "rms_px": 5.597618541248888,
+            "max_px": 7.0
+          },
+          "plaque": {
+            "reference_px": [
+              [
+                283,
+                466
+              ],
+              [
+                310,
+                469
+              ],
+              [
+                338,
+                472
+              ],
+              [
+                273,
+                484
+              ],
+              [
+                281,
+                500
+              ],
+              [
+                310,
+                503
+              ],
+              [
+                338,
+                506
+              ],
+              [
+                354,
+                489
+              ]
+            ],
+            "nearest_visible_px": [
+              [
+                283,
+                467
+              ],
+              [
+                310,
+                468
+              ],
+              [
+                338,
+                473
+              ],
+              [
+                273,
+                484
+              ],
+              [
+                281,
+                500
+              ],
+              [
+                310,
+                502
+              ],
+              [
+                338,
+                507
+              ],
+              [
+                353,
+                489
+              ]
+            ],
+            "distances_px": [
+              1.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "rms_px": 0.8660254037844386,
+            "max_px": 1.0
+          }
+        }
+      }
+    },
+    {
+      "source_frame": 120,
+      "baseline": {
+        "fcstd_sha256": "d78a7df3e0c30b9c9571b800d308b93ecc75080ae431346db978942929e9550d",
+        "id_manifest_sha256": "22f4c2d6e3b82dcedd25a969d461bc41f48d9dcc19c02307f2c150ab8300cf3b",
+        "parts": {
+          "triangle": {
+            "reference_px": [
+              [
+                474,
+                402
+              ],
+              [
+                443,
+                459
+              ],
+              [
+                506,
+                460
+              ]
+            ],
+            "nearest_visible_px": [
+              [
+                479,
+                396
+              ],
+              [
+                444,
+                437
+              ],
+              [
+                504,
+                437
+              ]
+            ],
+            "distances_px": [
+              7.810249675906654,
+              22.02271554554524,
+              23.08679276123039
+            ],
+            "rms_px": 18.964879822099235,
+            "max_px": 23.08679276123039
+          },
+          "plaque": {
+            "reference_px": [
+              [
+                432,
+                477
+              ],
+              [
+                470,
+                477
+              ],
+              [
+                510,
+                477
+              ],
+              [
+                525,
+                495
+              ],
+              [
+                510,
+                514
+              ],
+              [
+                470,
+                514
+              ],
+              [
+                432,
+                514
+              ],
+              [
+                421,
+                495
+              ]
+            ],
+            "nearest_visible_px": [
+              [
+                426,
+                477
+              ],
+              [
+                470,
+                462
+              ],
+              [
+                522,
+                477
+              ],
+              [
+                522,
+                495
+              ],
+              [
+                510,
+                504
+              ],
+              [
+                470,
+                502
+              ],
+              [
+                432,
+                505
+              ],
+              [
+                426,
+                495
+              ]
+            ],
+            "distances_px": [
+              6.0,
+              15.0,
+              12.0,
+              3.0,
+              10.0,
+              12.0,
+              9.0,
+              5.0
+            ],
+            "rms_px": 9.772410142846033,
+            "max_px": 15.0
+          }
+        }
+      },
+      "current": {
+        "fcstd_sha256": "6194897e49ecdc3e3fa3cfaf2af7c05a84086cda9b414a890524abc6b0f48958",
+        "id_manifest_sha256": "f55e3508fb57f8004c5859683c96f6e9b067d34a4462b8d56d1ea3bab3c3bd1b",
+        "parts": {
+          "triangle": {
+            "reference_px": [
+              [
+                474,
+                402
+              ],
+              [
+                443,
+                459
+              ],
+              [
+                506,
+                460
+              ]
+            ],
+            "nearest_visible_px": [
+              [
+                474,
+                402
+              ],
+              [
+                443,
+                458
+              ],
+              [
+                506,
+                458
+              ]
+            ],
+            "distances_px": [
+              0.0,
+              1.0,
+              2.0
+            ],
+            "rms_px": 1.2909944487358056,
+            "max_px": 2.0
+          },
+          "plaque": {
+            "reference_px": [
+              [
+                432,
+                477
+              ],
+              [
+                470,
+                477
+              ],
+              [
+                510,
+                477
+              ],
+              [
+                525,
+                495
+              ],
+              [
+                510,
+                514
+              ],
+              [
+                470,
+                514
+              ],
+              [
+                432,
+                514
+              ],
+              [
+                421,
+                495
+              ]
+            ],
+            "nearest_visible_px": [
+              [
+                433,
+                478
+              ],
+              [
+                470,
+                476
+              ],
+              [
+                510,
+                478
+              ],
+              [
+                525,
+                495
+              ],
+              [
+                510,
+                513
+              ],
+              [
+                470,
+                511
+              ],
+              [
+                432,
+                514
+              ],
+              [
+                422,
+                495
+              ]
+            ],
+            "distances_px": [
+              1.4142135623730951,
+              1.0,
+              1.0,
+              0.0,
+              1.0,
+              3.0,
+              0.0,
+              1.0
+            ],
+            "rms_px": 1.3693063937629153,
+            "max_px": 3.0
+          }
+        }
+      }
+    },
+    {
+      "source_frame": 150,
+      "baseline": {
+        "fcstd_sha256": "d78a7df3e0c30b9c9571b800d308b93ecc75080ae431346db978942929e9550d",
+        "id_manifest_sha256": "22f4c2d6e3b82dcedd25a969d461bc41f48d9dcc19c02307f2c150ab8300cf3b",
+        "parts": {
+          "triangle": {
+            "reference_px": [
+              [
+                611,
+                398
+              ],
+              [
+                603,
+                453
+              ],
+              [
+                653,
+                447
+              ]
+            ],
+            "nearest_visible_px": [
+              [
+                611,
+                398
+              ],
+              [
+                606,
+                431
+              ],
+              [
+                650,
+                427
+              ]
+            ],
+            "distances_px": [
+              0.0,
+              22.20360331117452,
+              20.223748416156685
+            ],
+            "rms_px": 17.339742404853272,
+            "max_px": 22.20360331117452
+          },
+          "plaque": {
+            "reference_px": [
+              [
+                598,
+                474
+              ],
+              [
+                625,
+                470
+              ],
+              [
+                650,
+                467
+              ],
+              [
+                596,
+                490
+              ],
+              [
+                607,
+                506
+              ],
+              [
+                635,
+                502
+              ],
+              [
+                663,
+                499
+              ]
+            ],
+            "nearest_visible_px": [
+              [
+                597,
+                475
+              ],
+              [
+                622,
+                456
+              ],
+              [
+                647,
+                453
+              ],
+              [
+                598,
+                490
+              ],
+              [
+                607,
+                499
+              ],
+              [
+                635,
+                493
+              ],
+              [
+                663,
+                491
+              ]
+            ],
+            "distances_px": [
+              1.4142135623730951,
+              14.317821063276353,
+              14.317821063276353,
+              2.0,
+              7.0,
+              9.0,
+              8.0
+            ],
+            "rms_px": 9.335033858688309,
+            "max_px": 14.317821063276353
+          }
+        }
+      },
+      "current": {
+        "fcstd_sha256": "6194897e49ecdc3e3fa3cfaf2af7c05a84086cda9b414a890524abc6b0f48958",
+        "id_manifest_sha256": "f55e3508fb57f8004c5859683c96f6e9b067d34a4462b8d56d1ea3bab3c3bd1b",
+        "parts": {
+          "triangle": {
+            "reference_px": [
+              [
+                611,
+                398
+              ],
+              [
+                603,
+                453
+              ],
+              [
+                653,
+                447
+              ]
+            ],
+            "nearest_visible_px": [
+              [
+                618,
+                398
+              ],
+              [
+                608,
+                453
+              ],
+              [
+                653,
+                447
+              ]
+            ],
+            "distances_px": [
+              7.0,
+              5.0,
+              0.0
+            ],
+            "rms_px": 4.96655480858378,
+            "max_px": 7.0
+          },
+          "plaque": {
+            "reference_px": [
+              [
+                598,
+                474
+              ],
+              [
+                625,
+                470
+              ],
+              [
+                650,
+                467
+              ],
+              [
+                596,
+                490
+              ],
+              [
+                607,
+                506
+              ],
+              [
+                635,
+                502
+              ],
+              [
+                663,
+                499
+              ]
+            ],
+            "nearest_visible_px": [
+              [
+                599,
+                474
+              ],
+              [
+                625,
+                469
+              ],
+              [
+                650,
+                466
+              ],
+              [
+                594,
+                490
+              ],
+              [
+                607,
+                507
+              ],
+              [
+                635,
+                501
+              ],
+              [
+                663,
+                499
+              ]
+            ],
+            "distances_px": [
+              1.0,
+              1.0,
+              1.0,
+              2.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "rms_px": 1.1338934190276817,
+            "max_px": 2.0
+          }
+        }
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "path": "cad/drone-concept/comparison/object-ids-v51/video-03.png",
+      "sha256": "fcbc33f2cab326e173a1b977cf056c7ff4d7c43af279204af353fa658a49df7e"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-marking-study/a/ids/video-03.png",
+      "sha256": "adcc485673deb2fc81214132fe72dd5cbe35d7d42ca9b47f607e3040b00d8502"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-marking-study/a/video/reference-frames/frame-04.png",
+      "sha256": "0d8806db3363c684e6e42e641883d59705af1a938511637a2cbb9c88a116a82f"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-marking-study/a/video-renders/video-03.png",
+      "sha256": "14778a13bbbcb77603e0585f52753470b16a8317b7ece4f5c4dae33753f3e580"
+    },
+    {
+      "path": "cad/drone-concept/comparison/object-ids-v51/video-04.png",
+      "sha256": "39b576b91dab29b48e31b98ad18679cc95a6a99f5f9bdcdc19b633dfd893a25a"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-marking-study/a/ids/video-04.png",
+      "sha256": "bff7a70e4f8b9c800c6e607844034b8f426104ff89c3d292bad94fc37b70244e"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-marking-study/a/video/reference-frames/frame-05.png",
+      "sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-marking-study/a/video-renders/video-04.png",
+      "sha256": "98037cf8039d12d354fb43a9018855b273493a09b30a5d24fc2a50de211f0498"
+    },
+    {
+      "path": "cad/drone-concept/comparison/object-ids-v51/video-05.png",
+      "sha256": "1df21145effde3ce1a98ca29afc79e6966c4c6c16392e10188cd029edfb5910e"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-marking-study/a/ids/video-05.png",
+      "sha256": "ad1b815e88279b9c19b5038f3d6ffd793f02a4917c9d24ae33ed5ebdad9f01be"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-marking-study/a/video/reference-frames/frame-06.png",
+      "sha256": "6163748cf00f271a738409696656ddd46ca93481e0bfab683b656e6e8a38a204"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-marking-study/a/video-renders/video-05.png",
+      "sha256": "d6924324a1f32f13a8f9040ec9eff9b458336aa897e8de7797dc9701558456e2"
+    }
+  ],
+  "image_path": "cad/drone-concept/comparison/nozzle-marking-study/a/marking-check.png",
+  "image_sha256": "b8df02a1f7b4e6822e92ac31da8991b4dc92f13a4ada2ffe0dd22d267131a1f2",
+  "limitations": [
+    "Same manually observed points used to fit; readback verifies realization, not independent reconstruction.",
+    "Closest visible union boundary, not matched geometric vertices.",
+    "23 plaque and 9 triangle points, incomplete contour.",
+    "Manual edge uncertainty about 2-4px; rightmost plaque edge at frame150 omitted due highlight."
+  ]
+}

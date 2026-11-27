@@ -1,0 +1,208 @@
+{
+  "study": "v53-underbody-loop-thickness",
+  "baseline_fcstd_sha256": "aa3de1dc9dcea5a511dd01cfba77d394fdd4a178254d170eb1f1bc369c0389b4",
+  "formal_fcstd_sha256": "715c5ada8002a3c7ceb4ae766edf8718e940825b9b9f37386dbc545fcb4b7b4a",
+  "formal_step_sha256": "9d1871a13ded28248fc45d12cdf025fadb0eafb6240231ca105db2f3efe55dd5",
+  "changed_objects": [
+    "UnderbodyLoop0",
+    "UnderbodyLoop1"
+  ],
+  "protected_supports": [
+    "SupportShaft",
+    "SupportSocket",
+    "SupportFoot",
+    "CentralSupportSeat"
+  ],
+  "method": "same calibrated video ten-view and still seven-view projection; no image warp or per-part alignment; four support prefixes excluded from silhouette score",
+  "candidates": [
+    {
+      "name": "r3p5",
+      "radius_mm": 3.5,
+      "fcstd_sha256": "0c861885f948dc994c9c49cc84a5c0454651359ecb3ba0b43c8e695563aa1aca",
+      "video_mean_percent": 85.09225998093729,
+      "video_delta_percentage_points": 0.061946124251177626,
+      "video_view_delta_percentage_points": [
+        [
+          "video-00",
+          0.014381472772062587
+        ],
+        [
+          "video-01",
+          0.017811488923247243
+        ],
+        [
+          "video-02",
+          0.13991484500854856
+        ],
+        [
+          "video-03",
+          0.10840997393946061
+        ],
+        [
+          "video-04",
+          0.020839292834085033
+        ],
+        [
+          "video-05",
+          0.09042601188490318
+        ],
+        [
+          "video-06",
+          0.20904171402588156
+        ],
+        [
+          "video-07",
+          -0.023797098878075573
+        ],
+        [
+          "video-08",
+          0.02310440958103177
+        ],
+        [
+          "video-09",
+          0.019329132420298212
+        ]
+      ],
+      "adopted": true,
+      "stills_mean_percent": 82.04265404563873,
+      "stills_delta_percentage_points": 0.044362398858999175,
+      "stills_view_delta_percentage_points": [
+        [
+          "still-01",
+          0.010010360120638051
+        ],
+        [
+          "still-02",
+          0.11581750888450815
+        ],
+        [
+          "still-03",
+          -0.00241741994669864
+        ],
+        [
+          "still-04",
+          0.07284493357828659
+        ],
+        [
+          "still-05",
+          0.011375595610518818
+        ],
+        [
+          "still-06",
+          -0.009480733993627588
+        ],
+        [
+          "still-closeup",
+          0.11238654775929113
+        ]
+      ]
+    },
+    {
+      "name": "r4p0",
+      "radius_mm": 4.0,
+      "fcstd_sha256": "fae79fb7c9c1d4d1f181f5250110a7d264820016e76624f5d688fe128de929b5",
+      "video_mean_percent": 85.06979763858438,
+      "video_delta_percentage_points": 0.03948378189826407,
+      "video_view_delta_percentage_points": [
+        [
+          "video-00",
+          0.00895951741609613
+        ],
+        [
+          "video-01",
+          0.00820289234882976
+        ],
+        [
+          "video-02",
+          0.0901805955954238
+        ],
+        [
+          "video-03",
+          0.06668588592129154
+        ],
+        [
+          "video-04",
+          0.012090998696612232
+        ],
+        [
+          "video-05",
+          0.05615092260927712
+        ],
+        [
+          "video-06",
+          0.1379787601925253
+        ],
+        [
+          "video-07",
+          -0.015143678027429441
+        ],
+        [
+          "video-08",
+          0.01516412979850612
+        ],
+        [
+          "video-09",
+          0.014567794431274983
+        ]
+      ],
+      "adopted": false
+    },
+    {
+      "name": "r4p5",
+      "radius_mm": 4.5,
+      "fcstd_sha256": "04bb8cd61040e98c0b739b333bace4465d90502c1ec09dd458fbc03289b2db14",
+      "video_mean_percent": 85.0485820997096,
+      "video_delta_percentage_points": 0.018268243023489283,
+      "video_view_delta_percentage_points": [
+        [
+          "video-00",
+          0.004032373086026997
+        ],
+        [
+          "video-01",
+          -0.0007612278261959204
+        ],
+        [
+          "video-02",
+          0.0376860025381065
+        ],
+        [
+          "video-03",
+          0.029792980772846978
+        ],
+        [
+          "video-04",
+          0.008831555401322966
+        ],
+        [
+          "video-05",
+          0.028362666060055552
+        ],
+        [
+          "video-06",
+          0.06470516558905182
+        ],
+        [
+          "video-07",
+          -0.005713817248720332
+        ],
+        [
+          "video-08",
+          0.007480696039230406
+        ],
+        [
+          "video-09",
+          0.008266035822945828
+        ]
+      ],
+      "adopted": false
+    }
+  ],
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "limitations": [
+    "Decorative cable thickness is an appearance fit, not an electrical or structural cable specification.",
+    "Black cable/background segmentation remains an image-space ambiguity.",
+    "The score is a silhouette diagnostic and does not establish physical assembly, printability or acoustics."
+  ]
+}

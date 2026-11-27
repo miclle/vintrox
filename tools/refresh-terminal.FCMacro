@@ -1,0 +1,12 @@
+"""Refresh only the active VINTROX terminal document and its matching export package."""
+from pathlib import Path
+import importlib.util
+import FreeCAD as App
+_terminal_root=Path(__file__).resolve().parents[1]
+_terminal_doc=App.ActiveDocument
+if not _terminal_doc or not _terminal_doc.getObject('ModelInfo') or not _terminal_doc.getObject('Printed'):
+    raise RuntimeError('先激活vintrox-terminal模块化桌面终端文档。')
+_terminal_spec=importlib.util.spec_from_file_location('vintrox_terminal',_terminal_root/'tools/terminal_model.py')
+_terminal_model=importlib.util.module_from_spec(_terminal_spec)
+_terminal_spec.loader.exec_module(_terminal_model)
+_terminal_model.refresh(_terminal_doc,_terminal_root)

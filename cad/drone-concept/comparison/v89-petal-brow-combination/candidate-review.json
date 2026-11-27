@@ -1,0 +1,408 @@
+{
+  "revision": "v89-petal-brow",
+  "status": "not-adopted; formal-v61-and-study-v69-retained",
+  "baseline_revision": "v69-underbody-loop-radius2p2",
+  "baseline_fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+  "candidate_fcstd_sha256": "235a01bc341b8c3a261f2954a179d2a8e73952f7c54fd5d8afb19c698e8295ac",
+  "candidate_step_sha256": "6fcec193aa22459934c5e49457195af8eabcec552c98f8030aab52db7903aa85",
+  "changed_objects": [
+    "BrowUnderside",
+    "NozzlePetal0",
+    "NozzlePetal1",
+    "NozzlePetal10",
+    "NozzlePetal11",
+    "NozzlePetal2",
+    "NozzlePetal3",
+    "NozzlePetal4",
+    "NozzlePetal5",
+    "NozzlePetal6",
+    "NozzlePetal7",
+    "NozzlePetal8",
+    "NozzlePetal9",
+    "NozzlePetalEdgeRail0_1",
+    "NozzlePetalEdgeRail0_20",
+    "NozzlePetalEdgeRail10_226",
+    "NozzlePetalEdgeRail10_245",
+    "NozzlePetalEdgeRail11_249",
+    "NozzlePetalEdgeRail11_268",
+    "NozzlePetalEdgeRail1_24",
+    "NozzlePetalEdgeRail1_43",
+    "NozzlePetalEdgeRail2_46",
+    "NozzlePetalEdgeRail2_65",
+    "NozzlePetalEdgeRail3_69",
+    "NozzlePetalEdgeRail3_88",
+    "NozzlePetalEdgeRail4_110",
+    "NozzlePetalEdgeRail4_91",
+    "NozzlePetalEdgeRail5_114",
+    "NozzlePetalEdgeRail5_133",
+    "NozzlePetalEdgeRail6_136",
+    "NozzlePetalEdgeRail6_155",
+    "NozzlePetalEdgeRail7_159",
+    "NozzlePetalEdgeRail7_178",
+    "NozzlePetalEdgeRail8_181",
+    "NozzlePetalEdgeRail8_200",
+    "NozzlePetalEdgeRail9_204",
+    "NozzlePetalEdgeRail9_223",
+    "NozzlePetalEndHem0",
+    "NozzlePetalEndHem1",
+    "NozzlePetalEndHem10",
+    "NozzlePetalEndHem11",
+    "NozzlePetalEndHem2",
+    "NozzlePetalEndHem3",
+    "NozzlePetalEndHem4",
+    "NozzlePetalEndHem5",
+    "NozzlePetalEndHem6",
+    "NozzlePetalEndHem7",
+    "NozzlePetalEndHem8",
+    "NozzlePetalEndHem9",
+    "NozzlePetalGuide0_0",
+    "NozzlePetalGuide0_1",
+    "NozzlePetalGuide10_0",
+    "NozzlePetalGuide10_1",
+    "NozzlePetalGuide11_0",
+    "NozzlePetalGuide11_1",
+    "NozzlePetalGuide1_0",
+    "NozzlePetalGuide1_1",
+    "NozzlePetalGuide2_0",
+    "NozzlePetalGuide2_1",
+    "NozzlePetalGuide3_0",
+    "NozzlePetalGuide3_1",
+    "NozzlePetalGuide4_0",
+    "NozzlePetalGuide4_1",
+    "NozzlePetalGuide5_0",
+    "NozzlePetalGuide5_1",
+    "NozzlePetalGuide6_0",
+    "NozzlePetalGuide6_1",
+    "NozzlePetalGuide7_0",
+    "NozzlePetalGuide7_1",
+    "NozzlePetalGuide8_0",
+    "NozzlePetalGuide8_1",
+    "NozzlePetalGuide9_0",
+    "NozzlePetalGuide9_1",
+    "NozzlePetalHinge0",
+    "NozzlePetalHinge1",
+    "NozzlePetalHinge10",
+    "NozzlePetalHinge11",
+    "NozzlePetalHinge2",
+    "NozzlePetalHinge3",
+    "NozzlePetalHinge4",
+    "NozzlePetalHinge5",
+    "NozzlePetalHinge6",
+    "NozzlePetalHinge7",
+    "NozzlePetalHinge8",
+    "NozzlePetalHinge9",
+    "NozzlePetalInset0",
+    "NozzlePetalInset1",
+    "NozzlePetalInset10",
+    "NozzlePetalInset11",
+    "NozzlePetalInset2",
+    "NozzlePetalInset3",
+    "NozzlePetalInset4",
+    "NozzlePetalInset5",
+    "NozzlePetalInset6",
+    "NozzlePetalInset7",
+    "NozzlePetalInset8",
+    "NozzlePetalInset9",
+    "NozzlePetalRidge0",
+    "NozzlePetalRidge1",
+    "NozzlePetalRidge10",
+    "NozzlePetalRidge11",
+    "NozzlePetalRidge2",
+    "NozzlePetalRidge3",
+    "NozzlePetalRidge4",
+    "NozzlePetalRidge5",
+    "NozzlePetalRidge6",
+    "NozzlePetalRidge7",
+    "NozzlePetalRidge8",
+    "NozzlePetalRidge9",
+    "ProjectingBrow"
+  ],
+  "changed_families": {
+    "NozzlePetal": 108,
+    "front_brow": 2
+  },
+  "sources": {
+    "petal_fcstd_sha256": "e2442193a009663bebf925ba67bf00030851d0129759ddf778d0bfcc594a8fe4",
+    "brow_fcstd_sha256": "651c3800cb4fba2c7a0dce028093b651e47b160ec2575550b0b7269809f9fa4e"
+  },
+  "video": {
+    "candidate_mean_iou": 0.8555455396782863,
+    "baseline_mean_iou": 0.8555332009171318,
+    "delta_percentage_points": 0.001233876115447341,
+    "views": [
+      {
+        "view": "video-00",
+        "candidate_iou": 0.874013996247562,
+        "baseline_iou": 0.8737248836985229,
+        "delta_percentage_points": 0.028911254903918326
+      },
+      {
+        "view": "video-01",
+        "candidate_iou": 0.8609127118452824,
+        "baseline_iou": 0.8607734837783811,
+        "delta_percentage_points": 0.013922806690125356
+      },
+      {
+        "view": "video-02",
+        "candidate_iou": 0.84847948534266,
+        "baseline_iou": 0.847902666681625,
+        "delta_percentage_points": 0.05768186610350945
+      },
+      {
+        "view": "video-03",
+        "candidate_iou": 0.8311271939626275,
+        "baseline_iou": 0.8313541368451188,
+        "delta_percentage_points": -0.02269428824913655
+      },
+      {
+        "view": "video-04",
+        "candidate_iou": 0.8280701984625631,
+        "baseline_iou": 0.8280701984625631,
+        "delta_percentage_points": 0.0
+      },
+      {
+        "view": "video-05",
+        "candidate_iou": 0.8149915428261103,
+        "baseline_iou": 0.8151927854193574,
+        "delta_percentage_points": -0.020124259324705296
+      },
+      {
+        "view": "video-06",
+        "candidate_iou": 0.8385494005048082,
+        "baseline_iou": 0.838026392255248,
+        "delta_percentage_points": 0.05230082495601973
+      },
+      {
+        "view": "video-07",
+        "candidate_iou": 0.8853482166732094,
+        "baseline_iou": 0.8853494673334831,
+        "delta_percentage_points": -0.0001250660273677262
+      },
+      {
+        "view": "video-08",
+        "candidate_iou": 0.8951852656603484,
+        "baseline_iou": 0.8944945926754635,
+        "delta_percentage_points": 0.06906729848848991
+      },
+      {
+        "view": "video-09",
+        "candidate_iou": 0.8787773852576902,
+        "baseline_iou": 0.8804434020215558,
+        "delta_percentage_points": -0.16660167638655743
+      }
+    ]
+  },
+  "stills": {
+    "candidate_mean_iou": 0.8231338868768366,
+    "baseline_mean_iou": 0.8225961961828953,
+    "delta_percentage_points": 0.05376906939413839,
+    "views": [
+      {
+        "view": "still-01",
+        "candidate_iou": 0.8657986900755026,
+        "baseline_iou": 0.8652161858748563,
+        "delta_percentage_points": 0.05825042006463166
+      },
+      {
+        "view": "still-02",
+        "candidate_iou": 0.8703791834949708,
+        "baseline_iou": 0.8696146654586812,
+        "delta_percentage_points": 0.07645180362896298
+      },
+      {
+        "view": "still-03",
+        "candidate_iou": 0.8489013914755563,
+        "baseline_iou": 0.8487768274887965,
+        "delta_percentage_points": 0.012456398675986247
+      },
+      {
+        "view": "still-04",
+        "candidate_iou": 0.7840505025612139,
+        "baseline_iou": 0.7835964989444053,
+        "delta_percentage_points": 0.04540036168085848
+      },
+      {
+        "view": "still-05",
+        "candidate_iou": 0.7805110393791143,
+        "baseline_iou": 0.7795997095795026,
+        "delta_percentage_points": 0.09113297996116154
+      },
+      {
+        "view": "still-06",
+        "candidate_iou": 0.7411761760736629,
+        "baseline_iou": 0.7408007242503304,
+        "delta_percentage_points": 0.03754518233325399
+      },
+      {
+        "view": "still-closeup",
+        "candidate_iou": 0.8711202250778366,
+        "baseline_iou": 0.8705687616836939,
+        "delta_percentage_points": 0.055146339414269274
+      }
+    ]
+  },
+  "boundary_attribution": {
+    "report": "video-ids/boundary-regions.json",
+    "top_exterior_families": [
+      {
+        "family": "NozzlePetal",
+        "pixels": 16351
+      },
+      {
+        "family": "BrowUnderside",
+        "pixels": 11775
+      },
+      {
+        "family": "LowerPodRib",
+        "pixels": 11075
+      },
+      {
+        "family": "ScreenBezel",
+        "pixels": 9528
+      },
+      {
+        "family": "FrontCheek",
+        "pixels": 7733
+      },
+      {
+        "family": "ProjectingBrow",
+        "pixels": 7637
+      },
+      {
+        "family": "HandleArm",
+        "pixels": 7469
+      },
+      {
+        "family": "WingInnerPaint",
+        "pixels": 5649
+      },
+      {
+        "family": "HandleInset",
+        "pixels": 5361
+      },
+      {
+        "family": "RearArmourCheek",
+        "pixels": 5228
+      },
+      {
+        "family": "Antenna",
+        "pixels": 5169
+      },
+      {
+        "family": "SideCable",
+        "pixels": 4956
+      }
+    ],
+    "primary_iou_unchanged": true
+  },
+  "readback": {
+    "saved_objects_total": 698,
+    "visible_features": 696,
+    "step_solids": 1071,
+    "step_valid": true,
+    "step_closed": true,
+    "protected_supports_equal": true,
+    "changed_mesh_saved_readback": {
+      "NozzlePetal0": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal1": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal2": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal3": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal4": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal5": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal6": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal7": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal8": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal9": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal10": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal11": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "ProjectingBrow": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "BrowUnderside": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      }
+    }
+  },
+  "native_display": "native-display/native-display-verification.json",
+  "native_display_summary": {
+    "name": "v89-petal-brow",
+    "model": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/v89-petal-brow-combination/candidate.FCStd",
+    "fcstd_sha256": "235a01bc341b8c3a261f2954a179d2a8e73952f7c54fd5d8afb19c698e8295ac",
+    "visible_objects": 696,
+    "mesh_fcstd_sha256": "235a01bc341b8c3a261f2954a179d2a8e73952f7c54fd5d8afb19c698e8295ac",
+    "palette_contract_sha256": "d51b70865d8d0414fb8f7516218b82081461c1b0cee14775b9520f41553b148e",
+    "native_color_triples": 70,
+    "mesh_color_triples": 74,
+    "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+    "native_visibility_equals_mesh": true,
+    "views": [
+      {
+        "view": "isometric",
+        "path": "v89-petal-brow-isometric.png",
+        "sha256": "c393446ef12686b54c4155b06bd5da158ba0f8f5998818e6d68b733ec851888a"
+      },
+      {
+        "view": "front",
+        "path": "v89-petal-brow-front.png",
+        "sha256": "6a8bce4af8c42fde14ade94651d22306f2a2d567209267c96980462ee1d681be"
+      },
+      {
+        "view": "rear",
+        "path": "v89-petal-brow-rear.png",
+        "sha256": "ae3d1efbeb3c0da4e3e701dc93a732d9830735c4067f79a01ea216dc9949457c"
+      },
+      {
+        "view": "right",
+        "path": "v89-petal-brow-right.png",
+        "sha256": "5c397a6a2940c74710a62dd8903c10a0acda348a7a23717be93c3e34720e0d42"
+      }
+    ],
+    "file_unchanged_after_native_close": true
+  },
+  "decision": "保留为研究候选，不替换 v69",
+  "decision_basis": "Combining the v88 petal contraction with v85 brow contraction improves the static aggregate and slightly improves video aggregate versus v69, but the video gain is negligible, the complete target remains unmet, and the combined shape is still an appearance hypothesis.",
+  "limitations": [
+    "screen-space silhouette diagnostic only",
+    "black-material/background ambiguity and curved-screen uncertainty",
+    "measured flat screen retained; curved reference screen remains an appearance assumption",
+    "no physical, manufacturing, fit, optical, acoustic, thermal, electrical, or assembly acceptance"
+  ]
+}

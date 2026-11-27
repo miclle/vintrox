@@ -1,0 +1,62 @@
+{
+  "revision": "v66-screen-bezel-1mm",
+  "status": "candidate-retained-formal-v61-unchanged",
+  "baseline_revision": "v61-nozzle-fairing-depth3",
+  "baseline_fcstd_sha256": "b264b52ab81ca645865ab44196b3cabb8453abfd4f127afa49c29c41ffd973d2",
+  "candidate_fcstd_sha256": "31bc513ee4c2d117769c8b289dfcaa80a3964a620d29f197025a5bd3cb6b88aa",
+  "candidate_step_sha256": "04bef56b27ef958279317dc7387f71f3c56fcce0a709281b80f59dabb205d9cd",
+  "changed_objects": [
+    "ScreenBezel",
+    "BezelLip"
+  ],
+  "outer_surround_reduction_mm": 1.0,
+  "measured_screen_preserved": true,
+  "protected_features": [
+    "SupportShaft",
+    "SupportSocket",
+    "SupportFoot",
+    "CentralSupportSeat",
+    "ScreenPanel210x160x2",
+    "ActiveArea200x150",
+    "UtilityBarrel",
+    "CheekDial",
+    "CheekVentRib"
+  ],
+  "geometry_objects": 698,
+  "registration": "camera projection only; no image warp, stretch or per-part alignment",
+  "video": {
+    "candidate_mean_silhouette_iou": 0.8548194441876482,
+    "baseline_mean_silhouette_iou": 0.8549201687353198,
+    "delta": -0.00010072454767162675,
+    "report": "video-comparison/comparison-report.json"
+  },
+  "stills": {
+    "candidate_mean_silhouette_iou": 0.8224300930123175,
+    "baseline_mean_silhouette_iou": 0.8222681557450596,
+    "delta": 0.00016193726725788338,
+    "report": "stills-comparison/comparison-report.json"
+  },
+  "decision": "retain-v61-formal-baseline",
+  "decision_basis": "static views improve slightly but video ten-view aggregate regresses; one and two millimetre screen-surround reductions do not provide a stable all-round gain",
+  "limitations": [
+    "screen-space silhouette diagnostic only",
+    "black-material/background ambiguity",
+    "curved reference screen approximated by flat measured screen plus transparent cover",
+    "no physical/manufacturing/fit/optical/acoustic/thermal/electrical acceptance"
+  ],
+  "artifacts": {
+    "candidate_check": "candidate-check.json",
+    "video_render_manifest": "video-renders/render-manifest.json",
+    "still_render_manifest": "still-renders/render-manifest.json",
+    "video_comparison": "video-comparison/comparison-report.json",
+    "stills_comparison": "stills-comparison/comparison-report.json",
+    "color_restoration": "color-restoration.json",
+    "readback": "readback-verification.json"
+  },
+  "color_status": "object-level palette restored; 74 distinct RGB triples; candidate vertices and faces unchanged",
+  "saved_readback": true,
+  "readback": "readback-verification.json",
+  "step_solids": 1008,
+  "visible_features": 696,
+  "saved_objects_total": 698
+}

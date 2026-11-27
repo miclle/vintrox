@@ -1,0 +1,566 @@
+{
+  "formal_revision": "v43-gold-wing-crease",
+  "formal_fcstd_sha256": "d03080846462cd5b8318f6dea254456fe77ece6cda06349ba698ea010086d591",
+  "formal_model_unchanged": true,
+  "candidate_status": "A/B rejected as lower-only frames; C retained as a locally improved candidate, not promoted to formal delivery",
+  "results": [
+    {
+      "candidate": "a",
+      "fcstd_sha256": "55e819e87138ec2e922c875d91dcca8b21cd9cddada7510840498d838712dc94",
+      "generator_path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/vintrox-petal-channel-ab-generator.py",
+      "generator_sha256": "aabb6971b36f2039b9bbcef08d3fc58776fcf926fbb718fecd5e29f3be9429b3",
+      "mesh_cache_path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/a-meshes.json",
+      "mesh_sha256": "6e1dfc757c55f93e5dcc61abacc8f22a4b5de316da922c901f85e4d420a6dff0",
+      "changed_objects": [
+        "NozzlePetalGuide0_0",
+        "NozzlePetalGuide0_1",
+        "NozzlePetalGuide10_0",
+        "NozzlePetalGuide10_1",
+        "NozzlePetalGuide11_0",
+        "NozzlePetalGuide11_1",
+        "NozzlePetalGuide1_0",
+        "NozzlePetalGuide1_1",
+        "NozzlePetalGuide2_0",
+        "NozzlePetalGuide2_1",
+        "NozzlePetalGuide3_0",
+        "NozzlePetalGuide3_1",
+        "NozzlePetalGuide4_0",
+        "NozzlePetalGuide4_1",
+        "NozzlePetalGuide5_0",
+        "NozzlePetalGuide5_1",
+        "NozzlePetalGuide6_0",
+        "NozzlePetalGuide6_1",
+        "NozzlePetalGuide7_0",
+        "NozzlePetalGuide7_1",
+        "NozzlePetalGuide8_0",
+        "NozzlePetalGuide8_1",
+        "NozzlePetalGuide9_0",
+        "NozzlePetalGuide9_1",
+        "NozzlePetalRidge0",
+        "NozzlePetalRidge1",
+        "NozzlePetalRidge10",
+        "NozzlePetalRidge11",
+        "NozzlePetalRidge2",
+        "NozzlePetalRidge3",
+        "NozzlePetalRidge4",
+        "NozzlePetalRidge5",
+        "NozzlePetalRidge6",
+        "NozzlePetalRidge7",
+        "NozzlePetalRidge8",
+        "NozzlePetalRidge9"
+      ],
+      "unchanged_visible_mesh_records": 660,
+      "max_contact_gap_mm": 2.2469334198890888e-14,
+      "video": {
+        "mean_iou": 0.8484803850769278,
+        "baseline_mean_iou": 0.8484931564112387,
+        "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+        "report_sha256": "abd7e4c969d4db38a0783e6d9be2c5cc1d6f41a3624b42ab8e38ec92b67f15b9",
+        "per_view": [
+          {
+            "view": "video-00",
+            "iou": 0.8734462579322946,
+            "baseline_iou": 0.8734462579322946,
+            "delta": 0.0
+          },
+          {
+            "view": "video-01",
+            "iou": 0.8554127540255259,
+            "baseline_iou": 0.8554437506968446,
+            "delta": -3.09966713187837e-05
+          },
+          {
+            "view": "video-02",
+            "iou": 0.8376149942932578,
+            "baseline_iou": 0.8376149942932578,
+            "delta": 0.0
+          },
+          {
+            "view": "video-03",
+            "iou": 0.8190157320370396,
+            "baseline_iou": 0.819057038865555,
+            "delta": -4.130682851544165e-05
+          },
+          {
+            "view": "video-04",
+            "iou": 0.8183989362388815,
+            "baseline_iou": 0.8183989362388815,
+            "delta": 0.0
+          },
+          {
+            "view": "video-05",
+            "iou": 0.803921568627451,
+            "baseline_iou": 0.8039326978185211,
+            "delta": -1.1129191070047284e-05
+          },
+          {
+            "view": "video-06",
+            "iou": 0.8251796327508205,
+            "baseline_iou": 0.8251796327508205,
+            "delta": 0.0
+          },
+          {
+            "view": "video-07",
+            "iou": 0.8779500312409815,
+            "baseline_iou": 0.8779943118931869,
+            "delta": -4.4280652205408444e-05
+          },
+          {
+            "view": "video-08",
+            "iou": 0.893606489195306,
+            "baseline_iou": 0.893606489195306,
+            "delta": 0.0
+          },
+          {
+            "view": "video-09",
+            "iou": 0.8802574544277193,
+            "baseline_iou": 0.8802574544277193,
+            "delta": 0.0
+          }
+        ]
+      },
+      "stills": {
+        "mean_iou": 0.8194387362508022,
+        "baseline_mean_iou": 0.8194408597662175,
+        "camera_config_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+        "report_sha256": "badef8271981585b5fc6544c674cf2a85a4c630fd72db4681b3e402a7f96677e",
+        "per_view": [
+          {
+            "view": "still-01",
+            "iou": 0.8650207256828119,
+            "baseline_iou": 0.8650207256828119,
+            "delta": 0.0
+          },
+          {
+            "view": "still-02",
+            "iou": 0.8671098682331476,
+            "baseline_iou": 0.8671098682331476,
+            "delta": 0.0
+          },
+          {
+            "view": "still-03",
+            "iou": 0.8487970010695631,
+            "baseline_iou": 0.8487970010695631,
+            "delta": 0.0
+          },
+          {
+            "view": "still-04",
+            "iou": 0.7805294806579615,
+            "baseline_iou": 0.7805294806579615,
+            "delta": 0.0
+          },
+          {
+            "view": "still-05",
+            "iou": 0.7693689825796688,
+            "baseline_iou": 0.7693838471875765,
+            "delta": -1.4864607907671967e-05
+          },
+          {
+            "view": "still-06",
+            "iou": 0.7372434930981249,
+            "baseline_iou": 0.7372434930981249,
+            "delta": 0.0
+          },
+          {
+            "view": "still-closeup",
+            "iou": 0.8680016024343364,
+            "baseline_iou": 0.8680016024343364,
+            "delta": 0.0
+          }
+        ]
+      },
+      "width_check_sha256": "f62526d6ceff4502239195521f4c4c84efd3578cf20d08090c2ef6e5ffe17cd9",
+      "candidate_check_sha256": "0abd0748edff06e7661f0d91d606b8dc68cbd9ddc92d26b53cc59e73dcd38b61"
+    },
+    {
+      "candidate": "b",
+      "fcstd_sha256": "8c36d42855060263490e6f04a2ae48f1303f15992de2af5a08177d706678709f",
+      "generator_path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/vintrox-petal-channel-ab-generator.py",
+      "generator_sha256": "aabb6971b36f2039b9bbcef08d3fc58776fcf926fbb718fecd5e29f3be9429b3",
+      "mesh_cache_path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/b-meshes.json",
+      "mesh_sha256": "241681a47c576470ae5378e09d2f119a18c9521cf54086b03d5268081fdafaa2",
+      "changed_objects": [
+        "NozzlePetalGuide0_0",
+        "NozzlePetalGuide0_1",
+        "NozzlePetalGuide10_0",
+        "NozzlePetalGuide10_1",
+        "NozzlePetalGuide11_0",
+        "NozzlePetalGuide11_1",
+        "NozzlePetalGuide1_0",
+        "NozzlePetalGuide1_1",
+        "NozzlePetalGuide2_0",
+        "NozzlePetalGuide2_1",
+        "NozzlePetalGuide3_0",
+        "NozzlePetalGuide3_1",
+        "NozzlePetalGuide4_0",
+        "NozzlePetalGuide4_1",
+        "NozzlePetalGuide5_0",
+        "NozzlePetalGuide5_1",
+        "NozzlePetalGuide6_0",
+        "NozzlePetalGuide6_1",
+        "NozzlePetalGuide7_0",
+        "NozzlePetalGuide7_1",
+        "NozzlePetalGuide8_0",
+        "NozzlePetalGuide8_1",
+        "NozzlePetalGuide9_0",
+        "NozzlePetalGuide9_1",
+        "NozzlePetalRidge0",
+        "NozzlePetalRidge1",
+        "NozzlePetalRidge10",
+        "NozzlePetalRidge11",
+        "NozzlePetalRidge2",
+        "NozzlePetalRidge3",
+        "NozzlePetalRidge4",
+        "NozzlePetalRidge5",
+        "NozzlePetalRidge6",
+        "NozzlePetalRidge7",
+        "NozzlePetalRidge8",
+        "NozzlePetalRidge9"
+      ],
+      "unchanged_visible_mesh_records": 660,
+      "max_contact_gap_mm": 2.0097183471152322e-14,
+      "video": {
+        "mean_iou": 0.8484789876685594,
+        "baseline_mean_iou": 0.8484931564112387,
+        "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+        "report_sha256": "f93dc4876ac953d83c400b4079683d0f1e699ce22a62f7aefeadd2692338f809",
+        "per_view": [
+          {
+            "view": "video-00",
+            "iou": 0.8734462579322946,
+            "baseline_iou": 0.8734462579322946,
+            "delta": 0.0
+          },
+          {
+            "view": "video-01",
+            "iou": 0.8554079855062365,
+            "baseline_iou": 0.8554437506968446,
+            "delta": -3.576519060810579e-05
+          },
+          {
+            "view": "video-02",
+            "iou": 0.8376080834305076,
+            "baseline_iou": 0.8376149942932578,
+            "delta": -6.910862750175717e-06
+          },
+          {
+            "view": "video-03",
+            "iou": 0.8190134373353954,
+            "baseline_iou": 0.819057038865555,
+            "delta": -4.360153015958712e-05
+          },
+          {
+            "view": "video-04",
+            "iou": 0.8183989362388815,
+            "baseline_iou": 0.8183989362388815,
+            "delta": 0.0
+          },
+          {
+            "view": "video-05",
+            "iou": 0.803921568627451,
+            "baseline_iou": 0.8039326978185211,
+            "delta": -1.1129191070047284e-05
+          },
+          {
+            "view": "video-06",
+            "iou": 0.8251796327508205,
+            "baseline_iou": 0.8251796327508205,
+            "delta": 0.0
+          },
+          {
+            "view": "video-07",
+            "iou": 0.8779500312409815,
+            "baseline_iou": 0.8779943118931869,
+            "delta": -4.4280652205408444e-05
+          },
+          {
+            "view": "video-08",
+            "iou": 0.893606489195306,
+            "baseline_iou": 0.893606489195306,
+            "delta": 0.0
+          },
+          {
+            "view": "video-09",
+            "iou": 0.8802574544277193,
+            "baseline_iou": 0.8802574544277193,
+            "delta": 0.0
+          }
+        ]
+      },
+      "stills": {
+        "mean_iou": 0.819437320619443,
+        "baseline_mean_iou": 0.8194408597662175,
+        "camera_config_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+        "report_sha256": "39b0e3a6401ea38bdd649445ffdca09ef3773d6c25ffdbcb78f547ebaae9cb65",
+        "per_view": [
+          {
+            "view": "still-01",
+            "iou": 0.8650207256828119,
+            "baseline_iou": 0.8650207256828119,
+            "delta": 0.0
+          },
+          {
+            "view": "still-02",
+            "iou": 0.8671098682331476,
+            "baseline_iou": 0.8671098682331476,
+            "delta": 0.0
+          },
+          {
+            "view": "still-03",
+            "iou": 0.8487970010695631,
+            "baseline_iou": 0.8487970010695631,
+            "delta": 0.0
+          },
+          {
+            "view": "still-04",
+            "iou": 0.7805294806579615,
+            "baseline_iou": 0.7805294806579615,
+            "delta": 0.0
+          },
+          {
+            "view": "still-05",
+            "iou": 0.7693590731601555,
+            "baseline_iou": 0.7693838471875765,
+            "delta": -2.4774027420959577e-05
+          },
+          {
+            "view": "still-06",
+            "iou": 0.7372434930981249,
+            "baseline_iou": 0.7372434930981249,
+            "delta": 0.0
+          },
+          {
+            "view": "still-closeup",
+            "iou": 0.8680016024343364,
+            "baseline_iou": 0.8680016024343364,
+            "delta": 0.0
+          }
+        ]
+      },
+      "width_check_sha256": "0664902ecded7b8f27b9e35a56d47bb2c5c4378d321384020b542e9041d12ab1",
+      "candidate_check_sha256": "26e34b3228a3018bb94f3b1ba01d85e46a0ff60678dc5c119766d6a0f0156887"
+    },
+    {
+      "candidate": "c",
+      "fcstd_sha256": "30d115a69d238ed31755da12990479aa14ce608d34174b2cfd24047130161bbf",
+      "generator_path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/experiment_drone_petal_channel.py",
+      "generator_sha256": "ced695884d7364ff8a21c12a19a365de696f47c0c78930d549651b84e540867d",
+      "mesh_cache_path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/c-meshes.json",
+      "mesh_sha256": "82b13ab627766582c8aea9a8d802f466539c9b8ad3a160d42bbdcd9dadf75fc4",
+      "changed_objects": [
+        "NozzlePetalGuide0_0",
+        "NozzlePetalGuide0_1",
+        "NozzlePetalGuide10_0",
+        "NozzlePetalGuide10_1",
+        "NozzlePetalGuide11_0",
+        "NozzlePetalGuide11_1",
+        "NozzlePetalGuide1_0",
+        "NozzlePetalGuide1_1",
+        "NozzlePetalGuide2_0",
+        "NozzlePetalGuide2_1",
+        "NozzlePetalGuide3_0",
+        "NozzlePetalGuide3_1",
+        "NozzlePetalGuide4_0",
+        "NozzlePetalGuide4_1",
+        "NozzlePetalGuide5_0",
+        "NozzlePetalGuide5_1",
+        "NozzlePetalGuide6_0",
+        "NozzlePetalGuide6_1",
+        "NozzlePetalGuide7_0",
+        "NozzlePetalGuide7_1",
+        "NozzlePetalGuide8_0",
+        "NozzlePetalGuide8_1",
+        "NozzlePetalGuide9_0",
+        "NozzlePetalGuide9_1",
+        "NozzlePetalRidge0",
+        "NozzlePetalRidge1",
+        "NozzlePetalRidge10",
+        "NozzlePetalRidge11",
+        "NozzlePetalRidge2",
+        "NozzlePetalRidge3",
+        "NozzlePetalRidge4",
+        "NozzlePetalRidge5",
+        "NozzlePetalRidge6",
+        "NozzlePetalRidge7",
+        "NozzlePetalRidge8",
+        "NozzlePetalRidge9"
+      ],
+      "unchanged_visible_mesh_records": 660,
+      "max_contact_gap_mm": 7.105427357601002e-15,
+      "video": {
+        "mean_iou": 0.848476152682814,
+        "baseline_mean_iou": 0.8484931564112387,
+        "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+        "report_sha256": "28d16476ed9c480e53f07680ec52a477c7e267cd59acd581d8fd436c2d8d5c2d",
+        "per_view": [
+          {
+            "view": "video-00",
+            "iou": 0.8734462579322946,
+            "baseline_iou": 0.8734462579322946,
+            "delta": 0.0
+          },
+          {
+            "view": "video-01",
+            "iou": 0.8553960644406042,
+            "baseline_iou": 0.8554437506968446,
+            "delta": -4.768625624040901e-05
+          },
+          {
+            "view": "video-02",
+            "iou": 0.8375988691242313,
+            "baseline_iou": 0.8376149942932578,
+            "delta": -1.612516902649297e-05
+          },
+          {
+            "view": "video-03",
+            "iou": 0.8190111426466097,
+            "baseline_iou": 0.819057038865555,
+            "delta": -4.5896218945351563e-05
+          },
+          {
+            "view": "video-04",
+            "iou": 0.8183989362388815,
+            "baseline_iou": 0.8183989362388815,
+            "delta": 0.0
+          },
+          {
+            "view": "video-05",
+            "iou": 0.803921568627451,
+            "baseline_iou": 0.8039326978185211,
+            "delta": -1.1129191070047284e-05
+          },
+          {
+            "view": "video-06",
+            "iou": 0.8251796327508205,
+            "baseline_iou": 0.8251796327508205,
+            "delta": 0.0
+          },
+          {
+            "view": "video-07",
+            "iou": 0.8779451114442218,
+            "baseline_iou": 0.8779943118931869,
+            "delta": -4.920044896505882e-05
+          },
+          {
+            "view": "video-08",
+            "iou": 0.893606489195306,
+            "baseline_iou": 0.893606489195306,
+            "delta": 0.0
+          },
+          {
+            "view": "video-09",
+            "iou": 0.8802574544277193,
+            "baseline_iou": 0.8802574544277193,
+            "delta": 0.0
+          }
+        ]
+      },
+      "stills": {
+        "mean_iou": 0.8194366128174383,
+        "baseline_mean_iou": 0.8194408597662175,
+        "camera_config_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+        "report_sha256": "fd787faf23faea3241a1e5ec111b5c2f7a601a1e241361cb37e2254c1b23c8c8",
+        "per_view": [
+          {
+            "view": "still-01",
+            "iou": 0.8650207256828119,
+            "baseline_iou": 0.8650207256828119,
+            "delta": 0.0
+          },
+          {
+            "view": "still-02",
+            "iou": 0.8671098682331476,
+            "baseline_iou": 0.8671098682331476,
+            "delta": 0.0
+          },
+          {
+            "view": "still-03",
+            "iou": 0.8487970010695631,
+            "baseline_iou": 0.8487970010695631,
+            "delta": 0.0
+          },
+          {
+            "view": "still-04",
+            "iou": 0.7805294806579615,
+            "baseline_iou": 0.7805294806579615,
+            "delta": 0.0
+          },
+          {
+            "view": "still-05",
+            "iou": 0.7693541185461228,
+            "baseline_iou": 0.7693838471875765,
+            "delta": -2.9728641453674598e-05
+          },
+          {
+            "view": "still-06",
+            "iou": 0.7372434930981249,
+            "baseline_iou": 0.7372434930981249,
+            "delta": 0.0
+          },
+          {
+            "view": "still-closeup",
+            "iou": 0.8680016024343364,
+            "baseline_iou": 0.8680016024343364,
+            "delta": 0.0
+          }
+        ]
+      },
+      "width_check_sha256": "86e367db2e45e516b082f74f87ed38172bacda40775d6543ef0535df4af2e592",
+      "candidate_check_sha256": "c60dd3ed593c7931d2386705be53212287f18f96401a493ab625a5523f85f6b3"
+    }
+  ],
+  "archived_sources_and_failures": [
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/vintrox-petal-channel-ab-generator.py",
+      "sha256": "aabb6971b36f2039b9bbcef08d3fc58776fcf926fbb718fecd5e29f3be9429b3"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/experiment_drone_petal_channel.py",
+      "sha256": "ced695884d7364ff8a21c12a19a365de696f47c0c78930d549651b84e540867d"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/vintrox-petal-channel-c-spline-generator.py",
+      "sha256": "50e17e0922252d4bd78612ce827808bd54559fea9811f01c6d5db2ff21347e46"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/vintrox-petal-channel-c-spline-failure.log",
+      "sha256": "0c88f4e72aecc4636c571c1eaa2f5e150fecc8d924ce33d5cb33d8d3fc8be6f9"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/vintrox-petal-channel-c-closed-generator.py",
+      "sha256": "a5b6e627190eaa233757ed1a93596cfd32b9c39ad88414851609ca337fdebd2a"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/vintrox-petal-channel-c-closed-failure.log",
+      "sha256": "7591a96d23f0969dc045494f5d7419225721bcb29e96543c42466240f6852e41"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/vintrox-petal-channel-c-open-union-generator.py",
+      "sha256": "dad03c34f7ddf31241a206bac8abb9373ded99e66095a25e5aa83ab14b6e89b3"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/vintrox-petal-channel-c-open-union-failure.log",
+      "sha256": "bb4e4db3480299666965842ed7505a5fbe0c036b64075939ca7494ee24af21f8"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/vintrox-petal-channel-c-loft-generator.py",
+      "sha256": "508b89a3cb1e95fb40955b147ec7783b9a00db93b0b1d6a480ef57cae0b43062"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/vintrox-petal-channel-c-loft-failure.log",
+      "sha256": "0b40d717b5d2466a3b337074d7d9b488398983660e1327c2cc40be592865b447"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-petal-channel-cache/vintrox-petal-channel-still-detail.py",
+      "sha256": "a82ec54876995ebd43a2b57e4fdaf04d45b033b4b7f8db5bda74e7d02ad45da5"
+    }
+  ],
+  "candidate_c_geometry_report_sha256": "ab750b953a814701a3e7598165f8cfcee0beb90f4471b195935fb088c7095831",
+  "unresolved": [
+    "Upper straps and lower end transitions remain too flat/angular against still 04.",
+    "Reference guide observations are bright positions, not known geometric centres.",
+    "Central guide pair is occluded at the chosen measurement row; compare the same two visible pairs only.",
+    "Local relief improvement does not resolve the whole rear shell/nozzle envelope or lighting mismatch."
+  ],
+  "next_focus": "Refine broad rear-shell/cavity/nozzle silhouette before spending more iterations on small channels; retain C for later integration."
+}

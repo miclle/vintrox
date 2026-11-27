@@ -1,0 +1,37 @@
+{
+  "lost_reference_pixels": 801,
+  "bbox_xyxy": [
+    674,
+    379,
+    759,
+    639
+  ],
+  "y_quantiles_px": [
+    379.0,
+    402.0,
+    437.0,
+    493.0,
+    561.0,
+    606.0,
+    638.0
+  ],
+  "x_quantiles_px": [
+    674.0,
+    691.0,
+    715.0,
+    750.0,
+    755.0,
+    756.0,
+    758.0
+  ],
+  "baseline_fcstd_sha256": "72f70bbc88e8ec059fb033c6388f89bd8a96a877e0f683a1a0d805848d590adc",
+  "candidate_fcstd_sha256": "57b303e098f692790f85d47a69f411fecb8cc4a7f448a99ad258aba9a1244afc",
+  "reference_sha256": "584543636adef77d34f994925e684b28208c29993a077b4ae9662a55e3283fd8",
+  "script_sha256": "b9c9e83657651796b20ef5369bba1fc140eaa5b6f78a4ecdd8850906a22eb16c",
+  "image_sha256": "9262e2067f57ddd9f027e903585eafe7dd16ce973a73746990e28ce506caf7fd",
+  "method": "unchanged reference mask AND baseline CAD alpha AND NOT candidate CAD alpha; original reference resized to 960x823 LANCZOS",
+  "limitations": [
+    "red pixels mark coverage loss, not a semantic reference-part classification",
+    "some source pixels lie in the wing projection; wing pose and shoulder occlusion require joint inspection"
+  ]
+}

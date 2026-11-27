@@ -1,0 +1,100 @@
+{
+  "revision": "v58-petal-tangential-contract",
+  "passed": true,
+  "scope": "saved static appearance study only",
+  "physical_validation": false,
+  "fcstd_sha256": "cf25bc7193b3051a5aa8bb28e19685990768e4c0e71a4c19432b19137da680aa",
+  "step_sha256": "8f8872cd09ba17975fad373fed68b5c913fc9d03a13ab90ff26adf6d2944fc1f",
+  "generator_sha256": "a2b039d59c0e9fd043b46409893a6436dc539cae0a0e049d2ac9418a0238ea88",
+  "concept_manifest_sha256": "54a1fd73d02e77109b01186948d8cc4aca2d22d411a9564c90efd89377edebc8",
+  "readback_sha256": "ce7d031f1c834c0c2fd54bc41c43ee99d4878464809c326f6cf056493c2515c9",
+  "visible_features": 696,
+  "step_solids": 832,
+  "bbox_mm": [
+    301.85566297978323,
+    351.71189542362737,
+    485.09868316645463
+  ],
+  "parameters": {
+    "nozzle_radial_scale": 0.9,
+    "nozzle_shell_radial_scale": 0.96,
+    "nozzle_petal_tangential_scale": 0.94,
+    "root_overlap_band_local_z_mm": [
+      94,
+      102
+    ]
+  },
+  "preserved_constraints": [
+    "four central support shafts/sockets/feet unchanged",
+    "RearServicePanel unchanged",
+    "RearStructuralFrame unchanged",
+    "RearArmourCheek left/right unchanged",
+    "rear cavity shadow remains a separate recessed housing; no continuous nozzle tube wall added"
+  ],
+  "video_comparison": {
+    "path": "cad/drone-concept/comparison/iteration-93/comparison-report.json",
+    "render_manifest": "cad/drone-concept/comparison/iteration-93-renders/render-manifest.json",
+    "mean_silhouette_iou": 0.854452066264798,
+    "view_count": 10
+  },
+  "still_comparison": {
+    "path": "cad/drone-concept/comparison/stills-64/comparison-report.json",
+    "render_manifest": "cad/drone-concept/comparison/stills-64-renders/render-manifest.json",
+    "mean_silhouette_iou": 0.8221528870108087,
+    "view_count": 7
+  },
+  "object_attribution": {
+    "path": "cad/drone-concept/comparison/object-ids-v59/contour-attribution.json",
+    "top_families": [
+      {
+        "family": "NozzlePetal",
+        "pixels": 24794
+      },
+      {
+        "family": "ScreenBezel",
+        "pixels": 22660
+      },
+      {
+        "family": "SpeakerOuterLip",
+        "pixels": 17271
+      },
+      {
+        "family": "FrontCheek",
+        "pixels": 16940
+      },
+      {
+        "family": "SpeakerVisualCone",
+        "pixels": 13768
+      },
+      {
+        "family": "BrowUnderside",
+        "pixels": 13017
+      },
+      {
+        "family": "UnderbodyLoop",
+        "pixels": 12791
+      },
+      {
+        "family": "LowerPodRib",
+        "pixels": 12778
+      },
+      {
+        "family": "MainEnclosureShell",
+        "pixels": 12489
+      },
+      {
+        "family": "HandleArm",
+        "pixels": 10564
+      }
+    ]
+  },
+  "display_renders": {
+    "manifest": "cad/drone-concept/renders/render-manifest.json",
+    "fcstd_sha256": "cf25bc7193b3051a5aa8bb28e19685990768e4c0e71a4c19432b19137da680aa"
+  },
+  "limitations": [
+    "fixed-camera silhouette scores are appearance diagnostics, not identity or manufacturing acceptance",
+    "dark recessed pixels remain ambiguous between geometry, shadow and material",
+    "no printing, assembly, acoustic, thermal, electrical or loaded-support validation"
+  ]
+}

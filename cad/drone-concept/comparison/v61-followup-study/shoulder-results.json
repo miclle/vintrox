@@ -1,0 +1,68 @@
+{
+  "shoulder125": {
+    "video": {
+      "mean_silhouette_iou": 0.8549002657218313,
+      "baseline_mean_silhouette_iou": 0.8549201687353198,
+      "delta_percentage_points": -0.0019903013488531407,
+      "per_view_delta_percentage_points": {
+        "video-00": 0.04166214310984406,
+        "video-01": 0.005035406463838044,
+        "video-02": 0.00019666700353804245,
+        "video-03": 0.029648589824593508,
+        "video-04": 0.0,
+        "video-05": -0.0785634166945659,
+        "video-06": -0.005700374404082886,
+        "video-07": -0.036985700611325,
+        "video-08": 0.024803671819528805,
+        "video-09": 0.0
+      }
+    },
+    "stills": {
+      "mean_silhouette_iou": 0.8225986864494341,
+      "baseline_mean_silhouette_iou": 0.8222681557450596,
+      "delta_percentage_points": 0.03305307043744987,
+      "per_view_delta_percentage_points": {
+        "still-01": 0.02665506836787568,
+        "still-02": 0.017286459607690485,
+        "still-03": -0.11085841277752584,
+        "still-04": 0.10945872638449261,
+        "still-05": 0.009281077541523075,
+        "still-06": 0.1618768546886029,
+        "still-closeup": 0.017671719249512385
+      }
+    }
+  },
+  "shoulder110": {
+    "video": {
+      "mean_silhouette_iou": 0.8547705549619236,
+      "baseline_mean_silhouette_iou": 0.8549201687353198,
+      "delta_percentage_points": -0.014961377339628434,
+      "per_view_delta_percentage_points": {
+        "video-00": 0.04869545871371006,
+        "video-01": 0.00493763728669494,
+        "video-02": -0.0018481112588841775,
+        "video-03": -0.023387231966265354,
+        "video-04": 0.0,
+        "video-05": -0.1485372301335386,
+        "video-06": -0.009092782759589912,
+        "video-07": -0.04576234495244913,
+        "video-08": 0.02538083167423766,
+        "video-09": 0.0
+      }
+    },
+    "stills": {
+      "mean_silhouette_iou": 0.8228193003196466,
+      "baseline_mean_silhouette_iou": 0.8222681557450596,
+      "delta_percentage_points": 0.0551144574586937,
+      "per_view_delta_percentage_points": {
+        "still-01": 0.03505338717696427,
+        "still-02": 0.02153036467698044,
+        "still-03": -0.14850354123828735,
+        "still-04": 0.18014086704584154,
+        "still-05": 0.013983794059491128,
+        "still-06": 0.261649617806059,
+        "still-closeup": 0.021946712683829084
+      }
+    }
+  }
+}

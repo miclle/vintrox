@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v78",
+      "model": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/v78-petal-joint-shear/candidate.FCStd",
+      "fcstd_sha256": "1ecf16927e8b145515090ca507aff92c28e86b7f29a6d2184bfe58d39467524a",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "1ecf16927e8b145515090ca507aff92c28e86b7f29a6d2184bfe58d39467524a",
+      "palette_contract_sha256": "471c429426991576bd4706115bcd12c4317bdc823bb15eb2eceb69ba253e3e8f",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v78-isometric.png",
+          "sha256": "17a5e2d730b17873a7f233e94e9a53447064e29d893ee935c83a2f67d4c3e9ed"
+        },
+        {
+          "view": "front",
+          "path": "v78-front.png",
+          "sha256": "008293f450376c0d994ff814f5e67374db5702c78634a076a0be0f302a9976a4"
+        },
+        {
+          "view": "rear",
+          "path": "v78-rear.png",
+          "sha256": "26548305451ae6e9cdc2d76e322618977c644cb99427e814856ade94c12def47"
+        },
+        {
+          "view": "right",
+          "path": "v78-right.png",
+          "sha256": "cd1b3be916bc77a4e0b833da45e5fdb42915b70853a48777d58338e76ec06991"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

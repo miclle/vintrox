@@ -1,0 +1,63 @@
+{
+  "baseline_fcstd_sha256": "b0f4416e5e20622b93987f837b111e630973615b9968faf441cee555ba9d6635",
+  "formal_fcstd_sha256": "45e97d81bd5025dedb19005a96258059c1795555af5e14cb8b159c950a528c98",
+  "candidates": [
+    {
+      "variant": "a",
+      "fcstd_sha256": "f1eb1f0ea5c6ae1d5feece633075d2bb9b3369bd877e34bb2ad70f4de29791f5",
+      "mean_silhouette_iou": 0.845271954701072,
+      "lower_boundary_rms_px": 5.521003666135487,
+      "lower_boundary_max_px": 14.0,
+      "status": "rejected: narrow gold shoulder and dark return introduce a side-rear trench; status clearance not reapplied"
+    },
+    {
+      "variant": "b",
+      "fcstd_sha256": "3f421f4f986fd397bf02d002843af1c48c22e3b4cdf48cdcfe5dbda64385cfa8",
+      "mean_silhouette_iou": 0.8453491771691455,
+      "lower_boundary_rms_px": 5.521003666135487,
+      "lower_boundary_max_px": 14.0,
+      "status": "rejected: stronger narrowing introduces a larger side-rear trench; status clearance not reapplied"
+    },
+    {
+      "variant": "c",
+      "fcstd_sha256": "bbe337da6521ecfa213afb2c225ddc48e92d0a4542c348027bdef57a8bcef55c",
+      "mean_silhouette_iou": 0.8453231830815977,
+      "lower_boundary_rms_px": 5.521003666135487,
+      "lower_boundary_max_px": 14.0,
+      "status": "not adopted: changed curvature lacks convincing multi-view improvement"
+    },
+    {
+      "variant": "d",
+      "fcstd_sha256": "18bb24b8ae984f2d9f2bfb630112c54d3f1685c59e6f218762ec7aa2a2368466",
+      "mean_silhouette_iou": 0.845136697720268,
+      "lower_boundary_rms_px": 5.521003666135487,
+      "lower_boundary_max_px": 14.0,
+      "status": "rejected: coplanar overlap enlarges the false dark seam"
+    },
+    {
+      "variant": "e",
+      "fcstd_sha256": "fa21ca19fd6f29ae59cb5ba31448ceb349530908f55d260cea97fef3e671977a",
+      "mean_silhouette_iou": 0.845136697720268,
+      "lower_boundary_rms_px": 5.521003666135487,
+      "lower_boundary_max_px": 14.0,
+      "status": "not adopted: overlap repair works but larger carrier/changed shoulders are unsupported"
+    },
+    {
+      "variant": "f",
+      "fcstd_sha256": "2fb533453f5ab280c4cbcb6c30708cce9d4ac458bfadb37f9ca169988a90fb18",
+      "mean_silhouette_iou": 0.8439018562015554,
+      "lower_boundary_rms_px": 5.521003666135487,
+      "lower_boundary_max_px": 14.0,
+      "status": "diagnostic: seam removed with unchanged carrier/frame union; two antenna slots remain filled by frame"
+    },
+    {
+      "variant": "g",
+      "fcstd_sha256": "31a09d5fe73f5425b930028f9ff5e2f20c0005e98db7cd0007d495a19eb415ec",
+      "mean_silhouette_iou": 0.8439018562015554,
+      "lower_boundary_rms_px": 5.521003666135487,
+      "lower_boundary_max_px": 14.0,
+      "status": "adopted in formal v34: common faces removed and two shallow slots opened in the frame"
+    }
+  ],
+  "status": "G adopted as v34; posterior overall width and complete visual fidelity remain unresolved"
+}

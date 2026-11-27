@@ -1,0 +1,110 @@
+{
+  "decision": "research candidate rejected",
+  "baseline_fcstd_sha256": "2ab40ea74dacd2be487e8c3f77ff540b63110daff9c506f79cf332c8e016412a",
+  "fcstd_sha256": "cd4ce526712ed3f5ab0a87fa39ccd91c3210152e09e62700496b9caebd068496",
+  "step_sha256": "174756b1f3c72d8379c729f8f0ca33e6f6921a7be7c4736c7a3cd968c60fa355",
+  "angles_deg": [
+    0.022983497197425443,
+    1.7577485645015185
+  ],
+  "video": {
+    "baseline_mean_iou": 0.8557317102869455,
+    "candidate_mean_iou": 0.8547836661460224,
+    "delta_percentage_points": -0.09480441409230878,
+    "views": [
+      {
+        "view": "video-00",
+        "baseline_iou": 0.874013996247562,
+        "candidate_iou": 0.8690709100675639
+      },
+      {
+        "view": "video-01",
+        "baseline_iou": 0.8609779698647837,
+        "candidate_iou": 0.8612621556372826
+      },
+      {
+        "view": "video-02",
+        "baseline_iou": 0.848284875142283,
+        "candidate_iou": 0.8486806965067835
+      },
+      {
+        "view": "video-03",
+        "baseline_iou": 0.831969846478647,
+        "candidate_iou": 0.8316037816980948
+      },
+      {
+        "view": "video-04",
+        "baseline_iou": 0.8281843209702348,
+        "candidate_iou": 0.8240506826184274
+      },
+      {
+        "view": "video-05",
+        "baseline_iou": 0.816012846983253,
+        "candidate_iou": 0.8140387993087512
+      },
+      {
+        "view": "video-06",
+        "baseline_iou": 0.8379347853870645,
+        "candidate_iou": 0.8365412987720453
+      },
+      {
+        "view": "video-07",
+        "baseline_iou": 0.885335859426338,
+        "candidate_iou": 0.8875148388859947
+      },
+      {
+        "view": "video-08",
+        "baseline_iou": 0.8955698711342184,
+        "candidate_iou": 0.8946416528722948
+      },
+      {
+        "view": "video-09",
+        "baseline_iou": 0.8790327312350698,
+        "candidate_iou": 0.880431845092986
+      }
+    ]
+  },
+  "still": {
+    "baseline_mean_iou": 0.8235871965201441,
+    "candidate_mean_iou": 0.8245679580363923,
+    "delta_percentage_points": 0.0980761516248152,
+    "views": [
+      {
+        "view": "still-01",
+        "baseline_iou": 0.8660291217302885,
+        "candidate_iou": 0.8585674014196922
+      },
+      {
+        "view": "still-02",
+        "baseline_iou": 0.870937638772984,
+        "candidate_iou": 0.8766204171485817
+      },
+      {
+        "view": "still-03",
+        "baseline_iou": 0.8489013914755563,
+        "candidate_iou": 0.8547100033856811
+      },
+      {
+        "view": "still-04",
+        "baseline_iou": 0.7849206314240524,
+        "candidate_iou": 0.7829467600692817
+      },
+      {
+        "view": "still-05",
+        "baseline_iou": 0.7810704585957382,
+        "candidate_iou": 0.7827062683080004
+      },
+      {
+        "view": "still-06",
+        "baseline_iou": 0.741925562767259,
+        "candidate_iou": 0.7395644427657042
+      },
+      {
+        "view": "still-closeup",
+        "baseline_iou": 0.8713255708751311,
+        "candidate_iou": 0.8768604131578043
+      }
+    ]
+  },
+  "visible_wing_edges_sha256": "476390d397d7b869ce1c2282b3c49c7a36d5e059ef48aae936c3178cb872cf5a"
+}

@@ -1,0 +1,8 @@
+{
+  "method": "rebuild-from-saved-fcstd",
+  "fcstd_sha256": "19174e53be3267dbf0da56fed4e75783fb1ec076985ad3925c7a1f3c97cc66cd",
+  "exporter_sha256": "57eb2d587a74fdcd6ad48a0e6ce328ccab8ac3e87fe58313c506056997def57a",
+  "visible_features": 696,
+  "stored_mesh": false,
+  "rebuild_command": "tools/export_saved_drone_meshes.py --output <temporary-mesh-json>"
+}

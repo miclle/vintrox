@@ -1,0 +1,25 @@
+{
+  "baseline": "v164",
+  "candidate": "lowerpod-rib-scale-1.01",
+  "metrics": {
+    "video": {
+      "baseline": 0.8589730720993112,
+      "candidate": 0.8586918259114376,
+      "views": 10
+    },
+    "stills": {
+      "baseline": 0.8252284208832837,
+      "candidate": 0.8249789264175329,
+      "views": 7
+    },
+    "sheet": {
+      "baseline": 0.8965107470029394,
+      "candidate": 0.8963109143699152,
+      "views": 10
+    }
+  },
+  "decision": "retain v164",
+  "reason": "All three aggregate metrics regress.",
+  "changed_family": "LowerPodRib",
+  "changed_count": 36
+}

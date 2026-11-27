@@ -1,0 +1,190 @@
+{
+  "measurement_script_sha256": "b64197beeee642b3da77383b9b8f0ded30a199cea6db23133d1fcb5569947286",
+  "results": [
+    {
+      "label": "v44",
+      "fcstd_sha256": "08e667f1a219b9b0758b2bdf9b13d6d6e34ae45c277bbcd859bf31a45c3703a8",
+      "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_path": "cad/drone-concept/comparison/object-ids-v44/object-id-manifest.json",
+      "id_manifest_sha256": "0f19b2ae289fe882807c7fa216003f013d78d151b8f3a48ce78381308986b569",
+      "reference_px": [
+        [
+          563,
+          420
+        ],
+        [
+          563,
+          450
+        ],
+        [
+          563,
+          475
+        ],
+        [
+          563,
+          487
+        ],
+        [
+          556,
+          499
+        ],
+        [
+          543,
+          512
+        ],
+        [
+          529,
+          524
+        ]
+      ],
+      "nearest_visible_gold_px": [
+        [
+          575,
+          420
+        ],
+        [
+          575,
+          450
+        ],
+        [
+          575,
+          475
+        ],
+        [
+          575,
+          487
+        ],
+        [
+          556,
+          500
+        ],
+        [
+          543,
+          511
+        ],
+        [
+          526,
+          524
+        ]
+      ],
+      "distances_px": [
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        1.0,
+        1.0,
+        3.0
+      ],
+      "rms_px": 9.157354577449912,
+      "max_px": 12.0
+    },
+    {
+      "label": "current",
+      "fcstd_sha256": "b386c41de3c1ad8983d5397d1c5509545b22864bc1194007796de6a55102d958",
+      "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_path": "cad/drone-concept/comparison/object-ids-v45/object-id-manifest.json",
+      "id_manifest_sha256": "cee2918d223b9d52b8edd83a7fcc124e44e1dc57edc848fa5e1885f7033c1a47",
+      "reference_px": [
+        [
+          563,
+          420
+        ],
+        [
+          563,
+          450
+        ],
+        [
+          563,
+          475
+        ],
+        [
+          563,
+          487
+        ],
+        [
+          556,
+          499
+        ],
+        [
+          543,
+          512
+        ],
+        [
+          529,
+          524
+        ]
+      ],
+      "nearest_visible_gold_px": [
+        [
+          563,
+          420
+        ],
+        [
+          563,
+          450
+        ],
+        [
+          563,
+          475
+        ],
+        [
+          563,
+          487
+        ],
+        [
+          556,
+          499
+        ],
+        [
+          543,
+          511
+        ],
+        [
+          526,
+          524
+        ]
+      ],
+      "distances_px": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        3.0
+      ],
+      "rms_px": 1.1952286093343936,
+      "max_px": 3.0
+    }
+  ],
+  "boundary_objects": [
+    "SideGuardRight",
+    "SideClosureRight",
+    "RearArmourCheekRight"
+  ],
+  "source_frame": 180,
+  "manual_uncertainty_px": 2,
+  "source_files": [
+    {
+      "path": "cad/drone-concept/comparison/iteration-79/reference-frames/frame-07.png",
+      "sha256": "ed7cdc03298e1c8106e1213c9b147088086735663711979ebff9799bbbb2f920"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-78-renders/video-06.png",
+      "sha256": "98e305364ee73995c8ef58488b5c05a31ad1c410462a7035871d4065359e1801"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-79-renders/video-06.png",
+      "sha256": "24f3c2ddea633042dc2e32e8053eb07b6077b26a5e262f3f02278d2c04f379d9"
+    }
+  ],
+  "image_path": "cad/drone-concept/comparison/status-rim-study/v45-status-rim-check.png",
+  "image_sha256": "60e02becf13258de5eea962d9604142a1a6883c7906cd1a418f37bdff98fada8",
+  "limitations": [
+    "Seven construction-view observations, not independent acceptance.",
+    "Union includes adjacent gold parts; a private cut edge may remain occluded.",
+    "Reference component identities are unknown; do not remove surfaces just to improve scores."
+  ],
+  "archived_from_image_path": "cad/drone-concept/comparison/status-rim-check.png"
+}

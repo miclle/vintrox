@@ -1,0 +1,52 @@
+{
+  "baseline_fcstd_sha256": "7cb4dc6e74b327c4cf63b326b6f57a46057ea54a43fd433615e5f75a39947d5c",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "variants": [
+    {
+      "variant": "a",
+      "fcstd_sha256": "4024088d4d496cb03f46eec7c7019374dec10f015c1bdd1eced198d093571acb",
+      "model": "cad/drone-concept/comparison/rear-cavity-study/a/candidate.FCStd",
+      "decision": "superseded: cavity opened but broad luminous rim remains",
+      "mean_silhouette_iou": 0.8437622103139475
+    },
+    {
+      "variant": "b",
+      "fcstd_sha256": "cd0a03fb6622379bf251aae960f41ab975b88b5f3098933385db06bb86ed8f83",
+      "model": "cad/drone-concept/comparison/rear-cavity-study/b/candidate.FCStd",
+      "decision": "rejected: forward lip hides observed upper and side light",
+      "mean_silhouette_iou": 0.8437622103139475
+    },
+    {
+      "variant": "c",
+      "fcstd_sha256": "f73af1fd9609850c18db727d50ce3bcc726ac879d05bf391308f828bcacdbd56",
+      "model": "cad/drone-concept/comparison/rear-cavity-study/c/candidate.FCStd",
+      "decision": "superseded: light lacks a mounting ledge",
+      "mean_silhouette_iou": 0.8437622103139475
+    },
+    {
+      "variant": "d",
+      "fcstd_sha256": "7af64a256f01761bac83ea169603050a8b676445ac8060cb7a3efadc28bffa86",
+      "model": "cad/drone-concept/comparison/rear-cavity-study/d/candidate.FCStd",
+      "decision": "superseded: visible diagonal light remains overemphasized",
+      "mean_silhouette_iou": 0.8437622103139475
+    },
+    {
+      "variant": "e",
+      "fcstd_sha256": "4868e1977f7e8e58c9f030a4f2e70667ba5a45d2ea6336da8b241e348d0e0f74",
+      "model": "cad/drone-concept/comparison/rear-cavity-study/e/candidate.FCStd",
+      "decision": "adopted for cavity depth and occlusion; overall visual target incomplete",
+      "mean_silhouette_iou": 0.8437622103139475
+    }
+  ],
+  "scope": "three rear housing parts only; nozzle and four shafts unchanged",
+  "status": "E adopted in v31; geometry passed, legacy local outline target failed; optimization active",
+  "shadow_interpretation": "dark recess margins are not automatically nozzle geometry boundaries",
+  "formal_fcstd_sha256": "5692be44b65cae0fb26a6bae3b351e1d5dfe67f52d447a56cf35b9cecf3d91bf",
+  "current_local_outline": {
+    "rms_px": 10.2399776785471,
+    "max_px": 27.0,
+    "threshold_px": 22.75,
+    "passed": false,
+    "interpretation": "two source points may follow shadow gradients; retain failure while investigating"
+  }
+}

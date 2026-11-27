@@ -1,0 +1,39 @@
+{
+  "revision": "v267-bass-visual-cone-screening",
+  "baseline_revision": "v259-rear-beacon-length",
+  "baseline_fcstd_sha256": "f27892986cd8605bab3dcbbfc0c725e0cfbb09bb7d79efdc9b296af6214a8b2c",
+  "candidates": {
+    "shrink05": {
+      "video": {
+        "baseline": 0.8600808511309672,
+        "candidate": 0.8601519261211561,
+        "delta": 7.107499018887964e-05
+      },
+      "stills": {
+        "baseline": 0.8257434211210278,
+        "candidate": 0.825631556420065,
+        "delta": -0.00011186470096280487
+      },
+      "sheet": {
+        "baseline": 0.8977270609525689,
+        "candidate": 0.8976614276970464,
+        "delta": -6.563325552255694e-05
+      }
+    },
+    "shrink15": {
+      "video": {
+        "baseline": 0.8600808511309672,
+        "candidate": 0.8601484060343463,
+        "delta": 6.755490337906345e-05
+      }
+    }
+  },
+  "decision": "not-adopted",
+  "decision_basis": "Both candidates improve video at noise scale but shrink05 regresses static and contact-sheet means. Formal v259 retained.",
+  "method": "saved-CAD recessed bowl rebuild, fixed calibrated cameras, no image warp or per-part alignment",
+  "limitations": [
+    "BassVisualCone is an appearance-only internal bowl",
+    "dark cavity and occlusion remain ambiguous",
+    "physical and manufacturing validation not performed"
+  ]
+}

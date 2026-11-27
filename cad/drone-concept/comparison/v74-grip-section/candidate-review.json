@@ -1,0 +1,138 @@
+{
+  "status": "not adopted",
+  "baseline": "v69; formal baseline v61 unchanged",
+  "candidate_fcstd_sha256": "7425814609758177b4c21e64aaf78757422376ed695de556e608571ee0d7ff99",
+  "scores": {
+    "video": {
+      "candidate": 0.8555771936611425,
+      "baseline_v69": 0.8555332009171318,
+      "delta": 4.39927440106791e-05
+    },
+    "stills": {
+      "candidate": 0.8215802743801647,
+      "baseline_v69": 0.8225961961828953,
+      "delta": -0.0010159218027305794
+    }
+  },
+  "per_view": {
+    "video": [
+      {
+        "view": "video-00",
+        "candidate": 0.874011351085568,
+        "baseline_v69": 0.8737248836985229,
+        "delta": 0.00028646738704518615
+      },
+      {
+        "view": "video-01",
+        "candidate": 0.860440145757066,
+        "baseline_v69": 0.8607734837783811,
+        "delta": -0.0003333380213151882
+      },
+      {
+        "view": "video-02",
+        "candidate": 0.8475448719027032,
+        "baseline_v69": 0.847902666681625,
+        "delta": -0.0003577947789217273
+      },
+      {
+        "view": "video-03",
+        "candidate": 0.8315488119095333,
+        "baseline_v69": 0.8313541368451188,
+        "delta": 0.00019467506441450677
+      },
+      {
+        "view": "video-04",
+        "candidate": 0.8285533357175903,
+        "baseline_v69": 0.8280701984625631,
+        "delta": 0.0004831372550271329
+      },
+      {
+        "view": "video-05",
+        "candidate": 0.8156707558369608,
+        "baseline_v69": 0.8151927854193574,
+        "delta": 0.00047797041760344605
+      },
+      {
+        "view": "video-06",
+        "candidate": 0.8377561893534052,
+        "baseline_v69": 0.838026392255248,
+        "delta": -0.0002702029018427643
+      },
+      {
+        "view": "video-07",
+        "candidate": 0.8848750575411597,
+        "baseline_v69": 0.8853494673334831,
+        "delta": -0.00047440979232338254
+      },
+      {
+        "view": "video-08",
+        "candidate": 0.8947590244500526,
+        "baseline_v69": 0.8944945926754635,
+        "delta": 0.0002644317745891245
+      },
+      {
+        "view": "video-09",
+        "candidate": 0.880612393057386,
+        "baseline_v69": 0.8804434020215558,
+        "delta": 0.0001689910358302349
+      }
+    ],
+    "stills": [
+      {
+        "view": "still-01",
+        "candidate": 0.8654819912365229,
+        "baseline_v69": 0.8652161858748563,
+        "delta": 0.0002658053616666489
+      },
+      {
+        "view": "still-02",
+        "candidate": 0.867796400176018,
+        "baseline_v69": 0.8696146654586812,
+        "delta": -0.0018182652826631562
+      },
+      {
+        "view": "still-03",
+        "candidate": 0.8501025574451513,
+        "baseline_v69": 0.8487768274887965,
+        "delta": 0.0013257299563548264
+      },
+      {
+        "view": "still-04",
+        "candidate": 0.7808118647038206,
+        "baseline_v69": 0.7835964989444053,
+        "delta": -0.002784634240584727
+      },
+      {
+        "view": "still-05",
+        "candidate": 0.7797560474259898,
+        "baseline_v69": 0.7795997095795026,
+        "delta": 0.00015633784648716453
+      },
+      {
+        "view": "still-06",
+        "candidate": 0.7382523726344455,
+        "baseline_v69": 0.7408007242503304,
+        "delta": -0.0025483516158848474
+      },
+      {
+        "view": "still-closeup",
+        "candidate": 0.8688606870392045,
+        "baseline_v69": 0.8705687616836939,
+        "delta": -0.0017080746444894102
+      }
+    ]
+  },
+  "export_consistency_passed": false,
+  "export_relative_volume_threshold": 1e-06,
+  "export_relative_volume_error": 1.7463393219226445e-05,
+  "all_shapes_valid_closed": true,
+  "changed_mesh_equal_saved_readback": true,
+  "decision": "v74 static aggregate regresses and STEP volume threshold fails",
+  "native_window_visual_check": "not completed; RPC refused and CUA cgWindowNotFound",
+  "limitations": [
+    "appearance hypothesis; not recovered source topology",
+    "upper-strip ROI includes adjacent wings and antenna, not complete isolated grip contour acceptance",
+    "90 percent whole silhouette and complete major-part 5 percent contour target remain unproven",
+    "no manufacturing or physical acceptance"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "revision": "v96-front-cheek-contract097",
+  "status": "adopted as current appearance entry; formal physical acceptance remains open",
+  "baseline_revision": "v95-v69-v73-combined-appearance-baseline",
+  "baseline_fcstd_sha256": "ed7175189e0827f9eee6851f97a91c8bf51d31cef157e98d7652caf817672508",
+  "candidate_fcstd_sha256": "71e0d53bbd8787765a8a45caf6a1530368b52147820e438c38c4cdcabd0eebb2",
+  "candidate_step_sha256": "0896826e0f329ac6965f271b1aac2ecb154c14c53af6291371b0c6b9c0ed30cd",
+  "changed_objects": [
+    "FrontCheekLeft",
+    "FrontCheekRight",
+    "FrontCheekBridgeLeft",
+    "FrontCheekBridgeRight"
+  ],
+  "x_scale_about_model_center": 0.97,
+  "video": {
+    "candidate_mean_iou": 0.8558178749139774,
+    "baseline_mean_iou": 0.8555332009171318,
+    "delta_mean_iou": 0.0002846739968456191,
+    "improved_views": 7,
+    "report": "video-comparison/comparison-report.json"
+  },
+  "stills": {
+    "candidate_mean_iou": 0.8229619829634719,
+    "baseline_mean_iou": 0.8225961961828953,
+    "delta_mean_iou": 0.00036578678057663794,
+    "report": "stills-comparison/comparison-report.json"
+  },
+  "saved_readback": {
+    "passed": true,
+    "scope": "saved static appearance study only",
+    "physical_validation": false,
+    "errors": [],
+    "visible_features": 0,
+    "shape_objects": 698,
+    "step_solids": 1008,
+    "step_invalid_closed_solids": 0,
+    "group_count": 0,
+    "non_chinese_labels": [],
+    "gui_document_present": true,
+    "screen_panel_mm": [
+      210.0,
+      2.0,
+      160.0
+    ],
+    "active_area_mm": [
+      200.0,
+      0.8,
+      150.0
+    ],
+    "distinct_visible_rgb_triples": 0,
+    "restored_reference_modules": {
+      "FrontCheek": [
+        "FrontCheekLeft",
+        "FrontCheekBridgeLeft",
+        "FrontCheekRight",
+        "FrontCheekBridgeRight"
+      ],
+      "CheekDial": [
+        "CheekDialLeft",
+        "CheekDialRight"
+      ],
+      "VentBacking": [
+        "VentBackingLeft",
+        "VentBackingRight"
+      ],
+      "CheekPerforatedPanel": [
+        "CheekPerforatedPanelLeft",
+        "CheekPerforatedPanelRight"
+      ],
+      "UtilityBarrel": [
+        "UtilityBarrelLeft"
+      ],
+      "UtilityCap": [
+        "UtilityCapLeft",
+        "UtilityCapRibLeft0",
+        "UtilityCapRibLeft1",
+        "UtilityCapRibLeft2",
+        "UtilityCapRibLeft3"
+      ],
+      "UtilityIndicator": [
+        "UtilityIndicatorLeft"
+      ],
+      "SideCable": [
+        "SideCableLeft",
+        "SideCableTopBootLeft"
+      ]
+    },
+    "support_object_count": 13,
+    "support_objects": [
+      "CentralSupportSeat",
+      "SupportShaftFrontLeft",
+      "SupportSocketFrontLeft",
+      "SupportFootFrontLeft",
+      "SupportShaftRearLeft",
+      "SupportSocketRearLeft",
+      "SupportFootRearLeft",
+      "SupportShaftFrontRight",
+      "SupportSocketFrontRight",
+      "SupportFootFrontRight",
+      "SupportShaftRearRight",
+      "SupportSocketRearRight",
+      "SupportFootRearRight"
+    ],
+    "fcstd_sha256": "71e0d53bbd8787765a8a45caf6a1530368b52147820e438c38c4cdcabd0eebb2",
+    "step_sha256": "0896826e0f329ac6965f271b1aac2ecb154c14c53af6291371b0c6b9c0ed30cd",
+    "front_cheek_x_scale": 0.97
+  },
+  "registration": "same fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "color_audit": {
+    "distinct_rgb_triples": 74,
+    "gui_members_copied": 2095
+  },
+  "limitations": [
+    "front-cheek contraction is an image-derived appearance hypothesis",
+    "measured flat screen retained; curved reference screen remains an appearance assumption",
+    "whole-model target remains below 90% IoU",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "renderer": "Blender 5.1.1",
+  "method": "saved CAD tessellation; Cycles",
+  "renderer_script_sha256": "bf79f2d4a1ea54a97efcd8e4f1f23221bf8434c9eda69a67e3fbf6642c59db4b",
+  "compute_device": "CPU",
+  "mesh_validation_repairs": [],
+  "fcstd_sha256": "34910c4d990f0efa88deb8434d81d16923d0470f5e08f98900da1aa2cb3a035c",
+  "cad_geometry_features": 696,
+  "render_only": [
+    "studio lighting",
+    "procedural enamel texture",
+    "surface lettering"
+  ],
+  "physical_validation": false,
+  "images": [
+    {
+      "view": "hero",
+      "path": "hero.png",
+      "sha256": "a2e04188ce103a5bf36533fc0a6588cc4cbb781c94cd1fa5ee9de2aac777b857"
+    },
+    {
+      "view": "front",
+      "path": "front.png",
+      "sha256": "c100a909fe44297c65498d7279aaa488414102d22d1feb4e015aaa813007f904"
+    },
+    {
+      "view": "rear",
+      "path": "rear.png",
+      "sha256": "0e3f46a29394d9cf6b7521d2f45a753a7add9438c281ff6c823e1ff803f7f877"
+    }
+  ],
+  "turntable": null,
+  "review_board": null
+}

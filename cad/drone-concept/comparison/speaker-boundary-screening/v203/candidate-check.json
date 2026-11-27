@@ -1,0 +1,151 @@
+{
+  "revision": "v203-speaker-cone-0995",
+  "baseline_fcstd_sha256": "aedd1fc5039265123f71b43faab01939faa4dc2fd84ee0955efee7c3b9aaab1b",
+  "fcstd_sha256": "782bcb2a5afd65194fac64a2b14528fa82ead5453cd82266e8ae8b3abe8e829c",
+  "scale": 0.995,
+  "mode": "cone",
+  "changed_objects": [
+    "SpeakerSurroundLeft",
+    "SpeakerVisualConeLeft",
+    "SpeakerSurroundRight",
+    "SpeakerVisualConeRight"
+  ],
+  "checks": [
+    {
+      "name": "SpeakerSurroundLeft",
+      "before": {
+        "volume_mm3": 6652.739574,
+        "bbox_mm": [
+          -114.709727,
+          -109.131753,
+          79.17921,
+          179.01451,
+          103.70547,
+          203.54077
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 6553.446604,
+        "bbox_mm": [
+          -114.695782,
+          -109.145698,
+          79.428798,
+          178.764922,
+          103.955058,
+          203.291182
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerVisualConeLeft",
+      "before": {
+        "volume_mm3": 14108.533892,
+        "bbox_mm": [
+          -113.62074,
+          -103.62074,
+          85.269919,
+          172.923801,
+          109.796179,
+          197.450061
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 13967.801266,
+        "bbox_mm": [
+          -113.62074,
+          -103.62074,
+          85.489053,
+          172.704667,
+          110.015313,
+          197.230927
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerSurroundRight",
+      "before": {
+        "volume_mm3": 6652.739574,
+        "bbox_mm": [
+          109.131753,
+          114.709727,
+          79.17921,
+          179.01451,
+          103.70547,
+          203.54077
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 6553.446604,
+        "bbox_mm": [
+          109.145698,
+          114.695782,
+          79.428798,
+          178.764922,
+          103.955058,
+          203.291182
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerVisualConeRight",
+      "before": {
+        "volume_mm3": 14108.533892,
+        "bbox_mm": [
+          103.62074,
+          113.62074,
+          85.269919,
+          172.923801,
+          109.796179,
+          197.450061
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 13967.801266,
+        "bbox_mm": [
+          103.62074,
+          113.62074,
+          85.489053,
+          172.704667,
+          110.015313,
+          197.230927
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    }
+  ],
+  "visible_features": 696,
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "status": "video screening candidate",
+  "mesh_archival": "not stored; rebuild from candidate.FCStd with tools/export_saved_drone_meshes.py into a temporary directory",
+  "mesh_rebuild_exporter_sha256": "57eb2d587a74fdcd6ad48a0e6ce328ccab8ac3e87fe58313c506056997def57a",
+  "step_sha256": "50090d7472686ad49376a987d0a5854fce4752942a62a7f4a7ff4843526a3ca7",
+  "step_solids": 853,
+  "step_readback_passed": true,
+  "step_relative_volume_error": 5.539606912668385e-07,
+  "step_bbox_delta_mm": 5.8903992794512305e-12,
+  "builder_script": "tools/experiment_drone_speaker_boundary.py",
+  "builder_script_sha256": "05802e3acfd1e402a7a9c0c8d4786e26749f6d0e4779e085f2325e0f10565374"
+}

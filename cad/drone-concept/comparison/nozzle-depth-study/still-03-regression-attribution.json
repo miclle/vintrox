@@ -1,0 +1,42 @@
+{
+  "view": "still-03",
+  "reference_sha256": "584543636adef77d34f994925e684b28208c29993a077b4ae9662a55e3283fd8",
+  "reference_resize": "960x823 LANCZOS, identical to comparison renderer",
+  "groups": {
+    "lost_reference_pixels": {
+      "count": 2014,
+      "by_object": [
+        {
+          "object": "RearArmourCheekRight",
+          "pixels": 1767
+        },
+        {
+          "object": "SideGuardRight",
+          "pixels": 240
+        }
+      ]
+    },
+    "removed_excess_pixels": {
+      "count": 29,
+      "by_object": [
+        {
+          "object": "RearArmourCheekRight",
+          "pixels": 28
+        }
+      ]
+    },
+    "new_excess_pixels": {
+      "count": 0,
+      "by_object": []
+    },
+    "recovered_reference_pixels": {
+      "count": 0,
+      "by_object": []
+    }
+  },
+  "limitations": [
+    "opaque ID visibility attribution only",
+    "reference threshold and all camera poses unchanged",
+    "does not prove that every lost pixel is an incorrect CAD surface"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "status": "01/02/03/closeup display-corner fit; 04/05/06 reference wing and beacon landmark fits",
+  "resolution": [
+    960,
+    823
+  ],
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "views": [
+    {
+      "name": "still-03",
+      "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-03.jpg",
+      "source_sha256": "584543636adef77d34f994925e684b28208c29993a077b4ae9662a55e3283fd8",
+      "resolution": [
+        960,
+        823
+      ],
+      "projection": "PERSP",
+      "lens_mm": 88.00000000125,
+      "sensor_width_mm": 36,
+      "ortho_scale_mm": 420,
+      "eye_mm": [
+        816.9309462539782,
+        -784.974705058135,
+        400.22541992852774
+      ],
+      "target_mm": [
+        162.84216044350558,
+        -50.24168314653832,
+        220.40537991731233
+      ],
+      "score_interpretation": "display-corner camera fit; curved screen and corner uncertainty remain",
+      "roll_degrees": 0.8008950101109487
+    }
+  ]
+}

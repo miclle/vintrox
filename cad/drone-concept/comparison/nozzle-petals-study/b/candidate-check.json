@@ -1,0 +1,5221 @@
+{
+  "variant": "b",
+  "phase_degrees": 11.25,
+  "base_fcstd_sha256": "72c8968f252d52be29c9e82a53d7b9b61b68542ae994f6beb195761cb4ad5655",
+  "fcstd_sha256": "9d9c5167600d77f815754fe8f5aeab4e4490fc7609636ffcf6fdbdb2544e01f6",
+  "changed_objects": [
+    "NozzlePetal0",
+    "NozzlePetalInset0",
+    "NozzlePetalRidge0",
+    "NozzlePetalEdgeRail0_1",
+    "NozzlePetalEdgeRail0_20",
+    "NozzlePetalGuide0_0",
+    "NozzlePetalGuide0_1",
+    "NozzlePetalEndHem0",
+    "NozzlePetalHinge0",
+    "NozzlePetal1",
+    "NozzlePetalInset1",
+    "NozzlePetalRidge1",
+    "NozzlePetalEdgeRail1_24",
+    "NozzlePetalEdgeRail1_43",
+    "NozzlePetalGuide1_0",
+    "NozzlePetalGuide1_1",
+    "NozzlePetalEndHem1",
+    "NozzlePetalHinge1",
+    "NozzlePetal2",
+    "NozzlePetalInset2",
+    "NozzlePetalRidge2",
+    "NozzlePetalEdgeRail2_46",
+    "NozzlePetalEdgeRail2_65",
+    "NozzlePetalGuide2_0",
+    "NozzlePetalGuide2_1",
+    "NozzlePetalEndHem2",
+    "NozzlePetalHinge2",
+    "NozzlePetal3",
+    "NozzlePetalInset3",
+    "NozzlePetalRidge3",
+    "NozzlePetalEdgeRail3_69",
+    "NozzlePetalEdgeRail3_88",
+    "NozzlePetalGuide3_0",
+    "NozzlePetalGuide3_1",
+    "NozzlePetalEndHem3",
+    "NozzlePetalHinge3",
+    "NozzlePetal4",
+    "NozzlePetalInset4",
+    "NozzlePetalRidge4",
+    "NozzlePetalEdgeRail4_91",
+    "NozzlePetalEdgeRail4_110",
+    "NozzlePetalGuide4_0",
+    "NozzlePetalGuide4_1",
+    "NozzlePetalEndHem4",
+    "NozzlePetalHinge4",
+    "NozzlePetal5",
+    "NozzlePetalInset5",
+    "NozzlePetalRidge5",
+    "NozzlePetalEdgeRail5_114",
+    "NozzlePetalEdgeRail5_133",
+    "NozzlePetalGuide5_0",
+    "NozzlePetalGuide5_1",
+    "NozzlePetalEndHem5",
+    "NozzlePetalHinge5",
+    "NozzlePetal6",
+    "NozzlePetalInset6",
+    "NozzlePetalRidge6",
+    "NozzlePetalEdgeRail6_136",
+    "NozzlePetalEdgeRail6_155",
+    "NozzlePetalGuide6_0",
+    "NozzlePetalGuide6_1",
+    "NozzlePetalEndHem6",
+    "NozzlePetalHinge6",
+    "NozzlePetal7",
+    "NozzlePetalInset7",
+    "NozzlePetalRidge7",
+    "NozzlePetalEdgeRail7_159",
+    "NozzlePetalEdgeRail7_178",
+    "NozzlePetalGuide7_0",
+    "NozzlePetalGuide7_1",
+    "NozzlePetalEndHem7",
+    "NozzlePetalHinge7",
+    "NozzlePetal8",
+    "NozzlePetalInset8",
+    "NozzlePetalRidge8",
+    "NozzlePetalEdgeRail8_181",
+    "NozzlePetalEdgeRail8_200",
+    "NozzlePetalGuide8_0",
+    "NozzlePetalGuide8_1",
+    "NozzlePetalEndHem8",
+    "NozzlePetalHinge8",
+    "NozzlePetal9",
+    "NozzlePetalInset9",
+    "NozzlePetalRidge9",
+    "NozzlePetalEdgeRail9_204",
+    "NozzlePetalEdgeRail9_223",
+    "NozzlePetalGuide9_0",
+    "NozzlePetalGuide9_1",
+    "NozzlePetalEndHem9",
+    "NozzlePetalHinge9",
+    "NozzlePetal10",
+    "NozzlePetalInset10",
+    "NozzlePetalRidge10",
+    "NozzlePetalEdgeRail10_226",
+    "NozzlePetalEdgeRail10_245",
+    "NozzlePetalGuide10_0",
+    "NozzlePetalGuide10_1",
+    "NozzlePetalEndHem10",
+    "NozzlePetalHinge10",
+    "NozzlePetal11",
+    "NozzlePetalInset11",
+    "NozzlePetalRidge11",
+    "NozzlePetalEdgeRail11_249",
+    "NozzlePetalEdgeRail11_268",
+    "NozzlePetalGuide11_0",
+    "NozzlePetalGuide11_1",
+    "NozzlePetalEndHem11",
+    "NozzlePetalHinge11",
+    "NozzlePetal12",
+    "NozzlePetalInset12",
+    "NozzlePetalRidge12",
+    "NozzlePetalEdgeRail12_271",
+    "NozzlePetalEdgeRail12_290",
+    "NozzlePetalGuide12_0",
+    "NozzlePetalGuide12_1",
+    "NozzlePetalEndHem12",
+    "NozzlePetalHinge12",
+    "NozzlePetal13",
+    "NozzlePetalInset13",
+    "NozzlePetalRidge13",
+    "NozzlePetalEdgeRail13_294",
+    "NozzlePetalEdgeRail13_313",
+    "NozzlePetalGuide13_0",
+    "NozzlePetalGuide13_1",
+    "NozzlePetalEndHem13",
+    "NozzlePetalHinge13",
+    "NozzlePetal14",
+    "NozzlePetalInset14",
+    "NozzlePetalRidge14",
+    "NozzlePetalEdgeRail14_316",
+    "NozzlePetalEdgeRail14_335",
+    "NozzlePetalGuide14_0",
+    "NozzlePetalGuide14_1",
+    "NozzlePetalEndHem14",
+    "NozzlePetalHinge14",
+    "NozzlePetal15",
+    "NozzlePetalInset15",
+    "NozzlePetalRidge15",
+    "NozzlePetalEdgeRail15_339",
+    "NozzlePetalEdgeRail15_358",
+    "NozzlePetalGuide15_0",
+    "NozzlePetalGuide15_1",
+    "NozzlePetalEndHem15",
+    "NozzlePetalHinge15"
+  ],
+  "saved_readback": [
+    {
+      "name": "MainEnclosureShell",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SlopedUpperArmour",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RoofSideClosure_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RoofSideClosure_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearUpperClosure",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BottomChassis",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ClosedBellyPan",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearServicePanel",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearStructuralFrame",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ProjectingBrow",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodShoulderCrownLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodShoulderPlateLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodShoulderSlotLinerLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodShoulderBoltLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodTopInsetLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodShoulderCrownRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodShoulderPlateRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodShoulderSlotLinerRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodShoulderBoltRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodTopInsetRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BrowUnderside",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodEdge",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ScreenBezel",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BezelLip",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ScreenPanel210x160x2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ActiveArea200x150",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "PixelEye_39",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "PixelEyeTop_39",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "PixelEye27",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "PixelEyeTop27",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "PixelMouth",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "PixelSmileHighlight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ScreenCurvedCover",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ControlRail",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ControlInset",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ControlRailLip",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ControlKeyBed",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ControlRailEndLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ControlEndBoltLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ControlRailEndRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ControlEndBoltRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KeySocket0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RedKey0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KeyGlyph0",
+      "valid": true,
+      "solids": 5,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KeySocket1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RedKey1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KeyGlyph1",
+      "valid": true,
+      "solids": 2,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KeySocket2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RedKey2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KeyGlyph2",
+      "valid": true,
+      "solids": 5,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KeySocket3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RedKey3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KeyGlyph3",
+      "valid": true,
+      "solids": 2,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "StatusKeyFrame",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "StatusKeyLens",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobBase0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobRing0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ControlKnob0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobFace0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobFlute0",
+      "valid": true,
+      "solids": 24,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobPointer0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobBase1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobRing1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ControlKnob1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobFace1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobFlute1",
+      "valid": true,
+      "solids": 24,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobPointer1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobBase2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobRing2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "ControlKnob2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobFace2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobFlute2",
+      "valid": true,
+      "solids": 24,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "KnobPointer2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideClosureLeft",
+      "valid": true,
+      "solids": 2,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideMechanicalBackingLeft",
+      "valid": true,
+      "solids": 4,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideGuardLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideFrameShoeLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideFrameBoltLeft0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideFrameBoltLeft1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideFrameBoltLeft2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideFrameBoltLeft3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CyanSideTubeLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerBarrelLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerScallopCollarLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerRearSealLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "PerforatedSpeakerFlangeLeft",
+      "valid": true,
+      "solids": 2,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerBridgeWireLeft0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerBridgeWireLeft1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerVisualConeLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerOuterLipLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerLipTrimLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerSurroundLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerCentreLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerHubNeckLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerRetainerLeft0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerRetainerLeft1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerRetainerLeft2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerRetainerLeft3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerRetainerLeft4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerRetainerLeft5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingEdgeLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingRaisedFaceLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingPaintLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingFoldFacetLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingInnerPaintLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingSpineLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingHubSeatLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingStripeLeft0",
+      "valid": true,
+      "solids": 4,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingStripeLeft1",
+      "valid": true,
+      "solids": 4,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingHubMarkLeft",
+      "valid": true,
+      "solids": 5,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HandleArmLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HandleInsetLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HandleMarkLeft0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HandleMarkLeft1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HandleMarkLeft2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HandleGripCuffLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "VisibleWireLeft105",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "VisibleWireLeft218",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "VisibleWireLeft230",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideClosureRight",
+      "valid": true,
+      "solids": 2,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideMechanicalBackingRight",
+      "valid": true,
+      "solids": 4,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideGuardRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideFrameShoeRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideFrameBoltRight0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideFrameBoltRight1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideFrameBoltRight2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideFrameBoltRight3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CyanSideTubeRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerBarrelRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerScallopCollarRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerRearSealRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "PerforatedSpeakerFlangeRight",
+      "valid": true,
+      "solids": 2,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerBridgeWireRight0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerBridgeWireRight1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerVisualConeRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerOuterLipRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerLipTrimRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerSurroundRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerCentreRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerHubNeckRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerRetainerRight0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerRetainerRight1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerRetainerRight2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerRetainerRight3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerRetainerRight4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SpeakerRetainerRight5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingEdgeRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingRaisedFaceRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingPaintRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingFoldFacetRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingInnerPaintRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingSpineRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingHubSeatRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WingHubMarkRight",
+      "valid": true,
+      "solids": 5,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HandleArmRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HandleInsetRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HandleMarkRight0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HandleMarkRight1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HandleMarkRight2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HandleGripCuffRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "VisibleWireRight105",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "VisibleWireRight218",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "VisibleWireRight230",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HandleGrip",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "GripBand0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "GripBand1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "GripBand2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "GripBand3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "GripBand4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "GripBand5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "GripBand6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "GripBand7",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "GripBand8",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "GripBand9",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopSlotTrim",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RoofAccessPanel",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RoofAccessBolt0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RoofAccessBolt1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RoofAccessBolt2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RoofAccessBolt3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RoofRaisedRib0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RoofRaisedRib1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopInstrumentPanel",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "InstrumentRim",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "InstrumentMount",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterGrid0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterGrid1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterGrid2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterGrid3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterGrid4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterGrid5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterGrid6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterGrid7",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterGrid8",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterGrid9",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterGrid10",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterGrid11",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterGrid12",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterRule0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterRule1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterRule2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterTrace0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterTrace1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterTick0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterTick1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterTick2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterTick3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterTick4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterTick5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterTick6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "TopMeterLatch",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin7",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin8",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin9",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin10",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin11",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin12",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin13",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingFin14",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCoolingCore",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearCyanFrame",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRecessLiner",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRecessWire_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRecessCornerBoss_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRecessWire_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRecessCornerBoss_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearArmourCheekLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearArmourCheekRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailAntennaSlot_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailAntennaSlot_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailCarrier",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailVent0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailVent1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailVent2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailVent3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailVent4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailVent5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailVent6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearPortRail",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailBezel",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRedInsert",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailIndex",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailLatch",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailStatusBase_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailStatusLens_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailStatusIndex_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailStatusBase_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailStatusLens_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearRailStatusIndex_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearBeaconBase_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearBeacon_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearBeaconBand_1_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearBeaconBand_1_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearBeaconBand_1_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearBeaconLens_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearBeaconBase_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearBeacon_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearBeaconBand_1_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearBeaconBand_1_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearBeaconBand_1_003",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearBeaconLens_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassNozzleShell",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassNozzleRearCollar",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassChamberBackplate",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassNozzleMouthRing",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassNozzleRolledLip",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "NozzleRootClamp0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "NozzleRootClamp1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "NozzleRootClamp2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "NozzleRootClamp3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "NozzleRootClamp4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "NozzleRootClamp5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassSpeakerGasket",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassVisualCone",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassDustCap",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassInnerThroat",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "NozzlePetal0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail0_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail0_20",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide0_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide0_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail1_24",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail1_43",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide1_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide1_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail2_46",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail2_65",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide2_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide2_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail3_69",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail3_88",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide3_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide3_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail4_91",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail4_110",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide4_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide4_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail5_114",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail5_133",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide5_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide5_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail6_136",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail6_155",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide6_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide6_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal7",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset7",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge7",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail7_159",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail7_178",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide7_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide7_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem7",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge7",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal8",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset8",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge8",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail8_181",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail8_200",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide8_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide8_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem8",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge8",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal9",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset9",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge9",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail9_204",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail9_223",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide9_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide9_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem9",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge9",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal10",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset10",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge10",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail10_226",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail10_245",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide10_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide10_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem10",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge10",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal11",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset11",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge11",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail11_249",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail11_268",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide11_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide11_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem11",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge11",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal12",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset12",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge12",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail12_271",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail12_290",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide12_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide12_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem12",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge12",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal13",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset13",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge13",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail13_294",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail13_313",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide13_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide13_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem13",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge13",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal14",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset14",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge14",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail14_316",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail14_335",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide14_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide14_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem14",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge14",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetal15",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalInset15",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalRidge15",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail15_339",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEdgeRail15_358",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide15_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalGuide15_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalEndHem15",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "NozzlePetalHinge15",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": null
+    },
+    {
+      "name": "BassSideStripe0_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassSideStripe0_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassSideStripe0_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassSideStripe1_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassSideStripe1_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassSideStripe1_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassWarningPlaque",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassWarningRedBand",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassWarningTriangle",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassWarningTriangleInset",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassNeckFastener0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassNeckFastener1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassNeckFastener2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassNeckFastener3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassNeckFastener4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassNeckFastener5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassNeckFastener6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BassNeckFastener7",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WooferMountSeat",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "WooferEnvelope_D88_Depth40",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPod_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodClamp_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRim_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodDiaphragm_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_0_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_0_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_1_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_1_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_2_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_2_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_3_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_3_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_4_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_4_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_5_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_5_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_6_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_6_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_7",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_7",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_7_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_7_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_8",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_8",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_8_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_8_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_9",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_9",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_9_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_9_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_10",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_10",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_10_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_10_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_11",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_11",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_11_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_11_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_12",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_12",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_12_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_12_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_13",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_13",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_13_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_13_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_14",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_14",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_14_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_14_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_15",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_15",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_15_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_15_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_16",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_16",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_16_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_16_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_17_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_17_17",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPod_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodClamp_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRim_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodDiaphragm_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_0_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_0_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_1_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_1_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_003",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_003",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_2_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_2_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_004",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_004",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_3_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_3_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_005",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_005",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_4_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_4_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_006",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_006",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_5_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_5_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_007",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_007",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_6_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_6_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_008",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_008",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_7_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_7_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_009",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_009",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_8_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_8_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_010",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_010",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_9_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_9_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_011",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_011",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_10_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_10_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_012",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_012",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_11_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_11_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_013",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_013",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_12_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_12_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_014",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_014",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_13_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_13_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_015",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_015",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_14_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_14_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_016",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_016",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_15_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_15_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_017",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_017",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_16_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_16_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodRib_1_018",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodPetalRidge_1_018",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_17_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "LowerPodEdgeRail_1_17_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UnderbodyLoop0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UnderbodyLoop1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CentralSupportSeat",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SupportShaftFrontLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": 0.0,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SupportSocketFrontLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SupportFootFrontLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": 0.0,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SupportSocketRearLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SupportFootRearLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": 0.0,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SupportSocketFrontRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SupportFootFrontRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": 0.0,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SupportSocketRearRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SupportFootRearRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BellyServicePlateLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BellyServiceBoltLeft0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BellyServiceBoltLeft1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BellyServicePlateRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BellyServiceBoltRight0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "BellyServiceBoltRight1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "AntennaBase",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "Antenna",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodMark_1_0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodMark_1_1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodMark_1_2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodMark_1_3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodMark_1_001",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodMark_1_002",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodMark_1_003",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "HoodMark_1_004",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CDInsertionStudy_D120",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "RearLowerSlope",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "FrontCheekLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekUtilityLabelLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekUtilityRedBandLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "FrontCheekBridgeLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "VentBackingLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibLeft0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibLeft1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibLeft2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibLeft3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibLeft4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibLeft5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibLeft6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibLeft7",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibLeft8",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibLeft9",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekDialLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekButtonLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekArrowLeft0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekArrowLeft1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekArrowLeft2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekArrowLeft3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekPerforatedPanelLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideFrontSpineLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideFrontSpineLinerLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideSocketBaseLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideSocketLipLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideSocketRecessLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideStatusMarkLeft0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideStatusMarkLeft1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideStatusMarkLeft2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideStatusSlotLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideStatusBracketLeft",
+      "valid": true,
+      "solids": 4,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideStatusPlateLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityMountLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityLinerLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityBarrelLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityCollarLeft0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityCollarLeft1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityCollarLeft2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityCollarLeft3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityCapLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityCapRibLeft0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityCapRibLeft1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityCapRibLeft2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityCapRibLeft3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityIndicatorLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityFrontLensLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityControlLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityControlInsetLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilitySwitchLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilitySwitchRedLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityLEDLeft0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityLEDLeft1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityLEDLeft2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideCableLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UtilityCableBootLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideCableTopBootLeft",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "FrontCheekRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekUtilityLabelRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekUtilityRedBandRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "FrontCheekBridgeRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "VentBackingRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibRight0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibRight1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibRight2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibRight3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibRight4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibRight5",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibRight6",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibRight7",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibRight8",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekVentRibRight9",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekDialRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekKnobRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "CheekPerforatedPanelRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideFrontSpineRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideFrontSpineLinerRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideSocketBaseRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideSocketLipRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideSocketRecessRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideStatusMarkRight0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideStatusMarkRight1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideStatusMarkRight2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideStatusSlotRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideStatusBracketRight",
+      "valid": true,
+      "solids": 4,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "SideStatusPlateRight",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UnderbodyHarness0",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UnderbodyHarness1",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UnderbodyHarness2",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UnderbodyHarness3",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    },
+    {
+      "name": "UnderbodyHarness4",
+      "valid": true,
+      "solids": 1,
+      "shaft_symmetric_difference_mm3": null,
+      "unchanged_geometry_signature_6dp": true
+    }
+  ],
+  "status": "not adopted; assembly rotation changes terminal plane",
+  "gui_state_present": false,
+  "preservation_method": "saved volume/area/vertices rounded to 6 decimals; exact symmetric solid difference for shafts; unchanged mesh records",
+  "unchanged_mesh_records": 577,
+  "petal_count": 16,
+  "removed_objects": []
+}

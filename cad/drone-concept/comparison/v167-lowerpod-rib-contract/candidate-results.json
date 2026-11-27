@@ -1,0 +1,25 @@
+{
+  "baseline": "v164-front-brow-depth",
+  "candidate": "lowerpod-rib-scale-0.99",
+  "metrics": {
+    "video": {
+      "baseline": 0.8589730720993112,
+      "candidate": 0.8590037945971718,
+      "views": 10
+    },
+    "stills": {
+      "baseline": 0.8252284208832837,
+      "candidate": 0.8253134774933354,
+      "views": 7
+    },
+    "sheet": {
+      "baseline": 0.8965107470029394,
+      "candidate": 0.896503434435011,
+      "views": 10
+    }
+  },
+  "decision": "retain v164",
+  "reason": "Video and static means improve, but contact-sheet mean decreases.",
+  "changed_family": "LowerPodRib",
+  "changed_count": 36
+}

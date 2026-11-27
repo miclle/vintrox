@@ -1,0 +1,132 @@
+{
+  "status": "source-only diagnostic; no formal model or camera changed",
+  "baseline_root_parameters": [
+    236.50139160095424,
+    94.3841495433056,
+    52.32151199714262,
+    35.02487327954135
+  ],
+  "joint_root_parameters": [
+    225.55317697591863,
+    91.39169367936819,
+    54.27914234545039,
+    34.52397058847852
+  ],
+  "shared_lens_mm": 87.98594200438912,
+  "views": [
+    {
+      "view": "still-04",
+      "root_rms_px": 2.426599146043287,
+      "landmark_coordinate_rms_px": 4.620085558788844,
+      "terminal_holdout_rms_px": 11.526504628607617
+    },
+    {
+      "view": "still-05",
+      "root_rms_px": 2.4295609166030148,
+      "landmark_coordinate_rms_px": 4.864687820987161,
+      "terminal_holdout_rms_px": 7.804051566190973
+    },
+    {
+      "source_frame": 60,
+      "root_rms_px": 4.970365199954624
+    },
+    {
+      "source_frame": 120,
+      "root_rms_px": 4.221621293852179
+    },
+    {
+      "source_frame": 180,
+      "root_rms_px": 4.279149142300683
+    }
+  ],
+  "multistarts": [
+    {
+      "weighted_rms": 1.209744181075402,
+      "root": [
+        225.55317697591863,
+        91.39169367936819,
+        54.27914234545039,
+        34.52397058847852
+      ],
+      "lens_mm": 87.98594200438912,
+      "converged": true
+    },
+    {
+      "weighted_rms": 1.4126282655741014,
+      "root": [
+        224.00911239726847,
+        84.12301686885117,
+        60.2964188683302,
+        38.30954999662949
+      ],
+      "lens_mm": 92.51647634819675,
+      "converged": true
+    },
+    {
+      "weighted_rms": 1.2724927550545915,
+      "root": [
+        224.08196520903027,
+        87.24511358323288,
+        57.05117602575525,
+        37.660279157846986
+      ],
+      "lens_mm": 89.27392749579789,
+      "converged": true
+    },
+    {
+      "weighted_rms": 3.735044289926566,
+      "root": [
+        234.3775368427701,
+        92.79186508539695,
+        51.336064733354696,
+        38.7930867632268
+      ],
+      "lens_mm": 40.000004508827985,
+      "converged": true
+    },
+    {
+      "weighted_rms": 1.41263640861999,
+      "root": [
+        224.01403513765152,
+        84.12879959626233,
+        60.28739374501962,
+        38.30541507091095
+      ],
+      "lens_mm": 93.25086175023557,
+      "converged": true
+    }
+  ],
+  "source_files": [
+    {
+      "path": "cad/drone-concept/comparison/cameras.json",
+      "sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e"
+    },
+    {
+      "path": "cad/drone-concept/comparison/stills-51/cameras.json",
+      "sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb"
+    },
+    {
+      "path": "cad/drone-concept/comparison/rear-still-camera-fit.json",
+      "sha256": "707430e3393f7dfdd8ca130bfaa7ccf36bd5e5699a3f47bf97ef4abe71f975b9"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-root-fit.json",
+      "sha256": "09d28b338820158432f344ed8035e8ec13b0375864665b53148de7b267342adb"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-mouth-fit.json",
+      "sha256": "f14e3c0bd57ba557d694a9a736b165d0c2d60328a1f81fae646a551ef23ba795"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/multiview-exit-fit.json",
+      "sha256": "a7fa92b496643a2e45a79ea3ad1bee6d0cf56e157b7fc0005251575e17904ac9"
+    }
+  ],
+  "script_sha256": "148961b0ed869b9761b4860f499e41b6c1f5a73a1e13dba12fc0671b9b29b195",
+  "helper_sha256": "812b0b6ab7458b66c4f73ba5b202eab9e82ea297d43cf00750e2446000bc3275",
+  "limitations": [
+    "Shared still focal length and circular root are assumptions.",
+    "All root points are reused fitting observations; terminal pixels are held out of this fit only.",
+    "Sparse manual correspondence uncertainty remains; no CAD geometry participates."
+  ]
+}

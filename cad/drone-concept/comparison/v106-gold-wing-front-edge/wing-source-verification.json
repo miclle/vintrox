@@ -1,0 +1,29 @@
+{
+  "fcstd_sha256": "ce7d19415b904d6439a4573aa44fc98015b5d87c59bcce284b7dabffba628c22",
+  "source_sha256": {
+    "tools/drone_concept.py": "4b0bf7f554fbc0f67f8b0ea9533b5014ea8a7a24a5256e76441b2b7d5df0b6c8",
+    "tools/drone_wing_fold.py": "3bb8591d64a2f919be6bc905971217ce6154e067229a8f2d698cdce66cc10bef"
+  },
+  "checks": [
+    {
+      "name": "WingEdgeRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "WingInnerPaintRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "WingFoldFacetRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "WingRaisedFaceRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "WingPaintRight",
+      "symmetric_difference_mm3": 0.0
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "fcstd_sha256": "81ca290b2a2ab1c9cb6d9a4a1f123b66d580cb04aec0d2fba88c4c931e4435b2",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "baseline_primary_comparison_sha256": "abea26883200268ee3bef7a81cad7723841381081742b5f3654b8302b13c25d5",
+  "views": [
+    {
+      "view": "video-00",
+      "primary_iou": 0.872464318569142,
+      "filled_mask_iou_diagnostic_only": 0.9142303709569349,
+      "cad_excess_pixels": 44078,
+      "excess_inside_reference_dark_holes": 16343,
+      "excess_outside_reference_filled_mask": 27735
+    },
+    {
+      "view": "video-01",
+      "primary_iou": 0.8544303973674027,
+      "filled_mask_iou_diagnostic_only": 0.9226059977021575,
+      "cad_excess_pixels": 44743,
+      "excess_inside_reference_dark_holes": 25072,
+      "excess_outside_reference_filled_mask": 19671
+    },
+    {
+      "view": "video-02",
+      "primary_iou": 0.8373548621190131,
+      "filled_mask_iou_diagnostic_only": 0.9234493035521157,
+      "cad_excess_pixels": 52810,
+      "excess_inside_reference_dark_holes": 32260,
+      "excess_outside_reference_filled_mask": 20550
+    },
+    {
+      "view": "video-03",
+      "primary_iou": 0.8166726732767315,
+      "filled_mask_iou_diagnostic_only": 0.9108286405637394,
+      "cad_excess_pixels": 57536,
+      "excess_inside_reference_dark_holes": 32395,
+      "excess_outside_reference_filled_mask": 25141
+    },
+    {
+      "view": "video-04",
+      "primary_iou": 0.8177094427554333,
+      "filled_mask_iou_diagnostic_only": 0.8752776985721045,
+      "cad_excess_pixels": 43853,
+      "excess_inside_reference_dark_holes": 14594,
+      "excess_outside_reference_filled_mask": 29259
+    },
+    {
+      "view": "video-05",
+      "primary_iou": 0.8024430745936267,
+      "filled_mask_iou_diagnostic_only": 0.8862659714662235,
+      "cad_excess_pixels": 64657,
+      "excess_inside_reference_dark_holes": 29524,
+      "excess_outside_reference_filled_mask": 35133
+    },
+    {
+      "view": "video-06",
+      "primary_iou": 0.8249535224574498,
+      "filled_mask_iou_diagnostic_only": 0.9048766068605211,
+      "cad_excess_pixels": 57556,
+      "excess_inside_reference_dark_holes": 30065,
+      "excess_outside_reference_filled_mask": 27491
+    },
+    {
+      "view": "video-07",
+      "primary_iou": 0.8789410139978654,
+      "filled_mask_iou_diagnostic_only": 0.9268018490398249,
+      "cad_excess_pixels": 37965,
+      "excess_inside_reference_dark_holes": 17317,
+      "excess_outside_reference_filled_mask": 20648
+    },
+    {
+      "view": "video-08",
+      "primary_iou": 0.8925538339232069,
+      "filled_mask_iou_diagnostic_only": 0.939053777564475,
+      "cad_excess_pixels": 36532,
+      "excess_inside_reference_dark_holes": 16278,
+      "excess_outside_reference_filled_mask": 20254
+    },
+    {
+      "view": "video-09",
+      "primary_iou": 0.8802574544277193,
+      "filled_mask_iou_diagnostic_only": 0.9521634458622263,
+      "cad_excess_pixels": 32793,
+      "excess_inside_reference_dark_holes": 21904,
+      "excess_outside_reference_filled_mask": 10889
+    }
+  ],
+  "mean_primary_iou": 0.847778059348759,
+  "mean_filled_mask_iou_diagnostic_only": 0.9155553662140322,
+  "limitations": [
+    "diagnostic only; does not replace primary IoU or any target gate",
+    "fills both real apertures and shadow/material regions indiscriminately",
+    "not evidence that hidden geometry or holes are correct"
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "fcstd_sha256": "b378efb2b468e26c8ff2508d4421ef6ea7ee871fd2269f41765160010c92de06",
+  "measurement_script_sha256": "bb67504c3f73cef46a3899b89d10f3fd2e8b74197026db1c6e9cf2c2799162c6",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "object_id_manifest_sha256": "dffaa4cd066b5a7a6878d97f4e6302bd094bc3ce05c96329dc778031c80aa024",
+  "render_manifest_sha256": "9bce5f8a058b1536bc7a2b3f3c0b33c3ba4af0eb37328f75e7096b830ecd2f4d",
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "boundary_objects": [
+    "BassNozzleShell",
+    "BassNozzleRolledLip",
+    "BassSideStripe0_0",
+    "BassSideStripe0_1",
+    "BassSideStripe0_2",
+    "BassSideStripe1_0",
+    "BassSideStripe1_1",
+    "BassSideStripe1_2",
+    "BassWarningPlaque",
+    "BassWarningRedBand",
+    "BassWarningTriangle",
+    "BassWarningTriangleInset"
+  ],
+  "observations": [
+    {
+      "source_frame": 60,
+      "edge": "left",
+      "source_x_search": [
+        180,
+        300
+      ],
+      "samples": [
+        {
+          "reference_px": [
+            221,
+            440
+          ],
+          "visible_cad_px": [
+            220,
+            440
+          ],
+          "signed_horizontal_error_px": -1,
+          "thresholds": [
+            12,
+            18,
+            24
+          ],
+          "threshold_edge_x_px": [
+            221,
+            221,
+            221
+          ]
+        },
+        {
+          "reference_px": [
+            216,
+            450
+          ],
+          "visible_cad_px": [
+            216,
+            450
+          ],
+          "signed_horizontal_error_px": 0,
+          "thresholds": [
+            12,
+            18,
+            24
+          ],
+          "threshold_edge_x_px": [
+            216,
+            216,
+            217
+          ]
+        },
+        {
+          "reference_px": [
+            213,
+            460
+          ],
+          "visible_cad_px": [
+            212,
+            460
+          ],
+          "signed_horizontal_error_px": -1,
+          "thresholds": [
+            12,
+            18,
+            24
+          ],
+          "threshold_edge_x_px": [
+            213,
+            213,
+            213
+          ]
+        },
+        {
+          "reference_px": [
+            210,
+            470
+          ],
+          "visible_cad_px": [
+            209,
+            470
+          ],
+          "signed_horizontal_error_px": -1,
+          "thresholds": [
+            12,
+            18,
+            24
+          ],
+          "threshold_edge_x_px": [
+            210,
+            210,
+            210
+          ]
+        },
+        {
+          "reference_px": [
+            207,
+            480
+          ],
+          "visible_cad_px": [
+            206,
+            480
+          ],
+          "signed_horizontal_error_px": -1,
+          "thresholds": [
+            12,
+            18,
+            24
+          ],
+          "threshold_edge_x_px": [
+            207,
+            207,
+            207
+          ]
+        },
+        {
+          "reference_px": [
+            205,
+            490
+          ],
+          "visible_cad_px": [
+            202,
+            490
+          ],
+          "signed_horizontal_error_px": -3,
+          "thresholds": [
+            12,
+            18,
+            24
+          ],
+          "threshold_edge_x_px": [
+            204,
+            205,
+            205
+          ]
+        },
+        {
+          "reference_px": [
+            205,
+            495
+          ],
+          "visible_cad_px": [
+            200,
+            495
+          ],
+          "signed_horizontal_error_px": -5,
+          "thresholds": [
+            12,
+            18,
+            24
+          ],
+          "threshold_edge_x_px": [
+            205,
+            205,
+            205
+          ]
+        }
+      ]
+    },
+    {
+      "source_frame": 180,
+      "edge": "right",
+      "source_x_search": [
+        660,
+        780
+      ],
+      "samples": [
+        {
+          "reference_px": [
+            720,
+            440
+          ],
+          "visible_cad_px": [
+            720,
+            440
+          ],
+          "signed_horizontal_error_px": 0,
+          "thresholds": [
+            12,
+            18,
+            24
+          ],
+          "threshold_edge_x_px": [
+            720,
+            720,
+            720
+          ]
+        },
+        {
+          "reference_px": [
+            725,
+            450
+          ],
+          "visible_cad_px": [
+            724,
+            450
+          ],
+          "signed_horizontal_error_px": -1,
+          "thresholds": [
+            12,
+            18,
+            24
+          ],
+          "threshold_edge_x_px": [
+            725,
+            725,
+            725
+          ]
+        },
+        {
+          "reference_px": [
+            729,
+            460
+          ],
+          "visible_cad_px": [
+            728,
+            460
+          ],
+          "signed_horizontal_error_px": -1,
+          "thresholds": [
+            12,
+            18,
+            24
+          ],
+          "threshold_edge_x_px": [
+            729,
+            729,
+            729
+          ]
+        },
+        {
+          "reference_px": [
+            732,
+            470
+          ],
+          "visible_cad_px": [
+            732,
+            470
+          ],
+          "signed_horizontal_error_px": 0,
+          "thresholds": [
+            12,
+            18,
+            24
+          ],
+          "threshold_edge_x_px": [
+            732,
+            732,
+            732
+          ]
+        },
+        {
+          "reference_px": [
+            734,
+            480
+          ],
+          "visible_cad_px": [
+            734,
+            480
+          ],
+          "signed_horizontal_error_px": 0,
+          "thresholds": [
+            12,
+            18,
+            24
+          ],
+          "threshold_edge_x_px": [
+            735,
+            734,
+            734
+          ]
+        },
+        {
+          "reference_px": [
+            737,
+            490
+          ],
+          "visible_cad_px": [
+            739,
+            490
+          ],
+          "signed_horizontal_error_px": 2,
+          "thresholds": [
+            12,
+            18,
+            24
+          ],
+          "threshold_edge_x_px": [
+            737,
+            737,
+            737
+          ]
+        },
+        {
+          "reference_px": [
+            736,
+            495
+          ],
+          "visible_cad_px": [
+            741,
+            495
+          ],
+          "signed_horizontal_error_px": 5,
+          "thresholds": [
+            12,
+            18,
+            24
+          ],
+          "threshold_edge_x_px": [
+            736,
+            736,
+            736
+          ]
+        }
+      ]
+    }
+  ],
+  "rms_px": 2.220038609702865,
+  "max_px": 5.0,
+  "max_source_threshold_spread_px": 1,
+  "source_files": [
+    {
+      "path": "cad/drone-concept/comparison/nozzle-lip-study/b/comparison/reference-frames/frame-03.png",
+      "sha256": "465dccf34ad81f07df9a1e4f0d48fbe1b55ec606a538f01dcf4da7f21c31004b"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-lip-study/b/ids/video-02.png",
+      "sha256": "88e87e1cb944f6845b159d190fbbe9862674e7770117502092984224fbdd812a"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-lip-study/b/renders/video-02.png",
+      "sha256": "b32f8e8e69a047d1bda5284816ec8a265831051a482994e7c6d7349ba1364110"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-lip-study/b/comparison/reference-frames/frame-07.png",
+      "sha256": "ed7cdc03298e1c8106e1213c9b147088086735663711979ebff9799bbbb2f920"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-lip-study/b/ids/video-06.png",
+      "sha256": "6624956decf4aeaef26cbf8b66bce0cffd9199c02552ea3974e5994aecedecef"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-lip-study/b/renders/video-06.png",
+      "sha256": "4188e2b6d052c135c5a65bd3f4b22029bbc82585134736e7d33d09180ae6e61e"
+    }
+  ],
+  "image_path": "cad/drone-concept/comparison/nozzle-lip-study/b/nozzle-side-check.png",
+  "image_sha256": "54c3d0c6a26db3e0ab71d7261e1a0a6da8b64b51139b156c7b95f257a97b1e21",
+  "limitations": [
+    "14 horizontal samples on exposed side edges only",
+    "reference max RGB threshold 18, sensitivity 12/24",
+    "does not establish the shadowed upper shoulder or complete contour",
+    "pixel diagnostics, not physical dimensions"
+  ]
+}

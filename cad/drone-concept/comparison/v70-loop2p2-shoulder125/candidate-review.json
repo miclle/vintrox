@@ -1,0 +1,68 @@
+{
+  "revision": "v70-loop2p2-shoulder125",
+  "status": "exploratory-candidate-retained-v69-research-baseline",
+  "baseline_revision": "v69-underbody-loop-radius2p2",
+  "baseline_fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+  "candidate_fcstd_sha256": "5e2d2d8a38a116a1160deeea4ba44bcdbeb7238823e71858157a235f65a3f625",
+  "candidate_step_sha256": "2801aa903819f0a53de91c74c75575fc5e28acfc99a751bb87b12ef3372045e6",
+  "changed_objects": [
+    "UnderbodyLoop0",
+    "UnderbodyLoop1",
+    "RearArmourCheekLeft",
+    "RearArmourCheekRight"
+  ],
+  "loop_radius_mm": 2.2,
+  "shoulder_exponent": 1.25,
+  "saved_readback": "readback-verification.json",
+  "saved_objects_total": 698,
+  "visible_features": 696,
+  "step_solids": 1010,
+  "all_fcstd_shapes_valid": true,
+  "all_fcstd_shapes_closed": true,
+  "protected_supports_equal": true,
+  "measured_screen_preserved": true,
+  "video": {
+    "candidate_mean_silhouette_iou": 0.8555116986663105,
+    "v69_mean_silhouette_iou": 0.8555332009171318,
+    "delta_vs_v69": -2.150225082131474e-05,
+    "formal_v61_mean_silhouette_iou": 0.8549201687353198,
+    "report": "video-comparison/comparison-report.json"
+  },
+  "stills": {
+    "candidate_mean_silhouette_iou": 0.8229274341125506,
+    "v69_mean_silhouette_iou": 0.8225961961828953,
+    "delta_vs_v69": 0.00033123792965539245,
+    "formal_v61_mean_silhouette_iou": 0.8222681557450596,
+    "report": "stills-comparison/comparison-report.json"
+  },
+  "decision": "retain-v69-research-baseline",
+  "decision_basis": "v70 improves static seven-view mean over v69 but slightly reduces video ten-view mean; no aggregate all-round gain.",
+  "registration": "fixed calibrated camera projection only; no image warp, stretch, or per-part alignment",
+  "color_status": "candidate meshes inherited stable object-level palette; 74 RGB triples expected; color restoration does not alter geometry",
+  "screen_assumptions": {
+    "measured_flat_panel_mm": [
+      210,
+      160,
+      2
+    ],
+    "measured_active_area_mm": [
+      200,
+      150
+    ],
+    "reference_curved_screen": "appearance/transparent-cover assumption only"
+  },
+  "limitations": [
+    "appearance study only",
+    "black cable/background segmentation remains ambiguous",
+    "no manufacturing, fit, assembly, load, acoustic, thermal, electrical, optical, printing, or physical acceptance"
+  ],
+  "artifacts": {
+    "candidate_check": "candidate-check.json",
+    "readback": "readback-verification.json",
+    "mesh_binding": "meshes.json",
+    "video_render_manifest": "video-renders/render-manifest.json",
+    "still_render_manifest": "still-renders/render-manifest.json",
+    "video_comparison": "video-comparison/comparison-report.json",
+    "stills_comparison": "stills-comparison/comparison-report.json"
+  }
+}

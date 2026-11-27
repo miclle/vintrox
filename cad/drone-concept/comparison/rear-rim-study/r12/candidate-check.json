@@ -1,0 +1,68 @@
+{
+  "baseline_fcstd_sha256": "94f972c40e00c3ce739fde8134fa72e807688be6f2b0d098e24099f4f7f56419",
+  "fcstd_sha256": "54c0aab2baa8dbf4c485404719def58a9fe102f58d7cd0888ac32d12c1ee208b",
+  "generator_sha256": "b332f5d76a980eeb006a4e989001fab1c7e85dafa8ee7a409a3848bc537b5a01",
+  "radius_mm": 1.2,
+  "changed_objects": [
+    "RearStructuralFrame"
+  ],
+  "unchanged_shape_count": 697,
+  "protected_shafts": [
+    "SupportShaftFrontLeft",
+    "SupportShaftRearLeft",
+    "SupportShaftFrontRight",
+    "SupportShaftRearRight"
+  ],
+  "selected_edge_indices": [
+    5,
+    6,
+    7,
+    32,
+    36,
+    38,
+    40,
+    77,
+    68,
+    69,
+    70,
+    71,
+    35,
+    37,
+    39,
+    41,
+    43,
+    80,
+    66,
+    65,
+    64,
+    63,
+    62,
+    61
+  ],
+  "valid_closed_single_solid": true,
+  "advanced_check_passed": true,
+  "removed_volume_mm3": 605.0539983182082,
+  "added_volume_mm3": 0.0,
+  "contacts": [
+    {
+      "other": "RearServicePanel",
+      "gap_mm": 0.0,
+      "overlap_mm3": 11000.871241586801
+    },
+    {
+      "other": "RearArmourCheekLeft",
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "other": "RearArmourCheekRight",
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "status": "exploratory candidate; fixed-camera visual review required",
+  "limitations": [
+    "Radius inferred for appearance; not a source measurement.",
+    "Only one frame changes. Cavity, nozzle, materials and cameras remain fixed."
+  ]
+}

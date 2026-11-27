@@ -1,0 +1,77 @@
+{
+  "baseline_fcstd_sha256": "09d253ae6f2424396d9fc44ed1015316ceaf36c21d7b77bee16a1d1bf8e9577a",
+  "fcstd_sha256": "644c75f0020891a13ecab57ebb6780ab86fdd973605a561bfa736485eb534950",
+  "script_sha256": "109997209d5bda7ac50443fe18e468daddc1beda827e413fdbb91f75ff5edc6d",
+  "changed_objects": [
+    "BrowUnderside"
+  ],
+  "replaced_archive_members": [
+    "BrowUnderside.Shape.brp"
+  ],
+  "radius_mm": 5.0,
+  "front_edges_world_mm": [
+    [
+      [
+        111.55125,
+        -33.47565126160589,
+        190.6
+      ],
+      [
+        108.39925,
+        -33.47565126160589,
+        190.6
+      ]
+    ],
+    [
+      [
+        -108.39925,
+        -33.47565126160589,
+        190.6
+      ],
+      [
+        -111.55125,
+        -33.47565126160589,
+        190.6
+      ]
+    ]
+  ],
+  "removed_volume_mm3": 13.092855304304976,
+  "saved_solid_advanced_errors": [],
+  "contacts": [
+    {
+      "object": "ProjectingBrow",
+      "baseline_gap_mm": 0.0,
+      "candidate_gap_mm": 0.0,
+      "baseline_overlap_mm3": 16832.669732304188,
+      "candidate_overlap_mm3": 16828.578081234435
+    },
+    {
+      "object": "HoodEdge",
+      "baseline_gap_mm": 4.507227364483878,
+      "candidate_gap_mm": 4.507227364483878,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "object": "ScreenBezel",
+      "baseline_gap_mm": 0.0,
+      "candidate_gap_mm": 0.0,
+      "baseline_overlap_mm3": 1427.6680946933907,
+      "candidate_overlap_mm3": 1427.6680946933907
+    },
+    {
+      "object": "HoodShoulderPlateLeft",
+      "baseline_gap_mm": 2.4446836364595814,
+      "candidate_gap_mm": 2.444683636474648,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "object": "HoodShoulderPlateRight",
+      "baseline_gap_mm": 2.4446836365072855,
+      "candidate_gap_mm": 2.444683636507142,
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    }
+  ]
+}

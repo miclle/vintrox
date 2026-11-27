@@ -1,0 +1,1534 @@
+{
+  "passed": true,
+  "fcstd_sha256": "81e3719c71e243e5113ae7829932fd7af1245c2dd940945f6ef96b7e2ce2ea5c",
+  "baseline_fcstd_sha256": "1b5a6eb7a24675e55ed958128a843aabab6d43efa6cde13803be330cd8dc9fe1",
+  "source_module_sha256": "d5147b80b63ea5931a73f2c7e3fab56bb19e830ad6f870d2fa85efc04bbf9f17",
+  "measurement_script_sha256": "f48f595637a13aaaeb07d4cfb55aa241d1078ffa763e52d68a6873cfbacfcc9a",
+  "parts": [
+    {
+      "name": "BassInnerThroat",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "source_difference_mm3": 0.0,
+      "signed_cut_volumes_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "BassVisualCone",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "source_difference_mm3": 0.0,
+      "signed_cut_volumes_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "BassDustCap",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "source_difference_mm3": 0.0,
+      "signed_cut_volumes_mm3": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "preserved_objects": [
+    "MainEnclosureShell",
+    "SlopedUpperArmour",
+    "RoofSideClosure_1",
+    "RoofSideClosure_001",
+    "RearUpperClosure",
+    "BottomChassis",
+    "ClosedBellyPan",
+    "RearServicePanel",
+    "RearStructuralFrame",
+    "ProjectingBrow",
+    "HoodShoulderCrownLeft",
+    "HoodShoulderPlateLeft",
+    "HoodShoulderSlotLinerLeft",
+    "HoodShoulderBoltLeft",
+    "HoodTopInsetLeft",
+    "HoodShoulderCrownRight",
+    "HoodShoulderPlateRight",
+    "HoodShoulderSlotLinerRight",
+    "HoodShoulderBoltRight",
+    "HoodTopInsetRight",
+    "BrowUnderside",
+    "HoodEdge",
+    "ScreenBezel",
+    "BezelLip",
+    "ScreenPanel210x160x2",
+    "ActiveArea200x150",
+    "PixelEye_39",
+    "PixelEyeTop_39",
+    "PixelEye27",
+    "PixelEyeTop27",
+    "PixelMouth",
+    "PixelSmileHighlight",
+    "ScreenCurvedCover",
+    "ControlRail",
+    "ControlInset",
+    "ControlRailLip",
+    "ControlKeyBed",
+    "ControlRailEndLeft",
+    "ControlEndBoltLeft",
+    "ControlRailEndRight",
+    "ControlEndBoltRight",
+    "KeySocket0",
+    "RedKey0",
+    "KeyGlyph0",
+    "KeySocket1",
+    "RedKey1",
+    "KeyGlyph1",
+    "KeySocket2",
+    "RedKey2",
+    "KeyGlyph2",
+    "KeySocket3",
+    "RedKey3",
+    "KeyGlyph3",
+    "StatusKeyFrame",
+    "StatusKeyLens",
+    "KnobBase0",
+    "KnobRing0",
+    "ControlKnob0",
+    "KnobFace0",
+    "KnobFlute0",
+    "KnobPointer0",
+    "KnobBase1",
+    "KnobRing1",
+    "ControlKnob1",
+    "KnobFace1",
+    "KnobFlute1",
+    "KnobPointer1",
+    "KnobBase2",
+    "KnobRing2",
+    "ControlKnob2",
+    "KnobFace2",
+    "KnobFlute2",
+    "KnobPointer2",
+    "SideClosureLeft",
+    "SideMechanicalBackingLeft",
+    "SideGuardLeft",
+    "SideFrameShoeLeft",
+    "SideFrameBoltLeft0",
+    "SideFrameBoltLeft1",
+    "SideFrameBoltLeft2",
+    "SideFrameBoltLeft3",
+    "CyanSideTubeLeft",
+    "SpeakerBarrelLeft",
+    "SpeakerScallopCollarLeft",
+    "SpeakerRearSealLeft",
+    "PerforatedSpeakerFlangeLeft",
+    "SpeakerBridgeWireLeft0",
+    "SpeakerBridgeWireLeft1",
+    "SpeakerVisualConeLeft",
+    "SpeakerOuterLipLeft",
+    "SpeakerLipTrimLeft",
+    "SpeakerSurroundLeft",
+    "SpeakerCentreLeft",
+    "SpeakerHubNeckLeft",
+    "SpeakerRetainerLeft0",
+    "SpeakerRetainerLeft1",
+    "SpeakerRetainerLeft2",
+    "SpeakerRetainerLeft3",
+    "SpeakerRetainerLeft4",
+    "SpeakerRetainerLeft5",
+    "WingEdgeLeft",
+    "WingRaisedFaceLeft",
+    "WingPaintLeft",
+    "WingFoldFacetLeft",
+    "WingInnerPaintLeft",
+    "WingSpineLeft",
+    "WingHubSeatLeft",
+    "WingStripeLeft0",
+    "WingStripeLeft1",
+    "WingHubMarkLeft",
+    "HandleArmLeft",
+    "HandleInsetLeft",
+    "HandleMarkLeft0",
+    "HandleMarkLeft1",
+    "HandleMarkLeft2",
+    "HandleGripCuffLeft",
+    "VisibleWireLeft105",
+    "VisibleWireLeft218",
+    "VisibleWireLeft230",
+    "SideClosureRight",
+    "SideMechanicalBackingRight",
+    "SideGuardRight",
+    "SideFrameShoeRight",
+    "SideFrameBoltRight0",
+    "SideFrameBoltRight1",
+    "SideFrameBoltRight2",
+    "SideFrameBoltRight3",
+    "CyanSideTubeRight",
+    "SpeakerBarrelRight",
+    "SpeakerScallopCollarRight",
+    "SpeakerRearSealRight",
+    "PerforatedSpeakerFlangeRight",
+    "SpeakerBridgeWireRight0",
+    "SpeakerBridgeWireRight1",
+    "SpeakerVisualConeRight",
+    "SpeakerOuterLipRight",
+    "SpeakerLipTrimRight",
+    "SpeakerSurroundRight",
+    "SpeakerCentreRight",
+    "SpeakerHubNeckRight",
+    "SpeakerRetainerRight0",
+    "SpeakerRetainerRight1",
+    "SpeakerRetainerRight2",
+    "SpeakerRetainerRight3",
+    "SpeakerRetainerRight4",
+    "SpeakerRetainerRight5",
+    "WingEdgeRight",
+    "WingRaisedFaceRight",
+    "WingPaintRight",
+    "WingFoldFacetRight",
+    "WingInnerPaintRight",
+    "WingSpineRight",
+    "WingHubSeatRight",
+    "WingHubMarkRight",
+    "HandleArmRight",
+    "HandleInsetRight",
+    "HandleMarkRight0",
+    "HandleMarkRight1",
+    "HandleMarkRight2",
+    "HandleGripCuffRight",
+    "VisibleWireRight105",
+    "VisibleWireRight218",
+    "VisibleWireRight230",
+    "HandleGrip",
+    "GripBand0",
+    "GripBand1",
+    "GripBand2",
+    "GripBand3",
+    "GripBand4",
+    "GripBand5",
+    "GripBand6",
+    "GripBand7",
+    "GripBand8",
+    "GripBand9",
+    "TopSlotTrim",
+    "RoofAccessPanel",
+    "RoofAccessBolt0",
+    "RoofAccessBolt1",
+    "RoofAccessBolt2",
+    "RoofAccessBolt3",
+    "RoofRaisedRib0",
+    "RoofRaisedRib1",
+    "TopInstrumentPanel",
+    "InstrumentRim",
+    "InstrumentMount",
+    "TopMeterGrid0",
+    "TopMeterGrid1",
+    "TopMeterGrid2",
+    "TopMeterGrid3",
+    "TopMeterGrid4",
+    "TopMeterGrid5",
+    "TopMeterGrid6",
+    "TopMeterGrid7",
+    "TopMeterGrid8",
+    "TopMeterGrid9",
+    "TopMeterGrid10",
+    "TopMeterGrid11",
+    "TopMeterGrid12",
+    "TopMeterRule0",
+    "TopMeterRule1",
+    "TopMeterRule2",
+    "TopMeterTrace0",
+    "TopMeterTrace1",
+    "TopMeterTick0",
+    "TopMeterTick1",
+    "TopMeterTick2",
+    "TopMeterTick3",
+    "TopMeterTick4",
+    "TopMeterTick5",
+    "TopMeterTick6",
+    "TopMeterLatch",
+    "RearCoolingFin0",
+    "RearCoolingFin1",
+    "RearCoolingFin2",
+    "RearCoolingFin3",
+    "RearCoolingFin4",
+    "RearCoolingFin5",
+    "RearCoolingFin6",
+    "RearCoolingFin7",
+    "RearCoolingFin8",
+    "RearCoolingFin9",
+    "RearCoolingFin10",
+    "RearCoolingFin11",
+    "RearCoolingFin12",
+    "RearCoolingFin13",
+    "RearCoolingFin14",
+    "RearCoolingCore",
+    "RearCyanFrame",
+    "RearRecessLiner",
+    "RearRecessWire_1",
+    "RearRecessCornerBoss_1",
+    "RearRecessWire_001",
+    "RearRecessCornerBoss_001",
+    "RearArmourCheekLeft",
+    "RearArmourCheekRight",
+    "RearRailAntennaSlot_1",
+    "RearRailAntennaSlot_001",
+    "RearRailCarrier",
+    "RearRailVent0",
+    "RearRailVent1",
+    "RearRailVent2",
+    "RearRailVent3",
+    "RearRailVent4",
+    "RearRailVent5",
+    "RearRailVent6",
+    "RearPortRail",
+    "RearRailBezel",
+    "RearRedInsert",
+    "RearRailIndex",
+    "RearRailLatch",
+    "RearRailStatusBase_1",
+    "RearRailStatusLens_1",
+    "RearRailStatusIndex_1",
+    "RearRailStatusBase_001",
+    "RearRailStatusLens_001",
+    "RearRailStatusIndex_001",
+    "RearBeaconBase_1",
+    "RearBeacon_1",
+    "RearBeaconBand_1_0",
+    "RearBeaconBand_1_1",
+    "RearBeaconBand_1_2",
+    "RearBeaconLens_1",
+    "RearBeaconBase_001",
+    "RearBeacon_001",
+    "RearBeaconBand_1_001",
+    "RearBeaconBand_1_002",
+    "RearBeaconBand_1_003",
+    "RearBeaconLens_001",
+    "BassNozzleShell",
+    "BassNozzleRearCollar",
+    "BassChamberBackplate",
+    "BassNozzleMouthRing",
+    "BassNozzleRolledLip",
+    "NozzleRootClamp0",
+    "NozzleRootClamp1",
+    "NozzleRootClamp2",
+    "NozzleRootClamp3",
+    "NozzleRootClamp4",
+    "NozzleRootClamp5",
+    "BassSpeakerGasket",
+    "NozzlePetal0",
+    "NozzlePetalInset0",
+    "NozzlePetalRidge0",
+    "NozzlePetalEdgeRail0_1",
+    "NozzlePetalEdgeRail0_20",
+    "NozzlePetalGuide0_0",
+    "NozzlePetalGuide0_1",
+    "NozzlePetalEndHem0",
+    "NozzlePetalHinge0",
+    "NozzlePetal1",
+    "NozzlePetalInset1",
+    "NozzlePetalRidge1",
+    "NozzlePetalEdgeRail1_24",
+    "NozzlePetalEdgeRail1_43",
+    "NozzlePetalGuide1_0",
+    "NozzlePetalGuide1_1",
+    "NozzlePetalEndHem1",
+    "NozzlePetalHinge1",
+    "NozzlePetal2",
+    "NozzlePetalInset2",
+    "NozzlePetalRidge2",
+    "NozzlePetalEdgeRail2_46",
+    "NozzlePetalEdgeRail2_65",
+    "NozzlePetalGuide2_0",
+    "NozzlePetalGuide2_1",
+    "NozzlePetalEndHem2",
+    "NozzlePetalHinge2",
+    "NozzlePetal3",
+    "NozzlePetalInset3",
+    "NozzlePetalRidge3",
+    "NozzlePetalEdgeRail3_69",
+    "NozzlePetalEdgeRail3_88",
+    "NozzlePetalGuide3_0",
+    "NozzlePetalGuide3_1",
+    "NozzlePetalEndHem3",
+    "NozzlePetalHinge3",
+    "NozzlePetal4",
+    "NozzlePetalInset4",
+    "NozzlePetalRidge4",
+    "NozzlePetalEdgeRail4_91",
+    "NozzlePetalEdgeRail4_110",
+    "NozzlePetalGuide4_0",
+    "NozzlePetalGuide4_1",
+    "NozzlePetalEndHem4",
+    "NozzlePetalHinge4",
+    "NozzlePetal5",
+    "NozzlePetalInset5",
+    "NozzlePetalRidge5",
+    "NozzlePetalEdgeRail5_114",
+    "NozzlePetalEdgeRail5_133",
+    "NozzlePetalGuide5_0",
+    "NozzlePetalGuide5_1",
+    "NozzlePetalEndHem5",
+    "NozzlePetalHinge5",
+    "NozzlePetal6",
+    "NozzlePetalInset6",
+    "NozzlePetalRidge6",
+    "NozzlePetalEdgeRail6_136",
+    "NozzlePetalEdgeRail6_155",
+    "NozzlePetalGuide6_0",
+    "NozzlePetalGuide6_1",
+    "NozzlePetalEndHem6",
+    "NozzlePetalHinge6",
+    "NozzlePetal7",
+    "NozzlePetalInset7",
+    "NozzlePetalRidge7",
+    "NozzlePetalEdgeRail7_159",
+    "NozzlePetalEdgeRail7_178",
+    "NozzlePetalGuide7_0",
+    "NozzlePetalGuide7_1",
+    "NozzlePetalEndHem7",
+    "NozzlePetalHinge7",
+    "NozzlePetal8",
+    "NozzlePetalInset8",
+    "NozzlePetalRidge8",
+    "NozzlePetalEdgeRail8_181",
+    "NozzlePetalEdgeRail8_200",
+    "NozzlePetalGuide8_0",
+    "NozzlePetalGuide8_1",
+    "NozzlePetalEndHem8",
+    "NozzlePetalHinge8",
+    "NozzlePetal9",
+    "NozzlePetalInset9",
+    "NozzlePetalRidge9",
+    "NozzlePetalEdgeRail9_204",
+    "NozzlePetalEdgeRail9_223",
+    "NozzlePetalGuide9_0",
+    "NozzlePetalGuide9_1",
+    "NozzlePetalEndHem9",
+    "NozzlePetalHinge9",
+    "NozzlePetal10",
+    "NozzlePetalInset10",
+    "NozzlePetalRidge10",
+    "NozzlePetalEdgeRail10_226",
+    "NozzlePetalEdgeRail10_245",
+    "NozzlePetalGuide10_0",
+    "NozzlePetalGuide10_1",
+    "NozzlePetalEndHem10",
+    "NozzlePetalHinge10",
+    "NozzlePetal11",
+    "NozzlePetalInset11",
+    "NozzlePetalRidge11",
+    "NozzlePetalEdgeRail11_249",
+    "NozzlePetalEdgeRail11_268",
+    "NozzlePetalGuide11_0",
+    "NozzlePetalGuide11_1",
+    "NozzlePetalEndHem11",
+    "NozzlePetalHinge11",
+    "BassSideStripe0_0",
+    "BassSideStripe0_1",
+    "BassSideStripe0_2",
+    "BassSideStripe1_0",
+    "BassSideStripe1_1",
+    "BassSideStripe1_2",
+    "BassWarningPlaque",
+    "BassWarningRedBand",
+    "BassWarningTriangle",
+    "BassWarningTriangleInset",
+    "BassNeckFastener0",
+    "BassNeckFastener1",
+    "BassNeckFastener2",
+    "BassNeckFastener3",
+    "BassNeckFastener4",
+    "BassNeckFastener5",
+    "BassNeckFastener6",
+    "BassNeckFastener7",
+    "WooferMountSeat",
+    "WooferEnvelope_D88_Depth40",
+    "LowerPod_1",
+    "LowerPodClamp_1",
+    "LowerPodRim_1",
+    "LowerPodDiaphragm_1",
+    "LowerPodRib_1_0",
+    "LowerPodPetalRidge_1_0",
+    "LowerPodEdgeRail_1_0_2",
+    "LowerPodEdgeRail_1_0_17",
+    "LowerPodRib_1_1",
+    "LowerPodPetalRidge_1_1",
+    "LowerPodEdgeRail_1_1_2",
+    "LowerPodEdgeRail_1_1_17",
+    "LowerPodRib_1_2",
+    "LowerPodPetalRidge_1_2",
+    "LowerPodEdgeRail_1_2_2",
+    "LowerPodEdgeRail_1_2_17",
+    "LowerPodRib_1_3",
+    "LowerPodPetalRidge_1_3",
+    "LowerPodEdgeRail_1_3_2",
+    "LowerPodEdgeRail_1_3_17",
+    "LowerPodRib_1_4",
+    "LowerPodPetalRidge_1_4",
+    "LowerPodEdgeRail_1_4_2",
+    "LowerPodEdgeRail_1_4_17",
+    "LowerPodRib_1_5",
+    "LowerPodPetalRidge_1_5",
+    "LowerPodEdgeRail_1_5_2",
+    "LowerPodEdgeRail_1_5_17",
+    "LowerPodRib_1_6",
+    "LowerPodPetalRidge_1_6",
+    "LowerPodEdgeRail_1_6_2",
+    "LowerPodEdgeRail_1_6_17",
+    "LowerPodRib_1_7",
+    "LowerPodPetalRidge_1_7",
+    "LowerPodEdgeRail_1_7_2",
+    "LowerPodEdgeRail_1_7_17",
+    "LowerPodRib_1_8",
+    "LowerPodPetalRidge_1_8",
+    "LowerPodEdgeRail_1_8_2",
+    "LowerPodEdgeRail_1_8_17",
+    "LowerPodRib_1_9",
+    "LowerPodPetalRidge_1_9",
+    "LowerPodEdgeRail_1_9_2",
+    "LowerPodEdgeRail_1_9_17",
+    "LowerPodRib_1_10",
+    "LowerPodPetalRidge_1_10",
+    "LowerPodEdgeRail_1_10_2",
+    "LowerPodEdgeRail_1_10_17",
+    "LowerPodRib_1_11",
+    "LowerPodPetalRidge_1_11",
+    "LowerPodEdgeRail_1_11_2",
+    "LowerPodEdgeRail_1_11_17",
+    "LowerPodRib_1_12",
+    "LowerPodPetalRidge_1_12",
+    "LowerPodEdgeRail_1_12_2",
+    "LowerPodEdgeRail_1_12_17",
+    "LowerPodRib_1_13",
+    "LowerPodPetalRidge_1_13",
+    "LowerPodEdgeRail_1_13_2",
+    "LowerPodEdgeRail_1_13_17",
+    "LowerPodRib_1_14",
+    "LowerPodPetalRidge_1_14",
+    "LowerPodEdgeRail_1_14_2",
+    "LowerPodEdgeRail_1_14_17",
+    "LowerPodRib_1_15",
+    "LowerPodPetalRidge_1_15",
+    "LowerPodEdgeRail_1_15_2",
+    "LowerPodEdgeRail_1_15_17",
+    "LowerPodRib_1_16",
+    "LowerPodPetalRidge_1_16",
+    "LowerPodEdgeRail_1_16_2",
+    "LowerPodEdgeRail_1_16_17",
+    "LowerPodRib_1_17",
+    "LowerPodPetalRidge_1_17",
+    "LowerPodEdgeRail_1_17_2",
+    "LowerPodEdgeRail_1_17_17",
+    "LowerPod_001",
+    "LowerPodClamp_001",
+    "LowerPodRim_001",
+    "LowerPodDiaphragm_001",
+    "LowerPodRib_1_001",
+    "LowerPodPetalRidge_1_001",
+    "LowerPodEdgeRail_1_0_001",
+    "LowerPodEdgeRail_1_0_002",
+    "LowerPodRib_1_002",
+    "LowerPodPetalRidge_1_002",
+    "LowerPodEdgeRail_1_1_001",
+    "LowerPodEdgeRail_1_1_002",
+    "LowerPodRib_1_003",
+    "LowerPodPetalRidge_1_003",
+    "LowerPodEdgeRail_1_2_001",
+    "LowerPodEdgeRail_1_2_002",
+    "LowerPodRib_1_004",
+    "LowerPodPetalRidge_1_004",
+    "LowerPodEdgeRail_1_3_001",
+    "LowerPodEdgeRail_1_3_002",
+    "LowerPodRib_1_005",
+    "LowerPodPetalRidge_1_005",
+    "LowerPodEdgeRail_1_4_001",
+    "LowerPodEdgeRail_1_4_002",
+    "LowerPodRib_1_006",
+    "LowerPodPetalRidge_1_006",
+    "LowerPodEdgeRail_1_5_001",
+    "LowerPodEdgeRail_1_5_002",
+    "LowerPodRib_1_007",
+    "LowerPodPetalRidge_1_007",
+    "LowerPodEdgeRail_1_6_001",
+    "LowerPodEdgeRail_1_6_002",
+    "LowerPodRib_1_008",
+    "LowerPodPetalRidge_1_008",
+    "LowerPodEdgeRail_1_7_001",
+    "LowerPodEdgeRail_1_7_002",
+    "LowerPodRib_1_009",
+    "LowerPodPetalRidge_1_009",
+    "LowerPodEdgeRail_1_8_001",
+    "LowerPodEdgeRail_1_8_002",
+    "LowerPodRib_1_010",
+    "LowerPodPetalRidge_1_010",
+    "LowerPodEdgeRail_1_9_001",
+    "LowerPodEdgeRail_1_9_002",
+    "LowerPodRib_1_011",
+    "LowerPodPetalRidge_1_011",
+    "LowerPodEdgeRail_1_10_001",
+    "LowerPodEdgeRail_1_10_002",
+    "LowerPodRib_1_012",
+    "LowerPodPetalRidge_1_012",
+    "LowerPodEdgeRail_1_11_001",
+    "LowerPodEdgeRail_1_11_002",
+    "LowerPodRib_1_013",
+    "LowerPodPetalRidge_1_013",
+    "LowerPodEdgeRail_1_12_001",
+    "LowerPodEdgeRail_1_12_002",
+    "LowerPodRib_1_014",
+    "LowerPodPetalRidge_1_014",
+    "LowerPodEdgeRail_1_13_001",
+    "LowerPodEdgeRail_1_13_002",
+    "LowerPodRib_1_015",
+    "LowerPodPetalRidge_1_015",
+    "LowerPodEdgeRail_1_14_001",
+    "LowerPodEdgeRail_1_14_002",
+    "LowerPodRib_1_016",
+    "LowerPodPetalRidge_1_016",
+    "LowerPodEdgeRail_1_15_001",
+    "LowerPodEdgeRail_1_15_002",
+    "LowerPodRib_1_017",
+    "LowerPodPetalRidge_1_017",
+    "LowerPodEdgeRail_1_16_001",
+    "LowerPodEdgeRail_1_16_002",
+    "LowerPodRib_1_018",
+    "LowerPodPetalRidge_1_018",
+    "LowerPodEdgeRail_1_17_001",
+    "LowerPodEdgeRail_1_17_002",
+    "UnderbodyLoop0",
+    "UnderbodyLoop1",
+    "CentralSupportSeat",
+    "SupportShaftFrontLeft",
+    "SupportSocketFrontLeft",
+    "SupportFootFrontLeft",
+    "SupportShaftRearLeft",
+    "SupportSocketRearLeft",
+    "SupportFootRearLeft",
+    "SupportShaftFrontRight",
+    "SupportSocketFrontRight",
+    "SupportFootFrontRight",
+    "SupportShaftRearRight",
+    "SupportSocketRearRight",
+    "SupportFootRearRight",
+    "BellyServicePlateLeft",
+    "BellyServiceBoltLeft0",
+    "BellyServiceBoltLeft1",
+    "BellyServicePlateRight",
+    "BellyServiceBoltRight0",
+    "BellyServiceBoltRight1",
+    "AntennaBase",
+    "Antenna",
+    "HoodMark_1_0",
+    "HoodMark_1_1",
+    "HoodMark_1_2",
+    "HoodMark_1_3",
+    "HoodMark_1_001",
+    "HoodMark_1_002",
+    "HoodMark_1_003",
+    "HoodMark_1_004",
+    "CDInsertionStudy_D120",
+    "RearCyanUpperLeft",
+    "RearCyanLowerRight",
+    "RearCyanLowerLeft",
+    "RearCavityEmitterLeft",
+    "RearCavityReflectorLeft",
+    "RearCavityClipUpperLeft",
+    "RearCavityClipLowerLeft",
+    "RearCavityEmitterRight",
+    "RearCavityReflectorRight",
+    "RearCavityClipUpperRight",
+    "RearCavityClipLowerRight",
+    "RearLowerSlope",
+    "FrontCheekLeft",
+    "CheekUtilityLabelLeft",
+    "CheekUtilityRedBandLeft",
+    "FrontCheekBridgeLeft",
+    "VentBackingLeft",
+    "CheekVentRibLeft0",
+    "CheekVentRibLeft1",
+    "CheekVentRibLeft2",
+    "CheekVentRibLeft3",
+    "CheekVentRibLeft4",
+    "CheekVentRibLeft5",
+    "CheekVentRibLeft6",
+    "CheekVentRibLeft7",
+    "CheekVentRibLeft8",
+    "CheekVentRibLeft9",
+    "CheekDialLeft",
+    "CheekButtonLeft",
+    "CheekArrowLeft0",
+    "CheekArrowLeft1",
+    "CheekArrowLeft2",
+    "CheekArrowLeft3",
+    "CheekPerforatedPanelLeft",
+    "SideFrontSpineLeft",
+    "SideFrontSpineLinerLeft",
+    "SideSocketBaseLeft",
+    "SideSocketLipLeft",
+    "SideSocketRecessLeft",
+    "SideStatusMarkLeft0",
+    "SideStatusMarkLeft1",
+    "SideStatusMarkLeft2",
+    "SideStatusSlotLeft",
+    "SideStatusBracketLeft",
+    "SideStatusPlateLeft",
+    "UtilityMountLeft",
+    "UtilityLinerLeft",
+    "UtilityBarrelLeft",
+    "UtilityCollarLeft0",
+    "UtilityCollarLeft1",
+    "UtilityCollarLeft2",
+    "UtilityCollarLeft3",
+    "UtilityCapLeft",
+    "UtilityCapRibLeft0",
+    "UtilityCapRibLeft1",
+    "UtilityCapRibLeft2",
+    "UtilityCapRibLeft3",
+    "UtilityIndicatorLeft",
+    "UtilityFrontLensLeft",
+    "UtilityControlLeft",
+    "UtilityControlInsetLeft",
+    "UtilitySwitchLeft",
+    "UtilitySwitchRedLeft",
+    "UtilityLEDLeft0",
+    "UtilityLEDLeft1",
+    "UtilityLEDLeft2",
+    "SideCableLeft",
+    "UtilityCableBootLeft",
+    "SideCableTopBootLeft",
+    "FrontCheekRight",
+    "CheekUtilityLabelRight",
+    "CheekUtilityRedBandRight",
+    "FrontCheekBridgeRight",
+    "VentBackingRight",
+    "CheekVentRibRight0",
+    "CheekVentRibRight1",
+    "CheekVentRibRight2",
+    "CheekVentRibRight3",
+    "CheekVentRibRight4",
+    "CheekVentRibRight5",
+    "CheekVentRibRight6",
+    "CheekVentRibRight7",
+    "CheekVentRibRight8",
+    "CheekVentRibRight9",
+    "CheekDialRight",
+    "CheekKnobRight",
+    "CheekPerforatedPanelRight",
+    "SideFrontSpineRight",
+    "SideFrontSpineLinerRight",
+    "SideSocketBaseRight",
+    "SideSocketLipRight",
+    "SideSocketRecessRight",
+    "SideStatusMarkRight0",
+    "SideStatusMarkRight1",
+    "SideStatusMarkRight2",
+    "SideStatusSlotRight",
+    "SideStatusBracketRight",
+    "SideStatusPlateRight",
+    "UnderbodyHarness0",
+    "UnderbodyHarness1",
+    "UnderbodyHarness2",
+    "UnderbodyHarness3",
+    "UnderbodyHarness4"
+  ],
+  "air_probes": [
+    {
+      "point_mm": [
+        0.0,
+        240.3235117437203,
+        76.77917883785668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        0.0,
+        240.3235117437203,
+        76.77917883785668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        0.0,
+        240.3235117437203,
+        76.77917883785668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        0.0,
+        240.3235117437203,
+        76.77917883785668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        12.0,
+        240.3235117437203,
+        76.77917883785668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        7.347880794884119e-16,
+        230.24238643993684,
+        70.26988451286132
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -12.0,
+        240.3235117437203,
+        76.77917883785668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -2.204364238465236e-15,
+        250.40463704750377,
+        83.28847316285201
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        24.0,
+        240.3235117437203,
+        76.77917883785668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        1.4695761589768238e-15,
+        220.16126113615337,
+        63.76059018786596
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -24.0,
+        240.3235117437203,
+        76.77917883785668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -4.408728476930472e-15,
+        260.48576235128724,
+        89.79776748784738
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        34.0,
+        240.3235117437203,
+        76.77917883785668
+      ],
+      "candidate_material": false,
+      "baseline_material": false
+    },
+    {
+      "point_mm": [
+        2.0818995585505003e-15,
+        211.76032338300047,
+        58.33617825036984
+      ],
+      "candidate_material": false,
+      "baseline_material": false
+    },
+    {
+      "point_mm": [
+        -34.0,
+        240.3235117437203,
+        76.77917883785666
+      ],
+      "candidate_material": false,
+      "baseline_material": false
+    },
+    {
+      "point_mm": [
+        -6.245698675651501e-15,
+        268.88670010444014,
+        95.2221794253435
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        0.0,
+        242.61923971607226,
+        73.50356697486667
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        0.0,
+        242.61923971607226,
+        73.50356697486667
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        0.0,
+        242.61923971607226,
+        73.50356697486667
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        0.0,
+        242.61923971607226,
+        73.50356697486667
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        12.0,
+        242.61923971607226,
+        73.50356697486667
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        7.347880794884119e-16,
+        232.5381144122888,
+        66.99427264987133
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -12.0,
+        242.61923971607226,
+        73.50356697486667
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -2.204364238465236e-15,
+        252.70036501985572,
+        80.01286129986202
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        24.0,
+        242.61923971607226,
+        73.50356697486667
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        1.4695761589768238e-15,
+        222.45698910850533,
+        60.48497832487597
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -24.0,
+        242.61923971607226,
+        73.50356697486667
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -4.408728476930472e-15,
+        262.7814903236392,
+        86.52215562485739
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        34.0,
+        242.61923971607226,
+        73.50356697486667
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        2.0818995585505003e-15,
+        214.05605135535242,
+        55.06056638737985
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -34.0,
+        242.61923971607226,
+        73.50356697486667
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -6.245698675651501e-15,
+        271.1824280767921,
+        91.94656756235351
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        0.0,
+        244.9149676884242,
+        70.22795511187668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        0.0,
+        244.9149676884242,
+        70.22795511187668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        0.0,
+        244.9149676884242,
+        70.22795511187668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        0.0,
+        244.9149676884242,
+        70.22795511187668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        12.0,
+        244.9149676884242,
+        70.22795511187668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        7.347880794884119e-16,
+        234.83384238464075,
+        63.718660786881344
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -12.0,
+        244.9149676884242,
+        70.22795511187668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -2.204364238465236e-15,
+        254.9960929922077,
+        76.73724943687203
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        24.0,
+        244.9149676884242,
+        70.22795511187668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        1.4695761589768238e-15,
+        224.75271708085728,
+        57.20936646188598
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -24.0,
+        244.9149676884242,
+        70.22795511187668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -4.408728476930472e-15,
+        265.07721829599114,
+        83.2465437618674
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        34.0,
+        244.9149676884242,
+        70.22795511187668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        2.0818995585505003e-15,
+        216.35177932770438,
+        51.78495452438986
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -34.0,
+        244.9149676884242,
+        70.22795511187668
+      ],
+      "candidate_material": false,
+      "baseline_material": true
+    },
+    {
+      "point_mm": [
+        -6.245698675651501e-15,
+        273.47815604914405,
+        88.67095569936352
+      ],
+      "candidate_material": false,
+      "baseline_material": false
+    }
+  ],
+  "floor_probes": [
+    {
+      "point_mm": [
+        15.0,
+        225.63085272066778,
+        97.74309476099262
+      ],
+      "inside_bowl_backing": true
+    },
+    {
+      "point_mm": [
+        12.99038105676658,
+        219.3301494058031,
+        93.67478580787052
+      ],
+      "inside_bowl_backing": true
+    },
+    {
+      "point_mm": [
+        7.500000000000002,
+        214.7177144559045,
+        90.6965769532978
+      ],
+      "inside_bowl_backing": true
+    },
+    {
+      "point_mm": [
+        9.18485099360515e-16,
+        213.02944609093842,
+        89.60647685474844
+      ],
+      "inside_bowl_backing": true
+    },
+    {
+      "point_mm": [
+        -7.499999999999997,
+        214.7177144559045,
+        90.6965769532978
+      ],
+      "inside_bowl_backing": true
+    },
+    {
+      "point_mm": [
+        -12.99038105676658,
+        219.3301494058031,
+        93.67478580787052
+      ],
+      "inside_bowl_backing": true
+    },
+    {
+      "point_mm": [
+        -15.0,
+        225.63085272066778,
+        97.74309476099262
+      ],
+      "inside_bowl_backing": true
+    },
+    {
+      "point_mm": [
+        -12.990381056766578,
+        231.93155603553245,
+        101.81140371411472
+      ],
+      "inside_bowl_backing": true
+    },
+    {
+      "point_mm": [
+        -7.500000000000007,
+        236.543990985431,
+        104.78961256868743
+      ],
+      "inside_bowl_backing": true
+    },
+    {
+      "point_mm": [
+        -2.7554552980815444e-15,
+        238.2322593503971,
+        105.8797126672368
+      ],
+      "inside_bowl_backing": true
+    },
+    {
+      "point_mm": [
+        7.500000000000002,
+        236.543990985431,
+        104.78961256868743
+      ],
+      "inside_bowl_backing": true
+    },
+    {
+      "point_mm": [
+        12.990381056766577,
+        231.93155603553245,
+        101.81140371411472
+      ],
+      "inside_bowl_backing": true
+    }
+  ],
+  "rim_contact_probes": [
+    {
+      "point_mm": [
+        44.48977365616562,
+        238.54432256514752,
+        79.31777803167391
+      ],
+      "inside_throat": true,
+      "inside_bowl": true
+    },
+    {
+      "point_mm": [
+        38.52927419485911,
+        219.8565316082821,
+        67.25123506582364
+      ],
+      "inside_throat": true,
+      "inside_bowl": true
+    },
+    {
+      "point_mm": [
+        22.244886828082812,
+        206.1761191466304,
+        58.417912543108386
+      ],
+      "inside_throat": true,
+      "inside_bowl": true
+    },
+    {
+      "point_mm": [
+        2.7242129451406732e-15,
+        201.16874065141667,
+        55.18469209997336
+      ],
+      "inside_throat": true,
+      "inside_bowl": true
+    },
+    {
+      "point_mm": [
+        -22.2448868280828,
+        206.1761191466304,
+        58.417912543108386
+      ],
+      "inside_throat": true,
+      "inside_bowl": true
+    },
+    {
+      "point_mm": [
+        -38.52927419485911,
+        219.8565316082821,
+        67.25123506582364
+      ],
+      "inside_throat": true,
+      "inside_bowl": true
+    },
+    {
+      "point_mm": [
+        -44.48977365616562,
+        238.54432256514752,
+        79.31777803167391
+      ],
+      "inside_throat": true,
+      "inside_bowl": true
+    },
+    {
+      "point_mm": [
+        -38.529274194859106,
+        257.232113522013,
+        91.38432099752418
+      ],
+      "inside_throat": true,
+      "inside_bowl": true
+    },
+    {
+      "point_mm": [
+        -22.24488682808283,
+        270.91252598366464,
+        100.21764352023943
+      ],
+      "inside_throat": true,
+      "inside_bowl": true
+    },
+    {
+      "point_mm": [
+        -8.172638835422019e-15,
+        275.9199044788784,
+        103.45086396337446
+      ],
+      "inside_throat": true,
+      "inside_bowl": true
+    },
+    {
+      "point_mm": [
+        22.244886828082812,
+        270.91252598366464,
+        100.21764352023943
+      ],
+      "inside_throat": true,
+      "inside_bowl": true
+    },
+    {
+      "point_mm": [
+        38.5292741948591,
+        257.232113522013,
+        91.3843209975242
+      ],
+      "inside_throat": true,
+      "inside_bowl": true
+    }
+  ],
+  "cap_contact_probes": [
+    {
+      "point_mm": [
+        3.0,
+        225.91781871721176,
+        97.33364327811887
+      ],
+      "inside_bowl": true,
+      "inside_cap": true
+    },
+    {
+      "point_mm": [
+        2.598076211353316,
+        224.65767805423883,
+        96.51998148749445
+      ],
+      "inside_bowl": true,
+      "inside_cap": true
+    },
+    {
+      "point_mm": [
+        1.5000000000000004,
+        223.7351910642591,
+        95.9243397165799
+      ],
+      "inside_bowl": true,
+      "inside_cap": true
+    },
+    {
+      "point_mm": [
+        1.8369701987210297e-16,
+        223.3975373912659,
+        95.70631969687003
+      ],
+      "inside_bowl": true,
+      "inside_cap": true
+    },
+    {
+      "point_mm": [
+        -1.4999999999999996,
+        223.7351910642591,
+        95.9243397165799
+      ],
+      "inside_bowl": true,
+      "inside_cap": true
+    },
+    {
+      "point_mm": [
+        -2.598076211353316,
+        224.65767805423883,
+        96.51998148749445
+      ],
+      "inside_bowl": true,
+      "inside_cap": true
+    },
+    {
+      "point_mm": [
+        -3.0,
+        225.91781871721176,
+        97.33364327811887
+      ],
+      "inside_bowl": true,
+      "inside_cap": true
+    },
+    {
+      "point_mm": [
+        -2.598076211353316,
+        227.1779593801847,
+        98.1473050687433
+      ],
+      "inside_bowl": true,
+      "inside_cap": true
+    },
+    {
+      "point_mm": [
+        -1.5000000000000013,
+        228.1004463701644,
+        98.74294683965783
+      ],
+      "inside_bowl": true,
+      "inside_cap": true
+    },
+    {
+      "point_mm": [
+        -5.51091059616309e-16,
+        228.43810004315765,
+        98.9609668593677
+      ],
+      "inside_bowl": true,
+      "inside_cap": true
+    },
+    {
+      "point_mm": [
+        1.5000000000000004,
+        228.1004463701644,
+        98.74294683965783
+      ],
+      "inside_bowl": true,
+      "inside_cap": true
+    },
+    {
+      "point_mm": [
+        2.598076211353315,
+        227.1779593801847,
+        98.1473050687433
+      ],
+      "inside_bowl": true,
+      "inside_cap": true
+    }
+  ],
+  "exterior_probes": [
+    {
+      "point_mm": [
+        0.0,
+        180.0,
+        173.0
+      ],
+      "outside_all_three": true
+    },
+    {
+      "point_mm": [
+        1000.0,
+        -64.97097265950853,
+        -1219.8349588354877
+      ],
+      "outside_all_three": true
+    },
+    {
+      "point_mm": [
+        0.0,
+        266.0897989631984,
+        50.16455513787528
+      ],
+      "outside_all_three": true
+    }
+  ],
+  "limitations": [
+    "Sparse finite probes are not a continuous wall-thickness or manufacturing test.",
+    "Boolean common volumes at coincident surfaces are not used as sole contact proof.",
+    "Reference darkness alone does not establish an internal speaker design."
+  ],
+  "candidate_fcstd_sha256": "81e3719c71e243e5113ae7829932fd7af1245c2dd940945f6ef96b7e2ce2ea5c",
+  "candidate_comparisons": [],
+  "generator_sha256": "bf40f9d6d2deaeb170daad96d98d28c9464955da70ee2fcaa9dab90fe11b0f53",
+  "shafts": [
+    "SupportShaftFrontLeft",
+    "SupportShaftRearLeft",
+    "SupportShaftFrontRight",
+    "SupportShaftRearRight"
+  ]
+}

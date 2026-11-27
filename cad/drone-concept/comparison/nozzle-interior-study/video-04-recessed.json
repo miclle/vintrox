@@ -1,0 +1,28 @@
+{
+  "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "candidate_fcstd_sha256": "81e3719c71e243e5113ae7829932fd7af1245c2dd940945f6ef96b7e2ce2ea5c",
+  "crop": [
+    315,
+    380,
+    620,
+    710
+  ],
+  "scale": 2,
+  "alpha": 0.5,
+  "sources": [
+    {
+      "path": "cad/drone-concept/comparison/iteration-81/reference-frames/frame-05.png",
+      "sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-81-renders/video-04.png",
+      "sha256": "1928daa51c13f3c66d79249d4323f5bc813e1ef1400e21c6ed30e09795831447"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-interior-study/recessed/video-renders/video-04.png",
+      "sha256": "b5e0d137e7ae03a584573e92471baf508b51f8d4216a105120aea05258a93896"
+    }
+  ],
+  "image_sha256": "bf19ab64deda36a448760190b02973b50792010e2896f1e1b27af0ce7cd4f93b",
+  "method": "same fixed camera, common crop, no spatial registration or warp"
+}

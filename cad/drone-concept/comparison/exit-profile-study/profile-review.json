@@ -1,0 +1,203 @@
+{
+  "status": "reviewed shared-root taper trial; not selected for formal adoption",
+  "formal_fcstd_sha256": "475c208851231c3c98da53e59c62ad1a18de1bf969f6d0622db8e5f93b03b7e5",
+  "candidate_fcstd_sha256": "bf51be5da7929fb160f4a57701125f9becb3c5da6161789d45c0f6b9b7c1fa3f",
+  "formal_generator_unchanged": true,
+  "comparisons": {
+    "video": {
+      "baseline_mean_iou": 0.848452603140878,
+      "trial_mean_iou": 0.8488163517954044,
+      "change_percentage_points": 0.03637486545263746,
+      "views": [
+        {
+          "view": "video-00",
+          "baseline_iou": 0.8734462579322946,
+          "trial_iou": 0.8734462579322946,
+          "change_percentage_points": 0.0
+        },
+        {
+          "view": "video-01",
+          "baseline_iou": 0.8553412318180171,
+          "trial_iou": 0.856235264574992,
+          "change_percentage_points": 0.08940327569748607
+        },
+        {
+          "view": "video-02",
+          "baseline_iou": 0.8375228588321028,
+          "trial_iou": 0.8382689306465775,
+          "change_percentage_points": 0.07460718144747247
+        },
+        {
+          "view": "video-03",
+          "baseline_iou": 0.8190111426466097,
+          "trial_iou": 0.8195150128425137,
+          "change_percentage_points": 0.05038701959040326
+        },
+        {
+          "view": "video-04",
+          "baseline_iou": 0.8183989362388815,
+          "trial_iou": 0.8181815247042112,
+          "change_percentage_points": -0.02174115346702532
+        },
+        {
+          "view": "video-05",
+          "baseline_iou": 0.803921568627451,
+          "trial_iou": 0.8041592677649823,
+          "change_percentage_points": 0.023769913753124428
+        },
+        {
+          "view": "video-06",
+          "baseline_iou": 0.8250995784029204,
+          "trial_iou": 0.8256933674757456,
+          "change_percentage_points": 0.059378907282525706
+        },
+        {
+          "view": "video-07",
+          "baseline_iou": 0.8779205132874774,
+          "trial_iou": 0.8787999483897027,
+          "change_percentage_points": 0.08794351022252123
+        },
+        {
+          "view": "video-08",
+          "baseline_iou": 0.893606489195306,
+          "trial_iou": 0.893606489195306,
+          "change_percentage_points": 0.0
+        },
+        {
+          "view": "video-09",
+          "baseline_iou": 0.8802574544277193,
+          "trial_iou": 0.8802574544277193,
+          "change_percentage_points": 0.0
+        }
+      ]
+    },
+    "still": {
+      "baseline_mean_iou": 0.8194252892250636,
+      "trial_mean_iou": 0.8197064370216672,
+      "change_percentage_points": 0.0281147796603598,
+      "views": [
+        {
+          "view": "still-01",
+          "baseline_iou": 0.8650207256828119,
+          "trial_iou": 0.8650207256828119,
+          "change_percentage_points": 0.0
+        },
+        {
+          "view": "still-02",
+          "baseline_iou": 0.8671098682331476,
+          "trial_iou": 0.8671098682331476,
+          "change_percentage_points": 0.0
+        },
+        {
+          "view": "still-03",
+          "baseline_iou": 0.8487970010695631,
+          "trial_iou": 0.8487970010695631,
+          "change_percentage_points": 0.0
+        },
+        {
+          "view": "still-04",
+          "baseline_iou": 0.7805294806579615,
+          "trial_iou": 0.7807220593796244,
+          "change_percentage_points": 0.01925787216628949
+        },
+        {
+          "view": "still-05",
+          "baseline_iou": 0.7692748533995003,
+          "trial_iou": 0.7704257990180483,
+          "change_percentage_points": 0.11509456185480049
+        },
+        {
+          "view": "still-06",
+          "baseline_iou": 0.7372434930981249,
+          "trial_iou": 0.737868003334139,
+          "change_percentage_points": 0.06245102360141752
+        },
+        {
+          "view": "still-closeup",
+          "baseline_iou": 0.8680016024343364,
+          "trial_iou": 0.8680016024343364,
+          "change_percentage_points": 0.0
+        }
+      ]
+    }
+  },
+  "cache": [
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-exit-profile-cache/profile-21-meshes.json",
+      "sha256": "44aee6784ca6cd06f4e2999d5af85bf946309bbc59c7d8b380d9ce2efddd96a2"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-exit-profile-cache/profile-21-lined-meshes.json",
+      "sha256": "33132dd0b6e732bba9030fdb9bd0ac590f31951ad238dbca99ad9bcca496215b"
+    }
+  ],
+  "decision": [
+    "Keep formal v46 and its cameras unchanged.",
+    "A 2.1mm radial taper modestly improves overall masks, but loses more at the rear silhouette and guide spacing than the earlier rigid-rotation trial.",
+    "Video terminal-circle RMS increases from 3.298 to 3.675px; broad gold-lip/exit offset remains.",
+    "Prioritize checking source-video reconstruction against static-photo correspondences before further shrinking the nozzle."
+  ],
+  "inner_surface_correction": "Initial leaves-only trial intersected the original throat: leaf 7 overlap 37.916mm3, versus zero at v46. Coordinated inner throat and cone restore at least 1.387mm clearance across all twelve leaves.",
+  "limitations": [
+    "No claim of whole-model fidelity improvement from tiny silhouette changes alone.",
+    "No formal FCStd/STEP/preview release; these are isolated geometry candidates."
+  ],
+  "files": [
+    {
+      "path": "tools/drone_petal_profile.py",
+      "sha256": "1db93bf051eab7413212db83a7350142f0e6e327f601be6ea2de528972c0e1c0"
+    },
+    {
+      "path": "tools/experiment_drone_petal_profile.py",
+      "sha256": "c0e26b92e971b938ac67d8664da5f0ceb2c775ab56b680e170c0683d8e896200"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/profile-21/source-profile.py",
+      "sha256": "905d034b0dc4f7888e448435a4790c720001a7dd41af1a2be4983602055e05ad"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/profile-zero-equivalence.json",
+      "sha256": "a28bb3f8be4363c3978c5c2b812dd5dba4a6beb7dbf4a4ff94f2097e92424345"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/profile21-initial-liner-check.json",
+      "sha256": "84e6ce204db27740cf8aa9453769896ae4dc9dd85adf6580e14fec6901d6730c"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/root-axis-free-fit.json",
+      "sha256": "fdb1396d5cb2dda9804ae09a2638b7a78468244aacaacc82f87822ca509d34a3"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/profile-validation.json",
+      "sha256": "b49d0d30f0ea5c48c2b3b9a436bc7f9c38595a43da2a91894e271e9b00bbc9c5"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/diagnostic-scripts/complete-profile.py",
+      "sha256": "9158ff5b2acba583e508914a28c2a26a76c8e1bea39b0c6655420d44190d4fcc"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/diagnostic-scripts/prepare-profile-review.py",
+      "sha256": "54e2bb05bfe73743c5e595f769acfa5e893bc07c32da019f271741671764226f"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/diagnostic-scripts/validate-profile.py",
+      "sha256": "1a7b3cd0640370139f242e454ebb3004214d609edadfa0a1232571e1687d9f4c"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/profile-21-lined/candidate-check.json",
+      "sha256": "738cc23751b0f00232d1116d0ce0754b5863348a4bae3286b1dc0d90745f8e59"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/profile-21-lined/outline-check.json",
+      "sha256": "41191cfbcc7408e5b0069d493e543c42909c8a514e003abc258accfa22885d16"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/profile-21-lined/lip-check.json",
+      "sha256": "9bd3c6e2978ccc04190c3d133d84cf2f93c0874cd956a1f4145f462dc16c4872"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/profile-21-lined/guide-width.json",
+      "sha256": "6c421f96402508fa87bbf924488ce38aac7df1dda3d99968add844a5f1b7b295"
+    }
+  ]
+}

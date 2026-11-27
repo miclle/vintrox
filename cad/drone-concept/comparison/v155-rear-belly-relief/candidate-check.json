@@ -1,0 +1,129 @@
+{
+  "baseline_fcstd_sha256": "73240674f4251aa47b574bbfed4cc076a28ea09abdb5279805e2ca78b4d701b3",
+  "fcstd_sha256": "8f954e8a5dd2d59046bf6144da75806d951d51151412597a5f398c917b2a3a6c",
+  "script_sha256": "8145e624a051ba4eaab91a39217daaf100cc67cb5c83b3ef638a6d394d4ffc4b",
+  "changed_objects": [
+    "ClosedBellyPan"
+  ],
+  "retained_central_strip_mm": 104,
+  "cut_profile_yz_mm": [
+    [
+      127,
+      46
+    ],
+    [
+      136,
+      53.35
+    ],
+    [
+      230,
+      53.35
+    ],
+    [
+      230,
+      10
+    ],
+    [
+      127,
+      10
+    ]
+  ],
+  "removed_mm3": 1090.243892718514,
+  "positive_baseline_contacts": [
+    {
+      "name": "MainEnclosureShell",
+      "before_mm3": 75924.82127718121,
+      "after_mm3": 75924.82127718121
+    },
+    {
+      "name": "BottomChassis",
+      "before_mm3": 131325.67630673994,
+      "after_mm3": 131325.67630673992
+    },
+    {
+      "name": "LowerPod_1",
+      "before_mm3": 478.00106285718306,
+      "after_mm3": 478.0010701243244
+    },
+    {
+      "name": "LowerPodClamp_1",
+      "before_mm3": 164.01071493638034,
+      "after_mm3": 164.01071530670487
+    },
+    {
+      "name": "LowerPod_001",
+      "before_mm3": 478.00078934477557,
+      "after_mm3": 478.00078768123683
+    },
+    {
+      "name": "LowerPodClamp_001",
+      "before_mm3": 164.0107545458003,
+      "after_mm3": 164.01075424876146
+    },
+    {
+      "name": "UnderbodyLoop0",
+      "before_mm3": 433.3049283831669,
+      "after_mm3": 433.3049283831669
+    },
+    {
+      "name": "UnderbodyLoop1",
+      "before_mm3": 433.30502137124637,
+      "after_mm3": 433.30502137124637
+    },
+    {
+      "name": "CentralSupportSeat",
+      "before_mm3": 10575.669657510813,
+      "after_mm3": 10575.669657510814
+    },
+    {
+      "name": "BellyServicePlateLeft",
+      "before_mm3": 452.7288082622386,
+      "after_mm3": 452.7288082622386
+    },
+    {
+      "name": "BellyServicePlateRight",
+      "before_mm3": 452.72880826223854,
+      "after_mm3": 452.72880826223854
+    },
+    {
+      "name": "RearLowerSlope",
+      "before_mm3": 299.5721574241553,
+      "after_mm3": 299.5721574241553
+    },
+    {
+      "name": "UnderbodyHarness0",
+      "before_mm3": 83.22715318615421,
+      "after_mm3": 83.22715318615421
+    },
+    {
+      "name": "UnderbodyHarness1",
+      "before_mm3": 83.22715318615919,
+      "after_mm3": 83.22715318615919
+    },
+    {
+      "name": "UnderbodyHarness2",
+      "before_mm3": 83.22715318615495,
+      "after_mm3": 83.22715318615495
+    },
+    {
+      "name": "UnderbodyHarness3",
+      "before_mm3": 83.22715318615472,
+      "after_mm3": 83.22715318615472
+    },
+    {
+      "name": "UnderbodyHarness4",
+      "before_mm3": 83.22715318615573,
+      "after_mm3": 83.22715318615573
+    }
+  ],
+  "new_advanced_check_failures": [],
+  "contact_regressions": [],
+  "diagnostic_fcstd_sha256": "5d0b522a4be2d1758f3dd7a61a4749dbf0a79d76958315eb9a3d07c62187ba87",
+  "step_sha256": "e7e4be75a4f66e35f0c166d80ec3715fe4a7245b1dae1b88ed1ac9ede8420fd9",
+  "finalizer_sha256": "116e96bd548782a090f1da8e07458e7983d6291c1754e76844877b3b2b146f7f",
+  "appearance_source_sha256": "73240674f4251aa47b574bbfed4cc076a28ea09abdb5279805e2ca78b4d701b3",
+  "gui_members_copied": 2095,
+  "unchanged_archive_members_restored": 1100,
+  "geometry_unchanged_during_gui_restore": true,
+  "changed_mesh_geometry": "retessellated from final reopened FCStd"
+}

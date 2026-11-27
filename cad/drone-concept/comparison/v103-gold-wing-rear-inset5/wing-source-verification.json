@@ -1,0 +1,26 @@
+{
+  "fcstd_sha256": "8418371e40ae9551f76b6b7a0fd88c8ba3626e7b8b92ebbbff26e261614045d5",
+  "source_sha256": {
+    "tools/drone_concept.py": "c53113ba283d8f4b399ac7e5e2ebd392187a97ef8d8a8d68197160cc86fde7ce",
+    "tools/drone_wing_fold.py": "51513210d2a2e5593b672350e057049f775fb163833e073356f1570a49a12d3d"
+  },
+  "maximum_difference_mm3": 1e-06,
+  "checks": [
+    {
+      "name": "WingEdgeRight",
+      "symmetric_difference_mm3": 0.0,
+      "same_tessellation": true
+    },
+    {
+      "name": "WingInnerPaintRight",
+      "symmetric_difference_mm3": 0.0,
+      "same_tessellation": true
+    },
+    {
+      "name": "WingFoldFacetRight",
+      "symmetric_difference_mm3": 0.0,
+      "same_tessellation": false
+    }
+  ],
+  "scope": "three locally rebuilt gold wing components"
+}

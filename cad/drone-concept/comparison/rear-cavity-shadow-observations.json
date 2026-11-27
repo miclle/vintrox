@@ -1,0 +1,273 @@
+{
+  "source_image": "cad/drone-concept/comparison/iteration-65/reference-frames/frame-05.png",
+  "source_image_sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb",
+  "source_frame": 120,
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "method": "native RGB pixels, no resize or color adjustment; sample every 4px from x=570 through 626",
+  "scanlines": [
+    {
+      "y": 432,
+      "legacy_reference_point": [
+        584,
+        432
+      ],
+      "samples": [
+        {
+          "x": 570,
+          "rgb": [
+            131,
+            113,
+            79
+          ]
+        },
+        {
+          "x": 574,
+          "rgb": [
+            117,
+            103,
+            69
+          ]
+        },
+        {
+          "x": 578,
+          "rgb": [
+            96,
+            88,
+            56
+          ]
+        },
+        {
+          "x": 582,
+          "rgb": [
+            82,
+            77,
+            54
+          ]
+        },
+        {
+          "x": 586,
+          "rgb": [
+            65,
+            63,
+            44
+          ]
+        },
+        {
+          "x": 590,
+          "rgb": [
+            49,
+            52,
+            38
+          ]
+        },
+        {
+          "x": 594,
+          "rgb": [
+            40,
+            41,
+            34
+          ]
+        },
+        {
+          "x": 598,
+          "rgb": [
+            30,
+            33,
+            25
+          ]
+        },
+        {
+          "x": 602,
+          "rgb": [
+            18,
+            25,
+            18
+          ]
+        },
+        {
+          "x": 606,
+          "rgb": [
+            8,
+            25,
+            22
+          ]
+        },
+        {
+          "x": 610,
+          "rgb": [
+            197,
+            233,
+            230
+          ]
+        },
+        {
+          "x": 614,
+          "rgb": [
+            225,
+            252,
+            255
+          ]
+        },
+        {
+          "x": 618,
+          "rgb": [
+            109,
+            178,
+            175
+          ]
+        },
+        {
+          "x": 622,
+          "rgb": [
+            35,
+            30,
+            27
+          ]
+        },
+        {
+          "x": 626,
+          "rgb": [
+            75,
+            62,
+            34
+          ]
+        }
+      ]
+    },
+    {
+      "y": 456,
+      "legacy_reference_point": [
+        598,
+        456
+      ],
+      "samples": [
+        {
+          "x": 570,
+          "rgb": [
+            132,
+            103,
+            60
+          ]
+        },
+        {
+          "x": 574,
+          "rgb": [
+            134,
+            110,
+            68
+          ]
+        },
+        {
+          "x": 578,
+          "rgb": [
+            127,
+            108,
+            69
+          ]
+        },
+        {
+          "x": 582,
+          "rgb": [
+            116,
+            102,
+            68
+          ]
+        },
+        {
+          "x": 586,
+          "rgb": [
+            88,
+            83,
+            58
+          ]
+        },
+        {
+          "x": 590,
+          "rgb": [
+            62,
+            63,
+            45
+          ]
+        },
+        {
+          "x": 594,
+          "rgb": [
+            40,
+            42,
+            28
+          ]
+        },
+        {
+          "x": 598,
+          "rgb": [
+            30,
+            33,
+            25
+          ]
+        },
+        {
+          "x": 602,
+          "rgb": [
+            11,
+            19,
+            10
+          ]
+        },
+        {
+          "x": 606,
+          "rgb": [
+            8,
+            18,
+            17
+          ]
+        },
+        {
+          "x": 610,
+          "rgb": [
+            169,
+            224,
+            217
+          ]
+        },
+        {
+          "x": 614,
+          "rgb": [
+            218,
+            251,
+            251
+          ]
+        },
+        {
+          "x": 618,
+          "rgb": [
+            109,
+            171,
+            171
+          ]
+        },
+        {
+          "x": 622,
+          "rgb": [
+            8,
+            15,
+            8
+          ]
+        },
+        {
+          "x": 626,
+          "rgb": [
+            117,
+            103,
+            72
+          ]
+        }
+      ]
+    }
+  ],
+  "interpretation": "continuous darkening toward the recess; these legacy points do not establish a physical silhouette edge",
+  "limitations": [
+    "gradient alone cannot prove surface continuity or reconstruct hidden geometry",
+    "reference lighting and materials are unknown",
+    "retain original 35-point distances and failed threshold"
+  ]
+}

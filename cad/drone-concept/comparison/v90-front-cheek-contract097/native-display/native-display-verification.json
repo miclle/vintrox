@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v90-front-cheek-contract-0p970",
+      "model": "/private/tmp/vintrox-v90/cheek-0p970/candidate.FCStd",
+      "fcstd_sha256": "683db33fd874afa4f5b0eeb06294ac7abde447f6f3729ef64629c7582b66c5f9",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "683db33fd874afa4f5b0eeb06294ac7abde447f6f3729ef64629c7582b66c5f9",
+      "palette_contract_sha256": "e3081ebc997dcc2bf75afb9187269b9f0a7446061fcc9746741b871e0b3e80c9",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v90-front-cheek-contract-0p970-isometric.png",
+          "sha256": "fc362ed54337f488e619941bc39f069346ce28c401b7c43620315e993d828eda"
+        },
+        {
+          "view": "front",
+          "path": "v90-front-cheek-contract-0p970-front.png",
+          "sha256": "9659ab2be8f5ee45573b9d509adeafb8ca9179c0534dcfdfbd10bf1b420bde06"
+        },
+        {
+          "view": "rear",
+          "path": "v90-front-cheek-contract-0p970-rear.png",
+          "sha256": "f1c6630a19146f49c9601cdba20bf0761201b94703a75fb6aee09bdf88bfe2c6"
+        },
+        {
+          "view": "right",
+          "path": "v90-front-cheek-contract-0p970-right.png",
+          "sha256": "f7aa44cfcbfc0c76df26693c9b61dcedfb1cc4027d469c0c01da02e98fb74736"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

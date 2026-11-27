@@ -1,0 +1,58 @@
+{
+  "baseline": "cad/drone-concept/comparison/v90-front-cheek-contract097/video-comparison/comparison-report.json",
+  "baseline_mean_silhouette_iou": 0.8558303431358816,
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "registration": "camera projection only; no image warp, stretch or per-part alignment",
+  "candidates": [
+    {
+      "report": "video-comparison/comparison-report.json",
+      "mean_silhouette_iou": 0.8556996236564054,
+      "delta_mean": -0.00013071947947618234,
+      "improved_views": 1,
+      "regressed_views": 9,
+      "delta_by_view": [
+        {
+          "view": "video-00",
+          "delta": -0.00014615588299737858
+        },
+        {
+          "view": "video-01",
+          "delta": 0.00019612722159378926
+        },
+        {
+          "view": "video-02",
+          "delta": -4.965027312642256e-05
+        },
+        {
+          "view": "video-03",
+          "delta": -9.424023143378424e-05
+        },
+        {
+          "view": "video-04",
+          "delta": -0.00040020248203498365
+        },
+        {
+          "view": "video-05",
+          "delta": -0.0001505053981971649
+        },
+        {
+          "view": "video-06",
+          "delta": -7.891940596538305e-05
+        },
+        {
+          "view": "video-07",
+          "delta": -9.788607471949984e-05
+        },
+        {
+          "view": "video-08",
+          "delta": -0.00012387539682778836
+        },
+        {
+          "view": "video-09",
+          "delta": -0.00036188687105154216
+        }
+      ]
+    }
+  ],
+  "interpretation": "screen-space diagnostic; candidate promotion requires geometry/readback and visual review"
+}

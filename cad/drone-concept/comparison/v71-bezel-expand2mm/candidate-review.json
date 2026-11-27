@@ -1,0 +1,126 @@
+{
+  "revision": "v71-bezel-expand2mm",
+  "status": "not-adopted; formal-v61-and-study-v69-retained",
+  "baseline_revision": "v69-underbody-loop-radius2p2",
+  "fcstd_sha256": "b5b1a06de34c04eeb4c4336f9833635cb7fa83fe1acb97dda854b337cac381d8",
+  "comparisons": {
+    "video-comparison": {
+      "candidate_mean_iou": 0.855512382271748,
+      "baseline_mean_iou": 0.8555332009171318,
+      "delta_percentage_points": -0.002081864538383549,
+      "views": [
+        {
+          "view": "video-00",
+          "candidate_iou": 0.8740102089174993,
+          "baseline_iou": 0.8737248836985229,
+          "delta_percentage_points": 0.02853252189763955
+        },
+        {
+          "view": "video-01",
+          "candidate_iou": 0.8610775168229858,
+          "baseline_iou": 0.8607734837783811,
+          "delta_percentage_points": 0.030403304460469016
+        },
+        {
+          "view": "video-02",
+          "candidate_iou": 0.848236978750711,
+          "baseline_iou": 0.847902666681625,
+          "delta_percentage_points": 0.03343120690860735
+        },
+        {
+          "view": "video-03",
+          "candidate_iou": 0.8316117950186086,
+          "baseline_iou": 0.8313541368451188,
+          "delta_percentage_points": 0.025765817348977205
+        },
+        {
+          "view": "video-04",
+          "candidate_iou": 0.8280701984625631,
+          "baseline_iou": 0.8280701984625631,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-05",
+          "candidate_iou": 0.8154499645318917,
+          "baseline_iou": 0.8151927854193574,
+          "delta_percentage_points": 0.025717911253431147
+        },
+        {
+          "view": "video-06",
+          "candidate_iou": 0.8377546542082537,
+          "baseline_iou": 0.838026392255248,
+          "delta_percentage_points": -0.02717380469943187
+        },
+        {
+          "view": "video-07",
+          "candidate_iou": 0.885429812294644,
+          "baseline_iou": 0.8853494673334831,
+          "delta_percentage_points": 0.008034496116093859
+        },
+        {
+          "view": "video-08",
+          "candidate_iou": 0.8930392916887674,
+          "baseline_iou": 0.8944945926754635,
+          "delta_percentage_points": -0.14553009866961064
+        },
+        {
+          "view": "video-09",
+          "candidate_iou": 0.8804434020215558,
+          "baseline_iou": 0.8804434020215558,
+          "delta_percentage_points": 0.0
+        }
+      ]
+    },
+    "stills-comparison": {
+      "candidate_mean_iou": 0.8218417738687797,
+      "baseline_mean_iou": 0.8225961961828953,
+      "delta_percentage_points": -0.07544223141155992,
+      "views": [
+        {
+          "view": "still-01",
+          "candidate_iou": 0.8637757833697832,
+          "baseline_iou": 0.8652161858748563,
+          "delta_percentage_points": -0.14404025050730462
+        },
+        {
+          "view": "still-02",
+          "candidate_iou": 0.8690100973790464,
+          "baseline_iou": 0.8696146654586812,
+          "delta_percentage_points": -0.060456807963471526
+        },
+        {
+          "view": "still-03",
+          "candidate_iou": 0.8476079376806522,
+          "baseline_iou": 0.8487768274887965,
+          "delta_percentage_points": -0.11688898081442245
+        },
+        {
+          "view": "still-04",
+          "candidate_iou": 0.7834087096469222,
+          "baseline_iou": 0.7835964989444053,
+          "delta_percentage_points": -0.018778929748308748
+        },
+        {
+          "view": "still-05",
+          "candidate_iou": 0.7783563222907743,
+          "baseline_iou": 0.7795997095795026,
+          "delta_percentage_points": -0.12433872887283037
+        },
+        {
+          "view": "still-06",
+          "candidate_iou": 0.7406053081004133,
+          "baseline_iou": 0.7408007242503304,
+          "delta_percentage_points": -0.019541614991713807
+        },
+        {
+          "view": "still-closeup",
+          "candidate_iou": 0.8701282586138657,
+          "baseline_iou": 0.8705687616836939,
+          "delta_percentage_points": -0.04405030698282353
+        }
+      ]
+    }
+  },
+  "native_gui_visual_check": "not completed; computer-use could not read FreeCAD window",
+  "remaining_goal": "whole major-part contours within 5 percent and whole silhouette IoU 90 percent not achieved"
+}

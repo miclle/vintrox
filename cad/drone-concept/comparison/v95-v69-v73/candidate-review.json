@@ -1,0 +1,24 @@
+{
+  "revision": "v95-v69-v73-combined-appearance-baseline",
+  "status": "adopted as current appearance entry; formal physical acceptance remains open",
+  "baseline_revision": "v61-nozzle-fairing-depth3",
+  "decision": "adopted-current-entry",
+  "changed_objects": [
+    "UnderbodyLoop0",
+    "UnderbodyLoop1",
+    "PixelMouth",
+    "PixelSmileHighlight"
+  ],
+  "video_mean_silhouette_iou": 0.8555332009171318,
+  "stills_mean_silhouette_iou": 0.8225961961828953,
+  "formal_v61_video_mean_silhouette_iou": 0.8549201687353198,
+  "formal_v61_stills_mean_silhouette_iou": 0.8222681557450596,
+  "registration": "fixed calibrated camera projection only; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "fcstd_sha256": "ed7175189e0827f9eee6851f97a91c8bf51d31cef157e98d7652caf817672508",
+  "step_sha256": "606991e6a36f44f0322cc7b3dcd07c602a980279580f722213177a4f78b0c8b1",
+  "limitations": [
+    "screen is a measured flat panel; reference curved screen remains an appearance/transparent-cover assumption",
+    "whole-model target remains below 90% IoU; not a claim of exact reconstruction",
+    "no manufacturing, print, assembly, optical, acoustic, thermal, electrical, or physical acceptance"
+  ]
+}

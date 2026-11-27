@@ -1,0 +1,128 @@
+{
+  "baseline_fcstd_sha256": "0de6b5a2a50ba841fa3828f057aedabced66f18e9390eaba620165825631735d",
+  "baseline_video_iou": 0.8439018562015554,
+  "baseline_side_outer_rms_px": 2.6522550466464567,
+  "baseline_side_outer_max_px": 5.261443652033072,
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "candidates": [
+    {
+      "candidate": "a",
+      "inset_mm": 4.0,
+      "fcstd_sha256": "8316d678413ebd23bf92cb4ec540b7873475dd5877b27d27033b9c803015bd61",
+      "mean_silhouette_iou": 0.8457356701370606,
+      "side_outer_rms_px": 4.501571335143224,
+      "side_outer_max_px": 7.18389167563092,
+      "occluded_status_rays": 18,
+      "status_ray_count": 75,
+      "maximum_joint_gap_mm": 1.4210854715202004e-14,
+      "shaft_difference_mm3": {
+        "SupportShaftFrontLeft": 0.0,
+        "SupportShaftRearLeft": 0.0,
+        "SupportShaftFrontRight": 0.0,
+        "SupportShaftRearRight": 0.0
+      },
+      "selected": false
+    },
+    {
+      "candidate": "b",
+      "inset_mm": 8.76,
+      "fcstd_sha256": "ee5ad27c1b93751d3af46b8f2016e1d6398099cc3eb5a71c77912f104e48a6a4",
+      "mean_silhouette_iou": 0.8475427641088892,
+      "side_outer_rms_px": 7.158528638095111,
+      "side_outer_max_px": 11.52909679825118,
+      "occluded_status_rays": 30,
+      "status_ray_count": 75,
+      "maximum_joint_gap_mm": 0.0,
+      "shaft_difference_mm3": {
+        "SupportShaftFrontLeft": 0.0,
+        "SupportShaftRearLeft": 0.0,
+        "SupportShaftFrontRight": 0.0,
+        "SupportShaftRearRight": 0.0
+      },
+      "selected": false
+    },
+    {
+      "candidate": "c",
+      "inset_mm": 4.0,
+      "fcstd_sha256": "53e7077c266a8f6f52cc8f1717327e242f0e5154106d6cfc1b56cfc9231c17c2",
+      "mean_silhouette_iou": 0.8457357989776366,
+      "side_outer_rms_px": 4.501571335143224,
+      "side_outer_max_px": 7.18389167563092,
+      "occluded_status_rays": 18,
+      "status_ray_count": 75,
+      "maximum_joint_gap_mm": 1.4210854715202004e-14,
+      "shaft_difference_mm3": {
+        "SupportShaftFrontLeft": 0.0,
+        "SupportShaftRearLeft": 0.0,
+        "SupportShaftFrontRight": 0.0,
+        "SupportShaftRearRight": 0.0
+      },
+      "selected": false,
+      "still_mean_silhouette_iou": 0.8185920650820783
+    },
+    {
+      "candidate": "d",
+      "inset_mm": 4.0,
+      "fcstd_sha256": "1c4ef7a773e69c014d77dbbd4d037f10b52cd7e063edd0bb1d76e2fed340ccfb",
+      "mean_silhouette_iou": 0.8457357989776366,
+      "side_outer_rms_px": 4.501571335143224,
+      "side_outer_max_px": 7.18389167563092,
+      "occluded_status_rays": 0,
+      "status_ray_count": 75,
+      "maximum_joint_gap_mm": 1.4210854715202004e-14,
+      "shaft_difference_mm3": {
+        "SupportShaftFrontLeft": 0.0,
+        "SupportShaftRearLeft": 0.0,
+        "SupportShaftFrontRight": 0.0,
+        "SupportShaftRearRight": 0.0
+      },
+      "selected": false,
+      "still_mean_silhouette_iou": 0.8185920650820783
+    },
+    {
+      "candidate": "e",
+      "selected": true,
+      "inset_mm": 4,
+      "fcstd_sha256": "cc0338f7a2678ea51916d6ef2939268248f27eab3d5339856e55a8bf3e893911",
+      "formal_model_sha256": "646ed03b39c7454cac7166f4d80a03b07ac0b80422caac1442e5a90fbbeab66f",
+      "mean_silhouette_iou": 0.8457357989776366,
+      "still_mean_silhouette_iou": 0.8185920650820783,
+      "side_outer_rms_px": 4.501571335143224,
+      "side_outer_max_px": 7.18389167563092,
+      "occluded_status_rays": 0,
+      "status_ray_count": 75,
+      "maximum_joint_gap_mm": 2.842170943040401e-14,
+      "handle_contacts": [
+        {
+          "objects": [
+            "HandleArmLeft",
+            "SideClosureLeft"
+          ],
+          "gap_mm": 1.4210854715202004e-14,
+          "overlap_mm3": 26.538771651446503
+        },
+        {
+          "objects": [
+            "HandleArmRight",
+            "SideClosureRight"
+          ],
+          "gap_mm": 2.842170943040401e-14,
+          "overlap_mm3": 26.538857394626483
+        }
+      ],
+      "shaft_difference_mm3": {
+        "SupportShaftFrontLeft": 0.0,
+        "SupportShaftRearLeft": 0.0,
+        "SupportShaftFrontRight": 0.0,
+        "SupportShaftRearRight": 0.0
+      }
+    }
+  ],
+  "decision": "E selected: D plus retained local handle mounting faces; D failed full handle contact verification. Formal E saved/readback geometry is checked independently.",
+  "remaining_tradeoff": "Side outer-profile RMS rises from 2.65 to 4.50px; lower rear gold edge RMS remains 4.97px; improvement is partial",
+  "limitations": [
+    "silhouette scores are not detail similarity percentages",
+    "source shadows/reflections are not CAD wall boundaries",
+    "legacy unchanged wires retain recorded advanced BRep errors"
+  ]
+}

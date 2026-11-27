@@ -1,0 +1,92 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v85-front-brow-contract1p5",
+      "model": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/v85-front-brow-contract1p5/candidate.FCStd",
+      "fcstd_sha256": "651c3800cb4fba2c7a0dce028093b651e47b160ec2575550b0b7269809f9fa4e",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "651c3800cb4fba2c7a0dce028093b651e47b160ec2575550b0b7269809f9fa4e",
+      "palette_contract_sha256": "d310b2796bc3d089bb4d2b485fe017ad33894b2d33f85058a4975446c50d7fa0",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v85-front-brow-contract1p5-isometric.png",
+          "sha256": "1f26746d08f7b29fceae0f581078c60b1a6f83a45b9d8aaec6c9516a2203c530"
+        },
+        {
+          "view": "front",
+          "path": "v85-front-brow-contract1p5-front.png",
+          "sha256": "165630acdff3ba0f081cce1f84ba357c746e026d2cb828e01a5f9d38585b4057"
+        },
+        {
+          "view": "rear",
+          "path": "v85-front-brow-contract1p5-rear.png",
+          "sha256": "7d8f6de24909d78c88bfc652d5fc81350d98e1179298d0228c14eaee89501710"
+        },
+        {
+          "view": "right",
+          "path": "v85-front-brow-contract1p5-right.png",
+          "sha256": "c7232af9fe761272e780b8b86b982f67a1c672f6931ddc27b652b1f75de874a4"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    },
+    {
+      "name": "v86-front-brow-contract3",
+      "model": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/v86-front-brow-contract3/candidate.FCStd",
+      "fcstd_sha256": "237e7f0aebf1caf37b0d8deb5248322e558df923ce271561b5a74e0ba3870a14",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "237e7f0aebf1caf37b0d8deb5248322e558df923ce271561b5a74e0ba3870a14",
+      "palette_contract_sha256": "3bfb6de4096f540769e8d1a0841cce36b9babe8a5d0a56714ffd71a68612ca79",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v86-front-brow-contract3-isometric.png",
+          "sha256": "c4e0f26470740c0e018f53833eae1eda4a31ebdc4b195780b04b64eb46fa539d"
+        },
+        {
+          "view": "front",
+          "path": "v86-front-brow-contract3-front.png",
+          "sha256": "d4b8442f9777f668f89f997e4d2cdef848e2c26873c79a6863fcefb755b8c269"
+        },
+        {
+          "view": "rear",
+          "path": "v86-front-brow-contract3-rear.png",
+          "sha256": "d6eb5ea0ce5a1db517ebb22aa1cac6027293573b3dd1a427231767cd70f13311"
+        },
+        {
+          "view": "right",
+          "path": "v86-front-brow-contract3-right.png",
+          "sha256": "a7e7e12290fc69213710e62a8957b1f9651e33b9ed29ddd79cca7503b5512f94"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

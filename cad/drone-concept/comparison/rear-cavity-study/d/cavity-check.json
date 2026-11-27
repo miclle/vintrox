@@ -1,0 +1,130 @@
+{
+  "fcstd_sha256": "7af64a256f01761bac83ea169603050a8b676445ac8060cb7a3efadc28bffa86",
+  "baseline_sha256": "7cb4dc6e74b327c4cf63b326b6f57a46057ea54a43fd433615e5f75a39947d5c",
+  "parts": {
+    "RearServicePanel": {
+      "valid": true,
+      "solids": 1,
+      "closed": true
+    },
+    "RearRecessLiner": {
+      "valid": true,
+      "solids": 1,
+      "closed": true
+    },
+    "RearCyanFrame": {
+      "valid": true,
+      "solids": 1,
+      "closed": true
+    }
+  },
+  "shafts": [
+    {
+      "name": "SupportShaftFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "void_probes": [
+    {
+      "point_mm": [
+        -65.0,
+        235.0,
+        170.0
+      ],
+      "baseline_overlap_mm3": 0.9047786842338591,
+      "current_overlap_mm3": 0.0
+    },
+    {
+      "point_mm": [
+        65.0,
+        235.0,
+        170.0
+      ],
+      "baseline_overlap_mm3": 0.9047786842338591,
+      "current_overlap_mm3": 0.0
+    },
+    {
+      "point_mm": [
+        -65.0,
+        191.88,
+        90.0
+      ],
+      "baseline_overlap_mm3": 0.9047786842338599,
+      "current_overlap_mm3": 0.0
+    },
+    {
+      "point_mm": [
+        65.0,
+        191.88,
+        90.0
+      ],
+      "baseline_overlap_mm3": 0.9047786842338599,
+      "current_overlap_mm3": 0.0
+    }
+  ],
+  "wall_probes": [
+    {
+      "point_mm": [
+        -73.0,
+        232.0,
+        170.0
+      ],
+      "liner_overlap_mm3": 0.26808257310632844
+    },
+    {
+      "point_mm": [
+        73.0,
+        232.0,
+        170.0
+      ],
+      "liner_overlap_mm3": 0.26808257310632844
+    },
+    {
+      "point_mm": [
+        -73.0,
+        193.78,
+        95.0
+      ],
+      "liner_overlap_mm3": 0.2680825731063272
+    },
+    {
+      "point_mm": [
+        73.0,
+        193.78,
+        95.0
+      ],
+      "liner_overlap_mm3": 0.2680825731063272
+    }
+  ],
+  "contacts": [
+    {
+      "pair": [
+        "light",
+        "liner"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 148.58701849301548
+    },
+    {
+      "pair": [
+        "liner",
+        "panel"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 25214.41190557184
+    }
+  ],
+  "passed": true
+}

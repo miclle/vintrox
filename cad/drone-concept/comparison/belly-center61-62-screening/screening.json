@@ -1,0 +1,30 @@
+{
+  "baseline": "v229-belly-center60",
+  "baseline_video_mean_silhouette_iou": 0.859157578083332,
+  "candidates": [
+    {
+      "candidate": "v231",
+      "central_half_width_mm": 61,
+      "fcstd_sha256": "de0eb705f0dfa4179f2e4390f3ec76d7e7f701208fca926d01847ccaa446dcb0",
+      "step_sha256": "6fcf63c284436d05867bb6e3a18e5b01d71249f347a856ef5e918d9b5085d744",
+      "video_mean_silhouette_iou": 0.8591396270862152,
+      "delta_vs_v229": -1.7950997116877865e-05,
+      "decision": "retain v229"
+    },
+    {
+      "candidate": "v232",
+      "central_half_width_mm": 62,
+      "fcstd_sha256": "6db78ab6d35013b919a85b33b45bada0a5e28b5088ef2a20bbc2ab3e11bb5486",
+      "step_sha256": "3c79856cb5319749c188816b620891cf467c4c29441b4a9b79fe41ab85d2cb98",
+      "video_mean_silhouette_iou": 0.8591396270862152,
+      "delta_vs_v229": -1.7950997116877865e-05,
+      "decision": "retain v229"
+    }
+  ],
+  "method": "saved real-CAD belly center-width screening with fixed ten-video cameras",
+  "limitations": [
+    "video-only screening after candidate regressions",
+    "static and sheet comparisons not rerun",
+    "no manufacturing, fit, acoustic, thermal, electrical or physical acceptance"
+  ]
+}

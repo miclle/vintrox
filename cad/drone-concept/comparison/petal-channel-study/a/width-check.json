@@ -1,0 +1,120 @@
+{
+  "fcstd_sha256": "55e819e87138ec2e922c875d91dcca8b21cd9cddada7510840498d838712dc94",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "measurement_script_sha256": "cf26a7290c2f9c65a31a552078b5fcb65efcef33dec01bfe0f47c718eacb02a3",
+  "object_id_manifest_sha256": "e622f722a79887b671f5ec5bf0c23a55c7e5ee2550f935cab06e8c5d4cc2b38b",
+  "render_manifest_sha256": "05236c69ef3b5c5df5277a169f5975187ae358c448d06a93fd1eeff3f2a1f9a1",
+  "source_frame": 120,
+  "row_px": 590,
+  "manual_uncertainty_px": 2,
+  "observations": [
+    {
+      "petal_index": 9,
+      "reference_positions_px": [
+        417,
+        429
+      ],
+      "reference_separation_px": 12,
+      "rail_ranges_px": [
+        [
+          427,
+          427
+        ],
+        [
+          416,
+          416
+        ]
+      ],
+      "rail_centres_px": [
+        427.0,
+        416.0
+      ],
+      "both_rails_visible": true,
+      "centre_separation_px": 11.0,
+      "separation_error_px": -1.0,
+      "whole_assembly_range_px": [
+        416,
+        428
+      ],
+      "whole_assembly_span_px": 12
+    },
+    {
+      "petal_index": 8,
+      "reference_positions_px": [
+        470,
+        483
+      ],
+      "reference_separation_px": 13,
+      "rail_ranges_px": [
+        null,
+        null
+      ],
+      "rail_centres_px": [
+        null,
+        null
+      ],
+      "both_rails_visible": false,
+      "centre_separation_px": null,
+      "separation_error_px": null,
+      "whole_assembly_range_px": [
+        468,
+        482
+      ],
+      "whole_assembly_span_px": 14
+    },
+    {
+      "petal_index": 7,
+      "reference_positions_px": [
+        519,
+        530
+      ],
+      "reference_separation_px": 11,
+      "rail_ranges_px": [
+        [
+          533,
+          533
+        ],
+        [
+          522,
+          522
+        ]
+      ],
+      "rail_centres_px": [
+        533.0,
+        522.0
+      ],
+      "both_rails_visible": true,
+      "centre_separation_px": 11.0,
+      "separation_error_px": 0.0,
+      "whole_assembly_range_px": [
+        522,
+        533
+      ],
+      "whole_assembly_span_px": 11
+    }
+  ],
+  "measured_pairs_count": 2,
+  "rms_separation_error_px": 0.7071067811865476,
+  "image_path": "cad/drone-concept/comparison/petal-channel-study/a/width-check.png",
+  "image_sha256": "e549fca08cc2ae704fa90a3f50a9c8b9c8d745f73fecd418d66ae201e72a6a56",
+  "source_files": [
+    {
+      "path": "cad/drone-concept/comparison/petal-channel-study/a/video/reference-frames/frame-05.png",
+      "sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb"
+    },
+    {
+      "path": "cad/drone-concept/comparison/petal-channel-study/a/video-renders/video-04.png",
+      "sha256": "47bcc21f18c325832b21af4fe560aff55767d45100725dfe0fabb21303341254"
+    },
+    {
+      "path": "cad/drone-concept/comparison/petal-channel-study/a/ids/video-04.png",
+      "sha256": "4ca7a6e9843096e7f6ed3852eaba2ee0b643085a5d9c31173cfcb06f46b2f393"
+    }
+  ],
+  "limitations": [
+    "three central guide pairs only",
+    "reference bright positions may be edges rather than rail centres",
+    "object-ID visibility is approximate at antialiased pixels",
+    "not a complete nozzle acceptance test"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "fcstd_sha256": "75d4da854d31958c64d134646cfe23ac0055889fc74657795b8965b661eed253",
+  "step_sha256": "9f53872248f7b48ec2875c039baa323de949dae5f15eed738ee8b8d22a3d513d",
+  "baseline_fcstd_sha256": "ce7d19415b904d6439a4573aa44fc98015b5d87c59bcce284b7dabffba628c22",
+  "angle_degrees": 2.5,
+  "video": {
+    "candidate_mean_iou": 0.8570830202211441,
+    "baseline_mean_iou": 0.8559482002046458,
+    "delta_percentage_points": 0.11348200164983391,
+    "views": [
+      {
+        "view": "video-00",
+        "iou": 0.8743595775502371,
+        "baseline_iou": 0.8737643713685251
+      },
+      {
+        "view": "video-01",
+        "iou": 0.8601761768881437,
+        "baseline_iou": 0.8600794483754839
+      },
+      {
+        "view": "video-02",
+        "iou": 0.8489382810694416,
+        "baseline_iou": 0.8493412856345587
+      },
+      {
+        "view": "video-03",
+        "iou": 0.833703918396304,
+        "baseline_iou": 0.8328186294967032
+      },
+      {
+        "view": "video-04",
+        "iou": 0.8341993355700934,
+        "baseline_iou": 0.8282006267535152
+      },
+      {
+        "view": "video-05",
+        "iou": 0.8166434356538796,
+        "baseline_iou": 0.8153533259118888
+      },
+      {
+        "view": "video-06",
+        "iou": 0.8376031695504877,
+        "baseline_iou": 0.8378447511425389
+      },
+      {
+        "view": "video-07",
+        "iou": 0.8884941475302921,
+        "baseline_iou": 0.8885413152010431
+      },
+      {
+        "view": "video-08",
+        "iou": 0.8968021129309216,
+        "baseline_iou": 0.8950363692244647
+      },
+      {
+        "view": "video-09",
+        "iou": 0.8799100470716411,
+        "baseline_iou": 0.8785018789377366
+      }
+    ]
+  },
+  "still": {
+    "candidate_mean_iou": 0.8244514376599931,
+    "baseline_mean_iou": 0.8236551087597966,
+    "delta_percentage_points": 0.07963289001964302,
+    "views": [
+      {
+        "view": "still-01",
+        "iou": 0.8660638205769643,
+        "baseline_iou": 0.8657273320880666
+      },
+      {
+        "view": "still-02",
+        "iou": 0.8724763130693406,
+        "baseline_iou": 0.8709600602410931
+      },
+      {
+        "view": "still-03",
+        "iou": 0.8467008141253878,
+        "baseline_iou": 0.8482116372379124
+      },
+      {
+        "view": "still-04",
+        "iou": 0.7855288938368797,
+        "baseline_iou": 0.7848789660364215
+      },
+      {
+        "view": "still-05",
+        "iou": 0.7835563161854314,
+        "baseline_iou": 0.7823660420125985
+      },
+      {
+        "view": "still-06",
+        "iou": 0.7439777385887365,
+        "baseline_iou": 0.7420937355115577
+      },
+      {
+        "view": "still-closeup",
+        "iou": 0.87285616723721,
+        "baseline_iou": 0.8713479881909262
+      }
+    ]
+  }
+}

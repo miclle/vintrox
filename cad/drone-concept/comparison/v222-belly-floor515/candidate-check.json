@@ -1,0 +1,204 @@
+{
+  "revision": "v222-belly-floor515",
+  "status": "saved-CAD screening candidate",
+  "baseline_fcstd_sha256": "aedd1fc5039265123f71b43faab01939faa4dc2fd84ee0955efee7c3b9aaab1b",
+  "fcstd_sha256": "2f5b3ed2c72c72dc69fae50b0bca8c349589186283dd9e67d403b8e991305218",
+  "step_sha256": "7509849092bd794072bb911ba026ec9fb3c430f9c3f48b2e5c1225a4577b9392",
+  "floor_z_mm": 51.5,
+  "central_half_width_mm": 32,
+  "changed_objects": [
+    "BellyServiceBoltLeft0",
+    "BellyServiceBoltLeft1",
+    "BellyServiceBoltRight0",
+    "BellyServiceBoltRight1",
+    "BellyServicePlateLeft",
+    "BellyServicePlateRight",
+    "ClosedBellyPan"
+  ],
+  "preserved_count": 691,
+  "support_checks": [
+    {
+      "name": "CentralSupportSeat",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketRearRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootRearRight",
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "contacts": [
+    {
+      "name": "CentralSupportSeat",
+      "gap_mm": 0.0,
+      "overlap_mm3": 10575.669657510814
+    },
+    {
+      "name": "BottomChassis",
+      "gap_mm": 0.0,
+      "overlap_mm3": 131325.67630673992
+    },
+    {
+      "name": "MainEnclosureShell",
+      "gap_mm": 0.0,
+      "overlap_mm3": 75924.82127718121
+    },
+    {
+      "name": "UnderbodyLoop0",
+      "gap_mm": 7.105427357601002e-15,
+      "overlap_mm3": 433.3049283831663
+    },
+    {
+      "name": "UnderbodyLoop1",
+      "gap_mm": 0.0,
+      "overlap_mm3": 433.3050213712466
+    }
+  ],
+  "central_strip_symmetric_difference_mm3": 0.0,
+  "parts": {
+    "ClosedBellyPan": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 306592.409554,
+      "bbox": [
+        -90.72,
+        90.72,
+        25.0,
+        215.0,
+        34.08,
+        59.28
+      ]
+    },
+    "BellyServicePlateLeft": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 4691.105112,
+      "bbox": [
+        -100.8,
+        -73.92,
+        68.0,
+        127.0,
+        64.6,
+        67.6
+      ]
+    },
+    "BellyServiceBoltLeft0": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 27.8649,
+      "bbox": [
+        -89.544,
+        -85.176,
+        71.4,
+        76.6,
+        62.8,
+        64.6
+      ]
+    },
+    "BellyServiceBoltLeft1": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 27.8649,
+      "bbox": [
+        -89.544,
+        -85.176,
+        118.4,
+        123.6,
+        62.8,
+        64.6
+      ]
+    },
+    "BellyServicePlateRight": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 4691.105112,
+      "bbox": [
+        73.92,
+        100.8,
+        68.0,
+        127.0,
+        64.6,
+        67.6
+      ]
+    },
+    "BellyServiceBoltRight0": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 27.8649,
+      "bbox": [
+        85.176,
+        89.544,
+        71.4,
+        76.6,
+        62.8,
+        64.6
+      ]
+    },
+    "BellyServiceBoltRight1": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_mm3": 27.8649,
+      "bbox": [
+        85.176,
+        89.544,
+        118.4,
+        123.6,
+        62.8,
+        64.6
+      ]
+    }
+  },
+  "source_sha256": "7872819fa07be4efef78b1bcc1f37e0a83f45066e67042ae62365da4940f1e30",
+  "script_sha256": "51a5de260d4d05ffc97dae18bc6f72543d28feefa8d66fb2695e86a43f11ef83",
+  "final_display_model_sha256": "2f5b3ed2c72c72dc69fae50b0bca8c349589186283dd9e67d403b8e991305218"
+}

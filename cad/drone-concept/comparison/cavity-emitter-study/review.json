@@ -1,0 +1,28 @@
+{
+  "baseline": "v34",
+  "formal_version": "v35",
+  "candidates": [
+    {
+      "variant": "single",
+      "fcstd_sha256": "92ed7240ffca87923cca10b3595bb9cb7f9beb5c9c3dbaef98d44c2a10f63318",
+      "added_objects": 9,
+      "status": "diagnostic: reflector alone produces a second dim trace; upper clamp gap remains",
+      "mean_silhouette_iou": 0.8439018562015554
+    },
+    {
+      "variant": "dual",
+      "fcstd_sha256": "61f54affac9a4da49c4eca12e81b5d866b7a1c5b580718e52d8e7a23f27aae22",
+      "added_objects": 11,
+      "status": "not adopted: second physical emitter lacks source evidence and adds nozzle interference",
+      "mean_silhouette_iou": 0.8439018562015554
+    },
+    {
+      "variant": "curved",
+      "fcstd_sha256": "02a72e093cd97e5de9a615013e89432b86d77bde6574b5c0f7d5ca292436de4e",
+      "added_objects": 11,
+      "status": "adopted as formal v35 with separate closed light corners and nozzle clearance",
+      "mean_silhouette_iou": 0.8439018562015554
+    }
+  ],
+  "interpretation": "single primary rail with reflected inner trace preferred; reflection is plausible, not proven source construction"
+}

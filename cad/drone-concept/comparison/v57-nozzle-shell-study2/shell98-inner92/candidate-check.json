@@ -1,0 +1,3624 @@
+{
+  "candidate": "v57 nozzle shell shadow study",
+  "baseline_fcstd_sha256": "d98aa0207c5808585b42ed53fee95bcb5486438582275a7a6183c3912e5c5977",
+  "fcstd_sha256": "bc3348be5749c5425325ed97a59674aaea98bb7c37fced2a0056a4ff0e145e5f",
+  "shell_target_radial_scale": 0.98,
+  "inner_target_radial_scale": 0.92,
+  "changed_objects": [
+    "BassNozzleShell",
+    "BassDustCap",
+    "BassInnerThroat",
+    "BassVisualCone",
+    "NozzlePetal0",
+    "NozzlePetalInset0",
+    "NozzlePetalRidge0",
+    "NozzlePetalEndHem0",
+    "NozzlePetalEdgeRail0_1",
+    "NozzlePetalEdgeRail0_20",
+    "NozzlePetalGuide0_0",
+    "NozzlePetalGuide0_1",
+    "NozzlePetal1",
+    "NozzlePetalInset1",
+    "NozzlePetalRidge1",
+    "NozzlePetalEndHem1",
+    "NozzlePetalEdgeRail1_24",
+    "NozzlePetalEdgeRail1_43",
+    "NozzlePetalGuide1_0",
+    "NozzlePetalGuide1_1",
+    "NozzlePetal2",
+    "NozzlePetalInset2",
+    "NozzlePetalRidge2",
+    "NozzlePetalEndHem2",
+    "NozzlePetalEdgeRail2_46",
+    "NozzlePetalEdgeRail2_65",
+    "NozzlePetalGuide2_0",
+    "NozzlePetalGuide2_1",
+    "NozzlePetal3",
+    "NozzlePetalInset3",
+    "NozzlePetalRidge3",
+    "NozzlePetalEndHem3",
+    "NozzlePetalEdgeRail3_69",
+    "NozzlePetalEdgeRail3_88",
+    "NozzlePetalGuide3_0",
+    "NozzlePetalGuide3_1",
+    "NozzlePetal4",
+    "NozzlePetalInset4",
+    "NozzlePetalRidge4",
+    "NozzlePetalEndHem4",
+    "NozzlePetalEdgeRail4_91",
+    "NozzlePetalEdgeRail4_110",
+    "NozzlePetalGuide4_0",
+    "NozzlePetalGuide4_1",
+    "NozzlePetal5",
+    "NozzlePetalInset5",
+    "NozzlePetalRidge5",
+    "NozzlePetalEndHem5",
+    "NozzlePetalEdgeRail5_114",
+    "NozzlePetalEdgeRail5_133",
+    "NozzlePetalGuide5_0",
+    "NozzlePetalGuide5_1",
+    "NozzlePetal6",
+    "NozzlePetalInset6",
+    "NozzlePetalRidge6",
+    "NozzlePetalEndHem6",
+    "NozzlePetalEdgeRail6_136",
+    "NozzlePetalEdgeRail6_155",
+    "NozzlePetalGuide6_0",
+    "NozzlePetalGuide6_1",
+    "NozzlePetal7",
+    "NozzlePetalInset7",
+    "NozzlePetalRidge7",
+    "NozzlePetalEndHem7",
+    "NozzlePetalEdgeRail7_159",
+    "NozzlePetalEdgeRail7_178",
+    "NozzlePetalGuide7_0",
+    "NozzlePetalGuide7_1",
+    "NozzlePetal8",
+    "NozzlePetalInset8",
+    "NozzlePetalRidge8",
+    "NozzlePetalEndHem8",
+    "NozzlePetalEdgeRail8_181",
+    "NozzlePetalEdgeRail8_200",
+    "NozzlePetalGuide8_0",
+    "NozzlePetalGuide8_1",
+    "NozzlePetal9",
+    "NozzlePetalInset9",
+    "NozzlePetalRidge9",
+    "NozzlePetalEndHem9",
+    "NozzlePetalEdgeRail9_204",
+    "NozzlePetalEdgeRail9_223",
+    "NozzlePetalGuide9_0",
+    "NozzlePetalGuide9_1",
+    "NozzlePetal10",
+    "NozzlePetalInset10",
+    "NozzlePetalRidge10",
+    "NozzlePetalEndHem10",
+    "NozzlePetalEdgeRail10_226",
+    "NozzlePetalEdgeRail10_245",
+    "NozzlePetalGuide10_0",
+    "NozzlePetalGuide10_1",
+    "NozzlePetal11",
+    "NozzlePetalInset11",
+    "NozzlePetalRidge11",
+    "NozzlePetalEndHem11",
+    "NozzlePetalEdgeRail11_249",
+    "NozzlePetalEdgeRail11_268",
+    "NozzlePetalGuide11_0",
+    "NozzlePetalGuide11_1"
+  ],
+  "changed_object_count": 100,
+  "readback_checks": [
+    {
+      "name": "MainEnclosureShell",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SlopedUpperArmour",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RoofSideClosure_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RoofSideClosure_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearUpperClosure",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BottomChassis",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ClosedBellyPan",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearServicePanel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearStructuralFrame",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ProjectingBrow",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodShoulderCrownLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodShoulderPlateLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodShoulderSlotLinerLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodShoulderBoltLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodTopInsetLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodShoulderCrownRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodShoulderPlateRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodShoulderSlotLinerRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodShoulderBoltRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodTopInsetRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BrowUnderside",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodEdge",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ScreenBezel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BezelLip",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ScreenPanel210x160x2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ActiveArea200x150",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "PixelEye_39",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "PixelEyeTop_39",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "PixelEye27",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "PixelEyeTop27",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "PixelMouth",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "PixelSmileHighlight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ScreenCurvedCover",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ControlRail",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ControlInset",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ControlRailLip",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ControlKeyBed",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ControlRailEndLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ControlEndBoltLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ControlRailEndRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ControlEndBoltRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KeySocket0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RedKey0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KeyGlyph0",
+      "valid": true,
+      "solids": 5
+    },
+    {
+      "name": "KeySocket1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RedKey1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KeyGlyph1",
+      "valid": true,
+      "solids": 2
+    },
+    {
+      "name": "KeySocket2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RedKey2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KeyGlyph2",
+      "valid": true,
+      "solids": 5
+    },
+    {
+      "name": "KeySocket3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RedKey3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KeyGlyph3",
+      "valid": true,
+      "solids": 2
+    },
+    {
+      "name": "StatusKeyFrame",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "StatusKeyLens",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KnobBase0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KnobRing0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ControlKnob0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KnobFace0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KnobFlute0",
+      "valid": true,
+      "solids": 24
+    },
+    {
+      "name": "KnobPointer0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KnobBase1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KnobRing1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ControlKnob1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KnobFace1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KnobFlute1",
+      "valid": true,
+      "solids": 24
+    },
+    {
+      "name": "KnobPointer1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KnobBase2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KnobRing2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ControlKnob2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KnobFace2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KnobFlute2",
+      "valid": true,
+      "solids": 24
+    },
+    {
+      "name": "KnobPointer2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideClosureLeft",
+      "valid": true,
+      "solids": 2
+    },
+    {
+      "name": "SideMechanicalBackingLeft",
+      "valid": true,
+      "solids": 4
+    },
+    {
+      "name": "SideGuardLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideFrameShoeLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideFrameBoltLeft0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideFrameBoltLeft1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideFrameBoltLeft2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideFrameBoltLeft3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CyanSideTubeLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerBarrelLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerScallopCollarLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerRearSealLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "PerforatedSpeakerFlangeLeft",
+      "valid": true,
+      "solids": 2
+    },
+    {
+      "name": "SpeakerBridgeWireLeft0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerBridgeWireLeft1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerVisualConeLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerOuterLipLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerLipTrimLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerSurroundLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerCentreLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerHubNeckLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerRetainerLeft0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerRetainerLeft1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerRetainerLeft2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerRetainerLeft3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerRetainerLeft4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerRetainerLeft5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingEdgeLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingRaisedFaceLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingPaintLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingFoldFacetLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingInnerPaintLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingSpineLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingHubSeatLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingStripeLeft0",
+      "valid": true,
+      "solids": 4
+    },
+    {
+      "name": "WingStripeLeft1",
+      "valid": true,
+      "solids": 4
+    },
+    {
+      "name": "WingHubMarkLeft",
+      "valid": true,
+      "solids": 5
+    },
+    {
+      "name": "HandleArmLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HandleInsetLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HandleMarkLeft0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HandleMarkLeft1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HandleMarkLeft2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HandleGripCuffLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "VisibleWireLeft105",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "VisibleWireLeft218",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "VisibleWireLeft230",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideClosureRight",
+      "valid": true,
+      "solids": 2
+    },
+    {
+      "name": "SideMechanicalBackingRight",
+      "valid": true,
+      "solids": 4
+    },
+    {
+      "name": "SideGuardRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideFrameShoeRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideFrameBoltRight0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideFrameBoltRight1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideFrameBoltRight2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideFrameBoltRight3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CyanSideTubeRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerBarrelRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerScallopCollarRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerRearSealRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "PerforatedSpeakerFlangeRight",
+      "valid": true,
+      "solids": 2
+    },
+    {
+      "name": "SpeakerBridgeWireRight0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerBridgeWireRight1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerVisualConeRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerOuterLipRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerLipTrimRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerSurroundRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerCentreRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerHubNeckRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerRetainerRight0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerRetainerRight1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerRetainerRight2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerRetainerRight3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerRetainerRight4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SpeakerRetainerRight5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingEdgeRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingRaisedFaceRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingPaintRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingFoldFacetRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingInnerPaintRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingSpineRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingHubSeatRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WingHubMarkRight",
+      "valid": true,
+      "solids": 5
+    },
+    {
+      "name": "HandleArmRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HandleInsetRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HandleMarkRight0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HandleMarkRight1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HandleMarkRight2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HandleGripCuffRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "VisibleWireRight105",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "VisibleWireRight218",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "VisibleWireRight230",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HandleGrip",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "GripBand0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "GripBand1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "GripBand2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "GripBand3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "GripBand4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "GripBand5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "GripBand6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "GripBand7",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "GripBand8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "GripBand9",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopSlotTrim",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RoofAccessPanel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RoofAccessBolt0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RoofAccessBolt1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RoofAccessBolt2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RoofAccessBolt3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RoofRaisedRib0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RoofRaisedRib1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopInstrumentPanel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "InstrumentRim",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "InstrumentMount",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterGrid0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterGrid1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterGrid2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterGrid3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterGrid4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterGrid5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterGrid6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterGrid7",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterGrid8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterGrid9",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterGrid10",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterGrid11",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterGrid12",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterRule0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterRule1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterRule2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterTrace0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterTrace1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterTick0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterTick1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterTick2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterTick3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterTick4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterTick5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterTick6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TopMeterLatch",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin7",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin9",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin10",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin11",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin12",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin13",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingFin14",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCoolingCore",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCyanFrame",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRecessLiner",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRecessWire_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRecessCornerBoss_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRecessWire_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRecessCornerBoss_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearArmourCheekLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearArmourCheekRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailAntennaSlot_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailAntennaSlot_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailCarrier",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailVent0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailVent1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailVent2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailVent3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailVent4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailVent5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailVent6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearPortRail",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailBezel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRedInsert",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailIndex",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailLatch",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailStatusBase_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailStatusLens_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailStatusIndex_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailStatusBase_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailStatusLens_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearRailStatusIndex_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearBeaconBase_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearBeacon_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearBeaconBand_1_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearBeaconBand_1_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearBeaconBand_1_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearBeaconLens_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearBeaconBase_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearBeacon_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearBeaconBand_1_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearBeaconBand_1_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearBeaconBand_1_003",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearBeaconLens_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassNozzleShell",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassNozzleRearCollar",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassChamberBackplate",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassNozzleMouthRing",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassNozzleRolledLip",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzleRootClamp0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzleRootClamp1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzleRootClamp2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzleRootClamp3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzleRootClamp4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzleRootClamp5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassSpeakerGasket",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassVisualCone",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassDustCap",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassInnerThroat",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetal0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalInset0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail0_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail0_20",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEndHem0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalRidge0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide0_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide0_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalHinge0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetal1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalInset1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail1_24",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail1_43",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEndHem1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalRidge1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide1_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide1_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalHinge1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetal2",
+      "valid": true,
+      "solids": 3
+    },
+    {
+      "name": "NozzlePetalInset2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail2_46",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail2_65",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEndHem2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalRidge2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide2_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide2_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalHinge2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetal3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalInset3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail3_69",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail3_88",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEndHem3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalRidge3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide3_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide3_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalHinge3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetal4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalInset4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail4_91",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail4_110",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEndHem4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalRidge4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide4_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide4_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalHinge4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetal5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalInset5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail5_114",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail5_133",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEndHem5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalRidge5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide5_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide5_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalHinge5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetal6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalInset6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail6_136",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail6_155",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEndHem6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalRidge6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide6_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide6_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalHinge6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetal7",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalInset7",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail7_159",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail7_178",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEndHem7",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalRidge7",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide7_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide7_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalHinge7",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetal8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalInset8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail8_181",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail8_200",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEndHem8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalRidge8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide8_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide8_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalHinge8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetal9",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalInset9",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail9_204",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail9_223",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEndHem9",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalRidge9",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide9_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide9_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalHinge9",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetal10",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalInset10",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail10_226",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail10_245",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEndHem10",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalRidge10",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide10_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide10_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalHinge10",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetal11",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalInset11",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail11_249",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEdgeRail11_268",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalEndHem11",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalRidge11",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide11_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalGuide11_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NozzlePetalHinge11",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassSideStripe0_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassSideStripe0_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassSideStripe0_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassSideStripe1_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassSideStripe1_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassSideStripe1_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassWarningPlaque",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassWarningRedBand",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassWarningTriangle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassWarningTriangleInset",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassNeckFastener0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassNeckFastener1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassNeckFastener2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassNeckFastener3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassNeckFastener4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassNeckFastener5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassNeckFastener6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BassNeckFastener7",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WooferMountSeat",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WooferEnvelope_D88_Depth40",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPod_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodClamp_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRim_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodDiaphragm_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_0_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_0_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_1_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_1_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_2_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_2_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_3_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_3_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_4_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_4_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_5_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_5_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_6_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_6_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_7",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_7",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_7_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_7_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_8_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_8_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_9",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_9",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_9_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_9_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_10",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_10",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_10_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_10_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_11",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_11",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_11_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_11_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_12",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_12",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_12_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_12_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_13",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_13",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_13_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_13_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_14",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_14",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_14_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_14_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_15",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_15",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_15_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_15_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_16",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_16",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_16_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_16_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_17_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_17_17",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPod_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodClamp_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRim_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodDiaphragm_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_0_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_0_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_1_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_1_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_003",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_003",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_2_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_2_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_004",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_004",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_3_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_3_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_005",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_005",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_4_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_4_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_006",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_006",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_5_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_5_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_007",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_007",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_6_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_6_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_008",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_008",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_7_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_7_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_009",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_009",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_8_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_8_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_010",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_010",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_9_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_9_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_011",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_011",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_10_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_10_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_012",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_012",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_11_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_11_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_013",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_013",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_12_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_12_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_014",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_014",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_13_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_13_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_015",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_015",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_14_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_14_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_016",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_016",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_15_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_15_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_017",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_017",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_16_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_16_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodRib_1_018",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodPetalRidge_1_018",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_17_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LowerPodEdgeRail_1_17_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UnderbodyLoop0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UnderbodyLoop1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CentralSupportSeat",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SupportShaftFrontLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SupportSocketFrontLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SupportFootFrontLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SupportSocketRearLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SupportFootRearLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SupportSocketFrontRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SupportFootFrontRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SupportSocketRearRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SupportFootRearRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BellyServicePlateLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BellyServiceBoltLeft0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BellyServiceBoltLeft1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BellyServicePlateRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BellyServiceBoltRight0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BellyServiceBoltRight1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "AntennaBase",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Antenna",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodMark_1_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodMark_1_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodMark_1_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodMark_1_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodMark_1_001",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodMark_1_002",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodMark_1_003",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "HoodMark_1_004",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CDInsertionStudy_D120",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCyanUpperLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCyanLowerRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCyanLowerLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCavityEmitterLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCavityReflectorLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCavityClipUpperLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCavityClipLowerLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCavityEmitterRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCavityReflectorRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCavityClipUpperRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearCavityClipLowerRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RearLowerSlope",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FrontCheekLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekUtilityLabelLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekUtilityRedBandLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FrontCheekBridgeLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "VentBackingLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibLeft0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibLeft1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibLeft2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibLeft3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibLeft4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibLeft5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibLeft6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibLeft7",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibLeft8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibLeft9",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekDialLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekButtonLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekArrowLeft0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekArrowLeft1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekArrowLeft2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekArrowLeft3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekPerforatedPanelLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideFrontSpineLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideFrontSpineLinerLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideSocketBaseLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideSocketLipLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideSocketRecessLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideStatusMarkLeft0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideStatusMarkLeft1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideStatusMarkLeft2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideStatusSlotLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideStatusBracketLeft",
+      "valid": true,
+      "solids": 4
+    },
+    {
+      "name": "SideStatusPlateLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityMountLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityLinerLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityBarrelLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityCollarLeft0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityCollarLeft1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityCollarLeft2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityCollarLeft3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityCapLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityCapRibLeft0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityCapRibLeft1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityCapRibLeft2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityCapRibLeft3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityIndicatorLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityFrontLensLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityControlLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityControlInsetLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilitySwitchLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilitySwitchRedLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityLEDLeft0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityLEDLeft1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityLEDLeft2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideCableLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UtilityCableBootLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideCableTopBootLeft",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FrontCheekRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekUtilityLabelRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekUtilityRedBandRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FrontCheekBridgeRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "VentBackingRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibRight0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibRight1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibRight2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibRight3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibRight4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibRight5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibRight6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibRight7",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibRight8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekVentRibRight9",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekDialRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekKnobRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CheekPerforatedPanelRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideFrontSpineRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideFrontSpineLinerRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideSocketBaseRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideSocketLipRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideSocketRecessRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideStatusMarkRight0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideStatusMarkRight1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideStatusMarkRight2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideStatusSlotRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SideStatusBracketRight",
+      "valid": true,
+      "solids": 4
+    },
+    {
+      "name": "SideStatusPlateRight",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UnderbodyHarness0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UnderbodyHarness1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UnderbodyHarness2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UnderbodyHarness3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "UnderbodyHarness4",
+      "valid": true,
+      "solids": 1
+    }
+  ],
+  "protected": [
+    {
+      "name": "RearServicePanel",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "RearStructuralFrame",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "RearArmourCheekLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "RearArmourCheekRight",
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "rear_cavity_shadow_preserved": true,
+  "interpretation": "non-cylindrical shell and separate inner nozzle are contracted in local X/Y; axial Z and cavity separation retained",
+  "status": "candidate; fixed-camera comparison pending",
+  "physical_validation": false
+}

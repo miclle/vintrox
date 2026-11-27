@@ -1,0 +1,1798 @@
+{
+  "fcstd_sha256": "e5428e04605a26859593065c652e87b288f4c316378f28b9b137e3980b8db467",
+  "script_sha256": "e66b62e51592655c3c1b0955e88f8768fe46cbfb6d46694980341bc569b4542d",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "observations": [
+    {
+      "kind": "lip",
+      "source_frame": 0,
+      "side": -1,
+      "reference_px": [
+        [
+          334,
+          711
+        ],
+        [
+          350,
+          709
+        ],
+        [
+          375,
+          716
+        ],
+        [
+          400,
+          734
+        ],
+        [
+          418,
+          753
+        ],
+        [
+          425,
+          768
+        ]
+      ],
+      "measurements": [
+        {
+          "model": "v69",
+          "fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+          "rms_px": 8.925618559330589,
+          "max_px": 12.206555615733702,
+          "distance_px": [
+            12.206555615733702,
+            11.180339887498949,
+            7.615773105863909,
+            8.48528137423857,
+            7.810249675906654,
+            3.605551275463989
+          ],
+          "max_fraction_projected_screen_width": 0.034728873189460496,
+          "visible_object_at_observation": [
+            "LowerPodRib_1_1",
+            "LowerPodRib_1_0",
+            "LowerPodRib_1_16",
+            "LowerPodRib_1_15",
+            "LowerPodRib_1_13",
+            "background"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              324,
+              704
+            ],
+            [
+              352,
+              698
+            ],
+            [
+              378,
+              709
+            ],
+            [
+              406,
+              728
+            ],
+            [
+              424,
+              748
+            ],
+            [
+              423,
+              765
+            ]
+          ]
+        },
+        {
+          "model": "v84",
+          "fcstd_sha256": "e5428e04605a26859593065c652e87b288f4c316378f28b9b137e3980b8db467",
+          "rms_px": 3.24037034920393,
+          "max_px": 4.47213595499958,
+          "distance_px": [
+            2.23606797749979,
+            1.0,
+            4.47213595499958,
+            3.605551275463989,
+            2.8284271247461903,
+            4.0
+          ],
+          "max_fraction_projected_screen_width": 0.012723674667652906,
+          "visible_object_at_observation": [
+            "LowerPodEdgeRail_1_1_2",
+            "LowerPod_1",
+            "LowerPod_1",
+            "LowerPod_1",
+            "LowerPod_1",
+            "background"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              335,
+              709
+            ],
+            [
+              350,
+              710
+            ],
+            [
+              373,
+              720
+            ],
+            [
+              397,
+              736
+            ],
+            [
+              416,
+              755
+            ],
+            [
+              421,
+              768
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lip",
+      "source_frame": 60,
+      "side": -1,
+      "reference_px": [
+        [
+          660,
+          724
+        ],
+        [
+          675,
+          704
+        ],
+        [
+          697,
+          689
+        ],
+        [
+          721,
+          682
+        ],
+        [
+          738,
+          686
+        ],
+        [
+          749,
+          697
+        ]
+      ],
+      "measurements": [
+        {
+          "model": "v69",
+          "fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+          "rms_px": 12.563173696695166,
+          "max_px": 18.867962264113206,
+          "distance_px": [
+            18.867962264113206,
+            13.892443989449804,
+            10.770329614269007,
+            10.0,
+            5.0,
+            12.529964086141668
+          ],
+          "max_fraction_projected_screen_width": 0.10591989653268225,
+          "visible_object_at_observation": [
+            "LowerPodEdgeRail_1_4_17",
+            "LowerPodRib_1_3",
+            "LowerPodEdgeRail_1_1_17",
+            "LowerPodPetalRidge_1_0",
+            "LowerPodRib_1_16",
+            "background"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              644,
+              714
+            ],
+            [
+              668,
+              692
+            ],
+            [
+              693,
+              679
+            ],
+            [
+              721,
+              672
+            ],
+            [
+              743,
+              686
+            ],
+            [
+              743,
+              686
+            ]
+          ]
+        },
+        {
+          "model": "v84",
+          "fcstd_sha256": "e5428e04605a26859593065c652e87b288f4c316378f28b9b137e3980b8db467",
+          "rms_px": 2.4152294576982403,
+          "max_px": 5.656854249492381,
+          "distance_px": [
+            5.656854249492381,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "max_fraction_projected_screen_width": 0.03175612757856329,
+          "visible_object_at_observation": [
+            "LowerPodRib_1_4",
+            "LowerPodRim_1",
+            "LowerPod_1",
+            "LowerPod_1",
+            "LowerPod_1",
+            "LowerPodRim_1"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              656,
+              720
+            ],
+            [
+              675,
+              704
+            ],
+            [
+              697,
+              690
+            ],
+            [
+              721,
+              683
+            ],
+            [
+              738,
+              685
+            ],
+            [
+              749,
+              697
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lip",
+      "source_frame": 180,
+      "side": 1,
+      "reference_px": [
+        [
+          199,
+          704
+        ],
+        [
+          205,
+          688
+        ],
+        [
+          221,
+          683
+        ],
+        [
+          241,
+          688
+        ],
+        [
+          261,
+          699
+        ],
+        [
+          280,
+          717
+        ]
+      ],
+      "measurements": [
+        {
+          "model": "v69",
+          "fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+          "rms_px": 12.909944487358056,
+          "max_px": 17.69180601295413,
+          "distance_px": [
+            16.0312195418814,
+            5.0,
+            10.0,
+            11.180339887498949,
+            13.416407864998739,
+            17.69180601295413
+          ],
+          "max_fraction_projected_screen_width": 0.10455778088267645,
+          "visible_object_at_observation": [
+            "LowerPodEdgeRail_1_11_001",
+            "LowerPodEdgeRail_1_10_001",
+            "LowerPodRib_1_009",
+            "LowerPodPetalRidge_1_008",
+            "LowerPodRib_1_007",
+            "LowerPodRib_1_005"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              200,
+              688
+            ],
+            [
+              200,
+              688
+            ],
+            [
+              221,
+              673
+            ],
+            [
+              243,
+              677
+            ],
+            [
+              267,
+              687
+            ],
+            [
+              292,
+              704
+            ]
+          ]
+        },
+        {
+          "model": "v84",
+          "fcstd_sha256": "e5428e04605a26859593065c652e87b288f4c316378f28b9b137e3980b8db467",
+          "rms_px": 2.449489742783178,
+          "max_px": 4.47213595499958,
+          "distance_px": [
+            4.47213595499958,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            3.605551275463989
+          ],
+          "max_fraction_projected_screen_width": 0.02643012312694395,
+          "visible_object_at_observation": [
+            "LowerPodPetalRidge_1_011",
+            "LowerPodRib_1_010",
+            "LowerPod_001",
+            "LowerPodRim_001",
+            "LowerPodRim_001",
+            "LowerPodEdgeRail_1_4_002"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              195,
+              702
+            ],
+            [
+              205,
+              687
+            ],
+            [
+              221,
+              684
+            ],
+            [
+              241,
+              688
+            ],
+            [
+              261,
+              700
+            ],
+            [
+              282,
+              714
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lip",
+      "source_frame": 240,
+      "side": 1,
+      "reference_px": [
+        [
+          538,
+          755
+        ],
+        [
+          559,
+          738
+        ],
+        [
+          582,
+          719
+        ],
+        [
+          606,
+          708
+        ],
+        [
+          617,
+          706
+        ]
+      ],
+      "measurements": [
+        {
+          "model": "v69",
+          "fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+          "rms_px": 15.786069808536892,
+          "max_px": 20.518284528683193,
+          "distance_px": [
+            18.35755975068582,
+            20.518284528683193,
+            16.55294535724685,
+            14.0,
+            4.242640687119285
+          ],
+          "max_fraction_projected_screen_width": 0.056934741478220016,
+          "visible_object_at_observation": [
+            "LowerPodRib_1_014",
+            "LowerPodRib_1_012",
+            "LowerPodRib_1_010",
+            "LowerPodEdgeRail_1_8_001",
+            "LowerPodEdgeRail_1_6_002"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              522,
+              764
+            ],
+            [
+              545,
+              723
+            ],
+            [
+              575,
+              704
+            ],
+            [
+              606,
+              694
+            ],
+            [
+              620,
+              703
+            ]
+          ]
+        },
+        {
+          "model": "v84",
+          "fcstd_sha256": "e5428e04605a26859593065c652e87b288f4c316378f28b9b137e3980b8db467",
+          "rms_px": 3.1304951684997055,
+          "max_px": 5.385164807134504,
+          "distance_px": [
+            4.123105625617661,
+            5.385164807134504,
+            1.4142135623730951,
+            0.0,
+            1.0
+          ],
+          "max_fraction_projected_screen_width": 0.014942914242328643,
+          "visible_object_at_observation": [
+            "LowerPodEdgeRail_1_12_002",
+            "LowerPodRib_1_012",
+            "LowerPodRib_1_010",
+            "LowerPodRim_001",
+            "LowerPodRim_001"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              534,
+              754
+            ],
+            [
+              557,
+              733
+            ],
+            [
+              581,
+              718
+            ],
+            [
+              606,
+              708
+            ],
+            [
+              617,
+              707
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "loop",
+      "source_frame": 120,
+      "side": 1,
+      "reference_px": [
+        [
+          359,
+          670
+        ],
+        [
+          364,
+          685
+        ],
+        [
+          366,
+          698
+        ],
+        [
+          362,
+          705
+        ],
+        [
+          354,
+          704
+        ],
+        [
+          349,
+          699
+        ],
+        [
+          348,
+          688
+        ],
+        [
+          350,
+          678
+        ],
+        [
+          371,
+          669
+        ],
+        [
+          375,
+          684
+        ],
+        [
+          376,
+          699
+        ],
+        [
+          372,
+          708
+        ],
+        [
+          365,
+          713
+        ],
+        [
+          354,
+          714
+        ],
+        [
+          343,
+          710
+        ],
+        [
+          338,
+          702
+        ],
+        [
+          338,
+          690
+        ]
+      ],
+      "measurements": [
+        {
+          "model": "v69",
+          "fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+          "rms_px": 27.04027497249677,
+          "max_px": 43.93176527297759,
+          "distance_px": [
+            22.0,
+            17.0,
+            15.811388300841896,
+            20.396078054371138,
+            28.160255680657446,
+            32.55764119219941,
+            33.0,
+            31.0,
+            10.0,
+            6.0,
+            6.0,
+            12.206555615733702,
+            20.808652046684813,
+            30.870698080866262,
+            40.024992192379,
+            43.93176527297759,
+            43.0
+          ],
+          "max_fraction_projected_screen_width": 0.11822258026409523,
+          "visible_object_at_observation": [
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              381,
+              670
+            ],
+            [
+              381,
+              685
+            ],
+            [
+              381,
+              693
+            ],
+            [
+              382,
+              701
+            ],
+            [
+              382,
+              701
+            ],
+            [
+              381,
+              693
+            ],
+            [
+              381,
+              688
+            ],
+            [
+              381,
+              678
+            ],
+            [
+              381,
+              669
+            ],
+            [
+              381,
+              684
+            ],
+            [
+              382,
+              699
+            ],
+            [
+              382,
+              701
+            ],
+            [
+              382,
+              701
+            ],
+            [
+              382,
+              701
+            ],
+            [
+              382,
+              701
+            ],
+            [
+              381,
+              693
+            ],
+            [
+              381,
+              690
+            ]
+          ]
+        },
+        {
+          "model": "v84",
+          "fcstd_sha256": "e5428e04605a26859593065c652e87b288f4c316378f28b9b137e3980b8db467",
+          "rms_px": 27.04027497249677,
+          "max_px": 43.93176527297759,
+          "distance_px": [
+            22.0,
+            17.0,
+            15.811388300841896,
+            20.396078054371138,
+            28.160255680657446,
+            32.55764119219941,
+            33.0,
+            31.0,
+            10.0,
+            6.0,
+            6.0,
+            12.206555615733702,
+            20.808652046684813,
+            30.870698080866262,
+            40.024992192379,
+            43.93176527297759,
+            43.0
+          ],
+          "max_fraction_projected_screen_width": 0.11822258026409523,
+          "visible_object_at_observation": [
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              381,
+              670
+            ],
+            [
+              381,
+              685
+            ],
+            [
+              381,
+              693
+            ],
+            [
+              382,
+              701
+            ],
+            [
+              382,
+              701
+            ],
+            [
+              381,
+              693
+            ],
+            [
+              381,
+              688
+            ],
+            [
+              381,
+              678
+            ],
+            [
+              381,
+              669
+            ],
+            [
+              381,
+              684
+            ],
+            [
+              382,
+              699
+            ],
+            [
+              382,
+              701
+            ],
+            [
+              382,
+              701
+            ],
+            [
+              382,
+              701
+            ],
+            [
+              382,
+              701
+            ],
+            [
+              381,
+              693
+            ],
+            [
+              381,
+              690
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "loop",
+      "source_frame": 120,
+      "side": -1,
+      "reference_px": [
+        [
+          575,
+          665
+        ],
+        [
+          569,
+          680
+        ],
+        [
+          562,
+          694
+        ],
+        [
+          558,
+          703
+        ],
+        [
+          563,
+          707
+        ],
+        [
+          573,
+          707
+        ],
+        [
+          584,
+          698
+        ],
+        [
+          587,
+          686
+        ],
+        [
+          590,
+          675
+        ],
+        [
+          598,
+          669
+        ],
+        [
+          597,
+          687
+        ],
+        [
+          593,
+          703
+        ],
+        [
+          584,
+          715
+        ],
+        [
+          571,
+          722
+        ],
+        [
+          559,
+          722
+        ],
+        [
+          549,
+          716
+        ],
+        [
+          546,
+          706
+        ],
+        [
+          548,
+          692
+        ]
+      ],
+      "measurements": [
+        {
+          "model": "v69",
+          "fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+          "rms_px": 22.97704168174059,
+          "max_px": 39.0,
+          "distance_px": [
+            16.0,
+            10.0,
+            4.0,
+            2.23606797749979,
+            8.48528137423857,
+            17.0,
+            26.0,
+            28.0,
+            31.0,
+            39.0,
+            38.0,
+            35.22782990761707,
+            30.4138126514911,
+            24.839484696748443,
+            19.4164878389476,
+            13.341664064126334,
+            6.4031242374328485,
+            0.0
+          ],
+          "max_fraction_projected_screen_width": 0.10495095295284529,
+          "visible_object_at_observation": [
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "UnderbodyLoop0"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              559,
+              665
+            ],
+            [
+              559,
+              680
+            ],
+            [
+              558,
+              694
+            ],
+            [
+              557,
+              701
+            ],
+            [
+              557,
+              701
+            ],
+            [
+              558,
+              699
+            ],
+            [
+              558,
+              698
+            ],
+            [
+              559,
+              686
+            ],
+            [
+              559,
+              675
+            ],
+            [
+              559,
+              669
+            ],
+            [
+              559,
+              687
+            ],
+            [
+              558,
+              699
+            ],
+            [
+              557,
+              701
+            ],
+            [
+              555,
+              703
+            ],
+            [
+              555,
+              703
+            ],
+            [
+              552,
+              703
+            ],
+            [
+              550,
+              701
+            ],
+            [
+              548,
+              692
+            ]
+          ]
+        },
+        {
+          "model": "v84",
+          "fcstd_sha256": "e5428e04605a26859593065c652e87b288f4c316378f28b9b137e3980b8db467",
+          "rms_px": 22.97704168174059,
+          "max_px": 39.0,
+          "distance_px": [
+            16.0,
+            10.0,
+            4.0,
+            2.23606797749979,
+            8.48528137423857,
+            17.0,
+            26.0,
+            28.0,
+            31.0,
+            39.0,
+            38.0,
+            35.22782990761707,
+            30.4138126514911,
+            24.839484696748443,
+            19.4164878389476,
+            13.341664064126334,
+            6.4031242374328485,
+            0.0
+          ],
+          "max_fraction_projected_screen_width": 0.10495095295284529,
+          "visible_object_at_observation": [
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "UnderbodyLoop0"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              559,
+              665
+            ],
+            [
+              559,
+              680
+            ],
+            [
+              558,
+              694
+            ],
+            [
+              557,
+              701
+            ],
+            [
+              557,
+              701
+            ],
+            [
+              558,
+              699
+            ],
+            [
+              558,
+              698
+            ],
+            [
+              559,
+              686
+            ],
+            [
+              559,
+              675
+            ],
+            [
+              559,
+              669
+            ],
+            [
+              559,
+              687
+            ],
+            [
+              558,
+              699
+            ],
+            [
+              557,
+              701
+            ],
+            [
+              555,
+              703
+            ],
+            [
+              555,
+              703
+            ],
+            [
+              552,
+              703
+            ],
+            [
+              550,
+              701
+            ],
+            [
+              548,
+              692
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "loop",
+      "source_frame": 180,
+      "side": 1,
+      "reference_px": [
+        [
+          311,
+          657
+        ],
+        [
+          311,
+          684
+        ],
+        [
+          322,
+          716
+        ],
+        [
+          346,
+          738
+        ],
+        [
+          375,
+          743
+        ],
+        [
+          400,
+          734
+        ],
+        [
+          417,
+          712
+        ],
+        [
+          423,
+          685
+        ],
+        [
+          423,
+          657
+        ],
+        [
+          322,
+          657
+        ],
+        [
+          322,
+          681
+        ],
+        [
+          333,
+          708
+        ],
+        [
+          354,
+          726
+        ],
+        [
+          377,
+          727
+        ],
+        [
+          395,
+          721
+        ],
+        [
+          407,
+          704
+        ],
+        [
+          412,
+          680
+        ],
+        [
+          411,
+          657
+        ]
+      ],
+      "measurements": [
+        {
+          "model": "v69",
+          "fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+          "rms_px": 11.853269591129697,
+          "max_px": 32.57299494980466,
+          "distance_px": [
+            32.57299494980466,
+            10.295630140987,
+            2.8284271247461903,
+            2.23606797749979,
+            5.0,
+            2.8284271247461903,
+            1.0,
+            2.0,
+            10.198039027185569,
+            31.016124838541646,
+            7.0710678118654755,
+            2.23606797749979,
+            3.605551275463989,
+            2.0,
+            2.8284271247461903,
+            3.605551275463989,
+            2.0,
+            12.165525060596439
+          ],
+          "max_fraction_projected_screen_width": 0.19250494077091213,
+          "visible_object_at_observation": [
+            "LowerPod_001",
+            "LowerPod_001",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "UnderbodyHarness4",
+            "RearLowerSlope",
+            "BottomChassis",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "UnderbodyHarness3",
+            "MainEnclosureShell"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              321,
+              688
+            ],
+            [
+              320,
+              689
+            ],
+            [
+              324,
+              714
+            ],
+            [
+              347,
+              736
+            ],
+            [
+              375,
+              738
+            ],
+            [
+              398,
+              732
+            ],
+            [
+              417,
+              711
+            ],
+            [
+              421,
+              685
+            ],
+            [
+              421,
+              667
+            ],
+            [
+              321,
+              688
+            ],
+            [
+              321,
+              688
+            ],
+            [
+              331,
+              709
+            ],
+            [
+              352,
+              729
+            ],
+            [
+              377,
+              729
+            ],
+            [
+              397,
+              723
+            ],
+            [
+              410,
+              706
+            ],
+            [
+              414,
+              680
+            ],
+            [
+              413,
+              669
+            ]
+          ]
+        },
+        {
+          "model": "v84",
+          "fcstd_sha256": "e5428e04605a26859593065c652e87b288f4c316378f28b9b137e3980b8db467",
+          "rms_px": 10.814085465005554,
+          "max_px": 29.410882339705484,
+          "distance_px": [
+            29.410882339705484,
+            9.055385138137417,
+            2.8284271247461903,
+            2.23606797749979,
+            5.0,
+            2.8284271247461903,
+            1.0,
+            2.0,
+            10.198039027185569,
+            28.071337695236398,
+            4.47213595499958,
+            2.23606797749979,
+            3.605551275463989,
+            2.0,
+            2.8284271247461903,
+            3.605551275463989,
+            2.0,
+            12.165525060596439
+          ],
+          "max_fraction_projected_screen_width": 0.17381699691876887,
+          "visible_object_at_observation": [
+            "LowerPod_001",
+            "LowerPod_001",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "UnderbodyHarness4",
+            "RearLowerSlope",
+            "BottomChassis",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "UnderbodyHarness3",
+            "MainEnclosureShell"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              320,
+              685
+            ],
+            [
+              320,
+              685
+            ],
+            [
+              324,
+              714
+            ],
+            [
+              347,
+              736
+            ],
+            [
+              375,
+              738
+            ],
+            [
+              398,
+              732
+            ],
+            [
+              416,
+              712
+            ],
+            [
+              421,
+              685
+            ],
+            [
+              421,
+              667
+            ],
+            [
+              320,
+              685
+            ],
+            [
+              320,
+              685
+            ],
+            [
+              331,
+              709
+            ],
+            [
+              352,
+              729
+            ],
+            [
+              377,
+              729
+            ],
+            [
+              397,
+              723
+            ],
+            [
+              410,
+              706
+            ],
+            [
+              414,
+              680
+            ],
+            [
+              413,
+              669
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "loop",
+      "source_frame": 60,
+      "side": -1,
+      "reference_px": [
+        [
+          520,
+          666
+        ],
+        [
+          509,
+          691
+        ],
+        [
+          515,
+          723
+        ],
+        [
+          538,
+          745
+        ],
+        [
+          564,
+          754
+        ],
+        [
+          594,
+          752
+        ],
+        [
+          622,
+          739
+        ],
+        [
+          644,
+          717
+        ],
+        [
+          651,
+          693
+        ],
+        [
+          533,
+          669
+        ],
+        [
+          524,
+          692
+        ],
+        [
+          532,
+          713
+        ],
+        [
+          550,
+          730
+        ],
+        [
+          571,
+          737
+        ],
+        [
+          592,
+          736
+        ],
+        [
+          614,
+          724
+        ],
+        [
+          630,
+          707
+        ],
+        [
+          637,
+          689
+        ]
+      ],
+      "measurements": [
+        {
+          "model": "v69",
+          "fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+          "rms_px": 13.654466098842695,
+          "max_px": 26.30589287593181,
+          "distance_px": [
+            10.0,
+            11.045361017187261,
+            13.892443989449804,
+            13.892443989449804,
+            16.278820596099706,
+            15.297058540778355,
+            19.79898987322333,
+            25.495097567963924,
+            26.30589287593181,
+            14.7648230602334,
+            3.0,
+            2.23606797749979,
+            3.605551275463989,
+            1.0,
+            0.0,
+            4.242640687119285,
+            8.54400374531753,
+            13.341664064126334
+          ],
+          "max_fraction_projected_screen_width": 0.14767452958701777,
+          "visible_object_at_observation": [
+            "UtilityCollarLeft3",
+            "UnderbodyLoop1",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "LowerPodPetalRidge_1_5",
+            "LowerPod_1",
+            "UtilityLinerLeft",
+            "UnderbodyLoop0",
+            "UnderbodyLoop0",
+            "UnderbodyLoop0",
+            "UnderbodyLoop0",
+            "UnderbodyLoop0",
+            "background",
+            "LowerPod_1",
+            "LowerPod_1"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              520,
+              676
+            ],
+            [
+              520,
+              690
+            ],
+            [
+              527,
+              716
+            ],
+            [
+              545,
+              733
+            ],
+            [
+              567,
+              738
+            ],
+            [
+              591,
+              737
+            ],
+            [
+              608,
+              725
+            ],
+            [
+              621,
+              706
+            ],
+            [
+              625,
+              697
+            ],
+            [
+              520,
+              676
+            ],
+            [
+              521,
+              692
+            ],
+            [
+              534,
+              712
+            ],
+            [
+              552,
+              727
+            ],
+            [
+              571,
+              738
+            ],
+            [
+              592,
+              736
+            ],
+            [
+              611,
+              721
+            ],
+            [
+              622,
+              704
+            ],
+            [
+              624,
+              692
+            ]
+          ]
+        },
+        {
+          "model": "v84",
+          "fcstd_sha256": "e5428e04605a26859593065c652e87b288f4c316378f28b9b137e3980b8db467",
+          "rms_px": 13.605554421305701,
+          "max_px": 26.019223662515376,
+          "distance_px": [
+            10.0,
+            11.045361017187261,
+            13.892443989449804,
+            13.892443989449804,
+            16.278820596099706,
+            15.297058540778355,
+            19.79898987322333,
+            25.495097567963924,
+            26.019223662515376,
+            14.7648230602334,
+            3.0,
+            2.23606797749979,
+            3.605551275463989,
+            1.0,
+            0.0,
+            4.242640687119285,
+            8.54400374531753,
+            13.0
+          ],
+          "max_fraction_projected_screen_width": 0.14606524221410808,
+          "visible_object_at_observation": [
+            "UtilityCollarLeft3",
+            "UnderbodyLoop1",
+            "background",
+            "background",
+            "background",
+            "background",
+            "background",
+            "LowerPod_1",
+            "LowerPod_1",
+            "UtilityLinerLeft",
+            "UnderbodyLoop0",
+            "UnderbodyLoop0",
+            "UnderbodyLoop0",
+            "UnderbodyLoop0",
+            "UnderbodyLoop0",
+            "background",
+            "LowerPod_1",
+            "LowerPod_1"
+          ],
+          "nearest_visible_boundary_px": [
+            [
+              520,
+              676
+            ],
+            [
+              520,
+              690
+            ],
+            [
+              527,
+              716
+            ],
+            [
+              545,
+              733
+            ],
+            [
+              567,
+              738
+            ],
+            [
+              591,
+              737
+            ],
+            [
+              608,
+              725
+            ],
+            [
+              621,
+              706
+            ],
+            [
+              625,
+              694
+            ],
+            [
+              520,
+              676
+            ],
+            [
+              521,
+              692
+            ],
+            [
+              534,
+              712
+            ],
+            [
+              552,
+              727
+            ],
+            [
+              571,
+              738
+            ],
+            [
+              592,
+              736
+            ],
+            [
+              611,
+              721
+            ],
+            [
+              622,
+              704
+            ],
+            [
+              625,
+              694
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "manual lip observations approximate band centre; compared to visible ID boundary",
+    "one-way point distance includes occlusion edges; not complete contour acceptance",
+    "all observations previously inspected; no new held-out evidence",
+    "opaque glass/edge attribution differs from photographic shading",
+    "no observations omitted and no change to primary IoU"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "baseline": "v173-front-cheek-contract",
+  "candidate": "v186-lowerpod-rib-contract",
+  "decision": "retain v173",
+  "reason": "Video and still means improve, while contact-sheet mean decreases.",
+  "comparisons": {
+    "video": {
+      "baseline_mean_iou": 0.8590092505079457,
+      "candidate_mean_iou": 0.8590399796667786,
+      "views": [
+        {
+          "view": "video-00",
+          "baseline_iou": 0.8764263887820123,
+          "candidate_iou": 0.8764885939629555
+        },
+        {
+          "view": "video-01",
+          "baseline_iou": 0.8645445175612463,
+          "candidate_iou": 0.8644898051640999
+        },
+        {
+          "view": "video-02",
+          "baseline_iou": 0.8503671436058405,
+          "candidate_iou": 0.8503718022051717
+        },
+        {
+          "view": "video-03",
+          "baseline_iou": 0.8341803842662457,
+          "candidate_iou": 0.8341925466736445
+        },
+        {
+          "view": "video-04",
+          "baseline_iou": 0.8352658473864786,
+          "candidate_iou": 0.8353290839603803
+        },
+        {
+          "view": "video-05",
+          "baseline_iou": 0.8170040992583785,
+          "candidate_iou": 0.8171143565187455
+        },
+        {
+          "view": "video-06",
+          "baseline_iou": 0.8396913808292364,
+          "candidate_iou": 0.8397162636837977
+        },
+        {
+          "view": "video-07",
+          "baseline_iou": 0.8940533680928401,
+          "candidate_iou": 0.8940402294560468
+        },
+        {
+          "view": "video-08",
+          "baseline_iou": 0.8987936432796232,
+          "candidate_iou": 0.8989224015932401
+        },
+        {
+          "view": "video-09",
+          "baseline_iou": 0.8797657320175561,
+          "candidate_iou": 0.8797347134497038
+        }
+      ]
+    },
+    "stills": {
+      "baseline_mean_iou": 0.8252506381120008,
+      "candidate_mean_iou": 0.8253357000870524,
+      "views": [
+        {
+          "view": "still-01",
+          "baseline_iou": 0.8668748102857639,
+          "candidate_iou": 0.8670092079854279
+        },
+        {
+          "view": "still-02",
+          "baseline_iou": 0.8745211264570899,
+          "candidate_iou": 0.8745480090850712
+        },
+        {
+          "view": "still-03",
+          "baseline_iou": 0.8437203153180116,
+          "candidate_iou": 0.8438681835809901
+        },
+        {
+          "view": "still-04",
+          "baseline_iou": 0.7864374195748903,
+          "candidate_iou": 0.7865264109192156
+        },
+        {
+          "view": "still-05",
+          "baseline_iou": 0.7844536658925053,
+          "candidate_iou": 0.784457119710822
+        },
+        {
+          "view": "still-06",
+          "baseline_iou": 0.7467136733267101,
+          "candidate_iou": 0.7468322987080793
+        },
+        {
+          "view": "still-closeup",
+          "baseline_iou": 0.8740334559290337,
+          "candidate_iou": 0.8741086706197605
+        }
+      ]
+    },
+    "sheet": {
+      "baseline_mean_iou": 0.8965441776548385,
+      "candidate_mean_iou": 0.8965368682378088,
+      "views": [
+        {
+          "view": "sheet-01",
+          "baseline_iou": 0.9135444347526218,
+          "candidate_iou": 0.9134928443195764
+        },
+        {
+          "view": "sheet-02",
+          "baseline_iou": 0.8918151579947731,
+          "candidate_iou": 0.8917795200760276
+        },
+        {
+          "view": "sheet-03",
+          "baseline_iou": 0.8944724168126095,
+          "candidate_iou": 0.8945202180528493
+        },
+        {
+          "view": "sheet-04",
+          "baseline_iou": 0.8801789367313237,
+          "candidate_iou": 0.8801350868327315
+        },
+        {
+          "view": "sheet-05",
+          "baseline_iou": 0.8708731191241808,
+          "candidate_iou": 0.8709427940093297
+        },
+        {
+          "view": "sheet-06",
+          "baseline_iou": 0.8715598346962103,
+          "candidate_iou": 0.8716240725474032
+        },
+        {
+          "view": "sheet-07",
+          "baseline_iou": 0.8985049534674272,
+          "candidate_iou": 0.8985037346590773
+        },
+        {
+          "view": "sheet-08",
+          "baseline_iou": 0.9311487481590575,
+          "candidate_iou": 0.9312165972309894
+        },
+        {
+          "view": "sheet-09",
+          "baseline_iou": 0.9111858865489131,
+          "candidate_iou": 0.9111009680706522
+        },
+        {
+          "view": "sheet-10",
+          "baseline_iou": 0.9021582882612698,
+          "candidate_iou": 0.9020528465794508
+        }
+      ]
+    }
+  }
+}

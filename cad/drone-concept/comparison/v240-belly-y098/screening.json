@@ -1,0 +1,17 @@
+{
+  "baseline": "v239-bottom-y098",
+  "baseline_fcstd_sha256": "7e215c6e884b19c99352e1b7ae6442e8fc02960ce852728ee5d9078824a7d16b",
+  "formal_revision": "v240-belly-y098",
+  "formal_fcstd_sha256": "5a1d8e8c0fb8f2140a41c1dbf97da21b69df2af01fd2ef4011fda3feea8b670f",
+  "formal_step_sha256": "1c02adba79a2e73c32c1d3b4e0dbbf99c192a26aee8ed70bf32f4ef08c1914f4",
+  "changed_objects": ["ClosedBellyPan"],
+  "y_scale": 0.98,
+  "fixed_y_min_mm": 25.0,
+  "metrics": {
+    "video": {"views": 10, "baseline": 0.8591730819683929, "candidate": 0.8592101142411195},
+    "stills": {"views": 7, "baseline": 0.8253652648076918, "candidate": 0.8253689417048379},
+    "sheet": {"views": 10, "baseline": 0.8967077375271719, "candidate": 0.8967140226574388}
+  },
+  "method": "saved real CAD candidate geometry; fixed calibrated cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "limitations": ["silhouette diagnostic only", "ClosedBellyPan proportion remains appearance-derived", "no physical, manufacturing, assembly, acoustic, thermal, or electrical acceptance"]
+}

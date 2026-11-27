@@ -1,0 +1,95 @@
+{
+  "baseline": "v193-lowerpod-rib-rails-bezel",
+  "baseline_scores": {
+    "video": 0.8591005233796649,
+    "stills": 0.8253387622746094,
+    "sheet": 0.8966408819033346
+  },
+  "candidates": [
+    {
+      "candidate": "v216",
+      "shift_y_mm": -0.25,
+      "group": "body",
+      "fcstd_sha256": "e52e5b4ac19c7fe3141c581ca305b7ebbcd0e23ea43da42f77a387236aaffbbe",
+      "step_sha256": "d21c1da26d0eabe1212aa1ccd1fd0e8c63370c59d8f7d28db08b1d658d78ad02",
+      "changed_objects": [
+        "ControlRail",
+        "ControlInset",
+        "ControlKeyBed"
+      ],
+      "scores": {
+        "video": 0.8590952933516622
+      },
+      "delta_vs_v193": {
+        "video": -5.230028002678466e-06
+      },
+      "decision": "retain v193"
+    },
+    {
+      "candidate": "v217",
+      "shift_y_mm": -0.25,
+      "group": "lip_end",
+      "fcstd_sha256": "04c6622e786e82690d35b5be7a9695b0347442f5ca94dc1b8036bb21e1232d1c",
+      "step_sha256": "3bc1da11cf7388c76a6f0d5788a57f4e3ff1b4e8d1e2420393d1cdabdbd39426",
+      "changed_objects": [
+        "ControlRailLip",
+        "ControlRailEndLeft",
+        "ControlRailEndRight",
+        "ControlEndBoltLeft",
+        "ControlEndBoltRight"
+      ],
+      "scores": {
+        "video": 0.8591200585419836
+      },
+      "delta_vs_v193": {
+        "video": 1.953516231867347e-05
+      },
+      "decision": "retain v193"
+    },
+    {
+      "candidate": "v218",
+      "shift_y_mm": -0.25,
+      "group": "body_lip",
+      "fcstd_sha256": "1e0f8b3e084dc3b142aad624548c2d3d8be212c9abc568c09d0d4ef3dcd4565e",
+      "step_sha256": "fba8e91d9d159b60cfb7621a478b722c06e0aca49ffdfd6fd202cae84cdfc51e",
+      "changed_objects": [
+        "ControlRail",
+        "ControlInset",
+        "ControlKeyBed",
+        "ControlRailLip"
+      ],
+      "scores": {
+        "video": 0.8591368545551203,
+        "stills": 0.8253140310193191,
+        "sheet": 0.8966882103384911
+      },
+      "delta_vs_v193": {
+        "video": 3.633117545542852e-05,
+        "stills": -2.4731255290344478e-05,
+        "sheet": 4.7328435156535065e-05
+      },
+      "decision": "retain v193"
+    }
+  ],
+  "method": "split real-CAD ControlRail body and lip/end groups with calibrated fixed-camera renders, overlays, edges, and differences",
+  "protected_features": [
+    "ScreenPanel210x160x2",
+    "ActiveArea200x150",
+    "UtilityBarrel",
+    "CheekDial",
+    "CheekVentRib",
+    "SupportShaft",
+    "SupportSocket",
+    "SupportFoot",
+    "CentralSupportSeat"
+  ],
+  "mesh_storage": "not stored in Git; rebuild from candidate FCStd with tools/export_saved_drone_meshes.py",
+  "decision": "retain v193",
+  "next_focus": [
+    "ControlRailEnd and terminal-block local placement"
+  ],
+  "limitations": [
+    "control rail placement is an appearance hypothesis",
+    "no manufacturing, fit, acoustic, thermal, electrical, or physical acceptance"
+  ]
+}

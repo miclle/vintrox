@@ -1,0 +1,279 @@
+{
+  "formal_revision": "v43-gold-wing-crease",
+  "formal_fcstd_sha256": "d03080846462cd5b8318f6dea254456fe77ece6cda06349ba698ea010086d591",
+  "formal_unchanged": true,
+  "generator_path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-rear-fold-cache/experiment_drone_rear_fold.py",
+  "generator_sha256": "bb8a2160a9bd46c457fca452cfc673e9dcfd800cbaff9463738248b43fcb4a85",
+  "baseline_source_check_sha256": "3277bd877e4dbbd1a42321f61f8e178f08d4683bead3360e8da21b208bad85e1",
+  "section_check_sha256": "1fe2e5fe7d0c1e0029e233618e4cb139c63c27634e1ee5256a3a7275b09a0b60",
+  "results": [
+    {
+      "candidate": "r16",
+      "fcstd_sha256": "29f4d93117288bf3c25a614960184653bc140b46dfe3daa5224e31920610daa6",
+      "actual_changed_mesh_objects": [
+        "RearServicePanel",
+        "RearStructuralFrame",
+        "RearRecessLiner",
+        "RearArmourCheekLeft",
+        "RearArmourCheekRight"
+      ],
+      "unchanged_visible_mesh_records": 691,
+      "mesh_cache_path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-rear-fold-cache/r16-meshes.json",
+      "mesh_sha256": "827b20c71fe5504124a422617d54b65a43ac3b40f30b99fa8cdf11a79418eefe",
+      "candidate_check_sha256": "a63b33dbfd2376f81089cdc2c9dd11336a35cfd6ce52cf07b877507862c3d27e",
+      "video": {
+        "mean_iou": 0.8485014035626619,
+        "baseline_mean_iou": 0.8484931564112387,
+        "report_sha256": "d353d87c57fc69e04262cfc90e9a89d21674686147d585e630f8a5ce134c2f59",
+        "per_view": [
+          {
+            "view": "video-00",
+            "iou": 0.8734505713749543,
+            "baseline_iou": 0.8734462579322946,
+            "delta": 4.3134426597202236e-06
+          },
+          {
+            "view": "video-01",
+            "iou": 0.8554652112467979,
+            "baseline_iou": 0.8554437506968446,
+            "delta": 2.1460549953222774e-05
+          },
+          {
+            "view": "video-02",
+            "iou": 0.8376149942932578,
+            "baseline_iou": 0.8376149942932578,
+            "delta": 0.0
+          },
+          {
+            "view": "video-03",
+            "iou": 0.8190731037574602,
+            "baseline_iou": 0.819057038865555,
+            "delta": 1.6064891905198664e-05
+          },
+          {
+            "view": "video-04",
+            "iou": 0.8183989362388815,
+            "baseline_iou": 0.8183989362388815,
+            "delta": 0.0
+          },
+          {
+            "view": "video-05",
+            "iou": 0.803936606732489,
+            "baseline_iou": 0.8039326978185211,
+            "delta": 3.9089139679537865e-06
+          },
+          {
+            "view": "video-06",
+            "iou": 0.8251796327508205,
+            "baseline_iou": 0.8251796327508205,
+            "delta": 0.0
+          },
+          {
+            "view": "video-07",
+            "iou": 0.878028755488678,
+            "baseline_iou": 0.8779943118931869,
+            "delta": 3.444359549109599e-05
+          },
+          {
+            "view": "video-08",
+            "iou": 0.8936087693155607,
+            "baseline_iou": 0.893606489195306,
+            "delta": 2.2801202546052224e-06
+          },
+          {
+            "view": "video-09",
+            "iou": 0.8802574544277193,
+            "baseline_iou": 0.8802574544277193,
+            "delta": 0.0
+          }
+        ]
+      },
+      "stills": {
+        "mean_iou": 0.8194440804567346,
+        "baseline_mean_iou": 0.8194408597662175,
+        "report_sha256": "9f6b8f2b634524e052956cb97c930ab87d8fd5db960a6c89a9e5edd66f0b7c73",
+        "per_view": [
+          {
+            "view": "still-01",
+            "iou": 0.8650204191026497,
+            "baseline_iou": 0.8650207256828119,
+            "delta": -3.065801621460196e-07
+          },
+          {
+            "view": "still-02",
+            "iou": 0.8671117164470192,
+            "baseline_iou": 0.8671098682331476,
+            "delta": 1.848213871613602e-06
+          },
+          {
+            "view": "still-03",
+            "iou": 0.848784020934362,
+            "baseline_iou": 0.8487970010695631,
+            "delta": -1.2980135201123844e-05
+          },
+          {
+            "view": "still-04",
+            "iou": 0.780543124847044,
+            "baseline_iou": 0.7805294806579615,
+            "delta": 1.3644189082562264e-05
+          },
+          {
+            "view": "still-05",
+            "iou": 0.7693838471875765,
+            "baseline_iou": 0.7693838471875765,
+            "delta": 0.0
+          },
+          {
+            "view": "still-06",
+            "iou": 0.7372601329848463,
+            "baseline_iou": 0.7372434930981249,
+            "delta": 1.6639886721403485e-05
+          },
+          {
+            "view": "still-closeup",
+            "iou": 0.868005301693644,
+            "baseline_iou": 0.8680016024343364,
+            "delta": 3.6992593075435565e-06
+          }
+        ]
+      },
+      "lower_edge_rms_px": 3.5433819375782165,
+      "cavity_check_passed": true
+    },
+    {
+      "candidate": "r24",
+      "fcstd_sha256": "72ac3248c27201b6b4cf18613014e7fe416ec4088398a58877b4fe6c08943665",
+      "actual_changed_mesh_objects": [
+        "RearServicePanel",
+        "RearStructuralFrame",
+        "RearRecessLiner",
+        "RearArmourCheekLeft",
+        "RearArmourCheekRight"
+      ],
+      "unchanged_visible_mesh_records": 691,
+      "mesh_cache_path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-rear-fold-cache/r24-meshes.json",
+      "mesh_sha256": "94a083cd610aa03a12fc80cd204422511eb25fc0e6de9c6706b65cafd0e6a20f",
+      "candidate_check_sha256": "766b2658cf274ef8148065cd447f74a382e1a663ed99ac75d815ebeab7430a49",
+      "video": {
+        "mean_iou": 0.8485117691247351,
+        "baseline_mean_iou": 0.8484931564112387,
+        "report_sha256": "6a36e15e94e70d8328419d2ed7fae680bfa436b8b2e68ae4b8a0767c6c373f1c",
+        "per_view": [
+          {
+            "view": "video-00",
+            "iou": 0.8734527281122604,
+            "baseline_iou": 0.8734462579322946,
+            "delta": 6.470179965800682e-06
+          },
+          {
+            "view": "video-01",
+            "iou": 0.8554962117199739,
+            "baseline_iou": 0.8554437506968446,
+            "delta": 5.2461023129279916e-05
+          },
+          {
+            "view": "video-02",
+            "iou": 0.8376149942932578,
+            "baseline_iou": 0.8376149942932578,
+            "delta": 0.0
+          },
+          {
+            "view": "video-03",
+            "iou": 0.8191006450383604,
+            "baseline_iou": 0.819057038865555,
+            "delta": 4.360617280541046e-05
+          },
+          {
+            "view": "video-04",
+            "iou": 0.8183989362388815,
+            "baseline_iou": 0.8183989362388815,
+            "delta": 0.0
+          },
+          {
+            "view": "video-05",
+            "iou": 0.803936661230615,
+            "baseline_iou": 0.8039326978185211,
+            "delta": 3.963412093965779e-06
+          },
+          {
+            "view": "video-06",
+            "iou": 0.8251796327508205,
+            "baseline_iou": 0.8251796327508205,
+            "delta": 0.0
+          },
+          {
+            "view": "video-07",
+            "iou": 0.8780670978444846,
+            "baseline_iou": 0.8779943118931869,
+            "delta": 7.27859512976714e-05
+          },
+          {
+            "view": "video-08",
+            "iou": 0.8936133295909775,
+            "baseline_iou": 0.893606489195306,
+            "delta": 6.840395671448007e-06
+          },
+          {
+            "view": "video-09",
+            "iou": 0.8802574544277193,
+            "baseline_iou": 0.8802574544277193,
+            "delta": 0.0
+          }
+        ]
+      },
+      "stills": {
+        "mean_iou": 0.8194516235865724,
+        "baseline_mean_iou": 0.8194408597662175,
+        "report_sha256": "b1ad5bc9b0dbd37a8e5b6bbac143912590edcc00c52eebafb9b26a3e9463d105",
+        "per_view": [
+          {
+            "view": "still-01",
+            "iou": 0.8650204191026497,
+            "baseline_iou": 0.8650207256828119,
+            "delta": -3.065801621460196e-07
+          },
+          {
+            "view": "still-02",
+            "iou": 0.8671135646687698,
+            "baseline_iou": 0.8671098682331476,
+            "delta": 3.696435622146943e-06
+          },
+          {
+            "view": "still-03",
+            "iou": 0.8487762328532414,
+            "baseline_iou": 0.8487970010695631,
+            "delta": -2.0768216321687127e-05
+          },
+          {
+            "view": "still-04",
+            "iou": 0.780563592025103,
+            "baseline_iou": 0.7805294806579615,
+            "delta": 3.4111367141487214e-05
+          },
+          {
+            "view": "still-05",
+            "iou": 0.7693838471875765,
+            "baseline_iou": 0.7693838471875765,
+            "delta": 0.0
+          },
+          {
+            "view": "still-06",
+            "iou": 0.7372984075750223,
+            "baseline_iou": 0.7372434930981249,
+            "delta": 5.4914476897427456e-05
+          },
+          {
+            "view": "still-closeup",
+            "iou": 0.868005301693644,
+            "baseline_iou": 0.8680016024343364,
+            "delta": 3.6992593075435565e-06
+          }
+        ]
+      },
+      "lower_edge_rms_px": 3.636237371545238,
+      "cavity_check_passed": true
+    }
+  ],
+  "decision": "Neither fold candidate adopted: mean contour gains are negligible; R24 worsens the lower boundary and R16 does not resolve the visible stepped guard notch.",
+  "next_action": "Use actual guard object IDs and the continuous reference notch edge to remove the exposed staircase while preserving status-panel visibility."
+}

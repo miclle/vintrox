@@ -1,0 +1,229 @@
+{
+  "fcstd_sha256": "848ae54766cff32be42367bc2894396b7c89ab668bde64d4ff0b356c5fb839fe",
+  "baseline_fcstd_sha256": "5534f124a394523e711ca6508d23d57754275f9be3ac0d45ec4e359a7a355cc0",
+  "script_sha256": "1e7f7862c8eb82877b3f74f0a3a01c2a4b748d3b655aaba45d392c6ec9f5aa6f",
+  "parts": [
+    {
+      "name": "WingEdgeLeft",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 5.4569682106375694e-12,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingRaisedFaceLeft",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 1.4551915228366852e-11,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingPaintLeft",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 7.275957614183426e-12,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingFoldFacetLeft",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 2.7284841053187847e-12,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingInnerPaintLeft",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 0.0,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingSpineLeft",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 1.3642420526593924e-12,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingHubSeatLeft",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 0.0,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingStripeLeft0",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 2.8421709430404007e-13,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingStripeLeft1",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 8.526512829121202e-13,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingHubMarkLeft",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 5.684341886080801e-13,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingEdgeRight",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 7.275957614183426e-12,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingRaisedFaceRight",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 1.8189894035458565e-11,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingPaintRight",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 3.637978807091713e-12,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingFoldFacetRight",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 3.637978807091713e-12,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingInnerPaintRight",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 9.094947017729282e-13,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingSpineRight",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 0.0,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingHubSeatRight",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 1.3642420526593924e-12,
+      "valid": true,
+      "closed": true
+    },
+    {
+      "name": "WingHubMarkRight",
+      "saved_signature_matches_rigid_transform": true,
+      "volume_error_mm3": 2.5579538487363607e-13,
+      "valid": true,
+      "closed": true
+    }
+  ],
+  "hub_neck_contacts": [
+    {
+      "model": "baseline",
+      "side": "Left",
+      "gap_mm": 0.0,
+      "overlap_mm3": 1659.9917900705423
+    },
+    {
+      "model": "candidate",
+      "side": "Left",
+      "gap_mm": 0.0,
+      "overlap_mm3": 1664.508293274935
+    },
+    {
+      "model": "baseline",
+      "side": "Right",
+      "gap_mm": 0.0,
+      "overlap_mm3": 1661.5619022458625
+    },
+    {
+      "model": "candidate",
+      "side": "Right",
+      "gap_mm": 0.0,
+      "overlap_mm3": 1664.3737578392834
+    }
+  ],
+  "protected": [
+    {
+      "name": "ScreenBezel",
+      "unchanged_signature": true
+    },
+    {
+      "name": "ScreenPanel210x160x2",
+      "unchanged_signature": true
+    },
+    {
+      "name": "ScreenCurvedCover",
+      "unchanged_signature": true
+    },
+    {
+      "name": "CentralSupportSeat",
+      "unchanged_signature": true
+    },
+    {
+      "name": "SupportShaftFrontLeft",
+      "unchanged_signature": true
+    },
+    {
+      "name": "SupportSocketFrontLeft",
+      "unchanged_signature": true
+    },
+    {
+      "name": "SupportFootFrontLeft",
+      "unchanged_signature": true
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "unchanged_signature": true
+    },
+    {
+      "name": "SupportSocketRearLeft",
+      "unchanged_signature": true
+    },
+    {
+      "name": "SupportFootRearLeft",
+      "unchanged_signature": true
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "unchanged_signature": true
+    },
+    {
+      "name": "SupportSocketFrontRight",
+      "unchanged_signature": true
+    },
+    {
+      "name": "SupportFootFrontRight",
+      "unchanged_signature": true
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "unchanged_signature": true
+    },
+    {
+      "name": "SupportSocketRearRight",
+      "unchanged_signature": true
+    },
+    {
+      "name": "SupportFootRearRight",
+      "unchanged_signature": true
+    }
+  ],
+  "rigid_transform_readback_passed": true,
+  "limitations": [
+    "signature equality and volume verify the rigid transform; advanced BOP errors are separately retained in candidate-check.json"
+  ]
+}

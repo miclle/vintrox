@@ -1,0 +1,64 @@
+{
+  "baseline_fcstd_sha256": "094bb2e63081b879e865db74d375f975126968bd2473772973c3dc0b2bd8171a",
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "frames": [
+    {
+      "source_frame": 90,
+      "path": "cad/drone-concept/comparison/upper-boundary-study/frame-090.png",
+      "sha256": "0d8806db3363c684e6e42e641883d59705af1a938511637a2cbb9c88a116a82f"
+    },
+    {
+      "source_frame": 100,
+      "path": "cad/drone-concept/comparison/upper-boundary-study/frame-100.png",
+      "sha256": "96edd2539195235894c2966c180b340c866f3be6a227c6a52f2634df101c96fb"
+    },
+    {
+      "source_frame": 110,
+      "path": "cad/drone-concept/comparison/upper-boundary-study/frame-110.png",
+      "sha256": "236c4a459706defc7065c16b8ab25418b0412b1485649de237903f64b01601ff"
+    },
+    {
+      "source_frame": 120,
+      "path": "cad/drone-concept/comparison/upper-boundary-study/frame-120.png",
+      "sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb"
+    },
+    {
+      "source_frame": 130,
+      "path": "cad/drone-concept/comparison/upper-boundary-study/frame-130.png",
+      "sha256": "d85caddc44ef0969f046ef11e49e5f73c827714d913454d39caf966a24112de4"
+    },
+    {
+      "source_frame": 140,
+      "path": "cad/drone-concept/comparison/upper-boundary-study/frame-140.png",
+      "sha256": "9299e2e4be0a7bc672b28011778f678fb668071fb214daf4920eb73fe96b5a68"
+    },
+    {
+      "source_frame": 150,
+      "path": "cad/drone-concept/comparison/upper-boundary-study/frame-150.png",
+      "sha256": "6163748cf00f271a738409696656ddd46ca93481e0bfab683b656e6e8a38a204"
+    },
+    {
+      "source_frame": 160,
+      "path": "cad/drone-concept/comparison/upper-boundary-study/frame-160.png",
+      "sha256": "452cfc5d57a575feb9a6ca6ca8f68b314f3b80807aa22cce2d42395c8879b06b"
+    },
+    {
+      "source_frame": 170,
+      "path": "cad/drone-concept/comparison/upper-boundary-study/frame-170.png",
+      "sha256": "4db48edbc334656b3a5daf9141769032f712775f5f936318c5934cce52cfb6f3"
+    },
+    {
+      "source_frame": 180,
+      "path": "cad/drone-concept/comparison/upper-boundary-study/frame-180.png",
+      "sha256": "ed7cdc03298e1c8106e1213c9b147088086735663711979ebff9799bbbb2f920"
+    }
+  ],
+  "existing_upper_measurement_sha256": "43472825a4c8987eb139ac14f5ce6b22ce4bb4dd3d301a4c6f3505cf2414a4ed",
+  "observations": [
+    "The three fixed rear views show a curved shell behind the upper wires and in front of a recessed rectangular housing.",
+    "The right upper gradient in frame 120 is not a uniformly high-contrast external silhouette; the 18px maximum has uncertain correspondence.",
+    "Neighbouring frames show varying brightness and occlusion. Keep historical measurements, and evaluate any width changes against both exposed side contours and rear views."
+  ],
+  "interpretation": "visual inference, not proof of hidden source geometry",
+  "no_geometry_modified_by_this_diagnostic": true
+}

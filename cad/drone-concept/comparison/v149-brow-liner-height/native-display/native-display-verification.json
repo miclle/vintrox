@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v149",
+      "model": "/private/tmp/vintrox-v149.U31nKQ/final/candidate.FCStd",
+      "fcstd_sha256": "392b0f8351810592e5d958a318675792a91dc1482eec852112754c4f2bd64d7d",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "392b0f8351810592e5d958a318675792a91dc1482eec852112754c4f2bd64d7d",
+      "palette_contract_sha256": "43c9130cf00f97c37aacaf6ba6e74147ba15b6662969ded4a25c554b3a811648",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v149-isometric.png",
+          "sha256": "60fcef6bddbe43904385c67463385f9be203776292e23c7c92ef42d8cc8111c0"
+        },
+        {
+          "view": "front",
+          "path": "v149-front.png",
+          "sha256": "cd609a00787b470b3eee04434a399577ca502b58ea2148034d0ad352ef88d89b"
+        },
+        {
+          "view": "rear",
+          "path": "v149-rear.png",
+          "sha256": "e4f3bda8fba38e0585854cedb7af94064a676c139e0c251d363183c964acec03"
+        },
+        {
+          "view": "right",
+          "path": "v149-right.png",
+          "sha256": "9d313d70a7b9afed10b63fb4d79e5d9f97fd42a99036aa413f83955c61f6d7d0"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

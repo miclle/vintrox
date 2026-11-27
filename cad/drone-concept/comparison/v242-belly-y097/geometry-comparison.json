@@ -1,0 +1,96 @@
+{
+  "geometry_signature_changes": [
+    "ClosedBellyPan"
+  ],
+  "contacts": {
+    "BottomChassis": [
+      {
+        "gap_mm": 0.0,
+        "overlap_mm3": 128405.77430101295
+      },
+      {
+        "gap_mm": 0.0,
+        "overlap_mm3": 124838.187755992
+      }
+    ],
+    "MainEnclosureShell": [
+      {
+        "gap_mm": 0.0,
+        "overlap_mm3": 74406.3247729947
+      },
+      {
+        "gap_mm": 0.0,
+        "overlap_mm3": 72174.13502970242
+      }
+    ],
+    "CentralSupportSeat": [
+      {
+        "gap_mm": 0.0,
+        "overlap_mm3": 10015.645673244544
+      },
+      {
+        "gap_mm": 0.0,
+        "overlap_mm3": 9677.877938039679
+      }
+    ],
+    "UnderbodyLoop0": [
+      {
+        "gap_mm": 1.0048591735576161e-14,
+        "overlap_mm3": 429.7891181908543
+      },
+      {
+        "gap_mm": 0.0,
+        "overlap_mm3": 424.27686005253156
+      }
+    ],
+    "UnderbodyLoop1": [
+      {
+        "gap_mm": 7.105427357601002e-15,
+        "overlap_mm3": 429.7890130573756
+      },
+      {
+        "gap_mm": 0.0,
+        "overlap_mm3": 424.27662206133857
+      }
+    ],
+    "BellyServicePlateLeft": [
+      {
+        "gap_mm": 20.11999999999999,
+        "overlap_mm3": 0.0
+      },
+      {
+        "gap_mm": 20.11999999999999,
+        "overlap_mm3": 0.0
+      }
+    ],
+    "BellyServicePlateRight": [
+      {
+        "gap_mm": 20.11999999999999,
+        "overlap_mm3": 0.0
+      },
+      {
+        "gap_mm": 20.11999999999999,
+        "overlap_mm3": 0.0
+      }
+    ]
+  },
+  "support_difference_mm3": {
+    "CentralSupportSeat": 0.0,
+    "SupportShaftFrontLeft": 0.0,
+    "SupportSocketFrontLeft": 0.0,
+    "SupportFootFrontLeft": 0.0,
+    "SupportShaftRearLeft": 0.0,
+    "SupportSocketRearLeft": 0.0,
+    "SupportFootRearLeft": 0.0,
+    "SupportShaftFrontRight": 0.0,
+    "SupportSocketFrontRight": 0.0,
+    "SupportFootFrontRight": 0.0,
+    "SupportShaftRearRight": 0.0,
+    "SupportSocketRearRight": 0.0,
+    "SupportFootRearRight": 0.0
+  },
+  "base_belly_y_max": 211.2,
+  "final_belly_y_max": 205.61399999999998,
+  "baseline_fcstd_sha256": "5a1d8e8c0fb8f2140a41c1dbf97da21b69df2af01fd2ef4011fda3feea8b670f",
+  "fcstd_sha256": "09d253ae6f2424396d9fc44ed1015316ceaf36c21d7b77bee16a1d1bf8e9577a"
+}

@@ -1,0 +1,178 @@
+{
+  "status": "initial still-image camera estimates; alignment refinement required",
+  "resolution": [
+    960,
+    823
+  ],
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "views": [
+    {
+      "name": "still-01",
+      "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-01.jpg",
+      "source_sha256": "bd46720affbbdd4fa413a584a5effaa163fedd024e9087467301496fec4eda72",
+      "resolution": [
+        960,
+        823
+      ],
+      "projection": "PERSP",
+      "lens_mm": 87.56332021440045,
+      "sensor_width_mm": 36,
+      "ortho_scale_mm": 420,
+      "eye_mm": [
+        -688.7616263421987,
+        -782.0884918356131,
+        317.0386845391606
+      ],
+      "target_mm": [
+        0.501566808748322,
+        140.6149973153713,
+        170.38720767320478
+      ],
+      "score_interpretation": "manual camera estimate; qualitative overlay until landmark fit is checked"
+    },
+    {
+      "name": "still-02",
+      "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-02.jpg",
+      "source_sha256": "87249224262f977a018c0ba3964740bd1bc780d57c3735502e75389a17502da1",
+      "resolution": [
+        960,
+        823
+      ],
+      "projection": "PERSP",
+      "lens_mm": 64,
+      "sensor_width_mm": 36,
+      "ortho_scale_mm": 420,
+      "eye_mm": [
+        -530.09493863589,
+        -508.73007289663246,
+        34.66151923194765
+      ],
+      "target_mm": [
+        0,
+        80,
+        146
+      ],
+      "score_interpretation": "manual camera estimate; qualitative overlay until landmark fit is checked"
+    },
+    {
+      "name": "still-03",
+      "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-03.jpg",
+      "source_sha256": "584543636adef77d34f994925e684b28208c29993a077b4ae9662a55e3283fd8",
+      "resolution": [
+        960,
+        823
+      ],
+      "projection": "PERSP",
+      "lens_mm": 87.56332021440045,
+      "sensor_width_mm": 36,
+      "ortho_scale_mm": 420,
+      "eye_mm": [
+        665.0506924932824,
+        -800.0443128899559,
+        317.0386845391606
+      ],
+      "target_mm": [
+        0.501566808748322,
+        140.6149973153713,
+        170.38720767320478
+      ],
+      "score_interpretation": "manual camera estimate; qualitative overlay until landmark fit is checked"
+    },
+    {
+      "name": "still-04",
+      "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-04.jpg",
+      "source_sha256": "c2635b57d04092802341979a23e74876884bc00075d0ec9c8a3594b930e686ce",
+      "resolution": [
+        960,
+        823
+      ],
+      "projection": "PERSP",
+      "lens_mm": 58,
+      "sensor_width_mm": 36,
+      "ortho_scale_mm": 420,
+      "eye_mm": [
+        523.606797749979,
+        691.5242624307648,
+        -11.329352654207469
+      ],
+      "target_mm": [
+        0,
+        110,
+        155
+      ],
+      "score_interpretation": "manual camera estimate; qualitative overlay until landmark fit is checked"
+    },
+    {
+      "name": "still-05",
+      "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-05.jpg",
+      "source_sha256": "3860ef57bfcf146ea337493b1860771edc072454c5b1330dc12f8dbdf4c8b58d",
+      "resolution": [
+        960,
+        823
+      ],
+      "projection": "PERSP",
+      "lens_mm": 58,
+      "sensor_width_mm": 36,
+      "ortho_scale_mm": 420,
+      "eye_mm": [
+        -635.8557821950836,
+        555.2310119072288,
+        -43.537516479734194
+      ],
+      "target_mm": [
+        0,
+        110,
+        150
+      ],
+      "score_interpretation": "manual camera estimate; qualitative overlay until landmark fit is checked"
+    },
+    {
+      "name": "still-06",
+      "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-06.jpg",
+      "source_sha256": "f3438ec9a537500e14906bb8c706ab516ac7d10204c5e25716ffc43e006c2f3d",
+      "resolution": [
+        960,
+        823
+      ],
+      "projection": "PERSP",
+      "lens_mm": 58,
+      "sensor_width_mm": 36,
+      "ortho_scale_mm": 420,
+      "eye_mm": [
+        -386.3703305156272,
+        779.2130429902464,
+        -57.05523608201659
+      ],
+      "target_mm": [
+        0,
+        110,
+        150
+      ],
+      "score_interpretation": "wireframe image: foreground score is not a silhouette accuracy metric"
+    },
+    {
+      "name": "still-closeup",
+      "source_image": "references/alexander-shevchuk-drone/closeup-2026-10-19.png",
+      "source_sha256": "94f0b548d3767ea2e6371761cb83353da5d56c935e51f8c2e8be40ebdfcc063b",
+      "resolution": [
+        878,
+        799
+      ],
+      "projection": "PERSP",
+      "lens_mm": 64,
+      "sensor_width_mm": 36,
+      "ortho_scale_mm": 420,
+      "eye_mm": [
+        -530.09493863589,
+        -508.73007289663246,
+        34.66151923194765
+      ],
+      "target_mm": [
+        0,
+        80,
+        146
+      ],
+      "score_interpretation": "manual camera estimate; qualitative overlay until landmark fit is checked"
+    }
+  ]
+}

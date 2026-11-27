@@ -1,0 +1,767 @@
+{
+  "revision": "v98-brow-depth094",
+  "status": "rejected appearance candidate; saved readback and fixed-camera comparisons completed",
+  "baseline_fcstd_sha256": "2ab40ea74dacd2be487e8c3f77ff540b63110daff9c506f79cf332c8e016412a",
+  "fcstd_sha256": "537da812b5d625292c794a277a09a1989750f58a80042abcf61c8ab616cc1b41",
+  "step_sha256": "41f56aafbf48f75f812aa81ea43a38515a078880246d606d1d2b9fb40cdcb240",
+  "source_script_sha256": "aeca7b83f8a1b1e13cf4d877f29ccba99869adcaca4c6498b1a23497b555109b",
+  "changed_objects": [
+    "BrowUnderside",
+    "HoodEdge",
+    "HoodMark_1_0",
+    "HoodMark_1_001",
+    "HoodMark_1_002",
+    "HoodMark_1_003",
+    "HoodMark_1_004",
+    "HoodMark_1_1",
+    "HoodMark_1_2",
+    "HoodMark_1_3",
+    "HoodShoulderBoltLeft",
+    "HoodShoulderBoltRight",
+    "HoodShoulderCrownLeft",
+    "HoodShoulderCrownRight",
+    "HoodShoulderPlateLeft",
+    "HoodShoulderPlateRight",
+    "HoodShoulderSlotLinerLeft",
+    "HoodShoulderSlotLinerRight",
+    "HoodTopInsetLeft",
+    "HoodTopInsetRight",
+    "ProjectingBrow"
+  ],
+  "x_scale_about_model_center": 1.0,
+  "depth_scale": 0.94,
+  "depth_pivot_y_mm": 30.172439653712352,
+  "before": {
+    "BrowUnderside": {
+      "volume_mm3": 54081.569685,
+      "area_mm2": 36425.992171,
+      "bbox_mm": [
+        -111.55125,
+        111.55125,
+        -56.16,
+        20.56,
+        190.6,
+        244.9
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodEdge": {
+      "volume_mm3": 341.498389,
+      "area_mm2": 1374.053685,
+      "bbox_mm": [
+        -113.45,
+        113.45,
+        -62.24,
+        -39.24,
+        190.6,
+        245.1
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_0": {
+      "volume_mm3": 15.994661,
+      "area_mm2": 146.533494,
+      "bbox_mm": [
+        -126.25,
+        -104.96,
+        -35.6,
+        32.8,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_001": {
+      "volume_mm3": 15.994661,
+      "area_mm2": 146.533494,
+      "bbox_mm": [
+        104.96,
+        126.25,
+        -35.6,
+        32.8,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_002": {
+      "volume_mm3": 15.994661,
+      "area_mm2": 146.533494,
+      "bbox_mm": [
+        104.96,
+        126.25,
+        -35.6,
+        32.8,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_003": {
+      "volume_mm3": 15.994661,
+      "area_mm2": 146.533494,
+      "bbox_mm": [
+        104.96,
+        126.25,
+        -35.6,
+        32.8,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_004": {
+      "volume_mm3": 15.994606,
+      "area_mm2": 146.533344,
+      "bbox_mm": [
+        104.96,
+        126.25,
+        -35.6,
+        32.8,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_1": {
+      "volume_mm3": 15.994661,
+      "area_mm2": 146.533494,
+      "bbox_mm": [
+        -126.25,
+        -104.96,
+        -35.6,
+        32.8,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_2": {
+      "volume_mm3": 15.994661,
+      "area_mm2": 146.533494,
+      "bbox_mm": [
+        -126.25,
+        -104.96,
+        -35.6,
+        32.8,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_3": {
+      "volume_mm3": 15.994606,
+      "area_mm2": 146.533344,
+      "bbox_mm": [
+        -126.25,
+        -104.96,
+        -35.6,
+        32.8,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderBoltLeft": {
+      "volume_mm3": 144.034735,
+      "area_mm2": 243.534266,
+      "bbox_mm": [
+        -126.7604,
+        -124.9604,
+        12.204,
+        30.570664,
+        196.29,
+        211.89
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderBoltRight": {
+      "volume_mm3": 144.034735,
+      "area_mm2": 249.076633,
+      "bbox_mm": [
+        124.9604,
+        126.7604,
+        8.397336,
+        26.764,
+        191.09,
+        206.69
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderCrownLeft": {
+      "volume_mm3": 11468.700462,
+      "area_mm2": 5132.420315,
+      "bbox_mm": [
+        -126.0,
+        -104.96,
+        -37.6,
+        34.8,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderCrownRight": {
+      "volume_mm3": 11468.700462,
+      "area_mm2": 5132.420315,
+      "bbox_mm": [
+        104.96,
+        126.0,
+        -37.6,
+        34.8,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderPlateLeft": {
+      "volume_mm3": 11711.404933,
+      "area_mm2": 7244.636183,
+      "bbox_mm": [
+        -135.84855,
+        -92.15,
+        -68.48,
+        40.598809,
+        188.32,
+        253.777857
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderPlateRight": {
+      "volume_mm3": 11711.404918,
+      "area_mm2": 7244.636183,
+      "bbox_mm": [
+        92.15,
+        135.84855,
+        -68.48,
+        40.598809,
+        188.32,
+        253.777857
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderSlotLinerLeft": {
+      "volume_mm3": 151.2,
+      "area_mm2": 368.462769,
+      "bbox_mm": [
+        -122.0,
+        -121.0,
+        -4.92,
+        24.32,
+        198.7,
+        204.3
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderSlotLinerRight": {
+      "volume_mm3": 151.2,
+      "area_mm2": 368.462769,
+      "bbox_mm": [
+        121.0,
+        122.0,
+        -4.92,
+        24.32,
+        198.7,
+        204.3
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodTopInsetLeft": {
+      "volume_mm3": 2013.461037,
+      "area_mm2": 3060.677931,
+      "bbox_mm": [
+        -89.0,
+        -35.0,
+        -36.36,
+        -8.8,
+        249.0,
+        250.4
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodTopInsetRight": {
+      "volume_mm3": 2013.461037,
+      "area_mm2": 3060.677931,
+      "bbox_mm": [
+        35.0,
+        89.0,
+        -36.36,
+        -8.8,
+        249.0,
+        250.4
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "ProjectingBrow": {
+      "volume_mm3": 201739.602228,
+      "area_mm2": 54066.277847,
+      "bbox_mm": [
+        -130.02,
+        130.02,
+        -64.48,
+        56.029473,
+        190.6,
+        253.2
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    }
+  },
+  "after": {
+    "BrowUnderside": {
+      "volume_mm3": 50836.674678,
+      "area_mm2": 34350.44629,
+      "bbox_mm": [
+        -111.55125,
+        111.55125,
+        -50.980054,
+        21.136746,
+        190.6,
+        244.9
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodEdge": {
+      "volume_mm3": 321.00848,
+      "area_mm2": 1323.450048,
+      "bbox_mm": [
+        -113.45,
+        113.45,
+        -56.695254,
+        -35.075254,
+        190.6,
+        245.1
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_0": {
+      "volume_mm3": 15.034984,
+      "area_mm2": 138.114145,
+      "bbox_mm": [
+        -126.25,
+        -104.96,
+        -31.653654,
+        32.642346,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_001": {
+      "volume_mm3": 15.034984,
+      "area_mm2": 138.114145,
+      "bbox_mm": [
+        104.96,
+        126.25,
+        -31.653654,
+        32.642346,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_002": {
+      "volume_mm3": 15.034984,
+      "area_mm2": 138.114145,
+      "bbox_mm": [
+        104.96,
+        126.25,
+        -31.653654,
+        32.642346,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_003": {
+      "volume_mm3": 15.034984,
+      "area_mm2": 138.114145,
+      "bbox_mm": [
+        104.96,
+        126.25,
+        -31.653654,
+        32.642346,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_004": {
+      "volume_mm3": 15.034939,
+      "area_mm2": 138.114017,
+      "bbox_mm": [
+        104.96,
+        126.25,
+        -31.653654,
+        32.642346,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_1": {
+      "volume_mm3": 15.034984,
+      "area_mm2": 138.114145,
+      "bbox_mm": [
+        -126.25,
+        -104.96,
+        -31.653654,
+        32.642346,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_2": {
+      "volume_mm3": 15.034984,
+      "area_mm2": 138.114145,
+      "bbox_mm": [
+        -126.25,
+        -104.96,
+        -31.653654,
+        32.642346,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodMark_1_3": {
+      "volume_mm3": 15.034939,
+      "area_mm2": 138.114017,
+      "bbox_mm": [
+        -126.25,
+        -104.96,
+        -31.653654,
+        32.642346,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderBoltLeft": {
+      "volume_mm3": 135.387748,
+      "area_mm2": 231.891347,
+      "bbox_mm": [
+        -126.7604,
+        -124.9604,
+        13.282106,
+        30.546771,
+        196.29,
+        211.89
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderBoltRight": {
+      "volume_mm3": 135.387748,
+      "area_mm2": 236.828548,
+      "bbox_mm": [
+        124.9604,
+        126.7604,
+        9.703842,
+        26.968506,
+        191.09,
+        206.69
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderCrownLeft": {
+      "volume_mm3": 10780.585751,
+      "area_mm2": 4845.07414,
+      "bbox_mm": [
+        -126.0,
+        -104.96,
+        -33.533654,
+        34.522346,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderCrownRight": {
+      "volume_mm3": 10780.585622,
+      "area_mm2": 4845.074125,
+      "bbox_mm": [
+        104.96,
+        126.0,
+        -33.533654,
+        34.522346,
+        215.0,
+        251.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderPlateLeft": {
+      "volume_mm3": 11008.696964,
+      "area_mm2": 6841.497658,
+      "bbox_mm": [
+        -135.84855,
+        -92.15,
+        -62.560854,
+        39.973227,
+        188.32,
+        253.777857
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderPlateRight": {
+      "volume_mm3": 11008.696957,
+      "area_mm2": 6841.49767,
+      "bbox_mm": [
+        92.15,
+        135.84855,
+        -62.560854,
+        39.973227,
+        188.32,
+        253.777857
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderSlotLinerLeft": {
+      "volume_mm3": 142.128,
+      "area_mm2": 346.981542,
+      "bbox_mm": [
+        -122.0,
+        -121.0,
+        -2.814454,
+        24.671146,
+        198.7,
+        204.3
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodShoulderSlotLinerRight": {
+      "volume_mm3": 142.128,
+      "area_mm2": 346.981542,
+      "bbox_mm": [
+        121.0,
+        122.0,
+        -2.814454,
+        24.671146,
+        198.7,
+        204.3
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodTopInsetLeft": {
+      "volume_mm3": 1892.653375,
+      "area_mm2": 2884.112682,
+      "bbox_mm": [
+        -89.0,
+        -35.0,
+        -32.368054,
+        -6.461654,
+        249.0,
+        250.4
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "HoodTopInsetRight": {
+      "volume_mm3": 1892.653375,
+      "area_mm2": 2884.112682,
+      "bbox_mm": [
+        35.0,
+        89.0,
+        -32.368054,
+        -6.461654,
+        249.0,
+        250.4
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "ProjectingBrow": {
+      "volume_mm3": 189635.210121,
+      "area_mm2": 51159.132649,
+      "bbox_mm": [
+        -130.02,
+        130.02,
+        -58.800854,
+        54.478051,
+        190.6,
+        253.2
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    }
+  },
+  "preserved_shape_count": 677,
+  "protected_supports": [
+    {
+      "name": "CentralSupportSeat",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketRearRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootRearRight",
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "screen_objects": {
+    "ScreenPanel210x160x2": {
+      "volume_mm3": 67200.0,
+      "area_mm2": 68680.0,
+      "bbox_mm": [
+        -105.0,
+        105.0,
+        -1.0,
+        1.0,
+        70.0,
+        230.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "ActiveArea200x150": {
+      "volume_mm3": 24000.0,
+      "area_mm2": 60560.0,
+      "bbox_mm": [
+        -100.0,
+        100.0,
+        -9.0,
+        -8.2,
+        75.0,
+        225.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    }
+  },
+  "screen_geometry_preserved": true,
+  "gui_members_copied_from_appearance_source": 2095,
+  "unchanged_brep_members_restored": 1072,
+  "geometry_unchanged_during_gui_restore": true,
+  "mesh_objects": 696,
+  "distinct_rgb_triples": 74,
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "limitations": [
+    "front-brow scale is an image-derived appearance hypothesis",
+    "measured flat screen retained; curved reference screen remains an appearance assumption",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}

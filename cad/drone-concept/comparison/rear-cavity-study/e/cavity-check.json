@@ -1,0 +1,147 @@
+{
+  "fcstd_sha256": "4868e1977f7e8e58c9f030a4f2e70667ba5a45d2ea6336da8b241e348d0e0f74",
+  "baseline_fcstd_sha256": "7cb4dc6e74b327c4cf63b326b6f57a46057ea54a43fd433615e5f75a39947d5c",
+  "measurement_script_sha256": "80716b25bf2fb4a8e475c1a13a1ffd84777c6dd3ef7d9128bd754f160f97561b",
+  "parts": [
+    {
+      "name": "RearServicePanel",
+      "valid": true,
+      "solids": 1,
+      "closed": true
+    },
+    {
+      "name": "RearRecessLiner",
+      "valid": true,
+      "solids": 1,
+      "closed": true
+    },
+    {
+      "name": "RearCyanFrame",
+      "valid": true,
+      "solids": 1,
+      "closed": true
+    }
+  ],
+  "shafts": [
+    {
+      "name": "SupportShaftFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "void_probes": [
+    {
+      "point_mm": [
+        -65.0,
+        235.0,
+        170.0
+      ],
+      "probe_radius_mm": 0.6,
+      "baseline_overlap_mm3": 0.9047786842338591,
+      "current_overlap_mm3": 0.0
+    },
+    {
+      "point_mm": [
+        65.0,
+        235.0,
+        170.0
+      ],
+      "probe_radius_mm": 0.6,
+      "baseline_overlap_mm3": 0.9047786842338591,
+      "current_overlap_mm3": 0.0
+    },
+    {
+      "point_mm": [
+        -65.0,
+        191.88,
+        90.0
+      ],
+      "probe_radius_mm": 0.6,
+      "baseline_overlap_mm3": 0.9047786842338599,
+      "current_overlap_mm3": 0.0
+    },
+    {
+      "point_mm": [
+        65.0,
+        191.88,
+        90.0
+      ],
+      "probe_radius_mm": 0.6,
+      "baseline_overlap_mm3": 0.9047786842338599,
+      "current_overlap_mm3": 0.0
+    }
+  ],
+  "wall_probes": [
+    {
+      "point_mm": [
+        -73.0,
+        232.0,
+        170.0
+      ],
+      "probe_radius_mm": 0.4,
+      "liner_overlap_mm3": 0.26808257310632844
+    },
+    {
+      "point_mm": [
+        73.0,
+        232.0,
+        170.0
+      ],
+      "probe_radius_mm": 0.4,
+      "liner_overlap_mm3": 0.26808257310632844
+    },
+    {
+      "point_mm": [
+        -73.0,
+        193.78,
+        95.0
+      ],
+      "probe_radius_mm": 0.4,
+      "liner_overlap_mm3": 0.2680825731063272
+    },
+    {
+      "point_mm": [
+        73.0,
+        193.78,
+        95.0
+      ],
+      "probe_radius_mm": 0.4,
+      "liner_overlap_mm3": 0.2680825731063272
+    }
+  ],
+  "contacts": [
+    {
+      "objects": [
+        "RearCyanFrame",
+        "RearRecessLiner"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 148.58701850676738
+    },
+    {
+      "objects": [
+        "RearServicePanel",
+        "RearRecessLiner"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 25214.411907502672
+    }
+  ],
+  "limitations": [
+    "four void and four material probes only",
+    "does not classify reference shadows as physical nozzle boundaries",
+    "appearance geometry, not fabrication or load validation"
+  ],
+  "passed": true
+}

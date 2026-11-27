@@ -1,0 +1,30 @@
+{
+  "revision": "v67-side-socket-body-contract",
+  "status": "candidate; fixed-camera comparison required",
+  "baseline_fcstd_sha256": "b264b52ab81ca645865ab44196b3cabb8453abfd4f127afa49c29c41ffd973d2",
+  "fcstd_sha256": "50b2ec847f67e8415fcd5f3ae989e5a7e2f74fa1b27283a654a580a8d5c62053",
+  "step_sha256": "5721d0b284eb2a5c9314b23aca194692ae243910894662e8f3897cc5b085543e",
+  "changed_objects": [
+    "SideSocketBaseLeft",
+    "SideSocketBaseRight"
+  ],
+  "outer_profile_contract_fraction": 0.92,
+  "mouth_lip_and_recess_preserved": true,
+  "measured_screen_preserved": true,
+  "protected_supports_unchanged": true,
+  "visible_features": 696,
+  "saved_readback": true,
+  "registration": "fixed calibrated camera projection only; no image warp, stretch, or per-part alignment",
+  "limitations": [
+    "appearance study only",
+    "socket profile inferred from four fixed views",
+    "no manufacturing or physical acceptance"
+  ],
+  "saved_readback_evidence": "readback-verification.json",
+  "step_solids": 1008,
+  "all_saved_entities_valid": true,
+  "step_valid": true,
+  "color_status": "object-level palette restored; 74 distinct RGB triples",
+  "render_binding": "meshes.json palette-restored candidate tessellation",
+  "saved_objects_total": 698
+}

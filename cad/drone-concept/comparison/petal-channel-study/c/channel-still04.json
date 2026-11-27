@@ -1,0 +1,32 @@
+{
+  "fcstd_sha256": "30d115a69d238ed31755da12990479aa14ce608d34174b2cfd24047130161bbf",
+  "camera_config_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+  "source_files": [
+    {
+      "path": "references/alexander-shevchuk-drone/alexander-shevchuk-04.jpg",
+      "sha256": "c2635b57d04092802341979a23e74876884bc00075d0ec9c8a3594b930e686ce"
+    },
+    {
+      "path": "cad/drone-concept/comparison/stills-48-renders/still-04.png",
+      "sha256": "ad7cebed8a58192689ff22c16ac68e242cd99e9506ba19e7f02a9cb21e0843d8"
+    },
+    {
+      "path": "cad/drone-concept/comparison/petal-channel-study/c/stills-renders/still-04.png",
+      "sha256": "373d0845668864aa9ce5e3408c38ec3e01ac4a7440531b4485e33f2a2ca9696d"
+    }
+  ],
+  "native_comparison_resolution": [
+    960,
+    823
+  ],
+  "crop_xyxy": [
+    590,
+    460,
+    765,
+    595
+  ],
+  "display_scale": 4,
+  "spatial_transformation": "reference resized uniformly to original fixed camera resolution; same pixel crop and common integer display enlargement for all panels; no warp",
+  "image_path": "cad/drone-concept/comparison/petal-channel-study/c/channel-still04.png",
+  "image_sha256": "c4da0ac9b06dff1a89d304e0479aec054eadd56b03551dc69558a2ea43d1799b"
+}

@@ -1,0 +1,23 @@
+{
+  "baseline": "v164",
+  "candidate": "depth-scale-0.9975",
+  "metrics": {
+    "video": {
+      "baseline": 0.8589730720993112,
+      "candidate": 0.8589926132508351,
+      "views": 10
+    },
+    "stills": {
+      "baseline": 0.8252284208832837,
+      "candidate": 0.8252703029558895,
+      "views": 7
+    },
+    "sheet": {
+      "baseline": 0.8965107470029394,
+      "candidate": 0.8965005948805114,
+      "views": 10
+    }
+  },
+  "decision": "retain v164",
+  "reason": "Video and static improve, but contact-sheet mean decreases."
+}

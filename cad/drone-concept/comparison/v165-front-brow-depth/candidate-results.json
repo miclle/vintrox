@@ -1,0 +1,24 @@
+{
+  "baseline": "v164-front-brow-depth",
+  "candidate": "depth-scale-0.995",
+  "metrics": {
+    "video": {
+      "baseline": 0.8589730720993112,
+      "candidate": 0.8590020971476932,
+      "views": 10
+    },
+    "stills": {
+      "baseline": 0.8252284208832837,
+      "candidate": 0.8252950467000282,
+      "views": 7
+    },
+    "sheet": {
+      "baseline": 0.8965107470029394,
+      "candidate": 0.89649788388295,
+      "views": 10
+    }
+  },
+  "decision": "retain v164",
+  "reason": "Video and static means improve, but contact-sheet mean decreases. Cross-reference-set global score does not improve.",
+  "registration": "fixed cameras, no image warp or per-part alignment"
+}

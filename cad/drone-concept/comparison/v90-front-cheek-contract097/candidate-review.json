@@ -1,0 +1,117 @@
+{
+  "revision": "v90-front-cheek-contract097",
+  "status": "exploratory-candidate-retained-v89-research-baseline",
+  "baseline_revision": "v89-petal-brow-combination",
+  "baseline_fcstd_sha256": "235a01bc341b8c3a261f2954a179d2a8e73952f7c54fd5d8afb19c698e8295ac",
+  "candidate_fcstd_sha256": "683db33fd874afa4f5b0eeb06294ac7abde447f6f3729ef64629c7582b66c5f9",
+  "candidate_step_sha256": "eb6966f0aad0de6241e18a1470d04e6580859a7c6b7ee14781a5608255a9b195",
+  "changed_objects": [
+    "FrontCheekLeft",
+    "FrontCheekRight",
+    "FrontCheekBridgeLeft",
+    "FrontCheekBridgeRight"
+  ],
+  "x_scale_about_model_center": 0.97,
+  "parameter_comparison": {
+    "v90-0p985": {
+      "video_mean_iou": 0.8557382516906754,
+      "stills_mean_iou": 0.823415591148221,
+      "video_delta_vs_v89": 0.0001927120123891,
+      "stills_delta_vs_v89": 0.0002817042713844,
+      "decision": "keep as parameter evidence"
+    },
+    "v90-0p970": {
+      "video_mean_iou": 0.8558303431358816,
+      "stills_mean_iou": 0.8235075463557112,
+      "video_delta_vs_v89": 0.00028480345759529513,
+      "stills_delta_vs_v89": 0.0003736594788745773,
+      "decision": "selected"
+    }
+  },
+  "video": {
+    "candidate_mean_iou": 0.8558303431358816,
+    "baseline_mean_iou": 0.8555455396782863,
+    "delta_mean_iou": 0.00028480345759529513,
+    "improved_views": 7,
+    "regressed_views": 0,
+    "report": "video-comparison/comparison-report.json"
+  },
+  "stills": {
+    "candidate_mean_iou": 0.8235075463557112,
+    "baseline_mean_iou": 0.8231338868768366,
+    "delta_mean_iou": 0.0003736594788745773,
+    "improved_views": 5,
+    "regressed_views": 0,
+    "report": "stills-comparison/comparison-report.json"
+  },
+  "registration": "fixed v89 cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "saved_readback": true,
+  "step_solids": 1071,
+  "visible_features": 696,
+  "saved_objects_total": 698,
+  "measured_screen_preserved": true,
+  "native_display": {
+    "status": "native-open-and-view-capture-completed",
+    "freecad_version": [
+      "1",
+      "1",
+      "4",
+      "20260928 (Git shallow)",
+      "Unknown",
+      "2026/09/28 13:46:34",
+      "(HEAD detached at 4fd3bf320)",
+      "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+    ],
+    "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+    "models": [
+      {
+        "name": "v90-front-cheek-contract-0p970",
+        "model": "/private/tmp/vintrox-v90/cheek-0p970/candidate.FCStd",
+        "fcstd_sha256": "683db33fd874afa4f5b0eeb06294ac7abde447f6f3729ef64629c7582b66c5f9",
+        "visible_objects": 696,
+        "mesh_fcstd_sha256": "683db33fd874afa4f5b0eeb06294ac7abde447f6f3729ef64629c7582b66c5f9",
+        "palette_contract_sha256": "e3081ebc997dcc2bf75afb9187269b9f0a7446061fcc9746741b871e0b3e80c9",
+        "native_color_triples": 70,
+        "mesh_color_triples": 74,
+        "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+        "native_visibility_equals_mesh": true,
+        "views": [
+          {
+            "view": "isometric",
+            "path": "v90-front-cheek-contract-0p970-isometric.png",
+            "sha256": "fc362ed54337f488e619941bc39f069346ce28c401b7c43620315e993d828eda"
+          },
+          {
+            "view": "front",
+            "path": "v90-front-cheek-contract-0p970-front.png",
+            "sha256": "9659ab2be8f5ee45573b9d509adeafb8ca9179c0534dcfdfbd10bf1b420bde06"
+          },
+          {
+            "view": "rear",
+            "path": "v90-front-cheek-contract-0p970-rear.png",
+            "sha256": "f1c6630a19146f49c9601cdba20bf0761201b94703a75fb6aee09bdf88bfe2c6"
+          },
+          {
+            "view": "right",
+            "path": "v90-front-cheek-contract-0p970-right.png",
+            "sha256": "f7aa44cfcbfc0c76df26693c9b61dcedfb1cc4027d469c0c01da02e98fb74736"
+          }
+        ],
+        "file_unchanged_after_native_close": true
+      }
+    ],
+    "limitations": [
+      "screenshots require visual review",
+      "views do not expose every hidden face",
+      "native GUI uses 8-bit saved colors; mesh palette uses floats",
+      "no physical, optical, manufacturing or assembly acceptance"
+    ]
+  },
+  "decision": "retain v90 as the current exploratory candidate; formal v61 and research v69 remain unchanged",
+  "limitations": [
+    "silhouette diagnostic only; 90 percent IoU and complete major-part 5 percent contour target remain unmet",
+    "black-material/background ambiguity and camera-fit uncertainty remain",
+    "measured flat 210 x 160 x 2 mm screen and 200 x 150 mm active area retained; curved reference screen is an appearance assumption",
+    "no manufacturing, printing, fit, assembly, optical, acoustic, thermal, electrical, or physical acceptance"
+  ]
+}

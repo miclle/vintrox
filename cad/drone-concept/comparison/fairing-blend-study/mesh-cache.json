@@ -1,0 +1,53 @@
+{
+  "mesh_files": [
+    {
+      "role": "candidate",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-blend-cache/p4-meshes.json",
+      "sha256": "0f49266f2b149456a0dc8aa2ad364cdb126f953f54dccc22241fd35b24e561a9"
+    },
+    {
+      "role": "formal",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-blend-cache/work/formal-meshes.json",
+      "sha256": "85eb2e066dae634c2cff76a5ac8e31d5372ba3f9a761c7b8308d410fc6dc2544"
+    }
+  ],
+  "reconstructed_baseline": {
+    "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-blend-cache/work/recovered-v48.FCStd",
+    "sha256": "84c82790d327293272b46167277780d382c649667531926ab86d5f2aaf5ad247",
+    "identity": "all original BRep payloads and GUI; different ZIP packaging"
+  },
+  "frozen_sources": [
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-blend-cache/drone_concept.py",
+      "sha256": "024dc0fa03a41ade1714316fbf62c717d5c72ab253a1a407eccc29b808d771bc",
+      "repo_source": "tools/drone_concept.py"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-blend-cache/drone_fairing_blend.py",
+      "sha256": "6ac867644f6c72557fa9decaa80b32854c6717f8a2d977a73c1270d684cdb6a9",
+      "repo_source": "tools/drone_fairing_blend.py"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-blend-cache/experiment_drone_fairing_blend.py",
+      "sha256": "42cedf7e047cc2b7bd48c2130e636ba04cc799545e2fc5701f55bfd46bf58891",
+      "repo_source": "tools/experiment_drone_fairing_blend.py"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-blend-cache/measure_drone_fairing_blend.py",
+      "sha256": "a7503398529288ef8da7bc9545d378fa343adafd14cfe60edb3ac1af48c949d3",
+      "repo_source": "tools/measure_drone_fairing_blend.py"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-blend-cache/refine_drone_fairing_blend.py",
+      "sha256": "ce076e5d3d0f4749c9734c6dfade664fa2b25eb7449bcec84c5ca8b5f9dbbf8f",
+      "repo_source": "tools/refine_drone_fairing_blend.py"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-blend-cache/verify_drone_delivery.py",
+      "sha256": "72df421e955ff22a12300c5fb7b88d16c3d50b186a08f535dd08751ab6b2f57a",
+      "repo_source": "tools/verify_drone_delivery.py"
+    }
+  ],
+  "checkpoint": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-blend-cache/checkpoint-v49/checkpoint.json",
+  "execution_logs_and_diagnostic_scripts": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-blend-cache/work"
+}

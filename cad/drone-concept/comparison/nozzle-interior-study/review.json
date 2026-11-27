@@ -1,0 +1,292 @@
+{
+  "revision": "v48-recessed-nozzle-interior",
+  "baseline_revision": "v47-coordinated-nozzle-root",
+  "formal_fcstd_sha256": "94f972c40e00c3ce739fde8134fa72e807688be6f2b0d098e24099f4f7f56419",
+  "baseline_fcstd_sha256": "1b5a6eb7a24675e55ed958128a843aabab6d43efa6cde13803be330cd8dc9fe1",
+  "adopted": "recessed",
+  "candidates": {
+    "bowl": {
+      "model_sha256": "0e48b96ede4087874c05ec8e6268508e4ba14d4580da6106c54dd249097292a8",
+      "mesh_cache": {
+        "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-interior-cache/bowl-meshes.json",
+        "sha256": "bfa0c37c221d44597e3df22b16eee330cd389a0a8339ede71991d996556e8bc1"
+      },
+      "views": {
+        "video": {
+          "mean_iou": 0.8484383495704287,
+          "baseline_mean_iou": 0.8484383495704287,
+          "per_view": [
+            {
+              "view": "video-00",
+              "iou": 0.8734462579322946,
+              "baseline_iou": 0.8734462579322946,
+              "delta": 0.0
+            },
+            {
+              "view": "video-01",
+              "iou": 0.8561501294411712,
+              "baseline_iou": 0.8561501294411712,
+              "delta": 0.0
+            },
+            {
+              "view": "video-02",
+              "iou": 0.8364261130568035,
+              "baseline_iou": 0.8364261130568035,
+              "delta": 0.0
+            },
+            {
+              "view": "video-03",
+              "iou": 0.8194626263192566,
+              "baseline_iou": 0.8194626263192566,
+              "delta": 0.0
+            },
+            {
+              "view": "video-04",
+              "iou": 0.8183995223418161,
+              "baseline_iou": 0.8183995223418161,
+              "delta": 0.0
+            },
+            {
+              "view": "video-05",
+              "iou": 0.8040570849462544,
+              "baseline_iou": 0.8040570849462544,
+              "delta": 0.0
+            },
+            {
+              "view": "video-06",
+              "iou": 0.8238768718801996,
+              "baseline_iou": 0.8238768718801996,
+              "delta": 0.0
+            },
+            {
+              "view": "video-07",
+              "iou": 0.878700946163467,
+              "baseline_iou": 0.878700946163467,
+              "delta": 0.0
+            },
+            {
+              "view": "video-08",
+              "iou": 0.893606489195306,
+              "baseline_iou": 0.893606489195306,
+              "delta": 0.0
+            },
+            {
+              "view": "video-09",
+              "iou": 0.8802574544277193,
+              "baseline_iou": 0.8802574544277193,
+              "delta": 0.0
+            }
+          ]
+        },
+        "still": {
+          "mean_iou": 0.8195317471641251,
+          "baseline_mean_iou": 0.8195317471641251,
+          "per_view": [
+            {
+              "view": "still-01",
+              "iou": 0.8650207256828119,
+              "baseline_iou": 0.8650207256828119,
+              "delta": 0.0
+            },
+            {
+              "view": "still-02",
+              "iou": 0.8671098682331476,
+              "baseline_iou": 0.8671098682331476,
+              "delta": 0.0
+            },
+            {
+              "view": "still-03",
+              "iou": 0.8487970010695631,
+              "baseline_iou": 0.8487970010695631,
+              "delta": 0.0
+            },
+            {
+              "view": "still-04",
+              "iou": 0.7805736687528408,
+              "baseline_iou": 0.7805736687528408,
+              "delta": 0.0
+            },
+            {
+              "view": "still-05",
+              "iou": 0.7699192921983893,
+              "baseline_iou": 0.7699192921983893,
+              "delta": 0.0
+            },
+            {
+              "view": "still-06",
+              "iou": 0.7373000717777868,
+              "baseline_iou": 0.7373000717777868,
+              "delta": 0.0
+            },
+            {
+              "view": "still-closeup",
+              "iou": 0.8680016024343364,
+              "baseline_iou": 0.8680016024343364,
+              "delta": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "recessed": {
+      "model_sha256": "81e3719c71e243e5113ae7829932fd7af1245c2dd940945f6ef96b7e2ce2ea5c",
+      "mesh_cache": {
+        "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-interior-cache/recessed-meshes.json",
+        "sha256": "a5288366b06a062955f125d2267eccfb9b27eb32eca923b6f25789ebef1e823f"
+      },
+      "views": {
+        "video": {
+          "mean_iou": 0.848599681063057,
+          "baseline_mean_iou": 0.8484383495704287,
+          "per_view": [
+            {
+              "view": "video-00",
+              "iou": 0.8734462579322946,
+              "baseline_iou": 0.8734462579322946,
+              "delta": 0.0
+            },
+            {
+              "view": "video-01",
+              "iou": 0.8564925296066496,
+              "baseline_iou": 0.8561501294411712,
+              "delta": 0.0003424001654783737
+            },
+            {
+              "view": "video-02",
+              "iou": 0.8364522883802071,
+              "baseline_iou": 0.8364261130568035,
+              "delta": 2.617532340365436e-05
+            },
+            {
+              "view": "video-03",
+              "iou": 0.8198999225858568,
+              "baseline_iou": 0.8194626263192566,
+              "delta": 0.0004372962666001623
+            },
+            {
+              "view": "video-04",
+              "iou": 0.8186012125751403,
+              "baseline_iou": 0.8183995223418161,
+              "delta": 0.0002016902333241699
+            },
+            {
+              "view": "video-05",
+              "iou": 0.8045156946572499,
+              "baseline_iou": 0.8040570849462544,
+              "delta": 0.00045860971099553893
+            },
+            {
+              "view": "video-06",
+              "iou": 0.8238436532679485,
+              "baseline_iou": 0.8238768718801996,
+              "delta": -3.32186122511402e-05
+            },
+            {
+              "view": "video-07",
+              "iou": 0.8788813080021994,
+              "baseline_iou": 0.878700946163467,
+              "delta": 0.00018036183873249012
+            },
+            {
+              "view": "video-08",
+              "iou": 0.893606489195306,
+              "baseline_iou": 0.893606489195306,
+              "delta": 0.0
+            },
+            {
+              "view": "video-09",
+              "iou": 0.8802574544277193,
+              "baseline_iou": 0.8802574544277193,
+              "delta": 0.0
+            }
+          ]
+        },
+        "still": {
+          "mean_iou": 0.8195853892962948,
+          "baseline_mean_iou": 0.8195317471641251,
+          "per_view": [
+            {
+              "view": "still-01",
+              "iou": 0.8650207256828119,
+              "baseline_iou": 0.8650207256828119,
+              "delta": 0.0
+            },
+            {
+              "view": "still-02",
+              "iou": 0.8671098682331476,
+              "baseline_iou": 0.8671098682331476,
+              "delta": 0.0
+            },
+            {
+              "view": "still-03",
+              "iou": 0.8487970010695631,
+              "baseline_iou": 0.8487970010695631,
+              "delta": 0.0
+            },
+            {
+              "view": "still-04",
+              "iou": 0.7805770802466708,
+              "baseline_iou": 0.7805736687528408,
+              "delta": 3.4114938299856234e-06
+            },
+            {
+              "view": "still-05",
+              "iou": 0.7702397816174603,
+              "baseline_iou": 0.7699192921983893,
+              "delta": 0.000320489419071035
+            },
+            {
+              "view": "still-06",
+              "iou": 0.7373516657900736,
+              "baseline_iou": 0.7373000717777868,
+              "delta": 5.159401228682636e-05
+            },
+            {
+              "view": "still-closeup",
+              "iou": 0.8680016024343364,
+              "baseline_iou": 0.8680016024343364,
+              "delta": 0.0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sources": [
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-interior-cache/drone_concept.py",
+      "sha256": "bf40f9d6d2deaeb170daad96d98d28c9464955da70ee2fcaa9dab90fe11b0f53"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-interior-cache/drone_nozzle_interior.py",
+      "sha256": "d5147b80b63ea5931a73f2c7e3fab56bb19e830ad6f870d2fa85efc04bbf9f17"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-interior-cache/drone_nozzle_root_profile.py",
+      "sha256": "4936a580a141488cfe7249c88ec67fad9925e71db8477b09fc215ced0b742aaf"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-interior-cache/experiment_drone_nozzle_interior.py",
+      "sha256": "e43c9103ab27bb773cffa2e5aea4f8187c9f6c7c33a6d4203f050e7cdb73e05c"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-interior-cache/measure_drone_nozzle_interior.py",
+      "sha256": "694069cdab51ac829a29bc474737f300337d4596e25e76f6aa5b44877ed094d6"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-interior-cache/refine_drone_nozzle_interior.py",
+      "sha256": "1e8bd28691c73c4fdc086335ae9019db7d0295240fd1c565274e9840f2401527"
+    }
+  ],
+  "baseline_archive": {
+    "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-interior-cache/v47-baseline.FCStd",
+    "sha256": "1b5a6eb7a24675e55ed958128a843aabab6d43efa6cde13803be330cd8dc9fe1"
+  },
+  "limitations": [
+    "Inner speaker-like forms are appearance assumptions, not selected hardware.",
+    "Same cameras, materials, lights, reference masks and unwarped CAD triangles.",
+    "Object-ID exposure is not reference accuracy.",
+    "Signed Boolean intersection results at coincident B-spline surfaces are not sole contact proof.",
+    "Right-side video-06 silhouette regresses slightly."
+  ]
+}

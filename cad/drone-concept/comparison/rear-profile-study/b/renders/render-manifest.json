@@ -1,0 +1,69 @@
+{
+  "fcstd_sha256": "2f1a223cae9fe3a2c37e14109fc588b7facf64dfdca84e7cc191395ca29fbc25",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "renderer_script_sha256": "ef878b1f70792030073f9b96e78d359dfb9d327621a0a1fe4ca5ea661511d89e",
+  "compute_device": "CPU",
+  "mesh_validation_repairs": [
+    "SideGuardLeft",
+    "SideGuardRight"
+  ],
+  "excluded_added_support_prefixes": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "images": [
+    {
+      "view": "video-00",
+      "path": "video-00.png",
+      "sha256": "0c8c01b0dadee5eec39012b78b0035edbbfa7f153f4ad07497adecd23e0212ee"
+    },
+    {
+      "view": "video-01",
+      "path": "video-01.png",
+      "sha256": "5d4e2153e9bc7e8bebb34aa438af6848bb1011124ebce5649e28ef2b0be6e80f"
+    },
+    {
+      "view": "video-02",
+      "path": "video-02.png",
+      "sha256": "4fc01cf43496ed4ea149974ed3b74cf332a2261184264fd29ed9fdc6f5db38cd"
+    },
+    {
+      "view": "video-03",
+      "path": "video-03.png",
+      "sha256": "49bfe96a6cd4b7728c8d1e7a348cd44590ac1965f2d22b98933cf827f869946b"
+    },
+    {
+      "view": "video-04",
+      "path": "video-04.png",
+      "sha256": "ef2ca15d4663a704ae781234afeaae1331f82d0f466413d667fbdb26b3f04e17"
+    },
+    {
+      "view": "video-05",
+      "path": "video-05.png",
+      "sha256": "ae27e617ea2406dc6ad8e89a472206b978bec111e1670d3e0e96b3c39103e034"
+    },
+    {
+      "view": "video-06",
+      "path": "video-06.png",
+      "sha256": "6ffa4e43e3e84666541e0061790e6c953e8825e307db64b321b5611f8074be08"
+    },
+    {
+      "view": "video-07",
+      "path": "video-07.png",
+      "sha256": "04a8a2c052ec1573c32578c16a31259f50694322bb86c4813b7ae118c5878950"
+    },
+    {
+      "view": "video-08",
+      "path": "video-08.png",
+      "sha256": "569e2783e1df08182c6d6bdbdacbcda01d48f54c46bb6d5c153d7cc33fcc7e95"
+    },
+    {
+      "view": "video-09",
+      "path": "video-09.png",
+      "sha256": "e11468f27b028898da44bc854a440ea87022d42d1a4945b838ae3d03e154e609"
+    }
+  ],
+  "method": "unaltered CAD tessellation; calibrated camera; transparent background"
+}

@@ -1,0 +1,36 @@
+{
+  "baseline_fcstd_sha256": "5692be44b65cae0fb26a6bae3b351e1d5dfe67f52d447a56cf35b9cecf3d91bf",
+  "fcstd_sha256": "72c8968f252d52be29c9e82a53d7b9b61b68542ae994f6beb195761cb4ad5655",
+  "compared_objects": 721,
+  "changed_objects": [
+    "BassNozzleShell",
+    "BassSideStripe0_0",
+    "BassSideStripe0_1",
+    "BassSideStripe0_2",
+    "BassSideStripe1_0",
+    "BassSideStripe1_1",
+    "BassSideStripe1_2",
+    "BassWarningPlaque",
+    "BassWarningRedBand",
+    "BassWarningTriangle",
+    "BassWarningTriangleInset",
+    "RearLowerSlope"
+  ],
+  "expected_changes": [
+    "BassNozzleShell",
+    "BassSideStripe0_0",
+    "BassSideStripe0_1",
+    "BassSideStripe0_2",
+    "BassSideStripe1_0",
+    "BassSideStripe1_1",
+    "BassSideStripe1_2",
+    "BassWarningPlaque",
+    "BassWarningRedBand",
+    "BassWarningTriangle",
+    "BassWarningTriangleInset",
+    "RearLowerSlope"
+  ],
+  "method": "exact equality of saved-model-bound vertices, faces, appearance attributes and labels; shaft BRep differences checked separately",
+  "scope": "v31 to v32 shoulder refinement and lower-closure cavity clearance",
+  "passed": true
+}

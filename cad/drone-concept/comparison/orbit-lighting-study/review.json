@@ -1,0 +1,45 @@
+{
+  "formal_fcstd_sha256": "aa3de1dc9dcea5a511dd01cfba77d394fdd4a178254d170eb1f1bc369c0389b4",
+  "formal_revision": "v53-belly-side-relief",
+  "adopted": false,
+  "formal_geometry_changed": false,
+  "formal_renderer_changed": false,
+  "formal_camera_changed": false,
+  "main_silhouette_metrics_unchanged": true,
+  "decision": "The single camera-yaw rig brightens the lower rear shell but raises same-pixel RGB error for all three inspected groups and over-brightens the metal petals. Keep the formal lighting. Source lighting remains uncertain.",
+  "renderer_manifests": [
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/video-renders/render-manifest.json",
+      "sha256": "ed94a01642ab4a1c5fb26369bedb80142d48084a2672839b7cfaa17bd30adce8",
+      "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/stills-renders/render-manifest.json",
+      "sha256": "e7a32e566dd3e03d27d3b57ed280c78db8ea4ea1e66f6b477a7f4f8e9e600239",
+      "camera_config_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb"
+    }
+  ],
+  "aggregate_diagnostics": [
+    {
+      "group": "rear_gold",
+      "pixels": 148940,
+      "baseline_rgb_mae_8bit": 38.03005013204423,
+      "camera_yaw_rgb_mae_8bit": 61.723855243722305
+    },
+    {
+      "group": "nozzle_shell",
+      "pixels": 98049,
+      "baseline_rgb_mae_8bit": 44.339031164689764,
+      "camera_yaw_rgb_mae_8bit": 49.46269042349573
+    },
+    {
+      "group": "nozzle_petals",
+      "pixels": 9673,
+      "baseline_rgb_mae_8bit": 7.960853234088012,
+      "camera_yaw_rgb_mae_8bit": 14.416210069264965
+    }
+  ],
+  "diagnostic_sha256": "8b47175c01cecb4f346814656407b31576407ffb3dc25da481830ec689241d32",
+  "reference_lighting_reconstructed": false,
+  "visual_target_met": false
+}

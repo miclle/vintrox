@@ -1,0 +1,51 @@
+{
+  "fcstd_sha256": "33eadb822b38cc5ec39d181ca017beca5e57d842f83da3b41ffe3f3b5fa5f233",
+  "camera_config_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+  "renderer_script_sha256": "bf79f2d4a1ea54a97efcd8e4f1f23221bf8434c9eda69a67e3fbf6642c59db4b",
+  "compute_device": "CPU",
+  "mesh_validation_repairs": [],
+  "excluded_added_support_prefixes": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "images": [
+    {
+      "view": "still-01",
+      "path": "still-01.png",
+      "sha256": "336bd4440e107fbddb92aef2976fd3165f01c88f7523d922b40baaad581411e7"
+    },
+    {
+      "view": "still-02",
+      "path": "still-02.png",
+      "sha256": "a5dc40c3307a4ae7c2001071d99f1ea4e23dfaf0ca8122fdf00dcef1c7371efe"
+    },
+    {
+      "view": "still-03",
+      "path": "still-03.png",
+      "sha256": "0b8e8803d71b44924dfacf4143425991484597e29e0581cc05f6d02422273e62"
+    },
+    {
+      "view": "still-04",
+      "path": "still-04.png",
+      "sha256": "5e8094a093242819e833f630abe024c81f5d2b698096f0ab625380d015306986"
+    },
+    {
+      "view": "still-05",
+      "path": "still-05.png",
+      "sha256": "e6aeaf092b0bf00300e3453db18a63f24daa8b65f9b657df20bc0799111c4853"
+    },
+    {
+      "view": "still-06",
+      "path": "still-06.png",
+      "sha256": "68790a96e8280ba5954d92adf41b7b18fc1c8436ed216642a330caa927f8d6aa"
+    },
+    {
+      "view": "still-closeup",
+      "path": "still-closeup.png",
+      "sha256": "f52d56bffd2f3764a5aad06d77840272c7c38304aa91beb6cfa8116fd3163074"
+    }
+  ],
+  "method": "unaltered CAD tessellation; calibrated camera; transparent background"
+}

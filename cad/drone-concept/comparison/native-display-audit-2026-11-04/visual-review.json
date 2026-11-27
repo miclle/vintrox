@@ -1,0 +1,26 @@
+{
+  "status": "reviewed native screenshots",
+  "report_sha256": "07a1d8a67c161a7be6d23c0745ac99a6f48b38ebcd2b3d591baf85a72e2213dc",
+  "review_board": "native-display-board.png",
+  "models": [
+    "formal-v61",
+    "research-v69",
+    "detail-v73"
+  ],
+  "views": [
+    "isometric",
+    "front",
+    "rear",
+    "right"
+  ],
+  "observations": [
+    "visible shell, screen, side controls, grille, external cylinder, nozzle and supports are colored in native views",
+    "no blank viewport or all-gray model observed",
+    "native 70 RGB triples vs mesh 74 float triples is consistent with 8-bit quantization; maximum channel delta 0.001960814"
+  ],
+  "limitations": [
+    "four views per model do not expose every face",
+    "native lighting differs from Blender reference lighting",
+    "does not close shape-match or physical acceptance"
+  ]
+}

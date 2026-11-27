@@ -1,0 +1,215 @@
+{
+  "revision": "v69-underbody-loop-radius2p2",
+  "status": "candidate; fixed-camera comparison required",
+  "baseline_fcstd_sha256": "b264b52ab81ca645865ab44196b3cabb8453abfd4f127afa49c29c41ffd973d2",
+  "fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+  "step_sha256": "12c79d911001cef99e5c52ff32fc35ec7f82d672aebc458468929107707dd1c2",
+  "changed_objects": [
+    "UnderbodyLoop0",
+    "UnderbodyLoop1"
+  ],
+  "radius_before_mm": 3.5,
+  "radius_after_mm": 2.2,
+  "centerline_paths_mm": {
+    "left": [
+      [
+        -44.5,
+        72.8,
+        57
+      ],
+      [
+        -44.5,
+        72.79,
+        43.28
+      ],
+      [
+        -44.5,
+        72.66,
+        28.78
+      ],
+      [
+        -44.5,
+        79.02,
+        14.23
+      ],
+      [
+        -44.5,
+        90.8,
+        4.28
+      ],
+      [
+        -44.5,
+        105.26,
+        4.96
+      ],
+      [
+        -44.5,
+        117.52,
+        9.58
+      ],
+      [
+        -44.5,
+        124.96,
+        19.42
+      ],
+      [
+        -44.5,
+        127.11,
+        33.41
+      ],
+      [
+        -44.5,
+        126.62,
+        47.15
+      ],
+      [
+        -44.5,
+        126.6,
+        57
+      ]
+    ],
+    "right": [
+      [
+        44.5,
+        72.8,
+        57
+      ],
+      [
+        44.5,
+        72.79,
+        43.28
+      ],
+      [
+        44.5,
+        72.66,
+        28.78
+      ],
+      [
+        44.5,
+        79.02,
+        14.23
+      ],
+      [
+        44.5,
+        90.8,
+        4.28
+      ],
+      [
+        44.5,
+        105.26,
+        4.96
+      ],
+      [
+        44.5,
+        117.52,
+        9.58
+      ],
+      [
+        44.5,
+        124.96,
+        19.42
+      ],
+      [
+        44.5,
+        127.11,
+        33.41
+      ],
+      [
+        44.5,
+        126.62,
+        47.15
+      ],
+      [
+        44.5,
+        126.6,
+        57
+      ]
+    ]
+  },
+  "before": {
+    "UnderbodyLoop0": {
+      "volume_mm3": 5315.388685,
+      "area_mm2": 3115.50955,
+      "bbox_mm": [
+        -54.121909,
+        -41.0,
+        65.535537,
+        133.765673,
+        -3.240069,
+        57.839508
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "UnderbodyLoop1": {
+      "volume_mm3": 5315.388685,
+      "area_mm2": 3115.50955,
+      "bbox_mm": [
+        34.878091,
+        48.0,
+        65.535537,
+        133.765673,
+        -3.240069,
+        57.839508
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    }
+  },
+  "after": {
+    "UnderbodyLoop0": {
+      "volume_mm3": 2100.121673,
+      "area_mm2": 1940.350372,
+      "bbox_mm": [
+        -46.7,
+        -42.3,
+        70.074151,
+        129.309983,
+        1.403003,
+        57.277704
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "UnderbodyLoop1": {
+      "volume_mm3": 2100.121673,
+      "area_mm2": 1940.350372,
+      "bbox_mm": [
+        42.3,
+        46.7,
+        70.074151,
+        129.309983,
+        1.403003,
+        57.277704
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    }
+  },
+  "measured_screen_preserved": true,
+  "registration": "fixed calibrated camera projection only; no image warp, stretch, or per-part alignment",
+  "limitations": [
+    "decorative cable thickness is an appearance assumption, not an electrical specification",
+    "black cable/background segmentation remains ambiguous",
+    "no manufacturing, fit, thermal, electrical, or physical acceptance"
+  ],
+  "saved_readback": true,
+  "readback_verification": "readback-verification.json",
+  "saved_objects_total": 698,
+  "visible_features": 696,
+  "step_solids": 1010,
+  "step_valid": true,
+  "step_closed": true,
+  "protected_supports_equal": true,
+  "all_fcstd_shapes_valid": true,
+  "all_fcstd_shapes_closed": true,
+  "color_status": {
+    "objects": 696,
+    "distinct_rgb_triples": 74,
+    "geometry_unchanged": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v114-coil85",
+      "model": "/private/tmp/vintrox-v114.mVNlG9/final-coil/candidate.FCStd",
+      "fcstd_sha256": "607ea2b5e1bdd2ec4f241e24cfbaeb5e61a9932a9de8bef4a376f2aaeb72ac79",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "607ea2b5e1bdd2ec4f241e24cfbaeb5e61a9932a9de8bef4a376f2aaeb72ac79",
+      "palette_contract_sha256": "bf8d386d462349a4b585e1b88968a2e1a38a5ec60103b065c941835d794e7c0a",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v114-coil85-isometric.png",
+          "sha256": "43c5fc8f5df7a5e8761c96ac4b9a1f5a9d396c83030f28f0feee64c704cb245c"
+        },
+        {
+          "view": "front",
+          "path": "v114-coil85-front.png",
+          "sha256": "b80150892cbad88fc7d37c9cb319764100d227977929015f45df1158091d88c9"
+        },
+        {
+          "view": "rear",
+          "path": "v114-coil85-rear.png",
+          "sha256": "33a71c232247b6eb159affdd967256a116a6e24d07900c74979d13195d03c140"
+        },
+        {
+          "view": "right",
+          "path": "v114-coil85-right.png",
+          "sha256": "8b03f3c60896fb14676c04a36eaebfe2546474ec12c4b08985c8c98f139b25bd"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

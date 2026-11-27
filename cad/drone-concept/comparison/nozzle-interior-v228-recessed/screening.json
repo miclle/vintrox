@@ -1,0 +1,34 @@
+{
+  "baseline": "v222-belly-floor515",
+  "baseline_fcstd_sha256": "2f5b3ed2c72c72dc69fae50b0bca8c349589186283dd9e67d403b8e991305218",
+  "candidate_fcstd_sha256": "0f81977d8232812a151513ef1f9dc64c20e4dbbfb7bb2377bb7cc9f3d844cb30",
+  "candidate_step_sha256": "155ac2e90f3ba358342893178ec6e5a271f9cc32cb47e8bbd89229909dc8621d",
+  "changed_objects": [
+    "BassInnerThroat",
+    "BassVisualCone",
+    "BassDustCap"
+  ],
+  "recessed": true,
+  "scores": {
+    "video": 0.8591347452800411,
+    "stills": 0.825207084518988,
+    "sheet": 0.8966945864045617
+  },
+  "baseline_scores": {
+    "video": 0.8591200614245496,
+    "stills": 0.8253481612411248,
+    "sheet": 0.8966783204946676
+  },
+  "delta": {
+    "video": 1.4683855491526288e-05,
+    "stills": -0.00014107672213670153,
+    "sheet": 1.62659098941198e-05
+  },
+  "decision": "retain v222",
+  "method": "saved real-CAD recessed nozzle interior with fixed ten-video, seven-still and ten-sheet camera comparisons",
+  "limitations": [
+    "internal speaker geometry remains appearance-only",
+    "static score regressed despite small video and sheet gains",
+    "no manufacturing, acoustic, thermal, electrical or physical acceptance"
+  ]
+}

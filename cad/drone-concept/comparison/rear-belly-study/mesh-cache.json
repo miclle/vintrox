@@ -1,0 +1,73 @@
+{
+  "mesh_files": [
+    {
+      "role": "floor-48",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/floor-48-meshes.json",
+      "sha256": "58b9954c1cbf4f4e40d2ca2630b66ad8672fde6200faa1e1aa59ac63542e5cd9"
+    },
+    {
+      "role": "floor-52.5",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/floor-52.5-meshes.json",
+      "sha256": "8e7720d85029ae9c4b9759b6af592b377e3bc46e34b0a490fe8b2b072a240540"
+    },
+    {
+      "role": "floor-52.5-center64",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/floor-52.5-center64-meshes.json",
+      "sha256": "944a0256b3d8ae720dbe984cc6ba8fb7a766dc875f09e18de5b52a931c4ada58"
+    },
+    {
+      "role": "formal-v53",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/formal/render-meshes.json",
+      "sha256": "30de767209a76fd3b7cb2282ade73b7325541127e2229e0f99cedc3d61b009fa"
+    }
+  ],
+  "exact_v52_baseline": {
+    "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/checkpoint-v52/vintrox-drone-concept.FCStd",
+    "sha256": "73e6670b87a9ba0c572181d64a359e6706133d9186e6edcf1cf6436c7c072b07"
+  },
+  "checkpoint": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/checkpoint-v53/checkpoint.json",
+  "frozen_sources": [
+    {
+      "repo_source": "tools/drone_concept.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/drone_concept.py",
+      "sha256": "676939f8e4c30e74ede4c9bb269b738ce72df98b38e561d812c4fc98439a154d"
+    },
+    {
+      "repo_source": "tools/drone_belly_relief.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/drone_belly_relief.py",
+      "sha256": "7872819fa07be4efef78b1bcc1f37e0a83f45066e67042ae62365da4940f1e30"
+    },
+    {
+      "repo_source": "tools/experiment_drone_belly_relief.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/experiment_drone_belly_relief.py",
+      "sha256": "4d652334523f439e1454f2a624240b2b2df6b9b4ecebe0709ee580f89a765e67"
+    },
+    {
+      "repo_source": "tools/refine_drone_belly_relief.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/refine_drone_belly_relief.py",
+      "sha256": "838c45dd83e91a332bfdf745a405530b77d05448b772049ea66336e30619fcaa"
+    },
+    {
+      "repo_source": "tools/measure_drone_belly_relief.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/measure_drone_belly_relief.py",
+      "sha256": "7b371fe2a1e8e3c378ece5c2378ba3a2db9b5c6fd0e3b2f50bfd892ce92b92e1"
+    },
+    {
+      "repo_source": "tools/render_drone_concept.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/render_drone_concept.py",
+      "sha256": "bf79f2d4a1ea54a97efcd8e4f1f23221bf8434c9eda69a67e3fbf6642c59db4b"
+    },
+    {
+      "repo_source": "tools/compare_drone_side_detail.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/compare_drone_side_detail.py",
+      "sha256": "5c0101cee28b2f03b02c50d060f63e942b79475acac853e1a19982f37b673d36"
+    },
+    {
+      "repo_source": "tools/verify_drone_delivery.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/verify_drone_delivery.py",
+      "sha256": "30c6a72bd683d4c9bb261d79e69fa1320fbfb4af38888621cd3c63dbd21e1401"
+    }
+  ],
+  "execution_logs_and_scripts": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/work",
+  "candidate_rerender_note": "Restore meshes.json from cache. Use each candidate frozen sources for geometry provenance."
+}

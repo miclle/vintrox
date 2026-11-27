@@ -1,0 +1,391 @@
+{
+  "revision": "v88-petal-contract096",
+  "status": "not-adopted; formal-v61-and-study-v69-retained",
+  "baseline_revision": "v69-underbody-loop-radius2p2",
+  "baseline_fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+  "candidate_fcstd_sha256": "e2442193a009663bebf925ba67bf00030851d0129759ddf778d0bfcc594a8fe4",
+  "candidate_step_sha256": "ba23ed4b29fada50bfe35d8f5fd62322d67cae7bd0e0f9a670e0231123739733",
+  "changed_objects": [
+    "NozzlePetal0",
+    "NozzlePetalInset0",
+    "NozzlePetalEdgeRail0_1",
+    "NozzlePetalEdgeRail0_20",
+    "NozzlePetalEndHem0",
+    "NozzlePetalRidge0",
+    "NozzlePetalGuide0_0",
+    "NozzlePetalGuide0_1",
+    "NozzlePetalHinge0",
+    "NozzlePetal1",
+    "NozzlePetalInset1",
+    "NozzlePetalEdgeRail1_24",
+    "NozzlePetalEdgeRail1_43",
+    "NozzlePetalEndHem1",
+    "NozzlePetalRidge1",
+    "NozzlePetalGuide1_0",
+    "NozzlePetalGuide1_1",
+    "NozzlePetalHinge1",
+    "NozzlePetal2",
+    "NozzlePetalInset2",
+    "NozzlePetalEdgeRail2_46",
+    "NozzlePetalEdgeRail2_65",
+    "NozzlePetalEndHem2",
+    "NozzlePetalRidge2",
+    "NozzlePetalGuide2_0",
+    "NozzlePetalGuide2_1",
+    "NozzlePetalHinge2",
+    "NozzlePetal3",
+    "NozzlePetalInset3",
+    "NozzlePetalEdgeRail3_69",
+    "NozzlePetalEdgeRail3_88",
+    "NozzlePetalEndHem3",
+    "NozzlePetalRidge3",
+    "NozzlePetalGuide3_0",
+    "NozzlePetalGuide3_1",
+    "NozzlePetalHinge3",
+    "NozzlePetal4",
+    "NozzlePetalInset4",
+    "NozzlePetalEdgeRail4_91",
+    "NozzlePetalEdgeRail4_110",
+    "NozzlePetalEndHem4",
+    "NozzlePetalRidge4",
+    "NozzlePetalGuide4_0",
+    "NozzlePetalGuide4_1",
+    "NozzlePetalHinge4",
+    "NozzlePetal5",
+    "NozzlePetalInset5",
+    "NozzlePetalEdgeRail5_114",
+    "NozzlePetalEdgeRail5_133",
+    "NozzlePetalEndHem5",
+    "NozzlePetalRidge5",
+    "NozzlePetalGuide5_0",
+    "NozzlePetalGuide5_1",
+    "NozzlePetalHinge5",
+    "NozzlePetal6",
+    "NozzlePetalInset6",
+    "NozzlePetalEdgeRail6_136",
+    "NozzlePetalEdgeRail6_155",
+    "NozzlePetalEndHem6",
+    "NozzlePetalRidge6",
+    "NozzlePetalGuide6_0",
+    "NozzlePetalGuide6_1",
+    "NozzlePetalHinge6",
+    "NozzlePetal7",
+    "NozzlePetalInset7",
+    "NozzlePetalEdgeRail7_159",
+    "NozzlePetalEdgeRail7_178",
+    "NozzlePetalEndHem7",
+    "NozzlePetalRidge7",
+    "NozzlePetalGuide7_0",
+    "NozzlePetalGuide7_1",
+    "NozzlePetalHinge7",
+    "NozzlePetal8",
+    "NozzlePetalInset8",
+    "NozzlePetalEdgeRail8_181",
+    "NozzlePetalEdgeRail8_200",
+    "NozzlePetalEndHem8",
+    "NozzlePetalRidge8",
+    "NozzlePetalGuide8_0",
+    "NozzlePetalGuide8_1",
+    "NozzlePetalHinge8",
+    "NozzlePetal9",
+    "NozzlePetalInset9",
+    "NozzlePetalEdgeRail9_204",
+    "NozzlePetalEdgeRail9_223",
+    "NozzlePetalEndHem9",
+    "NozzlePetalRidge9",
+    "NozzlePetalGuide9_0",
+    "NozzlePetalGuide9_1",
+    "NozzlePetalHinge9",
+    "NozzlePetal10",
+    "NozzlePetalInset10",
+    "NozzlePetalEdgeRail10_226",
+    "NozzlePetalEdgeRail10_245",
+    "NozzlePetalEndHem10",
+    "NozzlePetalRidge10",
+    "NozzlePetalGuide10_0",
+    "NozzlePetalGuide10_1",
+    "NozzlePetalHinge10",
+    "NozzlePetal11",
+    "NozzlePetalInset11",
+    "NozzlePetalEdgeRail11_249",
+    "NozzlePetalEdgeRail11_268",
+    "NozzlePetalEndHem11",
+    "NozzlePetalRidge11",
+    "NozzlePetalGuide11_0",
+    "NozzlePetalGuide11_1",
+    "NozzlePetalHinge11"
+  ],
+  "tangential_factor": 0.96,
+  "video": {
+    "candidate_mean_iou": 0.855545333130384,
+    "baseline_mean_iou": 0.8555332009171318,
+    "delta_percentage_points": 0.0012132213252136204,
+    "views": [
+      {
+        "view": "video-00",
+        "candidate_iou": 0.8737248836985229,
+        "baseline_iou": 0.8737248836985229,
+        "delta_percentage_points": 0.0
+      },
+      {
+        "view": "video-01",
+        "candidate_iou": 0.8608714293370492,
+        "baseline_iou": 0.8607734837783811,
+        "delta_percentage_points": 0.009794555866804444
+      },
+      {
+        "view": "video-02",
+        "candidate_iou": 0.8479186084378615,
+        "baseline_iou": 0.847902666681625,
+        "delta_percentage_points": 0.0015941756236537152
+      },
+      {
+        "view": "video-03",
+        "candidate_iou": 0.8313194350965325,
+        "baseline_iou": 0.8313541368451188,
+        "delta_percentage_points": -0.0034701748586329906
+      },
+      {
+        "view": "video-04",
+        "candidate_iou": 0.8280701984625631,
+        "baseline_iou": 0.8280701984625631,
+        "delta_percentage_points": 0.0
+      },
+      {
+        "view": "video-05",
+        "candidate_iou": 0.8153418088042347,
+        "baseline_iou": 0.8151927854193574,
+        "delta_percentage_points": 0.014902338487732258
+      },
+      {
+        "view": "video-06",
+        "candidate_iou": 0.8379736420252231,
+        "baseline_iou": 0.838026392255248,
+        "delta_percentage_points": -0.005275023002493384
+      },
+      {
+        "view": "video-07",
+        "candidate_iou": 0.8852953307448337,
+        "baseline_iou": 0.8853494673334831,
+        "delta_percentage_points": -0.005413658864938942
+      },
+      {
+        "view": "video-08",
+        "candidate_iou": 0.8944945926754635,
+        "baseline_iou": 0.8944945926754635,
+        "delta_percentage_points": 0.0
+      },
+      {
+        "view": "video-09",
+        "candidate_iou": 0.8804434020215558,
+        "baseline_iou": 0.8804434020215558,
+        "delta_percentage_points": 0.0
+      }
+    ]
+  },
+  "stills": {
+    "candidate_mean_iou": 0.8226795708120039,
+    "baseline_mean_iou": 0.8225961961828953,
+    "delta_percentage_points": 0.008337462910867899,
+    "views": [
+      {
+        "view": "still-01",
+        "candidate_iou": 0.8652161858748563,
+        "baseline_iou": 0.8652161858748563,
+        "delta_percentage_points": 0.0
+      },
+      {
+        "view": "still-02",
+        "candidate_iou": 0.8696146654586812,
+        "baseline_iou": 0.8696146654586812,
+        "delta_percentage_points": 0.0
+      },
+      {
+        "view": "still-03",
+        "candidate_iou": 0.8487768274887965,
+        "baseline_iou": 0.8487768274887965,
+        "delta_percentage_points": 0.0
+      },
+      {
+        "view": "still-04",
+        "candidate_iou": 0.7835964989444053,
+        "baseline_iou": 0.7835964989444053,
+        "delta_percentage_points": 0.0
+      },
+      {
+        "view": "still-05",
+        "candidate_iou": 0.780183331983265,
+        "baseline_iou": 0.7795997095795026,
+        "delta_percentage_points": 0.05836224037623072
+      },
+      {
+        "view": "still-06",
+        "candidate_iou": 0.7408007242503304,
+        "baseline_iou": 0.7408007242503304,
+        "delta_percentage_points": 0.0
+      },
+      {
+        "view": "still-closeup",
+        "candidate_iou": 0.8705687616836939,
+        "baseline_iou": 0.8705687616836939,
+        "delta_percentage_points": 0.0
+      }
+    ]
+  },
+  "boundary_attribution": {
+    "report": "video-ids/boundary-regions.json",
+    "top_exterior_families": [
+      {
+        "family": "NozzlePetal",
+        "pixels": 16351
+      },
+      {
+        "family": "LowerPodRib",
+        "pixels": 11075
+      },
+      {
+        "family": "BrowUnderside",
+        "pixels": 10838
+      },
+      {
+        "family": "ScreenBezel",
+        "pixels": 10021
+      },
+      {
+        "family": "ProjectingBrow",
+        "pixels": 8981
+      },
+      {
+        "family": "FrontCheek",
+        "pixels": 7733
+      },
+      {
+        "family": "HandleArm",
+        "pixels": 7470
+      },
+      {
+        "family": "WingInnerPaint",
+        "pixels": 5649
+      },
+      {
+        "family": "HandleInset",
+        "pixels": 5361
+      },
+      {
+        "family": "RearArmourCheek",
+        "pixels": 5228
+      },
+      {
+        "family": "Antenna",
+        "pixels": 5169
+      },
+      {
+        "family": "SideCable",
+        "pixels": 4956
+      }
+    ],
+    "primary_iou_unchanged": true
+  },
+  "readback": {
+    "saved_objects_total": 698,
+    "visible_features": 696,
+    "step_solids": 1071,
+    "step_valid": true,
+    "step_closed": true,
+    "protected_supports_equal": true,
+    "changed_mesh_saved_readback": {
+      "NozzlePetal0": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal1": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal2": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal3": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal4": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal5": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal6": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal7": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal8": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal9": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal10": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "NozzlePetal11": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      }
+    }
+  },
+  "native_display": "native-display/native-display-verification.json",
+  "native_display_summary": {
+    "name": "v88-petal-contract096",
+    "model": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/v88-petal-contract096/candidate.FCStd",
+    "fcstd_sha256": "e2442193a009663bebf925ba67bf00030851d0129759ddf778d0bfcc594a8fe4",
+    "visible_objects": 696,
+    "mesh_fcstd_sha256": "e2442193a009663bebf925ba67bf00030851d0129759ddf778d0bfcc594a8fe4",
+    "palette_contract_sha256": "b10cc25e021d270f9238f565fca02867c52242805724e063323cf69cbcae78bb",
+    "native_color_triples": 70,
+    "mesh_color_triples": 74,
+    "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+    "native_visibility_equals_mesh": true,
+    "views": [
+      {
+        "view": "isometric",
+        "path": "v88-petal-contract096-isometric.png",
+        "sha256": "5b8f3711f9605eae7f37361a100ee4803c086badce791b062dfcb29839b2f65c"
+      },
+      {
+        "view": "front",
+        "path": "v88-petal-contract096-front.png",
+        "sha256": "565399f0a5208ead6b4d272cfddde1ed257bfe70d1dc579675e68f4fee7b201a"
+      },
+      {
+        "view": "rear",
+        "path": "v88-petal-contract096-rear.png",
+        "sha256": "28e0cd038e51346a04deeab759e21ae395a3e8a3027291e79234dc3b3b485b51"
+      },
+      {
+        "view": "right",
+        "path": "v88-petal-contract096-right.png",
+        "sha256": "c082c9b8d8bf08dcee30e4954534243331b27121bd491e78b5d4cb9fb0f0afad"
+      }
+    ],
+    "file_unchanged_after_native_close": true
+  },
+  "decision": "保留为研究候选，不替换 v69",
+  "decision_basis": "0.96 tangential petal contraction is the best tested neighboring local factor, but the gain is small, the complete target is unmet, and the candidate remains an appearance hypothesis",
+  "limitations": [
+    "screen-space silhouette diagnostic only",
+    "black-material/background ambiguity and curved-screen uncertainty",
+    "measured flat screen retained; curved reference screen remains an appearance assumption",
+    "no physical, manufacturing, fit, optical, acoustic, thermal, electrical, or assembly acceptance"
+  ]
+}

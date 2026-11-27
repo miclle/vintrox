@@ -1,0 +1,38 @@
+{
+  "baseline_fcstd_sha256": "bbdc9763b307eed71640c43d17b3bd7461332fa4c704372c982e2bdf09ecf54e",
+  "fcstd_sha256": "7c68c8f934a9937a9daaab6f8f15ba8329480595ab96378bf83d4f5db32a3f1f",
+  "script_sha256": "1e4005a1ade6d204d6c8334f80f9d719d72a3be99abdf23b4502987d43b4ac59",
+  "changed_objects": [
+    "BassVisualCone",
+    "BassDustCap"
+  ],
+  "depth_mm": 4.0,
+  "contacts": {
+    "BassDustCap": {
+      "gap_mm": 2.842170943040401e-14,
+      "overlap_mm3": 48.80000079109615
+    },
+    "BassInnerThroat": {
+      "gap_mm": 1.464821375527116e-14,
+      "overlap_mm3": 30.034012035439446
+    },
+    "BassNozzleShell": {
+      "gap_mm": 2.9623890156215693,
+      "overlap_mm3": 0.0
+    },
+    "BassChamberBackplate": {
+      "gap_mm": 67.78006822770614,
+      "overlap_mm3": 0.0
+    }
+  },
+  "new_advanced_check_failures": [],
+  "contact_regressions": [],
+  "diagnostic_fcstd_sha256": "f6b7f4be15e7ce32fa6b21d00407cb79d74b2f74b95cc90c97baad8abdcaf347",
+  "step_sha256": "402ef5ef3d42e280c5288bf87159b859455fab03c095c2d77dbb778549feee62",
+  "finalizer_sha256": "116e96bd548782a090f1da8e07458e7983d6291c1754e76844877b3b2b146f7f",
+  "appearance_source_sha256": "bbdc9763b307eed71640c43d17b3bd7461332fa4c704372c982e2bdf09ecf54e",
+  "gui_members_copied": 2095,
+  "unchanged_archive_members_restored": 1098,
+  "geometry_unchanged_during_gui_restore": true,
+  "changed_mesh_geometry": "retessellated from final reopened FCStd"
+}

@@ -1,0 +1,137 @@
+{
+  "baseline_fcstd_sha256": "5ad1ff683bea72703edbf43bf349d99f13a73149772ccc08a5fb238e6b684a02",
+  "observation_source": "../v176-petal-tip-extension/visible-petal-edges.json",
+  "method": "least-squares distance from existing annotated tips to projected saved terminal hem samples",
+  "includes_occluded_geometry": true,
+  "parameter_fits": [
+    {
+      "station_mm": 100,
+      "factor": 1.498671155382187,
+      "radial_shift_mm_per_17mm": 9.840604507171866,
+      "centre_y_shift_mm_per_17mm": 9.322205426204947,
+      "views": [
+        {
+          "view": "video-04",
+          "baseline_hem_rms_px": 22.840987156266838,
+          "fit_hem_rms_px": 9.50746480867864
+        },
+        {
+          "view": "video-02",
+          "baseline_hem_rms_px": 26.90110899571135,
+          "fit_hem_rms_px": 9.882615746958214
+        },
+        {
+          "view": "video-06",
+          "baseline_hem_rms_px": 27.627764233838892,
+          "fit_hem_rms_px": 11.327430495222393
+        },
+        {
+          "view": "video-03",
+          "baseline_hem_rms_px": 15.018997087987714,
+          "fit_hem_rms_px": 8.130078869817181
+        },
+        {
+          "view": "video-05",
+          "baseline_hem_rms_px": 13.492463007253866,
+          "fit_hem_rms_px": 9.868333503983216
+        },
+        {
+          "view": "still-04",
+          "baseline_hem_rms_px": 12.641946407564788,
+          "fit_hem_rms_px": 8.04594353245838
+        },
+        {
+          "view": "still-05",
+          "baseline_hem_rms_px": 11.835940926927096,
+          "fit_hem_rms_px": 9.731752890240456
+        }
+      ]
+    },
+    {
+      "station_mm": 105,
+      "factor": 1.7372648019781336,
+      "radial_shift_mm_per_17mm": 9.999999999999998,
+      "centre_y_shift_mm_per_17mm": 9.999999999625501,
+      "views": [
+        {
+          "view": "video-04",
+          "baseline_hem_rms_px": 22.840987156266838,
+          "fit_hem_rms_px": 13.555289726980524
+        },
+        {
+          "view": "video-02",
+          "baseline_hem_rms_px": 26.90110899571135,
+          "fit_hem_rms_px": 11.893319192447489
+        },
+        {
+          "view": "video-06",
+          "baseline_hem_rms_px": 27.627764233838892,
+          "fit_hem_rms_px": 14.22787094557441
+        },
+        {
+          "view": "video-03",
+          "baseline_hem_rms_px": 15.018997087987714,
+          "fit_hem_rms_px": 9.836216109990298
+        },
+        {
+          "view": "video-05",
+          "baseline_hem_rms_px": 13.492463007253866,
+          "fit_hem_rms_px": 12.634207826487001
+        },
+        {
+          "view": "still-04",
+          "baseline_hem_rms_px": 12.641946407564788,
+          "fit_hem_rms_px": 6.206727329569531
+        },
+        {
+          "view": "still-05",
+          "baseline_hem_rms_px": 11.835940926927096,
+          "fit_hem_rms_px": 8.230383257394022
+        }
+      ]
+    },
+    {
+      "station_mm": 110,
+      "factor": 1.9999999999999996,
+      "radial_shift_mm_per_17mm": 9.999999999999998,
+      "centre_y_shift_mm_per_17mm": 9.999999999999998,
+      "views": [
+        {
+          "view": "video-04",
+          "baseline_hem_rms_px": 22.840987156266838,
+          "fit_hem_rms_px": 20.65330938582888
+        },
+        {
+          "view": "video-02",
+          "baseline_hem_rms_px": 26.90110899571135,
+          "fit_hem_rms_px": 18.03502817946927
+        },
+        {
+          "view": "video-06",
+          "baseline_hem_rms_px": 27.627764233838892,
+          "fit_hem_rms_px": 20.95588198813445
+        },
+        {
+          "view": "video-03",
+          "baseline_hem_rms_px": 15.018997087987714,
+          "fit_hem_rms_px": 12.733631945825675
+        },
+        {
+          "view": "video-05",
+          "baseline_hem_rms_px": 13.492463007253866,
+          "fit_hem_rms_px": 13.580683315023018
+        },
+        {
+          "view": "still-04",
+          "baseline_hem_rms_px": 12.641946407564788,
+          "fit_hem_rms_px": 11.231239668737635
+        },
+        {
+          "view": "still-05",
+          "baseline_hem_rms_px": 11.835940926927096,
+          "fit_hem_rms_px": 9.796946528526268
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "baseline": "v229-belly-center60",
+  "baseline_fcstd_sha256": "2d33864c9ef400875d67a4197b93b84889557a1ece28354f2e9cb36dbf2d7a09",
+  "baseline_video_mean_iou": 0.859157578083332,
+  "candidates": [
+    {
+      "candidate": "v233-speaker-all-contract",
+      "scale": 0.995,
+      "video_mean_iou": 0.8591583370197766,
+      "delta_vs_v229": 7.599364446e-07,
+      "fcstd_sha256": "37b42f04e3204cce2741ca89a53b18765b86dee81a5b5bbf786b531915428bbf",
+      "step_sha256": "0f110fd854f9d375f8dde08a88dae03b7318c893945658158561960d0704de9d",
+      "decision": "retain v229",
+      "stills_mean_iou": 0.825349737232297,
+      "stills_delta_vs_v229": -6.28996882e-07,
+      "still_views": 7
+    },
+    {
+      "candidate": "v234-speaker-all-expand",
+      "scale": 1.005,
+      "video_mean_iou": 0.8591511599728363,
+      "delta_vs_v229": -6.4181104957e-06,
+      "fcstd_sha256": "c86a250f9e46acf8ac1eb33e4ac1823b6a248d372215a4108bc9ae134f9241b3",
+      "step_sha256": "a541fb502b66e1734b280ec51b9429e7cb919f372a720c19c9652d0972a6d1ce",
+      "decision": "retain v229"
+    }
+  ],
+  "method": "saved real CAD candidate geometry; fixed calibrated video cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "protected_features": [
+    "ScreenPanel210x160x2",
+    "ActiveArea200x150",
+    "UtilityBarrel",
+    "CheekDial",
+    "CheekVentRib",
+    "SupportShaft",
+    "SupportSocket",
+    "SupportFoot",
+    "CentralSupportSeat"
+  ],
+  "limitations": [
+    "video-only screening",
+    "silhouette diagnostic only",
+    "speaker dimensions remain appearance hypotheses",
+    "no manufacturing, fit, acoustic, thermal, electrical, or physical acceptance"
+  ],
+  "mesh_storage": "not stored in Git; rebuild from each candidate FCStd with tools/export_candidate_drone_meshes.py"
+}

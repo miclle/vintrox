@@ -1,0 +1,52 @@
+{
+  "fcstd_sha256": "a517708ecfbf61416ae16f371bdfa9d319ce36b552d257707e69dc5bd9376ca6",
+  "candidate_fcstd_sha256": "be81ffb9b6b455598d5bd8873d45bd9a8129484c8ea201773b3493dcacec39e1",
+  "measurement_script_sha256": "6dfeaa0197ff6163ec2a42b1e44249786e18278e8e7373c061d956a42b7e464f",
+  "parts": [
+    {
+      "name": "RearServicePanel",
+      "valid": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "RearStructuralFrame",
+      "valid": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "shafts": [
+    {
+      "name": "SupportShaftFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "upper_cladding_preservation": [
+    {
+      "name": "RearServicePanel",
+      "scope_z_min_mm": 84,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "RearStructuralFrame",
+      "scope_z_min_mm": 84,
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "passed": true
+}

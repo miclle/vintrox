@@ -1,0 +1,24 @@
+import FreeCAD as App,FreeCADGui as Gui
+from PySide import QtCore
+from pathlib import Path
+import json,hashlib,struct,zipfile,xml.etree.ElementTree as E,traceback,os
+model=Path(os.environ['DRONE_NATIVE_MODEL']);out=Path(os.environ['DRONE_NATIVE_OUTPUT'])
+def capture():
+ try:
+  with zipfile.ZipFile(model) as z:
+   expected={}
+   for o in E.fromstring(z.read('GuiDocument.xml')).findall('.//ViewProvider'):
+    m=o.find("./Properties/Property[@name='ShapeAppearance']/MaterialList")
+    if m is not None:
+     raw=z.read(m.get('file'));rgba=struct.unpack('<I',raw[8:12])[0];expected[o.get('name')]=[(rgba>>s&255)/255 for s in (24,16,8,0)]
+  shapes=[o for o in d.Objects if hasattr(o,'Shape') and not o.Shape.isNull() and o.ViewObject.Visibility]
+  colors={o.Name:list(o.ViewObject.ShapeAppearance[0].DiffuseColor) for o in shapes}
+  differences=[{'name':n,'actual':c,'serialized':expected[n]} for n,c in colors.items() if max(abs(a-b) for a,b in zip(c,expected[n]))>1e-5]
+  out.write_text(json.dumps({'fcstd_sha256':hashlib.sha256(model.read_bytes()).hexdigest(),'colors':colors,'serialized_mismatches':differences,'object_count':len(d.Objects),'visible_shapes':len(shapes),'view_providers':sum(o.ViewObject is not None for o in d.Objects),'all_shape_colors_available':all(len(c) in (3,4) for c in colors.values()),'saved_again':False,'native_matches_serialized_colors':not differences,'passed':len(d.Objects)==700 and len(shapes)==696 and not differences},indent=2)+'\n');App.closeDocument(d.Name)
+ except Exception:out.with_suffix('.error.txt').write_text(traceback.format_exc())
+ Gui.getMainWindow().close()
+def open_after_startup():
+ global d
+ d=App.openDocument(str(model))
+ QtCore.QTimer.singleShot(1000,capture)
+QtCore.QTimer.singleShot(1000,open_after_startup)

@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v115-thin",
+      "model": "/private/tmp/vintrox-v115.KU9YnD/thin/candidate.FCStd",
+      "fcstd_sha256": "dea1b7a16a7195b9821a172f5e14bfa0742acee5209eeaa3e48776b1c95cb70e",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "dea1b7a16a7195b9821a172f5e14bfa0742acee5209eeaa3e48776b1c95cb70e",
+      "palette_contract_sha256": "67c02fe34419fe3f4a070fea311ab28ce1825f9eb84daf745ed038971ce1b324",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v115-thin-isometric.png",
+          "sha256": "d09e305d5aade78d88d31d0e29127ec36c441bae6da8b9dc3113924ee69101d0"
+        },
+        {
+          "view": "front",
+          "path": "v115-thin-front.png",
+          "sha256": "a73a042fee130ffd04d12f64c6c1ef08ecc9d6d6c2cae68272b5b25623bac2e8"
+        },
+        {
+          "view": "rear",
+          "path": "v115-thin-rear.png",
+          "sha256": "9d068bb01ecc0e7112805ec713e5f65ef86e0ed870372cfb35d5df1f0c15697b"
+        },
+        {
+          "view": "right",
+          "path": "v115-thin-right.png",
+          "sha256": "9a011bd715ce04ff9887f46cdb3246e10c5b24bbcd020fcd0219e0f8cf0c08a8"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "baseline": "v155-rear-belly-relief",
+  "candidate": "brow-liner-height-scale-0.96",
+  "metrics": {
+    "video": {
+      "baseline": 0.858758643294756,
+      "candidate": 0.8587494348409003,
+      "views": 10
+    },
+    "stills": {
+      "baseline": 0.8248448363810101,
+      "candidate": 0.8248091409419239,
+      "views": 7
+    },
+    "sheet": {
+      "baseline": 0.8963851709070614,
+      "candidate": 0.8963792999841663,
+      "views": 10
+    }
+  },
+  "fcstd_sha256": "261af5f10f24488b029737ed93c400ed4e35f9f559b0d69c593d845446e95d59",
+  "step_sha256": "3044cd35c9472191212ada39bb557f780739cc4831a3ba7c13dab7cbabd14bf2",
+  "changed_objects": [
+    "BrowUnderside"
+  ],
+  "decision": "retain v155",
+  "reason": "All three aggregate metrics regress relative to v155.",
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "limitations": [
+    "front-brow scale is an image-derived appearance hypothesis",
+    "measured flat screen retained; curved reference screen remains an appearance assumption",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}

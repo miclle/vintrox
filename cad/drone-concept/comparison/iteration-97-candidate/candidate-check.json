@@ -1,0 +1,47 @@
+{
+  "baseline_fcstd_sha256": "cf25bc7193b3051a5aa8bb28e19685990768e4c0e71a4c19432b19137da680aa",
+  "candidate_fcstd_sha256": "1b63d7d1559709422ad211c42efcb6f6291614feb76ecc6ea5f643029694d503",
+  "changed_objects": [
+    "RearArmourCheekLeft",
+    "RearArmourCheekRight"
+  ],
+  "outer_x_mm": 115.5,
+  "baseline_outer_x_mm": 112.76,
+  "outer_expand_mm": 2.74,
+  "contacts": [
+    {
+      "objects": [
+        "RearArmourCheekLeft",
+        "RearStructuralFrame"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "RearArmourCheekLeft",
+        "SideGuardLeft"
+      ],
+      "gap_mm": 3.999999999999986,
+      "overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "RearArmourCheekRight",
+        "RearStructuralFrame"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "RearArmourCheekRight",
+        "SideGuardRight"
+      ],
+      "gap_mm": 3.999999999999986,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "supports_edited": false,
+  "status": "exploratory candidate; fixed-camera comparison pending"
+}

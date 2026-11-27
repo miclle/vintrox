@@ -1,0 +1,169 @@
+{
+  "status": "not adopted; retain joint radius and centre shear diagnosis",
+  "candidate_fcstd_sha256": "1ecf16927e8b145515090ca507aff92c28e86b7f29a6d2184bfe58d39467524a",
+  "baseline": "v69; formal v61 unchanged",
+  "scores": {
+    "video": {
+      "candidate": 0.854809429851292,
+      "baseline_v69": 0.8555332009171318,
+      "delta": -0.0007237710658397623
+    },
+    "stills": {
+      "candidate": 0.8222008764904629,
+      "baseline_v69": 0.8225961961828953,
+      "delta": -0.0003953196924323388
+    }
+  },
+  "per_view": {
+    "video": [
+      {
+        "view": "video-00",
+        "candidate": 0.8737248836985229,
+        "baseline_v69": 0.8737248836985229,
+        "delta": 0.0
+      },
+      {
+        "view": "video-01",
+        "candidate": 0.8595636404532291,
+        "baseline_v69": 0.8607734837783811,
+        "delta": -0.0012098433251520602
+      },
+      {
+        "view": "video-02",
+        "candidate": 0.8472550901946776,
+        "baseline_v69": 0.847902666681625,
+        "delta": -0.0006475764869473544
+      },
+      {
+        "view": "video-03",
+        "candidate": 0.8297763097092198,
+        "baseline_v69": 0.8313541368451188,
+        "delta": -0.0015778271358990459
+      },
+      {
+        "view": "video-04",
+        "candidate": 0.8255940972926301,
+        "baseline_v69": 0.8280701984625631,
+        "delta": -0.0024761011699330204
+      },
+      {
+        "view": "video-05",
+        "candidate": 0.8130845066855041,
+        "baseline_v69": 0.8151927854193574,
+        "delta": -0.0021082787338532194
+      },
+      {
+        "view": "video-06",
+        "candidate": 0.838035719323985,
+        "baseline_v69": 0.838026392255248,
+        "delta": 9.327068737019495e-06
+      },
+      {
+        "view": "video-07",
+        "candidate": 0.886122056458133,
+        "baseline_v69": 0.8853494673334831,
+        "delta": 0.0007725891246499472
+      },
+      {
+        "view": "video-08",
+        "candidate": 0.8944945926754635,
+        "baseline_v69": 0.8944945926754635,
+        "delta": 0.0
+      },
+      {
+        "view": "video-09",
+        "candidate": 0.8804434020215558,
+        "baseline_v69": 0.8804434020215558,
+        "delta": 0.0
+      }
+    ],
+    "stills": [
+      {
+        "view": "still-01",
+        "candidate": 0.8652161858748563,
+        "baseline_v69": 0.8652161858748563,
+        "delta": 0.0
+      },
+      {
+        "view": "still-02",
+        "candidate": 0.8696146654586812,
+        "baseline_v69": 0.8696146654586812,
+        "delta": 0.0
+      },
+      {
+        "view": "still-03",
+        "candidate": 0.8487768274887965,
+        "baseline_v69": 0.8487768274887965,
+        "delta": 0.0
+      },
+      {
+        "view": "still-04",
+        "candidate": 0.7833265183191976,
+        "baseline_v69": 0.7835964989444053,
+        "delta": -0.0002699806252076664
+      },
+      {
+        "view": "still-05",
+        "candidate": 0.7774342617693516,
+        "baseline_v69": 0.7795997095795026,
+        "delta": -0.0021654478101510444
+      },
+      {
+        "view": "still-06",
+        "candidate": 0.7404689148386627,
+        "baseline_v69": 0.7408007242503304,
+        "delta": -0.00033180941166766065
+      },
+      {
+        "view": "still-closeup",
+        "candidate": 0.8705687616836939,
+        "baseline_v69": 0.8705687616836939,
+        "delta": 0.0
+      }
+    ]
+  },
+  "new_advanced_failures": 0,
+  "contact_regressions": 0,
+  "export_relative_volume_error": 3.655140920607918e-07,
+  "changed_mesh_equal_saved_readback": true,
+  "root_volume_difference_passed": true,
+  "visible_observed_tip_rms_improved_views": [
+    "video-04",
+    "video-02",
+    "video-06",
+    "video-03",
+    "still-04",
+    "still-05"
+  ],
+  "visible_observed_tip_max_over_5_percent_screen_span_views": [
+    "video-02",
+    "video-06",
+    "still-05"
+  ],
+  "excess_outside_filled_reference_px": {
+    "baseline": 194695,
+    "candidate": 203067
+  },
+  "native_display": "four native views visually reviewed; 696 visible objects; saved GUI colors within half an 8-bit level of mesh; file unchanged",
+  "decision": "six visible observed-tip RMS improve but video05 regresses and both global image averages decline; enlargement adds exterior excess",
+  "rear_closeup": {
+    "crop_xyxy": [
+      340,
+      530,
+      610,
+      770
+    ],
+    "uniform_scale": 2,
+    "view": "video-04",
+    "image_sha256": "49643df382f49b8c60f29f3a149e11b0fa6c1f18ad03e7f559cc0ffb51751f2d"
+  },
+  "limitations": [
+    "all seven observations previously inspected; no fresh holdouts",
+    "visible family boundary includes roots and occlusion edges; partial tips are not full-part contour acceptance",
+    "joint optimum hits centre-shift bound; selected rounded parameters are an exploratory hypothesis",
+    "fixed guides and hinges can leave long sheet ends without matching extended details",
+    "measured flat screen retained; curved cover and hidden details are assumptions",
+    "90 percent whole silhouette and complete main-part 5 percent target remain unmet",
+    "no physical or manufacturing acceptance"
+  ]
+}

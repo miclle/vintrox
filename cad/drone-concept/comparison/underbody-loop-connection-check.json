@@ -1,0 +1,53 @@
+{
+  "previous_fcstd_sha256": "c8c26cb88565d6e5c78559fa07ec4bc8411b722302a08cf8157d09221411f42c",
+  "current_fcstd_sha256": "4e32151d02b5808c64904d8ef18c16fd7a5d4facf5d771af0f2a30eea6e4fdb8",
+  "method": "Saved face.findPlane(1e-6), end cap centre, 12 mm sphere clipped to loop and body compound; positive volume > 0.1 mm3",
+  "previous_rear_end_z_mm": 47,
+  "previous_rear_end_overlap_mm3": [
+    0,
+    0
+  ],
+  "current_connections": [
+    {
+      "name": "UnderbodyLoop0",
+      "end_centre_mm": [
+        -44.499868290577865,
+        54.0,
+        51.0
+      ],
+      "probe_radius_mm": 12,
+      "body_overlap_mm3": 1103.6652550526862
+    },
+    {
+      "name": "UnderbodyLoop0",
+      "end_centre_mm": [
+        -44.49986829057787,
+        161.99999999999676,
+        78.0000000000007
+      ],
+      "probe_radius_mm": 12,
+      "body_overlap_mm3": 490.85353718674844
+    },
+    {
+      "name": "UnderbodyLoop1",
+      "end_centre_mm": [
+        44.50013170942162,
+        54.00000000000001,
+        51.0
+      ],
+      "probe_radius_mm": 12,
+      "body_overlap_mm3": 1103.665255033209
+    },
+    {
+      "name": "UnderbodyLoop1",
+      "end_centre_mm": [
+        44.50013170942161,
+        161.99999999999676,
+        78.0000000000007
+      ],
+      "probe_radius_mm": 12,
+      "body_overlap_mm3": 490.85353718679715
+    }
+  ],
+  "scope": "visual solid attachment only; not manufactured joint validation"
+}

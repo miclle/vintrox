@@ -1,0 +1,79 @@
+{
+  "fcstd_sha256": "1b5a6eb7a24675e55ed958128a843aabab6d43efa6cde13803be330cd8dc9fe1",
+  "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "views": [
+    {
+      "view": "video-02",
+      "objects": [
+        {
+          "object": "BassVisualCone",
+          "visible_pixels": 0
+        },
+        {
+          "object": "BassDustCap",
+          "visible_pixels": 0
+        },
+        {
+          "object": "BassInnerThroat",
+          "visible_pixels": 623
+        }
+      ]
+    },
+    {
+      "view": "video-04",
+      "objects": [
+        {
+          "object": "BassVisualCone",
+          "visible_pixels": 4011
+        },
+        {
+          "object": "BassDustCap",
+          "visible_pixels": 240
+        },
+        {
+          "object": "BassInnerThroat",
+          "visible_pixels": 2535
+        }
+      ]
+    },
+    {
+      "view": "video-06",
+      "objects": [
+        {
+          "object": "BassVisualCone",
+          "visible_pixels": 0
+        },
+        {
+          "object": "BassDustCap",
+          "visible_pixels": 0
+        },
+        {
+          "object": "BassInnerThroat",
+          "visible_pixels": 599
+        }
+      ]
+    }
+  ],
+  "object_rgb": {
+    "BassVisualCone": [
+      136,
+      24,
+      96
+    ],
+    "BassDustCap": [
+      152,
+      24,
+      96
+    ],
+    "BassInnerThroat": [
+      168,
+      24,
+      96
+    ]
+  },
+  "method": "exact RGB count on baseline opaque object-ID images; no source boundary interpretation",
+  "limitations": [
+    "Counts cover whole image and only tell which saved part is visible.",
+    "A dark reference patch is not assumed to be a solid cap or tube."
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "fcstd_sha256": "2fd860e3db1305c60adb4ec14744ed9374b69fe13b9cab5c9258cfb88b9107f2",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "measurement_script_sha256": "cb285b82b3f457c4919d2a10fded1070a2a0e080d0587fa5a3addf7c27086163",
+  "object_id_manifest_sha256": "b1fc1165f0565969931f0265ffc2e1cc7d2e63e5f267b7088d73e777e8d5bece",
+  "source_files": [
+    {
+      "path": "cad/drone-concept/comparison/nozzle-fairing-candidate-d-ids/video-03.png",
+      "sha256": "f9df443545fb66baa7525e8d628c011094222f43124ae11442aba91b9eef7de5"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-63/reference-frames/frame-04.png",
+      "sha256": "0d8806db3363c684e6e42e641883d59705af1a938511637a2cbb9c88a116a82f"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-fairing-candidate-d-renders/video-03.png",
+      "sha256": "891f39d8a60a124fad333668608069d6017cdfd10a9fe262c2e70b00b5a562d3"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-fairing-candidate-d-ids/video-04.png",
+      "sha256": "5e602f7c9270758fde2f8214d6a084c9049206986c1e095766dfa18896c4d185"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-63/reference-frames/frame-05.png",
+      "sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-fairing-candidate-d-renders/video-04.png",
+      "sha256": "d591e5b52ba3efbfa912c9356ac392b851092cc5ad610788b15e4c5e0c1a34d0"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-fairing-candidate-d-ids/video-05.png",
+      "sha256": "24be79428f0e237a851f52386f804a205e95e27a0d0dee506073ac6429d92448"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-63/reference-frames/frame-06.png",
+      "sha256": "6163748cf00f271a738409696656ddd46ca93481e0bfab683b656e6e8a38a204"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-fairing-candidate-d-renders/video-05.png",
+      "sha256": "72f1cd8b78d37da198f0263627330bb536630be96dee75ed88d9c87d73eb3c8f"
+    }
+  ],
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "observations": [
+    {
+      "source_frame": 90,
+      "reference_px": [
+        [
+          297,
+          408
+        ],
+        [
+          312,
+          396
+        ],
+        [
+          331,
+          389
+        ],
+        [
+          351,
+          385
+        ],
+        [
+          372,
+          383
+        ],
+        [
+          394,
+          385
+        ],
+        [
+          416,
+          392
+        ],
+        [
+          435,
+          408
+        ],
+        [
+          449,
+          431
+        ],
+        [
+          458,
+          459
+        ],
+        [
+          464,
+          485
+        ]
+      ],
+      "nearest_visible_px": [
+        [
+          301,
+          429
+        ],
+        [
+          312,
+          427
+        ],
+        [
+          324,
+          426
+        ],
+        [
+          354,
+          429
+        ],
+        [
+          359,
+          430
+        ],
+        [
+          372,
+          434
+        ],
+        [
+          391,
+          443
+        ],
+        [
+          407,
+          453
+        ],
+        [
+          421,
+          464
+        ],
+        [
+          437,
+          480
+        ],
+        [
+          449,
+          496
+        ]
+      ],
+      "distance_px": [
+        21.37755832643195,
+        31.0,
+        37.656340767525464,
+        44.10215414239989,
+        48.76474136094644,
+        53.71219600798314,
+        56.79788728465171,
+        53.0,
+        43.278170016764804,
+        29.698484809834994,
+        18.601075237738275
+      ],
+      "rms_px": 41.75687205282939,
+      "max_px": 56.79788728465171
+    },
+    {
+      "source_frame": 120,
+      "reference_px": [
+        [
+          340,
+          447
+        ],
+        [
+          350,
+          425
+        ],
+        [
+          370,
+          408
+        ],
+        [
+          395,
+          397
+        ],
+        [
+          425,
+          390
+        ],
+        [
+          455,
+          386
+        ],
+        [
+          483,
+          386
+        ],
+        [
+          512,
+          389
+        ],
+        [
+          542,
+          398
+        ],
+        [
+          567,
+          413
+        ],
+        [
+          584,
+          432
+        ],
+        [
+          598,
+          456
+        ]
+      ],
+      "nearest_visible_px": [
+        [
+          357,
+          471
+        ],
+        [
+          370,
+          462
+        ],
+        [
+          391,
+          451
+        ],
+        [
+          410,
+          443
+        ],
+        [
+          435,
+          436
+        ],
+        [
+          455,
+          433
+        ],
+        [
+          492,
+          433
+        ],
+        [
+          502,
+          434
+        ],
+        [
+          532,
+          441
+        ],
+        [
+          551,
+          448
+        ],
+        [
+          569,
+          457
+        ],
+        [
+          588,
+          469
+        ]
+      ],
+      "distance_px": [
+        29.410882339705484,
+        42.05948168962618,
+        47.853944456021594,
+        48.38388161361178,
+        47.07440918375928,
+        47.0,
+        47.853944456021594,
+        46.09772228646444,
+        44.14748010928823,
+        38.48376280978771,
+        29.154759474226502,
+        16.401219466856727
+      ],
+      "rms_px": 41.486945737986865,
+      "max_px": 48.38388161361178
+    },
+    {
+      "source_frame": 150,
+      "reference_px": [
+        [
+          488,
+          431
+        ],
+        [
+          499,
+          411
+        ],
+        [
+          519,
+          397
+        ],
+        [
+          541,
+          389
+        ],
+        [
+          564,
+          383
+        ],
+        [
+          587,
+          380
+        ],
+        [
+          610,
+          378
+        ],
+        [
+          633,
+          383
+        ],
+        [
+          653,
+          395
+        ],
+        [
+          669,
+          418
+        ],
+        [
+          681,
+          444
+        ],
+        [
+          688,
+          473
+        ]
+      ],
+      "nearest_visible_px": [
+        [
+          524,
+          466
+        ],
+        [
+          533,
+          458
+        ],
+        [
+          551,
+          445
+        ],
+        [
+          566,
+          437
+        ],
+        [
+          581,
+          431
+        ],
+        [
+          592,
+          428
+        ],
+        [
+          621,
+          426
+        ],
+        [
+          632,
+          426
+        ],
+        [
+          646,
+          429
+        ],
+        [
+          660,
+          434
+        ],
+        [
+          681,
+          446
+        ],
+        [
+          688,
+          485
+        ]
+      ],
+      "distance_px": [
+        50.20956084253277,
+        58.008620049092706,
+        57.688820407423826,
+        54.120236510939236,
+        50.92150822589606,
+        48.25971404805462,
+        49.24428900898052,
+        43.01162633521314,
+        34.713109915419565,
+        18.35755975068582,
+        2.0,
+        12.0
+      ],
+      "rms_px": 43.80829449621004,
+      "max_px": 58.008620049092706
+    }
+  ],
+  "rms_px": 42.380588548465035,
+  "max_px": 58.008620049092706,
+  "image_path": "cad/drone-concept/comparison/nozzle-fairing-candidate-d-check.png",
+  "image_sha256": "901751372f110409d2f966e0cff49a70932cdcd25c15239dcf4799edafbce98f",
+  "limitations": [
+    "manual 35-point visible upper boundary; incomplete outer contour",
+    "occlusion boundary depends on neighbouring parts and fixed camera",
+    "closest-point distance permits correspondence ambiguity",
+    "not a fit result, manufacturing measurement or whole-model acceptance"
+  ]
+}

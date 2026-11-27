@@ -1,0 +1,35 @@
+{
+  "baseline": "v155-rear-belly-relief",
+  "candidate": "front-brow-scale-0.995",
+  "metrics": {
+    "video": {
+      "baseline": 0.858758643294756,
+      "candidate": 0.8587066929725629,
+      "views": 10
+    },
+    "stills": {
+      "baseline": 0.8248448363810101,
+      "candidate": 0.8249840339652936,
+      "views": 7
+    },
+    "sheet": {
+      "baseline": 0.8963851709070614,
+      "candidate": 0.896298766358209,
+      "views": 10
+    }
+  },
+  "fcstd_sha256": "23d44992136b76f33ed27d9fcc2b9bfd9c073942707808536fbfb7bc6a911180",
+  "step_sha256": "d56e8fe1ffa526bfe37c2494a012e5d847da3765f07222a8cfa13902f14aae95",
+  "changed_objects": [
+    "BrowUnderside",
+    "ProjectingBrow"
+  ],
+  "decision": "retain v155",
+  "reason": "Static mean improves, while video and contact-sheet means regress. This is a tradeoff rather than a global improvement.",
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "limitations": [
+    "front-brow scale is an image-derived appearance hypothesis",
+    "measured flat screen retained; curved reference screen remains an appearance assumption",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}

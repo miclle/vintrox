@@ -1,0 +1,20 @@
+{
+  "revision": "v215-control-forward025",
+  "baseline_fcstd_sha256": "aedd1fc5039265123f71b43faab01939faa4dc2fd84ee0955efee7c3b9aaab1b",
+  "fcstd_sha256": "ed115a3dd076e8cba1b7b03b48f151cd18d4b6f790b6a3482f319399cfd30504",
+  "step_sha256": "4f056f75f5423db1cb75a0a6cd8051524e0352beda58e28c19721305ffda7e9d",
+  "shift_y_mm": -0.25,
+  "changed_objects": [
+    "ControlRail",
+    "ControlRailLip",
+    "ControlInset",
+    "ControlKeyBed",
+    "ControlRailEndLeft",
+    "ControlRailEndRight",
+    "ControlEndBoltLeft",
+    "ControlEndBoltRight"
+  ],
+  "visible_features": 696,
+  "mesh_rebuild": "temporary mesh from saved candidate FCStd",
+  "status": "screening candidate"
+}

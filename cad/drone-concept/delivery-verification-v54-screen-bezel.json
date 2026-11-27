@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "scope": "v54 screen bezel appearance refinement; saved static appearance evidence only",
+  "fcstd_sha256": "0df34a20c2cac4de03bd287734f7aac8da4bab2989dc4865920f1162b5ab9021",
+  "step_sha256": "f42d244a7f6d6ae2da041f50b854a870fe5dadbcb398bf11ead5b5e1e9f199b6",
+  "generator_sha256": "d6eae0d71e2c85df593ab33a0d71494ff698f8cffdf336f6f28fb7c83d700e6e",
+  "visible_features": 696,
+  "step_solids": 805,
+  "changed_objects": [
+    "ScreenBezel",
+    "BezelLip"
+  ],
+  "protected_supports_unchanged": true,
+  "screen_panel_mm": [
+    210,
+    160,
+    2
+  ],
+  "active_area_mm": [
+    200,
+    150
+  ],
+  "screen_bezel_outer_mm": [
+    220,
+    172
+  ],
+  "screen_bezel_lip_mm": [
+    224,
+    176
+  ],
+  "screen_bezel_opening_mm": [
+    202,
+    152
+  ],
+  "readback_verification": "readback-verification.json",
+  "formal_geometry_check": "comparison/screen-bezel-220x172-study/formal-geometry-check.json",
+  "render_manifest": "renders/render-manifest.json",
+  "video_comparison": "comparison/iteration-89/comparison-report.json",
+  "still_comparison": "comparison/stills-60/comparison-report.json",
+  "object_id_manifest": "comparison/object-ids-v55/object-id-manifest.json",
+  "mean_video_iou": 0.8513408076378133,
+  "mean_stills_iou": 0.8204490632797629,
+  "baseline_video_iou": 0.8509225998093729,
+  "baseline_stills_iou": 0.8204265404563873,
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "physical_validation": false,
+  "limitations": [
+    "Outer bezel and metal lip are appearance fit; measured screen input and active opening remain unchanged.",
+    "Fixed-camera silhouette scores include all regressions and do not establish full surface or detail identity.",
+    "This report does not establish printability, assembly, electrical, acoustics or manufacturing acceptance."
+  ]
+}

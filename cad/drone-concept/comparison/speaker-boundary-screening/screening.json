@@ -1,0 +1,74 @@
+{
+  "baseline": "v193-lowerpod-rib-rails-bezel",
+  "baseline_video_mean_iou": 0.8591005233796649,
+  "candidates": [
+    {
+      "candidate": "v201",
+      "description": "外口压圈与细压边",
+      "scale": 0.995,
+      "video_mean_iou": 0.859099728909056,
+      "delta_vs_v193": -7.944706089668685e-07,
+      "changed_objects": [
+        "SpeakerOuterLipLeft",
+        "SpeakerLipTrimLeft",
+        "SpeakerOuterLipRight",
+        "SpeakerLipTrimRight"
+      ],
+      "fcstd_sha256": "d9522b8f9c0143f1b51be7002ea9b0dd726d15958fe3138a16168974a408e2d8",
+      "decision": "retain v193"
+    },
+    {
+      "candidate": "v202",
+      "description": "外口压圈与细压边",
+      "scale": 1.005,
+      "video_mean_iou": 0.8590943650068071,
+      "delta_vs_v193": -6.158372857778538e-06,
+      "changed_objects": [
+        "SpeakerOuterLipLeft",
+        "SpeakerLipTrimLeft",
+        "SpeakerOuterLipRight",
+        "SpeakerLipTrimRight"
+      ],
+      "fcstd_sha256": "e4d6408cc0cedce4d95194c62078469852c684cdbc5ad1dface35d7aca844149",
+      "decision": "retain v193"
+    },
+    {
+      "candidate": "v203",
+      "description": "锥盆与悬边",
+      "scale": 0.995,
+      "video_mean_iou": 0.8590969632107928,
+      "delta_vs_v193": -3.5601688721520475e-06,
+      "changed_objects": [
+        "SpeakerSurroundLeft",
+        "SpeakerVisualConeLeft",
+        "SpeakerSurroundRight",
+        "SpeakerVisualConeRight"
+      ],
+      "fcstd_sha256": "782bcb2a5afd65194fac64a2b14528fa82ead5453cd82266e8ae8b3abe8e829c",
+      "decision": "retain v193"
+    }
+  ],
+  "method": "analytic real-CAD reconstruction of selected speaker object families; fixed calibrated cameras; no image warp, per-part alignment, or omitted visible parts",
+  "protected_features": [
+    "ScreenPanel210x160x2",
+    "ActiveArea200x150",
+    "UtilityBarrel",
+    "CheekDial",
+    "CheekVentRib",
+    "SupportShaft",
+    "SupportSocket",
+    "SupportFoot",
+    "CentralSupportSeat"
+  ],
+  "decision": "retain v193",
+  "limitations": [
+    "video-only screening for these candidates",
+    "silhouette diagnostic only",
+    "speaker dimensions remain appearance hypotheses",
+    "no manufacturing, fit, acoustic, thermal, electrical, or physical acceptance"
+  ],
+  "mesh_storage": "not stored in Git; rebuild from each candidate FCStd with tools/export_saved_drone_meshes.py",
+  "mesh_exporter_sha256": "57eb2d587a74fdcd6ad48a0e6ce328ccab8ac3e87fe58313c506056997def57a",
+  "builder_script": "tools/experiment_drone_speaker_boundary.py",
+  "builder_script_sha256": "05802e3acfd1e402a7a9c0c8d4786e26749f6d0e4779e085f2325e0f10565374"
+}

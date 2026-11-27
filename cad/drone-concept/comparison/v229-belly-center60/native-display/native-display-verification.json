@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v229",
+      "model": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/vintrox-drone-concept.FCStd",
+      "fcstd_sha256": "2d33864c9ef400875d67a4197b93b84889557a1ece28354f2e9cb36dbf2d7a09",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "2d33864c9ef400875d67a4197b93b84889557a1ece28354f2e9cb36dbf2d7a09",
+      "palette_contract_sha256": "15a38fccb1e72f79ed498014ed41d813f8d5c95cf987e4ad9764a535797f77d3",
+      "native_color_triples": 70,
+      "mesh_color_triples": 70,
+      "max_native_vs_mesh_channel_difference": 2.9685450542160652e-08,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v229-isometric.png",
+          "sha256": "d5471fc525b97a3dfa68a64cfe3526a781a259f0ad8247df7aa6cf692e261935"
+        },
+        {
+          "view": "front",
+          "path": "v229-front.png",
+          "sha256": "94a283e86bd7296f4862642ca270c9f501667a4a9c522e50c533a71c0b392270"
+        },
+        {
+          "view": "rear",
+          "path": "v229-rear.png",
+          "sha256": "0dacd92246d48b1909365e6d6e5f5ba26a20f6f43405ccae3415971eede41e69"
+        },
+        {
+          "view": "right",
+          "path": "v229-right.png",
+          "sha256": "add0643abe331f1a4a506a031ec9549d28a10b1714582afe9ce36ed91883988c"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

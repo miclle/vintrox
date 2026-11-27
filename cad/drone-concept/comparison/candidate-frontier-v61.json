@@ -1,0 +1,254 @@
+{
+  "baseline": "cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-report.json",
+  "baseline_mean_silhouette_iou": 0.8549201687353198,
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "registration": "camera projection only; no image warp, stretch or per-part alignment",
+  "candidates": [
+    {
+      "report": "cad/drone-concept/comparison/v61-followup-study/shoulder125/video-comparison/comparison-report.json",
+      "mean_silhouette_iou": 0.8549002657218313,
+      "delta_mean": -1.9903013488531407e-05,
+      "improved_views": 5,
+      "regressed_views": 3,
+      "delta_by_view": [
+        {
+          "view": "video-00",
+          "delta": 0.00041662143109844063
+        },
+        {
+          "view": "video-01",
+          "delta": 5.0354064638380436e-05
+        },
+        {
+          "view": "video-02",
+          "delta": 1.9666700353804245e-06
+        },
+        {
+          "view": "video-03",
+          "delta": 0.0002964858982459351
+        },
+        {
+          "view": "video-04",
+          "delta": 0.0
+        },
+        {
+          "view": "video-05",
+          "delta": -0.000785634166945659
+        },
+        {
+          "view": "video-06",
+          "delta": -5.700374404082886e-05
+        },
+        {
+          "view": "video-07",
+          "delta": -0.00036985700611325
+        },
+        {
+          "view": "video-08",
+          "delta": 0.00024803671819528805
+        },
+        {
+          "view": "video-09",
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "report": "cad/drone-concept/comparison/v61-followup-study/shoulder110/video-comparison/comparison-report.json",
+      "mean_silhouette_iou": 0.8547705549619236,
+      "delta_mean": -0.00014961377339628434,
+      "improved_views": 3,
+      "regressed_views": 5,
+      "delta_by_view": [
+        {
+          "view": "video-00",
+          "delta": 0.0004869545871371006
+        },
+        {
+          "view": "video-01",
+          "delta": 4.93763728669494e-05
+        },
+        {
+          "view": "video-02",
+          "delta": -1.8481112588841775e-05
+        },
+        {
+          "view": "video-03",
+          "delta": -0.00023387231966265354
+        },
+        {
+          "view": "video-04",
+          "delta": 0.0
+        },
+        {
+          "view": "video-05",
+          "delta": -0.001485372301335386
+        },
+        {
+          "view": "video-06",
+          "delta": -9.092782759589912e-05
+        },
+        {
+          "view": "video-07",
+          "delta": -0.0004576234495244913
+        },
+        {
+          "view": "video-08",
+          "delta": 0.0002538083167423766
+        },
+        {
+          "view": "video-09",
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "report": "cad/drone-concept/comparison/v63-screen-bezel-study-3/video-comparison/comparison-report.json",
+      "mean_silhouette_iou": 0.8545203737536108,
+      "delta_mean": -0.00039979498170905625,
+      "improved_views": 2,
+      "regressed_views": 7,
+      "delta_by_view": [
+        {
+          "view": "video-00",
+          "delta": -0.0002075507967111978
+        },
+        {
+          "view": "video-01",
+          "delta": -0.000437122270615653
+        },
+        {
+          "view": "video-02",
+          "delta": -0.001359287458716163
+        },
+        {
+          "view": "video-03",
+          "delta": -0.00023416528642417056
+        },
+        {
+          "view": "video-04",
+          "delta": 0.0
+        },
+        {
+          "view": "video-05",
+          "delta": -0.0002311356653607044
+        },
+        {
+          "view": "video-06",
+          "delta": -0.0013162855120621986
+        },
+        {
+          "view": "video-07",
+          "delta": -0.00035267728603616266
+        },
+        {
+          "view": "video-08",
+          "delta": 7.145391263163603e-05
+        },
+        {
+          "view": "video-09",
+          "delta": 6.88205462029412e-05
+        }
+      ]
+    },
+    {
+      "report": "cad/drone-concept/comparison/iteration-118-rear-shoulder-x100.8-candidate/video-comparison/comparison-report.json",
+      "mean_silhouette_iou": 0.8544878352561962,
+      "delta_mean": -0.0004323334791236366,
+      "improved_views": 4,
+      "regressed_views": 5,
+      "delta_by_view": [
+        {
+          "view": "video-00",
+          "delta": 0.0009198081347071563
+        },
+        {
+          "view": "video-01",
+          "delta": -0.0008748004605032556
+        },
+        {
+          "view": "video-02",
+          "delta": -0.0017599474096420265
+        },
+        {
+          "view": "video-03",
+          "delta": 2.3835774560110323e-05
+        },
+        {
+          "view": "video-04",
+          "delta": -0.00012479741950366385
+        },
+        {
+          "view": "video-05",
+          "delta": -0.0012052116263778778
+        },
+        {
+          "view": "video-06",
+          "delta": -0.0019557492790100994
+        },
+        {
+          "view": "video-07",
+          "delta": 0.00023955795005514702
+        },
+        {
+          "view": "video-08",
+          "delta": 0.0004139695444779212
+        },
+        {
+          "view": "video-09",
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "report": "cad/drone-concept/comparison/iteration-117-rear-frame-width184-candidate/video-comparison/comparison-report.json",
+      "mean_silhouette_iou": 0.8544116546777957,
+      "delta_mean": -0.0005085140575241676,
+      "improved_views": 2,
+      "regressed_views": 6,
+      "delta_by_view": [
+        {
+          "view": "video-00",
+          "delta": 2.470081142069702e-06
+        },
+        {
+          "view": "video-01",
+          "delta": -0.0013744442217742403
+        },
+        {
+          "view": "video-02",
+          "delta": -0.0017809932281549479
+        },
+        {
+          "view": "video-03",
+          "delta": -0.0002540563502198001
+        },
+        {
+          "view": "video-04",
+          "delta": -0.0001329350749397218
+        },
+        {
+          "view": "video-05",
+          "delta": -0.0007318410642963569
+        },
+        {
+          "view": "video-06",
+          "delta": -0.0017312520071582904
+        },
+        {
+          "view": "video-07",
+          "delta": 0.0009179112901607223
+        },
+        {
+          "view": "video-08",
+          "delta": 0.0
+        },
+        {
+          "view": "video-09",
+          "delta": 0.0
+        }
+      ]
+    }
+  ],
+  "interpretation": "screen-space diagnostic; candidate promotion requires geometry/readback and visual review"
+}

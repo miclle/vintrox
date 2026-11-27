@@ -1,0 +1,28 @@
+{
+  "camera_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+  "candidate_fcstd_sha256": "94f972c40e00c3ce739fde8134fa72e807688be6f2b0d098e24099f4f7f56419",
+  "crop": [
+    480,
+    400,
+    820,
+    700
+  ],
+  "scale": 2,
+  "alpha": 0.5,
+  "sources": [
+    {
+      "path": "references/alexander-shevchuk-drone/alexander-shevchuk-04.jpg",
+      "sha256": "c2635b57d04092802341979a23e74876884bc00075d0ec9c8a3594b930e686ce"
+    },
+    {
+      "path": "cad/drone-concept/comparison/stills-52-renders/still-04.png",
+      "sha256": "88d557fc6ff8c01fd1ad773afafecc8c2da09246fb6be050f0621cd86894bb99"
+    },
+    {
+      "path": "cad/drone-concept/comparison/stills-53-renders/still-04.png",
+      "sha256": "9d581cf3ff0477d629e3ca62383fe9b845c1c3558e29426934db80e8a9a296fb"
+    }
+  ],
+  "image_sha256": "dc6433079eccd30c481463a8cc7f5b9511d27afa5f270649e2030e6348b4968e",
+  "method": "same fixed camera, common crop, no spatial registration or warp"
+}

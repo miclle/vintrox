@@ -1,0 +1,52 @@
+{
+  "fcstd_sha256": "45e97d81bd5025dedb19005a96258059c1795555af5e14cb8b159c950a528c98",
+  "baseline_fcstd_sha256": "b0f4416e5e20622b93987f837b111e630973615b9968faf441cee555ba9d6635",
+  "measurement_script_sha256": "d7daaf6ce717cce5f16f53b2ac5d9ccc878ededff56c93ec3e633999da2ccdb0",
+  "parts": [
+    {
+      "name": "RearRailCarrier",
+      "valid": true,
+      "solids": 1,
+      "closed": true
+    },
+    {
+      "name": "RearStructuralFrame",
+      "valid": true,
+      "solids": 1,
+      "closed": true
+    }
+  ],
+  "baseline_volume_overlap_mm3": 10559.805682642222,
+  "volume_overlap_mm3": 0.0,
+  "baseline_coplanar_y248_overlap_mm2": 637.9438937895097,
+  "coplanar_y248_overlap_mm2": 0.0,
+  "contact_gap_mm": 0.0,
+  "union_removed_volume_mm3": 94.50815811987435,
+  "union_added_volume_mm3": 0.0,
+  "expected_slot_removed_volume_mm3": 94.5081581198744,
+  "slots": [
+    {
+      "side": -1,
+      "baseline_void_probe_overlap_mm3": 0.03351032163829102,
+      "void_probe_overlap_mm3": 0.0,
+      "floor_probe_overlap_mm3": 0.004188790204786466,
+      "liner": "RearRailAntennaSlot_1",
+      "liner_frame_gap_mm": 0.0,
+      "liner_frame_overlap_mm3": 2.4304690049406292
+    },
+    {
+      "side": 1,
+      "baseline_void_probe_overlap_mm3": 0.03351032163829102,
+      "void_probe_overlap_mm3": 0.0,
+      "floor_probe_overlap_mm3": 0.004188790204786466,
+      "liner": "RearRailAntennaSlot_001",
+      "liner_frame_gap_mm": 0.0,
+      "liner_frame_overlap_mm3": 2.4304690049406292
+    }
+  ],
+  "limitations": [
+    "front-plane area only for the diagnosed coplanar seam",
+    "solid partition and local recess probes, not physical acceptance"
+  ],
+  "passed": true
+}

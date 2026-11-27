@@ -1,0 +1,67 @@
+{
+  "baseline": "v193-lowerpod-rib-rails-bezel",
+  "baseline_scores": {
+    "video": 0.8591005233796649,
+    "stills": 0.8253387622746094,
+    "sheet": 0.8966408819033346
+  },
+  "candidates": [
+    {
+      "candidate": "v210",
+      "floor_z_mm": 52.0,
+      "fcstd_sha256": "88e80780ce2bd6ae5bc9c5e0132bab1e84ad0a7b09492abb69354caba86d8199",
+      "step_sha256": "b2a69a92513989101b1b43b2e8054ee5d8b57b5075f3f814cda12a71c50d5243",
+      "changed_objects": [
+        "ClosedBellyPan"
+      ],
+      "scores": {
+        "video": 0.8590969632107928
+      },
+      "delta_vs_v193": {
+        "video": -3.5601688721520475e-06
+      },
+      "decision": "retain v193"
+    },
+    {
+      "candidate": "v211",
+      "floor_z_mm": 53.0,
+      "fcstd_sha256": "fba1ea689193634d46a172418cc7353b6012b32f81e379ff4e3ee77018f56f22",
+      "step_sha256": "53cda9393f57037b5f67f699d3f72e8b038287049f74c2f06020a1bb3420376f",
+      "changed_objects": [
+        "ClosedBellyPan"
+      ],
+      "scores": {
+        "video": 0.8591009928782478,
+        "stills": 0.8253383800002785,
+        "sheet": 0.8966461179623879
+      },
+      "delta_vs_v193": {
+        "video": 4.694985829001297e-07,
+        "stills": -3.822743309678245e-07,
+        "sheet": 5.23605905333735e-06
+      },
+      "decision": "retain v193"
+    }
+  ],
+  "method": "real CAD ClosedBellyPan relief candidates with calibrated fixed-camera renders, overlays, edges, and differences",
+  "protected_features": [
+    "ScreenPanel210x160x2",
+    "ActiveArea200x150",
+    "UtilityBarrel",
+    "CheekDial",
+    "CheekVentRib",
+    "SupportShaft",
+    "SupportSocket",
+    "SupportFoot",
+    "CentralSupportSeat"
+  ],
+  "mesh_storage": "not stored in Git; rebuild from candidate FCStd with tools/export_saved_drone_meshes.py",
+  "decision": "retain v193",
+  "next_focus": [
+    "still-05 ControlRail and ClosedBellyPan interaction"
+  ],
+  "limitations": [
+    "outer belly floor is an appearance hypothesis",
+    "no manufacturing, fit, acoustic, thermal, electrical, or physical acceptance"
+  ]
+}

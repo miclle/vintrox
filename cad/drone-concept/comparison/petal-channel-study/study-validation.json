@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "formal_model_unchanged": true,
+  "formal_fcstd_sha256": "d03080846462cd5b8318f6dea254456fe77ece6cda06349ba698ea010086d591",
+  "study_review_sha256": "3d2410fb5532c310aa2d000da07744c040a6b86032d74392e7c1ec029e80c1b1",
+  "checked_png_count": 336,
+  "checked_scripts": [
+    "tools/experiment_drone_petal_channel.py",
+    "tools/measure_drone_petal_channel.py",
+    "tools/measure_drone_petal_channel_width.py"
+  ],
+  "syntax_passed": true,
+  "candidate_source_mesh_model_report_hashes_passed": true,
+  "detail_source_image_hashes_passed": true,
+  "git_diff_check_passed": true,
+  "formal_delivery_errors": [],
+  "formal_delivery_report_sha256": "6385a9096533050d990ac4807359424fa74a46fd72ec4c9c0f56bf7c07c210af",
+  "limitations": [
+    "C remains an isolated candidate, not a formal FCStd/STEP delivery.",
+    "This report checks study integrity, not visual equivalence or manufacturing."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v81",
+      "model": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/v81-smooth-loop-radius5/candidate.FCStd",
+      "fcstd_sha256": "8fbb8d1ed2387740ba46596b8b8e473fc785f97e502eabf92d4ad48819f39a14",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "8fbb8d1ed2387740ba46596b8b8e473fc785f97e502eabf92d4ad48819f39a14",
+      "palette_contract_sha256": "ec71ebbc3342778aba9eb4444c0bcac2d966f5157fe21f34d0df424950896580",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v81-isometric.png",
+          "sha256": "14e2c47646ab3e6223109fe8fe93601af4b11be6a30a4b1659ced4fd26790ecc"
+        },
+        {
+          "view": "front",
+          "path": "v81-front.png",
+          "sha256": "2ccb8a4d36ac3c9c95151ae705ef27a638fcc0db1b023e9ce0bc8de44852c5fa"
+        },
+        {
+          "view": "rear",
+          "path": "v81-rear.png",
+          "sha256": "18590621eced534db0d7d0571ba0002f00034185bb99a95f7c507e34eb1262e6"
+        },
+        {
+          "view": "right",
+          "path": "v81-right.png",
+          "sha256": "5a49e31dbc9cefd1d268c12f7de41754e009c2dcf2bde4aee8f2c883a624cb40"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

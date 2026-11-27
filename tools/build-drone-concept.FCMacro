@@ -1,0 +1,9 @@
+"""Build the separate Drone exterior concept; does not replace cad/terminal."""
+from pathlib import Path
+import importlib.util
+
+_drone_root = Path(__file__).resolve().parents[1]
+_drone_spec = importlib.util.spec_from_file_location('vintrox_drone', _drone_root/'tools/drone_concept.py')
+_drone_model = importlib.util.module_from_spec(_drone_spec)
+_drone_spec.loader.exec_module(_drone_model)
+_drone_model.build(_drone_root)

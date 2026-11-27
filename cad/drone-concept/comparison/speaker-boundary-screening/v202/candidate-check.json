@@ -1,0 +1,151 @@
+{
+  "revision": "v202-speaker-lip-1005",
+  "baseline_fcstd_sha256": "aedd1fc5039265123f71b43faab01939faa4dc2fd84ee0955efee7c3b9aaab1b",
+  "fcstd_sha256": "e4d6408cc0cedce4d95194c62078469852c684cdbc5ad1dface35d7aca844149",
+  "scale": 1.005,
+  "mode": "lip",
+  "changed_objects": [
+    "SpeakerOuterLipLeft",
+    "SpeakerLipTrimLeft",
+    "SpeakerOuterLipRight",
+    "SpeakerLipTrimRight"
+  ],
+  "checks": [
+    {
+      "name": "SpeakerOuterLipLeft",
+      "before": {
+        "volume_mm3": 24075.720519,
+        "bbox_mm": [
+          -118.62074,
+          -108.62074,
+          70.87757,
+          187.31615,
+          95.40383,
+          211.84241
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 24438.665015,
+        "bbox_mm": [
+          -118.64574,
+          -108.59574,
+          70.586474,
+          187.607246,
+          95.112734,
+          212.133506
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerLipTrimLeft",
+      "before": {
+        "volume_mm3": 316.394883,
+        "bbox_mm": [
+          -115.17074,
+          -114.07074,
+          71.148169,
+          187.045551,
+          95.674429,
+          211.571811
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 321.164575,
+        "bbox_mm": [
+          -115.17349,
+          -114.06799,
+          70.858425,
+          187.335295,
+          95.384685,
+          211.861555
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerOuterLipRight",
+      "before": {
+        "volume_mm3": 24075.720519,
+        "bbox_mm": [
+          108.62074,
+          118.62074,
+          70.87757,
+          187.31615,
+          95.40383,
+          211.84241
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 24438.665015,
+        "bbox_mm": [
+          108.59574,
+          118.64574,
+          70.586474,
+          187.607246,
+          95.112734,
+          212.133506
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerLipTrimRight",
+      "before": {
+        "volume_mm3": 316.394883,
+        "bbox_mm": [
+          114.07074,
+          115.17074,
+          71.148169,
+          187.045551,
+          95.674429,
+          211.571811
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 321.164575,
+        "bbox_mm": [
+          114.06799,
+          115.17349,
+          70.858425,
+          187.335295,
+          95.384685,
+          211.861555
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    }
+  ],
+  "visible_features": 696,
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "status": "video screening candidate",
+  "mesh_archival": "not stored; rebuild from candidate.FCStd with tools/export_saved_drone_meshes.py into a temporary directory",
+  "mesh_rebuild_exporter_sha256": "57eb2d587a74fdcd6ad48a0e6ce328ccab8ac3e87fe58313c506056997def57a",
+  "step_sha256": "c64a55c18784de2c9d60c4e394836d571a7ef2f3627c56d73f33e83bf6b0ed0a",
+  "step_solids": 853,
+  "step_readback_passed": true,
+  "step_relative_volume_error": 5.538232350608205e-07,
+  "step_bbox_delta_mm": 5.8903992794512305e-12,
+  "builder_script": "tools/experiment_drone_speaker_boundary.py",
+  "builder_script_sha256": "05802e3acfd1e402a7a9c0c8d4786e26749f6d0e4779e085f2325e0f10565374"
+}

@@ -1,0 +1,176 @@
+{
+  "revision": "v86-front-brow-contract3",
+  "status": "saved CAD candidate; fixed-camera comparison required",
+  "baseline_fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+  "fcstd_sha256": "237e7f0aebf1caf37b0d8deb5248322e558df923ce271561b5a74e0ba3870a14",
+  "step_sha256": "050bada7241c4d183576ec908513887da2833af2f7853e402d30c23e46761d3e",
+  "source_script_sha256": "783446d8a21ac76ab0abf653edbbde290e20dfd999b87965a83fe6a474d7d41c",
+  "changed_objects": [
+    "ProjectingBrow",
+    "BrowUnderside"
+  ],
+  "x_scale_about_model_center": 0.97,
+  "before": {
+    "ProjectingBrow": {
+      "volume_mm3": 204811.778911,
+      "area_mm2": 54654.316715,
+      "bbox_mm": [
+        -132.0,
+        132.0,
+        -64.48,
+        56.029473,
+        190.6,
+        253.2
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "BrowUnderside": {
+      "volume_mm3": 54905.146889,
+      "area_mm2": 36818.067329,
+      "bbox_mm": [
+        -113.25,
+        113.25,
+        -56.16,
+        20.56,
+        190.6,
+        244.9
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    }
+  },
+  "after": {
+    "ProjectingBrow": {
+      "volume_mm3": 198667.408812,
+      "area_mm2": 53478.565971,
+      "bbox_mm": [
+        -128.04,
+        128.04,
+        -64.48,
+        56.029473,
+        190.6,
+        253.2
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "BrowUnderside": {
+      "volume_mm3": 53257.991617,
+      "area_mm2": 36034.110782,
+      "bbox_mm": [
+        -109.8525,
+        109.8525,
+        -56.16,
+        20.56,
+        190.6,
+        244.9
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    }
+  },
+  "preserved_shape_count": 696,
+  "protected_supports": [
+    {
+      "name": "CentralSupportSeat",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketRearRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootRearRight",
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "screen_objects": {
+    "ScreenPanel210x160x2": {
+      "volume_mm3": 67200.0,
+      "area_mm2": 68680.0,
+      "bbox_mm": [
+        -105.0,
+        105.0,
+        -1.0,
+        1.0,
+        70.0,
+        230.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    },
+    "ActiveArea200x150": {
+      "volume_mm3": 24000.0,
+      "area_mm2": 60560.0,
+      "bbox_mm": [
+        -100.0,
+        100.0,
+        -9.0,
+        -8.2,
+        75.0,
+        225.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "closed": true
+    }
+  },
+  "screen_geometry_preserved": true,
+  "gui_members_copied_from_appearance_source": 2095,
+  "unchanged_brep_members_restored": 1082,
+  "geometry_unchanged_during_gui_restore": true,
+  "mesh_objects": 696,
+  "distinct_rgb_triples": 74,
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "limitations": [
+    "front-brow scale is an image-derived appearance hypothesis",
+    "measured flat screen retained; curved reference screen remains an appearance assumption",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}

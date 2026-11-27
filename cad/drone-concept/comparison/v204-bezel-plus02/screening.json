@@ -1,0 +1,40 @@
+{
+  "baseline": "v193-lowerpod-rib-rails-bezel",
+  "candidate": "v204-bezel-plus02",
+  "expansion_per_side_mm": 0.2,
+  "scores": {
+    "video": 0.8591179313438666,
+    "stills": 0.825308013414375,
+    "sheet": 0.8966714933548687
+  },
+  "baseline_scores": {
+    "video": 0.8591005233796649,
+    "stills": 0.8253387622746094,
+    "sheet": 0.8966408819033346
+  },
+  "decision": "retain v193",
+  "decision_basis": "video and sheet improve, static seven-view mean regresses",
+  "changed_objects": [
+    "ScreenBezel",
+    "BezelLip"
+  ],
+  "screen_geometry_preserved": true,
+  "protected_features": [
+    "ScreenPanel210x160x2",
+    "ActiveArea200x150",
+    "UtilityBarrel",
+    "CheekDial",
+    "CheekVentRib",
+    "SupportShaft",
+    "SupportSocket",
+    "SupportFoot",
+    "CentralSupportSeat"
+  ],
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "mesh_storage": "not stored in Git",
+  "limitations": [
+    "outer surround dimensions are appearance hypotheses",
+    "measured flat screen retained; curved reference screen remains an appearance assumption",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "baseline_fcstd_sha256": "7f4ec530e66b181094d4efa1876d35252e6784d4de209718d70129c27d4c9709",
+  "selected": null,
+  "candidates": [
+    {
+      "candidate": "a",
+      "fcstd_sha256": "5f8371c7994e0e4cfe0fdfbbc3bf210ef86941aec1873326298b4f6a25f81ca9",
+      "exponent": 2.5,
+      "video_mean_iou": 0.8470291838217664,
+      "still_mean_iou": 0.818812916541423,
+      "status": "rejected; six of seven stills worsen, video mean worsens",
+      "side_status_blocked_rays": 0
+    },
+    {
+      "candidate": "b",
+      "fcstd_sha256": "bf46800d8e41c7fc0151e35f334cf153b64b31d9975e97a318f3e36aa3d16876",
+      "exponent": 3.5,
+      "video_mean_iou": 0.8461096114357861,
+      "still_mean_iou": 0.8185264602329066,
+      "status": "rejected; six of seven stills worsen, video mean worsens",
+      "side_status_blocked_rays": 0
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "kind": "hub",
+    "parameters": [
+      141.97902972859583,
+      126.14972030238181,
+      150.7663651938256
+    ],
+    "coordinate_rms_px": 4.05873551015145,
+    "point_errors": [
+      6.178660602303113,
+      5.2223966624980545,
+      2.8670043786610817,
+      5.392185863470819,
+      7.873289222506923
+    ],
+    "source_observations": [
+      {
+        "frame": 0,
+        "landmark": "red_hub",
+        "source_px": [
+          245,
+          474
+        ],
+        "distance_px": 6.167229623049512
+      },
+      {
+        "frame": 30,
+        "landmark": "red_hub",
+        "source_px": [
+          408,
+          478
+        ],
+        "distance_px": 4.919556681031109
+      },
+      {
+        "frame": 60,
+        "landmark": "red_hub",
+        "source_px": [
+          600,
+          477
+        ],
+        "distance_px": 2.7265069021997146
+      },
+      {
+        "frame": 210,
+        "landmark": "gold_hub",
+        "source_px": [
+          541,
+          477
+        ],
+        "distance_px": 5.306680423472453
+      },
+      {
+        "frame": 240,
+        "landmark": "gold_hub",
+        "source_px": [
+          702,
+          474
+        ],
+        "distance_px": 8.367879526080015
+      }
+    ]
+  },
+  {
+    "kind": "beacon",
+    "parameters": [
+      92.77045620806241,
+      259.1921549832734,
+      242.1209024403946
+    ],
+    "coordinate_rms_px": 2.21914881150936,
+    "point_errors": [
+      2.8831162722782224,
+      2.0161504752408277,
+      3.392601359038384,
+      3.4375252768612,
+      3.6800364519303317
+    ],
+    "source_observations": [
+      {
+        "frame": 120,
+        "landmark": "red_beacon",
+        "source_px": [
+          681,
+          278
+        ],
+        "distance_px": 1.6858111264514977
+      },
+      {
+        "frame": 120,
+        "landmark": "gold_beacon",
+        "source_px": [
+          269,
+          278
+        ],
+        "distance_px": 1.256005864338946
+      },
+      {
+        "frame": 30,
+        "landmark": "red_beacon",
+        "source_px": [
+          180,
+          267
+        ],
+        "distance_px": 10.91574261345689
+      },
+      {
+        "frame": 60,
+        "landmark": "red_beacon",
+        "source_px": [
+          284,
+          275
+        ],
+        "distance_px": 8.030711337270366
+      },
+      {
+        "frame": 60,
+        "landmark": "gold_beacon",
+        "source_px": [
+          200,
+          249
+        ],
+        "distance_px": 9.948606757658613
+      }
+    ]
+  }
+]

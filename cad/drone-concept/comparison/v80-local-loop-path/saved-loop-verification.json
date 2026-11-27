@@ -1,0 +1,416 @@
+{
+  "status": "final-saved-loop-geometry-checked",
+  "fcstd_sha256": "61745edd952e850f195959724c82209f5fc0ed3fdf1582f726222dd73d66ab77",
+  "baseline_fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+  "fit_sha256": "52ce66a47bd970f36254f699002f007ae1663f62d510a83860d480fb2394924e",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "script_sha256": "eda4c56f6ec4733d1a49cad4c40cf511578da4c21ec21648255a2c61db2e87c8",
+  "unchanged_geometry_archive_members": 1082,
+  "changed_geometry_archive_members": [
+    "UnderbodyLoop0.Shape.brp",
+    "UnderbodyLoop1.Shape.brp"
+  ],
+  "appearance_archive_members_equal": 2095,
+  "solid_checks": [
+    {
+      "object": "UnderbodyLoop0",
+      "advanced_errors": [],
+      "valid_closed_single_solid": true,
+      "endpoint_centre_error_mm": [
+        2.6701194535835343e-09,
+        2.6701295353207276e-09
+      ],
+      "actual_loop_endpoint_belly_overlap_mm3": [
+        39.14823320292658,
+        18.48108079872574
+      ],
+      "support_overlap_mm3": {
+        "CentralSupportSeat": 0.0,
+        "SupportShaftFrontLeft": 0.0,
+        "SupportSocketFrontLeft": 0.0,
+        "SupportFootFrontLeft": 0.0,
+        "SupportShaftRearLeft": 0.0,
+        "SupportSocketRearLeft": 0.0,
+        "SupportFootRearLeft": 0.0,
+        "SupportShaftFrontRight": 0.0,
+        "SupportSocketFrontRight": 0.0,
+        "SupportFootFrontRight": 0.0,
+        "SupportShaftRearRight": 0.0,
+        "SupportSocketRearRight": 0.0,
+        "SupportFootRearRight": 0.0
+      }
+    },
+    {
+      "object": "UnderbodyLoop1",
+      "advanced_errors": [],
+      "valid_closed_single_solid": true,
+      "endpoint_centre_error_mm": [
+        2.6701416094912976e-09,
+        2.6701610539677076e-09
+      ],
+      "actual_loop_endpoint_belly_overlap_mm3": [
+        39.14823247880741,
+        18.471014297690928
+      ],
+      "support_overlap_mm3": {
+        "CentralSupportSeat": 0.0,
+        "SupportShaftFrontLeft": 0.0,
+        "SupportSocketFrontLeft": 0.0,
+        "SupportFootFrontLeft": 0.0,
+        "SupportShaftRearLeft": 0.0,
+        "SupportSocketRearLeft": 0.0,
+        "SupportFootRearLeft": 0.0,
+        "SupportShaftFrontRight": 0.0,
+        "SupportSocketFrontRight": 0.0,
+        "SupportFootFrontRight": 0.0,
+        "SupportShaftRearRight": 0.0,
+        "SupportSocketRearRight": 0.0,
+        "SupportFootRearRight": 0.0
+      }
+    }
+  ],
+  "observations": [
+    {
+      "source_frame": 180,
+      "side": 1,
+      "reference_px": [
+        [
+          316,
+          655
+        ],
+        [
+          316,
+          683
+        ],
+        [
+          328,
+          712
+        ],
+        [
+          350,
+          733
+        ],
+        [
+          377,
+          734
+        ],
+        [
+          400,
+          727
+        ],
+        [
+          414,
+          709
+        ],
+        [
+          418,
+          682
+        ],
+        [
+          417,
+          655
+        ]
+      ],
+      "saved_nearest_px": [
+        [
+          317.64556888366803,
+          655.182794924694
+        ],
+        [
+          310.2841645545152,
+          680.2695075643257
+        ],
+        [
+          322.32838758754633,
+          717.2253416779222
+        ],
+        [
+          349.8147360770603,
+          738.1495009023665
+        ],
+        [
+          375.36947338107143,
+          741.0018279434832
+        ],
+        [
+          403.965795189695,
+          730.2764310047858
+        ],
+        [
+          417.3447127482824,
+          710.9722487234721
+        ],
+        [
+          420.80324772719933,
+          680.9382884547995
+        ],
+        [
+          416.55866304075755,
+          655.0862727588778
+        ]
+      ],
+      "distance_px": [
+        1.655690470888308,
+        6.334537377041414,
+        7.711769123108471,
+        5.15283245066407,
+        7.18917322125274,
+        5.144174532005036,
+        3.8828943322939335,
+        2.997570553841947,
+        0.44969022728736807
+      ],
+      "rms_px": 5.069538683063733,
+      "max_px": 7.711769123108471,
+      "projected_screen_horizontal_span_px": 169.20602047595082,
+      "max_fraction_projected_screen_width": 0.04557621000373649
+    },
+    {
+      "source_frame": 60,
+      "side": -1,
+      "reference_px": [
+        [
+          526,
+          665
+        ],
+        [
+          516,
+          691
+        ],
+        [
+          524,
+          718
+        ],
+        [
+          544,
+          738
+        ],
+        [
+          568,
+          746
+        ],
+        [
+          594,
+          744
+        ],
+        [
+          618,
+          732
+        ],
+        [
+          636,
+          712
+        ],
+        [
+          644,
+          691
+        ]
+      ],
+      "saved_nearest_px": [
+        [
+          525.8338901641173,
+          665.110582593479
+        ],
+        [
+          519.2599931485134,
+          691.429011181815
+        ],
+        [
+          528.8798172125663,
+          714.8292228037394
+        ],
+        [
+          545.2281796503265,
+          736.5441553607639
+        ],
+        [
+          566.9155376191658,
+          740.9408920311835
+        ],
+        [
+          593.856378532116,
+          737.730162041663
+        ],
+        [
+          614.0964774387708,
+          730.404205820744
+        ],
+        [
+          634.3989253541922,
+          708.6671873759733
+        ],
+        [
+          638.7794079869939,
+          693.4345120589362
+        ]
+      ],
+      "distance_px": [
+        0.19955196705999761,
+        3.288100655770272,
+        5.819488298500528,
+        1.904707029196042,
+        5.174034411906011,
+        6.2714826915045165,
+        4.217113639513768,
+        3.697442360378356,
+        5.760332449726246
+      ],
+      "rms_px": 4.460748124439051,
+      "max_px": 6.2714826915045165,
+      "projected_screen_horizontal_span_px": 178.13425882918398,
+      "max_fraction_projected_screen_width": 0.03520649386998797
+    },
+    {
+      "source_frame": 120,
+      "side": 1,
+      "reference_px": [
+        [
+          372,
+          657
+        ],
+        [
+          378,
+          676
+        ],
+        [
+          383,
+          692
+        ],
+        [
+          377,
+          700
+        ],
+        [
+          369,
+          699
+        ]
+      ],
+      "saved_nearest_px": [
+        [
+          370.7302569692119,
+          656.8326808022757
+        ],
+        [
+          375.18436451042913,
+          677.1501653425285
+        ],
+        [
+          380.5714494023524,
+          692.418330211123
+        ],
+        [
+          376.48303814837305,
+          698.9643901066087
+        ],
+        [
+          370.66745164407683,
+          702.1911981425105
+        ]
+      ],
+      "distance_px": [
+        1.2807197500476297,
+        3.0414936339378658,
+        2.4643169785708734,
+        1.157470261962505,
+        3.600575033254715
+      ],
+      "rms_px": 2.500706410266669,
+      "max_px": 3.600575033254715,
+      "projected_screen_horizontal_span_px": 371.6021522693824,
+      "max_fraction_projected_screen_width": 0.009689327715853973
+    },
+    {
+      "source_frame": 120,
+      "side": -1,
+      "reference_px": [
+        [
+          577,
+          654
+        ],
+        [
+          571,
+          674
+        ],
+        [
+          564,
+          696
+        ],
+        [
+          567,
+          705
+        ],
+        [
+          578,
+          707
+        ],
+        [
+          590,
+          697
+        ],
+        [
+          596,
+          678
+        ],
+        [
+          596,
+          660
+        ]
+      ],
+      "saved_nearest_px": [
+        [
+          579.1439753610337,
+          651.6515226401455
+        ],
+        [
+          565.4789003290325,
+          671.8142747345249
+        ],
+        [
+          562.93851992567,
+          698.2379424520966
+        ],
+        [
+          568.9393043490514,
+          701.299021593044
+        ],
+        [
+          578.057791343825,
+          704.2945543905439
+        ],
+        [
+          589.169890094593,
+          696.5570409041419
+        ],
+        [
+          596.2875898854678,
+          678.1297942713828
+        ],
+        [
+          593.1420700343587,
+          662.4285807614467
+        ]
+      ],
+      "distance_px": [
+        3.179933373275098,
+        5.93800778989834,
+        2.4769187243621453,
+        4.1782942125949285,
+        2.7060627829276878,
+        0.9409012783805727,
+        0.31552257463957356,
+        3.7504357351352966
+      ],
+      "rms_px": 3.3789527846056413,
+      "max_px": 5.93800778989834,
+      "projected_screen_horizontal_span_px": 371.6021522693824,
+      "max_fraction_projected_screen_width": 0.015979476312596143
+    }
+  ],
+  "rms_px": 4.146482009527503,
+  "limitations": [
+    "1000 by 128 surface-parameter samples; finite centreline sampling",
+    "same uncertain manual observations as fitting; no fresh held-out evidence",
+    "centreline errors do not prove complete visible contour within 5 percent",
+    "no physical, manufacturing, optical or electrical acceptance"
+  ]
+}

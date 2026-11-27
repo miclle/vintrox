@@ -1,0 +1,180 @@
+{
+  "baseline_revision": "v43-gold-wing-crease",
+  "baseline_fcstd_sha256": "d03080846462cd5b8318f6dea254456fe77ece6cda06349ba698ea010086d591",
+  "formal_revision": "v44-continuous-guard-notch",
+  "formal_fcstd_sha256": "08e667f1a219b9b0758b2bdf9b13d6d6e34ae45c277bbcd859bf31a45c3703a8",
+  "candidate_fcstd_sha256": "396a4f714fddb44aca0a5de7322bcfd5d5d90bd535f3243797488d588ff3314c",
+  "adopted": "A",
+  "frozen_sources": [
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-guard-notch-cache/experiment_drone_guard_notch.py",
+      "sha256": "ed78511c4147d22ab5c32121de6c0e70a7fd3d2a93661dd1e87a7376ae80e958"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-guard-notch-cache/drone_concept.py",
+      "sha256": "c8863f613ff77c62568c4d075c777483c76f9288663100cc4a5783f96f59cebd"
+    }
+  ],
+  "candidate_mesh_cache": {
+    "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-guard-notch-cache/candidate-a-meshes.json",
+    "sha256": "bd3d2dbcae8636e0cd5203145f52b96bec31f2b2f851bc3c5dee422861df26fa"
+  },
+  "candidate_check_sha256": "29bdd57c73e16741318115c3c8f9fe77d83fab2c7a319247df6a77567ec0fa05",
+  "edge_check_sha256": "bf6686072e10438649a7cd6faf313cffa3780a6b2e99ef2b29916d0a6908a8aa",
+  "native_open_check_sha256": "1722472c6707871e061d36e44a616816d010a40dac7f0f528fe402544c338eda",
+  "views": {
+    "video": {
+      "mean_iou": 0.8484931564112387,
+      "baseline_mean_iou": 0.8484931564112387,
+      "candidate_report_sha256": "336d65f3eb6fcc0cce4ec2182653bece0ca4329c160f96cb5587daaec8ad7835",
+      "per_view": [
+        {
+          "view": "video-00",
+          "baseline_iou": 0.8734462579322946,
+          "candidate_iou": 0.8734462579322946,
+          "delta": 0.0
+        },
+        {
+          "view": "video-01",
+          "baseline_iou": 0.8554437506968446,
+          "candidate_iou": 0.8554437506968446,
+          "delta": 0.0
+        },
+        {
+          "view": "video-02",
+          "baseline_iou": 0.8376149942932578,
+          "candidate_iou": 0.8376149942932578,
+          "delta": 0.0
+        },
+        {
+          "view": "video-03",
+          "baseline_iou": 0.819057038865555,
+          "candidate_iou": 0.819057038865555,
+          "delta": 0.0
+        },
+        {
+          "view": "video-04",
+          "baseline_iou": 0.8183989362388815,
+          "candidate_iou": 0.8183989362388815,
+          "delta": 0.0
+        },
+        {
+          "view": "video-05",
+          "baseline_iou": 0.8039326978185211,
+          "candidate_iou": 0.8039326978185211,
+          "delta": 0.0
+        },
+        {
+          "view": "video-06",
+          "baseline_iou": 0.8251796327508205,
+          "candidate_iou": 0.8251796327508205,
+          "delta": 0.0
+        },
+        {
+          "view": "video-07",
+          "baseline_iou": 0.8779943118931869,
+          "candidate_iou": 0.8779943118931869,
+          "delta": 0.0
+        },
+        {
+          "view": "video-08",
+          "baseline_iou": 0.893606489195306,
+          "candidate_iou": 0.893606489195306,
+          "delta": 0.0
+        },
+        {
+          "view": "video-09",
+          "baseline_iou": 0.8802574544277193,
+          "candidate_iou": 0.8802574544277193,
+          "delta": 0.0
+        }
+      ]
+    },
+    "stills": {
+      "mean_iou": 0.8194408597662175,
+      "baseline_mean_iou": 0.8194408597662175,
+      "candidate_report_sha256": "76f991ddbbfc05084cbfe4fad498eb6e62aaeeef0baeb8d226c1abafb88b397b",
+      "per_view": [
+        {
+          "view": "still-01",
+          "baseline_iou": 0.8650207256828119,
+          "candidate_iou": 0.8650207256828119,
+          "delta": 0.0
+        },
+        {
+          "view": "still-02",
+          "baseline_iou": 0.8671098682331476,
+          "candidate_iou": 0.8671098682331476,
+          "delta": 0.0
+        },
+        {
+          "view": "still-03",
+          "baseline_iou": 0.8487970010695631,
+          "candidate_iou": 0.8487970010695631,
+          "delta": 0.0
+        },
+        {
+          "view": "still-04",
+          "baseline_iou": 0.7805294806579615,
+          "candidate_iou": 0.7805294806579615,
+          "delta": 0.0
+        },
+        {
+          "view": "still-05",
+          "baseline_iou": 0.7693838471875765,
+          "candidate_iou": 0.7693838471875765,
+          "delta": 0.0
+        },
+        {
+          "view": "still-06",
+          "baseline_iou": 0.7372434930981249,
+          "candidate_iou": 0.7372434930981249,
+          "delta": 0.0
+        },
+        {
+          "view": "still-closeup",
+          "baseline_iou": 0.8680016024343364,
+          "candidate_iou": 0.8680016024343364,
+          "delta": 0.0
+        }
+      ]
+    }
+  },
+  "status_visibility": {
+    "views": 5,
+    "rays": 75,
+    "max_cladding_intersection_length_mm": 0.0
+  },
+  "remaining": "Upper adjacent-shell boundary remains about 12px away; next iteration must jointly reconstruct this boundary and retain all status-panel sightlines. No further guard-only trimming to chase the union-edge metric.",
+  "formal_reports": {
+    "delivery": {
+      "path": "cad/drone-concept/delivery-verification.json",
+      "sha256": "9b0a48f1bda4601078131c2f8b22be0790aa80c9f48848ec071088c2e38645ea"
+    },
+    "geometry": {
+      "path": "cad/drone-concept/comparison/guard-notch-study/formal-geometry-check.json",
+      "sha256": "4d92a4525fcc4f9f821293c54da7e07ffc98adf61a1163101918c4c0629baf3b"
+    },
+    "source": {
+      "path": "cad/drone-concept/comparison/guard-notch-study/source-equivalence.json",
+      "sha256": "77c704d6ced35727550fd8ec801c0253adc1bae6c3ae11cff278c9d9385bfde9"
+    },
+    "transfer": {
+      "path": "cad/drone-concept/comparison/guard-notch-study/archive-transfer.json",
+      "sha256": "305eb120ff79c37424f5bbcee20ae8c184eec796ac6375cdc459130e37cdd7a5"
+    },
+    "edge": {
+      "path": "cad/drone-concept/comparison/guard-notch-check.json",
+      "sha256": "2abdaf4744d8c5916752ebc088a5ade278daf6b6348a406450384d5fd77a240c"
+    },
+    "video": {
+      "path": "cad/drone-concept/comparison/iteration-78/comparison-report.json",
+      "sha256": "a406f8de71b1fd8d5e2716411b91f7c76b198b48a1d645898f2dee142a67b705"
+    },
+    "stills": {
+      "path": "cad/drone-concept/comparison/stills-49/comparison-report.json",
+      "sha256": "064c4c4d330da497f4be39d920ed2ed18e176db624f7bda2b9b53ac629ef411b"
+    }
+  },
+  "opposite_side_visual_review": "Frame 60 shows the protruding guard tip removed with the status panel still visible; the adjacent shell recess and cable occlusion remain approximate."
+}

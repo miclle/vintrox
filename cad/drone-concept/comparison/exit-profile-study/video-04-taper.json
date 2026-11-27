@@ -1,0 +1,27 @@
+{
+  "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "crop_xyxy": [
+    315,
+    380,
+    620,
+    710
+  ],
+  "uniform_scale": 2,
+  "overlay_alpha": 0.5,
+  "sources": [
+    {
+      "path": "cad/drone-concept/comparison/iteration-80/reference-frames/frame-05.png",
+      "sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-80-renders/video-04.png",
+      "sha256": "37fb16e44ca943e83decd7117088196dfa00df34f2458e377e39e5be679c4033"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/taper-4/video-renders/video-04.png",
+      "sha256": "0da466608d689a67729ae3cdc56d8ad55eca4b0d27e60e4fea071250c9c78d23"
+    }
+  ],
+  "image_sha256": "1ccf7bcd7d239ce3940f6fbb2364072797db6378fe2d49f37073cc80a57a45bb",
+  "method": "same camera and common crop; no warp or per-part alignment"
+}

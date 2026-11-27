@@ -1,0 +1,45 @@
+{
+  "measurement_script_sha256": "dea34c2fa03fa74d7392c3cc9baa08ed68b0a2b311571744f476fcb860150d5f",
+  "test_script_sha256": "d94a521e89c9abe4c17851c40e247c1c7f11eb30d3d8a9ccd931225ea5f7e53e",
+  "cases": [
+    {
+      "case": "v40",
+      "saved_radius_mm": 43.600000000006325,
+      "saved_center_mm": [
+        1.1831955599721584e-12,
+        250.2051811788966,
+        65.37186317863541
+      ],
+      "distance_rms_px": 3.298339027092986,
+      "passed": true
+    },
+    {
+      "case": "a",
+      "saved_radius_mm": 43.60000000000007,
+      "saved_center_mm": [
+        3.894229288909268e-14,
+        250.20518117889117,
+        65.37186317863224
+      ],
+      "distance_rms_px": 3.298339027093043,
+      "passed": true
+    },
+    {
+      "case": "b",
+      "saved_radius_mm": 43.60000000000007,
+      "saved_center_mm": [
+        3.894229288909268e-14,
+        250.20518117889117,
+        65.37186317863224
+      ],
+      "distance_rms_px": 3.298339027093043,
+      "passed": true
+    },
+    {
+      "case": "one terminal shortened 0.63mm in memory only",
+      "rejected": true,
+      "error": "Missing complete shared root or terminal circle"
+    }
+  ],
+  "passed": true
+}

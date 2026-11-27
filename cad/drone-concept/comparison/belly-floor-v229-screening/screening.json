@@ -1,0 +1,29 @@
+{
+  "baseline": "v229-belly-center60",
+  "baseline_fcstd_sha256": "2d33864c9ef400875d67a4197b93b84889557a1ece28354f2e9cb36dbf2d7a09",
+  "baseline_video_mean_iou": 0.859157578083332,
+  "candidates": [
+    {
+      "candidate": "v235-belly-floor505",
+      "floor_z_mm": 50.5,
+      "video_mean_iou": 0.85913164933679,
+      "delta_vs_v229": -0.000025928746542,
+      "fcstd_sha256": "bc007fca5c048df4b7681f9b85e1023502059b0c29f2412770ff1ca496d9d6c5",
+      "step_sha256": "9072646aabcb9a7902a1a8d33092aa44e1338b3545e2f36d54c2e288f807acf9",
+      "decision": "retain v229"
+    },
+    {
+      "candidate": "v236-belly-floor525",
+      "floor_z_mm": 52.5,
+      "video_mean_iou": 0.8591447151662115,
+      "delta_vs_v229": -0.0000128629171205,
+      "fcstd_sha256": "c48c46f91c4e1f563fd052fcd790d843b3c26ddc527cf774fbf8598af6ed682c",
+      "step_sha256": "2428629ff58c75ec08acef7fbf29fc92db870a8e72e336902adf3275e7f7223e",
+      "decision": "retain v229"
+    }
+  ],
+  "method": "saved real CAD candidate geometry; fixed calibrated video cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "protected_features": ["ScreenPanel210x160x2", "ActiveArea200x150", "SupportShaft", "SupportSocket", "SupportFoot", "CentralSupportSeat"],
+  "limitations": ["video-only screening", "silhouette diagnostic only", "outer belly height remains an appearance hypothesis", "no manufacturing, fit, load, or physical acceptance"],
+  "mesh_storage": "not stored in Git; rebuild from each candidate FCStd with tools/export_candidate_drone_meshes.py"
+}

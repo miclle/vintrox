@@ -1,0 +1,60 @@
+{
+  "revision": "v64-rear-shoulder-section-exponent125",
+  "status": "candidate-retained-formal-v61-unchanged",
+  "baseline_revision": "v61-nozzle-fairing-depth3",
+  "baseline_fcstd_sha256": "b264b52ab81ca645865ab44196b3cabb8453abfd4f127afa49c29c41ffd973d2",
+  "candidate_fcstd_sha256": "6d2153142362f57e03b4f0ffa2e2aa71dc8d32968b47bd428275f9dd8e120460",
+  "candidate_step_sha256": "201eafbda5a810f3e485fef859bc13ef71b806d01ed8f49171551347ad6c4738",
+  "changed_objects": [
+    "RearArmourCheekLeft",
+    "RearArmourCheekRight"
+  ],
+  "section_exponent": 1.25,
+  "protected_features": [
+    "SupportShaft",
+    "SupportSocket",
+    "SupportFoot",
+    "CentralSupportSeat",
+    "ScreenPanel210x160x2",
+    "ActiveArea200x150",
+    "UtilityBarrel",
+    "CheekDial",
+    "CheekVentRib"
+  ],
+  "registration": "camera projection only; no image warp, stretch or per-part alignment",
+  "video": {
+    "candidate_mean_silhouette_iou": 0.8548995110604143,
+    "baseline_mean_silhouette_iou": 0.8549201687353198,
+    "delta": -2.0657674905555368e-05,
+    "report": "video-comparison/comparison-report.json"
+  },
+  "stills": {
+    "candidate_mean_silhouette_iou": 0.8225979559579598,
+    "baseline_mean_silhouette_iou": 0.8222681557450596,
+    "delta": 0.0003298002129001887,
+    "report": "stills-comparison/comparison-report.json"
+  },
+  "decision": "retain-v61-formal-baseline",
+  "decision_basis": "static views improve slightly but video ten-view aggregate regresses slightly; no promotion without aggregate improvement",
+  "limitations": [
+    "screen-space silhouette diagnostic only",
+    "black-material/background ambiguity",
+    "curved reference screen approximated by flat measured screen plus transparent cover",
+    "no physical/manufacturing/fit/optical/acoustic/thermal/electrical acceptance"
+  ],
+  "artifacts": {
+    "candidate_check": "candidate-check.json",
+    "video_render_manifest": "video-renders/render-manifest.json",
+    "still_render_manifest": "still-renders/render-manifest.json",
+    "video_comparison": "video-comparison/comparison-report.json",
+    "stills_comparison": "stills-comparison/comparison-report.json"
+  },
+  "color_status": "object-level palette restored; 74 distinct RGB triples",
+  "color_artifacts": {
+    "mesh": "meshes.json",
+    "video_render_manifest": "video-renders-color/render-manifest.json",
+    "video_comparison": "video-comparison-color/comparison-report.json",
+    "still_render_manifest": "still-renders-color/render-manifest.json",
+    "still_comparison": "stills-comparison-color/comparison-report.json"
+  }
+}

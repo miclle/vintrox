@@ -1,0 +1,152 @@
+{
+  "view": "still-05",
+  "fcstd_sha256": "2f5b3ed2c72c72dc69fae50b0bca8c349589186283dd9e67d403b8e991305218",
+  "camera_config_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+  "object_id_manifest_sha256": "647f0cabfeec4fa880e32adf71764b9f02eb7fbf0a444eac8a650bb3f0a7d88e",
+  "render_sha256": "58dc7cbbfcd043d46c338fbae1c5ffaca36ecdb9e189eda793e1a44edd22abcf",
+  "reference_sha256": "3860ef57bfcf146ea337493b1860771edc072454c5b1330dc12f8dbdf4c8b58d",
+  "comparison_report_sha256": "cb2931be92dda18ad9a43fac5e6d83664ef25e39dd3b38854c63e5e9f42284df",
+  "comparison_iou": 0.7844123538864551,
+  "reference_size": [
+    1920,
+    1646
+  ],
+  "comparison_size": [
+    960,
+    823
+  ],
+  "reference_resized_with_aspect_ratio": true,
+  "excess_pixels": 91481,
+  "excess_in_enclosed_dark_regions_px": 35083,
+  "excess_outside_filled_reference_px": 56398,
+  "top_exterior_objects": [
+    {
+      "name": "ClosedBellyPan",
+      "pixels": 12303
+    },
+    {
+      "name": "ControlRail",
+      "pixels": 3188
+    },
+    {
+      "name": "BassVisualCone",
+      "pixels": 2877
+    },
+    {
+      "name": "HoodShoulderCrownLeft",
+      "pixels": 2616
+    },
+    {
+      "name": "BottomChassis",
+      "pixels": 2540
+    },
+    {
+      "name": "WingFoldFacetLeft",
+      "pixels": 2498
+    },
+    {
+      "name": "BezelLip",
+      "pixels": 2222
+    },
+    {
+      "name": "RoofSideClosure_1",
+      "pixels": 1758
+    },
+    {
+      "name": "ScreenBezel",
+      "pixels": 1725
+    },
+    {
+      "name": "ProjectingBrow",
+      "pixels": 1698
+    },
+    {
+      "name": "LowerPod_1",
+      "pixels": 1645
+    },
+    {
+      "name": "HoodShoulderPlateLeft",
+      "pixels": 1602
+    },
+    {
+      "name": "LowerPod_001",
+      "pixels": 1572
+    },
+    {
+      "name": "ControlRailEndLeft",
+      "pixels": 1190
+    },
+    {
+      "name": "UnderbodyLoop0",
+      "pixels": 1096
+    },
+    {
+      "name": "Antenna",
+      "pixels": 1084
+    },
+    {
+      "name": "NozzlePetal11",
+      "pixels": 1082
+    },
+    {
+      "name": "NozzlePetal0",
+      "pixels": 895
+    },
+    {
+      "name": "HandleInsetLeft",
+      "pixels": 894
+    },
+    {
+      "name": "MainEnclosureShell",
+      "pixels": 864
+    },
+    {
+      "name": "NozzlePetal10",
+      "pixels": 849
+    },
+    {
+      "name": "UnderbodyLoop1",
+      "pixels": 681
+    },
+    {
+      "name": "UnderbodyHarness0",
+      "pixels": 642
+    },
+    {
+      "name": "HandleGrip",
+      "pixels": 493
+    },
+    {
+      "name": "WingStripeLeft0",
+      "pixels": 405
+    },
+    {
+      "name": "VentBackingLeft",
+      "pixels": 382
+    },
+    {
+      "name": "WingInnerPaintRight",
+      "pixels": 361
+    },
+    {
+      "name": "RearLowerSlope",
+      "pixels": 339
+    },
+    {
+      "name": "WingEdgeLeft",
+      "pixels": 322
+    },
+    {
+      "name": "HandleArmLeft",
+      "pixels": 312
+    }
+  ],
+  "diagnostic_image": "v222-still-05-boundary-diagnostic.png",
+  "method": "saved-CAD opaque object IDs and fixed-camera binary silhouette partition",
+  "limitations": [
+    "static reference camera fit and source image interpretation remain uncertain",
+    "enclosed dark regions can represent material or genuine apertures",
+    "ID attribution is approximate at antialiased edges and occlusions",
+    "rankings identify inspection targets and do not prove geometry correctness"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v117",
+      "model": "/private/tmp/vintrox-v117.yqiaCA/station110-final/candidate.FCStd",
+      "fcstd_sha256": "b92f17f46c397c4262db41b6ba46c1a34e9d48b63dff7eb6e748585ad0af04c2",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "b92f17f46c397c4262db41b6ba46c1a34e9d48b63dff7eb6e748585ad0af04c2",
+      "palette_contract_sha256": "86157a28afca09afb5e06a9539a2274de78e10da5b928e01af4b37c247a0a379",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v117-isometric.png",
+          "sha256": "9ebe7b9c49e4362ff98c55d433aa62d20de11f3fe1a00661ea0371339a18695f"
+        },
+        {
+          "view": "front",
+          "path": "v117-front.png",
+          "sha256": "5873804bb2887d833510a8373b2bb5d08b09f21e84013e71749eb719c3fb3e8e"
+        },
+        {
+          "view": "rear",
+          "path": "v117-rear.png",
+          "sha256": "ed8406643a94b6515f046519073c2cc096d1a6b3bbd7d8782c542884fd78833f"
+        },
+        {
+          "view": "right",
+          "path": "v117-right.png",
+          "sha256": "94498296ec39cd1ea0e4ced681d2e929d523655613e96f53c7c3ba816756e79a"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

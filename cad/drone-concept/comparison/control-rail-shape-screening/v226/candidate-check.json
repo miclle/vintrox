@@ -1,0 +1,79 @@
+{
+  "revision": "v226-control-width099",
+  "baseline_fcstd_sha256": "2f5b3ed2c72c72dc69fae50b0bca8c349589186283dd9e67d403b8e991305218",
+  "fcstd_sha256": "f3277e671e78609d04b5c54dbb7a6fae9ea6fe2b6137db530f3485d3c4cf839c",
+  "step_sha256": "68730fa46559b2a42e7ff701f6cfbb6f4941e89d228312b1f4594630f9a25fe9",
+  "changed_objects": [
+    "ControlRail",
+    "ControlInset",
+    "ControlRailLip",
+    "ControlKeyBed"
+  ],
+  "width_scale": 0.99,
+  "height_scale": 1.0,
+  "parts": {
+    "ControlRail": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume": 133840.58434,
+      "bbox": [
+        -102.06482,
+        102.06482,
+        -6.13125,
+        18.86875,
+        31.39385,
+        57.68705
+      ]
+    },
+    "ControlInset": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume": 6372.8061,
+      "bbox": [
+        -101.07482,
+        101.07482,
+        -6.68125,
+        -5.38125,
+        32.39385,
+        56.68705
+      ]
+    },
+    "ControlRailLip": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume": 363.13799,
+      "bbox": [
+        -102.06482,
+        102.06482,
+        -6.93125,
+        -5.93125,
+        31.39385,
+        57.68705
+      ]
+    },
+    "ControlKeyBed": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume": 2753.86548,
+      "bbox": [
+        -95.42,
+        19.42,
+        -7.3,
+        -6.1,
+        35.8,
+        55.8
+      ]
+    }
+  },
+  "support_names": [
+    "SupportShaftFrontLeft",
+    "SupportShaftRearLeft",
+    "SupportShaftFrontRight",
+    "SupportShaftRearRight"
+  ],
+  "status": "saved-CAD screening candidate"
+}

@@ -1,0 +1,43 @@
+{
+  "baseline_fcstd_sha256": "cfb68e9811afdf582c784b7a3bc83bf6edd397c607b23d984bc2cd6e00ed3c87",
+  "fcstd_sha256": "4a129c57ccb72c75e22b968d8254b5e91bf9174a9e6a0212c8346f4baa9fe2e4",
+  "script_sha256": "d80dc2c6943225c21d690403cf238450184d2d8910765357b5c35a250fc27e00",
+  "changed_objects": [
+    "UtilityCollarLeft3"
+  ],
+  "contacts": {
+    "liner_overlap_mm3": 1612.8151285366598,
+    "boot_overlap_mm3": 177.77704273582407,
+    "previous_liner_overlap_mm3": 57.33406592801359,
+    "previous_boot_overlap_mm3": 0.0
+  },
+  "support_overlap_deltas_mm3": {
+    "CentralSupportSeat": 0.0,
+    "SupportShaftFrontLeft": 0.0,
+    "SupportSocketFrontLeft": 0.0,
+    "SupportFootFrontLeft": 0.0,
+    "SupportShaftRearLeft": 0.0,
+    "SupportSocketRearLeft": 0.0,
+    "SupportFootRearLeft": 0.0,
+    "SupportShaftFrontRight": 0.0,
+    "SupportSocketFrontRight": 0.0,
+    "SupportFootFrontRight": 0.0,
+    "SupportShaftRearRight": 0.0,
+    "SupportSocketRearRight": 0.0,
+    "SupportFootRearRight": 0.0
+  },
+  "socket_probes": {
+    "opening": true,
+    "floor": true
+  },
+  "new_advanced_check_failures": [],
+  "contact_regressions": [],
+  "diagnostic_fcstd_sha256": "f5ad0e34f797ffb7d6ef89bbc2fe907656006eb5942561f1f8b3e759fd36e066",
+  "step_sha256": "cdd7a02b4e37a520e7fd620d752e6dd387069386590d232bf4e57dfb97a12c12",
+  "finalizer_sha256": "116e96bd548782a090f1da8e07458e7983d6291c1754e76844877b3b2b146f7f",
+  "appearance_source_sha256": "cfb68e9811afdf582c784b7a3bc83bf6edd397c607b23d984bc2cd6e00ed3c87",
+  "gui_members_copied": 2095,
+  "unchanged_archive_members_restored": 1101,
+  "geometry_unchanged_during_gui_restore": true,
+  "changed_mesh_geometry": "retessellated from final reopened FCStd"
+}

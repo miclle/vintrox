@@ -1,0 +1,25 @@
+{
+  "baseline": "v193-lowerpod-rib-rails-bezel",
+  "baseline_scores": {
+    "video": 0.8591005233796649,
+    "stills": 0.8253387684800696,
+    "sheet": 0.8966409414795498
+  },
+  "candidate": "v198-liner-setback",
+  "candidate_scores": {
+    "video": 0.8591004427334296,
+    "stills": 0.8253386173839353,
+    "sheet": 0.8966408819033346
+  },
+  "changed_objects": [
+    "BrowUnderside"
+  ],
+  "liner_setback_mm": 1.0,
+  "decision": "retain v193",
+  "reason": "all three fixed-camera means are equal to or marginally below v193 at renderer precision",
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "screen_geometry_preserved": true,
+  "support_count": 4,
+  "visible_features": 696,
+  "distinct_rgb_triples": 70
+}

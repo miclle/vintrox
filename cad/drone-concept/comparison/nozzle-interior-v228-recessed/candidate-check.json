@@ -1,0 +1,62 @@
+{
+  "baseline_fcstd_sha256": "2f5b3ed2c72c72dc69fae50b0bca8c349589186283dd9e67d403b8e991305218",
+  "fcstd_sha256": "0f81977d8232812a151513ef1f9dc64c20e4dbbfb7bb2377bb7cc9f3d844cb30",
+  "changed_objects": [
+    "BassInnerThroat",
+    "BassVisualCone",
+    "BassDustCap"
+  ],
+  "parts": [
+    {
+      "name": "BassInnerThroat",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "difference_mm3": 22043.490374928086
+    },
+    {
+      "name": "BassVisualCone",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "difference_mm3": 11696.202124718846
+    },
+    {
+      "name": "BassDustCap",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "difference_mm3": 1846.3614578033812
+    }
+  ],
+  "unchanged_objects": 695,
+  "contacts": [
+    {
+      "objects": [
+        "BassVisualCone",
+        "BassDustCap"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 60.24691455690988
+    },
+    {
+      "objects": [
+        "BassVisualCone",
+        "BassInnerThroat"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 6461.990124413873
+    }
+  ],
+  "recessed": true,
+  "source_sha256": "d5147b80b63ea5931a73f2c7e3fab56bb19e830ad6f870d2fa85efc04bbf9f17",
+  "script_sha256": "743ed425882fb1fc644ad31cf6e3d27b171de1e257e4f6b8325e999d322552ef",
+  "status": "candidate; visual and spatial review pending",
+  "limitations": [
+    "Internal speaker-like shapes are appearance assumptions, not selected hardware.",
+    "Lighting and outer nozzle geometry remain fixed."
+  ]
+}

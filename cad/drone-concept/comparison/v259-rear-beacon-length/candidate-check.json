@@ -1,0 +1,110 @@
+{
+  "baseline_fcstd_sha256": "8ff77e07cc44211b70251a4c898078244b53bb7243f6e3737c083e653513ea26",
+  "fcstd_sha256": "f27892986cd8605bab3dcbbfc0c725e0cfbb09bb7d79efdc9b296af6214a8b2c",
+  "script_sha256": "fb14a5a547e87c1559c42619c60e56e11de4decd40a260a597488920de513e45",
+  "axial_scale": 1.3,
+  "changed_objects": [
+    "RearBeacon_1",
+    "RearBeaconBand_1_0",
+    "RearBeaconBand_1_1",
+    "RearBeaconBand_1_2",
+    "RearBeaconLens_1",
+    "RearBeacon_001",
+    "RearBeaconBand_1_001",
+    "RearBeaconBand_1_002",
+    "RearBeaconBand_1_003",
+    "RearBeaconLens_001"
+  ],
+  "contacts": [
+    {
+      "objects": [
+        "RearBeacon_1",
+        "RearBeaconBase_1"
+      ],
+      "gap_mm": 2.999999537678377e-08,
+      "overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "RearBeacon_1",
+        "RearBeaconLens_1"
+      ],
+      "gap_mm": 3.00000237984932e-08,
+      "overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "RearBeacon_1",
+        "RearBeaconBand_1_0"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 279.0513472478858
+    },
+    {
+      "objects": [
+        "RearBeacon_1",
+        "RearBeaconBand_1_1"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 303.4827714683245
+    },
+    {
+      "objects": [
+        "RearBeacon_1",
+        "RearBeaconBand_1_2"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 191.53353284825266
+    },
+    {
+      "objects": [
+        "RearBeacon_001",
+        "RearBeaconBase_001"
+      ],
+      "gap_mm": 2.999999537678377e-08,
+      "overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "RearBeacon_001",
+        "RearBeaconLens_001"
+      ],
+      "gap_mm": 3.00000237984932e-08,
+      "overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "RearBeacon_001",
+        "RearBeaconBand_1_001"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 279.0512217978212
+    },
+    {
+      "objects": [
+        "RearBeacon_001",
+        "RearBeaconBand_1_002"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 303.48278081100375
+    },
+    {
+      "objects": [
+        "RearBeacon_001",
+        "RearBeaconBand_1_003"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 191.53354408357984
+    }
+  ],
+  "new_advanced_check_failures": [],
+  "contact_regressions": [],
+  "diagnostic_fcstd_sha256": "65f963a5bdd7b5e17a887bbbcd8330e6be00207378c5b0ebb0ddcaacebfe9956",
+  "step_sha256": "be9d82e32cc6fb02c3a3f943f9e979a6eacfe82bdf05dae741c762a10232eb28",
+  "finalizer_sha256": "116e96bd548782a090f1da8e07458e7983d6291c1754e76844877b3b2b146f7f",
+  "appearance_source_sha256": "8ff77e07cc44211b70251a4c898078244b53bb7243f6e3737c083e653513ea26",
+  "gui_members_copied": 2095,
+  "unchanged_archive_members_restored": 1092,
+  "geometry_unchanged_during_gui_restore": true,
+  "changed_mesh_geometry": "retessellated from final reopened FCStd"
+}

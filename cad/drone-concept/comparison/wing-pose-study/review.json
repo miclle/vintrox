@@ -1,0 +1,170 @@
+{
+  "fcstd_sha256": "5534f124a394523e711ca6508d23d57754275f9be3ac0d45ec4e359a7a355cc0",
+  "candidate_fcstd_sha256": "848ae54766cff32be42367bc2894396b7c89ab668bde64d4ff0b356c5fb839fe",
+  "selection": "rejected; authoritative v42 retained",
+  "reason": "Two outline views improve, but full-orbit mean and front/rear views regress; no replacement of the authoritative model.",
+  "comparisons": [
+    {
+      "set": "video",
+      "baseline_mean_iou": 0.8484236466639168,
+      "candidate_mean_iou": 0.8475886394708058,
+      "views": [
+        {
+          "view": "video-00",
+          "baseline_iou": 0.8734462579322946,
+          "candidate_iou": 0.8685105010940435,
+          "delta_percentage_points": -0.4935756838251093
+        },
+        {
+          "view": "video-01",
+          "baseline_iou": 0.8554437506968446,
+          "candidate_iou": 0.8557260651119242,
+          "delta_percentage_points": 0.028231441507953203
+        },
+        {
+          "view": "video-02",
+          "baseline_iou": 0.8376149942932578,
+          "candidate_iou": 0.837999768924785,
+          "delta_percentage_points": 0.038477463152719604
+        },
+        {
+          "view": "video-03",
+          "baseline_iou": 0.819057038865555,
+          "candidate_iou": 0.8187074896603093,
+          "delta_percentage_points": -0.03495492052457694
+        },
+        {
+          "view": "video-04",
+          "baseline_iou": 0.8177114935257742,
+          "candidate_iou": 0.8149469974907958,
+          "delta_percentage_points": -0.2764496034978414
+        },
+        {
+          "view": "video-05",
+          "baseline_iou": 0.8039326978185211,
+          "candidate_iou": 0.8020190178094956,
+          "delta_percentage_points": -0.19136800090254757
+        },
+        {
+          "view": "video-06",
+          "baseline_iou": 0.8251796327508205,
+          "candidate_iou": 0.8238320875785462,
+          "delta_percentage_points": -0.13475451722743115
+        },
+        {
+          "view": "video-07",
+          "baseline_iou": 0.8779943118931869,
+          "candidate_iou": 0.880135267380204,
+          "delta_percentage_points": 0.21409554870170933
+        },
+        {
+          "view": "video-08",
+          "baseline_iou": 0.8935988344351935,
+          "candidate_iou": 0.8926848290679982,
+          "delta_percentage_points": -0.09140053671953252
+        },
+        {
+          "view": "video-09",
+          "baseline_iou": 0.8802574544277193,
+          "candidate_iou": 0.8813243705899545,
+          "delta_percentage_points": 0.10669161622351986
+        }
+      ],
+      "fixed_comparison_settings": true,
+      "baseline_report_sha256": "32ce19e0768cf3b47bcbe747302f52bc2b9d3d1c8870bbfbf3db7e20c69b475d",
+      "candidate_report_sha256": "2517e5d210e7ca7f15d51f9a8fb4862dc93517feb3f110fc38b13a5b43359b96"
+    },
+    {
+      "set": "stills",
+      "baseline_mean_iou": 0.8194408597662175,
+      "candidate_mean_iou": 0.8204088467720635,
+      "views": [
+        {
+          "view": "still-01",
+          "baseline_iou": 0.8650207256828119,
+          "candidate_iou": 0.857574997117452,
+          "delta_percentage_points": -0.7445728565359855
+        },
+        {
+          "view": "still-02",
+          "baseline_iou": 0.8671098682331476,
+          "candidate_iou": 0.8727479329575527,
+          "delta_percentage_points": 0.563806472440509
+        },
+        {
+          "view": "still-03",
+          "baseline_iou": 0.8487970010695631,
+          "candidate_iou": 0.8545916441732802,
+          "delta_percentage_points": 0.5794643103717023
+        },
+        {
+          "view": "still-04",
+          "baseline_iou": 0.7805294806579615,
+          "candidate_iou": 0.7785755607706162,
+          "delta_percentage_points": -0.1953919887345279
+        },
+        {
+          "view": "still-05",
+          "baseline_iou": 0.7693838471875765,
+          "candidate_iou": 0.7709658065806365,
+          "delta_percentage_points": 0.15819593930600506
+        },
+        {
+          "view": "still-06",
+          "baseline_iou": 0.7372434930981249,
+          "candidate_iou": 0.7349099647433296,
+          "delta_percentage_points": -0.2333528354795278
+        },
+        {
+          "view": "still-closeup",
+          "baseline_iou": 0.8680016024343364,
+          "candidate_iou": 0.873496021061577,
+          "delta_percentage_points": 0.5494418627240538
+        }
+      ],
+      "fixed_comparison_settings": true,
+      "baseline_report_sha256": "7fe72845c794bb03ae9de6a849c6d2706dc03d6800c4c63675ca090c0283410d",
+      "candidate_report_sha256": "10359a89647af0217ebd0444f43813f11dead083656743da12f6e6dd9ebb690c"
+    }
+  ],
+  "existing_advanced_bop_error_parts": 13,
+  "advanced_bop_results_unchanged": true,
+  "outline_review": {
+    "path": "reference-outline-review.png",
+    "sha256": "5bb9c2c04b62b7fdd7c4e784a0b12dacd84985a0b2a3945b89fc5190e3a59f0d",
+    "source_files": [
+      {
+        "path": "cad/drone-concept/comparison/iteration-76/reference-frames/frame-02.png",
+        "sha256": "cd0f688ee3fc7b921a5573cb352e327bf4a11c1490edc03d4213b69ba2d4c3df"
+      },
+      {
+        "path": "cad/drone-concept/comparison/iteration-76/reference-frames/frame-08.png",
+        "sha256": "22b11545e68835cb3a3b05f29332f96210cc0f875e91fdc7436910599374ba60"
+      }
+    ]
+  },
+  "cache_files": [
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-wing-pose-cache/a-meshes.json",
+      "sha256": "aa79cbdd24469ad1b2abc4cd4d248a45afd4596bbadab5a8ff9c258d12f26d14"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-wing-pose-cache/readback.py",
+      "sha256": "1e7f7862c8eb82877b3f74f0a3a01c2a4b748d3b655aaba45d392c6ec9f5aa6f"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-wing-pose-cache/review.py",
+      "sha256": "e46fb8af1906bb9bbf1b3b55c033c5d53cffbc59cf0d23b19572dc834e025a95"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-wing-pose-cache/experiment-at-generation.py",
+      "sha256": "98d9e4a84ed438f2227e32a1f09018f3c46f6db8b5eb04c84b62ddf7ce94d973"
+    }
+  ],
+  "next_action": "Keep the established hub and tip locations. Compare local profile/fold boundaries across views before another whole-wing pose change.",
+  "limitations": [
+    "seven-image mean includes a wireframe image and is diagnostic only",
+    "manual sampled edges do not establish full 3D shape",
+    "advanced BOP errors remain in inherited wing shapes; artifact consistency is not advanced geometric acceptance"
+  ]
+}

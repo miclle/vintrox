@@ -1,0 +1,21 @@
+{
+  "baseline": "v193-lowerpod-rib-rails-bezel",
+  "baseline_video_mean_iou": 0.8591005233796649,
+  "candidates": [
+    {
+      "candidate": "v196",
+      "liner_height_scale": 0.99,
+      "video_mean_iou": 0.8590984429751343,
+      "candidate_fcstd_sha256": "9e4266fb307b9a4d5fb644e96580f57de0d791bd47a9a67961651b769cf03de9",
+      "screen_geometry_preserved": true
+    },
+    {
+      "candidate": "v197",
+      "liner_height_scale": 0.98,
+      "video_mean_iou": 0.8590958825052155,
+      "candidate_fcstd_sha256": "91a8f994fcbac4c6b169ff379b6d659a10a18008f59d2ecefd466042d1ecb1c3",
+      "screen_geometry_preserved": true
+    }
+  ],
+  "decision": "retain v193"
+}

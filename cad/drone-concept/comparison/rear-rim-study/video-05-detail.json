@@ -1,0 +1,28 @@
+{
+  "model_sha256": "54c0aab2baa8dbf4c485404719def58a9fe102f58d7cd0888ac32d12c1ee208b",
+  "baseline_sha256": "94f972c40e00c3ce739fde8134fa72e807688be6f2b0d098e24099f4f7f56419",
+  "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "crop": [
+    410,
+    290,
+    810,
+    735
+  ],
+  "alpha": 0.5,
+  "method": "same camera and common pixel crop; no image warp",
+  "sources": [
+    {
+      "path": "cad/drone-concept/comparison/iteration-82/reference-frames/frame-06.png",
+      "sha256": "6163748cf00f271a738409696656ddd46ca93481e0bfab683b656e6e8a38a204"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-82-renders/video-05.png",
+      "sha256": "2b1cf9f2be33a337561a4fc214ceddf4e83765ede1b5ef53a5281c8e2a2cff99"
+    },
+    {
+      "path": "cad/drone-concept/comparison/rear-rim-study/r12/video-renders/video-05.png",
+      "sha256": "d304e13d4f20795ad8ca4ac8432e29b11c1b44cca57498e313b9b6c993612ace"
+    }
+  ],
+  "image_sha256": "a08f8eb14462520426716ff66e9b8124997bf244a6ca1a42cb073990c1effc8a"
+}

@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v193",
+      "model": "cad/drone-concept/comparison/v193-lowerpod-rib-rails-bezel/candidate.FCStd",
+      "fcstd_sha256": "aedd1fc5039265123f71b43faab01939faa4dc2fd84ee0955efee7c3b9aaab1b",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "aedd1fc5039265123f71b43faab01939faa4dc2fd84ee0955efee7c3b9aaab1b",
+      "palette_contract_sha256": "35e6b608d70706cfb3112015c7f7771685c39e344a3a9c461b88d34a14edee35",
+      "native_color_triples": 70,
+      "mesh_color_triples": 70,
+      "max_native_vs_mesh_channel_difference": 2.9685450542160652e-08,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v193-isometric.png",
+          "sha256": "6274bd4cf8de5d531c72044694460acc4cb5b9002313903ded83de3ec3d03a4f"
+        },
+        {
+          "view": "front",
+          "path": "v193-front.png",
+          "sha256": "6759aa98c305a5982e3f3f7bbaf5646cae8fdd0cd9fa84ca13c590db785df842"
+        },
+        {
+          "view": "rear",
+          "path": "v193-rear.png",
+          "sha256": "7a95d6b7cb6fbc471a4c4fd74a0405a6e751a586071597630828de837ca5803a"
+        },
+        {
+          "view": "right",
+          "path": "v193-right.png",
+          "sha256": "c1ff30efbadaeb45202d2642a6d0334170c68ea74319c7fc6943f47f3dcb5d53"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

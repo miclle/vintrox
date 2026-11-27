@@ -1,0 +1,34 @@
+{
+  "rows": [
+    {
+      "side": "Left",
+      "direction": "old_to_new",
+      "sample_count": 600,
+      "maximum_mm": 0.2211938179446656,
+      "rms_mm": 0.09259914939749088
+    },
+    {
+      "side": "Left",
+      "direction": "new_to_old",
+      "sample_count": 600,
+      "maximum_mm": 0.22067686949512227,
+      "rms_mm": 0.10209769708651177
+    },
+    {
+      "side": "Right",
+      "direction": "old_to_new",
+      "sample_count": 600,
+      "maximum_mm": 0.22047928075566778,
+      "rms_mm": 0.09709559299433404
+    },
+    {
+      "side": "Right",
+      "direction": "new_to_old",
+      "sample_count": 600,
+      "maximum_mm": 0.22174002996154066,
+      "rms_mm": 0.10222185170175328
+    }
+  ],
+  "method": "600 deterministic tessellation vertex samples to opposite BRep surface, each direction; not a certified Hausdorff bound",
+  "reason": "baseline advanced BRep defects make boolean symmetric differences unreliable"
+}

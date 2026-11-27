@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/miclle/github/miclle/vintrox/tools/experiment_drone_rear_profile.py", line 121, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/miclle/github/miclle/vintrox/tools/experiment_drone_rear_profile.py", line 89, in main
+    print('CHECK',name,flush=True);s.check(True)
+                                   ^^^^^^^^^^^^^
+ValueError: BOP check found the following errors:
+Error in Edge: BOPAlgo_InvalidCurveOnSurface
+Error in Face: BOPAlgo_InvalidCurveOnSurface
+Error in Edge: BOPAlgo_InvalidCurveOnSurface
+Error in Face: BOPAlgo_InvalidCurveOnSurface
+

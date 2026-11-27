@@ -1,0 +1,18 @@
+{
+  "baseline": "v229-belly-center60",
+  "baseline_fcstd_sha256": "2d33864c9ef400875d67a4197b93b84889557a1ece28354f2e9cb36dbf2d7a09",
+  "formal_revision": "v239-bottom-y098",
+  "formal_fcstd_sha256": "7e215c6e884b19c99352e1b7ae6442e8fc02960ce852728ee5d9078824a7d16b",
+  "formal_step_sha256": "23414d00210b61e29116e0e903098a65112987a28c863e45d4e517a7cfe3aa43",
+  "changed_objects": ["BottomChassis"],
+  "y_scale": 0.98,
+  "fixed_y_min_mm": 11.25,
+  "metrics": {
+    "video": {"views": 10, "baseline": 0.859157578083332, "candidate": 0.8591730819683929},
+    "stills": {"views": 7, "baseline": 0.825350366229179, "candidate": 0.8253652648076918},
+    "sheet": {"views": 10, "baseline": 0.8966918979578997, "candidate": 0.8967077375271717}
+  },
+  "method": "saved real CAD candidate geometry; fixed calibrated cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "protected_features": ["ScreenPanel210x160x2", "ActiveArea200x150", "SupportShaft", "SupportSocket", "SupportFoot", "CentralSupportSeat"],
+  "limitations": ["silhouette diagnostic only", "BottomChassis proportion remains appearance-derived", "no physical, manufacturing, assembly, acoustic, thermal, or electrical acceptance"]
+}

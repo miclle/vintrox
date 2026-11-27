@@ -1,0 +1,131 @@
+{
+  "baseline": "v193-lowerpod-rib-rails-bezel",
+  "baseline_scores": {
+    "video": 0.8591005233796649,
+    "stills": 0.8253387622746094,
+    "sheet": 0.8966408819033346
+  },
+  "candidates": [
+    {
+      "candidate": "v212",
+      "shift_y_mm": 0.5,
+      "fcstd_sha256": "873fe98455ce53a518a55af3d89abdf5b281e5d32ea0593e63e3ba0b2bdce5b0",
+      "step_sha256": "b1b6bcfccd86f562b667ddc290cc8c72f3896f0f8504ceef8582ac1973f0f92a",
+      "changed_objects": [
+        "ControlRail",
+        "ControlRailLip",
+        "ControlInset",
+        "ControlKeyBed",
+        "ControlRailEndLeft",
+        "ControlRailEndRight",
+        "ControlEndBoltLeft",
+        "ControlEndBoltRight"
+      ],
+      "scores": {
+        "video": 0.8590277772410447
+      },
+      "delta_vs_v193": {
+        "video": -7.274613862018331e-05
+      },
+      "decision": "retain v193"
+    },
+    {
+      "candidate": "v213",
+      "shift_y_mm": -0.5,
+      "fcstd_sha256": "980dde7c3f6ebda7210e159ddce32a986c9cb3658ff78e2aabc3b76cd656d357",
+      "step_sha256": "0756fe14e2a825e83a3cb4d10aa3ec86524f0b31da4c9e3234c9bb4dfd6c6ee2",
+      "changed_objects": [
+        "ControlRail",
+        "ControlRailLip",
+        "ControlInset",
+        "ControlKeyBed",
+        "ControlRailEndLeft",
+        "ControlRailEndRight",
+        "ControlEndBoltLeft",
+        "ControlEndBoltRight"
+      ],
+      "scores": {
+        "video": 0.8591443361174056,
+        "stills": 0.8252121862406613,
+        "sheet": 0.8966873002077485
+      },
+      "delta_vs_v193": {
+        "video": 4.381273774067829e-05,
+        "stills": -0.00012657603394816697,
+        "sheet": 4.641830441387551e-05
+      },
+      "decision": "retain v193"
+    },
+    {
+      "candidate": "v214",
+      "shift_y_mm": -0.1,
+      "fcstd_sha256": "6b363c6cf90713ea6671f05fa748a4bba79e4be803b729a7161e1e1d3b9a0d0b",
+      "step_sha256": "37051b715fc9df51ddfdede6eb7e50bc9bf2161a2cfdac1b3d591ca55dcdd532",
+      "changed_objects": [
+        "ControlRail",
+        "ControlRailLip",
+        "ControlInset",
+        "ControlKeyBed",
+        "ControlRailEndLeft",
+        "ControlRailEndRight",
+        "ControlEndBoltLeft",
+        "ControlEndBoltRight"
+      ],
+      "scores": {
+        "video": 0.8591109670165309
+      },
+      "delta_vs_v193": {
+        "video": 1.0443636865975492e-05
+      },
+      "decision": "retain v193"
+    },
+    {
+      "candidate": "v215",
+      "shift_y_mm": -0.25,
+      "fcstd_sha256": "ed115a3dd076e8cba1b7b03b48f151cd18d4b6f790b6a3482f319399cfd30504",
+      "step_sha256": "4f056f75f5423db1cb75a0a6cd8051524e0352beda58e28c19721305ffda7e9d",
+      "changed_objects": [
+        "ControlRail",
+        "ControlRailLip",
+        "ControlInset",
+        "ControlKeyBed",
+        "ControlRailEndLeft",
+        "ControlRailEndRight",
+        "ControlEndBoltLeft",
+        "ControlEndBoltRight"
+      ],
+      "scores": {
+        "video": 0.8591183888147498,
+        "stills": 0.8252683625864795,
+        "sheet": 0.8966659382513843
+      },
+      "delta_vs_v193": {
+        "video": 1.7865435084862824e-05,
+        "stills": -7.039968812994069e-05,
+        "sheet": 2.5056348049723454e-05
+      },
+      "decision": "retain v193"
+    }
+  ],
+  "method": "rigid real-CAD Y translation of the saved ControlRail family with calibrated fixed-camera renders, overlays, edges, and differences",
+  "protected_features": [
+    "ScreenPanel210x160x2",
+    "ActiveArea200x150",
+    "UtilityBarrel",
+    "CheekDial",
+    "CheekVentRib",
+    "SupportShaft",
+    "SupportSocket",
+    "SupportFoot",
+    "CentralSupportSeat"
+  ],
+  "mesh_storage": "not stored in Git; rebuild from candidate FCStd with tools/export_saved_drone_meshes.py",
+  "decision": "retain v193",
+  "next_focus": [
+    "split ControlRail body, lip, and end blocks before further shifts"
+  ],
+  "limitations": [
+    "control rail placement is an appearance hypothesis",
+    "no manufacturing, fit, acoustic, thermal, electrical, or physical acceptance"
+  ]
+}

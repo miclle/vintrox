@@ -1,0 +1,326 @@
+{
+  "fcstd_sha256": "f7bc682ee00a9bffa5d0e4386b8510a72164a92508c06316b52cf12174171364",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "render_manifest_sha256": "b3c3f338825a5e2ae36e486ca3089daab9c4ef37f9e25d367c632e2114b11704",
+  "script_sha256": "6f0b18ca050cad085a4e443b9369006ee9dee5fe5c07a9a930fb05f619b7b8a9",
+  "observations": [
+    {
+      "view": 4,
+      "row_px": 430,
+      "search_x_px": [
+        305,
+        350
+      ],
+      "outer_side": "left",
+      "thresholds": [
+        20,
+        25,
+        30
+      ],
+      "reference_centers_px": [
+        326.5,
+        330.0,
+        330.0
+      ],
+      "cad_centers_px": [
+        328.0,
+        328.0,
+        328.0
+      ],
+      "error_px": -2.0
+    },
+    {
+      "view": 4,
+      "row_px": 450,
+      "search_x_px": [
+        305,
+        350
+      ],
+      "outer_side": "left",
+      "thresholds": [
+        20,
+        25,
+        30
+      ],
+      "reference_centers_px": [
+        326.5,
+        326.5,
+        326.5
+      ],
+      "cad_centers_px": [
+        328.0,
+        328.0,
+        328.0
+      ],
+      "error_px": 1.5
+    },
+    {
+      "view": 4,
+      "row_px": 475,
+      "search_x_px": [
+        305,
+        350
+      ],
+      "outer_side": "left",
+      "thresholds": [
+        20,
+        25,
+        30
+      ],
+      "reference_centers_px": [
+        330.0,
+        330.0,
+        330.0
+      ],
+      "cad_centers_px": [
+        328.5,
+        328.5,
+        328.5
+      ],
+      "error_px": -1.5
+    },
+    {
+      "view": 4,
+      "row_px": 430,
+      "search_x_px": [
+        600,
+        640
+      ],
+      "outer_side": "right",
+      "thresholds": [
+        20,
+        25,
+        30
+      ],
+      "reference_centers_px": [
+        620.5,
+        620.5,
+        620.5
+      ],
+      "cad_centers_px": [
+        618.0,
+        618.0,
+        618.0
+      ],
+      "error_px": -2.5
+    },
+    {
+      "view": 4,
+      "row_px": 450,
+      "search_x_px": [
+        600,
+        640
+      ],
+      "outer_side": "right",
+      "thresholds": [
+        20,
+        25,
+        30
+      ],
+      "reference_centers_px": [
+        620.5,
+        620.5,
+        620.5
+      ],
+      "cad_centers_px": [
+        618.0,
+        618.0,
+        618.0
+      ],
+      "error_px": -2.5
+    },
+    {
+      "view": 4,
+      "row_px": 475,
+      "search_x_px": [
+        600,
+        640
+      ],
+      "outer_side": "right",
+      "thresholds": [
+        20,
+        25,
+        30
+      ],
+      "reference_centers_px": [
+        617.0,
+        617.0,
+        617.0
+      ],
+      "cad_centers_px": [
+        618.0,
+        618.0,
+        618.0
+      ],
+      "error_px": 1.0
+    },
+    {
+      "view": 3,
+      "row_px": 420,
+      "search_x_px": [
+        230,
+        275
+      ],
+      "outer_side": "left",
+      "thresholds": [
+        20,
+        25,
+        30
+      ],
+      "reference_centers_px": [
+        239.5,
+        239.5,
+        239.5
+      ],
+      "cad_centers_px": [
+        247.5,
+        247.5,
+        247.5
+      ],
+      "error_px": 8.0
+    },
+    {
+      "view": 3,
+      "row_px": 435,
+      "search_x_px": [
+        230,
+        275
+      ],
+      "outer_side": "left",
+      "thresholds": [
+        20,
+        25,
+        30
+      ],
+      "reference_centers_px": [
+        239.5,
+        239.5,
+        239.5
+      ],
+      "cad_centers_px": [
+        247.5,
+        247.5,
+        247.5
+      ],
+      "error_px": 8.0
+    },
+    {
+      "view": 3,
+      "row_px": 450,
+      "search_x_px": [
+        230,
+        275
+      ],
+      "outer_side": "left",
+      "thresholds": [
+        20,
+        25,
+        30
+      ],
+      "reference_centers_px": [
+        240.0,
+        240.0,
+        240.0
+      ],
+      "cad_centers_px": [
+        248.0,
+        248.0,
+        248.0
+      ],
+      "error_px": 8.0
+    },
+    {
+      "view": 5,
+      "row_px": 420,
+      "search_x_px": [
+        675,
+        715
+      ],
+      "outer_side": "right",
+      "thresholds": [
+        20,
+        25,
+        30
+      ],
+      "reference_centers_px": [
+        702.5,
+        702.5,
+        702.5
+      ],
+      "cad_centers_px": [
+        694.5,
+        694.5,
+        694.5
+      ],
+      "error_px": -8.0
+    },
+    {
+      "view": 5,
+      "row_px": 435,
+      "search_x_px": [
+        675,
+        715
+      ],
+      "outer_side": "right",
+      "thresholds": [
+        20,
+        25,
+        30
+      ],
+      "reference_centers_px": [
+        702.5,
+        702.5,
+        702.5
+      ],
+      "cad_centers_px": [
+        694.0,
+        694.0,
+        694.0
+      ],
+      "error_px": -8.5
+    },
+    {
+      "view": 5,
+      "row_px": 450,
+      "search_x_px": [
+        675,
+        715
+      ],
+      "outer_side": "right",
+      "thresholds": [
+        20,
+        25,
+        30
+      ],
+      "reference_centers_px": [
+        702.0,
+        702.0,
+        702.0
+      ],
+      "cad_centers_px": [
+        693.5,
+        693.5,
+        693.5
+      ],
+      "error_px": -8.5
+    }
+  ],
+  "measured_samples": 12,
+  "expected_samples": 12,
+  "rms_px": 5.9336610396393,
+  "max_px": 8.5,
+  "source_files": {
+    "cad/drone-concept/comparison/iteration-68/reference-frames/frame-05.png": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb",
+    "cad/drone-concept/comparison/cavity-proportion-study/c/renders/video-04.png": "adb1849d26d23303cf2339c8c15c14417143949a775342e31f76b80730c330fc",
+    "cad/drone-concept/comparison/iteration-68/reference-frames/frame-04.png": "0d8806db3363c684e6e42e641883d59705af1a938511637a2cbb9c88a116a82f",
+    "cad/drone-concept/comparison/cavity-proportion-study/c/renders/video-03.png": "981e2caa1f97d6eb292a7dbf1c4bc77cea7af41adcac952194574057cc1915cf",
+    "cad/drone-concept/comparison/iteration-68/reference-frames/frame-06.png": "6163748cf00f271a738409696656ddd46ca93481e0bfab683b656e6e8a38a204",
+    "cad/drone-concept/comparison/cavity-proportion-study/c/renders/video-05.png": "99d51b51b3f37f50dd53d19b134b46fd9547eeee370f6c6db96a85de1bbcddad"
+  },
+  "method": "outermost contiguous cyan run of at least two pixels; G-R and B-R > threshold, G >110; native fixed rows",
+  "limitations": [
+    "outer luminous trace only; not the second inner rail",
+    "bloom and saturated whites affect detected centers",
+    "no pass/fail or complete outline claim"
+  ]
+}

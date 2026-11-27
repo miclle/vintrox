@@ -1,0 +1,135 @@
+{
+  "measurement_script_sha256": "31a7a8d37399689beb8deaa1c1ca350559f8405ed62f9f9debea4952d0bb4e0f",
+  "results": [
+    {
+      "label": "v43",
+      "fcstd_sha256": "d03080846462cd5b8318f6dea254456fe77ece6cda06349ba698ea010086d591",
+      "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_path": "cad/drone-concept/comparison/object-ids-v43/object-id-manifest.json",
+      "id_manifest_sha256": "932a96343192285aaf1cc17196963e4c409c7352ae1d2ad6b7177060a8adc98f",
+      "reference_px": [
+        [
+          563,
+          487
+        ],
+        [
+          556,
+          499
+        ],
+        [
+          543,
+          512
+        ],
+        [
+          529,
+          524
+        ]
+      ],
+      "nearest_visible_gold_px": [
+        [
+          575,
+          487
+        ],
+        [
+          555,
+          499
+        ],
+        [
+          534,
+          503
+        ],
+        [
+          526,
+          524
+        ]
+      ],
+      "distances_px": [
+        12.0,
+        1.0,
+        12.727922061357855,
+        3.0
+      ],
+      "rms_px": 8.888194417315589,
+      "max_px": 12.727922061357855
+    },
+    {
+      "label": "current",
+      "fcstd_sha256": "396a4f714fddb44aca0a5de7322bcfd5d5d90bd535f3243797488d588ff3314c",
+      "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_path": "cad/drone-concept/comparison/guard-notch-study/a/ids/object-id-manifest.json",
+      "id_manifest_sha256": "68b1d765ba205b4625514d57aa1df3dbc378a74d0561d1d5a21ad860c5f484ba",
+      "reference_px": [
+        [
+          563,
+          487
+        ],
+        [
+          556,
+          499
+        ],
+        [
+          543,
+          512
+        ],
+        [
+          529,
+          524
+        ]
+      ],
+      "nearest_visible_gold_px": [
+        [
+          575,
+          487
+        ],
+        [
+          556,
+          500
+        ],
+        [
+          543,
+          511
+        ],
+        [
+          526,
+          524
+        ]
+      ],
+      "distances_px": [
+        12.0,
+        1.0,
+        1.0,
+        3.0
+      ],
+      "rms_px": 6.224949798994366,
+      "max_px": 12.0
+    }
+  ],
+  "boundary_objects": [
+    "SideGuardRight",
+    "SideClosureRight",
+    "RearArmourCheekRight"
+  ],
+  "source_frame": 180,
+  "manual_uncertainty_px": 2,
+  "source_files": [
+    {
+      "path": "cad/drone-concept/comparison/guard-notch-study/a/video/reference-frames/frame-07.png",
+      "sha256": "ed7cdc03298e1c8106e1213c9b147088086735663711979ebff9799bbbb2f920"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-77-renders/video-06.png",
+      "sha256": "8ae53dc019ea2d06a46fe6d1e930e9c4addc3afd4e6668340844324c3eabf50c"
+    },
+    {
+      "path": "cad/drone-concept/comparison/guard-notch-study/a/video-renders/video-06.png",
+      "sha256": "f789a2132698b46aff7cbb6a5e996b8619b210cdad026d4e0933c5a905b5edd6"
+    }
+  ],
+  "image_path": "cad/drone-concept/comparison/guard-notch-study/a/edge-check.png",
+  "image_sha256": "d657261e638f966c14dc6035d0babef358fd748fc1654db3c1afafccdd45ab64",
+  "limitations": [
+    "Four construction-view observations, not independent acceptance.",
+    "Union includes adjacent gold parts; a private cut edge may remain occluded.",
+    "Reference component identities are unknown; do not remove surfaces just to improve scores."
+  ]
+}

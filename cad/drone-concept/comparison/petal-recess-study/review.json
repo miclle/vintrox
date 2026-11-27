@@ -1,0 +1,58 @@
+{
+  "baseline_fcstd_sha256": "a517708ecfbf61416ae16f371bdfa9d319ce36b552d257707e69dc5bd9376ca6",
+  "fcstd_sha256": "72f70bbc88e8ec059fb033c6388f89bd8a96a877e0f683a1a0d805848d590adc",
+  "selected": "b",
+  "candidates": [
+    {
+      "candidate": "a",
+      "fcstd_sha256": "c14386491845294519513091dfaa870f965756d2626eb017316e6f6619c90e0f",
+      "video_mean_iou": 0.8478070817476396,
+      "still_mean_iou": 0.8190989293365231,
+      "pitch_rms_px": 1.6583123951777,
+      "pitch_max_px": 2.5,
+      "terminal_rms_px": 3.298339027093043,
+      "terminal_max_px": 6.27787105702207
+    },
+    {
+      "candidate": "b",
+      "fcstd_sha256": "701548f9290c298ccfc789dd2620bb7fb0d10df87bd2808b5d892ae0ec28c587",
+      "video_mean_iou": 0.8478070817476396,
+      "still_mean_iou": 0.8190989293365231,
+      "pitch_rms_px": 1.6583123951777,
+      "pitch_max_px": 2.5,
+      "terminal_rms_px": 3.298339027093043,
+      "terminal_max_px": 6.27787105702207
+    }
+  ],
+  "selection_basis": "Qualitative three-view review of narrower formed recess borders; global silhouette score unchanged; no claim of measured reference corner radius",
+  "still_view_deltas": [
+    {
+      "view": "still-01",
+      "delta": 0.0
+    },
+    {
+      "view": "still-02",
+      "delta": 0.0
+    },
+    {
+      "view": "still-03",
+      "delta": 0.0
+    },
+    {
+      "view": "still-04",
+      "delta": 0.0
+    },
+    {
+      "view": "still-05",
+      "delta": -1.6508646153434725e-06
+    },
+    {
+      "view": "still-06",
+      "delta": 0.0
+    },
+    {
+      "view": "still-closeup",
+      "delta": 0.0
+    }
+  ]
+}

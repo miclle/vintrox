@@ -1,0 +1,177 @@
+{
+  "fcstd_sha256": "aa3de1dc9dcea5a511dd01cfba77d394fdd4a178254d170eb1f1bc369c0389b4",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "source_fit_sha256": "41c5f2e9bd45845488b9e085af2496c01088509a8a0b49966c4c6b1f15fdfe8a",
+  "object_id_manifest_sha256": "af5140171227014fa5e5783bd1e3ffcb852d2bd5c7e23342e477313507ae7670",
+  "measurement_script_sha256": "202a7d45da9a5167e5a604e7cb53e2fe2bd40b8417006bb727feb8be52eef7c2",
+  "samples": [
+    {
+      "source_set": "fit",
+      "frame": 90,
+      "row_px": 435,
+      "object": "RearCavityEmitterLeft",
+      "reference_center_x_px": 249,
+      "cad_visible_center_x_px": 246.5,
+      "cad_visible_range_px": [
+        244,
+        249
+      ],
+      "error_px": -2.5
+    },
+    {
+      "source_set": "fit",
+      "frame": 150,
+      "row_px": 435,
+      "object": "RearCavityEmitterRight",
+      "reference_center_x_px": 693.5,
+      "cad_visible_center_x_px": 695.5,
+      "cad_visible_range_px": [
+        693,
+        698
+      ],
+      "error_px": 2.0
+    },
+    {
+      "source_set": "fit",
+      "frame": 120,
+      "row_px": 450,
+      "object": "RearCavityEmitterLeft",
+      "reference_center_x_px": 333.5,
+      "cad_visible_center_x_px": 333.0,
+      "cad_visible_range_px": [
+        330,
+        336
+      ],
+      "error_px": -0.5
+    },
+    {
+      "source_set": "fit",
+      "frame": 120,
+      "row_px": 450,
+      "object": "RearCavityEmitterRight",
+      "reference_center_x_px": 613.5,
+      "cad_visible_center_x_px": 613.5,
+      "cad_visible_range_px": [
+        611,
+        616
+      ],
+      "error_px": 0.0
+    },
+    {
+      "source_set": "additional_scanlines",
+      "frame": 90,
+      "row_px": 420,
+      "object": "RearCavityEmitterLeft",
+      "reference_center_x_px": 249,
+      "cad_visible_center_x_px": 246.5,
+      "cad_visible_range_px": [
+        244,
+        249
+      ],
+      "error_px": -2.5
+    },
+    {
+      "source_set": "additional_scanlines",
+      "frame": 90,
+      "row_px": 450,
+      "object": "RearCavityEmitterLeft",
+      "reference_center_x_px": 249.5,
+      "cad_visible_center_x_px": 248.5,
+      "cad_visible_range_px": [
+        246,
+        251
+      ],
+      "error_px": -1.0
+    },
+    {
+      "source_set": "additional_scanlines",
+      "frame": 150,
+      "row_px": 420,
+      "object": "RearCavityEmitterRight",
+      "reference_center_x_px": 693.5,
+      "cad_visible_center_x_px": 695.5,
+      "cad_visible_range_px": [
+        693,
+        698
+      ],
+      "error_px": 2.0
+    },
+    {
+      "source_set": "additional_scanlines",
+      "frame": 150,
+      "row_px": 450,
+      "object": "RearCavityEmitterRight",
+      "reference_center_x_px": 694,
+      "cad_visible_center_x_px": 693.5,
+      "cad_visible_range_px": [
+        691,
+        696
+      ],
+      "error_px": -0.5
+    },
+    {
+      "source_set": "additional_scanlines",
+      "frame": 120,
+      "row_px": 430,
+      "object": "RearCavityEmitterLeft",
+      "reference_center_x_px": 333.5,
+      "cad_visible_center_x_px": 333.0,
+      "cad_visible_range_px": [
+        330,
+        336
+      ],
+      "error_px": -0.5
+    },
+    {
+      "source_set": "additional_scanlines",
+      "frame": 120,
+      "row_px": 475,
+      "object": "RearCavityEmitterLeft",
+      "reference_center_x_px": 333.5,
+      "cad_visible_center_x_px": 333.5,
+      "cad_visible_range_px": [
+        331,
+        336
+      ],
+      "error_px": 0.0
+    },
+    {
+      "source_set": "additional_scanlines",
+      "frame": 120,
+      "row_px": 430,
+      "object": "RearCavityEmitterRight",
+      "reference_center_x_px": 614,
+      "cad_visible_center_x_px": 613.5,
+      "cad_visible_range_px": [
+        611,
+        616
+      ],
+      "error_px": -0.5
+    },
+    {
+      "source_set": "additional_scanlines",
+      "frame": 120,
+      "row_px": 475,
+      "object": "RearCavityEmitterRight",
+      "reference_center_x_px": 614,
+      "cad_visible_center_x_px": 613.0,
+      "cad_visible_range_px": [
+        610,
+        616
+      ],
+      "error_px": -1.0
+    }
+  ],
+  "rms_px": 1.399404635312222,
+  "max_px": 2.5,
+  "source_files": {
+    "cad/drone-concept/comparison/object-ids-v53/video-03.png": "5038e99232d7742b99fc8bd970ca0b31ed94e21f6df21dcbdc629a540c25013d",
+    "cad/drone-concept/comparison/object-ids-v53/video-05.png": "ec1ad1ce142e07914924d3f797a0e1f9c6922259bd005b7fb5e97c167f6b9f86",
+    "cad/drone-concept/comparison/object-ids-v53/video-04.png": "d7fddaf12f940e5355ef4e97f7b3446cdaa0c1b194be6f3853208e6053948f83"
+  },
+  "limitations": [
+    "twelve fixed rows, not full rail or cavity contour",
+    "manual source centers have about 2px uncertainty",
+    "image-space appearance only"
+  ]
+}

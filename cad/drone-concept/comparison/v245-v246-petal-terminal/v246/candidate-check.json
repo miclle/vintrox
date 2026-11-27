@@ -1,0 +1,2441 @@
+{
+  "status": "saved research candidate; image comparison and export checks required",
+  "new_advanced_check_failures": [],
+  "contact_regressions": [],
+  "baseline_fcstd_sha256": "09d253ae6f2424396d9fc44ed1015316ceaf36c21d7b77bee16a1d1bf8e9577a",
+  "fcstd_sha256": "8401c910df42e532e421bbfd92cfe38ef78c0590b440d9a832ec0b71baf666a2",
+  "script_sha256": "1a293bfd8aef2e2fd42a64d6b1ecbd9dc98208f3264b84d66c31af2c863d6cd3",
+  "factor": 1.25,
+  "construction": "tip-splice",
+  "tip_radial_shift_per_17mm_span_mm": 0,
+  "tip_centre_y_shift_per_17mm_span_mm": 1.5,
+  "fixed_station_mm": 109.5,
+  "changed_objects": [
+    "NozzlePetal0",
+    "NozzlePetalInset0",
+    "NozzlePetalEdgeRail0_1",
+    "NozzlePetalEdgeRail0_20",
+    "NozzlePetalEndHem0",
+    "NozzlePetal1",
+    "NozzlePetalEdgeRail1_24",
+    "NozzlePetalEndHem1",
+    "NozzlePetal2",
+    "NozzlePetalEndHem2",
+    "NozzlePetal3",
+    "NozzlePetalEdgeRail3_88",
+    "NozzlePetalEndHem3",
+    "NozzlePetal4",
+    "NozzlePetalInset4",
+    "NozzlePetalEdgeRail4_91",
+    "NozzlePetalEdgeRail4_110",
+    "NozzlePetalEndHem4",
+    "NozzlePetal5",
+    "NozzlePetalInset5",
+    "NozzlePetalEdgeRail5_114",
+    "NozzlePetalEdgeRail5_133",
+    "NozzlePetalEndHem5",
+    "NozzlePetal6",
+    "NozzlePetalInset6",
+    "NozzlePetalEdgeRail6_136",
+    "NozzlePetalEdgeRail6_155",
+    "NozzlePetalEndHem6",
+    "NozzlePetal7",
+    "NozzlePetalInset7",
+    "NozzlePetalEdgeRail7_159",
+    "NozzlePetalEdgeRail7_178",
+    "NozzlePetalEndHem7",
+    "NozzlePetalRidge7",
+    "NozzlePetal8",
+    "NozzlePetalInset8",
+    "NozzlePetalEdgeRail8_181",
+    "NozzlePetalEdgeRail8_200",
+    "NozzlePetalEndHem8",
+    "NozzlePetalRidge8",
+    "NozzlePetal9",
+    "NozzlePetalInset9",
+    "NozzlePetalEdgeRail9_204",
+    "NozzlePetalEdgeRail9_223",
+    "NozzlePetalEndHem9",
+    "NozzlePetalRidge9",
+    "NozzlePetal10",
+    "NozzlePetalInset10",
+    "NozzlePetalEdgeRail10_226",
+    "NozzlePetalEdgeRail10_245",
+    "NozzlePetalEndHem10",
+    "NozzlePetal11",
+    "NozzlePetalInset11",
+    "NozzlePetalEdgeRail11_249",
+    "NozzlePetalEdgeRail11_268",
+    "NozzlePetalEndHem11"
+  ],
+  "preserved_objects": [
+    "MainEnclosureShell",
+    "SlopedUpperArmour",
+    "RoofSideClosure_1",
+    "RoofSideClosure_001",
+    "RearUpperClosure",
+    "BottomChassis",
+    "ClosedBellyPan",
+    "RearServicePanel",
+    "RearStructuralFrame",
+    "ProjectingBrow",
+    "HoodShoulderCrownLeft",
+    "HoodShoulderPlateLeft",
+    "HoodShoulderSlotLinerLeft",
+    "HoodShoulderBoltLeft",
+    "HoodTopInsetLeft",
+    "HoodShoulderCrownRight",
+    "HoodShoulderPlateRight",
+    "HoodShoulderSlotLinerRight",
+    "HoodShoulderBoltRight",
+    "HoodTopInsetRight",
+    "BrowUnderside",
+    "HoodEdge",
+    "ScreenBezel",
+    "BezelLip",
+    "ScreenPanel210x160x2",
+    "ActiveArea200x150",
+    "PixelEye_39",
+    "PixelEyeTop_39",
+    "PixelEye27",
+    "PixelEyeTop27",
+    "PixelMouth",
+    "PixelSmileHighlight",
+    "ScreenCurvedCover",
+    "ControlRail",
+    "ControlInset",
+    "ControlRailLip",
+    "ControlKeyBed",
+    "ControlRailEndLeft",
+    "ControlEndBoltLeft",
+    "ControlRailEndRight",
+    "ControlEndBoltRight",
+    "KeySocket0",
+    "RedKey0",
+    "KeyGlyph0",
+    "KeySocket1",
+    "RedKey1",
+    "KeyGlyph1",
+    "KeySocket2",
+    "RedKey2",
+    "KeyGlyph2",
+    "KeySocket3",
+    "RedKey3",
+    "KeyGlyph3",
+    "StatusKeyFrame",
+    "StatusKeyLens",
+    "KnobBase0",
+    "KnobRing0",
+    "ControlKnob0",
+    "KnobFace0",
+    "KnobFlute0",
+    "KnobPointer0",
+    "KnobBase1",
+    "KnobRing1",
+    "ControlKnob1",
+    "KnobFace1",
+    "KnobFlute1",
+    "KnobPointer1",
+    "KnobBase2",
+    "KnobRing2",
+    "ControlKnob2",
+    "KnobFace2",
+    "KnobFlute2",
+    "KnobPointer2",
+    "SideClosureLeft",
+    "SideMechanicalBackingLeft",
+    "SideGuardLeft",
+    "SideFrameShoeLeft",
+    "SideFrameBoltLeft0",
+    "SideFrameBoltLeft1",
+    "SideFrameBoltLeft2",
+    "SideFrameBoltLeft3",
+    "CyanSideTubeLeft",
+    "SpeakerBarrelLeft",
+    "SpeakerScallopCollarLeft",
+    "SpeakerRearSealLeft",
+    "PerforatedSpeakerFlangeLeft",
+    "SpeakerBridgeWireLeft0",
+    "SpeakerBridgeWireLeft1",
+    "SpeakerVisualConeLeft",
+    "SpeakerOuterLipLeft",
+    "SpeakerLipTrimLeft",
+    "SpeakerSurroundLeft",
+    "SpeakerCentreLeft",
+    "SpeakerHubNeckLeft",
+    "SpeakerRetainerLeft0",
+    "SpeakerRetainerLeft1",
+    "SpeakerRetainerLeft2",
+    "SpeakerRetainerLeft3",
+    "SpeakerRetainerLeft4",
+    "SpeakerRetainerLeft5",
+    "WingEdgeLeft",
+    "WingRaisedFaceLeft",
+    "WingPaintLeft",
+    "WingFoldFacetLeft",
+    "WingInnerPaintLeft",
+    "WingSpineLeft",
+    "WingHubSeatLeft",
+    "WingStripeLeft0",
+    "WingStripeLeft1",
+    "WingHubMarkLeft",
+    "HandleArmLeft",
+    "HandleInsetLeft",
+    "HandleMarkLeft0",
+    "HandleMarkLeft1",
+    "HandleMarkLeft2",
+    "HandleGripCuffLeft",
+    "VisibleWireLeft105",
+    "VisibleWireLeft218",
+    "VisibleWireLeft230",
+    "SideClosureRight",
+    "SideMechanicalBackingRight",
+    "SideGuardRight",
+    "SideFrameShoeRight",
+    "SideFrameBoltRight0",
+    "SideFrameBoltRight1",
+    "SideFrameBoltRight2",
+    "SideFrameBoltRight3",
+    "CyanSideTubeRight",
+    "SpeakerBarrelRight",
+    "SpeakerScallopCollarRight",
+    "SpeakerRearSealRight",
+    "PerforatedSpeakerFlangeRight",
+    "SpeakerBridgeWireRight0",
+    "SpeakerBridgeWireRight1",
+    "SpeakerVisualConeRight",
+    "SpeakerOuterLipRight",
+    "SpeakerLipTrimRight",
+    "SpeakerSurroundRight",
+    "SpeakerCentreRight",
+    "SpeakerHubNeckRight",
+    "SpeakerRetainerRight0",
+    "SpeakerRetainerRight1",
+    "SpeakerRetainerRight2",
+    "SpeakerRetainerRight3",
+    "SpeakerRetainerRight4",
+    "SpeakerRetainerRight5",
+    "WingEdgeRight",
+    "WingRaisedFaceRight",
+    "WingPaintRight",
+    "WingFoldFacetRight",
+    "WingInnerPaintRight",
+    "WingSpineRight",
+    "WingHubSeatRight",
+    "WingHubMarkRight",
+    "HandleArmRight",
+    "HandleInsetRight",
+    "HandleMarkRight0",
+    "HandleMarkRight1",
+    "HandleMarkRight2",
+    "HandleGripCuffRight",
+    "VisibleWireRight105",
+    "VisibleWireRight218",
+    "VisibleWireRight230",
+    "HandleGrip",
+    "GripBand0",
+    "GripBand1",
+    "GripBand2",
+    "GripBand3",
+    "GripBand4",
+    "GripBand5",
+    "GripBand6",
+    "GripBand7",
+    "GripBand8",
+    "GripBand9",
+    "TopSlotTrim",
+    "RoofAccessPanel",
+    "RoofAccessBolt0",
+    "RoofAccessBolt1",
+    "RoofAccessBolt2",
+    "RoofAccessBolt3",
+    "RoofRaisedRib0",
+    "RoofRaisedRib1",
+    "TopInstrumentPanel",
+    "InstrumentRim",
+    "InstrumentMount",
+    "TopMeterGrid0",
+    "TopMeterGrid1",
+    "TopMeterGrid2",
+    "TopMeterGrid3",
+    "TopMeterGrid4",
+    "TopMeterGrid5",
+    "TopMeterGrid6",
+    "TopMeterGrid7",
+    "TopMeterGrid8",
+    "TopMeterGrid9",
+    "TopMeterGrid10",
+    "TopMeterGrid11",
+    "TopMeterGrid12",
+    "TopMeterRule0",
+    "TopMeterRule1",
+    "TopMeterRule2",
+    "TopMeterTrace0",
+    "TopMeterTrace1",
+    "TopMeterTick0",
+    "TopMeterTick1",
+    "TopMeterTick2",
+    "TopMeterTick3",
+    "TopMeterTick4",
+    "TopMeterTick5",
+    "TopMeterTick6",
+    "TopMeterLatch",
+    "RearCoolingFin0",
+    "RearCoolingFin1",
+    "RearCoolingFin2",
+    "RearCoolingFin3",
+    "RearCoolingFin4",
+    "RearCoolingFin5",
+    "RearCoolingFin6",
+    "RearCoolingFin7",
+    "RearCoolingFin8",
+    "RearCoolingFin9",
+    "RearCoolingFin10",
+    "RearCoolingFin11",
+    "RearCoolingFin12",
+    "RearCoolingFin13",
+    "RearCoolingFin14",
+    "RearCoolingCore",
+    "RearCyanFrame",
+    "RearRecessLiner",
+    "RearRecessWire_1",
+    "RearRecessCornerBoss_1",
+    "RearRecessWire_001",
+    "RearRecessCornerBoss_001",
+    "RearArmourCheekLeft",
+    "RearArmourCheekRight",
+    "RearRailAntennaSlot_1",
+    "RearRailAntennaSlot_001",
+    "RearRailCarrier",
+    "RearRailVent0",
+    "RearRailVent1",
+    "RearRailVent2",
+    "RearRailVent3",
+    "RearRailVent4",
+    "RearRailVent5",
+    "RearRailVent6",
+    "RearPortRail",
+    "RearRailBezel",
+    "RearRedInsert",
+    "RearRailIndex",
+    "RearRailLatch",
+    "RearRailStatusBase_1",
+    "RearRailStatusLens_1",
+    "RearRailStatusIndex_1",
+    "RearRailStatusBase_001",
+    "RearRailStatusLens_001",
+    "RearRailStatusIndex_001",
+    "RearBeaconBase_1",
+    "RearBeacon_1",
+    "RearBeaconBand_1_0",
+    "RearBeaconBand_1_1",
+    "RearBeaconBand_1_2",
+    "RearBeaconLens_1",
+    "RearBeaconBase_001",
+    "RearBeacon_001",
+    "RearBeaconBand_1_001",
+    "RearBeaconBand_1_002",
+    "RearBeaconBand_1_003",
+    "RearBeaconLens_001",
+    "BassNozzleShell",
+    "BassNozzleRearCollar",
+    "BassChamberBackplate",
+    "BassNozzleMouthRing",
+    "BassNozzleRolledLip",
+    "NozzleRootClamp0",
+    "NozzleRootClamp1",
+    "NozzleRootClamp2",
+    "NozzleRootClamp3",
+    "NozzleRootClamp4",
+    "NozzleRootClamp5",
+    "BassSpeakerGasket",
+    "BassVisualCone",
+    "BassDustCap",
+    "BassInnerThroat",
+    "NozzlePetalRidge0",
+    "NozzlePetalGuide0_0",
+    "NozzlePetalGuide0_1",
+    "NozzlePetalHinge0",
+    "NozzlePetalInset1",
+    "NozzlePetalEdgeRail1_43",
+    "NozzlePetalRidge1",
+    "NozzlePetalGuide1_0",
+    "NozzlePetalGuide1_1",
+    "NozzlePetalHinge1",
+    "NozzlePetalInset2",
+    "NozzlePetalEdgeRail2_46",
+    "NozzlePetalEdgeRail2_65",
+    "NozzlePetalRidge2",
+    "NozzlePetalGuide2_0",
+    "NozzlePetalGuide2_1",
+    "NozzlePetalHinge2",
+    "NozzlePetalInset3",
+    "NozzlePetalEdgeRail3_69",
+    "NozzlePetalRidge3",
+    "NozzlePetalGuide3_0",
+    "NozzlePetalGuide3_1",
+    "NozzlePetalHinge3",
+    "NozzlePetalRidge4",
+    "NozzlePetalGuide4_0",
+    "NozzlePetalGuide4_1",
+    "NozzlePetalHinge4",
+    "NozzlePetalRidge5",
+    "NozzlePetalGuide5_0",
+    "NozzlePetalGuide5_1",
+    "NozzlePetalHinge5",
+    "NozzlePetalRidge6",
+    "NozzlePetalGuide6_0",
+    "NozzlePetalGuide6_1",
+    "NozzlePetalHinge6",
+    "NozzlePetalGuide7_0",
+    "NozzlePetalGuide7_1",
+    "NozzlePetalHinge7",
+    "NozzlePetalGuide8_0",
+    "NozzlePetalGuide8_1",
+    "NozzlePetalHinge8",
+    "NozzlePetalGuide9_0",
+    "NozzlePetalGuide9_1",
+    "NozzlePetalHinge9",
+    "NozzlePetalRidge10",
+    "NozzlePetalGuide10_0",
+    "NozzlePetalGuide10_1",
+    "NozzlePetalHinge10",
+    "NozzlePetalRidge11",
+    "NozzlePetalGuide11_0",
+    "NozzlePetalGuide11_1",
+    "NozzlePetalHinge11",
+    "BassSideStripe0_0",
+    "BassSideStripe0_1",
+    "BassSideStripe0_2",
+    "BassSideStripe1_0",
+    "BassSideStripe1_1",
+    "BassSideStripe1_2",
+    "BassWarningPlaque",
+    "BassWarningRedBand",
+    "BassWarningTriangle",
+    "BassWarningTriangleInset",
+    "BassNeckFastener0",
+    "BassNeckFastener1",
+    "BassNeckFastener2",
+    "BassNeckFastener3",
+    "BassNeckFastener4",
+    "BassNeckFastener5",
+    "BassNeckFastener6",
+    "BassNeckFastener7",
+    "WooferMountSeat",
+    "WooferEnvelope_D88_Depth40",
+    "LowerPod_1",
+    "LowerPodClamp_1",
+    "LowerPodRim_1",
+    "LowerPodDiaphragm_1",
+    "LowerPodRib_1_0",
+    "LowerPodPetalRidge_1_0",
+    "LowerPodEdgeRail_1_0_2",
+    "LowerPodEdgeRail_1_0_17",
+    "LowerPodRib_1_1",
+    "LowerPodPetalRidge_1_1",
+    "LowerPodEdgeRail_1_1_2",
+    "LowerPodEdgeRail_1_1_17",
+    "LowerPodRib_1_2",
+    "LowerPodPetalRidge_1_2",
+    "LowerPodEdgeRail_1_2_2",
+    "LowerPodEdgeRail_1_2_17",
+    "LowerPodRib_1_3",
+    "LowerPodPetalRidge_1_3",
+    "LowerPodEdgeRail_1_3_2",
+    "LowerPodEdgeRail_1_3_17",
+    "LowerPodRib_1_4",
+    "LowerPodPetalRidge_1_4",
+    "LowerPodEdgeRail_1_4_2",
+    "LowerPodEdgeRail_1_4_17",
+    "LowerPodRib_1_5",
+    "LowerPodPetalRidge_1_5",
+    "LowerPodEdgeRail_1_5_2",
+    "LowerPodEdgeRail_1_5_17",
+    "LowerPodRib_1_6",
+    "LowerPodPetalRidge_1_6",
+    "LowerPodEdgeRail_1_6_2",
+    "LowerPodEdgeRail_1_6_17",
+    "LowerPodRib_1_7",
+    "LowerPodPetalRidge_1_7",
+    "LowerPodEdgeRail_1_7_2",
+    "LowerPodEdgeRail_1_7_17",
+    "LowerPodRib_1_8",
+    "LowerPodPetalRidge_1_8",
+    "LowerPodEdgeRail_1_8_2",
+    "LowerPodEdgeRail_1_8_17",
+    "LowerPodRib_1_9",
+    "LowerPodPetalRidge_1_9",
+    "LowerPodEdgeRail_1_9_2",
+    "LowerPodEdgeRail_1_9_17",
+    "LowerPodRib_1_10",
+    "LowerPodPetalRidge_1_10",
+    "LowerPodEdgeRail_1_10_2",
+    "LowerPodEdgeRail_1_10_17",
+    "LowerPodRib_1_11",
+    "LowerPodPetalRidge_1_11",
+    "LowerPodEdgeRail_1_11_2",
+    "LowerPodEdgeRail_1_11_17",
+    "LowerPodRib_1_12",
+    "LowerPodPetalRidge_1_12",
+    "LowerPodEdgeRail_1_12_2",
+    "LowerPodEdgeRail_1_12_17",
+    "LowerPodRib_1_13",
+    "LowerPodPetalRidge_1_13",
+    "LowerPodEdgeRail_1_13_2",
+    "LowerPodEdgeRail_1_13_17",
+    "LowerPodRib_1_14",
+    "LowerPodPetalRidge_1_14",
+    "LowerPodEdgeRail_1_14_2",
+    "LowerPodEdgeRail_1_14_17",
+    "LowerPodRib_1_15",
+    "LowerPodPetalRidge_1_15",
+    "LowerPodEdgeRail_1_15_2",
+    "LowerPodEdgeRail_1_15_17",
+    "LowerPodRib_1_16",
+    "LowerPodPetalRidge_1_16",
+    "LowerPodEdgeRail_1_16_2",
+    "LowerPodEdgeRail_1_16_17",
+    "LowerPodRib_1_17",
+    "LowerPodPetalRidge_1_17",
+    "LowerPodEdgeRail_1_17_2",
+    "LowerPodEdgeRail_1_17_17",
+    "LowerPod_001",
+    "LowerPodClamp_001",
+    "LowerPodRim_001",
+    "LowerPodDiaphragm_001",
+    "LowerPodRib_1_001",
+    "LowerPodPetalRidge_1_001",
+    "LowerPodEdgeRail_1_0_001",
+    "LowerPodEdgeRail_1_0_002",
+    "LowerPodRib_1_002",
+    "LowerPodPetalRidge_1_002",
+    "LowerPodEdgeRail_1_1_001",
+    "LowerPodEdgeRail_1_1_002",
+    "LowerPodRib_1_003",
+    "LowerPodPetalRidge_1_003",
+    "LowerPodEdgeRail_1_2_001",
+    "LowerPodEdgeRail_1_2_002",
+    "LowerPodRib_1_004",
+    "LowerPodPetalRidge_1_004",
+    "LowerPodEdgeRail_1_3_001",
+    "LowerPodEdgeRail_1_3_002",
+    "LowerPodRib_1_005",
+    "LowerPodPetalRidge_1_005",
+    "LowerPodEdgeRail_1_4_001",
+    "LowerPodEdgeRail_1_4_002",
+    "LowerPodRib_1_006",
+    "LowerPodPetalRidge_1_006",
+    "LowerPodEdgeRail_1_5_001",
+    "LowerPodEdgeRail_1_5_002",
+    "LowerPodRib_1_007",
+    "LowerPodPetalRidge_1_007",
+    "LowerPodEdgeRail_1_6_001",
+    "LowerPodEdgeRail_1_6_002",
+    "LowerPodRib_1_008",
+    "LowerPodPetalRidge_1_008",
+    "LowerPodEdgeRail_1_7_001",
+    "LowerPodEdgeRail_1_7_002",
+    "LowerPodRib_1_009",
+    "LowerPodPetalRidge_1_009",
+    "LowerPodEdgeRail_1_8_001",
+    "LowerPodEdgeRail_1_8_002",
+    "LowerPodRib_1_010",
+    "LowerPodPetalRidge_1_010",
+    "LowerPodEdgeRail_1_9_001",
+    "LowerPodEdgeRail_1_9_002",
+    "LowerPodRib_1_011",
+    "LowerPodPetalRidge_1_011",
+    "LowerPodEdgeRail_1_10_001",
+    "LowerPodEdgeRail_1_10_002",
+    "LowerPodRib_1_012",
+    "LowerPodPetalRidge_1_012",
+    "LowerPodEdgeRail_1_11_001",
+    "LowerPodEdgeRail_1_11_002",
+    "LowerPodRib_1_013",
+    "LowerPodPetalRidge_1_013",
+    "LowerPodEdgeRail_1_12_001",
+    "LowerPodEdgeRail_1_12_002",
+    "LowerPodRib_1_014",
+    "LowerPodPetalRidge_1_014",
+    "LowerPodEdgeRail_1_13_001",
+    "LowerPodEdgeRail_1_13_002",
+    "LowerPodRib_1_015",
+    "LowerPodPetalRidge_1_015",
+    "LowerPodEdgeRail_1_14_001",
+    "LowerPodEdgeRail_1_14_002",
+    "LowerPodRib_1_016",
+    "LowerPodPetalRidge_1_016",
+    "LowerPodEdgeRail_1_15_001",
+    "LowerPodEdgeRail_1_15_002",
+    "LowerPodRib_1_017",
+    "LowerPodPetalRidge_1_017",
+    "LowerPodEdgeRail_1_16_001",
+    "LowerPodEdgeRail_1_16_002",
+    "LowerPodRib_1_018",
+    "LowerPodPetalRidge_1_018",
+    "LowerPodEdgeRail_1_17_001",
+    "LowerPodEdgeRail_1_17_002",
+    "UnderbodyLoop0",
+    "UnderbodyLoop1",
+    "CentralSupportSeat",
+    "SupportShaftFrontLeft",
+    "SupportSocketFrontLeft",
+    "SupportFootFrontLeft",
+    "SupportShaftRearLeft",
+    "SupportSocketRearLeft",
+    "SupportFootRearLeft",
+    "SupportShaftFrontRight",
+    "SupportSocketFrontRight",
+    "SupportFootFrontRight",
+    "SupportShaftRearRight",
+    "SupportSocketRearRight",
+    "SupportFootRearRight",
+    "BellyServicePlateLeft",
+    "BellyServiceBoltLeft0",
+    "BellyServiceBoltLeft1",
+    "BellyServicePlateRight",
+    "BellyServiceBoltRight0",
+    "BellyServiceBoltRight1",
+    "AntennaBase",
+    "Antenna",
+    "HoodMark_1_0",
+    "HoodMark_1_1",
+    "HoodMark_1_2",
+    "HoodMark_1_3",
+    "HoodMark_1_001",
+    "HoodMark_1_002",
+    "HoodMark_1_003",
+    "HoodMark_1_004",
+    "CDInsertionStudy_D120",
+    "RearCyanUpperLeft",
+    "RearCyanLowerRight",
+    "RearCyanLowerLeft",
+    "RearCavityEmitterLeft",
+    "RearCavityReflectorLeft",
+    "RearCavityClipUpperLeft",
+    "RearCavityClipLowerLeft",
+    "RearCavityEmitterRight",
+    "RearCavityReflectorRight",
+    "RearCavityClipUpperRight",
+    "RearCavityClipLowerRight",
+    "RearLowerSlope",
+    "FrontCheekLeft",
+    "CheekUtilityLabelLeft",
+    "CheekUtilityRedBandLeft",
+    "FrontCheekBridgeLeft",
+    "VentBackingLeft",
+    "CheekVentRibLeft0",
+    "CheekVentRibLeft1",
+    "CheekVentRibLeft2",
+    "CheekVentRibLeft3",
+    "CheekVentRibLeft4",
+    "CheekVentRibLeft5",
+    "CheekVentRibLeft6",
+    "CheekVentRibLeft7",
+    "CheekVentRibLeft8",
+    "CheekVentRibLeft9",
+    "CheekDialLeft",
+    "CheekButtonLeft",
+    "CheekArrowLeft0",
+    "CheekArrowLeft1",
+    "CheekArrowLeft2",
+    "CheekArrowLeft3",
+    "CheekPerforatedPanelLeft",
+    "SideFrontSpineLeft",
+    "SideFrontSpineLinerLeft",
+    "SideSocketBaseLeft",
+    "SideSocketLipLeft",
+    "SideSocketRecessLeft",
+    "SideStatusMarkLeft0",
+    "SideStatusMarkLeft1",
+    "SideStatusMarkLeft2",
+    "SideStatusSlotLeft",
+    "SideStatusBracketLeft",
+    "SideStatusPlateLeft",
+    "UtilityMountLeft",
+    "UtilityLinerLeft",
+    "UtilityBarrelLeft",
+    "UtilityCollarLeft0",
+    "UtilityCollarLeft1",
+    "UtilityCollarLeft2",
+    "UtilityCollarLeft3",
+    "UtilityCapLeft",
+    "UtilityCapRibLeft0",
+    "UtilityCapRibLeft1",
+    "UtilityCapRibLeft2",
+    "UtilityCapRibLeft3",
+    "UtilityIndicatorLeft",
+    "UtilityFrontLensLeft",
+    "UtilityControlLeft",
+    "UtilityControlInsetLeft",
+    "UtilitySwitchLeft",
+    "UtilitySwitchRedLeft",
+    "UtilityLEDLeft0",
+    "UtilityLEDLeft1",
+    "UtilityLEDLeft2",
+    "SideCableLeft",
+    "UtilityCableBootLeft",
+    "SideCableTopBootLeft",
+    "FrontCheekRight",
+    "CheekUtilityLabelRight",
+    "CheekUtilityRedBandRight",
+    "FrontCheekBridgeRight",
+    "VentBackingRight",
+    "CheekVentRibRight0",
+    "CheekVentRibRight1",
+    "CheekVentRibRight2",
+    "CheekVentRibRight3",
+    "CheekVentRibRight4",
+    "CheekVentRibRight5",
+    "CheekVentRibRight6",
+    "CheekVentRibRight7",
+    "CheekVentRibRight8",
+    "CheekVentRibRight9",
+    "CheekDialRight",
+    "CheekKnobRight",
+    "CheekPerforatedPanelRight",
+    "SideFrontSpineRight",
+    "SideFrontSpineLinerRight",
+    "SideSocketBaseRight",
+    "SideSocketLipRight",
+    "SideSocketRecessRight",
+    "SideStatusMarkRight0",
+    "SideStatusMarkRight1",
+    "SideStatusMarkRight2",
+    "SideStatusSlotRight",
+    "SideStatusBracketRight",
+    "SideStatusPlateRight",
+    "UnderbodyHarness0",
+    "UnderbodyHarness1",
+    "UnderbodyHarness2",
+    "UnderbodyHarness3",
+    "UnderbodyHarness4"
+  ],
+  "protected_supports": [
+    {
+      "name": "CentralSupportSeat",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontLeft",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketFrontLeft",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootFrontLeft",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketRearLeft",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootRearLeft",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketFrontRight",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootFrontRight",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketRearRight",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootRearRight",
+      "difference_mm3": 0.0
+    }
+  ],
+  "parts": [
+    {
+      "name": "NozzlePetal0",
+      "old_z_bounds_mm": [
+        81.95805479520035,
+        112.46033214654204
+      ],
+      "expected_new_z_max_mm": 113.20041515817755,
+      "solids": 5,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 113.20041515817753
+    },
+    {
+      "name": "NozzlePetalInset0",
+      "old_z_bounds_mm": [
+        84.66906256790269,
+        109.85730079621902
+      ],
+      "expected_new_z_max_mm": 109.94662597027379,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 109.94662597027377
+    },
+    {
+      "name": "NozzlePetalEdgeRail0_1",
+      "old_z_bounds_mm": [
+        83.10114170624513,
+        111.01896530602329
+      ],
+      "expected_new_z_max_mm": 111.39870660752912,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 111.39870660752912
+    },
+    {
+      "name": "NozzlePetalEdgeRail0_20",
+      "old_z_bounds_mm": [
+        82.94370363591179,
+        109.6714266215108
+      ],
+      "expected_new_z_max_mm": 109.71428325188849,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 109.71428325188846
+    },
+    {
+      "name": "NozzlePetalEndHem0",
+      "old_z_bounds_mm": [
+        109.98895350480075,
+        112.37865836971834
+      ],
+      "expected_new_z_max_mm": 113.09832293714791,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 113.0983229371479
+    },
+    {
+      "name": "NozzlePetal1",
+      "old_z_bounds_mm": [
+        81.88119534587781,
+        110.78056430997168
+      ],
+      "expected_new_z_max_mm": 111.1007053624646,
+      "solids": 5,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 111.10070536246458
+    },
+    {
+      "name": "NozzlePetalEdgeRail1_24",
+      "old_z_bounds_mm": [
+        82.92064567421274,
+        109.52032674526431
+      ],
+      "expected_new_z_max_mm": 109.5254084065804,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 109.5254084065804
+    },
+    {
+      "name": "NozzlePetalEndHem1",
+      "old_z_bounds_mm": [
+        109.2018357746046,
+        110.6430703289001
+      ],
+      "expected_new_z_max_mm": 110.92883788612511,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 110.9288378861251
+    },
+    {
+      "name": "NozzlePetal2",
+      "old_z_bounds_mm": [
+        81.8683883917762,
+        109.90939944952014
+      ],
+      "expected_new_z_max_mm": 110.01174928690018,
+      "solids": 5,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 110.01174928690017
+    },
+    {
+      "name": "NozzlePetalEndHem2",
+      "old_z_bounds_mm": [
+        109.05984997779412,
+        109.80252525051135
+      ],
+      "expected_new_z_max_mm": 109.8781565381392,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 109.87815653813918
+    },
+    {
+      "name": "NozzlePetal3",
+      "old_z_bounds_mm": [
+        81.88119534587788,
+        110.78056430997903
+      ],
+      "expected_new_z_max_mm": 111.1007053624738,
+      "solids": 5,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 111.10070536247379
+    },
+    {
+      "name": "NozzlePetalEdgeRail3_88",
+      "old_z_bounds_mm": [
+        82.92064567421284,
+        109.52032674526436
+      ],
+      "expected_new_z_max_mm": 109.52540840658041,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 109.5254084065804
+    },
+    {
+      "name": "NozzlePetalEndHem3",
+      "old_z_bounds_mm": [
+        109.20183577460462,
+        110.6430703289001
+      ],
+      "expected_new_z_max_mm": 110.92883788612511,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 110.9288378861251
+    },
+    {
+      "name": "NozzlePetal4",
+      "old_z_bounds_mm": [
+        81.95805479518413,
+        112.4603321459499
+      ],
+      "expected_new_z_max_mm": 113.20041515743736,
+      "solids": 5,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 113.20041515743735
+    },
+    {
+      "name": "NozzlePetalInset4",
+      "old_z_bounds_mm": [
+        84.6690625693197,
+        109.85730079622034
+      ],
+      "expected_new_z_max_mm": 109.94662597027542,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 109.9466259702754
+    },
+    {
+      "name": "NozzlePetalEdgeRail4_91",
+      "old_z_bounds_mm": [
+        82.9437036359117,
+        109.67142662151078
+      ],
+      "expected_new_z_max_mm": 109.7142832518884,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 109.71428325188839
+    },
+    {
+      "name": "NozzlePetalEdgeRail4_110",
+      "old_z_bounds_mm": [
+        83.10114170624496,
+        111.01896530602326
+      ],
+      "expected_new_z_max_mm": 111.39870660752914,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 111.3987066075291
+    },
+    {
+      "name": "NozzlePetalEndHem4",
+      "old_z_bounds_mm": [
+        109.98895350480072,
+        112.37865836971834
+      ],
+      "expected_new_z_max_mm": 113.09832293714791,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 113.0983229371479
+    },
+    {
+      "name": "NozzlePetal5",
+      "old_z_bounds_mm": [
+        82.0847383672361,
+        115.934468682786
+      ],
+      "expected_new_z_max_mm": 117.54308582848252,
+      "solids": 5,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 117.54308582848252
+    },
+    {
+      "name": "NozzlePetalInset5",
+      "old_z_bounds_mm": [
+        84.93878295663743,
+        111.78288163392932
+      ],
+      "expected_new_z_max_mm": 112.35360201741167,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 112.35360201741167
+    },
+    {
+      "name": "NozzlePetalEdgeRail5_114",
+      "old_z_bounds_mm": [
+        83.13266991027298,
+        111.31823971535839
+      ],
+      "expected_new_z_max_mm": 111.772799619198,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 111.77279961919798
+    },
+    {
+      "name": "NozzlePetalEdgeRail5_133",
+      "old_z_bounds_mm": [
+        83.31481894113833,
+        113.08737709932362
+      ],
+      "expected_new_z_max_mm": 113.98422134915455,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 113.98422134915455
+    },
+    {
+      "name": "NozzlePetalEndHem5",
+      "old_z_bounds_mm": [
+        111.83565988065051,
+        115.85612053859245
+      ],
+      "expected_new_z_max_mm": 117.44515064824057,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 117.44515064824057
+    },
+    {
+      "name": "NozzlePetal6",
+      "old_z_bounds_mm": [
+        82.2242224849931,
+        119.58279599340183
+      ],
+      "expected_new_z_max_mm": 122.10349496675227,
+      "solids": 5,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 122.10349496675228
+    },
+    {
+      "name": "NozzlePetalInset6",
+      "old_z_bounds_mm": [
+        85.22976898472302,
+        114.2286488004664
+      ],
+      "expected_new_z_max_mm": 115.410810975583,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 115.41081097558302
+    },
+    {
+      "name": "NozzlePetalEdgeRail6_136",
+      "old_z_bounds_mm": [
+        83.34645253841846,
+        113.67086684644376
+      ],
+      "expected_new_z_max_mm": 114.71358353305475,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 114.71358353305475
+    },
+    {
+      "name": "NozzlePetalEdgeRail6_155",
+      "old_z_bounds_mm": [
+        83.50501254502764,
+        116.58589121579199
+      ],
+      "expected_new_z_max_mm": 118.35736399474003,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 118.35736399474004
+    },
+    {
+      "name": "NozzlePetalEndHem6",
+      "old_z_bounds_mm": [
+        114.72989608992074,
+        119.52784727194218
+      ],
+      "expected_new_z_max_mm": 122.03480906492771,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 122.03480906492773
+    },
+    {
+      "name": "NozzlePetal7",
+      "old_z_bounds_mm": [
+        82.33973290866216,
+        121.80443754971164
+      ],
+      "expected_new_z_max_mm": 124.88054691213955,
+      "solids": 5,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 124.88054691213956
+    },
+    {
+      "name": "NozzlePetalInset7",
+      "old_z_bounds_mm": [
+        85.46429044921172,
+        116.5833610325244
+      ],
+      "expected_new_z_max_mm": 118.35420126565549,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 118.3542012656555
+    },
+    {
+      "name": "NozzlePetalEdgeRail7_159",
+      "old_z_bounds_mm": [
+        83.5283424974977,
+        117.01288906934404
+      ],
+      "expected_new_z_max_mm": 118.89111131168004,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 118.89111131168005
+    },
+    {
+      "name": "NozzlePetalEdgeRail7_178",
+      "old_z_bounds_mm": [
+        83.62068004636325,
+        118.69525051693198
+      ],
+      "expected_new_z_max_mm": 120.9940631211648,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 120.99406312116481
+    },
+    {
+      "name": "NozzlePetalEndHem7",
+      "old_z_bounds_mm": [
+        118.05831516717048,
+        121.79099423744019
+      ],
+      "expected_new_z_max_mm": 124.86374277180025,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 124.86374277180026
+    },
+    {
+      "name": "NozzlePetalRidge7",
+      "old_z_bounds_mm": [
+        83.61016369250075,
+        109.96759464490741
+      ],
+      "expected_new_z_max_mm": 110.08449328113426,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 110.08449328113427
+    },
+    {
+      "name": "NozzlePetal8",
+      "old_z_bounds_mm": [
+        87.67584130924459,
+        122.18109398440674
+      ],
+      "expected_new_z_max_mm": 125.35136745550844,
+      "solids": 4,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 125.35136745550845
+    },
+    {
+      "name": "NozzlePetalInset8",
+      "old_z_bounds_mm": [
+        85.57979975866853,
+        117.0539660243552
+      ],
+      "expected_new_z_max_mm": 118.942457505444,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 118.94245750544401
+    },
+    {
+      "name": "NozzlePetalEdgeRail8_181",
+      "old_z_bounds_mm": [
+        83.62929855892496,
+        118.85148493083037
+      ],
+      "expected_new_z_max_mm": 121.18935613853786,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 121.18935613853787
+    },
+    {
+      "name": "NozzlePetalEdgeRail8_200",
+      "old_z_bounds_mm": [
+        83.62929855892496,
+        118.85148493082998
+      ],
+      "expected_new_z_max_mm": 121.18935613853792,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 121.18935613853793
+    },
+    {
+      "name": "NozzlePetalEndHem8",
+      "old_z_bounds_mm": [
+        119.84068620038006,
+        122.19923650269253
+      ],
+      "expected_new_z_max_mm": 125.37404560336567,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 125.37404560336569
+    },
+    {
+      "name": "NozzlePetalRidge8",
+      "old_z_bounds_mm": [
+        83.66764097496208,
+        110.33256881502872
+      ],
+      "expected_new_z_max_mm": 110.5407109937859,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 110.54071099378591
+    },
+    {
+      "name": "NozzlePetal9",
+      "old_z_bounds_mm": [
+        82.33973290866243,
+        121.8044375494926
+      ],
+      "expected_new_z_max_mm": 124.88054691186576,
+      "solids": 5,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 124.88054691186578
+    },
+    {
+      "name": "NozzlePetalInset9",
+      "old_z_bounds_mm": [
+        85.46429044922078,
+        116.58336103261958
+      ],
+      "expected_new_z_max_mm": 118.35420126577446,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 118.35420126577448
+    },
+    {
+      "name": "NozzlePetalEdgeRail9_204",
+      "old_z_bounds_mm": [
+        83.62068004636329,
+        118.69525051693182
+      ],
+      "expected_new_z_max_mm": 120.99406312116503,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 120.99406312116504
+    },
+    {
+      "name": "NozzlePetalEdgeRail9_223",
+      "old_z_bounds_mm": [
+        83.5283424974977,
+        117.01288906934425
+      ],
+      "expected_new_z_max_mm": 118.8911113116805,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 118.89111131168049
+    },
+    {
+      "name": "NozzlePetalEndHem9",
+      "old_z_bounds_mm": [
+        118.05831516717053,
+        121.79099423744019
+      ],
+      "expected_new_z_max_mm": 124.86374277180025,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 124.86374277180026
+    },
+    {
+      "name": "NozzlePetalRidge9",
+      "old_z_bounds_mm": [
+        83.61016369250073,
+        109.96759464447648
+      ],
+      "expected_new_z_max_mm": 110.08449328059561,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 110.08449328059562
+    },
+    {
+      "name": "NozzlePetal10",
+      "old_z_bounds_mm": [
+        82.22422248499264,
+        119.58279599324219
+      ],
+      "expected_new_z_max_mm": 122.10349496655273,
+      "solids": 5,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 122.10349496655274
+    },
+    {
+      "name": "NozzlePetalInset10",
+      "old_z_bounds_mm": [
+        85.22976898466564,
+        114.22864880084896
+      ],
+      "expected_new_z_max_mm": 115.41081097606121,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 115.41081097606123
+    },
+    {
+      "name": "NozzlePetalEdgeRail10_226",
+      "old_z_bounds_mm": [
+        83.50501254502764,
+        116.5858912157922
+      ],
+      "expected_new_z_max_mm": 118.35736399474042,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 118.35736399474044
+    },
+    {
+      "name": "NozzlePetalEdgeRail10_245",
+      "old_z_bounds_mm": [
+        83.34645253841843,
+        113.67086684644376
+      ],
+      "expected_new_z_max_mm": 114.7135835330542,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 114.71358353305422
+    },
+    {
+      "name": "NozzlePetalEndHem10",
+      "old_z_bounds_mm": [
+        114.72989608992069,
+        119.52784727194212
+      ],
+      "expected_new_z_max_mm": 122.03480906492766,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 122.03480906492767
+    },
+    {
+      "name": "NozzlePetal11",
+      "old_z_bounds_mm": [
+        82.08473836728957,
+        115.93446868277942
+      ],
+      "expected_new_z_max_mm": 117.54308582847426,
+      "solids": 5,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 117.54308582847426
+    },
+    {
+      "name": "NozzlePetalInset11",
+      "old_z_bounds_mm": [
+        84.9387829645182,
+        111.78288163390754
+      ],
+      "expected_new_z_max_mm": 112.35360201738443,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 112.35360201738443
+    },
+    {
+      "name": "NozzlePetalEdgeRail11_249",
+      "old_z_bounds_mm": [
+        83.31481894113854,
+        113.08737709932369
+      ],
+      "expected_new_z_max_mm": 113.98422134915457,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 113.98422134915457
+    },
+    {
+      "name": "NozzlePetalEdgeRail11_268",
+      "old_z_bounds_mm": [
+        83.13266991027281,
+        111.31823971535839
+      ],
+      "expected_new_z_max_mm": 111.77279961919797,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 111.77279961919797
+    },
+    {
+      "name": "NozzlePetalEndHem11",
+      "old_z_bounds_mm": [
+        111.83565988065051,
+        115.85612053859245
+      ],
+      "expected_new_z_max_mm": 117.44515064824057,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "baseline_advanced_errors": [],
+      "advanced_errors": [],
+      "saved_z_max_mm": 117.44515064824057
+    }
+  ],
+  "contacts": [
+    {
+      "objects": [
+        "NozzlePetal0",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal0",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal0",
+        "NozzlePetalHinge0"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal0",
+        "NozzlePetalInset0"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal0",
+        "NozzlePetalEdgeRail0_1"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal0",
+        "NozzlePetalEdgeRail0_20"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal0",
+        "NozzlePetalEndHem0"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 1.0658141036401503e-14,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal0",
+        "NozzlePetalGuide0_0"
+      ],
+      "gap_mm": 0.5538552161065383,
+      "baseline_gap_mm": 0.5538552161065708,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal0",
+        "NozzlePetalGuide0_1"
+      ],
+      "gap_mm": 0.550330011300626,
+      "baseline_gap_mm": 0.5503300113006637,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal1",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal1",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal1",
+        "NozzlePetalHinge1"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal1",
+        "NozzlePetalEdgeRail1_24"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 1.4210854715202004e-14,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal1",
+        "NozzlePetalEndHem1"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal1",
+        "NozzlePetalGuide1_0"
+      ],
+      "gap_mm": 0.5403148087204528,
+      "baseline_gap_mm": 0.5403148087205205,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal1",
+        "NozzlePetalGuide1_1"
+      ],
+      "gap_mm": 0.5378730431578674,
+      "baseline_gap_mm": 0.5378730431579342,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal2",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal2",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 8.881784197001252e-16,
+      "baseline_gap_mm": 8.881784197001252e-16,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal2",
+        "NozzlePetalHinge2"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 8.881784197001252e-16,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal2",
+        "NozzlePetalEndHem2"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 8.881784197001252e-16,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal2",
+        "NozzlePetalGuide2_0"
+      ],
+      "gap_mm": 0.5337415122467923,
+      "baseline_gap_mm": 0.5337415122468162,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal2",
+        "NozzlePetalGuide2_1"
+      ],
+      "gap_mm": 0.5337415122468233,
+      "baseline_gap_mm": 0.5337415122468269,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal3",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal3",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 1.7763568394002505e-15,
+      "baseline_gap_mm": 1.7763568394002505e-15,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal3",
+        "NozzlePetalHinge3"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal3",
+        "NozzlePetalEdgeRail3_88"
+      ],
+      "gap_mm": 3.552713678800501e-15,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal3",
+        "NozzlePetalEndHem3"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal3",
+        "NozzlePetalGuide3_0"
+      ],
+      "gap_mm": 0.5378730431578526,
+      "baseline_gap_mm": 0.5378730431578969,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal3",
+        "NozzlePetalGuide3_1"
+      ],
+      "gap_mm": 0.540314808720476,
+      "baseline_gap_mm": 0.540314808720529,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal4",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal4",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal4",
+        "NozzlePetalHinge4"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal4",
+        "NozzlePetalInset4"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal4",
+        "NozzlePetalEdgeRail4_91"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal4",
+        "NozzlePetalEdgeRail4_110"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal4",
+        "NozzlePetalEndHem4"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 3.552713678800501e-15,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal4",
+        "NozzlePetalGuide4_0"
+      ],
+      "gap_mm": 0.5503300113005904,
+      "baseline_gap_mm": 0.5503300113006425,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal4",
+        "NozzlePetalGuide4_1"
+      ],
+      "gap_mm": 0.5538552161065449,
+      "baseline_gap_mm": 0.5538552161065833,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal5",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal5",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal5",
+        "NozzlePetalHinge5"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal5",
+        "NozzlePetalInset5"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal5",
+        "NozzlePetalEdgeRail5_114"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal5",
+        "NozzlePetalEdgeRail5_133"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal5",
+        "NozzlePetalEndHem5"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal5",
+        "NozzlePetalGuide5_0"
+      ],
+      "gap_mm": 0.5646426251875808,
+      "baseline_gap_mm": 0.5646426251875917,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal5",
+        "NozzlePetalGuide5_1"
+      ],
+      "gap_mm": 0.5676687153089044,
+      "baseline_gap_mm": 0.567668715308901,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 1.4136362581954547,
+      "baseline_gap_mm": 1.4136362581954476,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalHinge6"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalInset6"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 3.552713678800501e-15,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalEdgeRail6_136"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalEdgeRail6_155"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalEndHem6"
+      ],
+      "gap_mm": 1.4210854715202004e-14,
+      "baseline_gap_mm": 1.4210854715202004e-14,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalGuide6_0"
+      ],
+      "gap_mm": 0.575379598524985,
+      "baseline_gap_mm": 0.575379598524944,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalGuide6_1"
+      ],
+      "gap_mm": 0.577185460607035,
+      "baseline_gap_mm": 0.5771854606069935,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 1.940472738830575,
+      "baseline_gap_mm": 1.940472738830491,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "NozzlePetalHinge7"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 1.7763568394002505e-15,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "NozzlePetalInset7"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "NozzlePetalEdgeRail7_159"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "NozzlePetalEdgeRail7_178"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "NozzlePetalEndHem7"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "NozzlePetalRidge7"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "NozzlePetalGuide7_0"
+      ],
+      "gap_mm": 0.5810864976721342,
+      "baseline_gap_mm": 0.5810864976720448,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "NozzlePetalGuide7_1"
+      ],
+      "gap_mm": 0.581822534356931,
+      "baseline_gap_mm": 0.58182253435688,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 3.682695944340225,
+      "baseline_gap_mm": 3.682695944340124,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "NozzlePetalHinge8"
+      ],
+      "gap_mm": 1.7763568394002505e-15,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "NozzlePetalInset8"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "NozzlePetalEdgeRail8_181"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "NozzlePetalEdgeRail8_200"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "NozzlePetalEndHem8"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 1.4210854715202004e-14,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "NozzlePetalRidge8"
+      ],
+      "gap_mm": 1.8041124150158794e-16,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "NozzlePetalGuide8_0"
+      ],
+      "gap_mm": 0.5829166467847271,
+      "baseline_gap_mm": 0.5829166467846123,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "NozzlePetalGuide8_1"
+      ],
+      "gap_mm": 0.5829166467847087,
+      "baseline_gap_mm": 0.5829166467846387,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 1.940472738830317,
+      "baseline_gap_mm": 1.9404727388302203,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalHinge9"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalInset9"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalEdgeRail9_204"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalEdgeRail9_223"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalEndHem9"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalRidge9"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalGuide9_0"
+      ],
+      "gap_mm": 0.5818225343568805,
+      "baseline_gap_mm": 0.581822534356811,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalGuide9_1"
+      ],
+      "gap_mm": 0.5810864976721039,
+      "baseline_gap_mm": 0.5810864976720311,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 1.4136358492368857,
+      "baseline_gap_mm": 1.4136358492368812,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalHinge10"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalInset10"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalEdgeRail10_226"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalEdgeRail10_245"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalEndHem10"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 1.4210854715202004e-14,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalGuide10_0"
+      ],
+      "gap_mm": 0.5771854606070567,
+      "baseline_gap_mm": 0.5771854606069837,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalGuide10_1"
+      ],
+      "gap_mm": 0.5753795985250433,
+      "baseline_gap_mm": 0.5753795985249865,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal11",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal11",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal11",
+        "NozzlePetalHinge11"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 7.105427357601002e-15,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal11",
+        "NozzlePetalInset11"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal11",
+        "NozzlePetalEdgeRail11_249"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 7.105427357601002e-15,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal11",
+        "NozzlePetalEdgeRail11_268"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal11",
+        "NozzlePetalEndHem11"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal11",
+        "NozzlePetalGuide11_0"
+      ],
+      "gap_mm": 0.5676687153089075,
+      "baseline_gap_mm": 0.567668715308903,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "NozzlePetal11",
+        "NozzlePetalGuide11_1"
+      ],
+      "gap_mm": 0.5646426251876407,
+      "baseline_gap_mm": 0.5646426251876335,
+      "regressed": false
+    }
+  ],
+  "limitations": [
+    "image-derived axial shape study",
+    "no manufacturing acceptance"
+  ]
+}

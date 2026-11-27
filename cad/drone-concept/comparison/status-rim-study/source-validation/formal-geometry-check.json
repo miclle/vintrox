@@ -1,0 +1,90 @@
+{
+  "fcstd_sha256": "4755f3f41b2075472afebe5cbbb46c875d965805bdee896bda23fd3f5ad0c041",
+  "candidate_fcstd_sha256": "4755f3f41b2075472afebe5cbbb46c875d965805bdee896bda23fd3f5ad0c041",
+  "measurement_script_sha256": "4e6ba0b328cd7e68c20e004c48ead534733ad8f6a0f2290bbdc687b62da1f9e6",
+  "parts": [
+    {
+      "name": "SideClosureLeft",
+      "valid": true,
+      "solids": 2,
+      "advanced_check_passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SideClosureRight",
+      "valid": true,
+      "solids": 2,
+      "advanced_check_passed": true,
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "shafts": [
+    {
+      "name": "SupportShaftFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "rim_contacts": [
+    {
+      "objects": [
+        "SideClosureLeft",
+        "SideGuardLeft"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 308.95445467648307
+    },
+    {
+      "objects": [
+        "SideClosureLeft",
+        "RearArmourCheekLeft"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 28.086913181877808
+    },
+    {
+      "objects": [
+        "SideClosureLeft",
+        "HandleArmLeft"
+      ],
+      "gap_mm": 1.4210854715202004e-14,
+      "overlap_mm3": 26.5387716514465
+    },
+    {
+      "objects": [
+        "SideClosureRight",
+        "SideGuardRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 308.954454676482
+    },
+    {
+      "objects": [
+        "SideClosureRight",
+        "RearArmourCheekRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 28.08691319183074
+    },
+    {
+      "objects": [
+        "SideClosureRight",
+        "HandleArmRight"
+      ],
+      "gap_mm": 2.842170943040401e-14,
+      "overlap_mm3": 26.538808314615714
+    }
+  ],
+  "passed": true
+}

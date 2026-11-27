@@ -1,0 +1,141 @@
+{
+  "revision": "v50-fairing-depth-and-light-clearance",
+  "baseline_revision": "v49-localized-fairing-root-blend",
+  "fcstd_sha256": "094bb2e63081b879e865db74d375f975126968bd2473772973c3dc0b2bd8171a",
+  "candidate_fcstd_sha256": "efc7186b63652eab3579587e9e3f9243b245138eaeac0700776390fb13abcdd4",
+  "adopted": "d4-clearance",
+  "views": [
+    {
+      "kind": "video",
+      "baseline_mean_iou": 0.848735850313618,
+      "mean_iou": 0.8487944849512361,
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "formal_candidate_scores_exactly_equal": true,
+      "per_view": [
+        {
+          "view": "video-00",
+          "baseline_iou": 0.8734462579322946,
+          "current_iou": 0.8734462579322946,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-01",
+          "baseline_iou": 0.8564925296066496,
+          "current_iou": 0.8564925296066496,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-02",
+          "baseline_iou": 0.8370474725601283,
+          "current_iou": 0.8372878558657681,
+          "delta_percentage_points": 0.024038330563980193
+        },
+        {
+          "view": "video-03",
+          "baseline_iou": 0.8198999225858568,
+          "current_iou": 0.8198999225858568,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-04",
+          "baseline_iou": 0.8186012125751403,
+          "current_iou": 0.8186012125751403,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-05",
+          "baseline_iou": 0.8045156946572499,
+          "current_iou": 0.8045156946572499,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-06",
+          "baseline_iou": 0.8246101615936361,
+          "current_iou": 0.8249561246641769,
+          "delta_percentage_points": 0.03459630705408001
+        },
+        {
+          "view": "video-07",
+          "baseline_iou": 0.8788813080021994,
+          "current_iou": 0.8788813080021994,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-08",
+          "baseline_iou": 0.893606489195306,
+          "current_iou": 0.893606489195306,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-09",
+          "baseline_iou": 0.8802574544277193,
+          "current_iou": 0.8802574544277193,
+          "delta_percentage_points": 0.0
+        }
+      ]
+    },
+    {
+      "kind": "stills",
+      "baseline_mean_iou": 0.8196575666708851,
+      "mean_iou": 0.8196951168350213,
+      "camera_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+      "formal_candidate_scores_exactly_equal": true,
+      "per_view": [
+        {
+          "view": "still-01",
+          "baseline_iou": 0.8650207256828119,
+          "current_iou": 0.8650207256828119,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-02",
+          "baseline_iou": 0.8671098682331476,
+          "current_iou": 0.8671098682331476,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-03",
+          "baseline_iou": 0.8487970010695631,
+          "current_iou": 0.8487970010695631,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-04",
+          "baseline_iou": 0.7805770802466708,
+          "current_iou": 0.7805770802466708,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-05",
+          "baseline_iou": 0.7707450232395928,
+          "current_iou": 0.7710078743885459,
+          "delta_percentage_points": 0.026285114895308048
+        },
+        {
+          "view": "still-06",
+          "baseline_iou": 0.7373516657900736,
+          "current_iou": 0.7373516657900736,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-closeup",
+          "baseline_iou": 0.8680016024343364,
+          "current_iou": 0.8680016024343364,
+          "delta_percentage_points": 0.0
+        }
+      ]
+    }
+  ],
+  "side": {
+    "baseline_rms_px": 8.606475967051123,
+    "current_rms_px": 6.579187965525403,
+    "baseline_max_px": 12.0,
+    "current_max_px": 11.0
+  },
+  "upper": {
+    "baseline_rms_px": 5.862715119415967,
+    "current_rms_px": 5.852960179015645,
+    "baseline_max_px": 17.46424919657298,
+    "current_max_px": 18.0
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v111-0.55",
+      "model": "/private/tmp/vintrox-v111.VvqsOV/final-0.55/candidate.FCStd",
+      "fcstd_sha256": "49c77b083af3a2524fb35d7e7d61be2d09b82423934acc939f9e10eb8c8605a7",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "49c77b083af3a2524fb35d7e7d61be2d09b82423934acc939f9e10eb8c8605a7",
+      "palette_contract_sha256": "d430bac51b8225605d0b09da8cfd966aaac6379a4b018f3ddb779e4d42d466f0",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v111-0.55-isometric.png",
+          "sha256": "8379117c33a522ab7a47500fa818c22bdc3ae9d47dfb4e20c5a140cbe9093cf9"
+        },
+        {
+          "view": "front",
+          "path": "v111-0.55-front.png",
+          "sha256": "a98eef4e1a33d49767295bb54d95bbd42a42572988872ffd1d2f86991f204500"
+        },
+        {
+          "view": "rear",
+          "path": "v111-0.55-rear.png",
+          "sha256": "36cfde732d9a3accb824709057cf8acc67f47194f307a272816d8485be7f9f63"
+        },
+        {
+          "view": "right",
+          "path": "v111-0.55-right.png",
+          "sha256": "48a03d505a2919a8e9f03af6f9da9cbe812ca527c23e1c9a351c7b3a088ae657"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "revision": "v94-podribs-v90",
+  "status": "combined saved-CAD trial; fixed-camera comparison required",
+  "baseline_revision": "v90-front-cheek-contract097",
+  "baseline_fcstd_sha256": "683db33fd874afa4f5b0eeb06294ac7abde447f6f3729ef64629c7582b66c5f9",
+  "fcstd_sha256": "9d4dd9c23ce8703d8aea93eedc3849159a70d797c9ac8cd8c8b9716984599323",
+  "step_sha256": "9feb8a6b080f076b709e1a010f4b942dab9b81d7e183ef1248703b037a921ced",
+  "source_script_sha256": "d856496d2fb6738e6a8abc64977efb10e78e5f8319a271477eae9ba3fa75c34f",
+  "source_pod_fcstd_sha256": "e5428e04605a26859593065c652e87b288f4c316378f28b9b137e3980b8db467",
+  "source_pod_check_sha256": "81a97aa71e620475dcde7523b55da1a579284752eb65f269e07c2e5e8a26bed1",
+  "changed_objects": [
+    "LowerPodRib_1_0",
+    "LowerPodRib_1_001",
+    "LowerPodRib_1_002",
+    "LowerPodRib_1_003",
+    "LowerPodRib_1_004",
+    "LowerPodRib_1_005",
+    "LowerPodRib_1_006",
+    "LowerPodRib_1_007",
+    "LowerPodRib_1_008",
+    "LowerPodRib_1_009",
+    "LowerPodRib_1_010",
+    "LowerPodRib_1_011",
+    "LowerPodRib_1_012",
+    "LowerPodRib_1_013",
+    "LowerPodRib_1_014",
+    "LowerPodRib_1_015",
+    "LowerPodRib_1_016",
+    "LowerPodRib_1_017",
+    "LowerPodRib_1_018",
+    "LowerPodRib_1_1",
+    "LowerPodRib_1_10",
+    "LowerPodRib_1_11",
+    "LowerPodRib_1_12",
+    "LowerPodRib_1_13",
+    "LowerPodRib_1_14",
+    "LowerPodRib_1_15",
+    "LowerPodRib_1_16",
+    "LowerPodRib_1_17",
+    "LowerPodRib_1_2",
+    "LowerPodRib_1_3",
+    "LowerPodRib_1_4",
+    "LowerPodRib_1_5",
+    "LowerPodRib_1_6",
+    "LowerPodRib_1_7",
+    "LowerPodRib_1_8",
+    "LowerPodRib_1_9"
+  ],
+  "changed_families": {
+    "LowerPodRib": 36
+  },
+  "preserved_shape_count": 662,
+  "protected_supports": [
+    {
+      "name": "CentralSupportSeat",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportSocketRearRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportFootRearRight",
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "screen_geometry_preserved": true,
+  "gui_members_copied": 2095,
+  "geometry_unchanged_during_gui_restore": true,
+  "mesh_objects": 696,
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "limitations": [
+    "only v84 LowerPodRib solids were combined with v90",
+    "measured flat screen retained; curved reference screen remains an appearance assumption",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}

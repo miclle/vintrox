@@ -1,0 +1,43 @@
+{
+  "revision": "v58-rear-fold-radius24",
+  "passed": true,
+  "scope": "saved static appearance study only",
+  "physical_validation": false,
+  "fcstd_sha256": "b8aec8226ad6d66ec37c3d37777844bc3c6e51b6cb4152076b632ed045331eb0",
+  "step_sha256": "c6945806ae4fb3693110e84a12de1cb7f115ab8d2d877cd4ccaa645ec715dff9",
+  "concept_manifest_sha256": "715b754232cbcd23d333662240561810e273f5f70ad9e56b6cd5e386cdd170ee",
+  "readback_sha256": "fa258b4f9ea90c002f79bed114f2eebba97375d8802015da00946c8a9d53f688",
+  "render_manifest_sha256": "7659608e505c7e5afedbfb63cf3311f8af3fddfff07b422d6bd135826df4e28a",
+  "visible_features": 696,
+  "step_solids": 832,
+  "display_images": 9,
+  "turntable_unique_angles": 96,
+  "rear_fold_radius_mm": 24,
+  "rear_changed_objects": [
+    "RearServicePanel",
+    "RearStructuralFrame",
+    "RearRecessLiner",
+    "RearArmourCheekLeft",
+    "RearArmourCheekRight",
+    "RearLowerSlope"
+  ],
+  "video_comparison": {
+    "path": "cad/drone-concept/comparison/v58-rear-followup-study/video-comparison-report.json",
+    "mean_silhouette_iou": 0.854474979006981,
+    "view_count": 10
+  },
+  "still_comparison": {
+    "path": "cad/drone-concept/comparison/v58-rear-followup-study/stills-comparison-report.json",
+    "mean_silhouette_iou": 0.822163787411581,
+    "view_count": 7
+  },
+  "preserved_constraints": [
+    "four support shafts/sockets/feet retained",
+    "rear cavity shadow remains a recessed housing; no continuous nozzle tube wall added"
+  ],
+  "limitations": [
+    "fixed-camera silhouette scores are appearance diagnostics",
+    "no reference source mesh",
+    "no printing, assembly, acoustic, thermal, electrical or loaded-support validation"
+  ]
+}

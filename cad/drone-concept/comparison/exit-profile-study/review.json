@@ -1,0 +1,192 @@
+{
+  "status": "isolated promising taper trial; not adopted as formal v47",
+  "formal_revision": "v46-curved-petal-hardware",
+  "formal_fcstd_sha256": "475c208851231c3c98da53e59c62ad1a18de1bf969f6d0622db8e5f93b03b7e5",
+  "candidate_fcstd_sha256": "3b05576acdf41ee8d72bead9f290d29ea2bcfe4f3240926c73dfe223be7bb56b",
+  "fixed_camera_sha256": {
+    "video": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+    "stills": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb"
+  },
+  "cache": [
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-exit-profile-cache/taper-4-meshes.json",
+      "sha256": "f71ab88a61470dd7be711ceeff304dc140226abf9ce74759455989e66f80a017"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-exit-profile-cache/v46-baseline.FCStd",
+      "sha256": "475c208851231c3c98da53e59c62ad1a18de1bf969f6d0622db8e5f93b03b7e5"
+    }
+  ],
+  "comparisons": {
+    "video": {
+      "baseline_mean_iou": 0.848452603140878,
+      "trial_mean_iou": 0.8489381846311013,
+      "change_percentage_points": 0.04855814902232636,
+      "views": [
+        {
+          "view": "video-00",
+          "baseline_iou": 0.8734462579322946,
+          "trial_iou": 0.8734462579322946,
+          "change_percentage_points": 0.0
+        },
+        {
+          "view": "video-01",
+          "baseline_iou": 0.8553412318180171,
+          "trial_iou": 0.8564833809200849,
+          "change_percentage_points": 0.11421491020677799
+        },
+        {
+          "view": "video-02",
+          "baseline_iou": 0.8375228588321028,
+          "trial_iou": 0.8384282481458438,
+          "change_percentage_points": 0.09053893137410673
+        },
+        {
+          "view": "video-03",
+          "baseline_iou": 0.8190111426466097,
+          "trial_iou": 0.8197428985759285,
+          "change_percentage_points": 0.07317559293188447
+        },
+        {
+          "view": "video-04",
+          "baseline_iou": 0.8183989362388815,
+          "trial_iou": 0.818210583073153,
+          "change_percentage_points": -0.018835316572851646
+        },
+        {
+          "view": "video-05",
+          "baseline_iou": 0.803921568627451,
+          "trial_iou": 0.8043328262297262,
+          "change_percentage_points": 0.04112576022752279
+        },
+        {
+          "view": "video-06",
+          "baseline_iou": 0.8250995784029204,
+          "trial_iou": 0.8257878877006831,
+          "change_percentage_points": 0.0688309297762757
+        },
+        {
+          "view": "video-07",
+          "baseline_iou": 0.8779205132874774,
+          "trial_iou": 0.879085820110274,
+          "change_percentage_points": 0.11653068227965857
+        },
+        {
+          "view": "video-08",
+          "baseline_iou": 0.893606489195306,
+          "trial_iou": 0.893606489195306,
+          "change_percentage_points": 0.0
+        },
+        {
+          "view": "video-09",
+          "baseline_iou": 0.8802574544277193,
+          "trial_iou": 0.8802574544277193,
+          "change_percentage_points": 0.0
+        }
+      ]
+    },
+    "stills": {
+      "baseline_mean_iou": 0.8194252892250636,
+      "trial_mean_iou": 0.8197970688569348,
+      "change_percentage_points": 0.0371779631871183,
+      "views": [
+        {
+          "view": "still-01",
+          "baseline_iou": 0.8650207256828119,
+          "trial_iou": 0.8650207256828119,
+          "change_percentage_points": 0.0
+        },
+        {
+          "view": "still-02",
+          "baseline_iou": 0.8671098682331476,
+          "trial_iou": 0.8671098682331476,
+          "change_percentage_points": 0.0
+        },
+        {
+          "view": "still-03",
+          "baseline_iou": 0.8487970010695631,
+          "trial_iou": 0.8487970010695631,
+          "change_percentage_points": 0.0
+        },
+        {
+          "view": "still-04",
+          "baseline_iou": 0.7805294806579615,
+          "trial_iou": 0.7807670867535987,
+          "change_percentage_points": 0.02376060956372772
+        },
+        {
+          "view": "still-05",
+          "baseline_iou": 0.7692748533995003,
+          "trial_iou": 0.770825133615081,
+          "change_percentage_points": 0.15502802155806794
+        },
+        {
+          "view": "still-06",
+          "baseline_iou": 0.7372434930981249,
+          "trial_iou": 0.7380580642100054,
+          "change_percentage_points": 0.08145711118805465
+        },
+        {
+          "view": "still-closeup",
+          "baseline_iou": 0.8680016024343364,
+          "trial_iou": 0.8680016024343364,
+          "change_percentage_points": 0.0
+        }
+      ]
+    }
+  },
+  "decision": [
+    "Keep formal v46 and both formal camera sets unchanged.",
+    "Do not adopt the weakly constrained 79.81mm focal diagnostic despite changed image scores.",
+    "Do not adopt the combined circle shrink/translation: video oblique tip errors increase substantially.",
+    "Four-degree petal taper modestly improves aggregate silhouette and low-still tip samples, but two video oblique tip errors and one rear silhouette regress.",
+    "Before formal adoption, rebuild a controlled common-root leaf profile and update saved-geometry checks; do not silently bypass the existing shared-circle invariant."
+  ],
+  "remaining": [
+    "Gold-lip and terminal offsets in low stills remain; small hinge rotation does not resolve them.",
+    "Manual still-tip samples are approximate and not an independent acceptance set.",
+    "Housing recess/shadow geometry and four support shafts remain unchanged."
+  ],
+  "source_files": [
+    {
+      "path": "tools/experiment_drone_exit_taper.py",
+      "sha256": "5d49c4cd1017ba85620b5e35801a96345029d94a7a8fbdf39550f046456a5f57"
+    },
+    {
+      "path": "tools/study_drone_still_focal.py",
+      "sha256": "41381433f055bff53c5a293d6f4e296a822525ce32617ae6c549da1e33568595"
+    },
+    {
+      "path": "tools/project_drone_exit_circles.py",
+      "sha256": "8b6ed3e31bfcb4d447a6f5e99670e04234d7dc950c026be6f747ba55056b144d"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/diagnostic-scripts/fit-exit-multiview.py",
+      "sha256": "9d1604be03e328b3641c068326dc0687b5119d97f7f01e4f4cc26155622484a4"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/diagnostic-scripts/measure-taper.py",
+      "sha256": "0c54dd04b7d93f0029cbd5afcd9e0004ec555e77a1cbc573ae4f6117d40c2f47"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/diagnostic-scripts/prepare-review.py",
+      "sha256": "5d8cdca04cee20dc45d4c4e487621c6a61c410554a0ac8f1311a3ab0b01963cc"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/focal-diagnostic.json",
+      "sha256": "0221170c1874521b37d051116674f72a9ace348f5dd602eae349071f9a175c65"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/multiview-exit-fit.json",
+      "sha256": "a7fa92b496643a2e45a79ea3ad1bee6d0cf56e157b7fc0005251575e17904ac9"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/taper-4/terminal-arcs-check.json",
+      "sha256": "dba7b566a288bc3a1261eeb027e91b476493bf8f8b59d625b09bafb8bbe22813"
+    },
+    {
+      "path": "cad/drone-concept/comparison/exit-profile-study/taper-4/candidate-check.json",
+      "sha256": "51008ff9404df27a73444e7c0c2a4ec62a7284bcd4b7639524d3716249884087"
+    }
+  ]
+}

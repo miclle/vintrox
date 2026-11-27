@@ -1,0 +1,36 @@
+{
+  "baseline": "v173-front-cheek-contract",
+  "baseline_metrics": {
+    "video": 0.8590092505079457
+  },
+  "candidates": [
+    {
+      "candidate": "v187",
+      "scale": 0.9925,
+      "metrics": {
+        "video": 0.8590166313785292,
+        "stills": 0.8253095990280835,
+        "sheet": 0.8965440140976831
+      }
+    },
+    {
+      "candidate": "v188",
+      "scale": 0.995,
+      "metrics": {
+        "video": 0.8590133602994137,
+        "stills": 0.825279987334039,
+        "sheet": 0.8965453488953727
+      }
+    },
+    {
+      "candidate": "v189",
+      "scale": 0.9975,
+      "metrics": {
+        "video": 0.8590103730658551,
+        "stills": 0.8252698132276792,
+        "sheet": 0.8965393532716412
+      }
+    }
+  ],
+  "decision": "retain v173"
+}

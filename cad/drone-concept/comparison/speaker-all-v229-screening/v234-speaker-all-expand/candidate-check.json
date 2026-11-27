@@ -1,0 +1,401 @@
+{
+  "revision": "v234-speaker-all-expand",
+  "baseline_fcstd_sha256": "2d33864c9ef400875d67a4197b93b84889557a1ece28354f2e9cb36dbf2d7a09",
+  "fcstd_sha256": "c86a250f9e46acf8ac1eb33e4ac1823b6a248d372215a4108bc9ae134f9241b3",
+  "step_sha256": "a541fb502b66e1734b280ec51b9429e7cb919f372a720c19c9652d0972a6d1ce",
+  "scale": 1.005,
+  "mode": "all",
+  "changed_objects": [
+    "SpeakerOuterLipLeft",
+    "SpeakerLipTrimLeft",
+    "SpeakerSurroundLeft",
+    "SpeakerCentreLeft",
+    "SpeakerHubNeckLeft",
+    "SpeakerVisualConeLeft",
+    "SpeakerOuterLipRight",
+    "SpeakerLipTrimRight",
+    "SpeakerSurroundRight",
+    "SpeakerCentreRight",
+    "SpeakerHubNeckRight",
+    "SpeakerVisualConeRight"
+  ],
+  "checks": [
+    {
+      "name": "SpeakerOuterLipLeft",
+      "before": {
+        "volume_mm3": 24075.720519,
+        "bbox_mm": [
+          -118.62074,
+          -108.62074,
+          70.87757,
+          187.31615,
+          95.40383,
+          211.84241
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 24438.665015,
+        "bbox_mm": [
+          -118.64574,
+          -108.59574,
+          70.586474,
+          187.607246,
+          95.112734,
+          212.133506
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerLipTrimLeft",
+      "before": {
+        "volume_mm3": 316.394883,
+        "bbox_mm": [
+          -115.17074,
+          -114.07074,
+          71.148169,
+          187.045551,
+          95.674429,
+          211.571811
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 321.164575,
+        "bbox_mm": [
+          -115.17349,
+          -114.06799,
+          70.858425,
+          187.335295,
+          95.384685,
+          211.861555
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerSurroundLeft",
+      "before": {
+        "volume_mm3": 6652.739574,
+        "bbox_mm": [
+          -114.709727,
+          -109.131753,
+          79.17921,
+          179.01451,
+          103.70547,
+          203.54077
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 6753.030454,
+        "bbox_mm": [
+          -114.723672,
+          -109.117808,
+          78.929622,
+          179.264098,
+          103.455882,
+          203.790358
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerCentreLeft",
+      "before": {
+        "volume_mm3": 5089.380099,
+        "bbox_mm": [
+          -114.0,
+          -109.0,
+          111.09686,
+          147.09686,
+          135.62312,
+          171.62312
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 5140.401134,
+        "bbox_mm": [
+          -114.0,
+          -109.0,
+          111.00686,
+          147.18686,
+          135.53312,
+          171.71312
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerHubNeckLeft",
+      "before": {
+        "volume_mm3": 68706.631334,
+        "bbox_mm": [
+          -137.0,
+          -107.0,
+          99.0,
+          153.0,
+          124.0,
+          178.0
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 69395.415313,
+        "bbox_mm": [
+          -137.0,
+          -107.0,
+          98.865,
+          153.135,
+          123.865,
+          178.135
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerVisualConeLeft",
+      "before": {
+        "volume_mm3": 14108.533892,
+        "bbox_mm": [
+          -113.62074,
+          -103.62074,
+          85.269919,
+          172.923801,
+          109.796179,
+          197.450061
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 14249.971944,
+        "bbox_mm": [
+          -113.62074,
+          -103.62074,
+          85.050784,
+          173.142936,
+          109.577044,
+          197.669196
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerOuterLipRight",
+      "before": {
+        "volume_mm3": 24075.720519,
+        "bbox_mm": [
+          108.62074,
+          118.62074,
+          70.87757,
+          187.31615,
+          95.40383,
+          211.84241
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 24438.665015,
+        "bbox_mm": [
+          108.59574,
+          118.64574,
+          70.586474,
+          187.607246,
+          95.112734,
+          212.133506
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerLipTrimRight",
+      "before": {
+        "volume_mm3": 316.394883,
+        "bbox_mm": [
+          114.07074,
+          115.17074,
+          71.148169,
+          187.045551,
+          95.674429,
+          211.571811
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 321.164575,
+        "bbox_mm": [
+          114.06799,
+          115.17349,
+          70.858425,
+          187.335295,
+          95.384685,
+          211.861555
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerSurroundRight",
+      "before": {
+        "volume_mm3": 6652.739574,
+        "bbox_mm": [
+          109.131753,
+          114.709727,
+          79.17921,
+          179.01451,
+          103.70547,
+          203.54077
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 6753.030454,
+        "bbox_mm": [
+          109.117808,
+          114.723672,
+          78.929622,
+          179.264098,
+          103.455882,
+          203.790358
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerCentreRight",
+      "before": {
+        "volume_mm3": 5089.380099,
+        "bbox_mm": [
+          109.0,
+          114.0,
+          111.09686,
+          147.09686,
+          135.62312,
+          171.62312
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 5140.401134,
+        "bbox_mm": [
+          109.0,
+          114.0,
+          111.00686,
+          147.18686,
+          135.53312,
+          171.71312
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerHubNeckRight",
+      "before": {
+        "volume_mm3": 68706.631334,
+        "bbox_mm": [
+          107.0,
+          137.0,
+          99.0,
+          153.0,
+          124.0,
+          178.0
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 69395.415313,
+        "bbox_mm": [
+          107.0,
+          137.0,
+          98.865,
+          153.135,
+          123.865,
+          178.135
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    },
+    {
+      "name": "SpeakerVisualConeRight",
+      "before": {
+        "volume_mm3": 14108.533892,
+        "bbox_mm": [
+          103.62074,
+          113.62074,
+          85.269919,
+          172.923801,
+          109.796179,
+          197.450061
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      },
+      "after": {
+        "volume_mm3": 14249.971944,
+        "bbox_mm": [
+          103.62074,
+          113.62074,
+          85.050784,
+          173.142936,
+          109.577044,
+          197.669196
+        ],
+        "solids": 1,
+        "valid": true,
+        "closed": true
+      }
+    }
+  ],
+  "visible_features": 696,
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "mesh_rebuild": "tools/export_saved_drone_meshes.py --output <temporary-mesh-json>",
+  "builder_script_sha256": "05802e3acfd1e402a7a9c0c8d4786e26749f6d0e4779e085f2325e0f10565374",
+  "status": "candidate; fixed-camera screening package"
+}

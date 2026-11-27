@@ -1,0 +1,33 @@
+{
+  "meshes": [
+    {
+      "candidate": "a",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-rear-lower-edge-study-cache/a-meshes.json",
+      "sha256": "b7e600dc40f07cd0252c934634bf2d547b4d6a776660a36f3e6eb09b7bbb635c",
+      "bytes": 267830840
+    },
+    {
+      "candidate": "b",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-rear-lower-edge-study-cache/b-meshes.json",
+      "sha256": "dca95695310ef38c239c0888ad047da453a6e71020b62a4a2a5208fb5b80f547",
+      "bytes": 267830814
+    },
+    {
+      "candidate": "c",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-rear-lower-edge-study-cache/c-meshes.json",
+      "sha256": "964e462315636c02ca8c51ffafed2df20a551ae762447385d53b5ed25e8b10dd",
+      "bytes": 267830728
+    }
+  ],
+  "experiment_versions": [
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-rear-lower-edge-study-cache/experiment-v1.py",
+      "sha256": "9c0ade95d9b0ea901cb4da532201dda36c260f9691e3346192e6639d0c1dffd0"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-rear-lower-edge-study-cache/experiment-v2.py",
+      "sha256": "3ddeec16904bfbc33cc2a04dc11f28c6e3a5b13db621c5bbbb28fb4bcb80ccc3"
+    }
+  ],
+  "note": "v1 generated A/B; v2 added rise=6 choice and generated C; candidate hashes bind mesh geometry"
+}

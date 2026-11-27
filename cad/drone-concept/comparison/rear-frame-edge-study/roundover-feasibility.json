@@ -1,0 +1,101 @@
+[
+  {
+    "name": "RearStructuralFrame",
+    "seed_edges": [
+      35,
+      43
+    ],
+    "radius_mm": 0.8,
+    "passed": true,
+    "added_mm3": 0.0,
+    "removed_mm3": 193.12001119545386,
+    "faces": 54,
+    "elapsed_seconds": 0.3656330108642578
+  },
+  {
+    "name": "RearStructuralFrame",
+    "seed_edges": [
+      35,
+      43
+    ],
+    "radius_mm": 1.5,
+    "passed": true,
+    "added_mm3": 0.0,
+    "removed_mm3": 680.08778517807,
+    "faces": 54,
+    "elapsed_seconds": 0.3651130199432373
+  },
+  {
+    "name": "RearStructuralFrame",
+    "seed_edges": [
+      35,
+      43
+    ],
+    "radius_mm": 2.5,
+    "passed": true,
+    "added_mm3": 0.0,
+    "removed_mm3": 1893.5902739161581,
+    "faces": 56,
+    "elapsed_seconds": 0.3970608711242676
+  },
+  {
+    "name": "RearArmourCheekLeft",
+    "seed_edges": [
+      1
+    ],
+    "radius_mm": 0.8,
+    "passed": false,
+    "error": "15StdFail_NotDone BRep_API: command not done",
+    "elapsed_seconds": 0.03875088691711426
+  },
+  {
+    "name": "RearArmourCheekLeft",
+    "seed_edges": [
+      1
+    ],
+    "radius_mm": 1.5,
+    "passed": false,
+    "error": "15StdFail_NotDone BRep_API: command not done",
+    "elapsed_seconds": 0.03523612022399902
+  },
+  {
+    "name": "RearArmourCheekLeft",
+    "seed_edges": [
+      1
+    ],
+    "radius_mm": 2.5,
+    "passed": false,
+    "error": "15StdFail_NotDone BRep_API: command not done",
+    "elapsed_seconds": 0.04214668273925781
+  },
+  {
+    "name": "RearArmourCheekRight",
+    "seed_edges": [
+      1
+    ],
+    "radius_mm": 0.8,
+    "passed": false,
+    "error": "15StdFail_NotDone BRep_API: command not done",
+    "elapsed_seconds": 0.03638601303100586
+  },
+  {
+    "name": "RearArmourCheekRight",
+    "seed_edges": [
+      1
+    ],
+    "radius_mm": 1.5,
+    "passed": false,
+    "error": "15StdFail_NotDone BRep_API: command not done",
+    "elapsed_seconds": 0.03431296348571777
+  },
+  {
+    "name": "RearArmourCheekRight",
+    "seed_edges": [
+      1
+    ],
+    "radius_mm": 2.5,
+    "passed": false,
+    "error": "15StdFail_NotDone BRep_API: command not done",
+    "elapsed_seconds": 0.04185223579406738
+  }
+]

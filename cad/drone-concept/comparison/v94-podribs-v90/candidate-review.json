@@ -1,0 +1,87 @@
+{
+  "revision": "v94-podribs-v90",
+  "directory": "v94-podribs-v90",
+  "status": "reject; video and stills regressed",
+  "baseline_revision": "v90-front-cheek-contract097",
+  "baseline_fcstd_sha256": "683db33fd874afa4f5b0eeb06294ac7abde447f6f3729ef64629c7582b66c5f9",
+  "candidate_fcstd_sha256": "9d4dd9c23ce8703d8aea93eedc3849159a70d797c9ac8cd8c8b9716984599323",
+  "candidate_step_sha256": "9feb8a6b080f076b709e1a010f4b942dab9b81d7e183ef1248703b037a921ced",
+  "changed_objects": [
+    "LowerPodRib (36 objects)"
+  ],
+  "video": {
+    "candidate_mean_iou": 0.8557794898061017,
+    "baseline_mean_iou": 0.8558303431358816,
+    "delta_mean_iou": -5.0853329779831924e-05,
+    "improved_views": 3,
+    "regressed_views": 7,
+    "report": "video-comparison/comparison-report.json"
+  },
+  "stills": {
+    "candidate_mean_iou": 0.8234059967778319,
+    "baseline_mean_iou": 0.8235075463557112,
+    "delta_mean_iou": -0.00010154957787933405,
+    "improved_views": 1,
+    "regressed_views": 6,
+    "report": "stills-comparison/comparison-report.json"
+  },
+  "readback": {
+    "saved_check": "candidate-check.json",
+    "mesh_objects": 696,
+    "screen_geometry_preserved": true,
+    "protected_supports_unchanged": true,
+    "gui_appearance": "inherited from v90; no new native screenshot audit"
+  },
+  "top_exterior_families": [
+    {
+      "family": "NozzlePetal",
+      "pixels": 16351
+    },
+    {
+      "family": "LowerPodRib",
+      "pixels": 14767
+    },
+    {
+      "family": "BrowUnderside",
+      "pixels": 11775
+    },
+    {
+      "family": "ScreenBezel",
+      "pixels": 9528
+    },
+    {
+      "family": "ProjectingBrow",
+      "pixels": 7637
+    },
+    {
+      "family": "HandleArm",
+      "pixels": 7469
+    },
+    {
+      "family": "WingInnerPaint",
+      "pixels": 5652
+    },
+    {
+      "family": "HandleInset",
+      "pixels": 5361
+    },
+    {
+      "family": "RearArmourCheek",
+      "pixels": 5228
+    },
+    {
+      "family": "FrontCheek",
+      "pixels": 5189
+    },
+    {
+      "family": "Antenna",
+      "pixels": 5169
+    },
+    {
+      "family": "SideCable",
+      "pixels": 4956
+    }
+  ],
+  "registration": "same fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "decision": "reject; video and stills regressed"
+}

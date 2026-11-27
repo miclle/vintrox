@@ -1,0 +1,154 @@
+{
+  "fcstd_sha256": "5da2574c3977bcf5f9f6ddfdc9e5dd652b5fca4a95e2128e32031c889a76b682",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "measurement_script_sha256": "3ee41bc794e0e0a9f0e03d10d368c901fd3e4c3b43462d132e62e54a66a68bd8",
+  "object_id_manifest_sha256": "483469fc8b4e87b698fd7cd86a59e1aa665839c7dbbea9a17426b1a8164df4c3",
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "native_source_frame_verified": true,
+  "source_frame": 120,
+  "row_px": 590,
+  "manual_source_uncertainty_px": 2,
+  "observations": [
+    {
+      "source_guide_rail_x_px": [
+        417,
+        429
+      ],
+      "source_midpoint_px": [
+        423.0,
+        590
+      ],
+      "petal_index": 12,
+      "range_x_px": [
+        432,
+        437
+      ],
+      "center_x_px": 434.5,
+      "signed_offset_px": 11.5
+    },
+    {
+      "source_guide_rail_x_px": [
+        470,
+        483
+      ],
+      "source_midpoint_px": [
+        476.5,
+        590
+      ],
+      "petal_index": 11,
+      "range_x_px": [
+        473,
+        477
+      ],
+      "center_x_px": 475.0,
+      "signed_offset_px": -1.5
+    },
+    {
+      "source_guide_rail_x_px": [
+        519,
+        530
+      ],
+      "source_midpoint_px": [
+        524.5,
+        590
+      ],
+      "petal_index": 10,
+      "range_x_px": [
+        513,
+        517
+      ],
+      "center_x_px": 515.0,
+      "signed_offset_px": -9.5
+    }
+  ],
+  "rms_offset_px": 8.65544144839919,
+  "max_offset_px": 11.5,
+  "visible_ridge_centers": [
+    {
+      "petal_index": 7,
+      "range_x_px": [
+        582,
+        584
+      ],
+      "center_x_px": 583.0
+    },
+    {
+      "petal_index": 8,
+      "range_x_px": [
+        571,
+        576
+      ],
+      "center_x_px": 573.5
+    },
+    {
+      "petal_index": 9,
+      "range_x_px": [
+        547,
+        553
+      ],
+      "center_x_px": 550.0
+    },
+    {
+      "petal_index": 10,
+      "range_x_px": [
+        513,
+        517
+      ],
+      "center_x_px": 515.0
+    },
+    {
+      "petal_index": 11,
+      "range_x_px": [
+        473,
+        477
+      ],
+      "center_x_px": 475.0
+    },
+    {
+      "petal_index": 12,
+      "range_x_px": [
+        432,
+        437
+      ],
+      "center_x_px": 434.5
+    },
+    {
+      "petal_index": 13,
+      "range_x_px": [
+        396,
+        402
+      ],
+      "center_x_px": 399.0
+    },
+    {
+      "petal_index": 14,
+      "range_x_px": [
+        372,
+        376
+      ],
+      "center_x_px": 374.0
+    }
+  ],
+  "source_files": [
+    {
+      "path": "cad/drone-concept/comparison/iteration-66/reference-frames/frame-05.png",
+      "sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-petals-study/c/ids/video-04.png",
+      "sha256": "1f1c8f2c90240aa002061caf549f8cea95ec2bb6ab6af75a772ad7dea8627594"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-petals-study/c/renders/video-04.png",
+      "sha256": "6cc63606baae44b0b41e8590f18174198dfc8949e66fe6e7c94f22892116a264"
+    }
+  ],
+  "image_path": "cad/drone-concept/comparison/nozzle-petals-study/c/pitch-check.png",
+  "image_sha256": "9369ec92653d667e46f595f368f88f566772def474368cfc45e0599a6f97ae5d",
+  "limitations": [
+    "three central visible guide pairs only",
+    "manual edge pairs, about 2 px uncertainty",
+    "nearest visible ridge matching; not a whole-contour or hidden-leaf count test",
+    "oblique rear views require separate visual review"
+  ]
+}

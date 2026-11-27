@@ -1,0 +1,99 @@
+{
+  "fcstd_sha256": "0d266738e98ef1349803b17086ec737f357438351cf325b8b072076a914e20e3",
+  "baseline_fcstd_sha256": "75d4da854d31958c64d134646cfe23ac0055889fc74657795b8965b661eed253",
+  "script_sha256": "e6cbe6bc768d632906d0f728dca23073fdaa74077e216343c3d04fc69ac437e1",
+  "generator_sha256": "d02290b92d6b8e33e7e653606660356aad690200f77bb63d0917ea42e9827f5d",
+  "changed_objects": [
+    "SideCableLeft"
+  ],
+  "radius_mm": 2.1,
+  "boot_contacts": [
+    {
+      "boot": "UtilityCableBootLeft",
+      "baseline_overlap_mm3": 65.10137913725181,
+      "candidate_overlap_mm3": 87.15700697299938
+    },
+    {
+      "boot": "SideCableTopBootLeft",
+      "baseline_overlap_mm3": 10.191110278969571,
+      "candidate_overlap_mm3": 13.871373334297994
+    }
+  ],
+  "support_collisions": [
+    {
+      "part": "CentralSupportSeat",
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "part": "SupportShaftFrontLeft",
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "part": "SupportSocketFrontLeft",
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "part": "SupportFootFrontLeft",
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "part": "SupportShaftRearLeft",
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "part": "SupportSocketRearLeft",
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "part": "SupportFootRearLeft",
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "part": "SupportShaftFrontRight",
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "part": "SupportSocketFrontRight",
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "part": "SupportFootFrontRight",
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "part": "SupportShaftRearRight",
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "part": "SupportSocketRearRight",
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    },
+    {
+      "part": "SupportFootRearRight",
+      "baseline_overlap_mm3": 0.0,
+      "candidate_overlap_mm3": 0.0
+    }
+  ],
+  "contact_regressions": [],
+  "new_advanced_check_failures": [],
+  "diagnostic_fcstd_sha256": "7a3c735429abb38e0e0e071d8985517596d92eea9303c237be13aa4fbd3becbe",
+  "step_sha256": "b3f021e447bbf9e9b35af824055725dbf935253f84bfbcb8568f137f15714d88",
+  "finalizer_sha256": "116e96bd548782a090f1da8e07458e7983d6291c1754e76844877b3b2b146f7f",
+  "appearance_source_sha256": "75d4da854d31958c64d134646cfe23ac0055889fc74657795b8965b661eed253",
+  "gui_members_copied": 2095,
+  "unchanged_archive_members_restored": 1104,
+  "geometry_unchanged_during_gui_restore": true,
+  "changed_mesh_geometry": "retessellated from final reopened FCStd"
+}

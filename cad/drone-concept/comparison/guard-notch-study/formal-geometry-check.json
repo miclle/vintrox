@@ -1,0 +1,90 @@
+{
+  "fcstd_sha256": "08e667f1a219b9b0758b2bdf9b13d6d6e34ae45c277bbcd859bf31a45c3703a8",
+  "candidate_fcstd_sha256": "396a4f714fddb44aca0a5de7322bcfd5d5d90bd535f3243797488d588ff3314c",
+  "measurement_script_sha256": "39dcde2334a2ef9d5078003cf96c68d9e0237e73be65a9701cf8812d499b55a4",
+  "parts": [
+    {
+      "name": "SideGuardLeft",
+      "valid": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SideGuardRight",
+      "valid": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "shafts": [
+    {
+      "name": "SupportShaftFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "guard_contacts": [
+    {
+      "objects": [
+        "SideGuardLeft",
+        "SideClosureLeft"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 308.9544546328454
+    },
+    {
+      "objects": [
+        "SideGuardLeft",
+        "RearArmourCheekLeft"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 1267.3045361232735
+    },
+    {
+      "objects": [
+        "SideGuardLeft",
+        "CyanSideTubeLeft"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 1493.9087415947677
+    },
+    {
+      "objects": [
+        "SideGuardRight",
+        "SideClosureRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 308.9544546328454
+    },
+    {
+      "objects": [
+        "SideGuardRight",
+        "RearArmourCheekRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 1267.3045361232735
+    },
+    {
+      "objects": [
+        "SideGuardRight",
+        "CyanSideTubeRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 1493.9087546439514
+    }
+  ],
+  "passed": true
+}

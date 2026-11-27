@@ -1,0 +1,405 @@
+{
+  "fcstd_sha256": "2e03cd03281133066620ac87ed006e0d0e7dc23f2720758e4baa09c4fd9097a1",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "measurement_script_sha256": "cb285b82b3f457c4919d2a10fded1070a2a0e080d0587fa5a3addf7c27086163",
+  "object_id_manifest_sha256": "c76153e057ee2f3605783fec092d89df4b3d770a99ffe6468b15ceb45565c248",
+  "source_files": [
+    {
+      "path": "cad/drone-concept/comparison/nozzle-depth-study/c/ids/video-03.png",
+      "sha256": "60f58fc375d10c9a5f3b97f0ce00615e9c17bb3fe0374a61fb052859fe8193b5"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-depth-study/c/comparison/reference-frames/frame-04.png",
+      "sha256": "0d8806db3363c684e6e42e641883d59705af1a938511637a2cbb9c88a116a82f"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-depth-study/c/renders/video-03.png",
+      "sha256": "15c212474cfec1a4cdba7b0d285bba698a21407b07a8ad011b7c32fd597a3e3f"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-depth-study/c/ids/video-04.png",
+      "sha256": "c19bbc9d0f3e2b8b92e3c6a5d955f5f3b81968d5f6a5f09273793e37f0bbd2ef"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-depth-study/c/comparison/reference-frames/frame-05.png",
+      "sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-depth-study/c/renders/video-04.png",
+      "sha256": "1e2c1654c6a3bbbe8d0230d0efe6c2c6194b8832e22a99f9745dd80961926a4e"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-depth-study/c/ids/video-05.png",
+      "sha256": "7949f66005c14f1e6f914afe769f8d52d09297d45fd5c41ca87f35af50765ff6"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-depth-study/c/comparison/reference-frames/frame-06.png",
+      "sha256": "6163748cf00f271a738409696656ddd46ca93481e0bfab683b656e6e8a38a204"
+    },
+    {
+      "path": "cad/drone-concept/comparison/nozzle-depth-study/c/renders/video-05.png",
+      "sha256": "19649f3d68a5f9475405dcd800b680f54db34705ef6fdf3d9e881db65e078645"
+    }
+  ],
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "observations": [
+    {
+      "source_frame": 90,
+      "reference_px": [
+        [
+          297,
+          408
+        ],
+        [
+          312,
+          396
+        ],
+        [
+          331,
+          389
+        ],
+        [
+          351,
+          385
+        ],
+        [
+          372,
+          383
+        ],
+        [
+          394,
+          385
+        ],
+        [
+          416,
+          392
+        ],
+        [
+          435,
+          408
+        ],
+        [
+          449,
+          431
+        ],
+        [
+          458,
+          459
+        ],
+        [
+          464,
+          485
+        ]
+      ],
+      "nearest_visible_px": [
+        [
+          308,
+          418
+        ],
+        [
+          320,
+          404
+        ],
+        [
+          333,
+          391
+        ],
+        [
+          351,
+          379
+        ],
+        [
+          372,
+          381
+        ],
+        [
+          393,
+          385
+        ],
+        [
+          416,
+          392
+        ],
+        [
+          434,
+          405
+        ],
+        [
+          449,
+          425
+        ],
+        [
+          459,
+          459
+        ],
+        [
+          459,
+          485
+        ]
+      ],
+      "distance_px": [
+        14.866068747318506,
+        11.313708498984761,
+        2.8284271247461903,
+        6.0,
+        2.0,
+        1.0,
+        0.0,
+        3.1622776601683795,
+        6.0,
+        1.0,
+        5.0
+      ],
+      "rms_px": 6.536610186271837,
+      "max_px": 14.866068747318506
+    },
+    {
+      "source_frame": 120,
+      "reference_px": [
+        [
+          340,
+          447
+        ],
+        [
+          350,
+          425
+        ],
+        [
+          370,
+          408
+        ],
+        [
+          395,
+          397
+        ],
+        [
+          425,
+          390
+        ],
+        [
+          455,
+          386
+        ],
+        [
+          483,
+          386
+        ],
+        [
+          512,
+          389
+        ],
+        [
+          542,
+          398
+        ],
+        [
+          567,
+          413
+        ],
+        [
+          584,
+          432
+        ],
+        [
+          598,
+          456
+        ]
+      ],
+      "nearest_visible_px": [
+        [
+          342,
+          448
+        ],
+        [
+          347,
+          423
+        ],
+        [
+          368,
+          406
+        ],
+        [
+          398,
+          390
+        ],
+        [
+          425,
+          385
+        ],
+        [
+          455,
+          383
+        ],
+        [
+          483,
+          383
+        ],
+        [
+          512,
+          383
+        ],
+        [
+          541,
+          397
+        ],
+        [
+          572,
+          403
+        ],
+        [
+          600,
+          425
+        ],
+        [
+          605,
+          453
+        ]
+      ],
+      "distance_px": [
+        2.23606797749979,
+        3.605551275463989,
+        2.8284271247461903,
+        7.615773105863909,
+        5.0,
+        3.0,
+        3.0,
+        6.0,
+        1.4142135623730951,
+        11.180339887498949,
+        17.46424919657298,
+        7.615773105863909
+      ],
+      "rms_px": 7.376765325443576,
+      "max_px": 17.46424919657298
+    },
+    {
+      "source_frame": 150,
+      "reference_px": [
+        [
+          488,
+          431
+        ],
+        [
+          499,
+          411
+        ],
+        [
+          519,
+          397
+        ],
+        [
+          541,
+          389
+        ],
+        [
+          564,
+          383
+        ],
+        [
+          587,
+          380
+        ],
+        [
+          610,
+          378
+        ],
+        [
+          633,
+          383
+        ],
+        [
+          653,
+          395
+        ],
+        [
+          669,
+          418
+        ],
+        [
+          681,
+          444
+        ],
+        [
+          688,
+          473
+        ]
+      ],
+      "nearest_visible_px": [
+        [
+          489,
+          431
+        ],
+        [
+          502,
+          414
+        ],
+        [
+          518,
+          398
+        ],
+        [
+          542,
+          390
+        ],
+        [
+          564,
+          381
+        ],
+        [
+          587,
+          379
+        ],
+        [
+          610,
+          377
+        ],
+        [
+          633,
+          377
+        ],
+        [
+          653,
+          391
+        ],
+        [
+          674,
+          417
+        ],
+        [
+          683,
+          444
+        ],
+        [
+          688,
+          473
+        ]
+      ],
+      "distance_px": [
+        1.0,
+        4.242640687119285,
+        1.4142135623730951,
+        1.4142135623730951,
+        2.0,
+        1.0,
+        1.0,
+        6.0,
+        4.0,
+        5.0990195135927845,
+        2.0,
+        0.0
+      ],
+      "rms_px": 3.0413812651491097,
+      "max_px": 6.0
+    }
+  ],
+  "rms_px": 5.937772550135518,
+  "max_px": 17.46424919657298,
+  "image_path": "cad/drone-concept/comparison/nozzle-depth-study/c/nozzle-fairing-check.png",
+  "image_sha256": "0c318a462a3f054264db3ab06b4c251874f68a745e1330af43e1e0e88bb753e2",
+  "limitations": [
+    "manual 35-point visible upper boundary; incomplete outer contour",
+    "occlusion boundary depends on neighbouring parts and fixed camera",
+    "closest-point distance permits correspondence ambiguity",
+    "not a fit result, manufacturing measurement or whole-model acceptance"
+  ]
+}

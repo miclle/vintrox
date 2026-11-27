@@ -1,0 +1,171 @@
+{
+  "parameter_names": [
+    "crown_radius_mm",
+    "crown_height_delta_mm",
+    "front_lift_mm"
+  ],
+  "parameters": [
+    25.35454088762539,
+    -0.9200853671067016,
+    2.999999829246543
+  ],
+  "parameter_bounds": [
+    [
+      10,
+      -6,
+      0
+    ],
+    [
+      28,
+      2,
+      3
+    ]
+  ],
+  "front_lift_bound_active": true,
+  "section_y_top_radius_mm": [
+    [
+      0,
+      233.3161976556883,
+      8.0
+    ],
+    [
+      15,
+      235.94127025473765,
+      8.0
+    ],
+    [
+      30,
+      242.51166620431127,
+      8.0
+    ],
+    [
+      40,
+      249.68483191604676,
+      8.0
+    ],
+    [
+      56.6,
+      261.3707178534075,
+      13.032816857411364
+    ],
+    [
+      70,
+      267.74033791938507,
+      18.846588054765867
+    ],
+    [
+      85,
+      268.5869545502519,
+      25.35454088762539
+    ],
+    [
+      106,
+      268.1279493040673,
+      25.35454088762539
+    ],
+    [
+      160,
+      268.0799158785693,
+      25.35454088762539
+    ],
+    [
+      178,
+      265.07991464162916,
+      25.35454088762539
+    ],
+    [
+      195,
+      257.342796166394,
+      22.462117406354494
+    ],
+    [
+      210,
+      249.73711846654115,
+      13.784846962541796
+    ],
+    [
+      220,
+      246.0,
+      8.0
+    ]
+  ],
+  "observations": [
+    {
+      "source_frame": 180,
+      "reference_px": [
+        [
+          203,
+          245
+        ],
+        [
+          220,
+          232
+        ],
+        [
+          241,
+          224
+        ],
+        [
+          261,
+          220
+        ],
+        [
+          281,
+          216
+        ]
+      ]
+    },
+    {
+      "source_frame": 270,
+      "reference_px": [
+        [
+          273,
+          226
+        ],
+        [
+          280,
+          219
+        ],
+        [
+          290,
+          213
+        ],
+        [
+          305,
+          210
+        ],
+        [
+          324,
+          208
+        ],
+        [
+          624,
+          208
+        ],
+        [
+          644,
+          210
+        ],
+        [
+          658,
+          215
+        ],
+        [
+          670,
+          225
+        ]
+      ]
+    }
+  ],
+  "proxy_distance_rms_px": 3.0683551926080255,
+  "proxy_max_distance_px": 7.37053501756079,
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "source_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "fit_script_sha256": "ef22e99a09ccdc64c7b7cf09ba7cbed9aed82c2f04a29e134aab70636a76042f",
+  "limitations": [
+    "longitudinal station family and fixed 201.6 mm width assumed",
+    "front lift constrained to preserve shallow instrument recess",
+    "proxy samples section contours; actual saved loft is checked separately",
+    "same manual points used for fitting; visible partial boundaries only"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "baseline": "v155-rear-belly-relief",
+  "baseline_fcstd_sha256": "8f954e8a5dd2d59046bf6144da75806d951d51151412597a5f398c917b2a3a6c",
+  "method": "real CAD tip-splice candidates from saved v155, fixed cameras and unchanged silhouette segmentation",
+  "baseline_metrics": {
+    "video": {
+      "views": 10,
+      "mean_silhouette_iou": 0.858758643294756
+    },
+    "stills": {
+      "views": 7,
+      "mean_silhouette_iou": 0.8248448363810101
+    },
+    "sheet": {
+      "views": 10,
+      "mean_silhouette_iou": 0.8963851709070614
+    }
+  },
+  "candidates": [
+    {
+      "label": "shift3",
+      "station_mm": 110,
+      "factor": 1.25,
+      "tip_radial_shift_per_17mm_mm": 3,
+      "fcstd_sha256": "c999541c1ba7c8711d9b18397f724e314bea599317fd83981bd69bc0b1f8faa0",
+      "new_advanced_check_failures": [],
+      "contact_regressions": [],
+      "metrics": {
+        "video": {
+          "views": 10,
+          "mean_silhouette_iou": 0.8588944520355035
+        },
+        "stills": {
+          "views": 7,
+          "mean_silhouette_iou": 0.8247458602680967
+        },
+        "sheet": {
+          "views": 10,
+          "mean_silhouette_iou": 0.8966869487076004
+        }
+      }
+    },
+    {
+      "label": "shift5n",
+      "station_mm": 110,
+      "factor": 1.15,
+      "tip_radial_shift_per_17mm_mm": 5,
+      "fcstd_sha256": "412eb95a02daab80bdaab179b27ec34d4a204d9bedc77c66796d048ada27c648",
+      "new_advanced_check_failures": [],
+      "contact_regressions": [],
+      "metrics": {
+        "video": {
+          "views": 10,
+          "mean_silhouette_iou": 0.8588818672451994
+        },
+        "stills": {
+          "views": 7,
+          "mean_silhouette_iou": 0.8247469459237059
+        },
+        "sheet": {
+          "views": 10,
+          "mean_silhouette_iou": 0.896577009531
+        }
+      }
+    }
+  ],
+  "decision": "retain v155",
+  "decision_basis": "Both candidates improve video and contact-sheet means but regress the independent static-seven-image mean. No candidate replaces v155.",
+  "held_out_observations": "The candidates were evaluated against the existing fixed-camera sets. Tip annotations were measured separately and were not used to alter the reference images or masks.",
+  "limitations": [
+    "Appearance-only CAD study",
+    "No physical or manufacturing acceptance"
+  ]
+}

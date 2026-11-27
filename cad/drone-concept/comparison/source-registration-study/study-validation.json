@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "fcstd_sha256": "1b5a6eb7a24675e55ed958128a843aabab6d43efa6cde13803be330cd8dc9fe1",
+  "fixed_camera_hashes_unchanged": true,
+  "png_count": 477,
+  "parsed_scripts": [
+    "drone_concept.py",
+    "drone_nozzle_root_profile.py",
+    "experiment_drone_nozzle_root.py",
+    "refine_drone_nozzle_root.py",
+    "measure_drone_root_profile.py",
+    "measure_drone_nozzle_root.py",
+    "measure_drone_nozzle_lip.py",
+    "verify_drone_delivery.py",
+    "fit_drone_root_five_views.py",
+    "study_drone_source_registration.py",
+    "study_drone_joint_root.py"
+  ],
+  "source_cache_hashes_passed": true,
+  "formal_board_source_hashes_passed": true,
+  "readme_links_passed": true,
+  "git_diff_check_passed": true,
+  "limitations": [
+    "Appearance comparison and static CAD only.",
+    "Manual observations are not independent validation; no manufacturing or physical acceptance."
+  ]
+}

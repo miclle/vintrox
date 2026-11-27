@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "scope": "v55 petal inset window appearance refinement; saved static appearance evidence only",
+  "fcstd_sha256": "e64613e11be81eb528a9d0863266a8ade031bf306e40eb9865d28601d57998eb",
+  "step_sha256": "4ec4e4a1f5d3262fcc2a2d435e0f5b4e3d9addb30f4ed67fd920837543eb4583",
+  "generator_sha256": "8f0244f393bc6d490a1997899657d46127c01d8ebaf29b001f968c2e89de290c",
+  "visible_features": 696,
+  "step_solids": 805,
+  "changed_objects": [
+    "NozzlePetalInset0",
+    "NozzlePetalInset1",
+    "NozzlePetalInset2",
+    "NozzlePetalInset3",
+    "NozzlePetalInset4",
+    "NozzlePetalInset5",
+    "NozzlePetalInset6",
+    "NozzlePetalInset7",
+    "NozzlePetalInset8",
+    "NozzlePetalInset9",
+    "NozzlePetalInset10",
+    "NozzlePetalInset11"
+  ],
+  "protected_supports_unchanged": true,
+  "petal_inset_window_degrees": [
+    4.4,
+    18.1
+  ],
+  "rear_cavity_shadow_preserved": true,
+  "readback_verification": "readback-verification.json",
+  "video_render_manifest": "comparison/iteration-90-renders/render-manifest.json",
+  "still_render_manifest": "comparison/stills-61-renders/render-manifest.json",
+  "video_comparison": "comparison/iteration-90/comparison-report.json",
+  "still_comparison": "comparison/stills-61/comparison-report.json",
+  "object_id_manifest": "comparison/object-ids-v56/object-id-manifest.json",
+  "contour_attribution": "comparison/object-ids-v56/contour-attribution.json",
+  "mean_video_iou": 0.8513413034906246,
+  "mean_stills_iou": 0.8204483420094447,
+  "baseline_video_iou": 0.8513408076378133,
+  "baseline_stills_iou": 0.8204490632797629,
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "physical_validation": false,
+  "limitations": [
+    "The inset window is an appearance fit; it does not select speaker hardware or establish a manufacturing gap.",
+    "The rear cavity dark edge remains an occlusion/shadow interpretation and is not modeled as a continuous nozzle tube.",
+    "Fixed-camera silhouette scores do not establish full surface identity, printability, assembly, acoustics or manufacturing acceptance."
+  ]
+}

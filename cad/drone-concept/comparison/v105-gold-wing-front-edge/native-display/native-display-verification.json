@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v105",
+      "model": "/private/tmp/vintrox-v105/final/candidate.FCStd",
+      "fcstd_sha256": "a542411b0dc9462c847ecff1ab60d3d018dc384763fae86812d60cc3bb8a8440",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "a542411b0dc9462c847ecff1ab60d3d018dc384763fae86812d60cc3bb8a8440",
+      "palette_contract_sha256": "6f02ba44ada7c3fb709c81d67866f9f0b4b55623367f98d0dc9a00c726b38607",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v105-isometric.png",
+          "sha256": "04a12f296dd969a57c42aaceaa68c393a24dc064aa37e8e3132b5e11dc2181e4"
+        },
+        {
+          "view": "front",
+          "path": "v105-front.png",
+          "sha256": "905aba51a7bfbe2b15ab6bd7b9b0eb5bb50db463d0dd2339a261e4ce2fcbbf0b"
+        },
+        {
+          "view": "rear",
+          "path": "v105-rear.png",
+          "sha256": "9a928650497402775deafa3ec0a1f16c8d7c954e4effa4c60790f65754f04ba1"
+        },
+        {
+          "view": "right",
+          "path": "v105-right.png",
+          "sha256": "76fe5395cad4606889a68250aac23bfde711efe47072108bddef0e5a97d2ee71"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

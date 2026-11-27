@@ -1,0 +1,72 @@
+{
+  "renderer": "Blender 5.1.1",
+  "method": "saved CAD tessellation; Cycles",
+  "renderer_script_sha256": "bf79f2d4a1ea54a97efcd8e4f1f23221bf8434c9eda69a67e3fbf6642c59db4b",
+  "compute_device": "METAL",
+  "mesh_validation_repairs": [],
+  "fcstd_sha256": "f27892986cd8605bab3dcbbfc0c725e0cfbb09bb7d79efdc9b296af6214a8b2c",
+  "cad_geometry_features": 696,
+  "render_only": [
+    "studio lighting",
+    "procedural enamel texture",
+    "surface lettering"
+  ],
+  "physical_validation": false,
+  "images": [
+    {
+      "view": "closeup",
+      "path": "closeup.png",
+      "sha256": "8d9e50c47073611ce2a608f8773e4c005ff08b506e21b94fdd70111a21ab509b"
+    },
+    {
+      "view": "hero",
+      "path": "hero.png",
+      "sha256": "93962b6fb9a933e777040292eb5f4d84b5187a646faaf965b2fa7ee801bfbf36"
+    },
+    {
+      "view": "rear",
+      "path": "rear.png",
+      "sha256": "ed01dfec725134d4879b9c90b5b622ef6423cbca76b1dc9fb32521a37d3a7e4a"
+    },
+    {
+      "view": "front",
+      "path": "front.png",
+      "sha256": "dd53dc3528f9a04385a3aa0bf8c3c6751420018e9f01b41a62b2dd79aa00f2ac"
+    },
+    {
+      "view": "right",
+      "path": "right.png",
+      "sha256": "53036d1fea43c02347a40f2caf0a2c45c95fd4b4f9e22138bf8fdfda412bf3eb"
+    },
+    {
+      "view": "armour-detail",
+      "path": "armour-detail.png",
+      "sha256": "ba9ef5905160a2f0e61156024557b67fddcb8644704056c5497d001f6d67e196"
+    },
+    {
+      "view": "nozzle-detail",
+      "path": "nozzle-detail.png",
+      "sha256": "3c61583d953b2708e959ce5c505384a3d8aa64b79aa4055caef33b9d867c14db"
+    },
+    {
+      "view": "top",
+      "path": "top.png",
+      "sha256": "e46b2c4e788b859df62d4df9b00d8e8138c3e5404963f4c7afa6e71525c1905f"
+    },
+    {
+      "view": "underside",
+      "path": "underside.png",
+      "sha256": "13ac4d5600813d671a06bf2c648e5ab24b5d553993ce49278edda1cd93f60945"
+    }
+  ],
+  "turntable": {
+    "path": "turntable.mp4",
+    "sha256": "ca4bfefe8d235fa6f28c85923459fc87343e0ecf65a0ae512dc3314d993f0e5c",
+    "duration_seconds": 12,
+    "unique_angles": 96
+  },
+  "review_board": {
+    "path": "orbit-board.png",
+    "sha256": "a9bfbfb4184418c1bc08dc32f8aa1eaa9d8c6bc09a09f746955c0c8085d9145c"
+  }
+}

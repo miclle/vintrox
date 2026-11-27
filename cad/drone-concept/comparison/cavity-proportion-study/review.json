@@ -1,0 +1,86 @@
+{
+  "formal_model_retained": "v34",
+  "baseline_fcstd_sha256": "45e97d81bd5025dedb19005a96258059c1795555af5e14cb8b159c950a528c98",
+  "baseline_light": 6.0878978309429606,
+  "candidates": [
+    {
+      "variant": "a",
+      "fcstd_sha256": "cc46077d2b3b1b542de40b9d3bf3bf8e119c79ae38cd2a1ae3237f009f0933cf",
+      "changed_objects": [
+        "RearServicePanel",
+        "RearRecessLiner",
+        "RearCyanFrame",
+        "RearLowerSlope"
+      ],
+      "light_rms_px": 3.473110997362451,
+      "light_max_px": 5.0,
+      "mean_silhouette_iou": 0.8439018562015554,
+      "status": "not adopted: narrower than needed on the outer luminous traces"
+    },
+    {
+      "variant": "b",
+      "fcstd_sha256": "565098890f00a69e967ec47a54984acc1b0382c62ddfd7a8ddd5fb0aae3cbcd4",
+      "changed_objects": [
+        "RearServicePanel",
+        "RearRecessLiner",
+        "RearCyanFrame",
+        "RearLowerSlope"
+      ],
+      "light_rms_px": 1.399404635312222,
+      "light_max_px": 2.5,
+      "mean_silhouette_iou": 0.8439018562015554,
+      "status": "preferred cavity width and height trial; continuous light remains unresolved"
+    },
+    {
+      "variant": "c",
+      "fcstd_sha256": "f7bc682ee00a9bffa5d0e4386b8510a72164a92508c06316b52cf12174171364",
+      "changed_objects": [
+        "RearServicePanel",
+        "RearRecessLiner",
+        "RearCyanFrame",
+        "RearLowerSlope"
+      ],
+      "light_rms_px": 5.9336610396393,
+      "light_max_px": 8.5,
+      "mean_silhouette_iou": 0.8439018562015554,
+      "status": "rejected: additional 6mm light recession worsens multi-view rail alignment"
+    },
+    {
+      "variant": "d",
+      "fcstd_sha256": "0485ff64eece2cbcc77b5b140d7deec684a356ae61921febb304fbf68b1a1e23",
+      "changed_objects": [
+        "RearServicePanel",
+        "RearRecessLiner",
+        "RearCyanFrame",
+        "RearLowerSlope"
+      ],
+      "light_rms_px": 11.331188522539607,
+      "light_max_px": 16.5,
+      "mean_silhouette_iou": 0.8439018562015554,
+      "status": "rejected: additional 12mm light recession worsens alignment and visibility"
+    },
+    {
+      "variant": "e",
+      "fcstd_sha256": "48bc9b4d36403143af454a26390b71bfa50f5120ece1b1a264ffb28f7e7c84bc",
+      "changed_objects": [
+        "RearServicePanel",
+        "RearRecessLiner",
+        "RearCyanFrame",
+        "RearLowerSlope"
+      ],
+      "light_rms_px": 1.399404635312222,
+      "light_max_px": 2.5,
+      "mean_silhouette_iou": 0.8439018562015554,
+      "status": "provisional split-emitter hypothesis; doubled strips and rounded terminations still need reconstruction"
+    }
+  ],
+  "independent_still_reviews": [
+    "b",
+    "e"
+  ],
+  "next_geometry": "Use B opening dimensions; distinguish doubled upper emitters and retaining clips from occluded lower sections before promoting a formal model",
+  "limitations": [
+    "E split bounds are a hypothesis, not proven source geometry",
+    "hidden nozzle/cavity intersections remain; see interference-check.json"
+  ]
+}

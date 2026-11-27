@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/miclle/github/miclle/vintrox/tools/experiment_drone_petal_axial.py", line 237, in <module>
+    main()
+  File "/Users/miclle/github/miclle/vintrox/tools/experiment_drone_petal_axial.py", line 153, in main
+    assert shape.isValid() and shape.isClosed(), name
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: NozzlePetal0

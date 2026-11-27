@@ -1,0 +1,41 @@
+{
+  "status": "archived evidence bindings passed; all three candidates rejected; formal v61 retained",
+  "formal_model_unchanged": {
+    "FCStd": "0c5a5e32c69519f8985493906ddc6b5d3f79ffa30cd8463e2604a433de831840",
+    "step": "3fb6a91e41fa93d54cebc51dafda55c9e6bc6f59d9babca759b930a7d8fe1c93"
+  },
+  "candidates": [
+    {
+      "name": "shoulder125",
+      "fcstd_sha256": "bee09bc0d22748bf5981c90c9352bba4797c69c16668c321ca054bba7f5e7954",
+      "protected_supports": 13,
+      "comparisons": [
+        "10 fixed video views",
+        "7 fixed still views"
+      ],
+      "adopted": false
+    },
+    {
+      "name": "shoulder110",
+      "fcstd_sha256": "35ea07b81ad3156298394f5f646a9054f62de6134538d10e1acccc7934c5ce3b",
+      "protected_supports": 13,
+      "comparisons": [
+        "10 fixed video views",
+        "7 fixed still views"
+      ],
+      "adopted": false
+    },
+    {
+      "name": "axial150-diagnostic",
+      "fcstd_sha256": "411fa93aeda6ece0364596be03e80a0f704af576236e4a4fe29c790078dd65ac",
+      "protected_supports": 13,
+      "new_advanced_check_failures": 26,
+      "contact_regressions": 0,
+      "comparisons": [
+        "10 fixed video views",
+        "7 fixed still views"
+      ],
+      "adopted": false
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "revision": "v58-nozzle-rear-candidate-review",
+  "baseline": {
+    "fcstd_sha256": "b8aec8226ad6d66ec37c3d37777844bc3c6e51b6cb4152076b632ed045331eb0",
+    "video_mean_silhouette_iou": 0.854474979006981,
+    "still_mean_silhouette_iou": 0.822163787411581
+  },
+  "camera_contract": {
+    "video": "comparison/cameras.json",
+    "stills": "comparison/stills-64/cameras.json",
+    "registration": "fixed camera projection; no image warp or per-part alignment"
+  },
+  "constraints": [
+    "four support shafts/sockets/feet unchanged",
+    "rear cavity remains recessed housing shadow, not a continuous nozzle tube wall",
+    "only real CAD candidates with closed single solids considered"
+  ],
+  "candidates": [
+    {
+      "candidate": "nozzle_depth_2mm",
+      "path": "cad/drone-concept/comparison/iteration-112-nozzle-depth2-candidate",
+      "candidate_fcstd_sha256": "946c947c1e2a7d78aeb77fca341edbb7922e0c5f909ab493219cc6a37c4fddcd",
+      "video_mean_silhouette_iou": 0.8547117005482576,
+      "still_mean_silhouette_iou": 0.8220926113614723,
+      "changed_objects": [
+        "BassNozzleShell",
+        "BassSideStripe0_0",
+        "BassSideStripe0_1",
+        "BassSideStripe0_2",
+        "BassSideStripe1_0",
+        "BassSideStripe1_1",
+        "BassSideStripe1_2",
+        "BassWarningPlaque",
+        "BassWarningRedBand",
+        "BassWarningTriangle",
+        "BassWarningTriangleInset"
+      ],
+      "entity_check": "passed",
+      "decision": "reject: no stable all-view gain"
+    },
+    {
+      "candidate": "nozzle_depth_3mm",
+      "path": "cad/drone-concept/comparison/iteration-112-nozzle-depth3-candidate",
+      "candidate_fcstd_sha256": "d36777f449aa100f563b05efd0a56c45e40c22f9c9c31718109ef8e2ac08bcb6",
+      "video_mean_silhouette_iou": 0.8547291822024281,
+      "still_mean_silhouette_iou": 0.8221132213737788,
+      "changed_objects": [
+        "BassNozzleShell",
+        "BassSideStripe0_0",
+        "BassSideStripe0_1",
+        "BassSideStripe0_2",
+        "BassSideStripe1_0",
+        "BassSideStripe1_1",
+        "BassSideStripe1_2",
+        "BassWarningPlaque",
+        "BassWarningRedBand",
+        "BassWarningTriangle",
+        "BassWarningTriangleInset"
+      ],
+      "entity_check": "passed",
+      "decision": "reject: no stable all-view gain"
+    },
+    {
+      "candidate": "nozzle_depth_4mm",
+      "path": "cad/drone-concept/comparison/iteration-112-nozzle-depth4-candidate",
+      "candidate_fcstd_sha256": "de3c02e0375a66994f101e2238a4d39d7e8783fde202fef980827b7dcef76a61",
+      "video_mean_silhouette_iou": 0.85471249251007,
+      "still_mean_silhouette_iou": 0.8221284025899145,
+      "changed_objects": [
+        "BassNozzleShell",
+        "BassSideStripe0_0",
+        "BassSideStripe0_1",
+        "BassSideStripe0_2",
+        "BassSideStripe1_0",
+        "BassSideStripe1_1",
+        "BassSideStripe1_2",
+        "BassWarningPlaque",
+        "BassWarningRedBand",
+        "BassWarningTriangle",
+        "BassWarningTriangleInset"
+      ],
+      "entity_check": "passed",
+      "decision": "reject: no stable all-view gain"
+    },
+    {
+      "candidate": "inner_cone_shrink_3mm",
+      "path": "cad/drone-concept/comparison/iteration-113-cone-shrink3-candidate",
+      "candidate_fcstd_sha256": "06a59701128111817bf0572f8e9b6fc7f0f5b5c919f11f78478753349c3d236b",
+      "video_mean_silhouette_iou": 0.8545249590518914,
+      "still_mean_silhouette_iou": 0.822129532097744,
+      "changed_objects": [
+        "BassVisualCone"
+      ],
+      "entity_check": "passed",
+      "decision": "reject: no stable all-view gain"
+    },
+    {
+      "candidate": "inner_cone_shrink_6mm",
+      "path": "cad/drone-concept/comparison/iteration-113-cone-shrink6-candidate",
+      "candidate_fcstd_sha256": "1fb075bef1f6392bd12ccc1f2fcb755ccf29641abdd09beb9b2499fd2c21235d",
+      "video_mean_silhouette_iou": 0.8545181672736473,
+      "still_mean_silhouette_iou": 0.8221373029542575,
+      "changed_objects": [
+        "BassVisualCone"
+      ],
+      "entity_check": "passed",
+      "decision": "reject: no stable all-view gain"
+    },
+    {
+      "candidate": "inner_cone_shrink_9mm",
+      "path": "cad/drone-concept/comparison/iteration-113-cone-shrink9-candidate",
+      "candidate_fcstd_sha256": "6a56ffdd1169a6c4c2a03b38d1eb847d9dc7d3759758c81c4d2403b984c2dcf8",
+      "video_mean_silhouette_iou": 0.8545085568982451,
+      "still_mean_silhouette_iou": 0.8221453177871503,
+      "changed_objects": [
+        "BassVisualCone"
+      ],
+      "entity_check": "passed",
+      "decision": "reject: no stable all-view gain"
+    },
+    {
+      "candidate": "rear_bow_exponent_1.5",
+      "path": "cad/drone-concept/comparison/iteration-111-rear-bow-e1.5-candidate",
+      "candidate_fcstd_sha256": "76f6244401f8205ea047df333a759991f8539959b85f9e2a7acaeb67b174a920",
+      "video_mean_silhouette_iou": 0.854452066264798,
+      "still_mean_silhouette_iou": 0.8221528870108087,
+      "changed_objects": [
+        "RearArmourCheekLeft",
+        "RearArmourCheekRight"
+      ],
+      "entity_check": "passed",
+      "decision": "reject: no stable all-view gain"
+    },
+    {
+      "candidate": "rear_bow_exponent_1.75",
+      "path": "cad/drone-concept/comparison/iteration-111-rear-bow-e1.75-candidate",
+      "candidate_fcstd_sha256": "0023b2cac51b70f146b0fa05508da8aa9821cfbad6b8e87ab14260dd95226ef2",
+      "video_mean_silhouette_iou": 0.8541096098484697,
+      "still_mean_silhouette_iou": null,
+      "changed_objects": [
+        "RearArmourCheekLeft",
+        "RearArmourCheekRight"
+      ],
+      "entity_check": "passed",
+      "decision": "reject: no stable all-view gain"
+    },
+    {
+      "candidate": "rear_bow_exponent_2.5",
+      "path": "cad/drone-concept/comparison/iteration-111-rear-bow-e2.5-candidate",
+      "candidate_fcstd_sha256": "8046c4f9e7f4e0afd8647771e04e782fb26223c576e888275f277dedf505ba60",
+      "video_mean_silhouette_iou": 0.853047153463856,
+      "still_mean_silhouette_iou": null,
+      "changed_objects": [
+        "RearArmourCheekLeft",
+        "RearArmourCheekRight"
+      ],
+      "entity_check": "passed",
+      "decision": "reject: no stable all-view gain"
+    },
+    {
+      "candidate": "rear_bow_exponent_3.5",
+      "path": "cad/drone-concept/comparison/iteration-111-rear-bow-e3.5-candidate",
+      "candidate_fcstd_sha256": "664743a1b6700e785eda3bc5856a8b696eaf439cb075851370b565f139d4f130",
+      "video_mean_silhouette_iou": 0.8520464560464951,
+      "still_mean_silhouette_iou": null,
+      "changed_objects": [
+        "RearArmourCheekLeft",
+        "RearArmourCheekRight"
+      ],
+      "entity_check": "passed",
+      "decision": "reject: no stable all-view gain"
+    },
+    {
+      "candidate": "nozzle_lip_a",
+      "path": "cad/drone-concept/comparison/iteration-109-nozzle-lip-a-candidate",
+      "candidate_fcstd_sha256": "af70a203b2bdaa477e2e8eed83ffd1706d98389e748f8f41a711055ceb7289cb",
+      "video_mean_silhouette_iou": 0.8544336535297757,
+      "still_mean_silhouette_iou": null,
+      "changed_objects": [
+        "BassNozzleRolledLip",
+        "BassSpeakerGasket"
+      ],
+      "entity_check": "passed",
+      "decision": "reject: no stable all-view gain"
+    },
+    {
+      "candidate": "nozzle_lip_b",
+      "path": "cad/drone-concept/comparison/iteration-109-nozzle-lip-b-candidate",
+      "candidate_fcstd_sha256": "6ba66b719b6e2f6f716529cb7d538593d8b7076fb171230cc938685331c9bd67",
+      "video_mean_silhouette_iou": 0.8544287790308575,
+      "still_mean_silhouette_iou": null,
+      "changed_objects": [
+        "BassNozzleRolledLip",
+        "BassSpeakerGasket"
+      ],
+      "entity_check": "passed",
+      "decision": "reject: no stable all-view gain"
+    },
+    {
+      "candidate": "nozzle_lip_c",
+      "path": "cad/drone-concept/comparison/iteration-109-nozzle-lip-c-candidate",
+      "candidate_fcstd_sha256": "b38b8805a7c56a7a5a4f46b014d9c9367a708ea2a330fbcf4eb28e5a390556ff",
+      "video_mean_silhouette_iou": 0.8543970748066693,
+      "still_mean_silhouette_iou": null,
+      "changed_objects": [
+        "BassNozzleRolledLip",
+        "BassSpeakerGasket",
+        "BassNozzleMouthRing"
+      ],
+      "entity_check": "passed",
+      "decision": "reject: no stable all-view gain"
+    },
+    {
+      "candidate": "recessed_inner_nozzle",
+      "path": "cad/drone-concept/comparison/iteration-110b-nozzle-interior-recessed-candidate",
+      "candidate_fcstd_sha256": "1fc551dc2a0ad1b22fe99b316b7ecbe55874aabdfdc06ffa6d03bc6badad3684",
+      "video_mean_silhouette_iou": 0.8544563026392547,
+      "still_mean_silhouette_iou": null,
+      "changed_objects": [
+        "BassInnerThroat",
+        "BassVisualCone",
+        "BassDustCap"
+      ],
+      "entity_check": "passed",
+      "decision": "reject: no stable all-view gain"
+    }
+  ],
+  "decision": "retain formal v58; all tested candidates rejected because gains were localized and at least one fixed view regressed",
+  "formal_model_unchanged": true,
+  "archive_note": "Historical mesh archive instructions were read before this study; current v58 mesh binding was already present, so no archived mesh was restored."
+}

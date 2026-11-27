@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v125",
+      "model": "/private/tmp/vintrox-v125.MCwVK9/candidate/candidate.FCStd",
+      "fcstd_sha256": "42b47497a3b681b98a728f84c525daabe73d76e264fe54741f796a9ef5a2a752",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "42b47497a3b681b98a728f84c525daabe73d76e264fe54741f796a9ef5a2a752",
+      "palette_contract_sha256": "5767e1b4389b054e33ad0e9eab134b6be0d380128f8da6824dd990069361e1ca",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v125-isometric.png",
+          "sha256": "74f96010e240be3bebb9f9517a2ad62603112ee5a9d32e9c8047b9245b5c7cc7"
+        },
+        {
+          "view": "front",
+          "path": "v125-front.png",
+          "sha256": "b12eeeedd967b0a95804cd0e2efa5bc0e8b3e66eb1e395342f489ad3dec17762"
+        },
+        {
+          "view": "rear",
+          "path": "v125-rear.png",
+          "sha256": "473213a19918206a2d434309313e0470aea2f87257fc8bb686c8ffc754e3beb3"
+        },
+        {
+          "view": "right",
+          "path": "v125-right.png",
+          "sha256": "2b26a3eb7ba34ea105af6e61acf2721da051cf5ff43c6fee2cb3c99f13e8b644"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

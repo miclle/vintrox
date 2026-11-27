@@ -1,0 +1,282 @@
+{
+  "status": "mouth detail research candidate; formal baseline unchanged",
+  "fcstd_sha256": "ed7175189e0827f9eee6851f97a91c8bf51d31cef157e98d7652caf817672508",
+  "whole_silhouette_iou": {
+    "video": 0.8555332009171318,
+    "stills": 0.8225961961828953
+  },
+  "whole_silhouette_equal_v69": true,
+  "changed_objects": [
+    "PixelMouth",
+    "PixelSmileHighlight"
+  ],
+  "mouth_iou_improves_all_three_thresholds_in_fit_and_two_held_out_views": true,
+  "mouth_observations": [
+    {
+      "view": "video-00",
+      "group": "mouth",
+      "roi_px": [
+        511,
+        443,
+        810,
+        623
+      ],
+      "used_for_fitting": false,
+      "thresholds": [
+        {
+          "green_threshold": 140,
+          "baseline": {
+            "iou": 0.5260402004391644,
+            "edge_mean_px": 5.71466633108262,
+            "edge_p95_px": 16.446820984663685
+          },
+          "candidate": {
+            "iou": 0.8146966779008185,
+            "edge_mean_px": 2.142019143514365,
+            "edge_p95_px": 8.246211251235321
+          }
+        },
+        {
+          "green_threshold": 160,
+          "baseline": {
+            "iou": 0.5012567324955116,
+            "edge_mean_px": 8.368891559807173,
+            "edge_p95_px": 27.00462804305315
+          },
+          "candidate": {
+            "iou": 0.8818516192697586,
+            "edge_mean_px": 3.248821931785139,
+            "edge_p95_px": 10.0
+          }
+        },
+        {
+          "green_threshold": 180,
+          "baseline": {
+            "iou": 0.5117061182253266,
+            "edge_mean_px": 8.602017872156773,
+            "edge_p95_px": 26.20289464991904
+          },
+          "candidate": {
+            "iou": 0.8763652061299374,
+            "edge_mean_px": 3.530555115944537,
+            "edge_p95_px": 10.0
+          }
+        }
+      ]
+    },
+    {
+      "view": "video-08",
+      "group": "mouth",
+      "roi_px": [
+        132,
+        444,
+        438,
+        624
+      ],
+      "used_for_fitting": false,
+      "thresholds": [
+        {
+          "green_threshold": 140,
+          "baseline": {
+            "iou": 0.5002443032914317,
+            "edge_mean_px": 8.333403984426372,
+            "edge_p95_px": 27.738455943867883
+          },
+          "candidate": {
+            "iou": 0.6349487088786699,
+            "edge_mean_px": 6.7058940434532195,
+            "edge_p95_px": 35.32983722898531
+          }
+        },
+        {
+          "green_threshold": 160,
+          "baseline": {
+            "iou": 0.5013229234439384,
+            "edge_mean_px": 8.710263722032215,
+            "edge_p95_px": 29.016374444239123
+          },
+          "candidate": {
+            "iou": 0.6329157667386609,
+            "edge_mean_px": 7.019811895364297,
+            "edge_p95_px": 34.36317671330533
+          }
+        },
+        {
+          "green_threshold": 180,
+          "baseline": {
+            "iou": 0.4989233954451346,
+            "edge_mean_px": 10.683007698285028,
+            "edge_p95_px": 32.0624390837628
+          },
+          "candidate": {
+            "iou": 0.6277118889210298,
+            "edge_mean_px": 8.55709512761173,
+            "edge_p95_px": 37.8549864614954
+          }
+        }
+      ]
+    },
+    {
+      "view": "video-09",
+      "group": "mouth",
+      "roi_px": [
+        279,
+        469,
+        668,
+        632
+      ],
+      "used_for_fitting": true,
+      "thresholds": [
+        {
+          "green_threshold": 140,
+          "baseline": {
+            "iou": 0.5623840053990214,
+            "edge_mean_px": 6.246881373202546,
+            "edge_p95_px": 18.110770276274835
+          },
+          "candidate": {
+            "iou": 0.93737383221445,
+            "edge_mean_px": 0.8405452094722596,
+            "edge_p95_px": 2.0
+          }
+        },
+        {
+          "green_threshold": 160,
+          "baseline": {
+            "iou": 0.5688334157192289,
+            "edge_mean_px": 6.419846952091013,
+            "edge_p95_px": 18.110770276274835
+          },
+          "candidate": {
+            "iou": 0.7095633247177254,
+            "edge_mean_px": 6.296602437310911,
+            "edge_p95_px": 39.01281840626232
+          }
+        },
+        {
+          "green_threshold": 180,
+          "baseline": {
+            "iou": 0.5251728185731055,
+            "edge_mean_px": 13.062916400320692,
+            "edge_p95_px": 33.06055050963308
+          },
+          "candidate": {
+            "iou": 0.9767394753722022,
+            "edge_mean_px": 4.205157431085792,
+            "edge_p95_px": 55.36150616932301
+          }
+        }
+      ]
+    }
+  ],
+  "eye_regressions": [
+    {
+      "view": "video-00",
+      "group": "right_eye",
+      "roi_px": [
+        684,
+        336,
+        756,
+        450
+      ],
+      "used_for_fitting": false,
+      "thresholds": [
+        {
+          "green_threshold": 140,
+          "baseline": {
+            "iou": 0.25109306683322924,
+            "edge_mean_px": 7.60712992673768,
+            "edge_p95_px": 12.0
+          },
+          "candidate": {
+            "iou": 0.250936329588015,
+            "edge_mean_px": 7.607353875472566,
+            "edge_p95_px": 12.0
+          }
+        },
+        {
+          "green_threshold": 160,
+          "baseline": {
+            "iou": 0.24734191382204812,
+            "edge_mean_px": 13.085781157386059,
+            "edge_p95_px": 30.103453162872775
+          },
+          "candidate": {
+            "iou": 0.24734191382204812,
+            "edge_mean_px": 13.085781157386059,
+            "edge_p95_px": 30.103453162872775
+          }
+        },
+        {
+          "green_threshold": 180,
+          "baseline": {
+            "iou": 0.1641193595342067,
+            "edge_mean_px": 13.7886520676804,
+            "edge_p95_px": 33.88432322088692
+          },
+          "candidate": {
+            "iou": 0.1641193595342067,
+            "edge_mean_px": 13.7886520676804,
+            "edge_p95_px": 33.88432322088692
+          }
+        }
+      ]
+    },
+    {
+      "view": "video-09",
+      "group": "right_eye",
+      "roi_px": [
+        509,
+        348,
+        587,
+        465
+      ],
+      "used_for_fitting": true,
+      "thresholds": [
+        {
+          "green_threshold": 140,
+          "baseline": {
+            "iou": 0.6957284961966061,
+            "edge_mean_px": 2.931128728049142,
+            "edge_p95_px": 6.0
+          },
+          "candidate": {
+            "iou": 0.6957284961966061,
+            "edge_mean_px": 2.931128728049142,
+            "edge_p95_px": 6.0
+          }
+        },
+        {
+          "green_threshold": 160,
+          "baseline": {
+            "iou": 0.5903846153846154,
+            "edge_mean_px": 11.19946532798998,
+            "edge_p95_px": 35.45122470699469
+          },
+          "candidate": {
+            "iou": 0.5899038461538462,
+            "edge_mean_px": 11.200337356542345,
+            "edge_p95_px": 35.45122470699469
+          }
+        },
+        {
+          "green_threshold": 180,
+          "baseline": {
+            "iou": 0.4362483311081442,
+            "edge_mean_px": 10.5928922199621,
+            "edge_p95_px": 34.87011880571108
+          },
+          "candidate": {
+            "iou": 0.43591455273698265,
+            "edge_mean_px": 10.599161350463067,
+            "edge_p95_px": 34.87011880571108
+          }
+        }
+      ]
+    }
+  ],
+  "unchanged_eye_mask_note": "unchanged BRep and mesh; tiny rendered mask IoU differences below 0.001 are retained",
+  "formal_baseline": "v61",
+  "outer_geometry_research_baseline": "v69",
+  "acceptance": "no 90 percent silhouette or complete main-part 5 percent contour acceptance; no native GUI visual or physical/manufacturing acceptance"
+}

@@ -1,0 +1,284 @@
+{
+  "status": "candidate only; fixed-camera review pending",
+  "baseline_fcstd_sha256": "475c208851231c3c98da53e59c62ad1a18de1bf969f6d0622db8e5f93b03b7e5",
+  "fcstd_sha256": "bf51be5da7929fb160f4a57701125f9becb3c5da6161789d45c0f6b9b7c1fa3f",
+  "leaf_candidate_sha256": "7234e308dbf95e79bb8e90b8618b6bab48a4bcf74092b43917b5538b3f6cb863",
+  "changed_objects": [
+    "NozzlePetal0",
+    "NozzlePetalInset0",
+    "NozzlePetalEdgeRail0_1",
+    "NozzlePetalEdgeRail0_20",
+    "NozzlePetalEndHem0",
+    "NozzlePetalRidge0",
+    "NozzlePetalGuide0_0",
+    "NozzlePetalGuide0_1",
+    "NozzlePetal1",
+    "NozzlePetalInset1",
+    "NozzlePetalEdgeRail1_24",
+    "NozzlePetalEdgeRail1_43",
+    "NozzlePetalEndHem1",
+    "NozzlePetalRidge1",
+    "NozzlePetalGuide1_0",
+    "NozzlePetalGuide1_1",
+    "NozzlePetal2",
+    "NozzlePetalInset2",
+    "NozzlePetalEdgeRail2_46",
+    "NozzlePetalEdgeRail2_65",
+    "NozzlePetalEndHem2",
+    "NozzlePetalRidge2",
+    "NozzlePetalGuide2_0",
+    "NozzlePetalGuide2_1",
+    "NozzlePetal3",
+    "NozzlePetalInset3",
+    "NozzlePetalEdgeRail3_69",
+    "NozzlePetalEdgeRail3_88",
+    "NozzlePetalEndHem3",
+    "NozzlePetalRidge3",
+    "NozzlePetalGuide3_0",
+    "NozzlePetalGuide3_1",
+    "NozzlePetal4",
+    "NozzlePetalInset4",
+    "NozzlePetalEdgeRail4_91",
+    "NozzlePetalEdgeRail4_110",
+    "NozzlePetalEndHem4",
+    "NozzlePetalRidge4",
+    "NozzlePetalGuide4_0",
+    "NozzlePetalGuide4_1",
+    "NozzlePetal5",
+    "NozzlePetalInset5",
+    "NozzlePetalEdgeRail5_114",
+    "NozzlePetalEdgeRail5_133",
+    "NozzlePetalEndHem5",
+    "NozzlePetalRidge5",
+    "NozzlePetalGuide5_0",
+    "NozzlePetalGuide5_1",
+    "NozzlePetal6",
+    "NozzlePetalInset6",
+    "NozzlePetalEdgeRail6_136",
+    "NozzlePetalEdgeRail6_155",
+    "NozzlePetalEndHem6",
+    "NozzlePetalRidge6",
+    "NozzlePetalGuide6_0",
+    "NozzlePetalGuide6_1",
+    "NozzlePetal7",
+    "NozzlePetalInset7",
+    "NozzlePetalEdgeRail7_159",
+    "NozzlePetalEdgeRail7_178",
+    "NozzlePetalEndHem7",
+    "NozzlePetalRidge7",
+    "NozzlePetalGuide7_0",
+    "NozzlePetalGuide7_1",
+    "NozzlePetal8",
+    "NozzlePetalInset8",
+    "NozzlePetalEdgeRail8_181",
+    "NozzlePetalEdgeRail8_200",
+    "NozzlePetalEndHem8",
+    "NozzlePetalRidge8",
+    "NozzlePetalGuide8_0",
+    "NozzlePetalGuide8_1",
+    "NozzlePetal9",
+    "NozzlePetalInset9",
+    "NozzlePetalEdgeRail9_204",
+    "NozzlePetalEdgeRail9_223",
+    "NozzlePetalEndHem9",
+    "NozzlePetalRidge9",
+    "NozzlePetalGuide9_0",
+    "NozzlePetalGuide9_1",
+    "NozzlePetal10",
+    "NozzlePetalInset10",
+    "NozzlePetalEdgeRail10_226",
+    "NozzlePetalEdgeRail10_245",
+    "NozzlePetalEndHem10",
+    "NozzlePetalRidge10",
+    "NozzlePetalGuide10_0",
+    "NozzlePetalGuide10_1",
+    "NozzlePetal11",
+    "NozzlePetalInset11",
+    "NozzlePetalEdgeRail11_249",
+    "NozzlePetalEdgeRail11_268",
+    "NozzlePetalEndHem11",
+    "NozzlePetalRidge11",
+    "NozzlePetalGuide11_0",
+    "NozzlePetalGuide11_1",
+    "BassInnerThroat",
+    "BassVisualCone"
+  ],
+  "unchanged_objects": 600,
+  "terminal_radial_inset_mm": 2.1,
+  "source_module_sha256": "1db93bf051eab7413212db83a7350142f0e6e327f601be6ea2de528972c0e1c0",
+  "script_sha256": "9158ff5b2acba583e508914a28c2a26a76c8e1bea39b0c6655420d44190d4fcc",
+  "zero_inset_inner_equivalence": [
+    {
+      "name": "BassInnerThroat",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "BassVisualCone",
+      "difference_mm3": 0.0
+    }
+  ],
+  "inner_clearances": [
+    {
+      "leaf": 0,
+      "part": "BassInnerThroat",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.501324018025929
+    },
+    {
+      "leaf": 0,
+      "part": "BassVisualCone",
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.137242436120888
+    },
+    {
+      "leaf": 1,
+      "part": "BassInnerThroat",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.533858049629896
+    },
+    {
+      "leaf": 1,
+      "part": "BassVisualCone",
+      "overlap_mm3": 0.0,
+      "gap_mm": 2.892127018198587
+    },
+    {
+      "leaf": 2,
+      "part": "BassInnerThroat",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.543114407403354
+    },
+    {
+      "leaf": 2,
+      "part": "BassVisualCone",
+      "overlap_mm3": 0.0,
+      "gap_mm": 2.857985724347977
+    },
+    {
+      "leaf": 3,
+      "part": "BassInnerThroat",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.5338580496298424
+    },
+    {
+      "leaf": 3,
+      "part": "BassVisualCone",
+      "overlap_mm3": 0.0,
+      "gap_mm": 2.892127018198616
+    },
+    {
+      "leaf": 4,
+      "part": "BassInnerThroat",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.501324018025945
+    },
+    {
+      "leaf": 4,
+      "part": "BassVisualCone",
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.1372424361208404
+    },
+    {
+      "leaf": 5,
+      "part": "BassInnerThroat",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.4579287577859124
+    },
+    {
+      "leaf": 5,
+      "part": "BassVisualCone",
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.629584071068097
+    },
+    {
+      "leaf": 6,
+      "part": "BassInnerThroat",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.4167016832558987
+    },
+    {
+      "leaf": 6,
+      "part": "BassVisualCone",
+      "overlap_mm3": 0.0,
+      "gap_mm": 4.291851821532444
+    },
+    {
+      "leaf": 7,
+      "part": "BassInnerThroat",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.3912319663411432
+    },
+    {
+      "leaf": 7,
+      "part": "BassVisualCone",
+      "overlap_mm3": 0.0,
+      "gap_mm": 4.924903894244423
+    },
+    {
+      "leaf": 8,
+      "part": "BassInnerThroat",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.3872714004330255
+    },
+    {
+      "leaf": 8,
+      "part": "BassVisualCone",
+      "overlap_mm3": 0.0,
+      "gap_mm": 5.30074172564487
+    },
+    {
+      "leaf": 9,
+      "part": "BassInnerThroat",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.3912319663412014
+    },
+    {
+      "leaf": 9,
+      "part": "BassVisualCone",
+      "overlap_mm3": 0.0,
+      "gap_mm": 4.9249038942443555
+    },
+    {
+      "leaf": 10,
+      "part": "BassInnerThroat",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.4167016832558939
+    },
+    {
+      "leaf": 10,
+      "part": "BassVisualCone",
+      "overlap_mm3": 0.0,
+      "gap_mm": 4.291851821532474
+    },
+    {
+      "leaf": 11,
+      "part": "BassInnerThroat",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.457928757786103
+    },
+    {
+      "leaf": 11,
+      "part": "BassVisualCone",
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.629584071068236
+    }
+  ],
+  "protected_shafts": [
+    {
+      "name": "SupportShaftFrontLeft",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "difference_mm3": 0.0
+    }
+  ]
+}

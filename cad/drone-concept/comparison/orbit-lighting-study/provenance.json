@@ -1,0 +1,38 @@
+{
+  "formal_files_unchanged_against_v53_checkpoint": [
+    {
+      "path": "cad/drone-concept/vintrox-drone-concept.FCStd",
+      "sha256": "aa3de1dc9dcea5a511dd01cfba77d394fdd4a178254d170eb1f1bc369c0389b4"
+    },
+    {
+      "path": "cad/drone-concept/vintrox-drone-concept.step",
+      "sha256": "87234c156cb62bdfde49bad9928ebddfa9a10faacdb6df3e665ac14d2961f992"
+    },
+    {
+      "path": "cad/drone-concept/concept-manifest.json",
+      "sha256": "70c22bad3001c3e20d05237a72d28568dd1557c2230cd893b247210d0e99cabd"
+    },
+    {
+      "path": "cad/drone-concept/readback-verification.json",
+      "sha256": "9492211e8aad79be3a466e502c47ff48655a370fdae8738c11fecf16fa315ff7"
+    },
+    {
+      "path": "cad/drone-concept/delivery-verification.json",
+      "sha256": "851c43f2ed25b0dd435b76c01507e31678925e6ee7e9fd9cd02529159afa9a9b"
+    }
+  ],
+  "render_meshes": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-belly-relief-cache/formal/render-meshes.json",
+  "render_meshes_sha256": "30de767209a76fd3b7cb2282ade73b7325541127e2229e0f99cedc3d61b009fa",
+  "frozen_renderer": {
+    "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-orbit-lighting-cache/render_drone_concept.py",
+    "sha256": "bf79f2d4a1ea54a97efcd8e4f1f23221bf8434c9eda69a67e3fbf6642c59db4b"
+  },
+  "frozen_camera_yaw_wrapper": {
+    "path": "cad/drone-concept/comparison/orbit-lighting-study/source-camera-yaw.py",
+    "sha256": "5b74480c49ccb04262451593b51d4a4ceb82a758ac550d71559402cd1bac626e"
+  },
+  "frozen_static_control_wrapper": {
+    "path": "cad/drone-concept/comparison/orbit-lighting-study/source-static-control.py",
+    "sha256": "e2f0ff1c3b8b17dcab6164224600da1cf6b207a9c484216f9f5435a5b8a62a86"
+  }
+}

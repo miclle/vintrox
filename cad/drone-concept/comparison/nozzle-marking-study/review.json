@@ -1,0 +1,153 @@
+{
+  "fcstd_sha256": "73e6670b87a9ba0c572181d64a359e6706133d9186e6edcf1cf6436c7c072b07",
+  "fixed_camera_metrics": {
+    "video": {
+      "baseline": 0.848792368372411,
+      "current": 0.8487989688455417,
+      "delta_percentage_points": 0.0006600473130724538,
+      "per_view": [
+        {
+          "view": "video-00",
+          "baseline": 0.8734462579322946,
+          "current": 0.8734462579322946,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-01",
+          "baseline": 0.8564925296066496,
+          "current": 0.8564925296066496,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-02",
+          "baseline": 0.8372823545592079,
+          "current": 0.8373410792581957,
+          "delta_percentage_points": 0.005872469898782207
+        },
+        {
+          "view": "video-03",
+          "baseline": 0.8198999225858568,
+          "current": 0.8198999225858568,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-04",
+          "baseline": 0.8186012125751403,
+          "current": 0.8186012125751403,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-05",
+          "baseline": 0.8045156946572499,
+          "current": 0.8045156946572499,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-06",
+          "baseline": 0.8249404601824871,
+          "current": 0.8249477402148058,
+          "delta_percentage_points": 0.0007280032318646157
+        },
+        {
+          "view": "video-07",
+          "baseline": 0.8788813080021994,
+          "current": 0.8788813080021994,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-08",
+          "baseline": 0.893606489195306,
+          "current": 0.893606489195306,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-09",
+          "baseline": 0.8802574544277193,
+          "current": 0.8802574544277193,
+          "delta_percentage_points": 0.0
+        }
+      ]
+    },
+    "stills": {
+      "baseline": 0.8196959945897255,
+      "current": 0.8197003691467375,
+      "delta_percentage_points": 0.0004374557011965763,
+      "per_view": [
+        {
+          "view": "still-01",
+          "baseline": 0.8650207256828119,
+          "current": 0.8650207256828119,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-02",
+          "baseline": 0.8671098682331476,
+          "current": 0.8671098682331476,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-03",
+          "baseline": 0.8487970010695631,
+          "current": 0.8487970010695631,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-04",
+          "baseline": 0.7805770802466708,
+          "current": 0.7805770802466708,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-05",
+          "baseline": 0.7710140186714759,
+          "current": 0.7710446405705591,
+          "delta_percentage_points": 0.003062189908320523
+        },
+        {
+          "view": "still-06",
+          "baseline": 0.7373516657900736,
+          "current": 0.7373516657900736,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-closeup",
+          "baseline": 0.8680016024343364,
+          "current": 0.8680016024343364,
+          "delta_percentage_points": 0.0
+        }
+      ]
+    }
+  },
+  "marking_metrics": {
+    "baseline": {
+      "triangle": {
+        "rms_px": 18.281745601069453,
+        "max_px": 24.186773244895647,
+        "count": 9
+      },
+      "plaque": {
+        "rms_px": 9.275962390009436,
+        "max_px": 15.0,
+        "count": 23
+      }
+    },
+    "current": {
+      "triangle": {
+        "rms_px": 4.384315479321969,
+        "max_px": 7.0,
+        "count": 9
+      },
+      "plaque": {
+        "rms_px": 1.1420804814403216,
+        "max_px": 3.0,
+        "count": 23
+      }
+    }
+  },
+  "selection": "candidate c: same four fitted CAD patches as a/b; corrected display text position, alert size and warning font size",
+  "limitations": [
+    "Boundary sample points are also fitting inputs, not independent evidence of full shape accuracy.",
+    "Text is a flat rendering annotation, absent from FCStd/STEP.",
+    "Nozzle, rear cavity and four shafts retained verbatim from v51."
+  ]
+}

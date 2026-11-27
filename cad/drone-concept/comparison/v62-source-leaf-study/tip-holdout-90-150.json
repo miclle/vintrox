@@ -1,0 +1,10 @@
+{
+  "status": "manual visible petal-end observations; not used to fit candidates",
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "nominal_manual_uncertainty_px": 3,
+  "views": [
+    {"source_frame": 90, "reference_px": [[250,600],[285,607],[325,617],[365,630],[400,650],[425,669]]},
+    {"source_frame": 150, "reference_px": [[655,605],[620,607],[585,614],[550,623],[510,641],[495,653]]}
+  ],
+  "limitations": ["compressed video and dark metal edges", "petal-end identity and visible thickness uncertainty", "sparse held-out views do not prove unique geometry"]
+}

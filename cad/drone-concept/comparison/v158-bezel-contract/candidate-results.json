@@ -1,0 +1,35 @@
+{
+  "baseline": "v155-rear-belly-relief",
+  "candidate": "screen-bezel-contract-0.5mm",
+  "metrics": {
+    "video": {
+      "baseline": 0.858758643294756,
+      "candidate": 0.8586400250146674,
+      "views": 10
+    },
+    "stills": {
+      "baseline": 0.8248448363810101,
+      "candidate": 0.8249150399256518,
+      "views": 7
+    },
+    "sheet": {
+      "baseline": 0.8963851709070614,
+      "candidate": 0.896280292876717,
+      "views": 10
+    }
+  },
+  "fcstd_sha256": "76b66c9a9921502d3a8ba03ab74c64bbcc85fe4259ad05930c9630b653c54637",
+  "step_sha256": "8e5f8965ea1f5a55f190e536cd63753e98abdcea21862cdc78b8650159988504",
+  "changed_objects": [
+    "BezelLip",
+    "ScreenBezel"
+  ],
+  "decision": "retain v155",
+  "reason": "Video and contact-sheet means regress. Static mean improves, so this is a tradeoff rather than a global improvement.",
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "limitations": [
+    "outer surround dimensions are an appearance hypothesis",
+    "measured flat screen retained; curved cover is only an appearance assumption",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}

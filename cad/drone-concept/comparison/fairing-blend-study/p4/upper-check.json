@@ -1,0 +1,405 @@
+{
+  "fcstd_sha256": "a5d7530b3e6c1360c4651ea8946aca1f75e4f291393dcf33fc68f5c45a9b540a",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "measurement_script_sha256": "cb285b82b3f457c4919d2a10fded1070a2a0e080d0587fa5a3addf7c27086163",
+  "object_id_manifest_sha256": "75f714ed911162d59a1bf3fafa4d6791f157af684e22430946448c788d6729de",
+  "source_files": [
+    {
+      "path": "cad/drone-concept/comparison/fairing-blend-study/p4/ids/video-03.png",
+      "sha256": "7c37937cd68dd9f155d841d58a5e549e974e813bb144135732524915371413de"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-blend-study/p4/video/reference-frames/frame-04.png",
+      "sha256": "0d8806db3363c684e6e42e641883d59705af1a938511637a2cbb9c88a116a82f"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-blend-study/p4/video-renders/video-03.png",
+      "sha256": "338c8a4e49286b38b23ffa207d12d1255175f2a31620effe7b99ca50843ef105"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-blend-study/p4/ids/video-04.png",
+      "sha256": "7e8fa4f64f263488cbd470f8a5f7578cc0b89de627ace55f38dba6eafb4a4dc5"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-blend-study/p4/video/reference-frames/frame-05.png",
+      "sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-blend-study/p4/video-renders/video-04.png",
+      "sha256": "20d2816c62d9367473896db3ae0fec2a2bc67bb07c95466ea8bd356bbc09dde5"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-blend-study/p4/ids/video-05.png",
+      "sha256": "61dc070b26ab816a5d1ad060962705de18f8123e78434a543c2d9df956a1e2f5"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-blend-study/p4/video/reference-frames/frame-06.png",
+      "sha256": "6163748cf00f271a738409696656ddd46ca93481e0bfab683b656e6e8a38a204"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-blend-study/p4/video-renders/video-05.png",
+      "sha256": "25cae73a407ee452c6f4de50822efa2197272ccb7fcad3edb909e7d896b0cb10"
+    }
+  ],
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "observations": [
+    {
+      "source_frame": 90,
+      "reference_px": [
+        [
+          297,
+          408
+        ],
+        [
+          312,
+          396
+        ],
+        [
+          331,
+          389
+        ],
+        [
+          351,
+          385
+        ],
+        [
+          372,
+          383
+        ],
+        [
+          394,
+          385
+        ],
+        [
+          416,
+          392
+        ],
+        [
+          435,
+          408
+        ],
+        [
+          449,
+          431
+        ],
+        [
+          458,
+          459
+        ],
+        [
+          464,
+          485
+        ]
+      ],
+      "nearest_visible_px": [
+        [
+          309,
+          416
+        ],
+        [
+          320,
+          403
+        ],
+        [
+          332,
+          391
+        ],
+        [
+          351,
+          379
+        ],
+        [
+          372,
+          381
+        ],
+        [
+          393,
+          385
+        ],
+        [
+          416,
+          392
+        ],
+        [
+          434,
+          405
+        ],
+        [
+          449,
+          425
+        ],
+        [
+          459,
+          459
+        ],
+        [
+          459,
+          485
+        ]
+      ],
+      "distance_px": [
+        14.422205101855956,
+        10.63014581273465,
+        2.23606797749979,
+        6.0,
+        2.0,
+        1.0,
+        0.0,
+        3.1622776601683795,
+        6.0,
+        1.0,
+        5.0
+      ],
+      "rms_px": 6.317364237487887,
+      "max_px": 14.422205101855956
+    },
+    {
+      "source_frame": 120,
+      "reference_px": [
+        [
+          340,
+          447
+        ],
+        [
+          350,
+          425
+        ],
+        [
+          370,
+          408
+        ],
+        [
+          395,
+          397
+        ],
+        [
+          425,
+          390
+        ],
+        [
+          455,
+          386
+        ],
+        [
+          483,
+          386
+        ],
+        [
+          512,
+          389
+        ],
+        [
+          542,
+          398
+        ],
+        [
+          567,
+          413
+        ],
+        [
+          584,
+          432
+        ],
+        [
+          598,
+          456
+        ]
+      ],
+      "nearest_visible_px": [
+        [
+          342,
+          448
+        ],
+        [
+          347,
+          423
+        ],
+        [
+          368,
+          406
+        ],
+        [
+          398,
+          390
+        ],
+        [
+          425,
+          385
+        ],
+        [
+          455,
+          383
+        ],
+        [
+          483,
+          383
+        ],
+        [
+          512,
+          383
+        ],
+        [
+          541,
+          397
+        ],
+        [
+          572,
+          403
+        ],
+        [
+          600,
+          425
+        ],
+        [
+          605,
+          453
+        ]
+      ],
+      "distance_px": [
+        2.23606797749979,
+        3.605551275463989,
+        2.8284271247461903,
+        7.615773105863909,
+        5.0,
+        3.0,
+        3.0,
+        6.0,
+        1.4142135623730951,
+        11.180339887498949,
+        17.46424919657298,
+        7.615773105863909
+      ],
+      "rms_px": 7.376765325443576,
+      "max_px": 17.46424919657298
+    },
+    {
+      "source_frame": 150,
+      "reference_px": [
+        [
+          488,
+          431
+        ],
+        [
+          499,
+          411
+        ],
+        [
+          519,
+          397
+        ],
+        [
+          541,
+          389
+        ],
+        [
+          564,
+          383
+        ],
+        [
+          587,
+          380
+        ],
+        [
+          610,
+          378
+        ],
+        [
+          633,
+          383
+        ],
+        [
+          653,
+          395
+        ],
+        [
+          669,
+          418
+        ],
+        [
+          681,
+          444
+        ],
+        [
+          688,
+          473
+        ]
+      ],
+      "nearest_visible_px": [
+        [
+          489,
+          431
+        ],
+        [
+          502,
+          414
+        ],
+        [
+          518,
+          398
+        ],
+        [
+          542,
+          390
+        ],
+        [
+          564,
+          381
+        ],
+        [
+          587,
+          379
+        ],
+        [
+          610,
+          377
+        ],
+        [
+          633,
+          377
+        ],
+        [
+          653,
+          391
+        ],
+        [
+          673,
+          415
+        ],
+        [
+          682,
+          444
+        ],
+        [
+          686,
+          473
+        ]
+      ],
+      "distance_px": [
+        1.0,
+        4.242640687119285,
+        1.4142135623730951,
+        1.4142135623730951,
+        2.0,
+        1.0,
+        1.0,
+        6.0,
+        4.0,
+        5.0,
+        1.0,
+        2.0
+      ],
+      "rms_px": 3.0413812651491097,
+      "max_px": 6.0
+    }
+  ],
+  "rms_px": 5.862715119415967,
+  "max_px": 17.46424919657298,
+  "image_path": "cad/drone-concept/comparison/fairing-blend-study/p4/upper-check.png",
+  "image_sha256": "7cd1248a2fe6bee59cb235ec358fb56f5eae453deb347e9c6465014c0ce0d14c",
+  "limitations": [
+    "manual 35-point visible upper boundary; incomplete outer contour",
+    "occlusion boundary depends on neighbouring parts and fixed camera",
+    "closest-point distance permits correspondence ambiguity",
+    "not a fit result, manufacturing measurement or whole-model acceptance"
+  ]
+}

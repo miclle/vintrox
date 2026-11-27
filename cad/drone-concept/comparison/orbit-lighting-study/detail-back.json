@@ -1,0 +1,31 @@
+{
+  "fcstd_sha256": "aa3de1dc9dcea5a511dd01cfba77d394fdd4a178254d170eb1f1bc369c0389b4",
+  "prior_fcstd_sha256": "aa3de1dc9dcea5a511dd01cfba77d394fdd4a178254d170eb1f1bc369c0389b4",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "view_index": 4,
+  "crop_xyxy": [
+    230,
+    270,
+    710,
+    700
+  ],
+  "display_scale": 1,
+  "spatial_transformation": "identical pixel crop; optional common integer enlargement for display only",
+  "source_files": [
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/video/reference-frames/frame-05.png",
+      "sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87-renders/video-04.png",
+      "sha256": "73d30a062b967c3f0b6389695662a9c018f718f7c2b39b6b2f0cc16cda4b3d19"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/video-renders/video-04.png",
+      "sha256": "49594573c40d35e9001cd224b81e087361f34c69eeaab8714fa834bc0f6b8b81"
+    }
+  ],
+  "image_path": "cad/drone-concept/comparison/orbit-lighting-study/detail-back.png",
+  "image_sha256": "b195f0638ea7747ccb2e03f831f79567564d675a3b2b2bf0718fd0f5ee18005a",
+  "interpretation": "Identical v53 geometry and cameras; studio lighting hypothesis only."
+}

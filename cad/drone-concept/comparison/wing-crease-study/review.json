@@ -1,0 +1,316 @@
+{
+  "fcstd_sha256": "d03080846462cd5b8318f6dea254456fe77ece6cda06349ba698ea010086d591",
+  "baseline_fcstd_sha256": "5534f124a394523e711ca6508d23d57754275f9be3ac0d45ec4e359a7a355cc0",
+  "selected": "b",
+  "candidates": [
+    {
+      "candidate": "a",
+      "fcstd_sha256": "4a91c9c4daeda567262ac202792a3e732a231f80bbf9dad9e707802f2d4d271a",
+      "comparisons": [
+        {
+          "group": "video",
+          "baseline_mean_iou": 0.8484236466639168,
+          "candidate_mean_iou": 0.8485317852989492,
+          "views": [
+            {
+              "view": "video-00",
+              "baseline_iou": 0.8734462579322946,
+              "candidate_iou": 0.8734462579322946,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-01",
+              "baseline_iou": 0.8554437506968446,
+              "candidate_iou": 0.8554437506968446,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-02",
+              "baseline_iou": 0.8376149942932578,
+              "candidate_iou": 0.8376149942932578,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-03",
+              "baseline_iou": 0.819057038865555,
+              "candidate_iou": 0.8190626427232507,
+              "delta_percentage_points": 0.000560385769565741
+            },
+            {
+              "view": "video-04",
+              "baseline_iou": 0.8177114935257742,
+              "candidate_iou": 0.8187668633247699,
+              "delta_percentage_points": 0.10553697989956756
+            },
+            {
+              "view": "video-05",
+              "baseline_iou": 0.8039326978185211,
+              "candidate_iou": 0.8039326978185211,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-06",
+              "baseline_iou": 0.8251796327508205,
+              "candidate_iou": 0.8251796327508205,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-07",
+              "baseline_iou": 0.8779943118931869,
+              "candidate_iou": 0.8779943118931869,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-08",
+              "baseline_iou": 0.8935988344351935,
+              "candidate_iou": 0.893619247128827,
+              "delta_percentage_points": 0.002041269363350917
+            },
+            {
+              "view": "video-09",
+              "baseline_iou": 0.8802574544277193,
+              "candidate_iou": 0.8802574544277193,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        },
+        {
+          "group": "stills",
+          "baseline_mean_iou": 0.8194408597662175,
+          "candidate_mean_iou": 0.8194412306272232,
+          "views": [
+            {
+              "view": "still-01",
+              "baseline_iou": 0.8650207256828119,
+              "candidate_iou": 0.8650207256828119,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-02",
+              "baseline_iou": 0.8671098682331476,
+              "candidate_iou": 0.8671098682331476,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-03",
+              "baseline_iou": 0.8487970010695631,
+              "candidate_iou": 0.8487995970966034,
+              "delta_percentage_points": 0.00025960270402247687
+            },
+            {
+              "view": "still-04",
+              "baseline_iou": 0.7805294806579615,
+              "candidate_iou": 0.7805294806579615,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-05",
+              "baseline_iou": 0.7693838471875765,
+              "candidate_iou": 0.7693838471875765,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-06",
+              "baseline_iou": 0.7372434930981249,
+              "candidate_iou": 0.7372434930981249,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-closeup",
+              "baseline_iou": 0.8680016024343364,
+              "candidate_iou": 0.8680016024343364,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate": "b",
+      "fcstd_sha256": "a5425d5aa3eaa5b4bc2b8511caee4b69661be90cac95214311f6844f6999b227",
+      "comparisons": [
+        {
+          "group": "video",
+          "baseline_mean_iou": 0.8484236466639168,
+          "candidate_mean_iou": 0.8484931564112387,
+          "views": [
+            {
+              "view": "video-00",
+              "baseline_iou": 0.8734462579322946,
+              "candidate_iou": 0.8734462579322946,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-01",
+              "baseline_iou": 0.8554437506968446,
+              "candidate_iou": 0.8554437506968446,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-02",
+              "baseline_iou": 0.8376149942932578,
+              "candidate_iou": 0.8376149942932578,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-03",
+              "baseline_iou": 0.819057038865555,
+              "candidate_iou": 0.819057038865555,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-04",
+              "baseline_iou": 0.8177114935257742,
+              "candidate_iou": 0.8183989362388815,
+              "delta_percentage_points": 0.0687442713107278
+            },
+            {
+              "view": "video-05",
+              "baseline_iou": 0.8039326978185211,
+              "candidate_iou": 0.8039326978185211,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-06",
+              "baseline_iou": 0.8251796327508205,
+              "candidate_iou": 0.8251796327508205,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-07",
+              "baseline_iou": 0.8779943118931869,
+              "candidate_iou": 0.8779943118931869,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-08",
+              "baseline_iou": 0.8935988344351935,
+              "candidate_iou": 0.893606489195306,
+              "delta_percentage_points": 0.0007654760112552061
+            },
+            {
+              "view": "video-09",
+              "baseline_iou": 0.8802574544277193,
+              "candidate_iou": 0.8802574544277193,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        },
+        {
+          "group": "stills",
+          "baseline_mean_iou": 0.8194408597662175,
+          "candidate_mean_iou": 0.8194408597662175,
+          "views": [
+            {
+              "view": "still-01",
+              "baseline_iou": 0.8650207256828119,
+              "candidate_iou": 0.8650207256828119,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-02",
+              "baseline_iou": 0.8671098682331476,
+              "candidate_iou": 0.8671098682331476,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-03",
+              "baseline_iou": 0.8487970010695631,
+              "candidate_iou": 0.8487970010695631,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-04",
+              "baseline_iou": 0.7805294806579615,
+              "candidate_iou": 0.7805294806579615,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-05",
+              "baseline_iou": 0.7693838471875765,
+              "candidate_iou": 0.7693838471875765,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-06",
+              "baseline_iou": 0.7372434930981249,
+              "candidate_iou": 0.7372434930981249,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-closeup",
+              "baseline_iou": 0.8680016024343364,
+              "candidate_iou": 0.8680016024343364,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selection_reason": "B improves crease samples in both gold-side views while preserving seven-image silhouette scores; no whole-wing pose change.",
+  "changed_objects": [
+    "WingRaisedFaceRight",
+    "WingPaintRight",
+    "WingFoldFacetRight"
+  ],
+  "projection_change_note": "New raised surfaces change 213 alpha-mask pixels in video 4s and 3 pixels in video 8s; do not claim all projected edges are identical.",
+  "observation_board": {
+    "path": "crease-observations.png",
+    "sha256": "3793802af1c5dbcd0e689e91ee8ab76b70c3c6019931359f4f0380896e10852c",
+    "sources": [
+      {
+        "path": "cad/drone-concept/comparison/iteration-76/reference-frames/frame-07.png",
+        "sha256": "ed7cdc03298e1c8106e1213c9b147088086735663711979ebff9799bbbb2f920"
+      },
+      {
+        "path": "cad/drone-concept/comparison/iteration-76/reference-frames/frame-08.png",
+        "sha256": "22b11545e68835cb3a3b05f29332f96210cc0f875e91fdc7436910599374ba60"
+      }
+    ]
+  },
+  "cache_files": [
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-wing-crease-cache/a-meshes.json",
+      "sha256": "e965a13f0ee9f61d3432903f9901db2af153078fe99f3dda3195d3af72779217"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-wing-crease-cache/b-meshes.json",
+      "sha256": "de636e8299a98f1158e74c6436769fa40fc2ba7e22a0e592b33e4df0c567359d"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-wing-crease-cache/fit-shared.py",
+      "sha256": "32d49aca3ed79f2f0029ddfd6efbd1ea6a6aa4ba7ec9731313c792f468a7913a"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-wing-crease-cache/fit-gold.py",
+      "sha256": "772063603de9793939910b628994dc1cfd24e719677c237f2f880c3745c0ccb4"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-wing-crease-cache/fit-joint.py",
+      "sha256": "2c8b9a04912e44fc33f7d9d546118526602cad1e4bda1ad31544f6ec4efa167d"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-wing-crease-cache/build-a.py",
+      "sha256": "08c52e5f7da84fff736d95f65ba4396afb06057241a55cda660753d0f58f0475"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-wing-crease-cache/build-b.py",
+      "sha256": "439e62afa3e59e7e8865d7e1714d25cd9965849b9a0353fe9e31b815443b394b"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-wing-crease-cache/baseline-v42-source.py",
+      "sha256": "de88d74bfbfac9c2d12bf55282d3b13a38b0f94e1571f68cc9b324073ab8c24d"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-wing-crease-cache/baseline-v42.FCStd",
+      "sha256": "5534f124a394523e711ca6508d23d57754275f9be3ac0d45ec4e359a7a355cc0"
+    }
+  ],
+  "limitations": [
+    "manual crease traces and unknown reference lighting",
+    "three changed parts pass advanced checks; other inherited wing errors remain",
+    "seven-image mean includes a wireframe image",
+    "visual target not achieved"
+  ]
+}

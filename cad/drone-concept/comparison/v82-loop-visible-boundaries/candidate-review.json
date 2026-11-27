@@ -1,0 +1,135 @@
+{
+  "fcstd_sha256": "b89fe301c432af58e80518b950e062a9100d73908d31e159e77c97c58bd1aa79",
+  "baseline_fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+  "script_sha256": "6c4c0ced277cec61c0d821ac6a22d9c3eec2b77a0ce2fe4c7f55170c5715b325",
+  "comparisons": {
+    "video": {
+      "baseline_report_sha256": "c7d3bfb996410069bbaf259d6c5e48e11e62f47426f5d698db26ed3177524abe",
+      "candidate_report_sha256": "edb9107fc2611f0da9a8d784ba20a62063f7a1fc43cb70c3449276b1d0e4c3e7",
+      "baseline_mean_iou": 0.8555332009171318,
+      "candidate_mean_iou": 0.8530447222420214,
+      "delta_mean_iou": -0.0024884786751103727,
+      "views": [
+        {
+          "view": "video-00",
+          "baseline_iou": 0.8737248836985229,
+          "candidate_iou": 0.872823442919806,
+          "delta_iou": -0.0009014407787168999
+        },
+        {
+          "view": "video-01",
+          "baseline_iou": 0.8607734837783811,
+          "candidate_iou": 0.8618032879180273,
+          "delta_iou": 0.001029804139646151
+        },
+        {
+          "view": "video-02",
+          "baseline_iou": 0.847902666681625,
+          "candidate_iou": 0.8464108475635965,
+          "delta_iou": -0.0014918191180284257
+        },
+        {
+          "view": "video-03",
+          "baseline_iou": 0.8313541368451188,
+          "candidate_iou": 0.8268719885772148,
+          "delta_iou": -0.004482148267904051
+        },
+        {
+          "view": "video-04",
+          "baseline_iou": 0.8280701984625631,
+          "candidate_iou": 0.8237216380201728,
+          "delta_iou": -0.004348560442390292
+        },
+        {
+          "view": "video-05",
+          "baseline_iou": 0.8151927854193574,
+          "candidate_iou": 0.8120488562830674,
+          "delta_iou": -0.0031439291362899136
+        },
+        {
+          "view": "video-06",
+          "baseline_iou": 0.838026392255248,
+          "candidate_iou": 0.8330118738226838,
+          "delta_iou": -0.0050145184325641745
+        },
+        {
+          "view": "video-07",
+          "baseline_iou": 0.8853494673334831,
+          "candidate_iou": 0.8819024700969637,
+          "delta_iou": -0.0034469972365194224
+        },
+        {
+          "view": "video-08",
+          "baseline_iou": 0.8944945926754635,
+          "candidate_iou": 0.8929521954602003,
+          "delta_iou": -0.0015423972152631693
+        },
+        {
+          "view": "video-09",
+          "baseline_iou": 0.8804434020215558,
+          "candidate_iou": 0.8789006217584813,
+          "delta_iou": -0.001542780263074528
+        }
+      ]
+    },
+    "stills": {
+      "baseline_report_sha256": "f5f1c325706a62ae3d0b09c5c94686c1cf7794cfed8bc46ac1b1721fa44163c7",
+      "candidate_report_sha256": "1fdeed69fc7630c0a4e6674318659c83a379c53181f62a06ddc210dcb21963f6",
+      "baseline_mean_iou": 0.8225961961828953,
+      "candidate_mean_iou": 0.8202925993112834,
+      "delta_mean_iou": -0.002303596871611857,
+      "views": [
+        {
+          "view": "still-01",
+          "baseline_iou": 0.8652161858748563,
+          "candidate_iou": 0.8640327395805922,
+          "delta_iou": -0.0011834462942640345
+        },
+        {
+          "view": "still-02",
+          "baseline_iou": 0.8696146654586812,
+          "candidate_iou": 0.8664472422828657,
+          "delta_iou": -0.0031674231758154203
+        },
+        {
+          "view": "still-03",
+          "baseline_iou": 0.8487768274887965,
+          "candidate_iou": 0.8487092722724489,
+          "delta_iou": -6.755521634760342e-05
+        },
+        {
+          "view": "still-04",
+          "baseline_iou": 0.7835964989444053,
+          "candidate_iou": 0.7803661294170955,
+          "delta_iou": -0.0032303695273098176
+        },
+        {
+          "view": "still-05",
+          "baseline_iou": 0.7795997095795026,
+          "candidate_iou": 0.7767019891201616,
+          "delta_iou": -0.002897720459341002
+        },
+        {
+          "view": "still-06",
+          "baseline_iou": 0.7408007242503304,
+          "candidate_iou": 0.7381795364914975,
+          "delta_iou": -0.0026211877588329102
+        },
+        {
+          "view": "still-closeup",
+          "baseline_iou": 0.8705687616836939,
+          "candidate_iou": 0.8676112860143227,
+          "delta_iou": -0.0029574756693712123
+        }
+      ]
+    }
+  },
+  "image_alignment": "original fixed cameras; identical rectangular crops; no image warp",
+  "adoption": "not adopted: observed visible edges improve but side maxima exceed 5 percent and both whole IoU means regress",
+  "limitations": [
+    "crop board is illustrative; original full-view metrics remain authoritative",
+    "manual centreline observations do not prove full-part contour accuracy",
+    "formal v61 and preferred exterior study v69 remain unchanged",
+    "90 percent IoU and complete major-part 5 percent targets remain incomplete"
+  ]
+}

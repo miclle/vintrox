@@ -1,0 +1,512 @@
+{
+  "fcstd_sha256": "aa3de1dc9dcea5a511dd01cfba77d394fdd4a178254d170eb1f1bc369c0389b4",
+  "measurement_script_sha256": "cce3fe51b468757df134379accc9acd447b24552b82cbb93aac9dc021286e09b",
+  "groups": {
+    "rear_gold": [
+      "RearStructuralFrame",
+      "RearServicePanel",
+      "RearArmourCheekLeft",
+      "RearArmourCheekRight"
+    ],
+    "nozzle_shell": [
+      "BassNozzleShell"
+    ],
+    "nozzle_petals": [
+      "NozzlePetal0",
+      "NozzlePetal1",
+      "NozzlePetal2",
+      "NozzlePetal3",
+      "NozzlePetal4",
+      "NozzlePetal5",
+      "NozzlePetal6",
+      "NozzlePetal7",
+      "NozzlePetal8",
+      "NozzlePetal9",
+      "NozzlePetal10",
+      "NozzlePetal11"
+    ]
+  },
+  "interior_erosion_pixels": 3,
+  "rows": [
+    {
+      "view": "video-01",
+      "group": "rear_gold",
+      "interior_pixels": 5023,
+      "baseline_rgb_mae_8bit": 43.00132722808414,
+      "camera_yaw_rgb_mae_8bit": 88.69281305992435,
+      "delta_8bit": 45.691485831840204
+    },
+    {
+      "view": "video-02",
+      "group": "rear_gold",
+      "interior_pixels": 14299,
+      "baseline_rgb_mae_8bit": 28.142923747581417,
+      "camera_yaw_rgb_mae_8bit": 88.55034151572372,
+      "delta_8bit": 60.407417768142295
+    },
+    {
+      "view": "video-02",
+      "group": "nozzle_shell",
+      "interior_pixels": 11187,
+      "baseline_rgb_mae_8bit": 51.55895235541253,
+      "camera_yaw_rgb_mae_8bit": 50.59423139954114,
+      "delta_8bit": -0.9647209558713925
+    },
+    {
+      "view": "video-03",
+      "group": "rear_gold",
+      "interior_pixels": 32412,
+      "baseline_rgb_mae_8bit": 37.96785141305689,
+      "camera_yaw_rgb_mae_8bit": 67.14409272285985,
+      "delta_8bit": 29.17624130980296
+    },
+    {
+      "view": "video-03",
+      "group": "nozzle_shell",
+      "interior_pixels": 23635,
+      "baseline_rgb_mae_8bit": 45.122262181792536,
+      "camera_yaw_rgb_mae_8bit": 50.28486002397574,
+      "delta_8bit": 5.162597842183203
+    },
+    {
+      "view": "video-03",
+      "group": "nozzle_petals",
+      "interior_pixels": 3208,
+      "baseline_rgb_mae_8bit": 6.613154613466334,
+      "camera_yaw_rgb_mae_8bit": 13.254364089775562,
+      "delta_8bit": 6.6412094763092275
+    },
+    {
+      "view": "video-04",
+      "group": "rear_gold",
+      "interior_pixels": 42014,
+      "baseline_rgb_mae_8bit": 42.27484489297218,
+      "camera_yaw_rgb_mae_8bit": 49.24107043683851,
+      "delta_8bit": 6.966225543866329
+    },
+    {
+      "view": "video-04",
+      "group": "nozzle_shell",
+      "interior_pixels": 29417,
+      "baseline_rgb_mae_8bit": 40.04994844251057,
+      "camera_yaw_rgb_mae_8bit": 46.842913961314885,
+      "delta_8bit": 6.792965518804316
+    },
+    {
+      "view": "video-04",
+      "group": "nozzle_petals",
+      "interior_pixels": 3338,
+      "baseline_rgb_mae_8bit": 7.579688436189335,
+      "camera_yaw_rgb_mae_8bit": 13.675454363890553,
+      "delta_8bit": 6.095765927701218
+    },
+    {
+      "view": "video-05",
+      "group": "rear_gold",
+      "interior_pixels": 32624,
+      "baseline_rgb_mae_8bit": 34.743798021906166,
+      "camera_yaw_rgb_mae_8bit": 51.66717753800883,
+      "delta_8bit": 16.923379516102663
+    },
+    {
+      "view": "video-05",
+      "group": "nozzle_shell",
+      "interior_pixels": 23110,
+      "baseline_rgb_mae_8bit": 48.47031588057118,
+      "camera_yaw_rgb_mae_8bit": 54.375580556757534,
+      "delta_8bit": 5.905264676186356
+    },
+    {
+      "view": "video-05",
+      "group": "nozzle_petals",
+      "interior_pixels": 3127,
+      "baseline_rgb_mae_8bit": 9.750346444941904,
+      "camera_yaw_rgb_mae_8bit": 16.398891376185908,
+      "delta_8bit": 6.648544931244004
+    },
+    {
+      "view": "video-06",
+      "group": "rear_gold",
+      "interior_pixels": 16762,
+      "baseline_rgb_mae_8bit": 41.376367179731936,
+      "camera_yaw_rgb_mae_8bit": 77.48218191942091,
+      "delta_8bit": 36.105814739688974
+    },
+    {
+      "view": "video-06",
+      "group": "nozzle_shell",
+      "interior_pixels": 10700,
+      "baseline_rgb_mae_8bit": 37.92940809968847,
+      "camera_yaw_rgb_mae_8bit": 43.05507788161994,
+      "delta_8bit": 5.125669781931464
+    },
+    {
+      "view": "video-07",
+      "group": "rear_gold",
+      "interior_pixels": 5806,
+      "baseline_rgb_mae_8bit": 36.5144103800666,
+      "camera_yaw_rgb_mae_8bit": 43.408657710414516,
+      "delta_8bit": 6.894247330347916
+    }
+  ],
+  "aggregate_by_group": [
+    {
+      "group": "rear_gold",
+      "pixels": 148940,
+      "baseline_rgb_mae_8bit": 38.03005013204423,
+      "camera_yaw_rgb_mae_8bit": 61.723855243722305
+    },
+    {
+      "group": "nozzle_shell",
+      "pixels": 98049,
+      "baseline_rgb_mae_8bit": 44.339031164689764,
+      "camera_yaw_rgb_mae_8bit": 49.46269042349573
+    },
+    {
+      "group": "nozzle_petals",
+      "pixels": 9673,
+      "baseline_rgb_mae_8bit": 7.960853234088012,
+      "camera_yaw_rgb_mae_8bit": 14.416210069264965
+    }
+  ],
+  "static_identity_control": [
+    {
+      "view": "video-00.png",
+      "max_rgba_delta_8bit": 1.0,
+      "mean_rgba_delta_8bit": 2.4268617021276597e-05,
+      "changed_pixels": 73
+    },
+    {
+      "view": "video-01.png",
+      "max_rgba_delta_8bit": 1.0,
+      "mean_rgba_delta_8bit": 2.4268617021276597e-05,
+      "changed_pixels": 73
+    },
+    {
+      "view": "video-02.png",
+      "max_rgba_delta_8bit": 1.0,
+      "mean_rgba_delta_8bit": 4.122340425531915e-05,
+      "changed_pixels": 122
+    },
+    {
+      "view": "video-03.png",
+      "max_rgba_delta_8bit": 1.0,
+      "mean_rgba_delta_8bit": 4.089095744680851e-05,
+      "changed_pixels": 122
+    },
+    {
+      "view": "video-04.png",
+      "max_rgba_delta_8bit": 1.0,
+      "mean_rgba_delta_8bit": 2.69281914893617e-05,
+      "changed_pixels": 81
+    },
+    {
+      "view": "video-05.png",
+      "max_rgba_delta_8bit": 1.0,
+      "mean_rgba_delta_8bit": 3.756648936170213e-05,
+      "changed_pixels": 113
+    },
+    {
+      "view": "video-06.png",
+      "max_rgba_delta_8bit": 1.0,
+      "mean_rgba_delta_8bit": 2.526595744680851e-05,
+      "changed_pixels": 76
+    },
+    {
+      "view": "video-07.png",
+      "max_rgba_delta_8bit": 1.0,
+      "mean_rgba_delta_8bit": 3.4574468085106386e-05,
+      "changed_pixels": 102
+    },
+    {
+      "view": "video-08.png",
+      "max_rgba_delta_8bit": 1.0,
+      "mean_rgba_delta_8bit": 2.0611702127659575e-05,
+      "changed_pixels": 62
+    },
+    {
+      "view": "video-09.png",
+      "max_rgba_delta_8bit": 1.0,
+      "mean_rgba_delta_8bit": 2.1276595744680852e-05,
+      "changed_pixels": 64
+    }
+  ],
+  "native_alpha_comparisons": [
+    {
+      "view": "video-00.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "video-01.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "video-02.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "video-03.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "video-04.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "video-05.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "video-06.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "video-07.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "video-08.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "video-09.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "still-01.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "still-02.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "still-03.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "still-04.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "still-05.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "still-06.png",
+      "alpha_exactly_equal": true
+    },
+    {
+      "view": "still-closeup.png",
+      "alpha_exactly_equal": true
+    }
+  ],
+  "source_files": [
+    {
+      "path": "cad/drone-concept/comparison/iteration-87/reference-frames/frame-01.png",
+      "sha256": "3b6f1297cc533fcadc218477331fcde56d424140156c7b78b96a9728c6792079"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87-renders/video-00.png",
+      "sha256": "de5f25fcd8b8f5bad8b0a9307f8bdfbf4e3689b0a0b3b780ad361eeb6d8dd19e"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/video-renders/video-00.png",
+      "sha256": "a450ee7490a8ea69176182959a832698b5db29a36b15a6f41f79b8ad50be66ee"
+    },
+    {
+      "path": "cad/drone-concept/comparison/object-ids-v53/video-00.png",
+      "sha256": "d6c429fb3d6896e6fd5daff57b1403346a252667e8d9ecacfb673ce6288e71b3"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/static-control-renders/video-00.png",
+      "sha256": "9be20b561b3f6237c00c6cbdf5c71dd42708a24ba3953663f82adaa07d6d2bc5"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87/reference-frames/frame-02.png",
+      "sha256": "cd0f688ee3fc7b921a5573cb352e327bf4a11c1490edc03d4213b69ba2d4c3df"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87-renders/video-01.png",
+      "sha256": "0cbf8ed4b46d0bab82ad889baad029326551e60b890cf564bc22d6b70a9e847a"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/video-renders/video-01.png",
+      "sha256": "5598e16a7da0cf31f5ecd894b1a3bbfaa7b9b40bb99852a3f70fb4aa7732a4f5"
+    },
+    {
+      "path": "cad/drone-concept/comparison/object-ids-v53/video-01.png",
+      "sha256": "869cb7846b6041c3b08ae6536a1b25c45b3a4273a394c2da2ef2f0304289fdee"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/static-control-renders/video-01.png",
+      "sha256": "144474baac917d0ffe3bc2935b22706db08f3806a4dfe820be949a160b6d4cde"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87/reference-frames/frame-03.png",
+      "sha256": "465dccf34ad81f07df9a1e4f0d48fbe1b55ec606a538f01dcf4da7f21c31004b"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87-renders/video-02.png",
+      "sha256": "f273544c29ef0c8fc25f1396e980c1084ceb25f2bdcc19de30af1d9939a672be"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/video-renders/video-02.png",
+      "sha256": "800cfb86bfc94d28a6dac5f322c36ab08f75a3bedbfe75ad8e67f4ee3621962e"
+    },
+    {
+      "path": "cad/drone-concept/comparison/object-ids-v53/video-02.png",
+      "sha256": "95fe2fea4a4e2cbb6e472cc9729b452d71f353b7b87412ec8b58641c68325daf"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/static-control-renders/video-02.png",
+      "sha256": "b478de9807a82957dc23bc52b25bc80866915c87a4eec2854f3ebf61e2064fb1"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87/reference-frames/frame-04.png",
+      "sha256": "0d8806db3363c684e6e42e641883d59705af1a938511637a2cbb9c88a116a82f"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87-renders/video-03.png",
+      "sha256": "91e9127090a6fd70ff70ffb0d4e3f0044904c48060a013b00c3d0ff807bd7900"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/video-renders/video-03.png",
+      "sha256": "fa0a03f55e05fe4c2361d188ae77c715c721faed32c2b518f6a8c98ed8ab1fda"
+    },
+    {
+      "path": "cad/drone-concept/comparison/object-ids-v53/video-03.png",
+      "sha256": "5038e99232d7742b99fc8bd970ca0b31ed94e21f6df21dcbdc629a540c25013d"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/static-control-renders/video-03.png",
+      "sha256": "e4c15906276c6b4916d1816f72b53d7cf286ab10c10118ea8e25d0ec9ed2a929"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87/reference-frames/frame-05.png",
+      "sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87-renders/video-04.png",
+      "sha256": "73d30a062b967c3f0b6389695662a9c018f718f7c2b39b6b2f0cc16cda4b3d19"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/video-renders/video-04.png",
+      "sha256": "49594573c40d35e9001cd224b81e087361f34c69eeaab8714fa834bc0f6b8b81"
+    },
+    {
+      "path": "cad/drone-concept/comparison/object-ids-v53/video-04.png",
+      "sha256": "d7fddaf12f940e5355ef4e97f7b3446cdaa0c1b194be6f3853208e6053948f83"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/static-control-renders/video-04.png",
+      "sha256": "ed9871b1c8360f33ffe934cf91b738b86b8fb0aa5681dc283cf1ad30f6976382"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87/reference-frames/frame-06.png",
+      "sha256": "6163748cf00f271a738409696656ddd46ca93481e0bfab683b656e6e8a38a204"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87-renders/video-05.png",
+      "sha256": "f8c71cb319f2a633a52aae18898cba7f47ac75b90a04e2fc31a09ef9bfa833e7"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/video-renders/video-05.png",
+      "sha256": "01d9f3d90864bef1da6a431f0df759b6e60b5ed24cb50c74eff4d3a1cfa62f18"
+    },
+    {
+      "path": "cad/drone-concept/comparison/object-ids-v53/video-05.png",
+      "sha256": "ec1ad1ce142e07914924d3f797a0e1f9c6922259bd005b7fb5e97c167f6b9f86"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/static-control-renders/video-05.png",
+      "sha256": "e0308a6f28a1f9d5e12319570d650abe50a6de9e7aeef4a6aa91cab1e176d4fd"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87/reference-frames/frame-07.png",
+      "sha256": "ed7cdc03298e1c8106e1213c9b147088086735663711979ebff9799bbbb2f920"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87-renders/video-06.png",
+      "sha256": "c4450f0557dddb516c0ff1c5e75a3c8be58ab6dbe1474487caa2c3a10b0d5b7e"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/video-renders/video-06.png",
+      "sha256": "cfaa2f6819d7f728a49cd6b3ced2c84e0fb8fc55173b1c6bb59007a3960adc5c"
+    },
+    {
+      "path": "cad/drone-concept/comparison/object-ids-v53/video-06.png",
+      "sha256": "7a92d9bb6f4ee37a1aada013fc0db44b38b9262f31543347fe6863d2323f679f"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/static-control-renders/video-06.png",
+      "sha256": "f463bba7846ab940ca818b49e47d83c9f698d9e6c5a16339b8fb7809b09ddee3"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87/reference-frames/frame-08.png",
+      "sha256": "22b11545e68835cb3a3b05f29332f96210cc0f875e91fdc7436910599374ba60"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87-renders/video-07.png",
+      "sha256": "a759d087c50eae1c5c8744a25cff9ce264d8bae5b5a1a23d5c1acc3e7a915346"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/video-renders/video-07.png",
+      "sha256": "33169574fa840b95752350ae80eda248302475addf926ab8037198ac65c39257"
+    },
+    {
+      "path": "cad/drone-concept/comparison/object-ids-v53/video-07.png",
+      "sha256": "5572b4e006b7ae524056f7b36b476bcf839c34c9356419e057dd2394a3ce984b"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/static-control-renders/video-07.png",
+      "sha256": "220776bf84487c0cecb23fea2fd4f1b98e3392f789245937bfb7f82c8bfd9632"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87/reference-frames/frame-09.png",
+      "sha256": "96d3a27e39ea354c442d24517b96209ad54b4a2c760f23ff320ddeb4918d2082"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87-renders/video-08.png",
+      "sha256": "7f238c27dca892a90af24c5d821932b1f1f6f3444f14532b58862c46783cd7d4"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/video-renders/video-08.png",
+      "sha256": "1a2eafbdf57e5f4a39921332be1d9ec172a07225e97c9850fe80dc6701a31edb"
+    },
+    {
+      "path": "cad/drone-concept/comparison/object-ids-v53/video-08.png",
+      "sha256": "d20b5fc7e7c19267bbeab88e917f865367c8f8847b8830f3cb03dd8adfee77e5"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/static-control-renders/video-08.png",
+      "sha256": "b53d58e4b5955d9cd9aaab15e33d8dff801c802de290f229e20f8c37c317379b"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87/reference-frames/frame-10.png",
+      "sha256": "886cda009f6287fa068ee0117c4b01c364351008641c5cbcd99eb5c88483dc55"
+    },
+    {
+      "path": "cad/drone-concept/comparison/iteration-87-renders/video-09.png",
+      "sha256": "256ca21df504c14f1e81cc60a94a5d284392742f1bd9f0d095516b17b2eb9a27"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/video-renders/video-09.png",
+      "sha256": "0111a7cd1e963731e37353e7a83648b0b9a307612668772beaf94e26e65127e8"
+    },
+    {
+      "path": "cad/drone-concept/comparison/object-ids-v53/video-09.png",
+      "sha256": "44d5aa6efc89cc0de502b78aa4421505e3303d73d5a19679df598f21e879ca22"
+    },
+    {
+      "path": "cad/drone-concept/comparison/orbit-lighting-study/static-control-renders/video-09.png",
+      "sha256": "43c6ab4e36605c162db57c6bf0c77be51ab5decf873cc99b490de877f45960ff"
+    }
+  ],
+  "limitations": [
+    "Same-pixel RGB MAE is a lighting/material diagnostic; shape mismatch and reference texture remain confounders.",
+    "No source brightness filtering or image registration; only 3px CAD-part boundary erosion.",
+    "Source studio arrangement is unknown. Camera-yaw rig remains a hypothesis.",
+    "Native alpha and all 17 silhouette scores remain unchanged."
+  ]
+}

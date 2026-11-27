@@ -1,0 +1,166 @@
+{
+  "method": "saved BRep common volume between each named cavity part and BassNozzleShell",
+  "results": [
+    {
+      "variant": "baseline",
+      "fcstd_sha256": "45e97d81bd5025dedb19005a96258059c1795555af5e14cb8b159c950a528c98",
+      "parts": [
+        {
+          "name": "RearRecessLiner",
+          "shell_overlap_mm3": 5743.760018890756,
+          "solids": 1
+        },
+        {
+          "name": "RearCyanFrame",
+          "shell_overlap_mm3": 77.17916629646132,
+          "solids": 1
+        },
+        {
+          "name": "RearServicePanel",
+          "shell_overlap_mm3": 8820.788528229323,
+          "solids": 1
+        },
+        {
+          "name": "RearLowerSlope",
+          "shell_overlap_mm3": 985.6354852834643,
+          "solids": 1
+        }
+      ]
+    },
+    {
+      "variant": "a",
+      "fcstd_sha256": "cc46077d2b3b1b542de40b9d3bf3bf8e119c79ae38cd2a1ae3237f009f0933cf",
+      "parts": [
+        {
+          "name": "RearRecessLiner",
+          "shell_overlap_mm3": 5635.82946026134,
+          "solids": 1
+        },
+        {
+          "name": "RearCyanFrame",
+          "shell_overlap_mm3": 108.6219645099124,
+          "solids": 1
+        },
+        {
+          "name": "RearServicePanel",
+          "shell_overlap_mm3": 5538.531580222625,
+          "solids": 1
+        },
+        {
+          "name": "RearLowerSlope",
+          "shell_overlap_mm3": 506.5312791765582,
+          "solids": 1
+        }
+      ]
+    },
+    {
+      "variant": "b",
+      "fcstd_sha256": "565098890f00a69e967ec47a54984acc1b0382c62ddfd7a8ddd5fb0aae3cbcd4",
+      "parts": [
+        {
+          "name": "RearRecessLiner",
+          "shell_overlap_mm3": 5677.150016264561,
+          "solids": 1
+        },
+        {
+          "name": "RearCyanFrame",
+          "shell_overlap_mm3": 98.94534247863643,
+          "solids": 1
+        },
+        {
+          "name": "RearServicePanel",
+          "shell_overlap_mm3": 5839.999330457049,
+          "solids": 1
+        },
+        {
+          "name": "RearLowerSlope",
+          "shell_overlap_mm3": 503.9947926747286,
+          "solids": 1
+        }
+      ]
+    },
+    {
+      "variant": "c",
+      "fcstd_sha256": "f7bc682ee00a9bffa5d0e4386b8510a72164a92508c06316b52cf12174171364",
+      "parts": [
+        {
+          "name": "RearRecessLiner",
+          "shell_overlap_mm3": 5685.693273920944,
+          "solids": 1
+        },
+        {
+          "name": "RearCyanFrame",
+          "shell_overlap_mm3": 90.05881428728563,
+          "solids": 1
+        },
+        {
+          "name": "RearServicePanel",
+          "shell_overlap_mm3": 5839.999330457049,
+          "solids": 1
+        },
+        {
+          "name": "RearLowerSlope",
+          "shell_overlap_mm3": 503.9947926747286,
+          "solids": 1
+        }
+      ]
+    },
+    {
+      "variant": "d",
+      "fcstd_sha256": "0485ff64eece2cbcc77b5b140d7deec684a356ae61921febb304fbf68b1a1e23",
+      "parts": [
+        {
+          "name": "RearRecessLiner",
+          "shell_overlap_mm3": 5688.957975335024,
+          "solids": 1
+        },
+        {
+          "name": "RearCyanFrame",
+          "shell_overlap_mm3": 121.49547475769005,
+          "solids": 1
+        },
+        {
+          "name": "RearServicePanel",
+          "shell_overlap_mm3": 5839.999330457049,
+          "solids": 1
+        },
+        {
+          "name": "RearLowerSlope",
+          "shell_overlap_mm3": 503.9947926747286,
+          "solids": 1
+        }
+      ]
+    },
+    {
+      "variant": "e",
+      "fcstd_sha256": "48bc9b4d36403143af454a26390b71bfa50f5120ece1b1a264ffb28f7e7c84bc",
+      "parts": [
+        {
+          "name": "RearRecessLiner",
+          "shell_overlap_mm3": 5677.150016264561,
+          "solids": 1
+        },
+        {
+          "name": "RearCyanFrame",
+          "shell_overlap_mm3": 98.94532131931075,
+          "solids": 2
+        },
+        {
+          "name": "RearServicePanel",
+          "shell_overlap_mm3": 5839.999330457049,
+          "solids": 1
+        },
+        {
+          "name": "RearLowerSlope",
+          "shell_overlap_mm3": 503.9947926747286,
+          "solids": 1
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "includes hidden intersections; volume alone does not identify a visible artifact",
+    "appearance candidates; not assembly clearance acceptance"
+  ],
+  "measurement_script_sha256": "a1d1e00478e6452438306da73c4d00515ef1b3e61f6652f94cd89b09c716b657"
+}

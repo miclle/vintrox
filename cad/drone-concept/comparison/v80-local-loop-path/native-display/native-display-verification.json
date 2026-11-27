@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v80",
+      "model": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/v80-local-loop-path/candidate.FCStd",
+      "fcstd_sha256": "61745edd952e850f195959724c82209f5fc0ed3fdf1582f726222dd73d66ab77",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "61745edd952e850f195959724c82209f5fc0ed3fdf1582f726222dd73d66ab77",
+      "palette_contract_sha256": "86b1a82a7b5e760fc2df30faba586570a338d9323dbece5a8f08ec11dd6fc788",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v80-isometric.png",
+          "sha256": "25488f7827c4ec7f29b387cb691b05a5dd30fec73cb7ec692d166b7f1a683685"
+        },
+        {
+          "view": "front",
+          "path": "v80-front.png",
+          "sha256": "f8fa1243fce21b36b4616f1608cb27bf060ac5665857167aeac8eb7613405505"
+        },
+        {
+          "view": "rear",
+          "path": "v80-rear.png",
+          "sha256": "4a1c4bb6e69751de45217ebe450064262e44eb0bac232245bba37a95a6441ca3"
+        },
+        {
+          "view": "right",
+          "path": "v80-right.png",
+          "sha256": "bca16b242e917d0ea5502d151283f9aa0f0d5288275b8e7c6510c664b31163a1"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

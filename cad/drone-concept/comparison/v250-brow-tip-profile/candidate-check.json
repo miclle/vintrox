@@ -1,0 +1,142 @@
+{
+  "baseline_fcstd_sha256": "09d253ae6f2424396d9fc44ed1015316ceaf36c21d7b77bee16a1d1bf8e9577a",
+  "fcstd_sha256": "19174e53be3267dbf0da56fed4e75783fb1ec076985ad3925c7a1f3c97cc66cd",
+  "script_sha256": "b5b89f3cd55e0fc1e27203cbfa9f0b49a26b8f566b8b5cf4ff6981925fcdd0e7",
+  "radius_mm": 8.0,
+  "cover_front": true,
+  "changed_objects": [
+    "ProjectingBrow",
+    "HoodEdge",
+    "BrowUnderside"
+  ],
+  "geometry": {
+    "ProjectingBrow": {
+      "removed_volume_mm3": 415.93607276442344,
+      "advanced_errors": [
+        "Error in Edge: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0",
+        "Error in Face: BOPAlgo GeomAbs_C0"
+      ],
+      "contacts": [
+        {
+          "object": "HoodEdge",
+          "baseline_gap_mm": 0.0,
+          "candidate_gap_mm": 0.0,
+          "baseline_overlap_mm3": 38.96165409420622,
+          "candidate_overlap_mm3": 36.39056887780537
+        },
+        {
+          "object": "BrowUnderside",
+          "baseline_gap_mm": 0.0,
+          "candidate_gap_mm": 0.0,
+          "baseline_overlap_mm3": 16832.669741662874,
+          "candidate_overlap_mm3": 16805.006183529786
+        },
+        {
+          "object": "ScreenBezel",
+          "baseline_gap_mm": 0.4662500000000023,
+          "candidate_gap_mm": 0.4662500000000023,
+          "baseline_overlap_mm3": 0.0,
+          "candidate_overlap_mm3": 0.0
+        },
+        {
+          "object": "HoodShoulderPlateLeft",
+          "baseline_gap_mm": 0.0,
+          "candidate_gap_mm": 0.0,
+          "baseline_overlap_mm3": 5459.732412871825,
+          "candidate_overlap_mm3": 5447.848425877561
+        },
+        {
+          "object": "HoodShoulderPlateRight",
+          "baseline_gap_mm": 0.0,
+          "candidate_gap_mm": 0.0,
+          "baseline_overlap_mm3": 5459.7341711128665,
+          "candidate_overlap_mm3": 5447.850165829692
+        }
+      ]
+    },
+    "HoodEdge": {
+      "removed_volume_mm3": 11.039245277762575,
+      "advanced_errors": [],
+      "contacts": [
+        {
+          "object": "ProjectingBrow",
+          "baseline_gap_mm": 0.0,
+          "candidate_gap_mm": 0.0,
+          "baseline_overlap_mm3": 38.96166640485402,
+          "candidate_overlap_mm3": 36.39056719952529
+        },
+        {
+          "object": "BrowUnderside",
+          "baseline_gap_mm": 4.507227364483878,
+          "candidate_gap_mm": 4.507227364483878,
+          "baseline_overlap_mm3": 0.0,
+          "candidate_overlap_mm3": 0.0
+        },
+        {
+          "object": "ScreenBezel",
+          "baseline_gap_mm": 25.322808956163293,
+          "candidate_gap_mm": 26.810820110229525,
+          "baseline_overlap_mm3": 0.0,
+          "candidate_overlap_mm3": 0.0
+        },
+        {
+          "object": "HoodShoulderPlateLeft",
+          "baseline_gap_mm": 0.8946028816882418,
+          "candidate_gap_mm": 0.8946028816882418,
+          "baseline_overlap_mm3": 0.0,
+          "candidate_overlap_mm3": 0.0
+        },
+        {
+          "object": "HoodShoulderPlateRight",
+          "baseline_gap_mm": 0.8946028817029017,
+          "candidate_gap_mm": 0.8946028817029017,
+          "baseline_overlap_mm3": 0.0,
+          "candidate_overlap_mm3": 0.0
+        }
+      ]
+    },
+    "BrowUnderside": {
+      "removed_volume_mm3": 88.52531645220733,
+      "advanced_errors": [],
+      "contacts": [
+        {
+          "object": "ProjectingBrow",
+          "baseline_gap_mm": 0.0,
+          "candidate_gap_mm": 0.0,
+          "baseline_overlap_mm3": 16832.669732304188,
+          "candidate_overlap_mm3": 16805.00632273532
+        },
+        {
+          "object": "HoodEdge",
+          "baseline_gap_mm": 4.507227364483878,
+          "candidate_gap_mm": 4.507227364483878,
+          "baseline_overlap_mm3": 0.0,
+          "candidate_overlap_mm3": 0.0
+        },
+        {
+          "object": "ScreenBezel",
+          "baseline_gap_mm": 0.0,
+          "candidate_gap_mm": 0.0,
+          "baseline_overlap_mm3": 1427.6680946933907,
+          "candidate_overlap_mm3": 1427.668094693392
+        },
+        {
+          "object": "HoodShoulderPlateLeft",
+          "baseline_gap_mm": 2.4446836364595814,
+          "candidate_gap_mm": 2.4446836364747067,
+          "baseline_overlap_mm3": 0.0,
+          "candidate_overlap_mm3": 0.0
+        },
+        {
+          "object": "HoodShoulderPlateRight",
+          "baseline_gap_mm": 2.4446836365072855,
+          "candidate_gap_mm": 2.4446836365071993,
+          "baseline_overlap_mm3": 0.0,
+          "candidate_overlap_mm3": 0.0
+        }
+      ]
+    }
+  }
+}

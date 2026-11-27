@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v164",
+      "model": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/v164-front-brow-depth/candidate.FCStd",
+      "fcstd_sha256": "eefb0b4b12519e954522c81ffccea282be88cae25099964dce8e2ad7654f6a8a",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "eefb0b4b12519e954522c81ffccea282be88cae25099964dce8e2ad7654f6a8a",
+      "palette_contract_sha256": "2b17f184ae5f8f23b1c63868a18f084129c43b59a91993d0ac31783e23f78d57",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v164-isometric.png",
+          "sha256": "5ccc9fc38f526d156acea968930a856f14ee345a5ab1d99336445e54cec62122"
+        },
+        {
+          "view": "front",
+          "path": "v164-front.png",
+          "sha256": "6143e3c824b437f00ad3af064d923669dbb9e961e5fd354d10df1504ef08405c"
+        },
+        {
+          "view": "rear",
+          "path": "v164-rear.png",
+          "sha256": "4421c1dce5a2c878daf91e8f402727e4a996d74f8a6ca17daf4f9105f5d6de7a"
+        },
+        {
+          "view": "right",
+          "path": "v164-right.png",
+          "sha256": "2c234280c3c40e5152e315ba4f5b4fd812b511f34cd7756a9bf37c8edfd1672e"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

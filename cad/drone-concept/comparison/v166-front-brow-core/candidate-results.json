@@ -1,0 +1,27 @@
+{
+  "baseline": "v164",
+  "candidate": "core-brow-depth-0.995",
+  "metrics": {
+    "video": {
+      "baseline": 0.8589730720993112,
+      "candidate": 0.8589760116345344,
+      "views": 10
+    },
+    "stills": {
+      "baseline": 0.8252284208832837,
+      "candidate": 0.8252877278883533,
+      "views": 7
+    },
+    "sheet": {
+      "baseline": 0.8965107470029394,
+      "candidate": 0.8964924845542072,
+      "views": 10
+    }
+  },
+  "decision": "retain v164",
+  "reason": "Video and static improve, but contact-sheet mean decreases.",
+  "changed_objects": [
+    "ProjectingBrow",
+    "BrowUnderside"
+  ]
+}

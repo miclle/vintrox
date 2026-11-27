@@ -1,0 +1,184 @@
+{
+  "view": "video-04",
+  "source_sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "projected_screen_width_px": 371.60215226938243,
+  "method": "five annotated outer-edge scanlines; horizontal offset to visible handle ID mask",
+  "limitations": [
+    "sampled rear upper arms only",
+    "manual edge location is uncertain by about one pixel",
+    "side-view evidence is separate"
+  ],
+  "models": [
+    {
+      "model": "v106",
+      "fcstd_sha256": "ce7d19415b904d6439a4573aa44fc98015b5d87c59bcce284b7dabffba628c22",
+      "object_id_sha256": "56d7c92e9904586481143b92bbfa78b3eec71ca3212b1b70638189721b33f627",
+      "samples": [
+        {
+          "row_px": 120,
+          "reference_bounds_px": [
+            229,
+            713
+          ],
+          "cad_bounds_px": [
+            219,
+            723
+          ],
+          "horizontal_errors_px": [
+            -10,
+            10
+          ]
+        },
+        {
+          "row_px": 130,
+          "reference_bounds_px": [
+            228,
+            713
+          ],
+          "cad_bounds_px": [
+            219,
+            724
+          ],
+          "horizontal_errors_px": [
+            -9,
+            11
+          ]
+        },
+        {
+          "row_px": 140,
+          "reference_bounds_px": [
+            227,
+            714
+          ],
+          "cad_bounds_px": [
+            218,
+            725
+          ],
+          "horizontal_errors_px": [
+            -9,
+            11
+          ]
+        },
+        {
+          "row_px": 150,
+          "reference_bounds_px": [
+            226,
+            715
+          ],
+          "cad_bounds_px": [
+            217,
+            726
+          ],
+          "horizontal_errors_px": [
+            -9,
+            11
+          ]
+        },
+        {
+          "row_px": 160,
+          "reference_bounds_px": [
+            226,
+            717
+          ],
+          "cad_bounds_px": [
+            217,
+            727
+          ],
+          "horizontal_errors_px": [
+            -9,
+            10
+          ]
+        }
+      ],
+      "rms_px": 9.934787365615835,
+      "max_px": 11,
+      "max_fraction_projected_screen_width": 0.029601550832853794
+    },
+    {
+      "model": "v107",
+      "fcstd_sha256": "75d4da854d31958c64d134646cfe23ac0055889fc74657795b8965b661eed253",
+      "object_id_sha256": "bb80475d6b4d010af4915f5a7cf42b0072a0619ee5925cc0a3a0622dfeea7f06",
+      "samples": [
+        {
+          "row_px": 120,
+          "reference_bounds_px": [
+            229,
+            713
+          ],
+          "cad_bounds_px": [
+            228,
+            715
+          ],
+          "horizontal_errors_px": [
+            -1,
+            2
+          ]
+        },
+        {
+          "row_px": 130,
+          "reference_bounds_px": [
+            228,
+            713
+          ],
+          "cad_bounds_px": [
+            227,
+            716
+          ],
+          "horizontal_errors_px": [
+            -1,
+            3
+          ]
+        },
+        {
+          "row_px": 140,
+          "reference_bounds_px": [
+            227,
+            714
+          ],
+          "cad_bounds_px": [
+            226,
+            718
+          ],
+          "horizontal_errors_px": [
+            -1,
+            4
+          ]
+        },
+        {
+          "row_px": 150,
+          "reference_bounds_px": [
+            226,
+            715
+          ],
+          "cad_bounds_px": [
+            224,
+            719
+          ],
+          "horizontal_errors_px": [
+            -2,
+            4
+          ]
+        },
+        {
+          "row_px": 160,
+          "reference_bounds_px": [
+            226,
+            717
+          ],
+          "cad_bounds_px": [
+            223,
+            720
+          ],
+          "horizontal_errors_px": [
+            -3,
+            3
+          ]
+        }
+      ],
+      "rms_px": 2.6457513110645907,
+      "max_px": 4,
+      "max_fraction_projected_screen_width": 0.010764200302855926
+    }
+  ]
+}

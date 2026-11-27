@@ -1,0 +1,186 @@
+{
+  "baseline_revision": "v44-continuous-guard-notch",
+  "formal_revision": "v45-inset-status-rim",
+  "baseline_fcstd_sha256": "08e667f1a219b9b0758b2bdf9b13d6d6e34ae45c277bbcd859bf31a45c3703a8",
+  "candidate_fcstd_sha256": "4755f3f41b2075472afebe5cbbb46c875d965805bdee896bda23fd3f5ad0c041",
+  "formal_fcstd_sha256": "b386c41de3c1ad8983d5397d1c5509545b22864bc1194007796de6a55102d958",
+  "adopted": "A",
+  "frozen_sources_and_meshes": [
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-status-rim-cache/experiment_drone_status_rim.py",
+      "sha256": "b8865a76e9ec7e32b6ef606feed437517db1cba2aadf56a04557491944533aa9"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-status-rim-cache/drone_concept-v44.py",
+      "sha256": "84befe4449bf474cd024946cfa8e7035184c09beff187f50a183a03558981472"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-status-rim-cache/drone_status_rim.py",
+      "sha256": "b69dc6e6e040344fd3a33d9a31e546328580040a495fb962eb2bcaf3f9ae0865"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-status-rim-cache/candidate-a-meshes.json",
+      "sha256": "fef0c7091b66fa4c1cdbb996bbfc733ad74b078f185f5b92b6777c987071ee7a"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-status-rim-cache/drone_concept-v45.py",
+      "sha256": "ea0e8d19af84a27eb2312faef51a10bc5eee8f52829f75d1fe33f4dd40ba2edf"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-status-rim-cache/measure_drone_status_rim_geometry.py",
+      "sha256": "9acc5aa5e10d3696114f489eee17788b9954cbb1f713f4ce71d57480ccc88e31"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-status-rim-cache/refine_drone_status_rim.py",
+      "sha256": "df5560b875f17efd69ced7572652fb032addaea51340bf6d98bd72e2cf61ec41"
+    }
+  ],
+  "views": {
+    "video": {
+      "baseline_mean_iou": 0.8484931564112387,
+      "candidate_mean_iou": 0.8484931564112387,
+      "baseline_report_sha256": "a406f8de71b1fd8d5e2716411b91f7c76b198b48a1d645898f2dee142a67b705",
+      "candidate_report_sha256": "61c385b113dcc8e5d5fa2b689db4d2b74975e63e676954d4ae80c771d06bf869",
+      "per_view": [
+        {
+          "view": "video-00",
+          "baseline_iou": 0.8734462579322946,
+          "candidate_iou": 0.8734462579322946,
+          "delta": 0.0
+        },
+        {
+          "view": "video-01",
+          "baseline_iou": 0.8554437506968446,
+          "candidate_iou": 0.8554437506968446,
+          "delta": 0.0
+        },
+        {
+          "view": "video-02",
+          "baseline_iou": 0.8376149942932578,
+          "candidate_iou": 0.8376149942932578,
+          "delta": 0.0
+        },
+        {
+          "view": "video-03",
+          "baseline_iou": 0.819057038865555,
+          "candidate_iou": 0.819057038865555,
+          "delta": 0.0
+        },
+        {
+          "view": "video-04",
+          "baseline_iou": 0.8183989362388815,
+          "candidate_iou": 0.8183989362388815,
+          "delta": 0.0
+        },
+        {
+          "view": "video-05",
+          "baseline_iou": 0.8039326978185211,
+          "candidate_iou": 0.8039326978185211,
+          "delta": 0.0
+        },
+        {
+          "view": "video-06",
+          "baseline_iou": 0.8251796327508205,
+          "candidate_iou": 0.8251796327508205,
+          "delta": 0.0
+        },
+        {
+          "view": "video-07",
+          "baseline_iou": 0.8779943118931869,
+          "candidate_iou": 0.8779943118931869,
+          "delta": 0.0
+        },
+        {
+          "view": "video-08",
+          "baseline_iou": 0.893606489195306,
+          "candidate_iou": 0.893606489195306,
+          "delta": 0.0
+        },
+        {
+          "view": "video-09",
+          "baseline_iou": 0.8802574544277193,
+          "candidate_iou": 0.8802574544277193,
+          "delta": 0.0
+        }
+      ]
+    },
+    "stills": {
+      "baseline_mean_iou": 0.8194408597662175,
+      "candidate_mean_iou": 0.8194408597662175,
+      "baseline_report_sha256": "064c4c4d330da497f4be39d920ed2ed18e176db624f7bda2b9b53ac629ef411b",
+      "candidate_report_sha256": "00673b57daed6fa316c10b6cb8ae93ff0dae31fbc49582b252e8691446ef4f45",
+      "per_view": [
+        {
+          "view": "still-01",
+          "baseline_iou": 0.8650207256828119,
+          "candidate_iou": 0.8650207256828119,
+          "delta": 0.0
+        },
+        {
+          "view": "still-02",
+          "baseline_iou": 0.8671098682331476,
+          "candidate_iou": 0.8671098682331476,
+          "delta": 0.0
+        },
+        {
+          "view": "still-03",
+          "baseline_iou": 0.8487970010695631,
+          "candidate_iou": 0.8487970010695631,
+          "delta": 0.0
+        },
+        {
+          "view": "still-04",
+          "baseline_iou": 0.7805294806579615,
+          "candidate_iou": 0.7805294806579615,
+          "delta": 0.0
+        },
+        {
+          "view": "still-05",
+          "baseline_iou": 0.7693838471875765,
+          "candidate_iou": 0.7693838471875765,
+          "delta": 0.0
+        },
+        {
+          "view": "still-06",
+          "baseline_iou": 0.7372434930981249,
+          "candidate_iou": 0.7372434930981249,
+          "delta": 0.0
+        },
+        {
+          "view": "still-closeup",
+          "baseline_iou": 0.8680016024343364,
+          "candidate_iou": 0.8680016024343364,
+          "delta": 0.0
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Seven construction-view edge samples with about two pixels observation uncertainty.",
+    "Depth and mirror symmetry inferred; other fixed views reviewed.",
+    "Whole-object silhouette score cannot establish local shape fidelity.",
+    "Existing two solids per side closure retained; no extra disconnected solid introduced."
+  ],
+  "candidate_evidence": [
+    {
+      "path": "a/candidate-check.json",
+      "sha256": "190769d84b50786b5ccff110d4211225166ce2c3069952cda20bdb4cc4261021"
+    },
+    {
+      "path": "a/rim-edge-check.json",
+      "sha256": "2ef4335fa40e3d03dc60ce925b8f2295e94bdb1d71dc39483d5360a4dc2db904"
+    },
+    {
+      "path": "a/status-check.json",
+      "sha256": "7f4a63f15e2f0ff5eaa60bdf6c7d7b1315a5db1e36efa7faa04a5be4c36c6771"
+    },
+    {
+      "path": "a/detail-visibility.json",
+      "sha256": "e8ba973e68dfeb5e3bc8fa9eb21b3cd45f0aa44affe9cb7e1cff3314e31f52ea"
+    },
+    {
+      "path": "a/cavity-check.json",
+      "sha256": "3c25c8fef329296a5682d49136ff31e6390b5759adab842ddf5f83651f640433"
+    }
+  ]
+}

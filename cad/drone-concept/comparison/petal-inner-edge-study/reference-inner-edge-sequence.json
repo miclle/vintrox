@@ -1,0 +1,58 @@
+{
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "script_sha256": "64fa473216cda4b1cfaec81244d467eb34f90417e54a76331eda2c77ce723220",
+  "crop_xyxy": [
+    0,
+    500,
+    940,
+    740
+  ],
+  "pixel_transform": "identical native crop; no image scaling or registration",
+  "sources": [
+    {
+      "path": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/upper-boundary-study/frame-090.png",
+      "sha256": "0d8806db3363c684e6e42e641883d59705af1a938511637a2cbb9c88a116a82f",
+      "source_frame": 90
+    },
+    {
+      "path": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/upper-boundary-study/frame-100.png",
+      "sha256": "96edd2539195235894c2966c180b340c866f3be6a227c6a52f2634df101c96fb",
+      "source_frame": 100
+    },
+    {
+      "path": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/upper-boundary-study/frame-110.png",
+      "sha256": "236c4a459706defc7065c16b8ab25418b0412b1485649de237903f64b01601ff",
+      "source_frame": 110
+    },
+    {
+      "path": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/upper-boundary-study/frame-120.png",
+      "sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb",
+      "source_frame": 120
+    },
+    {
+      "path": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/upper-boundary-study/frame-130.png",
+      "sha256": "d85caddc44ef0969f046ef11e49e5f73c827714d913454d39caf966a24112de4",
+      "source_frame": 130
+    },
+    {
+      "path": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/upper-boundary-study/frame-140.png",
+      "sha256": "9299e2e4be0a7bc672b28011778f678fb668071fb214daf4920eb73fe96b5a68",
+      "source_frame": 140
+    },
+    {
+      "path": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/upper-boundary-study/frame-150.png",
+      "sha256": "6163748cf00f271a738409696656ddd46ca93481e0bfab683b656e6e8a38a204",
+      "source_frame": 150
+    },
+    {
+      "path": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/upper-boundary-study/frame-160.png",
+      "sha256": "452cfc5d57a575feb9a6ca6ca8f68b314f3b80807aa22cce2d42395c8879b06b",
+      "source_frame": 160
+    }
+  ],
+  "image_sha256": "67d0d7e3e74791721d570a880b883ff1366831f074756cf41cc70f6c2acdeeae",
+  "observations": [
+    "Rear half of the segmented exit is visible in the reference; do not shorten it based on its low brightness.",
+    "Narrow bright terminal borders appear across adjacent views; width and exact folded profile remain uncertain."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "revision": "v91-cheek097-podroot084",
+  "status": "not-adopted; v90 retained as current exploratory candidate",
+  "baseline_revision": "v90-front-cheek-contract097",
+  "baseline_fcstd_sha256": "683db33fd874afa4f5b0eeb06294ac7abde447f6f3729ef64629c7582b66c5f9",
+  "candidate_fcstd_sha256": "2f0ea6f5ef04cfc2f3874ce6c64023c2b037919eec8f9b446cbcd9903ad0b34d",
+  "candidate_step_sha256": "a74dc23764000cc86bae84f90fd9ecd5a7e0732e62556128d18216d903032c7c",
+  "changed_families": {
+    "LowerPod": 108
+  },
+  "changed_objects_count": 108,
+  "video": {
+    "candidate_mean_iou": 0.8556996236564054,
+    "baseline_mean_iou": 0.8558303431358816,
+    "delta_mean_iou": -0.00013071947947618234,
+    "improved_views": 1,
+    "regressed_views": 9,
+    "report": "video-comparison/comparison-report.json"
+  },
+  "stills": {
+    "candidate_mean_iou": 0.8233228036584146,
+    "baseline_mean_iou": 0.8235075463557112,
+    "delta_mean_iou": -0.00018474269729662485,
+    "improved_views": 1,
+    "regressed_views": 6,
+    "report": "stills-comparison/comparison-report.json"
+  },
+  "registration": "same fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "saved_readback": {
+    "status": "independent saved-CAD readback; v90 GUI archive inherited; v91 candidate not adopted",
+    "shape_objects": 698,
+    "shape_objects_valid_closed": true,
+    "screen_geometry_preserved": true,
+    "protected_supports_zero_delta": true,
+    "gui_document_present": true
+  },
+  "boundary_attribution": {
+    "report": "video-ids/boundary-regions.json",
+    "top_exterior_families": [
+      {
+        "family": "NozzlePetal",
+        "pixels": 16351
+      },
+      {
+        "family": "BrowUnderside",
+        "pixels": 11775
+      },
+      {
+        "family": "LowerPodRib",
+        "pixels": 11618
+      },
+      {
+        "family": "ScreenBezel",
+        "pixels": 9528
+      },
+      {
+        "family": "ProjectingBrow",
+        "pixels": 7637
+      },
+      {
+        "family": "HandleArm",
+        "pixels": 7469
+      },
+      {
+        "family": "WingInnerPaint",
+        "pixels": 5652
+      },
+      {
+        "family": "HandleInset",
+        "pixels": 5361
+      },
+      {
+        "family": "RearArmourCheek",
+        "pixels": 5228
+      },
+      {
+        "family": "FrontCheek",
+        "pixels": 5189
+      },
+      {
+        "family": "Antenna",
+        "pixels": 5169
+      },
+      {
+        "family": "SideCable",
+        "pixels": 4956
+      }
+    ]
+  },
+  "decision": "retain v90; reject direct v84 LowerPod-root + v90 cheek combination",
+  "decision_basis": "video mean regressed in 9/10 views and static mean regressed versus v90; LowerPodRib remains a high-difference family; local root correction does not generalize across the fixed orbit",
+  "limitations": [
+    "90 percent whole silhouette and complete major-part 5 percent contour targets remain unmet",
+    "v91 is an appearance hypothesis, not manufacturing or physical acceptance",
+    "native v91 GUI screenshot audit was not run; v90 audited GUI archive was inherited and hash-bound"
+  ]
+}

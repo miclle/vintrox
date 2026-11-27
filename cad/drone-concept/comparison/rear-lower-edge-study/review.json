@@ -1,0 +1,58 @@
+{
+  "baseline_fcstd_sha256": "ea492d3652025456d2dcf20d264cc826f46d479edaf1a9fb3742ff9dcf70ebe3",
+  "fcstd_sha256": "a517708ecfbf61416ae16f371bdfa9d319ce36b552d257707e69dc5bd9376ca6",
+  "selected": "c",
+  "reason": "Lower rear-oblique edge closer at fixed cameras; small side-view regression retained; all seven still silhouette scores unchanged. Cavity and four shafts retained.",
+  "candidates": [
+    {
+      "candidate": "a",
+      "rise_mm": 2.0,
+      "fcstd_sha256": "fdbc3a832c37a02fb203225dbaffaa1c82da06f24aa7f6d09fb536d67299f5ca",
+      "rear_boundary_rms_px": 4.2946995755750415,
+      "rear_boundary_max_px": 8.54400374531753,
+      "video_mean_iou": 0.8478033652178085,
+      "still_mean_iou": 0.8190991651743253,
+      "per_view_boundary_rms_px": {
+        "60": 4.102844541697057,
+        "180": 3.625307868699863,
+        "90": 4.869731585445518,
+        "150": 4.456135417280635
+      }
+    },
+    {
+      "candidate": "b",
+      "rise_mm": 4.0,
+      "fcstd_sha256": "3477bc6458d93e884236bcff772d21765ab176b0a946d2f1f7acbfaa576f3529",
+      "rear_boundary_rms_px": 3.8345408726083106,
+      "rear_boundary_max_px": 8.0,
+      "video_mean_iou": 0.8478042605787854,
+      "still_mean_iou": 0.8190991651743253,
+      "per_view_boundary_rms_px": {
+        "60": 4.102844541697057,
+        "180": 3.7032803990902057,
+        "90": 3.909694909544003,
+        "150": 3.6449573777637356
+      }
+    },
+    {
+      "candidate": "c",
+      "rise_mm": 6.0,
+      "fcstd_sha256": "be81ffb9b6b455598d5bd8873d45bd9a8129484c8ea201773b3493dcacec39e1",
+      "rear_boundary_rms_px": 3.5797785985748916,
+      "rear_boundary_max_px": 8.0,
+      "video_mean_iou": 0.8478070817476396,
+      "still_mean_iou": 0.8190991651743253,
+      "per_view_boundary_rms_px": {
+        "60": 4.123105625617661,
+        "180": 3.779644730092272,
+        "90": 3.3380918415851206,
+        "150": 3.070597894314954
+      }
+    }
+  ],
+  "limitations": [
+    "27 manual boundary samples, including occlusions; not full surface accuracy",
+    "unchanged cameras and masks; no warping",
+    "overall contour IoU remains below 90 percent"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "baseline_fcstd_sha256": "5692be44b65cae0fb26a6bae3b351e1d5dfe67f52d447a56cf35b9cecf3d91bf",
+  "formal_fcstd_sha256": "72c8968f252d52be29c9e82a53d7b9b61b68542ae994f6beb195761cb4ad5655",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "status": "I adopted as v32; saved geometry and delivery checks passed; overall visual goal remains incomplete",
+  "variants": [
+    {
+      "variant": "g",
+      "fcstd_sha256": "a6d23638b300363cdb35707b65ea6030141386cb13c2d163797ae0c225489dde",
+      "upper_rms_px": 9.477793594955074,
+      "upper_max_px": 27.0,
+      "side_rms_px": 5.311712126450916,
+      "side_max_px": 8.0,
+      "mean_silhouette_iou": 0.8438016634525752,
+      "accepted_for_rebuild": false
+    },
+    {
+      "variant": "h",
+      "fcstd_sha256": "e0332653ddb5dc9d56d83beabfd51de6cc2b31baf779fd041e433f8ff0f7a872",
+      "upper_rms_px": 7.553617865443211,
+      "upper_max_px": 24.413111231467404,
+      "side_rms_px": 4.825527358301296,
+      "side_max_px": 8.0,
+      "mean_silhouette_iou": 0.8438231628241489,
+      "accepted_for_rebuild": false
+    },
+    {
+      "variant": "i",
+      "fcstd_sha256": "f965bb83ae95883f0def3ce0358095515f091bde784a1ab1b47a569bf69da794",
+      "upper_rms_px": 6.087457832062811,
+      "upper_max_px": 19.235384061671343,
+      "side_rms_px": 4.7207747548166585,
+      "side_max_px": 8.0,
+      "mean_silhouette_iou": 0.8438323138789061,
+      "accepted_for_rebuild": true
+    }
+  ],
+  "limitations": [
+    "upper source points include uncertain shadow transitions",
+    "side-edge checks cover 14 exposed samples only",
+    "whole visual target incomplete"
+  ]
+}

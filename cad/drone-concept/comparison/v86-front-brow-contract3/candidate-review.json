@@ -1,0 +1,209 @@
+{
+  "revision": "v86-front-brow-contract3",
+  "status": "not-adopted; formal-v61-and-study-v69-retained",
+  "baseline_revision": "v69-underbody-loop-radius2p2",
+  "baseline_fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+  "candidate_fcstd_sha256": "237e7f0aebf1caf37b0d8deb5248322e558df923ce271561b5a74e0ba3870a14",
+  "candidate_step_sha256": "050bada7241c4d183576ec908513887da2833af2f7853e402d30c23e46761d3e",
+  "changed_objects": [
+    "ProjectingBrow",
+    "BrowUnderside"
+  ],
+  "x_scale_about_model_center": 0.97,
+  "video": {
+    "candidate_mean_iou": 0.8554154733032984,
+    "baseline_mean_iou": 0.8555332009171318,
+    "delta_percentage_points": -0.011772761383344044,
+    "views": [
+      {
+        "view": "video-00",
+        "candidate_iou": 0.8737618743849551,
+        "baseline_iou": 0.8737248836985229,
+        "delta_percentage_points": 0.003699068643225889
+      },
+      {
+        "view": "video-01",
+        "candidate_iou": 0.860870570520611,
+        "baseline_iou": 0.8607734837783811,
+        "delta_percentage_points": 0.009708674222985714
+      },
+      {
+        "view": "video-02",
+        "candidate_iou": 0.8489084588123628,
+        "baseline_iou": 0.847902666681625,
+        "delta_percentage_points": 0.10057921307378148
+      },
+      {
+        "view": "video-03",
+        "candidate_iou": 0.8304196905734301,
+        "baseline_iou": 0.8313541368451188,
+        "delta_percentage_points": -0.09344462716887048
+      },
+      {
+        "view": "video-04",
+        "candidate_iou": 0.8280701984625631,
+        "baseline_iou": 0.8280701984625631,
+        "delta_percentage_points": 0.0
+      },
+      {
+        "view": "video-05",
+        "candidate_iou": 0.8140970732162394,
+        "baseline_iou": 0.8151927854193574,
+        "delta_percentage_points": -0.10957122031179933
+      },
+      {
+        "view": "video-06",
+        "candidate_iou": 0.8391192533466556,
+        "baseline_iou": 0.838026392255248,
+        "delta_percentage_points": 0.10928610914076042
+      },
+      {
+        "view": "video-07",
+        "candidate_iou": 0.8854542249115663,
+        "baseline_iou": 0.8853494673334831,
+        "delta_percentage_points": 0.01047575780832588
+      },
+      {
+        "view": "video-08",
+        "candidate_iou": 0.8957329847619389,
+        "baseline_iou": 0.8944945926754635,
+        "delta_percentage_points": 0.12383920864753595
+      },
+      {
+        "view": "video-09",
+        "candidate_iou": 0.8777204040426607,
+        "baseline_iou": 0.8804434020215558,
+        "delta_percentage_points": -0.2722997978895081
+      }
+    ]
+  },
+  "stills": {
+    "candidate_mean_iou": 0.8234313551988363,
+    "baseline_mean_iou": 0.8225961961828953,
+    "delta_percentage_points": 0.08351590159410005,
+    "views": [
+      {
+        "view": "still-01",
+        "candidate_iou": 0.8662356753411067,
+        "baseline_iou": 0.8652161858748563,
+        "delta_percentage_points": 0.10194894662504117
+      },
+      {
+        "view": "still-02",
+        "candidate_iou": 0.870974731720294,
+        "baseline_iou": 0.8696146654586812,
+        "delta_percentage_points": 0.1360066261612891
+      },
+      {
+        "view": "still-03",
+        "candidate_iou": 0.8489694846903777,
+        "baseline_iou": 0.8487768274887965,
+        "delta_percentage_points": 0.019265720158123667
+      },
+      {
+        "view": "still-04",
+        "candidate_iou": 0.7844404574523121,
+        "baseline_iou": 0.7835964989444053,
+        "delta_percentage_points": 0.08439585079067502
+      },
+      {
+        "view": "still-05",
+        "candidate_iou": 0.7802396415005164,
+        "baseline_iou": 0.7795997095795026,
+        "delta_percentage_points": 0.06399319210137477
+      },
+      {
+        "view": "still-06",
+        "candidate_iou": 0.7415255009107468,
+        "baseline_iou": 0.7408007242503304,
+        "delta_percentage_points": 0.07247766604163708
+      },
+      {
+        "view": "still-closeup",
+        "candidate_iou": 0.8716339947765003,
+        "baseline_iou": 0.8705687616836939,
+        "delta_percentage_points": 0.10652330928063725
+      }
+    ]
+  },
+  "boundary_attribution": {
+    "report": "video-ids/boundary-regions.json",
+    "top_exterior_families": [
+      {
+        "family": "NozzlePetal",
+        "pixels": 17891
+      },
+      {
+        "family": "BrowUnderside",
+        "pixels": 12065
+      },
+      {
+        "family": "LowerPodRib",
+        "pixels": 11016
+      },
+      {
+        "family": "ScreenBezel",
+        "pixels": 9079
+      },
+      {
+        "family": "FrontCheek",
+        "pixels": 7733
+      },
+      {
+        "family": "HandleArm",
+        "pixels": 7469
+      },
+      {
+        "family": "ProjectingBrow",
+        "pixels": 6990
+      },
+      {
+        "family": "WingInnerPaint",
+        "pixels": 5649
+      },
+      {
+        "family": "HandleInset",
+        "pixels": 5361
+      },
+      {
+        "family": "RearArmourCheek",
+        "pixels": 5261
+      },
+      {
+        "family": "Antenna",
+        "pixels": 5169
+      },
+      {
+        "family": "SideCable",
+        "pixels": 4956
+      }
+    ],
+    "primary_iou_unchanged": true
+  },
+  "readback": {
+    "saved_objects_total": 698,
+    "visible_features": 696,
+    "step_solids": 1008,
+    "step_valid": true,
+    "protected_supports_equal": true,
+    "changed_mesh_saved_readback": {
+      "ProjectingBrow": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      },
+      "BrowUnderside": {
+        "vertices_equal_saved_readback": true,
+        "faces_equal_saved_readback": true
+      }
+    }
+  },
+  "native_display": "../native-display-audit-2026-11-05/native-display-verification.json",
+  "decision": "保留为研究候选，不替换 v69",
+  "decision_basis": "front-brow changes improve some front/oblique views but regress or fail to improve the full fixed-camera set; 90% whole silhouette and complete major-part 5% target remain unmet",
+  "limitations": [
+    "screen-space silhouette diagnostic only",
+    "black-material/background ambiguity and curved-screen uncertainty",
+    "candidate changes are appearance hypotheses",
+    "no physical, manufacturing, fit, optical, acoustic, thermal, electrical, or assembly acceptance"
+  ]
+}

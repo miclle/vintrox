@@ -1,0 +1,189 @@
+{
+  "revision": "v47-coordinated-nozzle-root",
+  "baseline_revision": "v46-curved-petal-hardware",
+  "formal_fcstd_sha256": "1b5a6eb7a24675e55ed958128a843aabab6d43efa6cde13803be330cd8dc9fe1",
+  "baseline_fcstd_sha256": "475c208851231c3c98da53e59c62ad1a18de1bf969f6d0622db8e5f93b03b7e5",
+  "adopted": "root-profile-clearance",
+  "views": {
+    "video": {
+      "baseline_mean_iou": 0.848452603140878,
+      "mean_iou": 0.8484383495704287,
+      "per_view": [
+        {
+          "view": "video-00",
+          "baseline_iou": 0.8734462579322946,
+          "current_iou": 0.8734462579322946,
+          "delta": 0.0
+        },
+        {
+          "view": "video-01",
+          "baseline_iou": 0.8553412318180171,
+          "current_iou": 0.8561501294411712,
+          "delta": 0.000808897623154059
+        },
+        {
+          "view": "video-02",
+          "baseline_iou": 0.8375228588321028,
+          "current_iou": 0.8364261130568035,
+          "delta": -0.0010967457752992793
+        },
+        {
+          "view": "video-03",
+          "baseline_iou": 0.8190111426466097,
+          "current_iou": 0.8194626263192566,
+          "delta": 0.0004514836726469129
+        },
+        {
+          "view": "video-04",
+          "baseline_iou": 0.8183989362388815,
+          "current_iou": 0.8183995223418161,
+          "delta": 5.861029346299063e-07
+        },
+        {
+          "view": "video-05",
+          "baseline_iou": 0.803921568627451,
+          "current_iou": 0.8040570849462544,
+          "delta": 0.00013551631880337478
+        },
+        {
+          "view": "video-06",
+          "baseline_iou": 0.8250995784029204,
+          "current_iou": 0.8238768718801996,
+          "delta": -0.001222706522720718
+        },
+        {
+          "view": "video-07",
+          "baseline_iou": 0.8779205132874774,
+          "current_iou": 0.878700946163467,
+          "delta": 0.0007804328759895007
+        },
+        {
+          "view": "video-08",
+          "baseline_iou": 0.893606489195306,
+          "current_iou": 0.893606489195306,
+          "delta": 0.0
+        },
+        {
+          "view": "video-09",
+          "baseline_iou": 0.8802574544277193,
+          "current_iou": 0.8802574544277193,
+          "delta": 0.0
+        }
+      ]
+    },
+    "still": {
+      "baseline_mean_iou": 0.8194252892250636,
+      "mean_iou": 0.8195317471641251,
+      "per_view": [
+        {
+          "view": "still-01",
+          "baseline_iou": 0.8650207256828119,
+          "current_iou": 0.8650207256828119,
+          "delta": 0.0
+        },
+        {
+          "view": "still-02",
+          "baseline_iou": 0.8671098682331476,
+          "current_iou": 0.8671098682331476,
+          "delta": 0.0
+        },
+        {
+          "view": "still-03",
+          "baseline_iou": 0.8487970010695631,
+          "current_iou": 0.8487970010695631,
+          "delta": 0.0
+        },
+        {
+          "view": "still-04",
+          "baseline_iou": 0.7805294806579615,
+          "current_iou": 0.7805736687528408,
+          "delta": 4.418809487938269e-05
+        },
+        {
+          "view": "still-05",
+          "baseline_iou": 0.7692748533995003,
+          "current_iou": 0.7699192921983893,
+          "delta": 0.0006444387988889799
+        },
+        {
+          "view": "still-06",
+          "baseline_iou": 0.7372434930981249,
+          "current_iou": 0.7373000717777868,
+          "delta": 5.657867966191166e-05
+        },
+        {
+          "view": "still-closeup",
+          "baseline_iou": 0.8680016024343364,
+          "current_iou": 0.8680016024343364,
+          "delta": 0.0
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "All root observations are manual fitting inputs, not independent validation.",
+    "Ten-view contour mean is essentially unchanged; retain each regression.",
+    "Guide visibility changed: baseline pairs 7/9, current 8/9. Their RMS values cannot be compared as the same sample.",
+    "Independent refit has a slightly different optimum; reconstruction is not unique.",
+    "No camera, lighting, material, image warp or shadow-filling changes."
+  ],
+  "candidate_mesh_caches": [
+    {
+      "candidate": "root-profile",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-root-profile-cache/root-profile-meshes.json",
+      "sha256": "2ef6195a87e7c3ef024a24ffb35d5a008005e744784b91aa2a119f1597f6d623"
+    },
+    {
+      "candidate": "root-profile-g54",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-root-profile-cache/root-profile-g54-meshes.json",
+      "sha256": "a77ceddf439b6348e04cdba2fdcd9bb9eda205bf9d394fa9187408d0f02f8c34"
+    },
+    {
+      "candidate": "root-profile-clearance",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-root-profile-cache/root-profile-clearance-meshes.json",
+      "sha256": "472336be908cb30bd40d32b9889999853019300ce3e9bda30e11228c539c6979"
+    }
+  ],
+  "baseline_archive": {
+    "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-root-profile-cache/v46-baseline.FCStd",
+    "sha256": "475c208851231c3c98da53e59c62ad1a18de1bf969f6d0622db8e5f93b03b7e5"
+  },
+  "failed_trial_archive": {
+    "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-root-profile-cache/v47-before-lamp-clearance.FCStd",
+    "sha256": "c5f334d3f61ec3fd8ea49f50f27b0309df30b3e40a4823ef5372635b29a6ee38"
+  },
+  "source_files": [
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-root-profile-cache/drone_concept.py",
+      "sha256": "e769a998de562cfe8f4ee632ec750329d2b275a6e092d77c5a747eef8babb47c"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-root-profile-cache/drone_nozzle_root_profile.py",
+      "sha256": "4936a580a141488cfe7249c88ec67fad9925e71db8477b09fc215ced0b742aaf"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-root-profile-cache/refine_drone_nozzle_root.py",
+      "sha256": "8be181e439f53ee10fe29988772e38b6118e67dfc57fd59800821e35233d3c02"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-root-profile-cache/measure_drone_root_profile.py",
+      "sha256": "d04a4d622d414414aecb8943f5f48cec9a54feab0fd57301c56e92a3784c1e8d"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-root-profile-cache/measure_drone_nozzle_root.py",
+      "sha256": "bf3b0cb566c50e27588707cbc11b5eea4e036cff74ada84bd7998faf2add3a56"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-root-profile-cache/measure_drone_nozzle_lip.py",
+      "sha256": "ad64c28dc4f173ecaf4391c646322f0ecf588a9b94f73f83d49a8854ca190456"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-root-profile-cache/fit_drone_root_five_views.py",
+      "sha256": "f43755b9fe7ae5291400126eb8ac29982ccda2bfc1679b8e9b967b28d1a149c8"
+    },
+    {
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-root-profile-cache/experiment_drone_nozzle_root.py",
+      "sha256": "ce5983a0dccb59fa841cca5621cf0b8a8b3488b2ac25533610735f4d7e15af65"
+    }
+  ]
+}

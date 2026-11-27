@@ -1,0 +1,33 @@
+{
+  "revision": "v58-rear-fold-radius24",
+  "candidate_fcstd_sha256": "b8aec8226ad6d66ec37c3d37777844bc3c6e51b6cb4152076b632ed045331eb0",
+  "candidate_step_sha256": "c6945806ae4fb3693110e84a12de1cb7f115ab8d2d877cd4ccaa645ec715dff9",
+  "changed_objects": [
+    "RearServicePanel",
+    "RearStructuralFrame",
+    "RearRecessLiner",
+    "RearArmourCheekLeft",
+    "RearArmourCheekRight",
+    "RearLowerSlope"
+  ],
+  "fold_radius_mm": 24,
+  "support_constraint": "four SupportShaft objects and their sockets/feet retained; comparison renderer excludes support prefixes only",
+  "shadow_contract": "RearRecessLiner remains a recessed housing/backing and does not become a continuous nozzle tube wall",
+  "baseline": {
+    "fcstd_sha256": "cf25bc7193b3051a5aa8bb28e19685990768e4c0e71a4c19432b19137da680aa",
+    "video_mean_silhouette_iou": 0.854452066264798,
+    "still_mean_silhouette_iou": 0.8221528870108087
+  },
+  "candidate": {
+    "video_mean_silhouette_iou": 0.854474979006981,
+    "still_mean_silhouette_iou": 0.822163787411581,
+    "video_report": "video-comparison-report.json",
+    "still_report": "stills-comparison-report.json"
+  },
+  "delta": {
+    "video_mean_silhouette_iou": 2.2912742183023305e-05,
+    "still_mean_silhouette_iou": 1.0900400772340113e-05
+  },
+  "registration": "same fixed cameras; no image warp or per-part alignment",
+  "status": "adopted for v58 follow-up; appearance study only; physical/printing/assembly validation not performed"
+}

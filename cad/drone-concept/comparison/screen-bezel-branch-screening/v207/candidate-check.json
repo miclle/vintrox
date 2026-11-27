@@ -1,0 +1,14 @@
+{
+  "revision": "v207-screenbezel-only",
+  "baseline_fcstd_sha256": "d4e47a2b9a7e9589f0a50dc45562c092260f56dea09511c734fc28aea816f803",
+  "reference_fcstd_sha256": "aedd1fc5039265123f71b43faab01939faa4dc2fd84ee0955efee7c3b9aaab1b",
+  "fcstd_sha256": "49d0a2a0e1a1c0b02f6241ea18e18c85571f626e00ad01d680abb0936327fc1e",
+  "step_sha256": "b341d0226a27f22d7f037121a9c3dc5cd275bef388d47dcb919694700a01d863",
+  "kept_expansion_object": "ScreenBezel",
+  "restored_object": [
+    "BezelLip"
+  ],
+  "visible_features": 696,
+  "mesh_rebuild": "tools/export_saved_drone_meshes.py --output <temporary-mesh-json>",
+  "status": "screening candidate"
+}

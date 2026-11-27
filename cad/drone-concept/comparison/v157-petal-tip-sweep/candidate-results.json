@@ -1,0 +1,25 @@
+{
+  "baseline": "v155",
+  "candidate": "factor1.05-no-radial-shift",
+  "metrics": {
+    "video": {
+      "baseline": 0.858758643294756,
+      "candidate": 0.8587712666683162,
+      "views": 10
+    },
+    "stills": {
+      "baseline": 0.8248448363810101,
+      "candidate": 0.8248316760798252,
+      "views": 7
+    },
+    "sheet": {
+      "baseline": 0.8963851709070614,
+      "candidate": 0.8964439706164663,
+      "views": 10
+    }
+  },
+  "new_advanced_check_failures": [],
+  "contact_regressions": [],
+  "decision": "retain v155",
+  "reason": "Static mean regressed from v155. Candidate is preserved in the local temporary validation directory."
+}

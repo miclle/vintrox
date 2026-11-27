@@ -1,0 +1,107 @@
+{
+  "fcstd_sha256": "84378c059358b96d008d0516145eee9ee07eb27fb35720925d99feedaacc98fb",
+  "step_sha256": "389c1e0e77d8b99f1aa8b40cac718a7f39c2cfc132b1959d63ede4315390371b",
+  "baseline_fcstd_sha256": "2ab40ea74dacd2be487e8c3f77ff540b63110daff9c506f79cf332c8e016412a",
+  "inset_local_mm": 2.5,
+  "decision": "comparison candidate",
+  "video": {
+    "candidate_mean_iou": 0.8558971139196323,
+    "baseline_mean_iou": 0.8557317102869455,
+    "delta_percentage_points": 0.016540363268680025,
+    "views": [
+      {
+        "view": "video-00",
+        "iou": 0.8740985584351691,
+        "baseline_iou": 0.874013996247562
+      },
+      {
+        "view": "video-01",
+        "iou": 0.8609779698647837,
+        "baseline_iou": 0.8609779698647837
+      },
+      {
+        "view": "video-02",
+        "iou": 0.8489945062827534,
+        "baseline_iou": 0.848284875142283
+      },
+      {
+        "view": "video-03",
+        "iou": 0.8325193447894684,
+        "baseline_iou": 0.831969846478647
+      },
+      {
+        "view": "video-04",
+        "iou": 0.8281843209702348,
+        "baseline_iou": 0.8281843209702348
+      },
+      {
+        "view": "video-05",
+        "iou": 0.8160479699989237,
+        "baseline_iou": 0.816012846983253
+      },
+      {
+        "view": "video-06",
+        "iou": 0.8379404656076842,
+        "baseline_iou": 0.8379347853870645
+      },
+      {
+        "view": "video-07",
+        "iou": 0.8860531336313676,
+        "baseline_iou": 0.885335859426338
+      },
+      {
+        "view": "video-08",
+        "iou": 0.8951221383808671,
+        "baseline_iou": 0.8955698711342184
+      },
+      {
+        "view": "video-09",
+        "iou": 0.8790327312350698,
+        "baseline_iou": 0.8790327312350698
+      }
+    ]
+  },
+  "still": {
+    "candidate_mean_iou": 0.8235936835632324,
+    "baseline_mean_iou": 0.8235871965201441,
+    "delta_percentage_points": 0.0006487043088254651,
+    "views": [
+      {
+        "view": "still-01",
+        "iou": 0.8660698645251556,
+        "baseline_iou": 0.8660291217302885
+      },
+      {
+        "view": "still-02",
+        "iou": 0.870937638772984,
+        "baseline_iou": 0.870937638772984
+      },
+      {
+        "view": "still-03",
+        "iou": 0.8479844773979381,
+        "baseline_iou": 0.8489013914755563
+      },
+      {
+        "view": "still-04",
+        "iou": 0.785183683453174,
+        "baseline_iou": 0.7849206314240524
+      },
+      {
+        "view": "still-05",
+        "iou": 0.7811722967491262,
+        "baseline_iou": 0.7810704585957382
+      },
+      {
+        "view": "still-06",
+        "iou": 0.7424822531691176,
+        "baseline_iou": 0.741925562767259
+      },
+      {
+        "view": "still-closeup",
+        "iou": 0.8713255708751311,
+        "baseline_iou": 0.8713255708751311
+      }
+    ]
+  },
+  "visible_wing_edges_sha256": "7bd4799be2c01853042f3e4afcce0901cc64d91d534e2f8b4a7d85fb406a7c7e"
+}

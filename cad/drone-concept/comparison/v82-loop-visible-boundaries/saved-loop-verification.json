@@ -1,0 +1,81 @@
+{
+  "status": "final-saved-loop-geometry-checked",
+  "fcstd_sha256": "b89fe301c432af58e80518b950e062a9100d73908d31e159e77c97c58bd1aa79",
+  "baseline_fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+  "fit_sha256": "252a6f051873fbb84169ffd48ee1f9aea991dc9236ce614900331d0cea600c50",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "script_sha256": "0d0e6849263e4d33b10725196b28c9334b7c560b9567b78e6743223b1424d69e",
+  "unchanged_geometry_archive_members": 1082,
+  "changed_geometry_archive_members": [
+    "UnderbodyLoop0.Shape.brp",
+    "UnderbodyLoop1.Shape.brp"
+  ],
+  "appearance_archive_members_equal": 2095,
+  "solid_checks": [
+    {
+      "object": "UnderbodyLoop0",
+      "advanced_errors": [],
+      "valid_closed_single_solid": true,
+      "endpoint_centre_error_mm": [
+        4.016352163119608e-11,
+        4.0177574749985306e-11
+      ],
+      "actual_loop_endpoint_belly_overlap_mm3": [
+        56.5486673841323,
+        56.54866841025044
+      ],
+      "support_overlap_mm3": {
+        "CentralSupportSeat": 0.0,
+        "SupportShaftFrontLeft": 0.0,
+        "SupportSocketFrontLeft": 0.0,
+        "SupportFootFrontLeft": 0.0,
+        "SupportShaftRearLeft": 0.0,
+        "SupportSocketRearLeft": 0.0,
+        "SupportFootRearLeft": 0.0,
+        "SupportShaftFrontRight": 0.0,
+        "SupportSocketFrontRight": 0.0,
+        "SupportFootFrontRight": 0.0,
+        "SupportShaftRearRight": 0.0,
+        "SupportSocketRearRight": 0.0,
+        "SupportFootRearRight": 0.0
+      }
+    },
+    {
+      "object": "UnderbodyLoop1",
+      "advanced_errors": [],
+      "valid_closed_single_solid": true,
+      "endpoint_centre_error_mm": [
+        4.016158323086288e-11,
+        4.01847015471015e-11
+      ],
+      "actual_loop_endpoint_belly_overlap_mm3": [
+        56.54866716476404,
+        56.5486685267735
+      ],
+      "support_overlap_mm3": {
+        "CentralSupportSeat": 0.0,
+        "SupportShaftFrontLeft": 0.0,
+        "SupportSocketFrontLeft": 0.0,
+        "SupportFootFrontLeft": 0.0,
+        "SupportShaftRearLeft": 0.0,
+        "SupportSocketRearLeft": 0.0,
+        "SupportFootRearLeft": 0.0,
+        "SupportShaftFrontRight": 0.0,
+        "SupportSocketFrontRight": 0.0,
+        "SupportFootFrontRight": 0.0,
+        "SupportShaftRearRight": 0.0,
+        "SupportSocketRearRight": 0.0,
+        "SupportFootRearRight": 0.0
+      }
+    }
+  ],
+  "observations": [],
+  "rms_px": null,
+  "observation_kind": "visible tube boundary segments",
+  "limitations": [
+    "1000 by 128 surface-parameter samples; finite centreline sampling",
+    "same uncertain manual observations as fitting; no fresh held-out evidence",
+    "centreline errors do not prove complete visible contour within 5 percent",
+    "no physical, manufacturing, optical or electrical acceptance"
+  ]
+}

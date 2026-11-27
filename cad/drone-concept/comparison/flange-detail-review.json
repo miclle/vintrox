@@ -1,0 +1,49 @@
+{
+  "sources": [
+    {
+      "path": "references/alexander-shevchuk-drone/alexander-shevchuk-03.jpg",
+      "sha256": "584543636adef77d34f994925e684b28208c29993a077b4ae9662a55e3283fd8",
+      "native_detail_crop_xyxy": [
+        1100,
+        710,
+        1400,
+        1230
+      ]
+    },
+    {
+      "path": "references/alexander-shevchuk-drone/alexander-shevchuk-05.jpg",
+      "sha256": "3860ef57bfcf146ea337493b1860771edc072454c5b1330dc12f8dbdf4c8b58d",
+      "native_detail_crop_xyxy": [
+        775,
+        550,
+        1200,
+        1010
+      ]
+    }
+  ],
+  "observed": [
+    "curved metallic flange with open staggered holes",
+    "two visible plate ends with rounded corners and dark split between them",
+    "thin red wire visible behind split",
+    "thin concentric inner rim retained",
+    "dark opening has recessed sloping wall around the projecting wing axle"
+  ],
+  "modeled_assumptions": {
+    "segments_per_side": 2,
+    "split_half_angle_degrees": 12,
+    "holes_per_side": 34,
+    "hole_radius_mm": 1.7,
+    "hole_rows_radii_mm": [
+      55.8,
+      60.3
+    ],
+    "edge_round_mm": 0.35,
+    "bridge_wire_radius_mm": 0.8,
+    "bowl_cavity_depth_mm": 9.2
+  },
+  "limitations": [
+    "source does not establish full hidden hole count or exact segment symmetry",
+    "existing source-fitted outer lip retained; curved plate section is inferred",
+    "red bridging curves are appearance geometry, not verified electrical connections"
+  ]
+}

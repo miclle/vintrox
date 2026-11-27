@@ -1,0 +1,89 @@
+{
+  "baseline_fcstd_sha256": "81ca290b2a2ab1c9cb6d9a4a1f123b66d580cb04aec0d2fba88c4c931e4435b2",
+  "selected": "c",
+  "candidates": [
+    {
+      "candidate": "a",
+      "fcstd_sha256": "2e4af54bb418d2044362b57d4cf289f1d38a159066ae303db1733f3889b4df72",
+      "parameters_mm": [
+        53.5,
+        0.9,
+        95.2,
+        53.5
+      ],
+      "video_mean_iou": 0.8477886052346728,
+      "still_mean_iou": 0.8190876103123764,
+      "side_rms_px": 2.390457218668787,
+      "side_max_px": 6.0
+    },
+    {
+      "candidate": "b",
+      "fcstd_sha256": "b378efb2b468e26c8ff2508d4421ef6ea7ee871fd2269f41765160010c92de06",
+      "parameters_mm": [
+        52.82,
+        1.0,
+        95.6,
+        52.5
+      ],
+      "video_mean_iou": 0.847789887908893,
+      "still_mean_iou": 0.8190885534753228,
+      "side_rms_px": 2.220038609702865,
+      "side_max_px": 5.0
+    },
+    {
+      "candidate": "c",
+      "fcstd_sha256": "cff9e16f774611b4634ab3ae14ad6ceca04eac22d73635739a3011b093eee0e0",
+      "parameters_mm": [
+        52.82,
+        1.0,
+        95.6,
+        52.5
+      ],
+      "video_mean_iou": 0.8478015968252988,
+      "still_mean_iou": 0.8190991651743253,
+      "side_rms_px": 2.220038609702865,
+      "side_max_px": 5.0
+    }
+  ],
+  "formal_still_comparison": {
+    "mean_before": 0.8190795940810417,
+    "mean_after": 0.8190991651743253,
+    "views": [
+      {
+        "view": "still-01",
+        "iou": 0.8643896262443582,
+        "delta": 0.0
+      },
+      {
+        "view": "still-02",
+        "iou": 0.8667515988700324,
+        "delta": 0.0
+      },
+      {
+        "view": "still-03",
+        "iou": 0.8508764187287775,
+        "delta": 0.0
+      },
+      {
+        "view": "still-04",
+        "iou": 0.7792848792573981,
+        "delta": 0.0
+      },
+      {
+        "view": "still-05",
+        "iou": 0.7692005571568689,
+        "delta": 0.00013699765298491595
+      },
+      {
+        "view": "still-06",
+        "iou": 0.7355385671984598,
+        "delta": 0.0
+      },
+      {
+        "view": "still-closeup",
+        "iou": 0.8676525087643819,
+        "delta": 0.0
+      }
+    ]
+  }
+}

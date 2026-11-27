@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v257",
+      "model": "cad/drone-concept/comparison/v257-mirrored-nozzle-tips/candidate.FCStd",
+      "fcstd_sha256": "8ff77e07cc44211b70251a4c898078244b53bb7243f6e3737c083e653513ea26",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "8ff77e07cc44211b70251a4c898078244b53bb7243f6e3737c083e653513ea26",
+      "palette_contract_sha256": "5675ba9b8a144e99e5927d831e818581135eecc9fb079edee4a1c42fcb0b073b",
+      "native_color_triples": 70,
+      "mesh_color_triples": 70,
+      "max_native_vs_mesh_channel_difference": 2.9685450542160652e-08,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v257-isometric.png",
+          "sha256": "29824b6e4346fb63e4ffb111761757bbd098f364d0047daa3e50e5ced29f4b84"
+        },
+        {
+          "view": "front",
+          "path": "v257-front.png",
+          "sha256": "3463461a18f2733e4054b8eeeab182d54f5307f0db53f81b1b5c50383f6fd785"
+        },
+        {
+          "view": "rear",
+          "path": "v257-rear.png",
+          "sha256": "a6bb1ba16f4b6b8304b779634caf1ff66ef745592414780ef4c3d9c84ad6c29f"
+        },
+        {
+          "view": "right",
+          "path": "v257-right.png",
+          "sha256": "0a60e9da3fe127ba1114a2d7b57266dc4bcdbffcd33ffa407544eda45febe208"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

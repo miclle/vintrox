@@ -1,0 +1,30 @@
+{
+  "baseline_sha256": "7cb4dc6e74b327c4cf63b326b6f57a46057ea54a43fd433615e5f75a39947d5c",
+  "model_sha256": "cd0a03fb6622379bf251aae960f41ab975b88b5f3098933385db06bb86ed8f83",
+  "changes": [
+    {
+      "name": "RearServicePanel",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 416027.2720168876
+    },
+    {
+      "name": "RearRecessLiner",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 57299.332237017676
+    },
+    {
+      "name": "RearCyanFrame",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1011.2549968457333
+    }
+  ],
+  "recess_back_y_mm": 223,
+  "aperture_mm": [
+    138,
+    104
+  ],
+  "status": "candidate; fixed camera comparison pending"
+}

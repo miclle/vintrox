@@ -1,0 +1,67 @@
+{
+  "revision": "v65-speaker-analytic2-radial-shrink2",
+  "status": "candidate-retained-formal-v61-unchanged",
+  "baseline_revision": "v61-nozzle-fairing-depth3",
+  "baseline_fcstd_sha256": "b264b52ab81ca645865ab44196b3cabb8453abfd4f127afa49c29c41ffd973d2",
+  "candidate_fcstd_sha256": "e86ca06d5234fa4b81c0bc8bbc5ce26bff974454f03c9bf68400a54d63e89645",
+  "candidate_step_sha256": "80bebc26d00a933c237e6c289bf3975c5e5f7f6dafc960aac97b32b1161253a7",
+  "method": "analytic reconstruction after direct affine candidate failed with GeomAbs_C0 BOP error",
+  "radial_shrink_mm": 2.0,
+  "changed_objects": [
+    "SpeakerOuterLipLeft",
+    "SpeakerLipTrimLeft",
+    "SpeakerSurroundLeft",
+    "SpeakerCentreLeft",
+    "SpeakerHubNeckLeft",
+    "SpeakerVisualConeLeft",
+    "SpeakerOuterLipRight",
+    "SpeakerLipTrimRight",
+    "SpeakerSurroundRight",
+    "SpeakerCentreRight",
+    "SpeakerHubNeckRight",
+    "SpeakerVisualConeRight"
+  ],
+  "protected_features": [
+    "SupportShaft",
+    "SupportSocket",
+    "SupportFoot",
+    "CentralSupportSeat",
+    "ScreenPanel210x160x2",
+    "ActiveArea200x150",
+    "UtilityBarrel",
+    "CheekDial",
+    "CheekVentRib"
+  ],
+  "geometry_objects": 698,
+  "step_solids": 1010,
+  "registration": "camera projection only; no image warp, stretch or per-part alignment",
+  "video": {
+    "candidate_mean_silhouette_iou": 0.8544101656883332,
+    "baseline_mean_silhouette_iou": 0.8549201687353198,
+    "delta": -0.0005100030469866734,
+    "report": "video-comparison/comparison-report.json"
+  },
+  "stills": {
+    "candidate_mean_silhouette_iou": 0.8224045659438673,
+    "baseline_mean_silhouette_iou": 0.8222681557450596,
+    "delta": 0.00013641019880772376,
+    "report": "stills-comparison/comparison-report.json"
+  },
+  "decision": "retain-v61-formal-baseline",
+  "decision_basis": "static views improve slightly but video ten-view aggregate regresses; no promotion without aggregate improvement",
+  "limitations": [
+    "screen-space silhouette diagnostic only",
+    "black-material/background ambiguity",
+    "curved reference screen approximated by flat measured screen plus transparent cover",
+    "no physical/manufacturing/fit/optical/acoustic/thermal/electrical acceptance"
+  ],
+  "artifacts": {
+    "candidate_check": "candidate-check.json",
+    "video_render_manifest": "video-renders/render-manifest.json",
+    "still_render_manifest": "still-renders/render-manifest.json",
+    "video_comparison": "video-comparison/comparison-report.json",
+    "stills_comparison": "stills-comparison/comparison-report.json"
+  },
+  "color_status": "object-level palette restored; 74 distinct RGB triples",
+  "direct_affine_failure": "v65-speaker-radial096: GeomAbs_C0 BOP error; retained as failed experiment outside this candidate directory"
+}

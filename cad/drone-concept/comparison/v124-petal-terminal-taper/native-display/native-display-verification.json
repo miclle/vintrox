@@ -1,0 +1,92 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "moderate",
+      "model": "/private/tmp/vintrox-v124.lQxfWa/moderate/candidate.FCStd",
+      "fcstd_sha256": "b46d021d18a1edd01bf6d171d00c13f257ef4483a7e49a668aa033d61caaecac",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "b46d021d18a1edd01bf6d171d00c13f257ef4483a7e49a668aa033d61caaecac",
+      "palette_contract_sha256": "f261c8fd0d500f8aa8f0e5cbeb664fb54468a92c481a6884f6f6dd9eae9a904d",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "moderate-isometric.png",
+          "sha256": "ad7ee7f2d3297a14b417a13df497f09ef20b73ba122e2dfdd7f2978141b7be67"
+        },
+        {
+          "view": "front",
+          "path": "moderate-front.png",
+          "sha256": "f57e8986a5273a2859149cdfa33d501b1e58a16f9735e34dd3cdc1b69ba61191"
+        },
+        {
+          "view": "rear",
+          "path": "moderate-rear.png",
+          "sha256": "fb28fcc080a81e50ff081cd833dbcce60d8f7608e2d603de38ac4e8b67248c10"
+        },
+        {
+          "view": "right",
+          "path": "moderate-right.png",
+          "sha256": "5d93a16e9e60192765970c119eb728d87600bedc4dfdb3278c6dc54dc3e23736"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    },
+    {
+      "name": "extended",
+      "model": "/private/tmp/vintrox-v124.lQxfWa/extended/candidate.FCStd",
+      "fcstd_sha256": "6c458a745681e5ea17fc3eb2fe9acd7cc9075614197770523a8af3a4e9679a60",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "6c458a745681e5ea17fc3eb2fe9acd7cc9075614197770523a8af3a4e9679a60",
+      "palette_contract_sha256": "53e8edf30d1ae4edfe63f768c1d6501f9480bdc463da2929ef7fde36aca7c736",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "extended-isometric.png",
+          "sha256": "d7b3699b76edad1fec812f10c1dbcd4ce767b6ba1b3f2b580067e47f1caf260b"
+        },
+        {
+          "view": "front",
+          "path": "extended-front.png",
+          "sha256": "9a28ee3f837c63ad0b97fdddc7013f0c69c111d57298d9d2dccae46cf323024a"
+        },
+        {
+          "view": "rear",
+          "path": "extended-rear.png",
+          "sha256": "a40041dcb5080ba3eab65795cac39aec14831a5e1a4fa136ebf2031fd0680524"
+        },
+        {
+          "view": "right",
+          "path": "extended-right.png",
+          "sha256": "855b16cc6157adf9992f4ec7e2fb9710d7ceb4fd5d4318b3dd882236cecdfcec"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

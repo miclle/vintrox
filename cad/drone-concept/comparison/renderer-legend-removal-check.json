@@ -1,0 +1,99 @@
+{
+  "change": "remove unsupported render-only English control legend; cameras, lighting and segmentation unchanged",
+  "baseline_fcstd_sha256": "fe014fff58c9d9183f3943a6a998015af256a8700dd60c7be92ab162df78976d",
+  "renderer_sha256": "ef878b1f70792030073f9b96e78d359dfb9d327621a0a1fe4ca5ea661511d89e",
+  "previous_mean_iou": 0.662278148202433,
+  "current_mean_iou": 0.6622783037556904,
+  "images": [
+    {
+      "view": "video-00",
+      "previous_path": "cad/drone-concept/comparison/baseline-raw-v11-renders/video-00.png",
+      "previous_sha256": "76f4def7bab4ca91843bba327701a26a68bbde73718bd0b7bf60802b7f9aa99b",
+      "current_path": "cad/drone-concept/comparison/baseline-raw-v23-renders/video-00.png",
+      "current_sha256": "6a95bd10437c2b11edecd4a9d05476f345008d7da9866e71ef03a6cc681b2099",
+      "different_alpha_pixels": 0,
+      "different_primary_mask_pixels": 0
+    },
+    {
+      "view": "video-01",
+      "previous_path": "cad/drone-concept/comparison/baseline-raw-v11-renders/video-01.png",
+      "previous_sha256": "8ae71542e5ba34565b56dcd687338f64fc4b8d4822d5e9cdcc5cab06109098cf",
+      "current_path": "cad/drone-concept/comparison/baseline-raw-v23-renders/video-01.png",
+      "current_sha256": "7352b566cf6b463e2d60aef7f47e69766163b606459ffcb0eea017d3c0a6db9c",
+      "different_alpha_pixels": 0,
+      "different_primary_mask_pixels": 0
+    },
+    {
+      "view": "video-02",
+      "previous_path": "cad/drone-concept/comparison/baseline-raw-v11-renders/video-02.png",
+      "previous_sha256": "38d499aa6b688763a5ee2163dc4f9f0bc2a4d797874b883c7403f296e0cbeb61",
+      "current_path": "cad/drone-concept/comparison/baseline-raw-v23-renders/video-02.png",
+      "current_sha256": "f05a9d5a674e06d46d22bfee49264b496724aa109727f7b7c2693127a9848fc8",
+      "different_alpha_pixels": 0,
+      "different_primary_mask_pixels": 0
+    },
+    {
+      "view": "video-03",
+      "previous_path": "cad/drone-concept/comparison/baseline-raw-v11-renders/video-03.png",
+      "previous_sha256": "00895cfc5a1e89e68a193261bf188e5cc3d91dba848d61d7487e551d19bfed0a",
+      "current_path": "cad/drone-concept/comparison/baseline-raw-v23-renders/video-03.png",
+      "current_sha256": "d467c0afe02d89098043825b9943a268f223d5b2ca7b41db8c92914ea7918724",
+      "different_alpha_pixels": 0,
+      "different_primary_mask_pixels": 0
+    },
+    {
+      "view": "video-04",
+      "previous_path": "cad/drone-concept/comparison/baseline-raw-v11-renders/video-04.png",
+      "previous_sha256": "1ea0be56c99171ab401d1d6cdc8605f880ef79efea0acac2b013716b6f793db9",
+      "current_path": "cad/drone-concept/comparison/baseline-raw-v23-renders/video-04.png",
+      "current_sha256": "cc444ad3a3026b17ad704623d6504d3808808eae4a62e546d51fd13cbfa98a12",
+      "different_alpha_pixels": 0,
+      "different_primary_mask_pixels": 0
+    },
+    {
+      "view": "video-05",
+      "previous_path": "cad/drone-concept/comparison/baseline-raw-v11-renders/video-05.png",
+      "previous_sha256": "643f47029efa08990c0ebe20922b167e9282a47a5875ac9c4cbcf1e35b874baf",
+      "current_path": "cad/drone-concept/comparison/baseline-raw-v23-renders/video-05.png",
+      "current_sha256": "c9a6a3bc64a8b7938620fe60e2bc2a0da518abde2ca1588adcb28792d8ad74cf",
+      "different_alpha_pixels": 0,
+      "different_primary_mask_pixels": 0
+    },
+    {
+      "view": "video-06",
+      "previous_path": "cad/drone-concept/comparison/baseline-raw-v11-renders/video-06.png",
+      "previous_sha256": "dddbbd8aa865d1dafa1b419ac18edffc7fb0099f12182789bf2d81a7d41668a5",
+      "current_path": "cad/drone-concept/comparison/baseline-raw-v23-renders/video-06.png",
+      "current_sha256": "4aa8c6b6dcbd9ea4a3026bda60e6b2cea36cab4c62fde8e98fab287252c23463",
+      "different_alpha_pixels": 0,
+      "different_primary_mask_pixels": 0
+    },
+    {
+      "view": "video-07",
+      "previous_path": "cad/drone-concept/comparison/baseline-raw-v11-renders/video-07.png",
+      "previous_sha256": "9c125d30fd2ae6120a736f17714b0136b728e429f95e41e24e288ea109b0fa51",
+      "current_path": "cad/drone-concept/comparison/baseline-raw-v23-renders/video-07.png",
+      "current_sha256": "55e8a6fd2b0581e53f04257d00cf4dba1f8ed72b46c2f4c100b00bcbea768417",
+      "different_alpha_pixels": 11,
+      "different_primary_mask_pixels": 1
+    },
+    {
+      "view": "video-08",
+      "previous_path": "cad/drone-concept/comparison/baseline-raw-v11-renders/video-08.png",
+      "previous_sha256": "7a2fef0ebfc64cdc2a57a3dfab25d4f44a3091e0bd36ebd0a9237261eaeea6f8",
+      "current_path": "cad/drone-concept/comparison/baseline-raw-v23-renders/video-08.png",
+      "current_sha256": "0a4c671ed2c47da6df3889d02fab1701953465bc8ce922a0e88ca1b9b2b32abf",
+      "different_alpha_pixels": 0,
+      "different_primary_mask_pixels": 0
+    },
+    {
+      "view": "video-09",
+      "previous_path": "cad/drone-concept/comparison/baseline-raw-v11-renders/video-09.png",
+      "previous_sha256": "6717243f4bb42d8d96bc99dde638b4cf6bec374ce7bcacfac6e88e59ee64faef",
+      "current_path": "cad/drone-concept/comparison/baseline-raw-v23-renders/video-09.png",
+      "current_sha256": "b8c0f15feb58259a44cdd7f0ca9dffdf0d8ca94b9041ce319bb93bd47416d304",
+      "different_alpha_pixels": 0,
+      "different_primary_mask_pixels": 0
+    }
+  ]
+}

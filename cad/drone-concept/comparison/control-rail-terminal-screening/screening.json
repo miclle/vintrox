@@ -1,0 +1,90 @@
+{
+  "baseline": "v193-lowerpod-rib-rails-bezel",
+  "baseline_scores": {
+    "video": 0.8591005233796649,
+    "stills": 0.8253387622746094,
+    "sheet": 0.8966408819033346
+  },
+  "candidates": [
+    {
+      "candidate": "v219",
+      "shift_y_mm": -0.25,
+      "group": "end_only",
+      "fcstd_sha256": "b6839e6771b3a61678f5c5f9bba580c722931f51a94da2910a823c27db8ad54c",
+      "step_sha256": "35d5222f43a0931e2d62685637cc3b33a5677b367147fff5fc731dee0a6ff04a",
+      "changed_objects": [
+        "ControlRailEndLeft",
+        "ControlRailEndRight",
+        "ControlEndBoltLeft",
+        "ControlEndBoltRight"
+      ],
+      "scores": {
+        "video": 0.8590785066097091
+      },
+      "delta_vs_v193": {
+        "video": -2.2016769955834903e-05
+      },
+      "decision": "retain v193"
+    },
+    {
+      "candidate": "v220",
+      "shift_y_mm": -0.25,
+      "group": "lip_only",
+      "fcstd_sha256": "55031b8b15db9b35f5ca9c21c3ce33ee97ad657bfd8ba4f931e11b0f16ed9392",
+      "step_sha256": "9b35c0c147d04143de82ff9f16ff381a63bff6fe9da056e07bc3b49530c738cc",
+      "changed_objects": [
+        "ControlRailLip"
+      ],
+      "scores": {
+        "video": 0.8591385241461829,
+        "stills": 0.8253131393752744,
+        "sheet": 0.8966889022348724
+      },
+      "delta_vs_v193": {
+        "video": 3.800076651794271e-05,
+        "stills": -2.5622899335053795e-05,
+        "sheet": 4.802033153783469e-05
+      },
+      "decision": "retain v193"
+    },
+    {
+      "candidate": "v221",
+      "shift_y_mm": -0.1,
+      "group": "lip_only",
+      "fcstd_sha256": "4f56cb77aa2630bc9e7160916f323a436c7352a10081b94903a2b4320bef5862",
+      "step_sha256": "9ffc695b55ada5b90eab13c7dac72617d7da18639947e0b2fdb0a5533049f3ee",
+      "changed_objects": [
+        "ControlRailLip"
+      ],
+      "scores": {
+        "video": 0.8591155662768385
+      },
+      "delta_vs_v193": {
+        "video": 1.5042897173578318e-05
+      },
+      "decision": "retain v193"
+    }
+  ],
+  "method": "split terminal control CAD objects with calibrated fixed-camera renders, overlays, edges, and differences",
+  "protected_features": [
+    "ScreenPanel210x160x2",
+    "ActiveArea200x150",
+    "UtilityBarrel",
+    "CheekDial",
+    "CheekVentRib",
+    "SupportShaft",
+    "SupportSocket",
+    "SupportFoot",
+    "CentralSupportSeat"
+  ],
+  "mesh_storage": "not stored in Git; rebuild from candidate FCStd with tools/export_saved_drone_meshes.py",
+  "decision": "retain v193",
+  "next_focus": [
+    "stop global rail shifts; use still-05 local occlusion and terminal geometry"
+  ],
+  "limitations": [
+    "control rail placement is an appearance hypothesis",
+    "v221 has video-only screening",
+    "no manufacturing, fit, acoustic, thermal, electrical, or physical acceptance"
+  ]
+}

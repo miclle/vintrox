@@ -1,0 +1,405 @@
+{
+  "fcstd_sha256": "efc7186b63652eab3579587e9e3f9243b245138eaeac0700776390fb13abcdd4",
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "measurement_script_sha256": "cb285b82b3f457c4919d2a10fded1070a2a0e080d0587fa5a3addf7c27086163",
+  "object_id_manifest_sha256": "6718625ef2785c2f3fb5f537038780c4b6b4cac709234287f1b813588cb8dfd2",
+  "source_files": [
+    {
+      "path": "cad/drone-concept/comparison/fairing-depth-v49-study/d4-clearance/ids/video-03.png",
+      "sha256": "90d9e042ab8c6e75846ef97fd7c29185c32d8eff5fa604271481767ed7b914f2"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-depth-v49-study/d4-clearance/video/reference-frames/frame-04.png",
+      "sha256": "0d8806db3363c684e6e42e641883d59705af1a938511637a2cbb9c88a116a82f"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-depth-v49-study/d4-clearance/video-renders/video-03.png",
+      "sha256": "13a09bb630d0bb1d3783aec2d48c61effe37415099b679bbfaa684458d83f725"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-depth-v49-study/d4-clearance/ids/video-04.png",
+      "sha256": "383a0b6cd74c08757f00db4bf5edfc731db649543e362879731d4bec4aeeeb71"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-depth-v49-study/d4-clearance/video/reference-frames/frame-05.png",
+      "sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-depth-v49-study/d4-clearance/video-renders/video-04.png",
+      "sha256": "e13041b6d30420e2ed243ac5d1a0a15aa1e7ba1f1aef3ae67aac3ccf350d4c7d"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-depth-v49-study/d4-clearance/ids/video-05.png",
+      "sha256": "adc09a814dab32b1fa622d8398d616100521fa601d3311d83ca382b467f6eb34"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-depth-v49-study/d4-clearance/video/reference-frames/frame-06.png",
+      "sha256": "6163748cf00f271a738409696656ddd46ca93481e0bfab683b656e6e8a38a204"
+    },
+    {
+      "path": "cad/drone-concept/comparison/fairing-depth-v49-study/d4-clearance/video-renders/video-05.png",
+      "sha256": "5379203d25dc73a5e926cefd1c5c4bafd322001deb5babd60c0fd04d6f171fab"
+    }
+  ],
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "observations": [
+    {
+      "source_frame": 90,
+      "reference_px": [
+        [
+          297,
+          408
+        ],
+        [
+          312,
+          396
+        ],
+        [
+          331,
+          389
+        ],
+        [
+          351,
+          385
+        ],
+        [
+          372,
+          383
+        ],
+        [
+          394,
+          385
+        ],
+        [
+          416,
+          392
+        ],
+        [
+          435,
+          408
+        ],
+        [
+          449,
+          431
+        ],
+        [
+          458,
+          459
+        ],
+        [
+          464,
+          485
+        ]
+      ],
+      "nearest_visible_px": [
+        [
+          303,
+          413
+        ],
+        [
+          315,
+          399
+        ],
+        [
+          335,
+          389
+        ],
+        [
+          353,
+          378
+        ],
+        [
+          372,
+          381
+        ],
+        [
+          394,
+          384
+        ],
+        [
+          416,
+          392
+        ],
+        [
+          434,
+          405
+        ],
+        [
+          449,
+          425
+        ],
+        [
+          459,
+          459
+        ],
+        [
+          459,
+          485
+        ]
+      ],
+      "distance_px": [
+        7.810249675906654,
+        4.242640687119285,
+        4.0,
+        7.280109889280518,
+        2.0,
+        1.0,
+        0.0,
+        3.1622776601683795,
+        6.0,
+        1.0,
+        5.0
+      ],
+      "rms_px": 4.522670168666454,
+      "max_px": 7.810249675906654
+    },
+    {
+      "source_frame": 120,
+      "reference_px": [
+        [
+          340,
+          447
+        ],
+        [
+          350,
+          425
+        ],
+        [
+          370,
+          408
+        ],
+        [
+          395,
+          397
+        ],
+        [
+          425,
+          390
+        ],
+        [
+          455,
+          386
+        ],
+        [
+          483,
+          386
+        ],
+        [
+          512,
+          389
+        ],
+        [
+          542,
+          398
+        ],
+        [
+          567,
+          413
+        ],
+        [
+          584,
+          432
+        ],
+        [
+          598,
+          456
+        ]
+      ],
+      "nearest_visible_px": [
+        [
+          342,
+          448
+        ],
+        [
+          344,
+          425
+        ],
+        [
+          368,
+          406
+        ],
+        [
+          398,
+          390
+        ],
+        [
+          425,
+          383
+        ],
+        [
+          455,
+          382
+        ],
+        [
+          483,
+          381
+        ],
+        [
+          512,
+          383
+        ],
+        [
+          541,
+          397
+        ],
+        [
+          572,
+          403
+        ],
+        [
+          602,
+          432
+        ],
+        [
+          605,
+          453
+        ]
+      ],
+      "distance_px": [
+        2.23606797749979,
+        6.0,
+        2.8284271247461903,
+        7.615773105863909,
+        7.0,
+        4.0,
+        5.0,
+        6.0,
+        1.4142135623730951,
+        11.180339887498949,
+        18.0,
+        7.615773105863909
+      ],
+      "rms_px": 7.863417408056966,
+      "max_px": 18.0
+    },
+    {
+      "source_frame": 150,
+      "reference_px": [
+        [
+          488,
+          431
+        ],
+        [
+          499,
+          411
+        ],
+        [
+          519,
+          397
+        ],
+        [
+          541,
+          389
+        ],
+        [
+          564,
+          383
+        ],
+        [
+          587,
+          380
+        ],
+        [
+          610,
+          378
+        ],
+        [
+          633,
+          383
+        ],
+        [
+          653,
+          395
+        ],
+        [
+          669,
+          418
+        ],
+        [
+          681,
+          444
+        ],
+        [
+          688,
+          473
+        ]
+      ],
+      "nearest_visible_px": [
+        [
+          489,
+          431
+        ],
+        [
+          502,
+          414
+        ],
+        [
+          518,
+          398
+        ],
+        [
+          542,
+          390
+        ],
+        [
+          564,
+          381
+        ],
+        [
+          587,
+          379
+        ],
+        [
+          610,
+          375
+        ],
+        [
+          633,
+          375
+        ],
+        [
+          653,
+          390
+        ],
+        [
+          677,
+          414
+        ],
+        [
+          686,
+          444
+        ],
+        [
+          689,
+          473
+        ]
+      ],
+      "distance_px": [
+        1.0,
+        4.242640687119285,
+        1.4142135623730951,
+        1.4142135623730951,
+        2.0,
+        1.0,
+        3.0,
+        8.0,
+        5.0,
+        8.94427190999916,
+        5.0,
+        1.0
+      ],
+      "rms_px": 4.396968652757639,
+      "max_px": 8.94427190999916
+    }
+  ],
+  "rms_px": 5.852960179015645,
+  "max_px": 18.0,
+  "image_path": "cad/drone-concept/comparison/fairing-depth-v49-study/d4-clearance/upper-check.png",
+  "image_sha256": "b51a39b78f19fa7f1b7448e1d4a89925101fd7eda5981057ec524881c88147fd",
+  "limitations": [
+    "manual 35-point visible upper boundary; incomplete outer contour",
+    "occlusion boundary depends on neighbouring parts and fixed camera",
+    "closest-point distance permits correspondence ambiguity",
+    "not a fit result, manufacturing measurement or whole-model acceptance"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "mesh_files": [
+    {
+      "role": "a",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/a-meshes.json",
+      "sha256": "e54e1b57a39e293aa89eb28c3019a03399d2f7a30fde4b3524d6a2a9a92cbe58"
+    },
+    {
+      "role": "b",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/b-meshes.json",
+      "sha256": "cb200d760679a0cda22346cb74a5ee04747bc473b74b84040ca5c8cac3e2b2a7"
+    },
+    {
+      "role": "c",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/c-meshes.json",
+      "sha256": "c648141d1d9edf435d3b52160c76408c2c4a02e3c8b56be3b2a97f4f731557d0"
+    },
+    {
+      "role": "formal-v52",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/formal/render-meshes.json",
+      "sha256": "6e946dc961b10da482337e3c42f1f26e6f716ba3d26043468c6be6cef6b99e07"
+    }
+  ],
+  "exact_v51_baseline": {
+    "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-fairing-shoulder-cache/checkpoint-v51/vintrox-drone-concept.FCStd",
+    "sha256": "d78a7df3e0c30b9c9571b800d308b93ecc75080ae431346db978942929e9550d"
+  },
+  "checkpoint": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/checkpoint-v52/checkpoint.json",
+  "frozen_sources": [
+    {
+      "repo_source": "tools/drone_concept.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/drone_concept.py",
+      "sha256": "3973690306b192c0caa91a58d1e8af51a6c1dfde11a57f9e36d37a8a5763e744"
+    },
+    {
+      "repo_source": "tools/drone_nozzle_markings.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/drone_nozzle_markings.py",
+      "sha256": "86f338949864c8c4e4da14adb1ba42891f51dad4d92d4ef0c407dfa30d3bac88"
+    },
+    {
+      "repo_source": "tools/drone_fairing_shoulder.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/drone_fairing_shoulder.py",
+      "sha256": "07b0a81b836568eb9a8d4797e8f666edb6c11799f67c92d6022b64d26d041246"
+    },
+    {
+      "repo_source": "tools/experiment_drone_nozzle_markings.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/experiment_drone_nozzle_markings.py",
+      "sha256": "ece5f2c3581fc930d758883bc952ff2b583a9a03595d4959d31fe006893f6b7a"
+    },
+    {
+      "repo_source": "tools/refine_drone_nozzle_markings.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/refine_drone_nozzle_markings.py",
+      "sha256": "c26db4591b945c654a4cd334c2e6b5a9549b320681150a941eaf2ff369a3b211"
+    },
+    {
+      "repo_source": "tools/measure_drone_warning_geometry.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/measure_drone_warning_geometry.py",
+      "sha256": "212ff9fd99aa23fd71bc444a1c95da10979ccd70c6baf0f7f4cf651050ddaa03"
+    },
+    {
+      "repo_source": "tools/measure_drone_nozzle_markings.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/measure_drone_nozzle_markings.py",
+      "sha256": "bfa46a7452f7f311f978035b72b5b413aba1b1c70efb95b8838ad2a3959b238a"
+    },
+    {
+      "repo_source": "tools/render_drone_concept.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/render_drone_concept.py",
+      "sha256": "bf79f2d4a1ea54a97efcd8e4f1f23221bf8434c9eda69a67e3fbf6642c59db4b"
+    },
+    {
+      "repo_source": "tools/verify_drone_delivery.py",
+      "path": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/verify_drone_delivery.py",
+      "sha256": "13ad2ec3d945174b09ecc90540b82e76028f08ad14206be0d09c98f5471b3650"
+    }
+  ],
+  "execution_logs_and_scripts": "/Users/miclle/.codex/visualizations/2026/10/22/01a163d7-dc98-7ce1-af6b-9aa3d7bf5546/drone-nozzle-marking-cache/work",
+  "candidate_rerender_note": "Restore meshes.json from cache; a/b use their frozen display metadata; formal c uses current renderer."
+}

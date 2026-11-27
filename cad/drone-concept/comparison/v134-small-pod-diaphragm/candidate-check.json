@@ -1,0 +1,36 @@
+{
+  "baseline_fcstd_sha256": "62bd42e4dd4320df1d42bfa9466fa7320e7f8bcb243553304c498ebcf6ba9a3f",
+  "fcstd_sha256": "ff2641aa104ca948443bc3c1f57a99f4b62aed820b48f1e515a03538b779e1ab",
+  "changed_objects": [
+    "LowerPodDiaphragm_1",
+    "LowerPodDiaphragm_001"
+  ],
+  "new_advanced_check_failures": [],
+  "contact_checks_pending": false,
+  "parts": [
+    {
+      "name": "LowerPodDiaphragm_1",
+      "local_z_mm": 42,
+      "height_mm": 2,
+      "base_radius_mm": 22.8,
+      "front_radius_mm": 19.0
+    },
+    {
+      "name": "LowerPodDiaphragm_001",
+      "local_z_mm": 42,
+      "height_mm": 2,
+      "base_radius_mm": 22.8,
+      "front_radius_mm": 19.0
+    }
+  ],
+  "contact_regressions": [],
+  "independent_verification_sha256": "77e868cde937c9afc07347035207f749391bfefea9d36fed09f8be7e16d7e920",
+  "diagnostic_fcstd_sha256": "01d5e491533012b6137b2a515e3238ae466c55972227d53baf66f27517699068",
+  "step_sha256": "0a634dc2c4664060499038eec115e224c0b095a422c5559db206e1b2e9b1c1e4",
+  "finalizer_sha256": "116e96bd548782a090f1da8e07458e7983d6291c1754e76844877b3b2b146f7f",
+  "appearance_source_sha256": "62bd42e4dd4320df1d42bfa9466fa7320e7f8bcb243553304c498ebcf6ba9a3f",
+  "gui_members_copied": 2095,
+  "unchanged_archive_members_restored": 1096,
+  "geometry_unchanged_during_gui_restore": true,
+  "changed_mesh_geometry": "retessellated from final reopened FCStd"
+}

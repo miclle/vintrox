@@ -1,0 +1,199 @@
+{
+  "baseline_revision": "v53-belly-side-relief",
+  "formal_fcstd_sha256": "aa3de1dc9dcea5a511dd01cfba77d394fdd4a178254d170eb1f1bc369c0389b4",
+  "trials": [
+    {
+      "name": "r0.8",
+      "adopted": false,
+      "candidate_fcstd_sha256": "b7b35c3644c9400e940e6fab7b9cc4b3ff98df102bfdfd0a2baf2838f4669e0d",
+      "radius_mm": 0.8,
+      "removed_volume_mm3": 193.12001119545386,
+      "added_volume_mm3": 0.0,
+      "preserved_shape_signature_count": 697,
+      "shafts": [
+        {
+          "name": "SupportShaftFrontLeft",
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "name": "SupportShaftRearLeft",
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "name": "SupportShaftFrontRight",
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "name": "SupportShaftRearRight",
+          "symmetric_difference_mm3": 0.0
+        }
+      ],
+      "contacts": [
+        {
+          "name": "RearServicePanel",
+          "before_gap_mm": 0.0,
+          "gap_mm": 0.0,
+          "overlap_mm3": 11000.871241586825
+        },
+        {
+          "name": "RearArmourCheekLeft",
+          "before_gap_mm": 0.0,
+          "gap_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "name": "RearArmourCheekRight",
+          "before_gap_mm": 0.0,
+          "gap_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "name": "RearRailCarrier",
+          "before_gap_mm": 0.0,
+          "gap_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "name": "RearRecessLiner",
+          "before_gap_mm": 0.0,
+          "gap_mm": 0.0,
+          "overlap_mm3": 947.3246316179875
+        }
+      ],
+      "comparisons": [
+        {
+          "group": "video",
+          "mean_percent": 85.0303138566861,
+          "view_deltas_percentage_points": {
+            "video-00": 0.0,
+            "video-01": 0.0,
+            "video-02": 0.0,
+            "video-03": 0.0,
+            "video-04": 0.0,
+            "video-05": 0.0,
+            "video-06": 0.0,
+            "video-07": 0.0,
+            "video-08": 0.0,
+            "video-09": 0.0
+          },
+          "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+          "report_sha256": "b509bd4f089d7a7252fb699eee4eb6709e1715befc2509793ac91994aff88fdf"
+        },
+        {
+          "group": "stills",
+          "mean_percent": 81.99829164677973,
+          "view_deltas_percentage_points": {
+            "still-01": 0.0,
+            "still-02": 0.0,
+            "still-03": 0.0,
+            "still-04": 0.0,
+            "still-05": 0.0,
+            "still-06": 0.0,
+            "still-closeup": 0.0
+          },
+          "camera_config_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+          "report_sha256": "14604ef7dd960e900e7336192c16095f516d466b2686c5fdace1acd0b6add864"
+        }
+      ]
+    },
+    {
+      "name": "r2.5",
+      "adopted": false,
+      "candidate_fcstd_sha256": "9aa09cb863ccfea7da5f71017a5f22f8da579acfc6a606d9d601711e24a6d73e",
+      "radius_mm": 2.5,
+      "removed_volume_mm3": 1893.5902739161581,
+      "added_volume_mm3": 0.0,
+      "preserved_shape_signature_count": 697,
+      "shafts": [
+        {
+          "name": "SupportShaftFrontLeft",
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "name": "SupportShaftRearLeft",
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "name": "SupportShaftFrontRight",
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "name": "SupportShaftRearRight",
+          "symmetric_difference_mm3": 0.0
+        }
+      ],
+      "contacts": [
+        {
+          "name": "RearServicePanel",
+          "before_gap_mm": 0.0,
+          "gap_mm": 0.0,
+          "overlap_mm3": 10946.97570926544
+        },
+        {
+          "name": "RearArmourCheekLeft",
+          "before_gap_mm": 0.0,
+          "gap_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "name": "RearArmourCheekRight",
+          "before_gap_mm": 0.0,
+          "gap_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "name": "RearRailCarrier",
+          "before_gap_mm": 0.0,
+          "gap_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "name": "RearRecessLiner",
+          "before_gap_mm": 0.0,
+          "gap_mm": 0.0,
+          "overlap_mm3": 481.68692037543616
+        }
+      ],
+      "comparisons": [
+        {
+          "group": "video",
+          "mean_percent": 85.0303138566861,
+          "view_deltas_percentage_points": {
+            "video-00": 0.0,
+            "video-01": 0.0,
+            "video-02": 0.0,
+            "video-03": 0.0,
+            "video-04": 0.0,
+            "video-05": 0.0,
+            "video-06": 0.0,
+            "video-07": 0.0,
+            "video-08": 0.0,
+            "video-09": 0.0
+          },
+          "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+          "report_sha256": "097c6874ff6076551622d7c7251c177ba963ab588080a10e03ac768915873c43"
+        },
+        {
+          "group": "stills",
+          "mean_percent": 81.99829164677973,
+          "view_deltas_percentage_points": {
+            "still-01": 0.0,
+            "still-02": 0.0,
+            "still-03": 0.0,
+            "still-04": 0.0,
+            "still-05": 0.0,
+            "still-06": 0.0,
+            "still-closeup": 0.0
+          },
+          "camera_config_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+          "report_sha256": "ca49f247bf6fb1555c71315e628e4913a8398d8fb1c20f2d0a2081db5cd8d9d4"
+        }
+      ]
+    }
+  ],
+  "decision": "Neither adopted: roundover emphasizes a separate inset-frame line not clearly supported by the source. Test lighting interpretation before further shell removal.",
+  "geometry_scope": "Inner perimeter; fillet propagates beyond the two straight seed edges.",
+  "invalid_shoulder_fillet_trials": "Six direct lower-shoulder fillets failed OCCT; no saved candidate adopted.",
+  "formal_model_changed": false,
+  "visual_target_met": false
+}

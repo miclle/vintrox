@@ -1,0 +1,82 @@
+{
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "method": "Manual reference centers and fixed-camera projection of CAD socket centers",
+  "limitations": [
+    "The reference points guided the position of v120.",
+    "Depth uses the saved cap geometry.",
+    "Frame 120 obscures the socket with the cable."
+  ],
+  "models": [
+    {
+      "name": "first-candidate",
+      "fcstd_sha256": "4a129c57ccb72c75e22b968d8254b5e91bf9174a9e6a0212c8346f4baa9fe2e4",
+      "center_mm": [
+        -120.5,
+        158.35,
+        76
+      ],
+      "views": [
+        {
+          "source_frame": 60,
+          "observed_px": [
+            537,
+            642
+          ],
+          "projected_px": [
+            518.0038241570613,
+            636.1470800984109
+          ],
+          "distance_px": 19.877408483760256
+        },
+        {
+          "source_frame": 90,
+          "observed_px": [
+            698,
+            620
+          ],
+          "projected_px": [
+            655.950268880127,
+            618.8737553078821
+          ],
+          "distance_px": 42.06481087988076
+        }
+      ]
+    },
+    {
+      "name": "v120",
+      "fcstd_sha256": "813c10ec44f6351a5dd68e6b396525e50995ddebb0ab4e81428cfeb977ded390",
+      "center_mm": [
+        -143.8,
+        157.72,
+        78.5
+      ],
+      "views": [
+        {
+          "source_frame": 60,
+          "observed_px": [
+            537,
+            642
+          ],
+          "projected_px": [
+            536.9569177543857,
+            641.806212284755
+          ],
+          "distance_px": 0.198518912114288
+        },
+        {
+          "source_frame": 90,
+          "observed_px": [
+            698,
+            620
+          ],
+          "projected_px": [
+            699.4234692978696,
+            619.7475058393875
+          ],
+          "distance_px": 1.4456895043960007
+        }
+      ]
+    }
+  ]
+}

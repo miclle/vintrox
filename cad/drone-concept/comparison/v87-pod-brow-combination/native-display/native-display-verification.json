@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v87-pod-brow-combination",
+      "model": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/v87-pod-brow-combination/candidate.FCStd",
+      "fcstd_sha256": "981effa35c06a1932d877d92d9d5a63dc3823f030c1fa08ae84d88e97ed1b496",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "981effa35c06a1932d877d92d9d5a63dc3823f030c1fa08ae84d88e97ed1b496",
+      "palette_contract_sha256": "acbaeca94db35576fd444a30fcda7925d848a14c60a58be4b186fb612c62d0e6",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v87-pod-brow-combination-isometric.png",
+          "sha256": "deb4f03a0f7cdeb36c965d4329d235424e10e7737494ff97cf72dd86268e77b0"
+        },
+        {
+          "view": "front",
+          "path": "v87-pod-brow-combination-front.png",
+          "sha256": "8033216b0523202555393cabb55fdbf9b516aca93fad4d641d0458b739301b2a"
+        },
+        {
+          "view": "rear",
+          "path": "v87-pod-brow-combination-rear.png",
+          "sha256": "cebf08c67e184bf7f00321fc66e598286c9f29ebab8e00d5d09227fc6a3d8795"
+        },
+        {
+          "view": "right",
+          "path": "v87-pod-brow-combination-right.png",
+          "sha256": "9872e95f477ff784938f1bb18c4b3b12cc6b99ace0051b373fb5c25514ef8228"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

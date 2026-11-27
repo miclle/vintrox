@@ -1,0 +1,46 @@
+{
+  "baseline": "v222-belly-floor515",
+  "baseline_fcstd_sha256": "2f5b3ed2c72c72dc69fae50b0bca8c349589186283dd9e67d403b8e991305218",
+  "baseline_video_mean_silhouette_iou": 0.8591200614245496,
+  "candidates": [
+    {
+      "candidate": "v226",
+      "fcstd_sha256": "f3277e671e78609d04b5c54dbb7a6fae9ea6fe2b6137db530f3485d3c4cf839c",
+      "step_sha256": "68730fa46559b2a42e7ff701f6cfbb6f4941e89d228312b1f4594630f9a25fe9",
+      "width_scale": 0.99,
+      "height_scale": 1.0,
+      "video_mean_silhouette_iou": 0.8591200614245496,
+      "per_view_delta": 0.0,
+      "changed_objects": [
+        "ControlRail",
+        "ControlInset",
+        "ControlRailLip",
+        "ControlKeyBed"
+      ],
+      "decision": "retain v222"
+    },
+    {
+      "candidate": "v227",
+      "fcstd_sha256": "e60a0feb0ec95362e29a356419a6cbd1b6b269fac9af3e13ee2ebaa40bbe21d8",
+      "step_sha256": "32b9c298d50cf9ddee1d2bb0a8a18fee6f27ba9f492e65860df83df2417293cb",
+      "width_scale": 1.0,
+      "height_scale": 0.98,
+      "video_mean_silhouette_iou": 0.8591200614245496,
+      "per_view_delta": 0.0,
+      "changed_objects": [
+        "ControlRail",
+        "ControlInset",
+        "ControlRailLip",
+        "ControlKeyBed"
+      ],
+      "decision": "retain v222"
+    }
+  ],
+  "method": "saved real-CAD local shape scaling with fixed ten-view video comparison",
+  "registration": "camera projection only, no image warp, per-part alignment, or omitted visible parts",
+  "limitations": [
+    "video-only screening, static and contact-sheet comparisons were not rerun because every video view was unchanged",
+    "local changes can remain hidden by neighboring CAD parts",
+    "no manufacturing, fit, acoustic, thermal, electrical, or physical acceptance"
+  ]
+}

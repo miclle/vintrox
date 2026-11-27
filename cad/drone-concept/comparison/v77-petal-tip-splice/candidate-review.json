@@ -1,0 +1,139 @@
+{
+  "status": "not adopted; retain as valid rooted construction study",
+  "baseline": "v69; formal v61 unchanged",
+  "scores": {
+    "video": {
+      "candidate": 0.8552154027949342,
+      "baseline_v69": 0.8555332009171318,
+      "delta": -0.00031779812219756565
+    },
+    "stills": {
+      "candidate": 0.8223715891169984,
+      "baseline_v69": 0.8225961961828953,
+      "delta": -0.00022460706589688684
+    }
+  },
+  "per_view": {
+    "video": [
+      {
+        "view": "video-00",
+        "candidate": 0.8737248836985229,
+        "baseline_v69": 0.8737248836985229,
+        "delta": 0.0
+      },
+      {
+        "view": "video-01",
+        "candidate": 0.8598419390609784,
+        "baseline_v69": 0.8607734837783811,
+        "delta": -0.0009315447174027547
+      },
+      {
+        "view": "video-02",
+        "candidate": 0.8473133306315245,
+        "baseline_v69": 0.847902666681625,
+        "delta": -0.0005893360501004752
+      },
+      {
+        "view": "video-03",
+        "candidate": 0.830779870655041,
+        "baseline_v69": 0.8313541368451188,
+        "delta": -0.0005742661900778323
+      },
+      {
+        "view": "video-04",
+        "candidate": 0.8276031675766071,
+        "baseline_v69": 0.8280701984625631,
+        "delta": -0.00046703088595601017
+      },
+      {
+        "view": "video-05",
+        "candidate": 0.814035127293439,
+        "baseline_v69": 0.8151927854193574,
+        "delta": -0.0011576581259183927
+      },
+      {
+        "view": "video-06",
+        "candidate": 0.8379064983214459,
+        "baseline_v69": 0.838026392255248,
+        "delta": -0.00011989393380207325
+      },
+      {
+        "view": "video-07",
+        "candidate": 0.8860112160147654,
+        "baseline_v69": 0.8853494673334831,
+        "delta": 0.0006617486812823259
+      },
+      {
+        "view": "video-08",
+        "candidate": 0.8944945926754635,
+        "baseline_v69": 0.8944945926754635,
+        "delta": 0.0
+      },
+      {
+        "view": "video-09",
+        "candidate": 0.8804434020215558,
+        "baseline_v69": 0.8804434020215558,
+        "delta": 0.0
+      }
+    ],
+    "stills": [
+      {
+        "view": "still-01",
+        "candidate": 0.8652161858748563,
+        "baseline_v69": 0.8652161858748563,
+        "delta": 0.0
+      },
+      {
+        "view": "still-02",
+        "candidate": 0.8696146654586812,
+        "baseline_v69": 0.8696146654586812,
+        "delta": 0.0
+      },
+      {
+        "view": "still-03",
+        "candidate": 0.8487768274887965,
+        "baseline_v69": 0.8487768274887965,
+        "delta": 0.0
+      },
+      {
+        "view": "still-04",
+        "candidate": 0.7835672047799057,
+        "baseline_v69": 0.7835964989444053,
+        "delta": -2.9294164499593656e-05
+      },
+      {
+        "view": "still-05",
+        "candidate": 0.7780567542827252,
+        "baseline_v69": 0.7795997095795026,
+        "delta": -0.001542955296777393
+      },
+      {
+        "view": "still-06",
+        "candidate": 0.7408007242503304,
+        "baseline_v69": 0.7408007242503304,
+        "delta": 0.0
+      },
+      {
+        "view": "still-closeup",
+        "candidate": 0.8705687616836939,
+        "baseline_v69": 0.8705687616836939,
+        "delta": 0.0
+      }
+    ]
+  },
+  "candidate_fcstd_sha256": "34910c4d990f0efa88deb8434d81d16923d0470f5e08f98900da1aa2cb3a035c",
+  "new_advanced_failures": 0,
+  "contact_regressions": 0,
+  "export_relative_volume_error": 3.65655950361865e-07,
+  "basic_readback_passed": true,
+  "native_display": "four native views visually reviewed; 696 visible objects; colors within half an 8-bit level; file hash unchanged",
+  "decision": "fixes v76 root contacts and advanced failures but both global image scores still regress",
+  "limitations": [
+    "previously inspected seven-view observations are reused, not fresh holdouts",
+    "hidden-edge hem samples do not establish full petal contours",
+    "explicit real planar seam at local Z98; tangent continuity is not claimed",
+    "measured flat screen retained; curved cover is an appearance assumption",
+    "90 percent whole silhouette and full main-part 5 percent target remain unmet",
+    "no manufacturing or physical acceptance"
+  ]
+}

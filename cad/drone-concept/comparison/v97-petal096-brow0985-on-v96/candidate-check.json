@@ -1,0 +1,20 @@
+{
+  "revision": "v97-petal096-brow0985-on-v96",
+  "status": "saved static appearance study; geometry readback and fixed-camera comparisons completed",
+  "baseline_fcstd_sha256": "71e0d53bbd8787765a8a45caf6a1530368b52147820e438c38c4cdcabd0eebb2",
+  "fcstd_sha256": "2ab40ea74dacd2be487e8c3f77ff540b63110daff9c506f79cf332c8e016412a",
+  "step_sha256": "739c3c02b13c532d3b72fc7b29701558b458b77e37410d2f75e078020c72d178",
+  "source_script_sha256": "ea89a83f903eb4f6a7ee2ed6174a377d78401288b89668c90a93340d1531b0d3",
+  "front_cheek_x_scale": 0.97,
+  "front_brow_x_scale": 0.985,
+  "nozzle_petal_comparison_scale": 0.96,
+  "mesh_objects": 696,
+  "distinct_rgb_triples": 74,
+  "palette_geometry_unchanged": true,
+  "readback": "readback-verification.json",
+  "physical_validation": false,
+  "limitations": [
+    "saved-model checks do not prove full generator-to-saved-model geometric equivalence",
+    "no manufacturing or physical acceptance"
+  ]
+}

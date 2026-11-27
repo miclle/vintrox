@@ -1,0 +1,51 @@
+{
+  "baseline_fcstd_sha256": "72c8968f252d52be29c9e82a53d7b9b61b68542ae994f6beb195761cb4ad5655",
+  "formal_fcstd_sha256": "b0f4416e5e20622b93987f837b111e630973615b9968faf441cee555ba9d6635",
+  "formal_mean_silhouette_iou": 0.8439018562015554,
+  "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "candidates": [
+    {
+      "variant": "a",
+      "fcstd_sha256": "51094b0cfd541347bcc8d03161ba487957a82bc9bf38fc00b2683edd48af9c39",
+      "count": 16,
+      "status": "not adopted; assembly rotation changes terminal plane",
+      "pitch_rms_px": 8.9116029235299,
+      "pitch_max_px": 12.5,
+      "rim_rms_px": 3.6022977649232106,
+      "mean_silhouette_iou": 0.8438199601615395
+    },
+    {
+      "variant": "b",
+      "fcstd_sha256": "9d9c5167600d77f815754fe8f5aeab4e4490fc7609636ffcf6fdbdb2544e01f6",
+      "count": 16,
+      "status": "not adopted; assembly rotation changes terminal plane",
+      "pitch_rms_px": 9.069178573608527,
+      "pitch_max_px": 12.5,
+      "rim_rms_px": 3.6022977649248427,
+      "mean_silhouette_iou": 0.8438795495702504
+    },
+    {
+      "variant": "c",
+      "fcstd_sha256": "5da2574c3977bcf5f9f6ddfdc9e5dd652b5fca4a95e2128e32031c889a76b682",
+      "count": 16,
+      "status": "not adopted; sixteen-leaf pitch remains too dense",
+      "pitch_rms_px": 8.65544144839919,
+      "pitch_max_px": 11.5,
+      "rim_rms_px": 3.2983390270927777,
+      "mean_silhouette_iou": 0.8438724803681105
+    },
+    {
+      "variant": "d",
+      "fcstd_sha256": "87bd0eacbe4512a9ce0623bbce8e71a2aa4657325acd8c81cf5b0ed342ce4465",
+      "count": 12,
+      "status": "adopted geometry in formal v33; candidate itself has no GUI/STEP delivery",
+      "pitch_rms_px": 1.6583123951777,
+      "pitch_max_px": 2.5,
+      "rim_rms_px": 3.2983390270929376,
+      "mean_silhouette_iou": 0.8439002362346717
+    }
+  ],
+  "status": "D adopted as v33; complete visual goal not achieved",
+  "formal_geometry_check": "formal-geometry-check.json",
+  "formal_petal_pitch": "../petal-pitch-check.json"
+}

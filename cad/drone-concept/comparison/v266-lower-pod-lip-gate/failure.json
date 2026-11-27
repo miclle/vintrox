@@ -1,0 +1,11 @@
+{
+  "revision": "v266-lower-pod-lip-gate",
+  "baseline_fcstd_sha256": "f27892986cd8605bab3dcbbfc0c725e0cfbb09bb7d79efdc9b296af6214a8b2c",
+  "fit_sha256": "9bbbbd98b321fd09a875dd536c18c7bce0c0d5b6f307613f7aa66f29b265e0c2",
+  "script_sha256": "1157343ca0f2f4ceb6423510362f7f794ad28421e1c459f4f50806a4bfc802ba",
+  "status": "rejected-at-geometry-gate",
+  "parameters": "lower-pod-outline-fit.json two-parameter lip reconstruction applied to v259",
+  "failed_object": "LowerPodRib_1_0",
+  "failure": "candidate shape was not valid, closed, and single-solid after saved-CAD rebuild",
+  "decision": "no FCStd/STEP/render package produced"
+}

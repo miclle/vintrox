@@ -1,0 +1,296 @@
+{
+  "revision": "v69-underbody-loop-radius2p2",
+  "status": "exploratory-candidate-retained-formal-v61-unchanged",
+  "baseline_revision": "v61-nozzle-fairing-depth3",
+  "baseline_fcstd_sha256": "b264b52ab81ca645865ab44196b3cabb8453abfd4f127afa49c29c41ffd973d2",
+  "candidate_fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+  "candidate_step_sha256": "12c79d911001cef99e5c52ff32fc35ec7f82d672aebc458468929107707dd1c2",
+  "changed_objects": [
+    "UnderbodyLoop0",
+    "UnderbodyLoop1"
+  ],
+  "radius_before_mm": 3.5,
+  "radius_after_mm": 2.2,
+  "centerline_preserved": true,
+  "measured_screen_preserved": true,
+  "saved_objects_total": 698,
+  "visible_features": 696,
+  "step_solids": 1010,
+  "saved_readback": "readback-verification.json",
+  "all_fcstd_shapes_valid": true,
+  "all_fcstd_shapes_closed": true,
+  "protected_supports_equal": true,
+  "color_status": {
+    "objects": 696,
+    "distinct_rgb_triples": 74,
+    "geometry_unchanged": true,
+    "palette_only_objects": []
+  },
+  "video": {
+    "candidate_mean_silhouette_iou": 0.8555332009171318,
+    "formal_v61_mean_silhouette_iou": 0.8549201687353198,
+    "delta": 0.0006130321818119677,
+    "report": "video-comparison/comparison-report.json",
+    "views": [
+      {
+        "view": "video-00",
+        "source_frame": 0,
+        "time_seconds": 0,
+        "source_image": null,
+        "score_interpretation": "silhouette diagnostic only",
+        "silhouette_iou": 0.8737248836985229,
+        "symmetric_edge_mean_px": 36.00890198626355,
+        "symmetric_edge_p95_px": 139.51433568877954,
+        "reference_foreground_px": 361385,
+        "cad_foreground_px": 397037,
+        "delta_vs_v61_current": 0.00013622631112764072
+      },
+      {
+        "view": "video-01",
+        "source_frame": 30,
+        "time_seconds": 1,
+        "source_image": null,
+        "score_interpretation": "silhouette diagnostic only",
+        "silhouette_iou": 0.8607734837783811,
+        "symmetric_edge_mean_px": 44.159391830963855,
+        "symmetric_edge_p95_px": 156.0,
+        "reference_foreground_px": 314446,
+        "cad_foreground_px": 345535,
+        "delta_vs_v61_current": 0.00027567023586916317
+      },
+      {
+        "view": "video-02",
+        "source_frame": 60,
+        "time_seconds": 2,
+        "source_image": null,
+        "score_interpretation": "silhouette diagnostic only",
+        "silhouette_iou": 0.847902666681625,
+        "symmetric_edge_mean_px": 45.755488562728864,
+        "symmetric_edge_p95_px": 167.8867169682605,
+        "reference_foreground_px": 310982,
+        "cad_foreground_px": 347884,
+        "delta_vs_v61_current": 0.0010519876193549882
+      },
+      {
+        "view": "video-03",
+        "source_frame": 90,
+        "time_seconds": 3,
+        "source_image": null,
+        "score_interpretation": "silhouette diagnostic only",
+        "silhouette_iou": 0.8313541368451188,
+        "symmetric_edge_mean_px": 41.88997350594763,
+        "symmetric_edge_p95_px": 179.88663091019652,
+        "reference_foreground_px": 300403,
+        "cad_foreground_px": 339289,
+        "delta_vs_v61_current": 0.0010868457376883578
+      },
+      {
+        "view": "video-04",
+        "source_frame": 120,
+        "time_seconds": 4,
+        "source_image": null,
+        "score_interpretation": "silhouette diagnostic only",
+        "silhouette_iou": 0.8280701984625631,
+        "symmetric_edge_mean_px": 19.597924067509425,
+        "symmetric_edge_p95_px": 88.87406410954232,
+        "reference_foreground_px": 265993,
+        "cad_foreground_px": 291190,
+        "delta_vs_v61_current": 6.916291646008599e-05
+      },
+      {
+        "view": "video-05",
+        "source_frame": 150,
+        "time_seconds": 5,
+        "source_image": null,
+        "score_interpretation": "silhouette diagnostic only",
+        "silhouette_iou": 0.8151927854193574,
+        "symmetric_edge_mean_px": 37.36369853323193,
+        "symmetric_edge_p95_px": 167.0,
+        "reference_foreground_px": 297264,
+        "cad_foreground_px": 345022,
+        "delta_vs_v61_current": 0.0013218267700916275
+      },
+      {
+        "view": "video-06",
+        "source_frame": 180,
+        "time_seconds": 6,
+        "source_image": null,
+        "score_interpretation": "silhouette diagnostic only",
+        "silhouette_iou": 0.838026392255248,
+        "symmetric_edge_mean_px": 44.75250863958551,
+        "symmetric_edge_p95_px": 163.80811510413676,
+        "reference_foreground_px": 303371,
+        "cad_foreground_px": 345002,
+        "delta_vs_v61_current": 0.002027692663745917
+      },
+      {
+        "view": "video-07",
+        "source_frame": 210,
+        "time_seconds": 7,
+        "source_image": null,
+        "score_interpretation": "silhouette diagnostic only",
+        "silhouette_iou": 0.8853494673334831,
+        "symmetric_edge_mean_px": 46.61993665152957,
+        "symmetric_edge_p95_px": 180.4538545990371,
+        "reference_foreground_px": 319018,
+        "cad_foreground_px": 344099,
+        "delta_vs_v61_current": -9.38710109286145e-05
+      },
+      {
+        "view": "video-08",
+        "source_frame": 240,
+        "time_seconds": 8,
+        "source_image": null,
+        "score_interpretation": "silhouette diagnostic only",
+        "silhouette_iou": 0.8944945926754635,
+        "symmetric_edge_mean_px": 37.93922184292782,
+        "symmetric_edge_p95_px": 140.41723540933285,
+        "reference_foreground_px": 355925,
+        "cad_foreground_px": 385781,
+        "delta_vs_v61_current": 0.00016889487929916402
+      },
+      {
+        "view": "video-09",
+        "source_frame": 270,
+        "time_seconds": 9,
+        "source_image": null,
+        "score_interpretation": "silhouette diagnostic only",
+        "silhouette_iou": 0.8804434020215558,
+        "symmetric_edge_mean_px": 24.632754099631363,
+        "symmetric_edge_p95_px": 94.0,
+        "reference_foreground_px": 325484,
+        "cad_foreground_px": 347978,
+        "delta_vs_v61_current": 9.343286998531042e-05
+      }
+    ]
+  },
+  "stills": {
+    "candidate_mean_silhouette_iou": 0.8225961961828953,
+    "formal_v61_mean_silhouette_iou": 0.8222681557450596,
+    "delta": 0.00032804043783563053,
+    "report": "stills-comparison/comparison-report.json",
+    "views": [
+      {
+        "view": "still-01",
+        "source_frame": null,
+        "time_seconds": null,
+        "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-01.jpg",
+        "score_interpretation": "display-corner camera fit; curved screen and corner uncertainty remain",
+        "silhouette_iou": 0.8652161858748563,
+        "symmetric_edge_mean_px": 30.245725031666925,
+        "symmetric_edge_p95_px": 122.25833292003962,
+        "reference_foreground_px": 391299,
+        "cad_foreground_px": 429467,
+        "delta_vs_v61_current": null
+      },
+      {
+        "view": "still-02",
+        "source_frame": null,
+        "time_seconds": null,
+        "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-02.jpg",
+        "score_interpretation": "display-corner camera fit; curved screen and corner uncertainty remain",
+        "silhouette_iou": 0.8696146654586812,
+        "symmetric_edge_mean_px": 30.374491759262302,
+        "symmetric_edge_p95_px": 123.51679640160243,
+        "reference_foreground_px": 417181,
+        "cad_foreground_px": 455729,
+        "delta_vs_v61_current": null
+      },
+      {
+        "view": "still-03",
+        "source_frame": null,
+        "time_seconds": null,
+        "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-03.jpg",
+        "score_interpretation": "display-corner camera fit; curved screen and corner uncertainty remain",
+        "silhouette_iou": 0.8487768274887965,
+        "symmetric_edge_mean_px": 43.75731387073653,
+        "symmetric_edge_p95_px": 152.9477034806342,
+        "reference_foreground_px": 359851,
+        "cad_foreground_px": 352198,
+        "delta_vs_v61_current": null
+      },
+      {
+        "view": "still-04",
+        "source_frame": null,
+        "time_seconds": null,
+        "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-04.jpg",
+        "score_interpretation": "four reference-only reconstructed wing/beacon landmarks; manual pixel uncertainty",
+        "silhouette_iou": 0.7835964989444053,
+        "symmetric_edge_mean_px": 56.12049567408187,
+        "symmetric_edge_p95_px": 189.15932360105668,
+        "reference_foreground_px": 360988,
+        "cad_foreground_px": 450049,
+        "delta_vs_v61_current": null
+      },
+      {
+        "view": "still-05",
+        "source_frame": null,
+        "time_seconds": null,
+        "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-05.jpg",
+        "score_interpretation": "four reference-only reconstructed wing/beacon landmarks; manual pixel uncertainty",
+        "silhouette_iou": 0.7795997095795026,
+        "symmetric_edge_mean_px": 64.72252106636145,
+        "symmetric_edge_p95_px": 220.72290279241687,
+        "reference_foreground_px": 362789,
+        "cad_foreground_px": 450965,
+        "delta_vs_v61_current": null
+      },
+      {
+        "view": "still-06",
+        "source_frame": null,
+        "time_seconds": null,
+        "source_image": "references/alexander-shevchuk-drone/alexander-shevchuk-06.jpg",
+        "score_interpretation": "wireframe: foreground score is not silhouette accuracy; landmark fit only",
+        "silhouette_iou": 0.7408007242503304,
+        "symmetric_edge_mean_px": 78.9229205231854,
+        "symmetric_edge_p95_px": 212.24490519136927,
+        "reference_foreground_px": 330417,
+        "cad_foreground_px": 434886,
+        "delta_vs_v61_current": null
+      },
+      {
+        "view": "still-closeup",
+        "source_frame": null,
+        "time_seconds": null,
+        "source_image": "references/alexander-shevchuk-drone/closeup-2026-10-19.png",
+        "score_interpretation": "display-corner camera fit; curved screen and corner uncertainty remain",
+        "silhouette_iou": 0.8705687616836939,
+        "symmetric_edge_mean_px": 31.04054699045403,
+        "symmetric_edge_p95_px": 129.21898648086582,
+        "reference_foreground_px": 418128,
+        "cad_foreground_px": 455422,
+        "delta_vs_v61_current": null
+      }
+    ]
+  },
+  "decision": "retain-v61-formal-baseline; v69-better-than-v68-research-candidate",
+  "decision_basis": "v69 has the higher fixed-camera mean video and still IoU than v68, but both remain below the 90% appearance target and the gain is screen-space diagnostic evidence only.",
+  "registration": "fixed calibrated camera projection only; no image warp, stretch, or per-part alignment",
+  "screen_assumptions": {
+    "measured_flat_panel_mm": [
+      210,
+      160,
+      2
+    ],
+    "measured_active_area_mm": [
+      200,
+      150
+    ],
+    "reference_curved_screen": "appearance/transparent-cover assumption only"
+  },
+  "limitations": [
+    "appearance study only",
+    "black cable/background segmentation remains ambiguous",
+    "no manufacturing, fit, assembly, load, acoustic, thermal, electrical, optical, printing, or physical acceptance"
+  ],
+  "artifacts": {
+    "candidate_check": "candidate-check.json",
+    "readback": "readback-verification.json",
+    "color_restoration": "color-restoration.json",
+    "mesh_binding": "meshes.json",
+    "video_render_manifest": "video-renders/render-manifest.json",
+    "still_render_manifest": "still-renders/render-manifest.json",
+    "video_comparison": "video-comparison/comparison-report.json",
+    "stills_comparison": "stills-comparison/comparison-report.json"
+  }
+}

@@ -1,0 +1,715 @@
+{
+  "status": "appearance-only; topology and STEP checked; visual adoption pending",
+  "fcstd_sha256": "1562dbed22cbc870d0d293dd0edf660733037ece8debcc018d780e5907323135",
+  "step_sha256": "ab61555fe7abba553e92fd0a05e0bf814f48d2033bc5841b7d6eb2593d8d9cb6",
+  "visible_objects": 696,
+  "step_solids": 817,
+  "step_valid": true,
+  "cad_volume_mm3": 4933910.328162274,
+  "step_volume_mm3": 4933906.886463819,
+  "volume_difference_mm3": 3.4416984552517533,
+  "changed_parts_advanced_check_passed": true,
+  "assembly_contacts": [
+    {
+      "objects": [
+        "NozzlePetal0",
+        "NozzlePetalInset0"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 64.7160776712293
+    },
+    {
+      "objects": [
+        "NozzlePetal0",
+        "NozzlePetalRidge0"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 45.99415329986341
+    },
+    {
+      "objects": [
+        "NozzlePetal0",
+        "NozzlePetalEndHem0"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 5.316616144327018
+    },
+    {
+      "objects": [
+        "NozzlePetal0",
+        "NozzlePetalHinge0"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 68.04331955514179
+    },
+    {
+      "objects": [
+        "NozzlePetal0",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 15.141402888498193
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide0_0",
+        "NozzlePetalRidge0"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.8663584982177536
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide0_1",
+        "NozzlePetalRidge0"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.8616563215908658
+    },
+    {
+      "objects": [
+        "NozzlePetal1",
+        "NozzlePetalInset1"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 62.415936596259336
+    },
+    {
+      "objects": [
+        "NozzlePetal1",
+        "NozzlePetalRidge1"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 44.90529960530525
+    },
+    {
+      "objects": [
+        "NozzlePetal1",
+        "NozzlePetalEndHem1"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 5.150016018079876
+    },
+    {
+      "objects": [
+        "NozzlePetal1",
+        "NozzlePetalHinge1"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 61.70388768685373
+    },
+    {
+      "objects": [
+        "NozzlePetal1",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 14.566341995568422
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide1_0",
+        "NozzlePetalRidge1"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.8466963716948585
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide1_1",
+        "NozzlePetalRidge1"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.8441290901980887
+    },
+    {
+      "objects": [
+        "NozzlePetal2",
+        "NozzlePetalInset2"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 61.57470397518498
+    },
+    {
+      "objects": [
+        "NozzlePetal2",
+        "NozzlePetalRidge2"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 44.501859732814744
+    },
+    {
+      "objects": [
+        "NozzlePetal2",
+        "NozzlePetalEndHem2"
+      ],
+      "gap_mm": 1.7763568394002505e-15,
+      "overlap_mm3": 5.089247478423915
+    },
+    {
+      "objects": [
+        "NozzlePetal2",
+        "NozzlePetalHinge2"
+      ],
+      "gap_mm": 1.7763568394002505e-15,
+      "overlap_mm3": 63.73559770709286
+    },
+    {
+      "objects": [
+        "NozzlePetal2",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 14.349627684781922
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide2_0",
+        "NozzlePetalRidge2"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.8390428700634586
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide2_1",
+        "NozzlePetalRidge2"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.8390428590450596
+    },
+    {
+      "objects": [
+        "NozzlePetal3",
+        "NozzlePetalInset3"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 62.41593639124108
+    },
+    {
+      "objects": [
+        "NozzlePetal3",
+        "NozzlePetalRidge3"
+      ],
+      "gap_mm": 3.552713678800501e-15,
+      "overlap_mm3": 44.905303183877486
+    },
+    {
+      "objects": [
+        "NozzlePetal3",
+        "NozzlePetalEndHem3"
+      ],
+      "gap_mm": 7.105427357601002e-15,
+      "overlap_mm3": 5.150016019199284
+    },
+    {
+      "objects": [
+        "NozzlePetal3",
+        "NozzlePetalHinge3"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 63.68212212923032
+    },
+    {
+      "objects": [
+        "NozzlePetal3",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 14.566353312350122
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide3_0",
+        "NozzlePetalRidge3"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.8441291678215685
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide3_1",
+        "NozzlePetalRidge3"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.8466961708819032
+    },
+    {
+      "objects": [
+        "NozzlePetal4",
+        "NozzlePetalInset4"
+      ],
+      "gap_mm": 7.105427357601002e-15,
+      "overlap_mm3": 64.71607868597253
+    },
+    {
+      "objects": [
+        "NozzlePetal4",
+        "NozzlePetalRidge4"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 45.99416637412587
+    },
+    {
+      "objects": [
+        "NozzlePetal4",
+        "NozzlePetalEndHem4"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 5.316616145035902
+    },
+    {
+      "objects": [
+        "NozzlePetal4",
+        "NozzlePetalHinge4"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 64.52259137357422
+    },
+    {
+      "objects": [
+        "NozzlePetal4",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 15.141412308495145
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide4_0",
+        "NozzlePetalRidge4"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.8616562645786311
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide4_1",
+        "NozzlePetalRidge4"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.866358481694303
+    },
+    {
+      "objects": [
+        "NozzlePetal5",
+        "NozzlePetalInset5"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 67.86294917629387
+    },
+    {
+      "objects": [
+        "NozzlePetal5",
+        "NozzlePetalRidge5"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 47.4392047200029
+    },
+    {
+      "objects": [
+        "NozzlePetal5",
+        "NozzlePetalEndHem5"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 5.545362280735214
+    },
+    {
+      "objects": [
+        "NozzlePetal5",
+        "NozzlePetalHinge5"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 71.62345521412087
+    },
+    {
+      "objects": [
+        "NozzlePetal5",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 15.885086803163325
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide5_0",
+        "NozzlePetalRidge5"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.8888735015770037
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide5_1",
+        "NozzlePetalRidge5"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.8947618514087174
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalInset6"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 71.0160710992598
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalRidge6"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 48.76832227258167
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalEndHem6"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 5.7751484250536755
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "NozzlePetalHinge6"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 74.34363950033394
+    },
+    {
+      "objects": [
+        "NozzlePetal6",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 16.57925975793222
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide6_0",
+        "NozzlePetalRidge6"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.919345344879339
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide6_1",
+        "NozzlePetalRidge6"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.9249077619699381
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "NozzlePetalInset7"
+      ],
+      "gap_mm": 3.552713678800501e-15,
+      "overlap_mm3": 73.32873531854058
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "NozzlePetalRidge7"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 49.68906708712462
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "NozzlePetalEndHem7"
+      ],
+      "gap_mm": 1.4210854715202004e-14,
+      "overlap_mm3": 5.943834045165374
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "NozzlePetalHinge7"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 74.36866449504504
+    },
+    {
+      "objects": [
+        "NozzlePetal7",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 17.056080925795463
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide7_0",
+        "NozzlePetalRidge7"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.9440749992799119
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide7_1",
+        "NozzlePetalRidge7"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.9475148866454917
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "NozzlePetalInset8"
+      ],
+      "gap_mm": 1.4210854715202004e-14,
+      "overlap_mm3": 74.1762241596587
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "NozzlePetalRidge8"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 50.0135758986952
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "NozzlePetalEndHem8"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 6.0056480949937905
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "NozzlePetalHinge8"
+      ],
+      "gap_mm": 1.7763568394002505e-15,
+      "overlap_mm3": 74.39436781498915
+    },
+    {
+      "objects": [
+        "NozzlePetal8",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 17.224077791430254
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide8_0",
+        "NozzlePetalRidge8"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.9547692711164286
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide8_1",
+        "NozzlePetalRidge8"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.9547691500156452
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalInset9"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 73.32873251130505
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalRidge9"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 49.68904745480023
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalEndHem9"
+      ],
+      "gap_mm": 1.4210854715202004e-14,
+      "overlap_mm3": 5.943834045197208
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "NozzlePetalHinge9"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 74.4078073627631
+    },
+    {
+      "objects": [
+        "NozzlePetal9",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 17.05608032213278
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide9_0",
+        "NozzlePetalRidge9"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.9475149467426203
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide9_1",
+        "NozzlePetalRidge9"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.9440749816563522
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalInset10"
+      ],
+      "gap_mm": 7.105427357601002e-15,
+      "overlap_mm3": 71.01606924276857
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalRidge10"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 48.768294030159
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalEndHem10"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 5.775148425024
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "NozzlePetalHinge10"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 74.42373569025442
+    },
+    {
+      "objects": [
+        "NozzlePetal10",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 16.579255406281302
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide10_0",
+        "NozzlePetalRidge10"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.9249078725419163
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide10_1",
+        "NozzlePetalRidge10"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.9193453669788885
+    },
+    {
+      "objects": [
+        "NozzlePetal11",
+        "NozzlePetalInset11"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 67.86294311908574
+    },
+    {
+      "objects": [
+        "NozzlePetal11",
+        "NozzlePetalRidge11"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 47.439181261014824
+    },
+    {
+      "objects": [
+        "NozzlePetal11",
+        "NozzlePetalEndHem11"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 5.545362280763231
+    },
+    {
+      "objects": [
+        "NozzlePetal11",
+        "NozzlePetalHinge11"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 73.67337913994852
+    },
+    {
+      "objects": [
+        "NozzlePetal11",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 15.885086907990305
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide11_0",
+        "NozzlePetalRidge11"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.8947619455412114
+    },
+    {
+      "objects": [
+        "NozzlePetalGuide11_1",
+        "NozzlePetalRidge11"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.8888736175309093
+    },
+    {
+      "objects": [
+        "BassNozzleMouthRing",
+        "BassNozzleRolledLip"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 246.62973468074688
+    },
+    {
+      "objects": [
+        "BassNozzleRolledLip",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 168.08412172462158
+    },
+    {
+      "objects": [
+        "BassNozzleRearCollar",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 1.4210854715202004e-14,
+      "overlap_mm3": 6250.654151581974
+    }
+  ],
+  "contact_interpretation": "guides attach to raised ridges; leaves to mouth ring and hinges; mouth ring to rolled lip to shell. Direct leaf-shell gaps are not required joints.",
+  "limitations": [
+    "static CAD evidence only",
+    "not printing, assembly, load or acoustic validation"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v89-petal-brow",
+      "model": "/Users/miclle/github/miclle/vintrox/cad/drone-concept/comparison/v89-petal-brow-combination/candidate.FCStd",
+      "fcstd_sha256": "235a01bc341b8c3a261f2954a179d2a8e73952f7c54fd5d8afb19c698e8295ac",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "235a01bc341b8c3a261f2954a179d2a8e73952f7c54fd5d8afb19c698e8295ac",
+      "palette_contract_sha256": "d51b70865d8d0414fb8f7516218b82081461c1b0cee14775b9520f41553b148e",
+      "native_color_triples": 70,
+      "mesh_color_triples": 74,
+      "max_native_vs_mesh_channel_difference": 0.0019608139991760254,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v89-petal-brow-isometric.png",
+          "sha256": "c393446ef12686b54c4155b06bd5da158ba0f8f5998818e6d68b733ec851888a"
+        },
+        {
+          "view": "front",
+          "path": "v89-petal-brow-front.png",
+          "sha256": "6a8bce4af8c42fde14ade94651d22306f2a2d567209267c96980462ee1d681be"
+        },
+        {
+          "view": "rear",
+          "path": "v89-petal-brow-rear.png",
+          "sha256": "ae3d1efbeb3c0da4e3e701dc93a732d9830735c4067f79a01ea216dc9949457c"
+        },
+        {
+          "view": "right",
+          "path": "v89-petal-brow-right.png",
+          "sha256": "5c397a6a2940c74710a62dd8903c10a0acda348a7a23717be93c3e34720e0d42"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

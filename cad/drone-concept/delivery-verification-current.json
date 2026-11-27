@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "errors": [],
+  "revision": "v259-rear-beacon-length",
+  "fcstd_sha256": "f27892986cd8605bab3dcbbfc0c725e0cfbb09bb7d79efdc9b296af6214a8b2c",
+  "step_sha256": "be9d82e32cc6fb02c3a3f943f9e979a6eacfe82bdf05dae741c762a10232eb28",
+  "visible_features": 696,
+  "step_solids": 853,
+  "screen_panel_mm": [
+    210.0,
+    160.0,
+    2.0
+  ],
+  "active_area_mm": [
+    200,
+    150
+  ],
+  "support_shafts": 4,
+  "native_display_views": 4,
+  "native_max_color_channel_difference": 2.9685450542160652e-08,
+  "presentation_images": 9,
+  "turntable": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "nb_frames": "360"
+      }
+    ],
+    "format": {
+      "duration": "12.000000"
+    }
+  },
+  "reference_video_sha256": "192a434a5c8f74193addf3a501493365e566b34a0a5928ad046dda2286a21813",
+  "reference_contact_sheet_sha256": "3454322208bda002a9fd3d8c12ebe41d0e6c1615f9be37b4a02b7cdbc48772d3",
+  "reference_contact_sheet_use": "Direct cropped cells at their matched video poses",
+  "comparisons": {
+    "video": {
+      "views": 10,
+      "mean_silhouette_iou": 0.8600808511309672
+    },
+    "stills": {
+      "views": 7,
+      "mean_silhouette_iou": 0.8257434211210278
+    },
+    "sheet": {
+      "views": 10,
+      "mean_silhouette_iou": 0.8977270609525689
+    }
+  },
+  "physical_validation": false,
+  "visual_target_status": "Artifact integrity check; component contour target requires visual evidence"
+}

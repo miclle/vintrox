@@ -1,0 +1,931 @@
+{
+  "baseline_fcstd_sha256": "73e6670b87a9ba0c572181d64a359e6706133d9186e6edcf1cf6436c7c072b07",
+  "formal_model_unchanged": true,
+  "verification_script_sha256": "15f7d4cbe27ef10ffd23db803fe5748d12c07d0ffe2eb68dad9296417407bc93",
+  "candidates": [
+    {
+      "name": "bevel065",
+      "fcstd_sha256": "12d97eb843fc2c1204bdb8f8298c7ae17749fe28612685121532194cacd659fc",
+      "shafts": [
+        {
+          "name": "SupportShaftFrontLeft",
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "name": "SupportShaftRearLeft",
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "name": "SupportShaftFrontRight",
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "name": "SupportShaftRearRight",
+          "symmetric_difference_mm3": 0.0
+        }
+      ],
+      "petals": [
+        {
+          "name": "NozzlePetal0",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 22.70302032917558,
+          "changed_local_z_bounds_mm": [
+            93.55341260955541,
+            127.49212081858585
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1195154819914805
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.0457968122197143
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 43.28862521721692
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal1",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 22.312786266429654,
+          "changed_local_z_bounds_mm": [
+            93.4678375713302,
+            126.16983923831785
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1034564006935306
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.012652504441213
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 43.17257872058459
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal2",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 22.153801337037144,
+          "changed_local_z_bounds_mm": [
+            93.45351894854076,
+            125.45198107412403
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1006447338716943
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.0068142869925194
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 43.145929012151896
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal3",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 22.310623790364758,
+          "changed_local_z_bounds_mm": [
+            93.46783757258146,
+            126.16983923832365
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.103456763591613
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.0126519483569085
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 43.17257686737428
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal4",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 22.934554748822293,
+          "changed_local_z_bounds_mm": [
+            93.553412496415,
+            127.4921208181197
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1195165464608907
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.0457971033052185
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 43.28863417169268
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal5",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 23.16715096845376,
+          "changed_local_z_bounds_mm": [
+            93.69439843785977,
+            129.07861532003216
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1422915833144869
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.0921833124910525
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 43.0672256864362
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal6",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 23.671825523878255,
+          "changed_local_z_bounds_mm": [
+            93.85176934277177,
+            130.50635132425262
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1626968350846956
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.1322206787356306
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 42.661860447582704
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal7",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 24.145402556316675,
+          "changed_local_z_bounds_mm": [
+            93.98361440386941,
+            131.37636959278018
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1760082095804842
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.156540685959416
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 42.33824166676443
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal8",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 24.22101343467638,
+          "changed_local_z_bounds_mm": [
+            94.05566008554703,
+            131.5242826012557
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1819328637692181
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.16645307391236
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 42.280084896041544
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal9",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 24.122227095495376,
+          "changed_local_z_bounds_mm": [
+            93.98361440386972,
+            131.37636934941057
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.17600820838376
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.1565406464351047
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 42.338241765803154
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal10",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 23.75667290280291,
+          "changed_local_z_bounds_mm": [
+            93.85176934277126,
+            130.50635084683745
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1626968335414136
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.1322206106811974
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 42.66186061283348
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal11",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 23.18359945670106,
+          "changed_local_z_bounds_mm": [
+            93.69439844008252,
+            129.0786158718253
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1422915839009693
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.0921832982505744
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 43.067225777986636
+            }
+          ]
+        }
+      ],
+      "outer_terminal_circle_preserved": true,
+      "outer_terminal_radius_mm": 43.60000000000016,
+      "terminal_observation_rms_px": 3.2983390270930673,
+      "scores": {
+        "video": {
+          "baseline": 0.8487989688455417,
+          "candidate": 0.8488445320084705,
+          "delta_percentage_points": 0.00455631629288078,
+          "views": [
+            {
+              "view": "video-00",
+              "baseline": 0.8734462579322946,
+              "candidate": 0.8734462579322946,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-01",
+              "baseline": 0.8564925296066496,
+              "candidate": 0.856545502252642,
+              "delta_percentage_points": 0.0052972645992466205
+            },
+            {
+              "view": "video-02",
+              "baseline": 0.8373410792581957,
+              "candidate": 0.8373623229866972,
+              "delta_percentage_points": 0.0021243728501540993
+            },
+            {
+              "view": "video-03",
+              "baseline": 0.8198999225858568,
+              "candidate": 0.8199582041823869,
+              "delta_percentage_points": 0.005828159653009646
+            },
+            {
+              "view": "video-04",
+              "baseline": 0.8186012125751403,
+              "candidate": 0.8187251574906119,
+              "delta_percentage_points": 0.012394491547162989
+            },
+            {
+              "view": "video-05",
+              "baseline": 0.8045156946572499,
+              "candidate": 0.8045737181618674,
+              "delta_percentage_points": 0.005802350461747707
+            },
+            {
+              "view": "video-06",
+              "baseline": 0.8249477402148058,
+              "candidate": 0.8250042976049863,
+              "delta_percentage_points": 0.005655739018051165
+            },
+            {
+              "view": "video-07",
+              "baseline": 0.8788813080021994,
+              "candidate": 0.8789659158501958,
+              "delta_percentage_points": 0.008460784799635412
+            },
+            {
+              "view": "video-08",
+              "baseline": 0.893606489195306,
+              "candidate": 0.893606489195306,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-09",
+              "baseline": 0.8802574544277193,
+              "candidate": 0.8802574544277193,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        },
+        "stills": {
+          "baseline": 0.8197003691467375,
+          "candidate": 0.8197286195814782,
+          "delta_percentage_points": 0.002825043474075084,
+          "views": [
+            {
+              "view": "still-01",
+              "baseline": 0.8650207256828119,
+              "candidate": 0.8650207256828119,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-02",
+              "baseline": 0.8671098682331476,
+              "candidate": 0.8671098682331476,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-03",
+              "baseline": 0.8487970010695631,
+              "candidate": 0.8487970010695631,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-04",
+              "baseline": 0.7805770802466708,
+              "candidate": 0.7806180204986997,
+              "delta_percentage_points": 0.004094025202883156
+            },
+            {
+              "view": "still-05",
+              "baseline": 0.7710446405705591,
+              "candidate": 0.7711481874519714,
+              "delta_percentage_points": 0.010354688141234192
+            },
+            {
+              "view": "still-06",
+              "baseline": 0.7373516657900736,
+              "candidate": 0.7374049316998178,
+              "delta_percentage_points": 0.005326590974419343
+            },
+            {
+              "view": "still-closeup",
+              "baseline": 0.8680016024343364,
+              "candidate": 0.8680016024343364,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        }
+      },
+      "adopted": false
+    },
+    {
+      "name": "return15",
+      "fcstd_sha256": "b19deff5c1fe727c07abe65034be360b17155ff05c70ca23f6e6475d1b8e0529",
+      "shafts": [
+        {
+          "name": "SupportShaftFrontLeft",
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "name": "SupportShaftRearLeft",
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "name": "SupportShaftFrontRight",
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "name": "SupportShaftRearRight",
+          "symmetric_difference_mm3": 0.0
+        }
+      ],
+      "petals": [
+        {
+          "name": "NozzlePetal0",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 21.545126086882924,
+          "changed_local_z_bounds_mm": [
+            125.61145322295596,
+            127.47987398509039
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1189840689622466
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.0446429516784153
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 43.28578789684916
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal1",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 21.956426343234497,
+          "changed_local_z_bounds_mm": [
+            124.72195865462874,
+            126.21760837116588
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1032198330005987
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.012135733716382
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 43.17032287946716
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal2",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 22.114467069686153,
+          "changed_local_z_bounds_mm": [
+            124.5559586882747,
+            125.54824961720638
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1006447338723608
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.006814286992516
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 43.1459290121519
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal3",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 21.95642610847429,
+          "changed_local_z_bounds_mm": [
+            124.7219586541888,
+            126.21760837117338
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1032198330006229
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.012135733716396
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 43.17032287946718
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal4",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 21.54512583358555,
+          "changed_local_z_bounds_mm": [
+            125.61145321718732,
+            127.47987398797147
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.118984068962185
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.0446429516784304
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 43.28578789684917
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal5",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 21.027131783386867,
+          "changed_local_z_bounds_mm": [
+            127.03993227293935,
+            129.01835796739326
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1417128442475215
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.0909526468401567
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 43.05839767325659
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal6",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 20.553515304049096,
+          "changed_local_z_bounds_mm": [
+            128.58227443026237,
+            130.43412184968113
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1622603232310291
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.131342340958604
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 42.652076285446526
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal7",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 20.231574179876432,
+          "changed_local_z_bounds_mm": [
+            129.84454004866836,
+            131.3129260633327
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1757681442704195
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.1560992208637453
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 42.33366789585088
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal8",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 20.1185179546689,
+          "changed_local_z_bounds_mm": [
+            130.51389880101414,
+            131.4767091005095
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1818654900407295
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.1663387498806506
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 42.28008489604231
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal9",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 20.231574627357254,
+          "changed_local_z_bounds_mm": [
+            129.8445400470471,
+            131.31292606330393
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1757681442704406
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.1560992208637373
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 42.333667895850844
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal10",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 20.55351557496642,
+          "changed_local_z_bounds_mm": [
+            128.58227443026237,
+            130.43412184969299
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.1622603232310664
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.1313423409585983
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 42.652076285446526
+            }
+          ]
+        },
+        {
+          "name": "NozzlePetal11",
+          "advanced_check_passed": true,
+          "changed_volume_mm3": 21.027131830129257,
+          "changed_local_z_bounds_mm": [
+            127.03993229233478,
+            129.0183579685089
+          ],
+          "interior_clearance": [
+            {
+              "name": "BassInnerThroat",
+              "overlap_mm3": 0.0,
+              "gap_mm": 1.141712844247615
+            },
+            {
+              "name": "BassVisualCone",
+              "overlap_mm3": 0.0,
+              "gap_mm": 2.0909526468401576
+            },
+            {
+              "name": "BassDustCap",
+              "overlap_mm3": 0.0,
+              "gap_mm": 43.058397673256586
+            }
+          ]
+        }
+      ],
+      "outer_terminal_circle_preserved": true,
+      "outer_terminal_radius_mm": 43.600000000000115,
+      "terminal_observation_rms_px": 3.2983390270930655,
+      "scores": {
+        "video": {
+          "baseline": 0.8487989688455417,
+          "candidate": 0.8487979474366378,
+          "delta_percentage_points": -0.0001021408903900678,
+          "views": [
+            {
+              "view": "video-00",
+              "baseline": 0.8734462579322946,
+              "candidate": 0.8734462579322946,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-01",
+              "baseline": 0.8564925296066496,
+              "candidate": 0.8564901390524782,
+              "delta_percentage_points": -0.00023905541713942213
+            },
+            {
+              "view": "video-02",
+              "baseline": 0.8373410792581957,
+              "candidate": 0.8373465806252853,
+              "delta_percentage_points": 0.0005501367089655318
+            },
+            {
+              "view": "video-03",
+              "baseline": 0.8198999225858568,
+              "candidate": 0.8198953232022349,
+              "delta_percentage_points": -0.0004599383621850528
+            },
+            {
+              "view": "video-04",
+              "baseline": 0.8186012125751403,
+              "candidate": 0.8186012125751403,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-05",
+              "baseline": 0.8045156946572499,
+              "candidate": 0.804511236530986,
+              "delta_percentage_points": -0.0004458126263928719
+            },
+            {
+              "view": "video-06",
+              "baseline": 0.8249477402148058,
+              "candidate": 0.824945938453008,
+              "delta_percentage_points": -0.00018017617977594824
+            },
+            {
+              "view": "video-07",
+              "baseline": 0.8788813080021994,
+              "candidate": 0.8788788423719256,
+              "delta_percentage_points": -0.0002465630273840169
+            },
+            {
+              "view": "video-08",
+              "baseline": 0.893606489195306,
+              "candidate": 0.893606489195306,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-09",
+              "baseline": 0.8802574544277193,
+              "candidate": 0.8802574544277193,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        },
+        "stills": {
+          "baseline": 0.8197003691467375,
+          "candidate": 0.8197003691467375,
+          "delta_percentage_points": 0.0,
+          "views": [
+            {
+              "view": "still-01",
+              "baseline": 0.8650207256828119,
+              "candidate": 0.8650207256828119,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-02",
+              "baseline": 0.8671098682331476,
+              "candidate": 0.8671098682331476,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-03",
+              "baseline": 0.8487970010695631,
+              "candidate": 0.8487970010695631,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-04",
+              "baseline": 0.7805770802466708,
+              "candidate": 0.7805770802466708,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-05",
+              "baseline": 0.7710446405705591,
+              "candidate": 0.7710446405705591,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-06",
+              "baseline": 0.7373516657900736,
+              "candidate": 0.7373516657900736,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-closeup",
+              "baseline": 0.8680016024343364,
+              "candidate": 0.8680016024343364,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        }
+      },
+      "adopted": false
+    }
+  ],
+  "decision": "Neither adopted: geometry-only inner edge changes did not clearly reproduce the observed terminal highlights. Inspect surface response and visible border structure next.",
+  "limitations": [
+    "Bevel propagates around tangent inner perimeter, beyond the initial terminal edge.",
+    "Folded return dimensions are appearance hypotheses inferred from visible highlights, not source mesh measurements.",
+    "Dark interior is not filled or shortened to improve the image score.",
+    "Formal v52 delivery remains authoritative; isolated candidates are not manufacturing releases."
+  ],
+  "passed": true
+}

@@ -1,0 +1,80 @@
+{
+  "fcstd_sha256": "cff9e16f774611b4634ab3ae14ad6ceca04eac22d73635739a3011b093eee0e0",
+  "boolean_common_volume_mm3": 0.0,
+  "intersection_samples": [
+    {
+      "point_mm": [
+        52.570750000000004,
+        236.1555093663682,
+        94.87852619621007
+      ],
+      "inside_gold_lip": true,
+      "inside_metal_ring": true
+    },
+    {
+      "point_mm": [
+        37.1731338170627,
+        205.71431983744694,
+        73.54367541525674
+      ],
+      "inside_gold_lip": true,
+      "inside_metal_ring": true
+    },
+    {
+      "point_mm": [
+        3.2190300358137863e-15,
+        193.1051662797979,
+        64.70649087057964
+      ],
+      "inside_gold_lip": true,
+      "inside_metal_ring": true
+    },
+    {
+      "point_mm": [
+        -37.17313381706269,
+        205.71431983744694,
+        73.54367541525673
+      ],
+      "inside_gold_lip": true,
+      "inside_metal_ring": true
+    },
+    {
+      "point_mm": [
+        -52.570750000000004,
+        236.1555093663682,
+        94.87852619621007
+      ],
+      "inside_gold_lip": true,
+      "inside_metal_ring": true
+    },
+    {
+      "point_mm": [
+        -37.173133817062705,
+        266.5966988952895,
+        116.21337697716342
+      ],
+      "inside_gold_lip": true,
+      "inside_metal_ring": true
+    },
+    {
+      "point_mm": [
+        -9.657090107441358e-15,
+        279.2058524529385,
+        125.0505615218405
+      ],
+      "inside_gold_lip": true,
+      "inside_metal_ring": true
+    },
+    {
+      "point_mm": [
+        37.173133817062684,
+        266.5966988952895,
+        116.21337697716342
+      ],
+      "inside_gold_lip": true,
+      "inside_metal_ring": true
+    }
+  ],
+  "all_samples_inside_both": true,
+  "limitation": "Boolean volume returns zero despite interior point containment; do not interpret that zero as exact disjointness"
+}

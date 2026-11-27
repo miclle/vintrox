@@ -1,0 +1,58 @@
+{
+  "baseline_fcstd_sha256": "cf25bc7193b3051a5aa8bb28e19685990768e4c0e71a4c19432b19137da680aa",
+  "candidate_fcstd_sha256": "c862efc2470c53b42362e944f5ef011a9e23ad1232de083bee28a25a54ec5f41",
+  "changed_objects": [
+    "BassNozzleShell",
+    "BassWarningPlaque",
+    "BassWarningRedBand",
+    "BassWarningTriangleInset"
+  ],
+  "formal_shell_scale": 0.96,
+  "candidate_shell_scale": 0.94,
+  "ratio_applied": 0.9791666666666666,
+  "protected_inner_and_petals": true,
+  "supports_edited": false,
+  "contacts": [
+    {
+      "objects": [
+        "BassNozzleShell",
+        "BassNozzleRearCollar"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 5233.4697681886555
+    },
+    {
+      "objects": [
+        "BassNozzleShell",
+        "BassNozzleRolledLip"
+      ],
+      "gap_mm": 3.5995482129228744,
+      "overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "BassWarningPlaque",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 3.552713678800501e-15,
+      "overlap_mm3": 149.73753404975577
+    },
+    {
+      "objects": [
+        "BassWarningRedBand",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 0.33042900264614744,
+      "overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "BassWarningTriangleInset",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 0.3645103304210948,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "status": "exploratory candidate; fixed-camera comparison pending"
+}

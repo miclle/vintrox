@@ -1,0 +1,81 @@
+{
+  "fcstd_sha256": "d03080846462cd5b8318f6dea254456fe77ece6cda06349ba698ea010086d591",
+  "candidate_fcstd_sha256": "a5425d5aa3eaa5b4bc2b8511caee4b69661be90cac95214311f6844f6999b227",
+  "measurement_script_sha256": "8af24e4bf984e0c40df2a108b2cc41d6ee87375f6b239dcb7289a2c4fa424280",
+  "parts": [
+    {
+      "name": "WingRaisedFaceRight",
+      "valid": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "WingPaintRight",
+      "valid": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "WingFoldFacetRight",
+      "valid": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "shafts": [
+    {
+      "name": "SupportShaftFrontLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearLeft",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftFrontRight",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "SupportShaftRearRight",
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "wing_contacts": [
+    {
+      "objects": [
+        "WingPaintRight",
+        "WingRaisedFaceRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 8059.296827719618
+    },
+    {
+      "objects": [
+        "WingRaisedFaceRight",
+        "WingEdgeRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "WingFoldFacetRight",
+        "WingEdgeRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 2614.9132555437304
+    },
+    {
+      "objects": [
+        "WingHubMarkRight",
+        "WingPaintRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "passed": true
+}

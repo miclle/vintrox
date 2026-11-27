@@ -1,0 +1,8 @@
+"""Generate the selected vintrox-terminal design package under cad/terminal."""
+from pathlib import Path
+import importlib.util
+_terminal_root=Path(__file__).resolve().parents[1]
+_terminal_spec=importlib.util.spec_from_file_location('vintrox_terminal',_terminal_root/'tools/terminal_model.py')
+_terminal_model=importlib.util.module_from_spec(_terminal_spec)
+_terminal_spec.loader.exec_module(_terminal_model)
+_terminal_model.build(_terminal_root)

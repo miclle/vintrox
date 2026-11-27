@@ -1,0 +1,58 @@
+{
+  "status": "diagnostic only; formal model unchanged",
+  "parameter_names": [
+    "center_y",
+    "center_z",
+    "radius",
+    "axis_angle_from_down_deg"
+  ],
+  "baseline": [
+    236.50139160095424,
+    94.3841495433056,
+    52.32151199714262,
+    35.02487327954135
+  ],
+  "free_axis": [
+    233.96741686341485,
+    95.02560281507961,
+    51.40534690116642,
+    34.54333481300264
+  ],
+  "baseline_rms_px": 2.894488241904203,
+  "free_axis_rms_px": 2.4861931605121796,
+  "starts": [
+    {
+      "parameters": [
+        233.96741686341485,
+        95.02560281507961,
+        51.40534690116642,
+        34.54333481300264
+      ],
+      "rms_px": 2.4861931605121796
+    },
+    {
+      "parameters": [
+        236.13833276546262,
+        94.17115837788906,
+        52.27197779299754,
+        35.2853883295422
+      ],
+      "rms_px": 2.88420517842289
+    },
+    {
+      "parameters": [
+        233.96418250178198,
+        95.0244864189047,
+        51.40934879782971,
+        34.54220876359275
+      ],
+      "rms_px": 2.486199827761802
+    }
+  ],
+  "source_fit_sha256": "09d28b338820158432f344ed8035e8ec13b0375864665b53148de7b267342adb",
+  "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "limitations": [
+    "Same 23 manual observations reused; source video only.",
+    "Circular root section assumption remains; not independent acceptance."
+  ]
+}

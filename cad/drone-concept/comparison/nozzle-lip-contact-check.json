@@ -1,0 +1,339 @@
+{
+  "fcstd_sha256": "aa3de1dc9dcea5a511dd01cfba77d394fdd4a178254d170eb1f1bc369c0389b4",
+  "measurement_script_sha256": "ad64c28dc4f173ecaf4391c646322f0ecf588a9b94f73f83d49a8854ca190456",
+  "parts": [
+    {
+      "name": "BassNozzleRolledLip",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "torus_radii_mm": [
+        [
+          54.019312,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "BassNozzleMouthRing",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "torus_radii_mm": [
+        [
+          53.520812,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "BassSpeakerGasket",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "advanced_check_passed": true,
+      "torus_radii_mm": []
+    }
+  ],
+  "contacts": [
+    {
+      "objects": [
+        "BassNozzleRolledLip",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 9.476687077593762e-15,
+      "boolean_overlap_mm3": 59.61783372159488
+    },
+    {
+      "objects": [
+        "BassNozzleRolledLip",
+        "BassNozzleMouthRing"
+      ],
+      "gap_mm": 0.0,
+      "boolean_overlap_mm3": 246.62973457876024
+    },
+    {
+      "objects": [
+        "BassSpeakerGasket",
+        "BassNozzleShell"
+      ],
+      "gap_mm": 0.0,
+      "boolean_overlap_mm3": 1765.8815629129322
+    }
+  ],
+  "interior_contact_probes": [
+    {
+      "point_mm": [
+        53.7700621886773,
+        227.37533444193264,
+        92.56739909547849
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        53.7700621886773,
+        227.4322455250638,
+        92.48517301313939
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        53.7700621886773,
+        227.48915660819497,
+        92.40294693080028
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        38.0211755984361,
+        196.1120112880676,
+        70.92913624320407
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        38.0211755984361,
+        196.16892237119876,
+        70.84691016086498
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        38.0211755984361,
+        196.22583345432994,
+        70.76468407852587
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        3.2924667274658895e-15,
+        183.1623188328839,
+        61.966274303598084
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        3.2924667274658895e-15,
+        183.21922991601505,
+        61.88404822125898
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        3.2924667274658895e-15,
+        183.27614099914624,
+        61.801822138919874
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        -38.02117559843609,
+        196.11201128806758,
+        70.92913624320407
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        -38.02117559843609,
+        196.16892237119876,
+        70.84691016086497
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        -38.02117559843609,
+        196.22583345432992,
+        70.76468407852586
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        -53.7700621886773,
+        227.37533444193264,
+        92.56739909547849
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        -53.7700621886773,
+        227.4322455250638,
+        92.48517301313939
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        -53.7700621886773,
+        227.48915660819495,
+        92.40294693080028
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        -38.0211755984361,
+        258.63865759579767,
+        114.2056619477529
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        -38.0211755984361,
+        258.6955686789288,
+        114.1234358654138
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        -38.0211755984361,
+        258.75247976206003,
+        114.04120978307469
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        -9.877400182397668e-15,
+        271.5883500509814,
+        123.1685238873589
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        -9.877400182397668e-15,
+        271.64526113411256,
+        123.0862978050198
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        -9.877400182397668e-15,
+        271.70217221724374,
+        123.00407172268069
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        38.02117559843609,
+        258.63865759579767,
+        114.2056619477529
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        38.02117559843609,
+        258.69556867892885,
+        114.1234358654138
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    },
+    {
+      "point_mm": [
+        38.02117559843609,
+        258.75247976206003,
+        114.0412097830747
+      ],
+      "inside_gold": true,
+      "inside_metal": true
+    }
+  ],
+  "petal_contacts": [
+    {
+      "name": "NozzlePetal0",
+      "root_roll_overlap_mm3": 15.141403286178619
+    },
+    {
+      "name": "NozzlePetal1",
+      "root_roll_overlap_mm3": 14.56634199412633
+    },
+    {
+      "name": "NozzlePetal2",
+      "root_roll_overlap_mm3": 14.349627620790677
+    },
+    {
+      "name": "NozzlePetal3",
+      "root_roll_overlap_mm3": 14.566353354537416
+    },
+    {
+      "name": "NozzlePetal4",
+      "root_roll_overlap_mm3": 15.141412299198956
+    },
+    {
+      "name": "NozzlePetal5",
+      "root_roll_overlap_mm3": 15.885086803164233
+    },
+    {
+      "name": "NozzlePetal6",
+      "root_roll_overlap_mm3": 16.57925975119148
+    },
+    {
+      "name": "NozzlePetal7",
+      "root_roll_overlap_mm3": 17.056080904666885
+    },
+    {
+      "name": "NozzlePetal8",
+      "root_roll_overlap_mm3": 17.224077878651684
+    },
+    {
+      "name": "NozzlePetal9",
+      "root_roll_overlap_mm3": 17.05608037032169
+    },
+    {
+      "name": "NozzlePetal10",
+      "root_roll_overlap_mm3": 16.57925537736615
+    },
+    {
+      "name": "NozzlePetal11",
+      "root_roll_overlap_mm3": 15.885086907990384
+    }
+  ],
+  "passed": true,
+  "limitations": [
+    "tori Boolean common may return zero despite 24 strictly interior overlap probes; raw result retained",
+    "local appearance contacts, not manufacturing or physical verification"
+  ]
+}

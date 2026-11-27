@@ -1,0 +1,597 @@
+[
+  {
+    "id": "P01",
+    "name": "LeftShell",
+    "label": "Left / 外罩及连接耳",
+    "print_bounds_mm": [
+      205.0,
+      160.0,
+      11.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      -90.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P02",
+    "name": "RightShell",
+    "label": "Right / 外罩及连接耳",
+    "print_bounds_mm": [
+      205.0,
+      160.0,
+      11.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      90.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P03",
+    "name": "TopCap",
+    "label": "折面顶部外罩 / CD入口",
+    "print_bounds_mm": [
+      15.0,
+      160.0,
+      234.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      90.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P04",
+    "name": "SlotTrim",
+    "label": "顶部槽口饰件 / 非验证导向件",
+    "print_bounds_mm": [
+      128.0,
+      7.0,
+      0.8
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P05",
+    "name": "BaseTray",
+    "label": "底盘 / 固定孔与脚座",
+    "print_bounds_mm": [
+      234.0,
+      160.0,
+      10.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P06",
+    "name": "Foot0",
+    "label": "前支撑脚",
+    "print_bounds_mm": [
+      206.0,
+      8.0,
+      5.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P07",
+    "name": "Foot1",
+    "label": "后支撑脚",
+    "print_bounds_mm": [
+      206.0,
+      8.0,
+      5.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P08",
+    "name": "FrontBezel",
+    "label": "内嵌屏幕前框 / 压框连接柱",
+    "print_bounds_mm": [
+      227.2,
+      165.0,
+      9.3
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P09",
+    "name": "ControlPanel",
+    "label": "独立下部控制面板",
+    "print_bounds_mm": [
+      227.2,
+      27.2,
+      3.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P10",
+    "name": "ControlMount",
+    "label": "控制区内支架 / 底盘连接孔",
+    "print_bounds_mm": [
+      218.0,
+      6.0,
+      12.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P11",
+    "name": "ScreenRetainer",
+    "label": "屏幕独立压框 / 左排线避让及底脚",
+    "print_bounds_mm": [
+      227.2,
+      194.0,
+      8.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      -90.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P12",
+    "name": "DriveMount",
+    "label": "光驱与桥接器一体托架 / 脚座",
+    "print_bounds_mm": [
+      132.8,
+      34.8,
+      81.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      180.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P13",
+    "name": "SpeakerHolderLeft",
+    "label": "Left音箱独立托座 / 发声面敞开",
+    "print_bounds_mm": [
+      59.8,
+      109.8,
+      64.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      180.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P14",
+    "name": "SpeakerHolderRight",
+    "label": "Right音箱独立托座 / 发声面敞开",
+    "print_bounds_mm": [
+      59.8,
+      109.8,
+      64.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      180.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P15",
+    "name": "DriverHolder",
+    "label": "独立屏幕驱动板托架",
+    "print_bounds_mm": [
+      99.3,
+      9.8,
+      28.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      180.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P16",
+    "name": "BatteryHolder",
+    "label": "电池托盘与底部支撑",
+    "print_bounds_mm": [
+      124.8,
+      79.8,
+      16.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P17",
+    "name": "PowerHolder",
+    "label": "电源区托盘与底部支撑",
+    "print_bounds_mm": [
+      74.8,
+      28.8,
+      14.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P18",
+    "name": "CarrierSpine",
+    "label": "中央模块骨架 / 通线窗与底座",
+    "print_bounds_mm": [
+      106.0,
+      190.0,
+      13.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P19",
+    "name": "PiCradleEarHoles",
+    "label": "PiCradle / 模块托盘",
+    "print_bounds_mm": [
+      105.8,
+      29.8,
+      10.4
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P20",
+    "name": "HubCradleEarHoles",
+    "label": "HubCradle / 模块托盘",
+    "print_bounds_mm": [
+      70.8,
+      26.8,
+      10.4
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P21",
+    "name": "DiskCradleEarHoles",
+    "label": "DiskCradle / 模块托盘",
+    "print_bounds_mm": [
+      101.3,
+      17.8,
+      10.4
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P22",
+    "name": "AmpCradle",
+    "label": "AmpCradle / 模块托盘",
+    "print_bounds_mm": [
+      62.8,
+      24.8,
+      10.4
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P23",
+    "name": "DacCradle",
+    "label": "DacCradle / 模块托盘",
+    "print_bounds_mm": [
+      72.8,
+      20.8,
+      10.4
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P24",
+    "name": "PiShelf",
+    "label": "PiShelf / 可拆托臂",
+    "print_bounds_mm": [
+      105.8,
+      39.6,
+      20.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P25",
+    "name": "HubShelf",
+    "label": "HubShelf / 可拆托臂",
+    "print_bounds_mm": [
+      70.8,
+      14.6,
+      20.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P26",
+    "name": "DiskShelf",
+    "label": "DiskShelf / 可拆托臂",
+    "print_bounds_mm": [
+      106.0,
+      12.6,
+      20.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P27",
+    "name": "AudioShelf",
+    "label": "AudioShelf / 可拆托臂",
+    "print_bounds_mm": [
+      210.8,
+      29.4,
+      20.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P28",
+    "name": "GrilleLeft",
+    "label": "Left侧向格栅 / 背缘定位，卡接待样件",
+    "print_bounds_mm": [
+      109.0,
+      99.0,
+      4.4
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      -90.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P29",
+    "name": "GrilleRight",
+    "label": "Right侧向格栅 / 背缘定位，卡接待样件",
+    "print_bounds_mm": [
+      109.0,
+      99.0,
+      4.4
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      0.0,
+      90.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P30",
+    "name": "RearPanel",
+    "label": "可拆接口后盖 / 独立散热孔",
+    "print_bounds_mm": [
+      227.2,
+      196.2,
+      3.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      -90.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P31",
+    "name": "KnobCap",
+    "label": "主旋钮打印帽 / 编码器未选",
+    "print_bounds_mm": [
+      20.0,
+      20.0,
+      6.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P32",
+    "name": "Button0",
+    "label": "控制按键帽 1",
+    "print_bounds_mm": [
+      5.4,
+      5.4,
+      2.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P33",
+    "name": "Button1",
+    "label": "控制按键帽 2",
+    "print_bounds_mm": [
+      5.4,
+      5.4,
+      2.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P34",
+    "name": "Button2",
+    "label": "控制按键帽 3",
+    "print_bounds_mm": [
+      5.4,
+      5.4,
+      2.0
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  },
+  {
+    "id": "P35",
+    "name": "AccentBadge",
+    "label": "识别色条 / 无状态功能含义",
+    "print_bounds_mm": [
+      28.0,
+      2.0,
+      1.2
+    ],
+    "assumed_256_cube_fit": true,
+    "rotation_xyz_deg": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "note": "方向为初步建议，未验证支撑/翘曲/层间强度；成型空间是假设"
+  }
+]

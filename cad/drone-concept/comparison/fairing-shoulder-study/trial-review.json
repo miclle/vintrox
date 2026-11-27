@@ -1,0 +1,537 @@
+{
+  "baseline_revision": "v50-fairing-depth-and-light-clearance",
+  "baseline_fcstd_sha256": "094bb2e63081b879e865db74d375f975126968bd2473772973c3dc0b2bd8171a",
+  "trials": [
+    {
+      "trial": "s2",
+      "fcstd_sha256": "17af05fcfde57f545abfe78ca5dc2720c921f31b9d5232f86c6f555f4c18dfb5",
+      "upper_inset_mm": 2.0,
+      "lower_inset_mm": 2.0,
+      "views": [
+        {
+          "kind": "video",
+          "mean_iou": 0.8487949819086795,
+          "per_view": [
+            {
+              "view": "video-00",
+              "iou": 0.8734462579322946,
+              "baseline_iou": 0.8734462579322946,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-01",
+              "iou": 0.8564925296066496,
+              "baseline_iou": 0.8564925296066496,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-02",
+              "iou": 0.8372939354512171,
+              "baseline_iou": 0.8372878558657681,
+              "delta_percentage_points": 0.0006079585448959257
+            },
+            {
+              "view": "video-03",
+              "iou": 0.8198999225858568,
+              "baseline_iou": 0.8198999225858568,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-04",
+              "iou": 0.8186012125751403,
+              "baseline_iou": 0.8186012125751403,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-05",
+              "iou": 0.8045156946572499,
+              "baseline_iou": 0.8045156946572499,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-06",
+              "iou": 0.8249550146531622,
+              "baseline_iou": 0.8249561246641769,
+              "delta_percentage_points": -0.00011100110146600173
+            },
+            {
+              "view": "video-07",
+              "iou": 0.8788813080021994,
+              "baseline_iou": 0.8788813080021994,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-08",
+              "iou": 0.893606489195306,
+              "baseline_iou": 0.893606489195306,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-09",
+              "iou": 0.8802574544277193,
+              "baseline_iou": 0.8802574544277193,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        },
+        {
+          "kind": "stills",
+          "mean_iou": 0.8196985317058915,
+          "per_view": [
+            {
+              "view": "still-01",
+              "iou": 0.8650207256828119,
+              "baseline_iou": 0.8650207256828119,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-02",
+              "iou": 0.8671098682331476,
+              "baseline_iou": 0.8671098682331476,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-03",
+              "iou": 0.8487970010695631,
+              "baseline_iou": 0.8487970010695631,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-04",
+              "iou": 0.7805770802466708,
+              "baseline_iou": 0.7805770802466708,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-05",
+              "iou": 0.7710317784846359,
+              "baseline_iou": 0.7710078743885459,
+              "delta_percentage_points": 0.0023904096089988336
+            },
+            {
+              "view": "still-06",
+              "iou": 0.7373516657900736,
+              "baseline_iou": 0.7373516657900736,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-closeup",
+              "iou": 0.8680016024343364,
+              "baseline_iou": 0.8680016024343364,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        }
+      ],
+      "side": {
+        "rms_px": 6.584614100852293,
+        "max_px": 11.0
+      },
+      "upper": {
+        "rms_px": 5.495452665613635,
+        "max_px": 16.55294535724685
+      },
+      "surface_cavity_emitters_passed": true
+    },
+    {
+      "trial": "s4",
+      "fcstd_sha256": "6227615681c12ffc80dca59b0a03f49b44858a73673446299c6a652a1ddb5236",
+      "upper_inset_mm": 4.0,
+      "lower_inset_mm": 4.0,
+      "views": [
+        {
+          "kind": "video",
+          "mean_iou": 0.8487951073418769,
+          "per_view": [
+            {
+              "view": "video-00",
+              "iou": 0.8734462579322946,
+              "baseline_iou": 0.8734462579322946,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-01",
+              "iou": 0.8564925296066496,
+              "baseline_iou": 0.8564925296066496,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-02",
+              "iou": 0.8372922105251576,
+              "baseline_iou": 0.8372878558657681,
+              "delta_percentage_points": 0.0004354659389416149
+            },
+            {
+              "view": "video-03",
+              "iou": 0.8198999225858568,
+              "baseline_iou": 0.8198999225858568,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-04",
+              "iou": 0.8186012125751403,
+              "baseline_iou": 0.8186012125751403,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-05",
+              "iou": 0.8045156946572499,
+              "baseline_iou": 0.8045156946572499,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-06",
+              "iou": 0.8249579939111966,
+              "baseline_iou": 0.8249561246641769,
+              "delta_percentage_points": 0.00018692470197256839
+            },
+            {
+              "view": "video-07",
+              "iou": 0.8788813080021994,
+              "baseline_iou": 0.8788813080021994,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-08",
+              "iou": 0.893606489195306,
+              "baseline_iou": 0.893606489195306,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-09",
+              "iou": 0.8802574544277193,
+              "baseline_iou": 0.8802574544277193,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        },
+        {
+          "kind": "stills",
+          "mean_iou": 0.8196972832215665,
+          "per_view": [
+            {
+              "view": "still-01",
+              "iou": 0.8650207256828119,
+              "baseline_iou": 0.8650207256828119,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-02",
+              "iou": 0.8671098682331476,
+              "baseline_iou": 0.8671098682331476,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-03",
+              "iou": 0.8487970010695631,
+              "baseline_iou": 0.8487970010695631,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-04",
+              "iou": 0.7805770802466708,
+              "baseline_iou": 0.7805770802466708,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-05",
+              "iou": 0.7710230390943623,
+              "baseline_iou": 0.7710078743885459,
+              "delta_percentage_points": 0.0015164705816417268
+            },
+            {
+              "view": "still-06",
+              "iou": 0.7373516657900736,
+              "baseline_iou": 0.7373516657900736,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-closeup",
+              "iou": 0.8680016024343364,
+              "baseline_iou": 0.8680016024343364,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        }
+      ],
+      "side": {
+        "rms_px": 6.670832032063167,
+        "max_px": 11.0
+      },
+      "upper": {
+        "rms_px": 5.082181758710665,
+        "max_px": 13.0
+      },
+      "surface_cavity_emitters_passed": true
+    },
+    {
+      "trial": "s6",
+      "fcstd_sha256": "109ed9288e3f1c3709c5ae147be1473b2de8d1b579640a4159aa558185cf1ac0",
+      "upper_inset_mm": 6.0,
+      "lower_inset_mm": 6.0,
+      "views": [
+        {
+          "kind": "video",
+          "mean_iou": 0.8487893054671636,
+          "per_view": [
+            {
+              "view": "video-00",
+              "iou": 0.8734462579322946,
+              "baseline_iou": 0.8734462579322946,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-01",
+              "iou": 0.8564925296066496,
+              "baseline_iou": 0.8564925296066496,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-02",
+              "iou": 0.8372739801771022,
+              "baseline_iou": 0.8372878558657681,
+              "delta_percentage_points": -0.0013875688665954122
+            },
+            {
+              "view": "video-03",
+              "iou": 0.8198999225858568,
+              "baseline_iou": 0.8198999225858568,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-04",
+              "iou": 0.8186012125751403,
+              "baseline_iou": 0.8186012125751403,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-05",
+              "iou": 0.8045156946572499,
+              "baseline_iou": 0.8045156946572499,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-06",
+              "iou": 0.8249182055121167,
+              "baseline_iou": 0.8249561246641769,
+              "delta_percentage_points": -0.003791915206019514
+            },
+            {
+              "view": "video-07",
+              "iou": 0.8788813080021994,
+              "baseline_iou": 0.8788813080021994,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-08",
+              "iou": 0.893606489195306,
+              "baseline_iou": 0.893606489195306,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-09",
+              "iou": 0.8802574544277193,
+              "baseline_iou": 0.8802574544277193,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        },
+        {
+          "kind": "stills",
+          "mean_iou": 0.8196949456602434,
+          "per_view": [
+            {
+              "view": "still-01",
+              "iou": 0.8650207256828119,
+              "baseline_iou": 0.8650207256828119,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-02",
+              "iou": 0.8671098682331476,
+              "baseline_iou": 0.8671098682331476,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-03",
+              "iou": 0.8487970010695631,
+              "baseline_iou": 0.8487970010695631,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-04",
+              "iou": 0.7805770802466708,
+              "baseline_iou": 0.7805770802466708,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-05",
+              "iou": 0.7710066761651005,
+              "baseline_iou": 0.7710078743885459,
+              "delta_percentage_points": -0.00011982234453533636
+            },
+            {
+              "view": "still-06",
+              "iou": 0.7373516657900736,
+              "baseline_iou": 0.7373516657900736,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-closeup",
+              "iou": 0.8680016024343364,
+              "baseline_iou": 0.8680016024343364,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        }
+      ],
+      "side": {
+        "rms_px": 6.974443142133796,
+        "max_px": 11.0
+      },
+      "upper": {
+        "rms_px": 4.942526826287484,
+        "max_px": 11.180339887498949
+      },
+      "surface_cavity_emitters_passed": true
+    },
+    {
+      "trial": "u6",
+      "fcstd_sha256": "b7786b99e881c8900d2d0ca858d44cf9b1d462a4d6cdd451e3267b0dbd33fc38",
+      "upper_inset_mm": 6.0,
+      "lower_inset_mm": 0.0,
+      "views": [
+        {
+          "kind": "video",
+          "mean_iou": 0.848792368372411,
+          "per_view": [
+            {
+              "view": "video-00",
+              "iou": 0.8734462579322946,
+              "baseline_iou": 0.8734462579322946,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-01",
+              "iou": 0.8564925296066496,
+              "baseline_iou": 0.8564925296066496,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-02",
+              "iou": 0.8372823545592079,
+              "baseline_iou": 0.8372878558657681,
+              "delta_percentage_points": -0.0005501306560296015
+            },
+            {
+              "view": "video-03",
+              "iou": 0.8198999225858568,
+              "baseline_iou": 0.8198999225858568,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-04",
+              "iou": 0.8186012125751403,
+              "baseline_iou": 0.8186012125751403,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-05",
+              "iou": 0.8045156946572499,
+              "baseline_iou": 0.8045156946572499,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-06",
+              "iou": 0.8249404601824871,
+              "baseline_iou": 0.8249561246641769,
+              "delta_percentage_points": -0.0015664481689769971
+            },
+            {
+              "view": "video-07",
+              "iou": 0.8788813080021994,
+              "baseline_iou": 0.8788813080021994,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-08",
+              "iou": 0.893606489195306,
+              "baseline_iou": 0.893606489195306,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "video-09",
+              "iou": 0.8802574544277193,
+              "baseline_iou": 0.8802574544277193,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        },
+        {
+          "kind": "stills",
+          "mean_iou": 0.8196959945897255,
+          "per_view": [
+            {
+              "view": "still-01",
+              "iou": 0.8650207256828119,
+              "baseline_iou": 0.8650207256828119,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-02",
+              "iou": 0.8671098682331476,
+              "baseline_iou": 0.8671098682331476,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-03",
+              "iou": 0.8487970010695631,
+              "baseline_iou": 0.8487970010695631,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-04",
+              "iou": 0.7805770802466708,
+              "baseline_iou": 0.7805770802466708,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-05",
+              "iou": 0.7710140186714759,
+              "baseline_iou": 0.7710078743885459,
+              "delta_percentage_points": 0.0006144282929998468
+            },
+            {
+              "view": "still-06",
+              "iou": 0.7373516657900736,
+              "baseline_iou": 0.7373516657900736,
+              "delta_percentage_points": 0.0
+            },
+            {
+              "view": "still-closeup",
+              "iou": 0.8680016024343364,
+              "baseline_iou": 0.8680016024343364,
+              "delta_percentage_points": 0.0
+            }
+          ]
+        }
+      ],
+      "side": {
+        "rms_px": 6.579187965525403,
+        "max_px": 11.0
+      },
+      "upper": {
+        "rms_px": 4.90771986626318,
+        "max_px": 11.180339887498949
+      },
+      "surface_cavity_emitters_passed": true
+    }
+  ],
+  "adopted": "u6",
+  "reason": "upper station narrowed while lower station retained; best upper RMS of tried cases and unchanged 14-point side diagnostic; tiny full silhouette regressions retained",
+  "limitations": [
+    "Four discrete trials, no continuous optimum proved.",
+    "Manual upper boundary includes shadow and occlusion uncertainty.",
+    "Keeping one loft station fixed does not keep entire adjacent spans unchanged."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "renderer": "Blender 5.1.1",
+  "method": "saved CAD tessellation; Cycles",
+  "renderer_script_sha256": "bf79f2d4a1ea54a97efcd8e4f1f23221bf8434c9eda69a67e3fbf6642c59db4b",
+  "compute_device": "CPU",
+  "mesh_validation_repairs": [],
+  "fcstd_sha256": "6ad7fe96c29675966244d9ea0eb3f9484825bb573e612849ae8e691ab6f95021",
+  "cad_geometry_features": 696,
+  "render_only": [
+    "studio lighting",
+    "procedural enamel texture",
+    "surface lettering"
+  ],
+  "physical_validation": false,
+  "images": [
+    {
+      "view": "hero",
+      "path": "hero.png",
+      "sha256": "60e85ded1b9af9a7d82b738135aca653ad1fb60d31b7237c272338f0b0b47eb0"
+    },
+    {
+      "view": "rear",
+      "path": "rear.png",
+      "sha256": "bd162e87c8d8cfd62d6846f955b8bcd80413bd118d83db78b4cb31af7a01979c"
+    },
+    {
+      "view": "front",
+      "path": "front.png",
+      "sha256": "edb47e0eed00fc86fd13bb51b66cb80db7f48727edc5c41714cb588439eb80d1"
+    },
+    {
+      "view": "right",
+      "path": "right.png",
+      "sha256": "1270ceda167818e6191eae043e652bca99537e710956b39c8740ed38d353de48"
+    },
+    {
+      "view": "nozzle-detail",
+      "path": "nozzle-detail.png",
+      "sha256": "d9ed2175888bb95a93eae337e6cd9412be22cf2c458f3d6b2999170f050231d0"
+    }
+  ],
+  "turntable": null,
+  "review_board": null
+}

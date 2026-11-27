@@ -1,0 +1,329 @@
+{
+  "baseline": "v173-front-cheek-contract",
+  "candidate": "v175-wing-pose",
+  "decision": "retain v173",
+  "comparisons": {
+    "video": {
+      "camera_config_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "baseline_mean_iou": 0.8590092505079457,
+      "candidate_mean_iou": 0.8585520126947233,
+      "views": [
+        {
+          "view": "video-00",
+          "baseline_iou": 0.8764263887820123,
+          "candidate_iou": 0.8729383562322315
+        },
+        {
+          "view": "video-01",
+          "baseline_iou": 0.8645445175612463,
+          "candidate_iou": 0.8652541316931163
+        },
+        {
+          "view": "video-02",
+          "baseline_iou": 0.8503671436058405,
+          "candidate_iou": 0.8496078563943071
+        },
+        {
+          "view": "video-03",
+          "baseline_iou": 0.8341803842662457,
+          "candidate_iou": 0.8322352275417636
+        },
+        {
+          "view": "video-04",
+          "baseline_iou": 0.8352658473864786,
+          "candidate_iou": 0.8358594705357438
+        },
+        {
+          "view": "video-05",
+          "baseline_iou": 0.8170040992583785,
+          "candidate_iou": 0.8173775509623535
+        },
+        {
+          "view": "video-06",
+          "baseline_iou": 0.8396913808292364,
+          "candidate_iou": 0.8396735964904803
+        },
+        {
+          "view": "video-07",
+          "baseline_iou": 0.8940533680928401,
+          "candidate_iou": 0.8933051752040125
+        },
+        {
+          "view": "video-08",
+          "baseline_iou": 0.8987936432796232,
+          "candidate_iou": 0.8990474378031406
+        },
+        {
+          "view": "video-09",
+          "baseline_iou": 0.8797657320175561,
+          "candidate_iou": 0.8802213240900826
+        }
+      ]
+    },
+    "stills": {
+      "camera_config_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+      "baseline_mean_iou": 0.8252506381120008,
+      "candidate_mean_iou": 0.825956132899244,
+      "views": [
+        {
+          "view": "still-01",
+          "baseline_iou": 0.8668748102857639,
+          "candidate_iou": 0.860158917036761
+        },
+        {
+          "view": "still-02",
+          "baseline_iou": 0.8745211264570899,
+          "candidate_iou": 0.8800512193752619
+        },
+        {
+          "view": "still-03",
+          "baseline_iou": 0.8437203153180116,
+          "candidate_iou": 0.8493676467902236
+        },
+        {
+          "view": "still-04",
+          "baseline_iou": 0.7864374195748903,
+          "candidate_iou": 0.7846101763919743
+        },
+        {
+          "view": "still-05",
+          "baseline_iou": 0.7844536658925053,
+          "candidate_iou": 0.7840352013107995
+        },
+        {
+          "view": "still-06",
+          "baseline_iou": 0.7467136733267101,
+          "candidate_iou": 0.7441220581581492
+        },
+        {
+          "view": "still-closeup",
+          "baseline_iou": 0.8740334559290337,
+          "candidate_iou": 0.8793477112315379
+        }
+      ]
+    },
+    "sheet": {
+      "camera_config_sha256": "fcaae951889ac59207fc04bbae5443623c50557ac082654668189a279f8c57cf",
+      "baseline_mean_iou": 0.8965441776548385,
+      "candidate_mean_iou": 0.8960364215235537,
+      "views": [
+        {
+          "view": "sheet-01",
+          "baseline_iou": 0.9135444347526218,
+          "candidate_iou": 0.9117021492089857
+        },
+        {
+          "view": "sheet-02",
+          "baseline_iou": 0.8918151579947731,
+          "candidate_iou": 0.8915771353950258
+        },
+        {
+          "view": "sheet-03",
+          "baseline_iou": 0.8944724168126095,
+          "candidate_iou": 0.8934924837530908
+        },
+        {
+          "view": "sheet-04",
+          "baseline_iou": 0.8801789367313237,
+          "candidate_iou": 0.8813273617639097
+        },
+        {
+          "view": "sheet-05",
+          "baseline_iou": 0.8708731191241808,
+          "candidate_iou": 0.8718319348318736
+        },
+        {
+          "view": "sheet-06",
+          "baseline_iou": 0.8715598346962103,
+          "candidate_iou": 0.8721292010686134
+        },
+        {
+          "view": "sheet-07",
+          "baseline_iou": 0.8985049534674272,
+          "candidate_iou": 0.8990791543106864
+        },
+        {
+          "view": "sheet-08",
+          "baseline_iou": 0.9311487481590575,
+          "candidate_iou": 0.9314301942758569
+        },
+        {
+          "view": "sheet-09",
+          "baseline_iou": 0.9111858865489131,
+          "candidate_iou": 0.9113196929316953
+        },
+        {
+          "view": "sheet-10",
+          "baseline_iou": 0.9021582882612698,
+          "candidate_iou": 0.8964749076957984
+        }
+      ]
+    }
+  },
+  "baseline_fcstd_sha256": "5ad1ff683bea72703edbf43bf349d99f13a73149772ccc08a5fb238e6b684a02",
+  "fcstd_sha256": "e925d4aa71087a39504751fd3760d21af2dd4246ae99b9e58175c1d8ca916451",
+  "changed_objects": [
+    "WingEdgeLeft",
+    "WingRaisedFaceLeft",
+    "WingPaintLeft",
+    "WingFoldFacetLeft",
+    "WingInnerPaintLeft",
+    "WingSpineLeft",
+    "WingHubSeatLeft",
+    "WingStripeLeft0",
+    "WingStripeLeft1",
+    "WingHubMarkLeft",
+    "WingEdgeRight",
+    "WingRaisedFaceRight",
+    "WingPaintRight",
+    "WingFoldFacetRight",
+    "WingInnerPaintRight",
+    "WingSpineRight",
+    "WingHubSeatRight",
+    "WingHubMarkRight"
+  ],
+  "contacts": [
+    {
+      "objects": [
+        "WingHubSeatLeft",
+        "WingEdgeLeft"
+      ],
+      "gap_mm": 5.6876648337357566e-11,
+      "overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "WingHubSeatLeft",
+        "SpeakerHubNeckLeft"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 1664.6130028602802
+    },
+    {
+      "objects": [
+        "WingHubSeatRight",
+        "WingEdgeRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "objects": [
+        "WingHubSeatRight",
+        "SpeakerHubNeckRight"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 1664.4782263230259
+    }
+  ],
+  "advanced_checks": [
+    {
+      "name": "WingEdgeLeft",
+      "baseline_error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "candidate_error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "unchanged_result": true
+    },
+    {
+      "name": "WingRaisedFaceLeft",
+      "baseline_error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "candidate_error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "unchanged_result": true
+    },
+    {
+      "name": "WingPaintLeft",
+      "baseline_error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "candidate_error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "unchanged_result": true
+    },
+    {
+      "name": "WingFoldFacetLeft",
+      "baseline_error": null,
+      "candidate_error": null,
+      "unchanged_result": true
+    },
+    {
+      "name": "WingInnerPaintLeft",
+      "baseline_error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "candidate_error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "unchanged_result": true
+    },
+    {
+      "name": "WingSpineLeft",
+      "baseline_error": null,
+      "candidate_error": null,
+      "unchanged_result": true
+    },
+    {
+      "name": "WingHubSeatLeft",
+      "baseline_error": "BOP check found the following errors:\nError in Edge: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo GeomAbs_C0\nError in Face: BOPAlgo GeomAbs_C0\nError in Face: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "candidate_error": "BOP check found the following errors:\nError in Edge: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo GeomAbs_C0\nError in Face: BOPAlgo GeomAbs_C0\nError in Face: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "unchanged_result": true
+    },
+    {
+      "name": "WingStripeLeft0",
+      "baseline_error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "candidate_error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "unchanged_result": true
+    },
+    {
+      "name": "WingStripeLeft1",
+      "baseline_error": null,
+      "candidate_error": null,
+      "unchanged_result": true
+    },
+    {
+      "name": "WingHubMarkLeft",
+      "baseline_error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "candidate_error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "unchanged_result": true
+    },
+    {
+      "name": "WingEdgeRight",
+      "baseline_error": null,
+      "candidate_error": null,
+      "unchanged_result": true
+    },
+    {
+      "name": "WingRaisedFaceRight",
+      "baseline_error": null,
+      "candidate_error": null,
+      "unchanged_result": true
+    },
+    {
+      "name": "WingPaintRight",
+      "baseline_error": null,
+      "candidate_error": null,
+      "unchanged_result": true
+    },
+    {
+      "name": "WingFoldFacetRight",
+      "baseline_error": null,
+      "candidate_error": null,
+      "unchanged_result": true
+    },
+    {
+      "name": "WingInnerPaintRight",
+      "baseline_error": null,
+      "candidate_error": null,
+      "unchanged_result": true
+    },
+    {
+      "name": "WingSpineRight",
+      "baseline_error": null,
+      "candidate_error": null,
+      "unchanged_result": true
+    },
+    {
+      "name": "WingHubSeatRight",
+      "baseline_error": "BOP check found the following errors:\nError in Edge: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo GeomAbs_C0\nError in Face: BOPAlgo GeomAbs_C0\nError in Face: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "candidate_error": "BOP check found the following errors:\nError in Edge: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo GeomAbs_C0\nError in Face: BOPAlgo GeomAbs_C0\nError in Face: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "unchanged_result": true
+    },
+    {
+      "name": "WingHubMarkRight",
+      "baseline_error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "candidate_error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n",
+      "unchanged_result": true
+    }
+  ]
+}

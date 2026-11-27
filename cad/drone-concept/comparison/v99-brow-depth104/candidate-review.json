@@ -1,0 +1,133 @@
+{
+  "revision": "v99-brow-depth104",
+  "decision": "rejected; retain formal v97",
+  "baseline_revision": "v97-petal096-brow0985-on-v96",
+  "baseline_fcstd_sha256": "2ab40ea74dacd2be487e8c3f77ff540b63110daff9c506f79cf332c8e016412a",
+  "candidate_fcstd_sha256": "05973ea91ba05447f099371c8fc3198ad16cbc0844fc35483fc4ae85f55d71bc",
+  "candidate_step_sha256": "2512868750ba06b27fcce21c00c0394812b514ba9d1f040a33f0898333c0751d",
+  "depth_scale": 1.04,
+  "depth_pivot_y_mm": 30.172439653712352,
+  "saved_readback_passed": true,
+  "native_screenshots_visually_reviewed": true,
+  "physical_validation": false,
+  "target_90_percent_achieved": false,
+  "major_component_5_percent_achieved": false,
+  "video": {
+    "baseline_mean_iou": 0.8557317102869455,
+    "candidate_mean_iou": 0.8548110581176566,
+    "delta_percentage_points": -0.0920652169288938,
+    "improved_views": 4,
+    "views": [
+      {
+        "view": "video-00",
+        "baseline_iou": 0.874013996247562,
+        "candidate_iou": 0.8731695154585222,
+        "delta_percentage_points": -0.08444807890398698
+      },
+      {
+        "view": "video-01",
+        "baseline_iou": 0.8609779698647837,
+        "candidate_iou": 0.8591342337422518,
+        "delta_percentage_points": -0.18437361225318583
+      },
+      {
+        "view": "video-02",
+        "baseline_iou": 0.848284875142283,
+        "candidate_iou": 0.8463443085395741,
+        "delta_percentage_points": -0.19405666027089152
+      },
+      {
+        "view": "video-03",
+        "baseline_iou": 0.831969846478647,
+        "candidate_iou": 0.832102871396419,
+        "delta_percentage_points": 0.013302491777200665
+      },
+      {
+        "view": "video-04",
+        "baseline_iou": 0.8281843209702348,
+        "candidate_iou": 0.8282006267535152,
+        "delta_percentage_points": 0.001630578328049026
+      },
+      {
+        "view": "video-05",
+        "baseline_iou": 0.816012846983253,
+        "candidate_iou": 0.8162722228513192,
+        "delta_percentage_points": 0.02593758680661251
+      },
+      {
+        "view": "video-06",
+        "baseline_iou": 0.8379347853870645,
+        "candidate_iou": 0.8359223383489108,
+        "delta_percentage_points": -0.20124470381536197
+      },
+      {
+        "view": "video-07",
+        "baseline_iou": 0.885335859426338,
+        "candidate_iou": 0.8834687423708221,
+        "delta_percentage_points": -0.1867117055515899
+      },
+      {
+        "view": "video-08",
+        "baseline_iou": 0.8955698711342184,
+        "candidate_iou": 0.8940948198830708,
+        "delta_percentage_points": -0.14750512511475522
+      },
+      {
+        "view": "video-09",
+        "baseline_iou": 0.8790327312350698,
+        "candidate_iou": 0.8794009018321609,
+        "delta_percentage_points": 0.03681705970911553
+      }
+    ]
+  },
+  "stills": {
+    "baseline_mean_iou": 0.8235871965201441,
+    "candidate_mean_iou": 0.8220430598141534,
+    "delta_percentage_points": -0.15441367059907396,
+    "improved_views": 0,
+    "views": [
+      {
+        "view": "still-01",
+        "baseline_iou": 0.8660291217302885,
+        "candidate_iou": 0.8646728046548177,
+        "delta_percentage_points": -0.1356317075470792
+      },
+      {
+        "view": "still-02",
+        "baseline_iou": 0.870937638772984,
+        "candidate_iou": 0.8673473748082438,
+        "delta_percentage_points": -0.359026396474027
+      },
+      {
+        "view": "still-03",
+        "baseline_iou": 0.8489013914755563,
+        "candidate_iou": 0.8480235749453947,
+        "delta_percentage_points": -0.08778165301616125
+      },
+      {
+        "view": "still-04",
+        "baseline_iou": 0.7849206314240524,
+        "candidate_iou": 0.7842105842347944,
+        "delta_percentage_points": -0.07100471892580451
+      },
+      {
+        "view": "still-05",
+        "baseline_iou": 0.7810704585957382,
+        "candidate_iou": 0.779786577492592,
+        "delta_percentage_points": -0.1283881103146256
+      },
+      {
+        "view": "still-06",
+        "baseline_iou": 0.741925562767259,
+        "candidate_iou": 0.7412802145148036,
+        "delta_percentage_points": -0.06453482524553245
+      },
+      {
+        "view": "still-closeup",
+        "baseline_iou": 0.8713255708751311,
+        "candidate_iou": 0.868980288048427,
+        "delta_percentage_points": -0.23452828267040982
+      }
+    ]
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "revision": "v85-front-brow-contract1p5",
+  "status": "saved CAD candidate; fixed-camera comparison completed",
+  "baseline_fcstd_sha256": "3ff80084e777c131d62743f14fa9e71c01a1a518bb5cfda09bd60546b9becf94",
+  "fcstd_sha256": "651c3800cb4fba2c7a0dce028093b651e47b160ec2575550b0b7269809f9fa4e",
+  "step_sha256": "bd6c07a00b538e0b039be09c7879959bbbaaae459ad7a15a1469041661c83851",
+  "source_script_sha256": "783446d8a21ac76ab0abf653edbbde290e20dfd999b87965a83fe6a474d7d41c",
+  "changed_objects": [
+    "ProjectingBrow",
+    "BrowUnderside"
+  ],
+  "x_scale_about_model_center": 0.985,
+  "preserved_shape_count": 696,
+  "protected_supports": {
+    "CentralSupportSeat": {
+      "candidate": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 92802.796086,
+        "area_mm2": 15802.229836,
+        "bbox_mm": [
+          -42.0,
+          42.0,
+          55.0,
+          125.0,
+          22.0,
+          38.0
+        ]
+      },
+      "baseline": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 92802.796086,
+        "area_mm2": 15802.229836,
+        "bbox_mm": [
+          -42.0,
+          42.0,
+          55.0,
+          125.0,
+          22.0,
+          38.0
+        ]
+      },
+      "equal": true
+    },
+    "SupportFootFrontLeft": {
+      "candidate": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1206.371579,
+        "area_mm2": 703.716754,
+        "bbox_mm": [
+          -130.0,
+          -114.0,
+          -26.0,
+          -10.0,
+          -100.0,
+          -94.0
+        ]
+      },
+      "baseline": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1206.371579,
+        "area_mm2": 703.716754,
+        "bbox_mm": [
+          -130.0,
+          -114.0,
+          -26.0,
+          -10.0,
+          -100.0,
+          -94.0
+        ]
+      },
+      "equal": true
+    },
+    "SupportFootFrontRight": {
+      "candidate": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1206.371579,
+        "area_mm2": 703.716754,
+        "bbox_mm": [
+          114.0,
+          130.0,
+          -26.0,
+          -10.0,
+          -100.0,
+          -94.0
+        ]
+      },
+      "baseline": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1206.371579,
+        "area_mm2": 703.716754,
+        "bbox_mm": [
+          114.0,
+          130.0,
+          -26.0,
+          -10.0,
+          -100.0,
+          -94.0
+        ]
+      },
+      "equal": true
+    },
+    "SupportFootRearLeft": {
+      "candidate": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1206.371579,
+        "area_mm2": 703.716754,
+        "bbox_mm": [
+          -130.0,
+          -114.0,
+          190.0,
+          206.0,
+          -100.0,
+          -94.0
+        ]
+      },
+      "baseline": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1206.371579,
+        "area_mm2": 703.716754,
+        "bbox_mm": [
+          -130.0,
+          -114.0,
+          190.0,
+          206.0,
+          -100.0,
+          -94.0
+        ]
+      },
+      "equal": true
+    },
+    "SupportFootRearRight": {
+      "candidate": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1206.371579,
+        "area_mm2": 703.716754,
+        "bbox_mm": [
+          114.0,
+          130.0,
+          190.0,
+          206.0,
+          -100.0,
+          -94.0
+        ]
+      },
+      "baseline": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1206.371579,
+        "area_mm2": 703.716754,
+        "bbox_mm": [
+          114.0,
+          130.0,
+          190.0,
+          206.0,
+          -100.0,
+          -94.0
+        ]
+      },
+      "equal": true
+    },
+    "SupportShaftFrontLeft": {
+      "candidate": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 5220.118982,
+        "area_mm2": 3536.627989,
+        "bbox_mm": [
+          -124.456271,
+          -13.543729,
+          -20.663142,
+          69.663142,
+          -99.207806,
+          30.207806
+        ]
+      },
+      "baseline": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 5220.118982,
+        "area_mm2": 3536.627989,
+        "bbox_mm": [
+          -124.456271,
+          -13.543729,
+          -20.663142,
+          69.663142,
+          -99.207806,
+          30.207806
+        ]
+      },
+      "equal": true
+    },
+    "SupportShaftFrontRight": {
+      "candidate": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 5220.118982,
+        "area_mm2": 3536.627989,
+        "bbox_mm": [
+          13.543729,
+          124.456271,
+          -20.663142,
+          69.663142,
+          -99.207806,
+          30.207806
+        ]
+      },
+      "baseline": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 5220.118982,
+        "area_mm2": 3536.627989,
+        "bbox_mm": [
+          13.543729,
+          124.456271,
+          -20.663142,
+          69.663142,
+          -99.207806,
+          30.207806
+        ]
+      },
+      "equal": true
+    },
+    "SupportShaftRearLeft": {
+      "candidate": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 5220.118982,
+        "area_mm2": 3536.627989,
+        "bbox_mm": [
+          -124.456271,
+          -13.543729,
+          110.336858,
+          200.663142,
+          -99.207806,
+          30.207806
+        ]
+      },
+      "baseline": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 5220.118982,
+        "area_mm2": 3536.627989,
+        "bbox_mm": [
+          -124.456271,
+          -13.543729,
+          110.336858,
+          200.663142,
+          -99.207806,
+          30.207806
+        ]
+      },
+      "equal": true
+    },
+    "SupportShaftRearRight": {
+      "candidate": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 5220.118982,
+        "area_mm2": 3536.627989,
+        "bbox_mm": [
+          13.543729,
+          124.456271,
+          110.336858,
+          200.663142,
+          -99.207806,
+          30.207806
+        ]
+      },
+      "baseline": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 5220.118982,
+        "area_mm2": 3536.627989,
+        "bbox_mm": [
+          13.543729,
+          124.456271,
+          110.336858,
+          200.663142,
+          -99.207806,
+          30.207806
+        ]
+      },
+      "equal": true
+    },
+    "SupportSocketFrontLeft": {
+      "candidate": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1866.106036,
+        "area_mm2": 1413.716694,
+        "bbox_mm": [
+          -33.543624,
+          -11.087457,
+          51.545019,
+          72.326284,
+          8.689246,
+          32.415611
+        ]
+      },
+      "baseline": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1866.106036,
+        "area_mm2": 1413.716694,
+        "bbox_mm": [
+          -33.543624,
+          -11.087457,
+          51.545019,
+          72.326284,
+          8.689246,
+          32.415611
+        ]
+      },
+      "equal": true
+    },
+    "SupportSocketFrontRight": {
+      "candidate": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1866.106036,
+        "area_mm2": 1413.716694,
+        "bbox_mm": [
+          11.087457,
+          33.543624,
+          51.545019,
+          72.326284,
+          8.689246,
+          32.415611
+        ]
+      },
+      "baseline": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1866.106036,
+        "area_mm2": 1413.716694,
+        "bbox_mm": [
+          11.087457,
+          33.543624,
+          51.545019,
+          72.326284,
+          8.689246,
+          32.415611
+        ]
+      },
+      "equal": true
+    },
+    "SupportSocketRearLeft": {
+      "candidate": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1866.106036,
+        "area_mm2": 1413.716694,
+        "bbox_mm": [
+          -33.543624,
+          -11.087457,
+          107.673716,
+          128.454981,
+          8.689246,
+          32.415611
+        ]
+      },
+      "baseline": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1866.106036,
+        "area_mm2": 1413.716694,
+        "bbox_mm": [
+          -33.543624,
+          -11.087457,
+          107.673716,
+          128.454981,
+          8.689246,
+          32.415611
+        ]
+      },
+      "equal": true
+    },
+    "SupportSocketRearRight": {
+      "candidate": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1866.106036,
+        "area_mm2": 1413.716694,
+        "bbox_mm": [
+          11.087457,
+          33.543624,
+          107.673716,
+          128.454981,
+          8.689246,
+          32.415611
+        ]
+      },
+      "baseline": {
+        "solids": 1,
+        "valid": true,
+        "closed": true,
+        "volume_mm3": 1866.106036,
+        "area_mm2": 1413.716694,
+        "bbox_mm": [
+          11.087457,
+          33.543624,
+          107.673716,
+          128.454981,
+          8.689246,
+          32.415611
+        ]
+      },
+      "equal": true
+    }
+  },
+  "screen_geometry_preserved": true,
+  "mesh_objects": 696,
+  "distinct_rgb_triples": 74,
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "limitations": [
+    "front-brow scale is an image-derived appearance hypothesis",
+    "measured flat screen retained; curved reference screen remains an appearance assumption",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}

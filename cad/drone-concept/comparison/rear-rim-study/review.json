@@ -1,0 +1,131 @@
+{
+  "baseline_fcstd_sha256": "94f972c40e00c3ce739fde8134fa72e807688be6f2b0d098e24099f4f7f56419",
+  "candidate_fcstd_sha256": "54c0aab2baa8dbf4c485404719def58a9fe102f58d7cd0888ac32d12c1ee208b",
+  "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+  "script_sha256": "c7da69cd10c771a38295d2bf7c039cfcbacc9153517cd4a8491c28e3ce213b0c",
+  "views": [
+    {
+      "kind": "video",
+      "baseline_mean_iou": 0.848599681063057,
+      "candidate_mean_iou": 0.8485934845151414,
+      "views": [
+        {
+          "view": "video-00",
+          "baseline_iou": 0.8734462579322946,
+          "candidate_iou": 0.8734462579322946,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-01",
+          "baseline_iou": 0.8564925296066496,
+          "candidate_iou": 0.856467409658899,
+          "delta_percentage_points": -0.002511994775056259
+        },
+        {
+          "view": "video-02",
+          "baseline_iou": 0.8364522883802071,
+          "candidate_iou": 0.8364477366345733,
+          "delta_percentage_points": -0.0004551745633851745
+        },
+        {
+          "view": "video-03",
+          "baseline_iou": 0.8198999225858568,
+          "candidate_iou": 0.8198999225858568,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-04",
+          "baseline_iou": 0.8186012125751403,
+          "candidate_iou": 0.8186012125751403,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-05",
+          "baseline_iou": 0.8045156946572499,
+          "candidate_iou": 0.8045156946572499,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-06",
+          "baseline_iou": 0.8238436532679485,
+          "candidate_iou": 0.8238394137503502,
+          "delta_percentage_points": -0.0004239517598314535
+        },
+        {
+          "view": "video-07",
+          "baseline_iou": 0.8788813080021994,
+          "candidate_iou": 0.8788532537340231,
+          "delta_percentage_points": -0.0028054268176314068
+        },
+        {
+          "view": "video-08",
+          "baseline_iou": 0.893606489195306,
+          "candidate_iou": 0.893606489195306,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "video-09",
+          "baseline_iou": 0.8802574544277193,
+          "candidate_iou": 0.8802574544277193,
+          "delta_percentage_points": 0.0
+        }
+      ]
+    },
+    {
+      "kind": "stills",
+      "baseline_mean_iou": 0.8195853892962948,
+      "candidate_mean_iou": 0.8195858630672613,
+      "views": [
+        {
+          "view": "still-01",
+          "baseline_iou": 0.8650207256828119,
+          "candidate_iou": 0.8650207256828119,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-02",
+          "baseline_iou": 0.8671098682331476,
+          "candidate_iou": 0.8671098682331476,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-03",
+          "baseline_iou": 0.8487970010695631,
+          "candidate_iou": 0.8487970010695631,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-04",
+          "baseline_iou": 0.7805770802466708,
+          "candidate_iou": 0.7805770802466708,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-05",
+          "baseline_iou": 0.7702397816174603,
+          "candidate_iou": 0.770243098014226,
+          "delta_percentage_points": 0.00033163967656513194
+        },
+        {
+          "view": "still-06",
+          "baseline_iou": 0.7373516657900736,
+          "candidate_iou": 0.7373516657900736,
+          "delta_percentage_points": 0.0
+        },
+        {
+          "view": "still-closeup",
+          "baseline_iou": 0.8680016024343364,
+          "candidate_iou": 0.8680016024343364,
+          "delta_percentage_points": 0.0
+        }
+      ]
+    }
+  ],
+  "boards": [
+    "cad/drone-concept/comparison/rear-rim-study/video-03-detail.png",
+    "cad/drone-concept/comparison/rear-rim-study/video-04-detail.png",
+    "cad/drone-concept/comparison/rear-rim-study/video-05-detail.png"
+  ],
+  "decision": "rejected: tiny mixed silhouette change; stronger frame-panel seam without a supported reference match",
+  "formal_revision_retained": "v48-recessed-nozzle-interior"
+}

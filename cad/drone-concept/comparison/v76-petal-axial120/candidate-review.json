@@ -1,0 +1,138 @@
+{
+  "status": "not adopted",
+  "baseline": "v69; formal v61 unchanged",
+  "scores": {
+    "video": {
+      "candidate": 0.8550774020292986,
+      "baseline_v69": 0.8555332009171318,
+      "delta": -0.0004557988878332031
+    },
+    "stills": {
+      "candidate": 0.8223155017449878,
+      "baseline_v69": 0.8225961961828953,
+      "delta": -0.0002806944379074583
+    }
+  },
+  "per_view": {
+    "video": [
+      {
+        "view": "video-00",
+        "candidate": 0.8737248836985229,
+        "baseline_v69": 0.8737248836985229,
+        "delta": 0.0
+      },
+      {
+        "view": "video-01",
+        "candidate": 0.8597221792357538,
+        "baseline_v69": 0.8607734837783811,
+        "delta": -0.0010513045426273626
+      },
+      {
+        "view": "video-02",
+        "candidate": 0.8469054919767877,
+        "baseline_v69": 0.847902666681625,
+        "delta": -0.0009971747048372892
+      },
+      {
+        "view": "video-03",
+        "candidate": 0.8306935133266874,
+        "baseline_v69": 0.8313541368451188,
+        "delta": -0.0006606235184314357
+      },
+      {
+        "view": "video-04",
+        "candidate": 0.8272315487935182,
+        "baseline_v69": 0.8280701984625631,
+        "delta": -0.0008386496690448997
+      },
+      {
+        "view": "video-05",
+        "candidate": 0.8137883801288591,
+        "baseline_v69": 0.8151927854193574,
+        "delta": -0.001404405290498234
+      },
+      {
+        "view": "video-06",
+        "candidate": 0.8377448848779881,
+        "baseline_v69": 0.838026392255248,
+        "delta": -0.00028150737725984865
+      },
+      {
+        "view": "video-07",
+        "candidate": 0.8860251435578503,
+        "baseline_v69": 0.8853494673334831,
+        "delta": 0.0006756762243672609
+      },
+      {
+        "view": "video-08",
+        "candidate": 0.8944945926754635,
+        "baseline_v69": 0.8944945926754635,
+        "delta": 0.0
+      },
+      {
+        "view": "video-09",
+        "candidate": 0.8804434020215558,
+        "baseline_v69": 0.8804434020215558,
+        "delta": 0.0
+      }
+    ],
+    "stills": [
+      {
+        "view": "still-01",
+        "candidate": 0.8652161858748563,
+        "baseline_v69": 0.8652161858748563,
+        "delta": 0.0
+      },
+      {
+        "view": "still-02",
+        "candidate": 0.8696146654586812,
+        "baseline_v69": 0.8696146654586812,
+        "delta": 0.0
+      },
+      {
+        "view": "still-03",
+        "candidate": 0.8487768274887965,
+        "baseline_v69": 0.8487768274887965,
+        "delta": 0.0
+      },
+      {
+        "view": "still-04",
+        "candidate": 0.783544804837823,
+        "baseline_v69": 0.7835964989444053,
+        "delta": -5.169410658234508e-05
+      },
+      {
+        "view": "still-05",
+        "candidate": 0.7776865426207336,
+        "baseline_v69": 0.7795997095795026,
+        "delta": -0.0019131669587690858
+      },
+      {
+        "view": "still-06",
+        "candidate": 0.7408007242503304,
+        "baseline_v69": 0.7408007242503304,
+        "delta": 0.0
+      },
+      {
+        "view": "still-closeup",
+        "candidate": 0.8705687616836939,
+        "baseline_v69": 0.8705687616836939,
+        "delta": 0.0
+      }
+    ]
+  },
+  "candidate_fcstd_sha256": "ab64ed3bf36984422f13bdf781e858aaa6baf2452e6a3f00c611028b2db0d537",
+  "new_advanced_failures": 36,
+  "contact_regressions": 19,
+  "export_relative_volume_error": 4.4254593050856044e-07,
+  "basic_readback_passed": true,
+  "native_display": "four native views visually reviewed; 696 visible objects; colors within half an 8-bit level; file hash unchanged",
+  "decision": "local hem samples improve but both global image scores, root contacts and advanced checks regress",
+  "limitations": [
+    "previously inspected seven-view observations are reused, not fresh holdouts",
+    "hidden-edge hem samples do not establish full petal contours",
+    "measured flat screen retained; curved cover is an appearance assumption",
+    "90 percent whole silhouette and full main-part 5 percent target remain unmet",
+    "no manufacturing or physical acceptance"
+  ]
+}

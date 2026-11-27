@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v222",
+      "model": "cad/drone-concept/vintrox-drone-concept.FCStd",
+      "fcstd_sha256": "2f5b3ed2c72c72dc69fae50b0bca8c349589186283dd9e67d403b8e991305218",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "2f5b3ed2c72c72dc69fae50b0bca8c349589186283dd9e67d403b8e991305218",
+      "palette_contract_sha256": "f93de334dd09d4381387816f73857b1de453dc19919b2111a973466d4f6fd268",
+      "native_color_triples": 70,
+      "mesh_color_triples": 70,
+      "max_native_vs_mesh_channel_difference": 2.9685450542160652e-08,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v222-isometric.png",
+          "sha256": "9c875818f227eb0b1da33df1ad91960544c8b3a824fdc726a627effea49e51fc"
+        },
+        {
+          "view": "front",
+          "path": "v222-front.png",
+          "sha256": "f9f32bc55e640371f8db98ebb5e28a377f4f0c636220a52e7f79948c865e7b35"
+        },
+        {
+          "view": "rear",
+          "path": "v222-rear.png",
+          "sha256": "ab7f26d7a684966ce629e5c833385444671fde45fe99c60202b06a1fdbe56561"
+        },
+        {
+          "view": "right",
+          "path": "v222-right.png",
+          "sha256": "0dd06e9ea30d2bb55c2a33742d94a9e7220bd3e58360485e9e65bf377d6b4aa8"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "revision": "v218-control-bodylip025",
+  "baseline_fcstd_sha256": "aedd1fc5039265123f71b43faab01939faa4dc2fd84ee0955efee7c3b9aaab1b",
+  "fcstd_sha256": "1e0f8b3e084dc3b142aad624548c2d3d8be212c9abc568c09d0d4ef3dcd4565e",
+  "step_sha256": "fba8e91d9d159b60cfb7621a478b722c06e0aca49ffdfd6fd202cae84cdfc51e",
+  "shift_y_mm": -0.25,
+  "group": "body_lip",
+  "changed_objects": [
+    "ControlRail",
+    "ControlInset",
+    "ControlKeyBed",
+    "ControlRailLip"
+  ],
+  "visible_features": 696,
+  "mesh_rebuild": "temporary mesh from saved candidate FCStd",
+  "status": "screening candidate"
+}
