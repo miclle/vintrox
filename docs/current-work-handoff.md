@@ -5,7 +5,7 @@
 ## 当前证据
 
 - v304 保留实测 210 × 160 × 2 mm 平面屏、外挂筒、侧控件、格栅和四根支柱。曲面罩按参考外观推导，原作内部和遮挡细节仍有未知项。[设计说明](drone-concept.md)
-- 视频十方位、静态七图和拼图十格的平均 IoU 分别为 86.0644%、82.5923% 和 89.8391%。固定相机使用保存 CAD 渲染，比较时排除新增支撑总成。90% 视频整圈与主要部件轮廓偏差 5% 的目标仍待达成。v257 的大喷口叶片末端复测中，两处侧后视的最大偏差为 20.96% 和 21.94%。[交付与固定相机](../cad/drone-concept/delivery-verification-current.json) · [叶片复测](../cad/drone-concept/comparison/v257-mirrored-nozzle-tips/visible-petal-edges.json)
+- 视频十方位、静态七图和拼图十格的平均 IoU 分别为 86.0644%、82.5923% 和 89.8391%。固定相机使用保存 CAD 渲染，比较时排除新增支撑总成。90% 视频整圈与主要部件轮廓偏差 5% 的目标仍待达成。v304 的局部标注复测中，前罩端部最大偏差为 4.69%，右侧翼板为 8.10%，大喷口两处侧后视为 20.96% 和 21.94%。[交付与固定相机](../cad/drone-concept/delivery-verification-current.json) · [部件复测](../cad/drone-concept/comparison/v304-front-cheek-thickness/visible-components.json)
 - `python3 tools/verify_drone_current_delivery.py` 核对 FCStd 和 STEP 哈希、696 个可见对象、853 个闭合 STEP 实体，以及预览和四个原生显示视图。v304 的独立保存读回和 FreeCAD 颜色记录随正式交付保存。[读回报告](../cad/drone-concept/readback-verification.json) · [颜色记录](../cad/drone-concept/comparison/v304-front-cheek-thickness/native-display/native-display-verification.json)
 - v245 新增三处高级几何检查失败。v246 通过候选几何与接合检查，视频得分微升，静态图略降，七个叶片采样视角仍有六个超过 5%。两版均保留试验记录，v246 的 STEP 独立读回和原生颜色显示待验证。参数可配合 v242 的保存网格重建候选。[试验记录](../cad/drone-concept/comparison/v245-v246-petal-terminal/README.md)
 - 重新运行 `tools/measure_drone_lower_pod_outline.py` 读取 v242，确认两侧各 18 片小喷口叶片。四个拟合视角的口沿测量 RMS 为 4.53 px，两个未参与拟合的视角为 7.38 px，最大 12.62 px。测量限定于外端圆弧。小喷口外露部分与前罩内衬仍待结合可见边缘和参考阴影核对。[小喷口读回](../cad/drone-concept/comparison/v242-belly-y097/lower-pod-outline-check.json) · [视频对象归因](../cad/drone-concept/comparison/v242-belly-y097/video-comparison/boundary-regions.json)

@@ -8,7 +8,7 @@
 | 静态七图 | 82.587208% | 82.589979% | +0.002772 |
 | 拼图十格 | 89.783549% | 89.825407% | +0.041858 |
 
-后肩单独收窄 6% 和 12% 时，视频均值分别为 86.033196% 和 86.027342%，静态均值为 82.591435% 和 82.596305%。组合后静态第 03 图下降 0.12913 个百分点，后肩附近少覆盖 496 个参考前景像素。视频第 05 方位下降 0.04576 个百分点，第 06 方位上升 0.07021 个百分点。叶片可见端缘复测中，第 02 与第 06 方位的最大偏差分别从 26.52% 和 27.47% 降到 25.13% 和 25.98%，第 05 方位从 8.59% 升至 8.91%。视频整圈 90% 与主要部件轮廓偏差 5% 的目标仍待达到。[视频十方位](video-comparison/comparison-board.png) · [静态七图](stills-comparison/comparison-board.png) · [拼图十格](sheet-comparison/comparison-board.png) · [可见末端边缘](visible-petal-edges.json)
+后肩单独收窄 6% 和 12% 时，视频均值分别为 86.033196% 和 86.027342%，静态均值为 82.591435% 和 82.596305%。组合后静态第 03 图下降 0.12913 个百分点，后肩附近少覆盖 496 个参考前景像素。视频第 05 方位下降 0.04576 个百分点，第 06 方位上升 0.07021 个百分点。叶片可见端缘复测中，第 02 与第 06 方位的 RMS 分别从 26.52 px 和 27.47 px 降到 25.13 px 和 25.98 px，第 05 方位从 8.59 px 升至 8.91 px。三处最大偏差分别为投影屏宽的 20.96%、21.94% 和 4.83%，与 v292 相同。视频整圈 90% 与主要部件轮廓偏差 5% 的目标仍待达到。[视频十方位](video-comparison/comparison-board.png) · [静态七图](stills-comparison/comparison-board.png) · [拼图十格](sheet-comparison/comparison-board.png) · [可见末端边缘](visible-petal-edges.json)
 
 FCStd 和 STEP 已独立读回，853 个 STEP 实体均有效闭合。FreeCAD 原生四视图核对了 696 个可见对象与 70 组颜色。九张预览、12 秒转台和三组固定相机对照均由保存模型生成。独立重建网格与渲染输入逐字节一致。[读回报告](../../readback-verification.json) · [原生显示](native-display/native-display-verification.json) · [交付校验](../../delivery-verification-current.json) · [网格记录](mesh-archive.json)
 
