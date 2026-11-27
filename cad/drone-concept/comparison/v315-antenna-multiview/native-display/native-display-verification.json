@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v315",
+      "model": "cad/drone-concept/comparison/v315-antenna-multiview/candidate.FCStd",
+      "fcstd_sha256": "be041c71d0190ffaf7cc275b1747405977c2529bd67025fe36224304852f31eb",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "be041c71d0190ffaf7cc275b1747405977c2529bd67025fe36224304852f31eb",
+      "palette_contract_sha256": "8850cdffd1146deec23b4849714b618711f6a56e12412133a5838895b64eb8cc",
+      "native_color_triples": 70,
+      "mesh_color_triples": 70,
+      "max_native_vs_mesh_channel_difference": 2.9685450542160652e-08,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v315-isometric.png",
+          "sha256": "a588151dd8078d4820cd3394d0909a868dd40e340cced2b98081bc1fa0788ad2"
+        },
+        {
+          "view": "front",
+          "path": "v315-front.png",
+          "sha256": "a8a0ed3a5c1f5242db89aeb8522ca84d99f6d2c585c76aa6522375ce8c1d570c"
+        },
+        {
+          "view": "rear",
+          "path": "v315-rear.png",
+          "sha256": "691a9abb9a9b956960621b319e3c6a039c0278161f3cbeb9204f68605a89567b"
+        },
+        {
+          "view": "right",
+          "path": "v315-right.png",
+          "sha256": "d4f54bd05a2ffa8e0a76e2ee70d79d78588c79637acdd32eaf6bf78e2865d3bc"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}
