@@ -70,6 +70,8 @@
 
 - v306 对称微调左右翼板，采用半角度档。视频十方位提高 0.11662 个百分点，静态七图和拼图十格均值同时提高。静态第 01 图下降 0.26592 个百分点，需复核翼缘及遮挡。翼板四处接合检查通过。[v306 固定相机与重放](../cad/drone-concept/comparison/v306-wing-pose/README.md)
 
+- v307 筛选第 6、10 号喷口叶片的两档末段。109.5 mm 接续档提高侧后视轮廓得分，静态七图均值下降，侧后视最大偏差仍为 20.96% 和 21.94%。正式采用 v306。[保存几何和三组对照](../cad/drone-concept/comparison/v307-nozzle-pair-6-10/README.md)
+
 ## 续接
 
 1. 结合 `video-02`、`video-03`、`video-06` 和 `still-05` 核对喷口口环及叶片末缘。沿第 9、10 号叶片在静态近景中的外缘定位外溢截面，检查末段收窄能否同时保住两个侧后视频方位的轮廓收益。用小喷口参考近景区分壳体与叶片的交线、阴影和出口边缘。[大喷口视频近景](../cad/drone-concept/comparison/v281-mirrored-petal-long-tip/v276-tip-crops.png) · [大喷口静态近景](../cad/drone-concept/comparison/v283-visible-petal-pairs/still-delta-crops.png)
