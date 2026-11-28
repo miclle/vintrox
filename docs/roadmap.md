@@ -440,3 +440,5 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 - v385 拟合底部回环中心线，正后视两侧均低于 3%，斜视中管壁与遮挡的偏差增加。[可见边缘复测](../cad/drone-concept/comparison/v385-loop-centrelines/README.md)
 
 - v386 将邻件遮挡纳入回环拟合，第 180 帧偏差低于 v385，仍高于正式版。[逐视角复测](../cad/drone-concept/comparison/v386-loop-occlusion/README.md)
+
+- v387 缩短十二片喷口叶片的根部搭片。正后方横向分段变窄，导轨与金色口沿的过渡仍有差异。[两视角对照](../cad/drone-concept/comparison/v387-petal-root-sections/README.md)
