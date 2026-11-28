@@ -447,3 +447,4 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 
 - v389 的金色右翼下缘在第 180 帧进入 5% 范围，第 210 帧偏差增大。[跨视角比较](../cad/drone-concept/comparison/v389-lower-wing-contour/README.md)
 - v390 根据相邻七帧区分了金色右翼外缘和翼面折线。两处视频视角的局部折线更接近参考，独立静态图仍有偏差。[折线候选与复测](../cad/drone-concept/comparison/v390-gold-wing-crease/README.md)
+- v391 加入两个侧向视角的底部回环中心线。第 30、90 帧改善，第 150、180、210 帧仍有遮挡和边缘偏差。[回环三方位近景与检验](../cad/drone-concept/comparison/v391-side-loop-observations/README.md)

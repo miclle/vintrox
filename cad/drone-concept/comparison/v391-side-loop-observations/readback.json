@@ -1,0 +1,414 @@
+{
+  "status": "saved path candidate; full-view image and export checks pending",
+  "baseline_fcstd_sha256": "72b9c0673e8d980ff7c779c4cb084fc5f8872c46ec546a81ee3f99d372413e88",
+  "fcstd_sha256": "0673ae0e1f9ca6c85ec50597f17644aba208b243fa25e35b1a5910e3e799531a",
+  "script_sha256": "fb0d62753b9f12e45e47baaabf89dcfcf36d5be28a78d23fcc899b6d158dc7ed",
+  "fit_sha256": "d7a8cbead7409327647c1f726aa022d707a34537c0670fc32b5afb80fe535e7a",
+  "changed_objects": [
+    "UnderbodyLoop0",
+    "UnderbodyLoop1"
+  ],
+  "new_advanced_check_failures": [],
+  "contact_regressions": [],
+  "radius_mm": 4.4,
+  "centreline_paths_mm": {
+    "UnderbodyLoop0": [
+      [
+        -44.5,
+        72.8,
+        57.0
+      ],
+      [
+        -52.78726160578635,
+        73.70535752028913,
+        42.34352982368695
+      ],
+      [
+        -56.61145706099075,
+        74.69245866543055,
+        27.027320881340977
+      ],
+      [
+        -53.94478889230303,
+        81.6416364917261,
+        11.773242393377599
+      ],
+      [
+        -49.32260218357857,
+        94.7153976306708,
+        1.1145069154708136
+      ],
+      [
+        -48.39214149263594,
+        111.46881798399389,
+        1.0307109396490475
+      ],
+      [
+        -51.24455795737624,
+        125.55177471789021,
+        5.1044246683561045
+      ],
+      [
+        -54.64567856196361,
+        133.29660596821532,
+        14.917037429475277
+      ],
+      [
+        -55.21265780199782,
+        133.72965923360908,
+        29.82409350751869
+      ],
+      [
+        -50.30709920814388,
+        129.74002486850648,
+        45.44376433532402
+      ],
+      [
+        -44.5,
+        126.6,
+        57.0
+      ]
+    ],
+    "UnderbodyLoop1": [
+      [
+        44.5,
+        72.8,
+        57.0
+      ],
+      [
+        52.78726160578635,
+        73.70535752028913,
+        42.34352982368695
+      ],
+      [
+        56.61145706099075,
+        74.69245866543055,
+        27.027320881340977
+      ],
+      [
+        53.94478889230303,
+        81.6416364917261,
+        11.773242393377599
+      ],
+      [
+        49.32260218357857,
+        94.7153976306708,
+        1.1145069154708136
+      ],
+      [
+        48.39214149263594,
+        111.46881798399389,
+        1.0307109396490475
+      ],
+      [
+        51.24455795737624,
+        125.55177471789021,
+        5.1044246683561045
+      ],
+      [
+        54.64567856196361,
+        133.29660596821532,
+        14.917037429475277
+      ],
+      [
+        55.21265780199782,
+        133.72965923360908,
+        29.82409350751869
+      ],
+      [
+        50.30709920814388,
+        129.74002486850648,
+        45.44376433532402
+      ],
+      [
+        44.5,
+        126.6,
+        57.0
+      ]
+    ]
+  },
+  "end_radius_mm": 2.2,
+  "construction": "smooth loft through 40 circular normal sections; pipe-shell sweep rejected for advanced C0 errors",
+  "endpoint_belly_contacts": [
+    {
+      "name": "UnderbodyLoop0",
+      "endpoint_mm": [
+        -44.5,
+        72.8,
+        57.0
+      ],
+      "belly_overlap_mm3": 44.60223810056552
+    },
+    {
+      "name": "UnderbodyLoop0",
+      "endpoint_mm": [
+        -44.5,
+        126.6,
+        57.0
+      ],
+      "belly_overlap_mm3": 44.602238100565515
+    },
+    {
+      "name": "UnderbodyLoop1",
+      "endpoint_mm": [
+        44.5,
+        72.8,
+        57.0
+      ],
+      "belly_overlap_mm3": 44.60223810056552
+    },
+    {
+      "name": "UnderbodyLoop1",
+      "endpoint_mm": [
+        44.5,
+        126.6,
+        57.0
+      ],
+      "belly_overlap_mm3": 44.602238100565515
+    }
+  ],
+  "support_collisions": [
+    {
+      "objects": [
+        "UnderbodyLoop0",
+        "CentralSupportSeat"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop0",
+        "SupportShaftFrontLeft"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop0",
+        "SupportSocketFrontLeft"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop0",
+        "SupportFootFrontLeft"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop0",
+        "SupportShaftRearLeft"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop0",
+        "SupportSocketRearLeft"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop0",
+        "SupportFootRearLeft"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop0",
+        "SupportShaftFrontRight"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop0",
+        "SupportSocketFrontRight"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop0",
+        "SupportFootFrontRight"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop0",
+        "SupportShaftRearRight"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop0",
+        "SupportSocketRearRight"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop0",
+        "SupportFootRearRight"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop1",
+        "CentralSupportSeat"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop1",
+        "SupportShaftFrontLeft"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop1",
+        "SupportSocketFrontLeft"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop1",
+        "SupportFootFrontLeft"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop1",
+        "SupportShaftRearLeft"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop1",
+        "SupportSocketRearLeft"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop1",
+        "SupportFootRearLeft"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop1",
+        "SupportShaftFrontRight"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop1",
+        "SupportSocketFrontRight"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop1",
+        "SupportFootFrontRight"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop1",
+        "SupportShaftRearRight"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop1",
+        "SupportSocketRearRight"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "UnderbodyLoop1",
+        "SupportFootRearRight"
+      ],
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    }
+  ],
+  "saved_centreline_observations": [],
+  "saved_centreline_rms_px": null,
+  "limitations": [
+    "manually inferred decorative cable shape; no electrical specification",
+    "no fresh held-out fitting observations",
+    "no physical or manufacturing acceptance"
+  ],
+  "fit_sha256_note": "Hash of the original execution input, including inherited observations skipped by observation_kind. Archived fit.json omits that unused field."
+}
