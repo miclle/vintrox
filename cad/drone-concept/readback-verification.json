@@ -4,7 +4,7 @@
   "physical_validation": false,
   "errors": [],
   "visible_features": 696,
-  "step_solids": 853,
+  "step_solids": 869,
   "group_count": 0,
   "non_chinese_labels": [],
   "gui_document_present": true,
@@ -134,7 +134,7 @@
         57.00000000021898
       ],
       "probe_radius_mm": 12,
-      "body_overlap_mm3": 16.79075674097872
+      "body_overlap_mm3": 16.79075674097871
     },
     {
       "name": "UnderbodyLoop0",
@@ -149,12 +149,12 @@
     {
       "name": "UnderbodyLoop1",
       "end_centre_mm": [
-        44.49999999470598,
-        72.80000000004773,
+        44.49999999470597,
+        72.80000000004775,
         56.99999999978102
       ],
       "probe_radius_mm": 12,
-      "body_overlap_mm3": 16.7907768589595
+      "body_overlap_mm3": 16.79077685895991
     },
     {
       "name": "UnderbodyLoop1",
@@ -186,12 +186,12 @@
       "petal": 0,
       "detail_gaps_mm": [
         0.0,
+        1.0658141036401503e-14,
         0.0,
         0.0,
-        0.0,
-        1.4210854715202004e-14
+        0.0
       ],
-      "root_roll_overlap_mm3": 6.5547165873025115
+      "root_roll_overlap_mm3": 6.5547165873050375
     },
     {
       "petal": 1,
@@ -199,43 +199,43 @@
         0.0,
         0.0,
         0.0,
-        3.552713678800501e-15,
+        0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 4.074834456085366
+      "root_roll_overlap_mm3": 4.074834456104464
     },
     {
       "petal": 2,
       "detail_gaps_mm": [
         0.0,
+        8.881784197001252e-16,
+        3.552713678800501e-15,
         0.0,
-        0.0,
-        4.440892098500626e-16,
-        1.4238583238573986e-14
+        0.0
       ],
-      "root_roll_overlap_mm3": 3.266690604436329
+      "root_roll_overlap_mm3": 3.266690604423773
     },
     {
       "petal": 3,
       "detail_gaps_mm": [
+        3.552713678800501e-15,
         0.0,
         0.0,
         0.0,
-        0.0,
-        1.4210854715202004e-14
+        0.0
       ],
-      "root_roll_overlap_mm3": 4.074847064360925
+      "root_roll_overlap_mm3": 4.074847064366417
     },
     {
       "petal": 4,
       "detail_gaps_mm": [
         0.0,
-        0.0,
-        0.0,
         3.552713678800501e-15,
+        0.0,
+        0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 6.554726263681156
+      "root_roll_overlap_mm3": 6.5547262636815615
     },
     {
       "petal": 5,
@@ -246,54 +246,32 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 10.416798423683469
+      "root_roll_overlap_mm3": 10.416798423683147
     },
     {
       "petal": 6,
       "detail_gaps_mm": [
         0.0,
-        7.105427357601002e-15,
+        1.5888218580782548e-14,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 14.590750827592496
+      "root_roll_overlap_mm3": 14.590750827595496
     },
     {
       "petal": 7,
       "detail_gaps_mm": [
         0.0,
+        1.4238583238573986e-14,
         0.0,
         0.0,
-        5.684341886080802e-14,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.04219587233272
+      "root_roll_overlap_mm3": 17.04219587252003
     },
     {
       "petal": 8,
-      "detail_gaps_mm": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "root_roll_overlap_mm3": 17.224077874166664
-    },
-    {
-      "petal": 9,
-      "detail_gaps_mm": [
-        0.0,
-        3.552713678800501e-15,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "root_roll_overlap_mm3": 17.04219294256357
-    },
-    {
-      "petal": 10,
       "detail_gaps_mm": [
         0.0,
         1.4210854715202004e-14,
@@ -301,18 +279,40 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 14.590752218413911
+      "root_roll_overlap_mm3": 17.22407787865945
+    },
+    {
+      "petal": 9,
+      "detail_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 17.042192940364025
+    },
+    {
+      "petal": 10,
+      "detail_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 14.59075221841716
     },
     {
       "petal": 11,
       "detail_gaps_mm": [
         0.0,
-        7.105427357601002e-15,
+        0.0,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 10.41679875730077
+      "root_roll_overlap_mm3": 10.416798764522667
     }
   ],
   "handle_connections": {
@@ -488,15 +488,15 @@
   "lower_exhaust_edge_gap_max_mm": 0.0,
   "lower_exhaust_body_overlap_mm3": {
     "LowerPod_1": {
-      "MainEnclosureShell": 901.1019670560521,
-      "BottomChassis": 710.7893091992966,
-      "ClosedBellyPan": 478.00087633588464,
+      "MainEnclosureShell": 894.3133706311673,
+      "BottomChassis": 707.2652640191494,
+      "ClosedBellyPan": 475.4350339613002,
       "RearLowerSlope": 0.0
     },
     "LowerPod_001": {
-      "MainEnclosureShell": 901.1042120509724,
-      "BottomChassis": 710.7891809233103,
-      "ClosedBellyPan": 478.0007753592055,
+      "MainEnclosureShell": 894.3168204057006,
+      "BottomChassis": 707.2650677568436,
+      "ClosedBellyPan": 475.43498018004505,
       "RearLowerSlope": 0.0
     }
   },
@@ -538,7 +538,7 @@
       ]
     }
   },
-  "step_relative_volume_error": 5.364993602864528e-07,
+  "step_relative_volume_error": 5.163745793428594e-07,
   "step_volume_basis": "sum of individually integrated solid volumes",
   "step_bbox_max_delta_mm": 5.8903992794512305e-12,
   "bbox_mm": [
@@ -546,6 +546,6 @@
     378.9074930138823,
     496.3425161547856
   ],
-  "fcstd_sha256": "e3a70236111a729d6ad7d1ef48c4661e0145975bedefb72aa6d28df2f65b4a28",
-  "step_sha256": "70a744e37a040a5c32d668a80ca9767b8fdb7996937111ccdd4eb09d6bbd9d19"
+  "fcstd_sha256": "cd42c6185d80546b6c53465b4071bc7c14afd941644f92734fbfc1c21f327900",
+  "step_sha256": "822afd816e15038694197bbef984fc89318750758a3ab0a1d98c8feeace44195"
 }

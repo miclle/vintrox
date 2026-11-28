@@ -416,3 +416,5 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 - v370 验证握把端箍连续上缘。正后方与第 150 帧改善，第 180 帧端箍轮廓仍待调整。视频十方位平均 IoU 为 86.22357%。[阶段记录](../cad/drone-concept/comparison/v370-grip-end-cuffs/README.md)
 
 - v371 完成端箍修整和三组固定相机验证。拼图十格均值达到 90.00205%，视频十方位为 86.26680%，继续检验整圈和主要部件偏差。[v371 研究基线](../cad/drone-concept/comparison/v371-grip-arm-profile/README.md)
+
+- 已将 v371 发布为正式评审模型。按正式喷口文字位置重建三组对照，视频、静态与拼图均值分别为 86.26715%、82.72213%、90.00205%。九张预览、96 方位转台与 FCStd、STEP 验证同版。[交付核验](../cad/drone-concept/delivery-verification-current.json)

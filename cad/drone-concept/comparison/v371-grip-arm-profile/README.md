@@ -10,15 +10,10 @@
 | 静态七图 | 82.71694% | 82.72807% | 82.72207% |
 | 拼图十格 | 89.98364% | 89.98908% | 90.00205% |
 
-保留 v371 为整机研究基线。视频十方位距 90% 仍有 3.733 个百分点，主要部件偏差仍需验证和改进。FCStd 与 STEP 各有 869 个有效闭合实体，696 个可见对象在原生四视角中与网格对应，共 70 种显示颜色。[几何检查](independent.json) · [原生显示](native/native-display-verification.json) · [视频](video-overlays.jpg) · [静态](stills-overlays.jpg) · [拼图](sheet-overlays.jpg)
+保留 v371 为整机研究基线。视频十方位距 90% 仍有 3.733 个百分点，主要部件偏差仍需验证和改进。FCStd 与 STEP 各有 869 个有效闭合实体，696 个可见对象在原生四视角中与网格对应，共 70 种显示颜色。[几何检查](independent.json) · [原生显示](native-display/native-display-verification.json) · [视频](video-overlays.jpg) · [静态](stills-overlays.jpg) · [拼图](sheet-overlays.jpg)
 
-在仓库根目录用普通 Git 恢复此次读回和渲染使用的完整 FCStd。重建结果已逐字节核对。
+## 正式评审交付
 
-```sh
-research_dir=$(mktemp -d)
-cp cad/drone-concept/comparison/v345-small-pod-y-minus1p0-cable/candidate.FCStd "$research_dir/"
-gzip -dc cad/drone-concept/comparison/v371-grip-arm-profile/from-v345.patch.gz | (cd "$research_dir" && git apply --binary -)
-shasum -a 256 "$research_dir/candidate.FCStd"
-```
+正式网格从保存模型与概念清单重建，使用清单中的喷口文字位置、大小和方向。视频十方位、静态七图、拼图十格的平均 IoU 分别为 86.26715%、82.72213%、90.00205%。上表保留筛选阶段使用渲染器默认文字位置的结果。四根支柱和实测平面屏已通过正式几何检查，隐藏部分与曲面屏罩仍属外观推导。[完整读回](readback-verification.json) · [视频](video-comparison/comparison-report.json) · [静态](stills-comparison/comparison-report.json) · [拼图](sheet-comparison/comparison-report.json)
 
-FCStd 的 SHA-256 为 `cd42c6185d80546b6c53465b4071bc7c14afd941644f92734fbfc1c21f327900`。按参数重建时，复制 [v370 脚本](../v370-grip-end-cuffs/build.py)，应用本目录的截面裁切差异，并传入 v369 FCStd 和新的输出路径。
+直接检出 [FCStd](candidate.FCStd) 和 [STEP](candidate.step) 即可获得本次验证的文件。FCStd 的 SHA-256 为 `cd42c6185d80546b6c53465b4071bc7c14afd941644f92734fbfc1c21f327900`。按参数重建时，复制 [v370 脚本](../v370-grip-end-cuffs/build.py)，应用本目录的截面裁切差异，并传入 v369 FCStd 和新的输出路径。

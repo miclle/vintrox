@@ -10,7 +10,7 @@ VINTROX 是一台带实体 CD 光驱、iPad 改装屏、树莓派、移动硬盘
 
 2026-10-24 推进至 v53 [逐图与整圈叠加修订](docs/drone-overlay-comparison.md)：收薄侧后方底壳，露出底部环件和线束；四支柱与中央连接条带不变。固定十方位轮廓 IoU 84.88%→85.03%，90% 目标未达，保留全部退步视角。见[同角度对照](cad/drone-concept/comparison/rear-belly-study/README.md)。
 
-当前外观入口为 v339。以 v338 为基线，两侧小喷口总成沿局部装配根部对称 Y 向移动 −0.5 mm。视频十方位、静态七图和拼图十格平均轮廓 IoU 为 86.0497%、82.6248% 和 89.9014%。实测平面屏、外挂筒、屏幕侧控件、格栅和四根支柱均保留。视频整圈 90% 与主要部件轮廓偏差 5% 仍待达成。[固定相机对照](cad/drone-concept/comparison/v339-small-pod-y-minus0p5/README.md)
+当前外观评审模型为 v371，已补回红翼内侧条纹，并按提手臂截面修整握把端箍。视频十方位、静态七图和拼图十格的平均轮廓 IoU 分别为 86.26715%、82.72213% 和 90.00205%。四根支柱、实测平面屏、外挂筒、侧控件及格栅均保留。视频整圈 90% 与主要部件偏差不超过投影屏宽 5% 仍待达成。[正式模型与固定相机对照](cad/drone-concept/comparison/v371-grip-arm-profile/README.md)
 
 2026-10-26 外观模型推进至 v61：喷口外罩中段减薄 3mm 并恢复肩部外展，后壳、喷口本体、凹舱阴影和四根支柱保持不变。以同一固定相机重新生成视频十视角和静态七视角叠加。视频平均轮廓 IoU 85.4920%、静态平均 82.2268%，仍是外观研究，见[v61 叠加板](cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-board.png)。
 
@@ -46,7 +46,7 @@ VINTROX 是一台带实体 CD 光驱、iPad 改装屏、树莓派、移动硬盘
 - Type-C 是外部接口要求，不要求整机只用 5V；PD 档位、电池和转换电路必须匹配。
 - 插拔外部电源时不中断运行是设计目标；普通“边充边放”充电宝不等于已验证的 UPS。
 
-2026-11-28 已清理主分支历史中的旧 Drone CAD 文件，当前 v339 与正式主模型保留为普通 Git 文件；历史链接的可用性及保留范围见[存储清理说明](docs/storage-cleanup.md)。
+当前 v371 可随普通 Git 检出。旧版本数据的保留与清理见[存储说明](docs/storage-cleanup.md)。
 
 ## 文档导航
 

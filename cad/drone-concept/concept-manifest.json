@@ -1,5 +1,5 @@
 {
-  "revision": "v339-small-pod-y-minus0p5",
+  "revision": "v371-grip-arm-profile",
   "front_cheek_x_scale": 0.995,
   "front_brow_x_scale": 0.985,
   "nozzle_petal_comparison_scale": 0.96,
@@ -168,7 +168,7 @@
     316.22196846545813,
     396.3425161547856
   ],
-  "fcstd_sha256": "e3a70236111a729d6ad7d1ef48c4661e0145975bedefb72aa6d28df2f65b4a28",
+  "fcstd_sha256": "cd42c6185d80546b6c53465b4071bc7c14afd941644f92734fbfc1c21f327900",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -815,13 +815,13 @@
     {
       "name": "WingStripeLeft0",
       "label": "翼板斜向色条 — 左侧·01",
-      "solids": 4,
+      "solids": 12,
       "valid": true
     },
     {
       "name": "WingStripeLeft1",
       "label": "翼板斜向色条 — 左侧·02",
-      "solids": 4,
+      "solids": 12,
       "valid": true
     },
     {
@@ -4360,7 +4360,7 @@
     }
   ],
   "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
-  "step_sha256": "70a744e37a040a5c32d668a80ca9767b8fdb7996937111ccdd4eb09d6bbd9d19",
+  "step_sha256": "822afd816e15038694197bbef984fc89318750758a3ab0a1d98c8feeace44195",
   "gold_wing_rear_inset_local_mm": 5,
   "gold_wing_rear_station_weights": {
     "17": 0.2,
@@ -4945,7 +4945,8 @@
         "NozzlePetalEndHem10",
         "NozzlePetalRidge10"
       ]
-    }
+    },
+    "v371": "Saved v363 combination, inner red-wing stripes and arm-profile trimmed grip end cuffs; see v371 comparison."
   },
   "rear_belly_relief": {
     "baseline_fcstd_sha256": "73240674f4251aa47b574bbfed4cc076a28ea09abdb5279805e2ca78b4d701b3",

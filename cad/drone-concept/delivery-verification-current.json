@@ -1,14 +1,11 @@
 {
-  "passed": false,
-  "errors": [
-    "Native display audit failed",
-    "Missing native display viewpoints"
-  ],
-  "revision": "v339-small-pod-y-minus0p5",
-  "fcstd_sha256": "e3a70236111a729d6ad7d1ef48c4661e0145975bedefb72aa6d28df2f65b4a28",
-  "step_sha256": "70a744e37a040a5c32d668a80ca9767b8fdb7996937111ccdd4eb09d6bbd9d19",
+  "passed": true,
+  "errors": [],
+  "revision": "v371-grip-arm-profile",
+  "fcstd_sha256": "cd42c6185d80546b6c53465b4071bc7c14afd941644f92734fbfc1c21f327900",
+  "step_sha256": "822afd816e15038694197bbef984fc89318750758a3ab0a1d98c8feeace44195",
   "visible_features": 696,
-  "step_solids": 853,
+  "step_solids": 869,
   "screen_panel_mm": [
     210.0,
     160.0,
@@ -19,8 +16,8 @@
     150
   ],
   "support_shafts": 4,
-  "native_display_views": 0,
-  "native_max_color_channel_difference": 0.0,
+  "native_display_views": 4,
+  "native_max_color_channel_difference": 2.9685450542160652e-08,
   "presentation_images": 9,
   "turntable": {
     "programs": [],
@@ -40,15 +37,15 @@
   "comparisons": {
     "video": {
       "views": 10,
-      "mean_silhouette_iou": 0.8604973257702232
+      "mean_silhouette_iou": 0.8626715018830071
     },
     "stills": {
       "views": 7,
-      "mean_silhouette_iou": 0.8262480926559065
+      "mean_silhouette_iou": 0.8272213172534241
     },
     "sheet": {
       "views": 10,
-      "mean_silhouette_iou": 0.8990136492328178
+      "mean_silhouette_iou": 0.9000205123595972
     }
   },
   "physical_validation": false,

@@ -13,7 +13,7 @@
 **复建**　先按 [v363 恢复说明](../v363-lowerpod-chassis-combo0995/README.md) 获取基线。从仓库根目录执行以下命令，最后一项传入新的文件路径。
 
 ```sh
-python3 cad/drone-concept/comparison/v368-petal-terminal-pairs/build.py "$research_dir/candidate.FCStd" cad/drone-concept/vintrox-drone-concept.FCStd "$research_dir/v368.FCStd"
+python3 cad/drone-concept/comparison/v368-petal-terminal-pairs/build.py "$research_dir/candidate.FCStd" cad/drone-concept/comparison/v339-small-pod-y-minus0p5/candidate.FCStd "$research_dir/v368.FCStd"
 ```
 
 重建的 SHA-256 为 `dc9f0c26b1e49efd9337497600ed6dc4aec52f808b83588c28e05bc70ae89695`。归档成员逐项核对，并以 FreeCAD 核对 24 个形体与来源的几何签名和高级检查结果。FCStd 读回 696 个可见对象，FCStd 与 STEP 各有 853 个有效闭合实体，体积相对误差约 5.20 × 10⁻⁷。[几何检查](source-check.json) · [独立读回](independent.json)

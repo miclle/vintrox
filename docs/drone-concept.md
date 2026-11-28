@@ -2,7 +2,7 @@
 
 2026-10-26，v61 完成喷口外罩中段减薄修订。该阶段建立逐图透视相机、视频十方位、真实 CAD 渲染、50% 叠加和差异图流程。相机假设与历史修订见[叠加记录](drone-overlay-comparison.md)、[逐图记录](drone-reference-review.md)及[v61 视频叠加板](../cad/drone-concept/comparison/iteration-121-v61-nozzle-fairing-depth3-video-comparison/comparison-board.png)。
 
-当前外观入口为 v339。以 v338 为基线，两侧小喷口总成沿局部装配根部对称 Y 向移动 −0.5 mm。视频十方位、静态七图和拼图十格平均轮廓 IoU 为 86.0497%、82.6248% 和 89.9014%。实测平面屏、外挂筒、屏幕侧控件、格栅和四根支柱均保留。视频整圈 90% 与主要部件轮廓偏差 5% 仍待达成。[固定相机对照](../cad/drone-concept/comparison/v339-small-pod-y-minus0p5/README.md)
+当前外观评审模型为 v371，已补回红翼内侧条纹，并按提手臂截面修整握把端箍。视频十方位、静态七图和拼图十格的平均轮廓 IoU 分别为 86.26715%、82.72213% 和 90.00205%。四根支柱、实测平面屏、外挂筒、侧控件及格栅均保留。视频整圈 90% 与主要部件偏差不超过投影屏宽 5% 仍待达成。[正式模型与固定相机对照](../cad/drone-concept/comparison/v371-grip-arm-profile/README.md)
 
 在 v259 之后的 v260–v263 局部筛选中，黄翼轮廓重放及大喷口整体、镜像叶片收窄均未达到超过噪声量级的三组共同收益，正式入口继续保持 v259。对象级视频诊断的主要外溢来源为 `NozzlePetal`、`LowerPodRib`、`BrowUnderside` 和 `ScreenBezel`，静态 `still-05` 主要集中在 `ClosedBellyPan`、`ControlRail`、`BottomChassis` 与 `BassVisualCone`。[筛选记录](../cad/drone-concept/comparison/v260-gold-wing-v259-screening/README.md) · [喷口筛选](../cad/drone-concept/comparison/v261-nozzle-contract-screening/README.md) · [镜像叶片筛选](../cad/drone-concept/comparison/v263-mirrored-petal-screening/README.md)
 
@@ -17,7 +17,7 @@ v268 对底盘 Y 向微调进行筛选，三组收益处于噪声量级，正式
 
 同日基于 v229 筛选 `ClosedBellyPan` 外沿高度。中央 60 mm 保留带、屏幕、外挂筒、侧控件、格栅和四根支柱保持。v235 取 50.5 mm，视频十方位平均 IoU 为 85.9131649%；v236 取 52.5 mm，为 85.9144715%；两者均低于 v229，正式模型保持不变。[底壳高度筛选记录](../cad/drone-concept/comparison/belly-floor-v229-screening/README.md)
 
-九张展示图、八方位板和 12 秒、96 个不同角度的转台均来自保存 v339 的网格。保存的 FreeCAD GUI 颜色载荷与可见对象网格已核对，原生窗口截图复核因当前 macOS 锁屏暂未完成。屏幕本体采用实测平面尺寸，曲面罩属于外观假设。[渲染清单](../cad/drone-concept/renders/render-manifest.json) · [原生显示](../cad/drone-concept/comparison/v339-small-pod-y-minus0p5/native-display/native-display-verification.json)
+九张展示图、八方位板和 12 秒转台使用保存 v371 的网格。原生打开确认 696 个可见对象与 70 种显示颜色，四个方位留有截图。屏幕本体采用实测平面尺寸，曲面罩属于外观假设。[展示清单](../cad/drone-concept/renders/render-manifest.json) · [原生显示](../cad/drone-concept/comparison/v371-grip-arm-profile/native-display/native-display-verification.json)
 
 2026-11-26 重新生成 v193 的保存 CAD 对象 ID 后，still-05 的固定相机局部诊断显示填洞参考轮廓之外有 56,398 像素，主要落在 `ClosedBellyPan`、`ControlRail`、`BassVisualCone`、`HoodShoulderCrownLeft`、`BottomChassis` 和 `WingFoldFacetLeft`。这组结果来自保存 FCStd 的真实三角网格和对象遮挡，未做非刚性图像变形、逐件配准或零件省略。它只用于决定下一轮局部几何检查，主 IoU 仍为 78.4412%（still-05），整圈目标仍未达成。[still-05 报告](../cad/drone-concept/comparison/v193-lowerpod-rib-rails-bezel/stills-comparison/still-05-boundary-regions.json)
 
@@ -570,4 +570,4 @@ v352 以 v345 为基线，只对 36 个 `LowerPodRib` 保存真实 CAD 实体在
 
 ## v371 沿提手臂截面修整端箍
 
-v371 在带内侧斜纹的模型上裁切两侧端箍。三组平均 IoU 分别为 86.26680%、82.72207%、90.00205%，作为新的整机研究基线。正式评审文件仍为 v339。[近景与普通 Git 模型恢复](../cad/drone-concept/comparison/v371-grip-arm-profile/README.md)
+v371 在带内侧斜纹的模型上裁切两侧端箍。三组平均 IoU 分别为 86.26680%、82.72207%、90.00205%，完成研究筛选后，v371 已同步到正式评审入口。[近景与普通 Git 模型恢复](../cad/drone-concept/comparison/v371-grip-arm-profile/README.md)
