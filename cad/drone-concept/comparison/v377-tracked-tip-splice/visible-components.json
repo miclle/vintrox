@@ -1,0 +1,1595 @@
+{
+  "fcstd_sha256": "1a6e8f4471598be0c7eef1a22bef8793f073dcc9ae7ef4bd7dbd18c7319ffd50",
+  "mesh_sha256": "59624494539ca424ef8b287c8bb2dec8152f5405a55bb8dc43dd0506b44fd896",
+  "method": "One-way distance from archived reference annotations to opaque visible CAD family edges.",
+  "limits": [
+    "Measurements cover the annotated portions only.",
+    "ID edges include occlusion boundaries and approximate the antialiased edge.",
+    "Near-edge-on screen projection makes the normalized percentage sensitive to pixel uncertainty."
+  ],
+  "views": [
+    {
+      "component": "liner",
+      "view": "video-00",
+      "reference_sha256": "3b6f1297cc533fcadc218477331fcde56d424140156c7b78b96a9728c6792079",
+      "observations": "cad/drone-concept/comparison/v250-brow-tip-profile/brow-tip-samples.json",
+      "observations_sha256": "0a4e8d3e85f6f63efcb81ee142304bb08a24fcb5df186aa0a2cbe3c8f62a90aa",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "bc500fa4d172644ae585707f473bed3f92d94c771aace2596240a80d25e91fc1",
+      "reference_px": [
+        [
+          874,
+          375
+        ],
+        [
+          878,
+          373
+        ],
+        [
+          882,
+          368
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          872,
+          372
+        ],
+        [
+          874,
+          370
+        ],
+        [
+          878,
+          365
+        ]
+      ],
+      "distance_px": [
+        3.605551275463989,
+        5.0,
+        5.0
+      ],
+      "rms_px": 4.58257569495584,
+      "projected_screen_width_px": 351.4814762097764,
+      "max_screen_fraction": 0.01422550074023197
+    },
+    {
+      "component": "brow",
+      "view": "video-00",
+      "reference_sha256": "3b6f1297cc533fcadc218477331fcde56d424140156c7b78b96a9728c6792079",
+      "observations": "cad/drone-concept/comparison/v250-brow-tip-profile/brow-tip-samples.json",
+      "observations_sha256": "0a4e8d3e85f6f63efcb81ee142304bb08a24fcb5df186aa0a2cbe3c8f62a90aa",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "bc500fa4d172644ae585707f473bed3f92d94c771aace2596240a80d25e91fc1",
+      "reference_px": [
+        [
+          884,
+          376
+        ],
+        [
+          889,
+          374
+        ],
+        [
+          894,
+          368
+        ],
+        [
+          898,
+          359
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          883,
+          372
+        ],
+        [
+          889,
+          372
+        ],
+        [
+          894,
+          368
+        ],
+        [
+          899,
+          360
+        ]
+      ],
+      "distance_px": [
+        4.123105625617661,
+        2.0,
+        0.0,
+        1.4142135623730951
+      ],
+      "rms_px": 2.3979157616563596,
+      "projected_screen_width_px": 351.4814762097764,
+      "max_screen_fraction": 0.011730648425855725
+    },
+    {
+      "component": "liner",
+      "view": "video-01",
+      "reference_sha256": "cd0f688ee3fc7b921a5573cb352e327bf4a11c1490edc03d4213b69ba2d4c3df",
+      "observations": "cad/drone-concept/comparison/v250-brow-tip-profile/brow-tip-samples.json",
+      "observations_sha256": "0a4e8d3e85f6f63efcb81ee142304bb08a24fcb5df186aa0a2cbe3c8f62a90aa",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "6183101a3b98209af2261464faf98c02c12da0b3d454592b1c5abbeb9a4b8e41",
+      "reference_px": [
+        [
+          830,
+          346
+        ],
+        [
+          835,
+          345
+        ],
+        [
+          839,
+          342
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          830,
+          348
+        ],
+        [
+          835,
+          347
+        ],
+        [
+          840,
+          345
+        ]
+      ],
+      "distance_px": [
+        2.0,
+        2.0,
+        3.1622776601683795
+      ],
+      "rms_px": 2.449489742783178,
+      "projected_screen_width_px": 87.87711092500786,
+      "max_screen_fraction": 0.03598522558242713
+    },
+    {
+      "component": "brow",
+      "view": "video-01",
+      "reference_sha256": "cd0f688ee3fc7b921a5573cb352e327bf4a11c1490edc03d4213b69ba2d4c3df",
+      "observations": "cad/drone-concept/comparison/v250-brow-tip-profile/brow-tip-samples.json",
+      "observations_sha256": "0a4e8d3e85f6f63efcb81ee142304bb08a24fcb5df186aa0a2cbe3c8f62a90aa",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "6183101a3b98209af2261464faf98c02c12da0b3d454592b1c5abbeb9a4b8e41",
+      "reference_px": [
+        [
+          836,
+          350
+        ],
+        [
+          843,
+          348
+        ],
+        [
+          848,
+          343
+        ],
+        [
+          853,
+          336
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          836,
+          348
+        ],
+        [
+          843,
+          347
+        ],
+        [
+          849,
+          344
+        ],
+        [
+          857,
+          337
+        ]
+      ],
+      "distance_px": [
+        2.0,
+        1.0,
+        1.4142135623730951,
+        4.123105625617661
+      ],
+      "rms_px": 2.449489742783178,
+      "projected_screen_width_px": 87.87711092500786,
+      "max_screen_fraction": 0.04691899383374377
+    },
+    {
+      "component": "liner",
+      "view": "video-07",
+      "reference_sha256": "22b11545e68835cb3a3b05f29332f96210cc0f875e91fdc7436910599374ba60",
+      "observations": "cad/drone-concept/comparison/v250-brow-tip-profile/brow-tip-samples.json",
+      "observations_sha256": "0a4e8d3e85f6f63efcb81ee142304bb08a24fcb5df186aa0a2cbe3c8f62a90aa",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "33287a8546e15ac6b12d13fb3c0569ebcc21e861fd00a81e75897152fd9e559c",
+      "reference_px": [
+        [
+          95,
+          345
+        ],
+        [
+          100,
+          347
+        ],
+        [
+          107,
+          347
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          95,
+          346
+        ],
+        [
+          100,
+          348
+        ],
+        [
+          107,
+          349
+        ]
+      ],
+      "distance_px": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "rms_px": 1.4142135623730951,
+      "projected_screen_width_px": 99.53175684771435,
+      "max_screen_fraction": 0.020094089196677614
+    },
+    {
+      "component": "brow",
+      "view": "video-07",
+      "reference_sha256": "22b11545e68835cb3a3b05f29332f96210cc0f875e91fdc7436910599374ba60",
+      "observations": "cad/drone-concept/comparison/v250-brow-tip-profile/brow-tip-samples.json",
+      "observations_sha256": "0a4e8d3e85f6f63efcb81ee142304bb08a24fcb5df186aa0a2cbe3c8f62a90aa",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "33287a8546e15ac6b12d13fb3c0569ebcc21e861fd00a81e75897152fd9e559c",
+      "reference_px": [
+        [
+          84,
+          339
+        ],
+        [
+          90,
+          347
+        ],
+        [
+          97,
+          351
+        ],
+        [
+          108,
+          352
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          81,
+          342
+        ],
+        [
+          90,
+          347
+        ],
+        [
+          97,
+          349
+        ],
+        [
+          108,
+          349
+        ]
+      ],
+      "distance_px": [
+        4.242640687119285,
+        0.0,
+        2.0,
+        3.0
+      ],
+      "rms_px": 2.7838821814150108,
+      "projected_screen_width_px": 99.53175684771435,
+      "max_screen_fraction": 0.042626000198214255
+    },
+    {
+      "component": "wing Left",
+      "view": "video-01",
+      "reference_sha256": "cd0f688ee3fc7b921a5573cb352e327bf4a11c1490edc03d4213b69ba2d4c3df",
+      "observations": "cad/drone-concept/comparison/v150-gold-wing-front-edge/visible-wing-edges.json",
+      "observations_sha256": "154c988dfdccb2d006d958e9f648a0c8bcdc0e7703c659febbd6a7ddf3c4e22d",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "6183101a3b98209af2261464faf98c02c12da0b3d454592b1c5abbeb9a4b8e41",
+      "reference_px": [
+        [
+          117,
+          11
+        ],
+        [
+          135,
+          31
+        ],
+        [
+          225,
+          133
+        ],
+        [
+          290,
+          226
+        ],
+        [
+          378,
+          351
+        ],
+        [
+          464,
+          450
+        ],
+        [
+          479,
+          478
+        ],
+        [
+          474,
+          510
+        ],
+        [
+          456,
+          534
+        ],
+        [
+          421,
+          551
+        ],
+        [
+          389,
+          549
+        ],
+        [
+          360,
+          532
+        ],
+        [
+          339,
+          510
+        ],
+        [
+          328,
+          478
+        ],
+        [
+          318,
+          442
+        ],
+        [
+          303,
+          408
+        ],
+        [
+          278,
+          377
+        ],
+        [
+          244,
+          341
+        ],
+        [
+          211,
+          294
+        ],
+        [
+          180,
+          251
+        ],
+        [
+          148,
+          207
+        ],
+        [
+          121,
+          159
+        ],
+        [
+          105,
+          118
+        ],
+        [
+          108,
+          76
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          117,
+          12
+        ],
+        [
+          136,
+          30
+        ],
+        [
+          227,
+          133
+        ],
+        [
+          292,
+          225
+        ],
+        [
+          380,
+          349
+        ],
+        [
+          466,
+          447
+        ],
+        [
+          482,
+          478
+        ],
+        [
+          475,
+          511
+        ],
+        [
+          456,
+          534
+        ],
+        [
+          420,
+          550
+        ],
+        [
+          389,
+          547
+        ],
+        [
+          361,
+          531
+        ],
+        [
+          340,
+          509
+        ],
+        [
+          328,
+          477
+        ],
+        [
+          321,
+          441
+        ],
+        [
+          304,
+          408
+        ],
+        [
+          279,
+          375
+        ],
+        [
+          246,
+          339
+        ],
+        [
+          213,
+          293
+        ],
+        [
+          182,
+          250
+        ],
+        [
+          150,
+          206
+        ],
+        [
+          123,
+          158
+        ],
+        [
+          107,
+          118
+        ],
+        [
+          109,
+          76
+        ]
+      ],
+      "distance_px": [
+        1.0,
+        1.4142135623730951,
+        2.0,
+        2.23606797749979,
+        2.8284271247461903,
+        3.605551275463989,
+        3.0,
+        1.4142135623730951,
+        0.0,
+        1.4142135623730951,
+        2.0,
+        1.4142135623730951,
+        1.4142135623730951,
+        1.0,
+        3.1622776601683795,
+        1.0,
+        2.23606797749979,
+        2.8284271247461903,
+        2.23606797749979,
+        2.23606797749979,
+        2.23606797749979,
+        2.23606797749979,
+        2.0,
+        1.0
+      ],
+      "rms_px": 2.0816659994661326,
+      "projected_screen_width_px": 87.87711092500786,
+      "max_screen_fraction": 0.04102946987573223
+    },
+    {
+      "component": "wing Right",
+      "view": "video-07",
+      "reference_sha256": "22b11545e68835cb3a3b05f29332f96210cc0f875e91fdc7436910599374ba60",
+      "observations": "cad/drone-concept/comparison/v150-gold-wing-front-edge/visible-wing-edges.json",
+      "observations_sha256": "154c988dfdccb2d006d958e9f648a0c8bcdc0e7703c659febbd6a7ddf3c4e22d",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "33287a8546e15ac6b12d13fb3c0569ebcc21e861fd00a81e75897152fd9e559c",
+      "reference_px": [
+        [
+          826,
+          12
+        ],
+        [
+          838,
+          75
+        ],
+        [
+          840,
+          113
+        ],
+        [
+          779,
+          200
+        ],
+        [
+          719,
+          287
+        ],
+        [
+          698,
+          319
+        ],
+        [
+          672,
+          369
+        ],
+        [
+          643,
+          419
+        ],
+        [
+          620,
+          469
+        ],
+        [
+          601,
+          505
+        ],
+        [
+          579,
+          531
+        ],
+        [
+          548,
+          548
+        ],
+        [
+          515,
+          545
+        ],
+        [
+          487,
+          526
+        ],
+        [
+          472,
+          505
+        ],
+        [
+          468,
+          476
+        ],
+        [
+          480,
+          443
+        ],
+        [
+          522,
+          397
+        ],
+        [
+          580,
+          326
+        ],
+        [
+          648,
+          242
+        ],
+        [
+          715,
+          155
+        ],
+        [
+          783,
+          64
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          825,
+          12
+        ],
+        [
+          832,
+          75
+        ],
+        [
+          835,
+          113
+        ],
+        [
+          783,
+          204
+        ],
+        [
+          724,
+          289
+        ],
+        [
+          705,
+          322
+        ],
+        [
+          672,
+          369
+        ],
+        [
+          641,
+          419
+        ],
+        [
+          618,
+          469
+        ],
+        [
+          606,
+          507
+        ],
+        [
+          581,
+          533
+        ],
+        [
+          548,
+          549
+        ],
+        [
+          515,
+          546
+        ],
+        [
+          485,
+          528
+        ],
+        [
+          470,
+          506
+        ],
+        [
+          465,
+          476
+        ],
+        [
+          482,
+          445
+        ],
+        [
+          523,
+          398
+        ],
+        [
+          586,
+          328
+        ],
+        [
+          646,
+          242
+        ],
+        [
+          713,
+          153
+        ],
+        [
+          782,
+          62
+        ]
+      ],
+      "distance_px": [
+        1.0,
+        6.0,
+        5.0,
+        5.656854249492381,
+        5.385164807134504,
+        7.615773105863909,
+        0.0,
+        2.0,
+        2.0,
+        5.385164807134504,
+        2.8284271247461903,
+        1.0,
+        1.0,
+        2.8284271247461903,
+        2.23606797749979,
+        3.0,
+        2.8284271247461903,
+        1.4142135623730951,
+        6.324555320336759,
+        2.0,
+        2.8284271247461903,
+        2.23606797749979
+      ],
+      "rms_px": 3.795930835656902,
+      "projected_screen_width_px": 99.53175684771435,
+      "max_screen_fraction": 0.07651601204544395
+    },
+    {
+      "component": "wing Right",
+      "view": "video-06",
+      "reference_sha256": "ed7cdc03298e1c8106e1213c9b147088086735663711979ebff9799bbbb2f920",
+      "observations": "cad/drone-concept/comparison/v150-gold-wing-front-edge/visible-wing-edges.json",
+      "observations_sha256": "154c988dfdccb2d006d958e9f648a0c8bcdc0e7703c659febbd6a7ddf3c4e22d",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "9b8a46183085611cbe762b45ead7fa7efc084af9f96763bffc829097c29ced94",
+      "reference_px": [
+        [
+          280,
+          466
+        ],
+        [
+          279,
+          487
+        ],
+        [
+          287,
+          512
+        ],
+        [
+          304,
+          533
+        ],
+        [
+          327,
+          546
+        ],
+        [
+          351,
+          552
+        ],
+        [
+          377,
+          548
+        ],
+        [
+          403,
+          536
+        ],
+        [
+          423,
+          515
+        ],
+        [
+          435,
+          493
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          279,
+          466
+        ],
+        [
+          279,
+          486
+        ],
+        [
+          289,
+          510
+        ],
+        [
+          307,
+          530
+        ],
+        [
+          327,
+          542
+        ],
+        [
+          351,
+          546
+        ],
+        [
+          374,
+          543
+        ],
+        [
+          399,
+          529
+        ],
+        [
+          417,
+          513
+        ],
+        [
+          427,
+          489
+        ]
+      ],
+      "distance_px": [
+        1.0,
+        1.0,
+        2.8284271247461903,
+        4.242640687119285,
+        4.0,
+        6.0,
+        5.830951894845301,
+        8.06225774829855,
+        6.324555320336759,
+        8.94427190999916
+      ],
+      "rms_px": 5.468089245796926,
+      "projected_screen_width_px": 169.20602047595082,
+      "max_screen_fraction": 0.0528602462538879
+    },
+    {
+      "component": "wing Left",
+      "view": "video-02",
+      "reference_sha256": "465dccf34ad81f07df9a1e4f0d48fbe1b55ec606a538f01dcf4da7f21c31004b",
+      "observations": "cad/drone-concept/comparison/v150-gold-wing-front-edge/visible-wing-edges.json",
+      "observations_sha256": "154c988dfdccb2d006d958e9f648a0c8bcdc0e7703c659febbd6a7ddf3c4e22d",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "b7610198566b290722a948f44fb363b9921b0400abda75f58a4f94ff1bfc2669",
+      "reference_px": [
+        [
+          642,
+          419
+        ],
+        [
+          661,
+          451
+        ],
+        [
+          661,
+          486
+        ],
+        [
+          650,
+          513
+        ],
+        [
+          631,
+          533
+        ],
+        [
+          605,
+          543
+        ],
+        [
+          577,
+          541
+        ],
+        [
+          550,
+          526
+        ],
+        [
+          527,
+          505
+        ],
+        [
+          510,
+          476
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          638,
+          423
+        ],
+        [
+          660,
+          451
+        ],
+        [
+          666,
+          488
+        ],
+        [
+          653,
+          515
+        ],
+        [
+          632,
+          535
+        ],
+        [
+          605,
+          545
+        ],
+        [
+          576,
+          543
+        ],
+        [
+          548,
+          528
+        ],
+        [
+          526,
+          505
+        ],
+        [
+          516,
+          474
+        ]
+      ],
+      "distance_px": [
+        5.656854249492381,
+        1.0,
+        5.385164807134504,
+        3.605551275463989,
+        2.23606797749979,
+        2.0,
+        2.23606797749979,
+        2.8284271247461903,
+        1.0,
+        6.324555320336759
+      ],
+      "rms_px": 3.714835124201342,
+      "projected_screen_width_px": 178.13425882918386,
+      "max_screen_fraction": 0.03550442998391168
+    },
+    {
+      "component": "petal",
+      "view": "video-04",
+      "reference_sha256": "a7e012576252bdf18dad76b4527f6433dcc7eb21e56784552e129aee35b05acb",
+      "observations": "cad/drone-concept/comparison/v300-rear-shoulder-nozzle/visible-petal-edges.json",
+      "observations_sha256": "f90e2241a25a4be993079f746ad16103eaea716d75c807e54f89d056a5c8e0cc",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "9f1837d87fee617b2fe57425dadcdf0bbc4f8f3fe7d4f19657d24623b7a1538c",
+      "reference_px": [
+        [
+          390,
+          640
+        ],
+        [
+          409,
+          667
+        ],
+        [
+          448,
+          680
+        ],
+        [
+          490,
+          680
+        ],
+        [
+          529,
+          668
+        ],
+        [
+          555,
+          641
+        ],
+        [
+          530,
+          628
+        ],
+        [
+          480,
+          623
+        ],
+        [
+          430,
+          627
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          398,
+          637
+        ],
+        [
+          409,
+          664
+        ],
+        [
+          424,
+          662
+        ],
+        [
+          519,
+          663
+        ],
+        [
+          529,
+          664
+        ],
+        [
+          546,
+          639
+        ],
+        [
+          527,
+          620
+        ],
+        [
+          480,
+          627
+        ],
+        [
+          422,
+          627
+        ]
+      ],
+      "distance_px": [
+        8.54400374531753,
+        3.0,
+        30.0,
+        33.61547262794322,
+        4.0,
+        9.219544457292887,
+        8.54400374531753,
+        4.0,
+        8.0
+      ],
+      "rms_px": 16.21384867602041,
+      "projected_screen_width_px": 371.60215226938243,
+      "max_screen_fraction": 0.09046092016058786
+    },
+    {
+      "component": "petal",
+      "view": "video-02",
+      "reference_sha256": "465dccf34ad81f07df9a1e4f0d48fbe1b55ec606a538f01dcf4da7f21c31004b",
+      "observations": "cad/drone-concept/comparison/v300-rear-shoulder-nozzle/visible-petal-edges.json",
+      "observations_sha256": "f90e2241a25a4be993079f746ad16103eaea716d75c807e54f89d056a5c8e0cc",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "b7610198566b290722a948f44fb363b9921b0400abda75f58a4f94ff1bfc2669",
+      "reference_px": [
+        [
+          207,
+          579
+        ],
+        [
+          224,
+          597
+        ],
+        [
+          254,
+          624
+        ],
+        [
+          291,
+          648
+        ],
+        [
+          329,
+          659
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          207,
+          580
+        ],
+        [
+          224,
+          597
+        ],
+        [
+          268,
+          619
+        ],
+        [
+          300,
+          647
+        ],
+        [
+          325,
+          647
+        ]
+      ],
+      "distance_px": [
+        1.0,
+        0.0,
+        14.866068747318506,
+        9.055385138137417,
+        12.649110640673518
+      ],
+      "rms_px": 9.633275663033837,
+      "projected_screen_width_px": 178.13425882918386,
+      "max_screen_fraction": 0.08345429366045666
+    },
+    {
+      "component": "petal",
+      "view": "video-06",
+      "reference_sha256": "ed7cdc03298e1c8106e1213c9b147088086735663711979ebff9799bbbb2f920",
+      "observations": "cad/drone-concept/comparison/v300-rear-shoulder-nozzle/visible-petal-edges.json",
+      "observations_sha256": "f90e2241a25a4be993079f746ad16103eaea716d75c807e54f89d056a5c8e0cc",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "9b8a46183085611cbe762b45ead7fa7efc084af9f96763bffc829097c29ced94",
+      "reference_px": [
+        [
+          736,
+          578
+        ],
+        [
+          716,
+          601
+        ],
+        [
+          681,
+          626
+        ],
+        [
+          641,
+          650
+        ],
+        [
+          601,
+          661
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          733,
+          578
+        ],
+        [
+          715,
+          597
+        ],
+        [
+          668,
+          619
+        ],
+        [
+          641,
+          645
+        ],
+        [
+          618,
+          644
+        ]
+      ],
+      "distance_px": [
+        3.0,
+        4.123105625617661,
+        14.7648230602334,
+        5.0,
+        24.041630560342615
+      ],
+      "rms_px": 13.015375522819154,
+      "projected_screen_width_px": 169.20602047595082,
+      "max_screen_fraction": 0.1420849594637186
+    },
+    {
+      "component": "petal",
+      "view": "video-03",
+      "reference_sha256": "0d8806db3363c684e6e42e641883d59705af1a938511637a2cbb9c88a116a82f",
+      "observations": "cad/drone-concept/comparison/v300-rear-shoulder-nozzle/visible-petal-edges.json",
+      "observations_sha256": "f90e2241a25a4be993079f746ad16103eaea716d75c807e54f89d056a5c8e0cc",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "ef24244864aa9eb69947fe777ba713da7de92ac288b1bdc62db1ee4b3cd1efd5",
+      "reference_px": [
+        [
+          250,
+          600
+        ],
+        [
+          285,
+          607
+        ],
+        [
+          325,
+          617
+        ],
+        [
+          365,
+          630
+        ],
+        [
+          400,
+          650
+        ],
+        [
+          425,
+          669
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          270,
+          600
+        ],
+        [
+          292,
+          609
+        ],
+        [
+          337,
+          625
+        ],
+        [
+          365,
+          633
+        ],
+        [
+          408,
+          655
+        ],
+        [
+          411,
+          663
+        ]
+      ],
+      "distance_px": [
+        20.0,
+        7.280109889280518,
+        14.422205101855956,
+        3.0,
+        9.433981132056603,
+        15.231546211727817
+      ],
+      "rms_px": 12.851718432438,
+      "projected_screen_width_px": 326.0433503948875,
+      "max_screen_fraction": 0.061341536258221474
+    },
+    {
+      "component": "petal",
+      "view": "video-05",
+      "reference_sha256": "6163748cf00f271a738409696656ddd46ca93481e0bfab683b656e6e8a38a204",
+      "observations": "cad/drone-concept/comparison/v300-rear-shoulder-nozzle/visible-petal-edges.json",
+      "observations_sha256": "f90e2241a25a4be993079f746ad16103eaea716d75c807e54f89d056a5c8e0cc",
+      "camera_sha256": "00d9a79f9b54d80315068f5f9d8894a38d9e0474659f89ba6f4e9642c22feb1e",
+      "id_manifest_sha256": "959501a16cfce5d9c768c51895b2d6ec383c2f276afd78d4df0f1aa81fb405b3",
+      "id_image_sha256": "c7e99b040de99bb1ffdf08798f6504e006950a06669962444e814da851724ded",
+      "reference_px": [
+        [
+          655,
+          605
+        ],
+        [
+          620,
+          607
+        ],
+        [
+          585,
+          614
+        ],
+        [
+          550,
+          623
+        ],
+        [
+          510,
+          641
+        ],
+        [
+          495,
+          653
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          652,
+          608
+        ],
+        [
+          632,
+          604
+        ],
+        [
+          590,
+          609
+        ],
+        [
+          551,
+          620
+        ],
+        [
+          510,
+          639
+        ],
+        [
+          499,
+          638
+        ]
+      ],
+      "distance_px": [
+        4.242640687119285,
+        12.36931687685298,
+        7.0710678118654755,
+        3.1622776601683795,
+        2.0,
+        15.524174696260024
+      ],
+      "rms_px": 8.906926143924924,
+      "projected_screen_width_px": 321.59017880195285,
+      "max_screen_fraction": 0.04827316168078748
+    },
+    {
+      "component": "petal",
+      "view": "still-04",
+      "reference_sha256": "c2635b57d04092802341979a23e74876884bc00075d0ec9c8a3594b930e686ce",
+      "observations": "cad/drone-concept/comparison/v300-rear-shoulder-nozzle/visible-petal-edges.json",
+      "observations_sha256": "f90e2241a25a4be993079f746ad16103eaea716d75c807e54f89d056a5c8e0cc",
+      "camera_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+      "id_manifest_sha256": "9828b2de7fce17a7ca8a7359ab592bc8a6325a4f3c44327af61a0688dd3f9948",
+      "id_image_sha256": "753e1e4e1a63b712e5cf58e1a634e921af1481e55b12e72d2110821cfe10fe4a",
+      "reference_px": [
+        [
+          600,
+          657
+        ],
+        [
+          636,
+          662
+        ],
+        [
+          675,
+          652
+        ],
+        [
+          713,
+          629
+        ],
+        [
+          745,
+          606
+        ],
+        [
+          753,
+          577
+        ],
+        [
+          627,
+          579
+        ],
+        [
+          658,
+          560
+        ],
+        [
+          686,
+          556
+        ],
+        [
+          725,
+          555
+        ],
+        [
+          605,
+          609
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          600,
+          649
+        ],
+        [
+          633,
+          647
+        ],
+        [
+          682,
+          648
+        ],
+        [
+          717,
+          628
+        ],
+        [
+          739,
+          599
+        ],
+        [
+          751,
+          577
+        ],
+        [
+          625,
+          573
+        ],
+        [
+          657,
+          560
+        ],
+        [
+          687,
+          556
+        ],
+        [
+          727,
+          555
+        ],
+        [
+          610,
+          604
+        ]
+      ],
+      "distance_px": [
+        8.0,
+        15.297058540778355,
+        8.06225774829855,
+        4.123105625617661,
+        9.219544457292887,
+        2.0,
+        6.324555320336759,
+        1.0,
+        1.0,
+        2.0,
+        7.0710678118654755
+      ],
+      "rms_px": 7.16684284490991,
+      "projected_screen_width_px": 334.81441130167775,
+      "max_screen_fraction": 0.04568817238573178
+    },
+    {
+      "component": "petal",
+      "view": "still-05",
+      "reference_sha256": "3860ef57bfcf146ea337493b1860771edc072454c5b1330dc12f8dbdf4c8b58d",
+      "observations": "cad/drone-concept/comparison/v300-rear-shoulder-nozzle/visible-petal-edges.json",
+      "observations_sha256": "f90e2241a25a4be993079f746ad16103eaea716d75c807e54f89d056a5c8e0cc",
+      "camera_sha256": "552326891c55a9b563b59f15069e2ff397ee64b8868b7353b469d21f403abdcb",
+      "id_manifest_sha256": "9828b2de7fce17a7ca8a7359ab592bc8a6325a4f3c44327af61a0688dd3f9948",
+      "id_image_sha256": "d701c5ba24932b09b3abb8902ac7ffcdaaf217f2dc459b811c9a9bf5162c372e",
+      "reference_px": [
+        [
+          118,
+          570
+        ],
+        [
+          132,
+          600
+        ],
+        [
+          166,
+          626
+        ],
+        [
+          199,
+          648
+        ],
+        [
+          229,
+          659
+        ],
+        [
+          253,
+          653
+        ],
+        [
+          139,
+          543
+        ],
+        [
+          176,
+          557
+        ],
+        [
+          205,
+          582
+        ],
+        [
+          238,
+          616
+        ],
+        [
+          255,
+          636
+        ]
+      ],
+      "nearest_visible_edge_px": [
+        [
+          106,
+          567
+        ],
+        [
+          133,
+          596
+        ],
+        [
+          172,
+          615
+        ],
+        [
+          199,
+          657
+        ],
+        [
+          217,
+          648
+        ],
+        [
+          253,
+          645
+        ],
+        [
+          142,
+          543
+        ],
+        [
+          176,
+          557
+        ],
+        [
+          210,
+          570
+        ],
+        [
+          249,
+          624
+        ],
+        [
+          251,
+          640
+        ]
+      ],
+      "distance_px": [
+        12.36931687685298,
+        4.123105625617661,
+        12.529964086141668,
+        9.0,
+        16.278820596099706,
+        8.0,
+        3.0,
+        0.0,
+        13.0,
+        13.601470508735444,
+        5.656854249492381
+      ],
+      "rms_px": 10.144411806955143,
+      "projected_screen_width_px": 215.7705334538083,
+      "max_screen_fraction": 0.07544505885732837
+    }
+  ]
+}
