@@ -1,0 +1,39 @@
+{
+  "revision": "v366-lowerpod-chassis-petal-contract0995",
+  "baseline_revision": "v363-lowerpod-chassis-combo0995",
+  "baseline_fcstd_sha256": "2372bc6788487af2dc3de7e49eb6b34dfdfe7b835b523e0e44e9f466c948308b",
+  "candidate_fcstd_sha256": "7e5e95c904d34c145a391721f47089a77a1e958a0652f533b7999ca4633cc0f5",
+  "candidate_step_sha256": "d896be2651833e2f6a622742b5efe133fef734d64ab95ce870818a0f749c5009",
+  "generator_script_sha256": "f0c05b5c232945eb1751927dd370aba7b89f0875b9c0eb87c92f5e9e036dce0d",
+  "visual_metrics": {
+    "video": 0.8624532608582968,
+    "stills": 0.8271838175882668,
+    "sheet": 0.8998248726263307
+  },
+  "baseline_metrics": {
+    "video": 0.8624385272392271,
+    "stills": 0.8271757223530883,
+    "sheet": 0.8998254185327303
+  },
+  "changed_families": {
+    "NozzlePetal": 108,
+    "LowerPod_and_BottomChassis_from_v363": 3
+  },
+  "visible_features": 696,
+  "step_solids": 853,
+  "decision": "reject",
+  "reason": "sheet mean regressed against v363, so no consistent three-group improvement",
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+  "excluded_from_score": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "limitations": [
+    "90% whole-orbit target not reached",
+    "major-part 5% projection-screen-width target not established",
+    "flat screen retained; curved reference screen and hidden details remain appearance assumptions",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}
