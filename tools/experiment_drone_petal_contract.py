@@ -4,7 +4,7 @@ The transform acts in each saved nozzle-local frame and preserves the root band.
 It is a geometry candidate only; rendering and fixed-camera comparison decide
 whether the change is retained.
 """
-import argparse, hashlib, json
+import argparse, hashlib, json, re
 from pathlib import Path
 import FreeCAD as App
 from drone_concept import contract_nozzle_petal_tangential
@@ -35,17 +35,14 @@ def main():
     try:
         for item in mesh['objects']:
             n=item['name']
-            if n.startswith('NozzlePetal') or n.startswith('NozzlePetalHinge'):
+            if n.startswith('NozzlePetal'):
+                match = re.fullmatch(r'NozzlePetal(?:Inset|Ridge|EdgeRail|Guide|EndHem|Hinge)?(\d+)(?:_\d+)?', n)
+                if match is None:
+                    raise ValueError(f'Unrecognized petal object: {n}')
+                index = int(match[1])
                 o=d.getObject(n)
                 if o is None: raise ValueError('Missing '+n)
                 original[n]=o.Shape.copy()
-                index=int(''.join(c for c in n.split('NozzlePetal',1)[1] if c.isdigit()) or 0)
-                # Handle suffixes such as NozzlePetalHinge10 and NozzlePetalRidge10.
-                if 'Hinge' in n:
-                    index=int(n[len('NozzlePetalHinge'):])
-                else:
-                    tail=n.split('NozzlePetal',1)[1]
-                    index=int(''.join(c for c in tail if c.isdigit()) or 0)
                 if index not in selected:
                     continue
                 o.Shape=contract_nozzle_petal_tangential(o.Shape,index,factor=a.factor,preserve_root=True)

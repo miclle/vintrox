@@ -571,3 +571,7 @@ v352 以 v345 为基线，只对 36 个 `LowerPodRib` 保存真实 CAD 实体在
 ## v371 沿提手臂截面修整端箍
 
 v371 在带内侧斜纹的模型上裁切两侧端箍。三组平均 IoU 分别为 86.26680%、82.72207%、90.00205%，完成研究筛选后，v371 已同步到正式评审入口。[近景与普通 Git 模型恢复](../cad/drone-concept/comparison/v371-grip-arm-profile/README.md)
+
+## v372 与 v373 喷口可见端角
+
+连续视频辨认出的三个端角在 v371 中的偏差分别为 20.25、8.60、29.53 px。v372 恢复四对镜像叶片，将偏差降至 5、1、1 px。v373 对全部 108 个叶片族对象进行宽度筛选，三处端角偏差为 2、2、4.12 px。v348 和 v355 实际各处理了 65 个对象，旧记录的适用范围已补正。v373 整圈 IoU 为 86.12406%，正式模型沿用 v371。[端角对照](../cad/drone-concept/comparison/v372-nozzle-terminal-families/README.md) · [宽度实验](../cad/drone-concept/comparison/v373-petal-width/README.md)

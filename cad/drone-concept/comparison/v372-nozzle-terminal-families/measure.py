@@ -17,6 +17,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     for name in ("baseline", "candidate", "output"):
         parser.add_argument(name, type=Path, help="Directory")
+    parser.add_argument("--labels", nargs=2, default=("v371", "v372"))
     args = parser.parse_args()
     tracks = json.loads((comparison / "v334-nozzle-video-tracks/tracks.json").read_text())
     board = Image.new("RGB", (780, 540), "#171717")
@@ -31,7 +32,7 @@ def main():
         crop = (left, top, left+130, top+76)
         reference = args.baseline / "video-comparison/reference-frames" / f"frame-{frame//30+1:02}.png"
         panels = [("Source", reference, anchor)]
-        for name, folder in (("v371", args.baseline), ("v372", args.candidate)):
+        for name, folder in zip(args.labels, (args.baseline, args.candidate)):
             id_path = folder / "video-ids"
             manifest = json.loads((id_path / "object-id-manifest.json").read_text())
             renders = json.loads((folder / "video-renders/render-manifest.json").read_text())
