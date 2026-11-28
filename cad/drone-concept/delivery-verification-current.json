@@ -1,9 +1,9 @@
 {
   "passed": true,
   "errors": [],
-  "revision": "v381-screen-ink",
-  "fcstd_sha256": "614ca2068740286c4dd7dac4e0d9fb094d7285b9a66c85e8b293bc56d80f3b89",
-  "step_sha256": "de1944d8f200de380cee6abf491e2026c4af628a4fe9f35d4353f5318615b6ab",
+  "revision": "v382-segmented-direction-pad",
+  "fcstd_sha256": "36572fef432ceb59510ebadd6d539bf8b29fb349aaf4efb16a2c3bfcd857d041",
+  "step_sha256": "689a4d1f9a5e3f20975d8e7cae2b488698b0ef54daa890a1b457fc2c8e2b00a5",
   "visible_features": 696,
   "step_solids": 869,
   "screen_panel_mm": [
@@ -37,15 +37,15 @@
   "comparisons": {
     "video": {
       "views": 10,
-      "mean_silhouette_iou": 0.8626715018830071
+      "mean_silhouette_iou": 0.8626719865757074
     },
     "stills": {
       "views": 7,
-      "mean_silhouette_iou": 0.8272213172534241
+      "mean_silhouette_iou": 0.8272225462540529
     },
     "sheet": {
       "views": 10,
-      "mean_silhouette_iou": 0.9000205123595972
+      "mean_silhouette_iou": 0.9000225788850752
     }
   },
   "physical_validation": false,

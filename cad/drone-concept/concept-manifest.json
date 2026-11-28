@@ -1,5 +1,5 @@
 {
-  "revision": "v381-screen-ink",
+  "revision": "v382-segmented-direction-pad",
   "front_cheek_x_scale": 0.995,
   "front_brow_x_scale": 0.985,
   "nozzle_petal_comparison_scale": 0.96,
@@ -93,7 +93,7 @@
   },
   "tree_structure": "flat",
   "group_count": 0,
-  "status": "v381 appearance review; fixed-camera screen ink colour fit",
+  "status": "v382 appearance review; segmented left direction pad",
   "physical_tests": false,
   "screen_panel_mm": [
     210,
@@ -168,7 +168,7 @@
     316.22196846545813,
     396.3425161547856
   ],
-  "fcstd_sha256": "614ca2068740286c4dd7dac4e0d9fb094d7285b9a66c85e8b293bc56d80f3b89",
+  "fcstd_sha256": "36572fef432ceb59510ebadd6d539bf8b29fb349aaf4efb16a2c3bfcd857d041",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4360,7 +4360,7 @@
     }
   ],
   "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
-  "step_sha256": "de1944d8f200de380cee6abf491e2026c4af628a4fe9f35d4353f5318615b6ab",
+  "step_sha256": "689a4d1f9a5e3f20975d8e7cae2b488698b0ef54daa890a1b457fc2c8e2b00a5",
   "gold_wing_rear_inset_local_mm": 5,
   "gold_wing_rear_station_weights": {
     "17": 0.2,
@@ -4960,6 +4960,21 @@
         13,
         70,
         8
+      ]
+    },
+    "v382": {
+      "object": "CheekDialLeft",
+      "groove_angles_deg": [
+        45,
+        135,
+        225,
+        315
+      ],
+      "groove_width_mm": 1.5,
+      "groove_depth_mm": 1.3,
+      "annular_recess_radii_mm": [
+        8,
+        10.3
       ]
     }
   },
