@@ -1,0 +1,29 @@
+{
+  "revision": "v356-speaker-lip-expand101",
+  "baseline_revision": "v345-small-pod-y-minus1p0-cable",
+  "baseline_fcstd_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+  "fcstd_sha256": "fcc2eb4732336e3f27440a39075a3f5fdad989eefd89cb31d879abb8bc4f9ecc",
+  "step_sha256": "426d3c35b8b30f329ca5516d7135834d1bab73dc6be2ed05ee9ac661f3e3610a",
+  "visible_features": 696,
+  "step_solids": 853,
+  "scale": 1.01,
+  "mode": "lip",
+  "visual_metrics": {
+    "video": 0.862406197200438,
+    "stills": 0.8271680887774471,
+    "sheet": 0.8998169442064553
+  },
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+  "excluded_from_score": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "limitations": [
+    "90% whole-orbit target not reached",
+    "major-part 5% projection-screen-width target not established",
+    "flat screen retained; curved cover and hidden details remain appearance assumptions",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}
