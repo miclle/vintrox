@@ -451,3 +451,4 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 - v392 采用两侧圆端格栅。视频十方位提高至 86.16465%，静态七图为 82.67231%，拼图十格为 90.01812%。[模型与七方位近景](../cad/drone-concept/comparison/v392-recessed-side-grilles/README.md)
 - v393 根据第 180、210 帧定位右侧旋钮和端面指示线，第 150、240 帧独立复测的中心偏差为 0.81、1.17 px。[固定相机及读回](../cad/drone-concept/comparison/v393-side-knob-indicator/README.md)
 - v394 沿第 60 帧八处可见喷口折边建立连续轨迹。叶片转角试验改善该帧，第 90、120 帧退步。[轨迹与整圈复测](../cad/drone-concept/comparison/v394-tracked-leaf-edges/README.md)
+- v395 用第 60、90、120 帧的端缘轨迹联合拟合三对叶片。第 60 帧偏差仍为 8.35%，后排折边出现遮挡，正式版沿用 v393。[三方位复测](../cad/drone-concept/comparison/v395-joint-nozzle-tracks/README.md)
