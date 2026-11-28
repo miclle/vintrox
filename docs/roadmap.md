@@ -449,3 +449,4 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 - v390 根据相邻七帧区分了金色右翼外缘和翼面折线。两处视频视角的局部折线更接近参考，独立静态图仍有偏差。[折线候选与复测](../cad/drone-concept/comparison/v390-gold-wing-crease/README.md)
 - v391 加入两个侧向视角的底部回环中心线。第 30、90 帧改善，第 150、180、210 帧仍有遮挡和边缘偏差。[回环三方位近景与检验](../cad/drone-concept/comparison/v391-side-loop-observations/README.md)
 - v392 采用两侧圆端格栅。视频十方位提高至 86.16465%，静态七图为 82.67231%，拼图十格为 90.01812%。[模型与七方位近景](../cad/drone-concept/comparison/v392-recessed-side-grilles/README.md)
+- v393 根据第 180、210 帧定位右侧旋钮和端面指示线，第 150、240 帧独立复测的中心偏差为 0.81、1.17 px。[固定相机及读回](../cad/drone-concept/comparison/v393-side-knob-indicator/README.md)

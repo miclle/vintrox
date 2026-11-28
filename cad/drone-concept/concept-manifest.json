@@ -1,5 +1,5 @@
 {
-  "revision": "v392-recessed-side-grilles",
+  "revision": "v393-side-knob-indicator",
   "front_cheek_x_scale": 0.995,
   "front_brow_x_scale": 0.985,
   "nozzle_petal_comparison_scale": 0.96,
@@ -93,7 +93,7 @@
   },
   "tree_structure": "flat",
   "group_count": 0,
-  "status": "v392 appearance review; mirrored round-ended side grille slots",
+  "status": "v393 appearance review; fitted right side knob and cap indicator",
   "physical_tests": false,
   "screen_panel_mm": [
     210,
@@ -152,7 +152,7 @@
     ],
     "basis": "appearance assumptions; load and stability untested"
   },
-  "visible_features": 696,
+  "visible_features": 697,
   "bbox_mm": [
     296.96318075074987,
     378.9074930138823,
@@ -168,7 +168,7 @@
     316.22196846545813,
     396.3425161547856
   ],
-  "fcstd_sha256": "08c0c2f54da9b1f92393909e3bd6e485d3909709c422b0731c1da27456c879fe",
+  "fcstd_sha256": "b457468a4de5e773f337b06cef3f5f7688e034ec7d6b9d881b8f8d6019bb4e50",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4357,10 +4357,16 @@
       "label": "底部多芯线束外观示意 — ·05",
       "solids": 1,
       "valid": true
+    },
+    {
+      "name": "CheekKnobIndicatorRight",
+      "label": "侧面旋钮指示线 — 右侧",
+      "solids": 1,
+      "valid": true
     }
   ],
   "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
-  "step_sha256": "243acfc0f4bfbb65c7dfc3cc1a28300cbbfe493795e236f2ccb73c7d7dd3d79c",
+  "step_sha256": "45f68b86b6b5d32d63cd7f57734cd870ab1f6d49e9047aada88f10ee0ef54073",
   "gold_wing_rear_inset_local_mm": 5,
   "gold_wing_rear_station_weights": {
     "17": 0.2,
@@ -5070,5 +5076,15 @@
     "slot_radius_mm": 1.24,
     "pitch_mm": 4.256,
     "input_revision": "v388"
+  },
+  "side_knob_v393": {
+    "tip_centre_mm": [
+      134.77,
+      10.59,
+      164.01
+    ],
+    "radius_dial_mm": 18,
+    "stripe_width_mm": 0.9,
+    "input_revision": "v392"
   }
 }

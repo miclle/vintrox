@@ -1,11 +1,11 @@
 {
   "passed": true,
   "errors": [],
-  "revision": "v392-recessed-side-grilles",
-  "fcstd_sha256": "08c0c2f54da9b1f92393909e3bd6e485d3909709c422b0731c1da27456c879fe",
-  "step_sha256": "243acfc0f4bfbb65c7dfc3cc1a28300cbbfe493795e236f2ccb73c7d7dd3d79c",
-  "visible_features": 696,
-  "step_solids": 869,
+  "revision": "v393-side-knob-indicator",
+  "fcstd_sha256": "b457468a4de5e773f337b06cef3f5f7688e034ec7d6b9d881b8f8d6019bb4e50",
+  "step_sha256": "45f68b86b6b5d32d63cd7f57734cd870ab1f6d49e9047aada88f10ee0ef54073",
+  "visible_features": 697,
+  "step_solids": 870,
   "screen_panel_mm": [
     210.0,
     160.0,
@@ -37,15 +37,15 @@
   "comparisons": {
     "video": {
       "views": 10,
-      "mean_silhouette_iou": 0.8616464529735464
+      "mean_silhouette_iou": 0.8617744947110723
     },
     "stills": {
       "views": 7,
-      "mean_silhouette_iou": 0.826723070590979
+      "mean_silhouette_iou": 0.8266787364506616
     },
     "sheet": {
       "views": 10,
-      "mean_silhouette_iou": 0.9001811600225598
+      "mean_silhouette_iou": 0.9002960505475615
     }
   },
   "physical_validation": false,

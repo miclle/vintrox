@@ -1,0 +1,63 @@
+"""Reposition the right side knob, add its recessed marker and seat the dial."""
+import hashlib
+import json
+import os
+import traceback
+from pathlib import Path
+
+import FreeCAD as App
+import FreeCADGui as Gui
+import Part
+from PySide import QtCore
+
+p = Path(os.environ['VINTROX_KNOB_OUTPUT'])
+model = Path(os.environ['VINTROX_KNOB_BASE'])
+try:
+    if hashlib.sha256(model.read_bytes()).hexdigest() != '08c0c2f54da9b1f92393909e3bd6e485d3909709c422b0731c1da27456c879fe':
+        raise ValueError('Expected the saved v392 assembly')
+    doc = App.openDocument(str(model))
+    knob = doc.getObject('CheekKnobRight')
+    dial = doc.getObject('CheekDialRight')
+    cheek = doc.getObject('FrontCheekRight')
+    axis = App.Vector(1,0,0)
+    tip = App.Vector(134.77,10.59,164.01)
+    shape = knob.Shape.copy()
+    shape.translate(tip - App.Vector(139.5,15.86,164.8))
+    # A short, round-ended printed paint insert sits flush with the cap.
+    start = tip + App.Vector(-.22,0,-.48)
+    end = tip + App.Vector(-.22,-1.98,-5.82)
+    normal = (end-start).cross(axis)
+    normal.normalize()
+    delta = normal * .45
+    corners = [start+delta,end+delta,end-delta,start-delta]
+    along = end-start
+    along.normalize()
+    wire = Part.Wire([Part.makeLine(corners[0],corners[1]),
+                      Part.Arc(corners[1],end+along*.45,corners[2]).toShape(),
+                      Part.makeLine(corners[2],corners[3]),
+                      Part.Arc(corners[3],start-along*.45,corners[0]).toShape()])
+    inlay = Part.Face(wire).extrude(axis*.23)
+    knob.Shape = shape.cut(inlay).removeSplitter()
+    mark = doc.addObject('Part::Feature','CheekKnobIndicatorRight')
+    mark.Label = '侧面旋钮指示线 — 右侧'
+    mark.Shape = inlay
+    mark.ViewObject.ShapeColor = (.79,.77,.70)
+    mark.ViewObject.DisplayMode = knob.ViewObject.DisplayMode
+    # The rear seat reaches the side shell behind the visible round dial.
+    dial.Shape = Part.makeCylinder(18.0, 8.37, App.Vector(114.4,tip.y,tip.z),axis)
+    doc.recompute()
+    for obj in [knob,dial,mark]:
+        obj.Shape.check(True)
+        if not obj.Shape.isValid() or not obj.Shape.isClosed() or len(obj.Shape.Solids)!=1:
+            raise ValueError(obj.Name)
+    gaps = {'dial_to_cheek_mm':dial.Shape.distToShape(cheek.Shape)[0],
+            'knob_to_dial_mm':knob.Shape.distToShape(dial.Shape)[0],
+            'inlay_to_knob_mm':inlay.distToShape(knob.Shape)[0],
+            'inlay_knob_intersection_mm3':inlay.common(knob.Shape).Volume}
+    if max(gaps.values())>.01: raise ValueError(gaps)
+    doc.saveAs(str(p/'candidate.FCStd'))
+    App.closeDocument(doc.Name)
+    (p/'contacts.json').write_text(json.dumps(gaps,indent=2)+'\n')
+except Exception:
+    (p/'error.txt').write_text(traceback.format_exc())
+QtCore.QTimer.singleShot(50,Gui.getMainWindow().close)
