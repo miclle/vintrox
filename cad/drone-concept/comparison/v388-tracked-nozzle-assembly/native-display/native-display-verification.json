@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v388",
+      "model": "/private/tmp/vintrox-shell-profile.Kt7Bjn/combined-leaf/candidate.FCStd",
+      "fcstd_sha256": "72b9c0673e8d980ff7c779c4cb084fc5f8872c46ec546a81ee3f99d372413e88",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "72b9c0673e8d980ff7c779c4cb084fc5f8872c46ec546a81ee3f99d372413e88",
+      "palette_contract_sha256": "b6e8afdf36f1b8366c25a4ec4347209f6f214a80ce217bf5b1d2ade58d86ed2f",
+      "native_color_triples": 71,
+      "mesh_color_triples": 71,
+      "max_native_vs_mesh_channel_difference": 2.9685450542160652e-08,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v388-isometric.png",
+          "sha256": "8831b535e61ca2b29198eaf30cdaf2e8b1c7a3573cb6218e8c55dea5c959ad66"
+        },
+        {
+          "view": "front",
+          "path": "v388-front.png",
+          "sha256": "9620544168b8ac9648b8018df3973b74bf32220ac6686af09c5da9b466bbb594"
+        },
+        {
+          "view": "rear",
+          "path": "v388-rear.png",
+          "sha256": "5a5b9e36e3a29f228ce3e80de28c1c15c0d59971c001045d406ba5f8e2f73e29"
+        },
+        {
+          "view": "right",
+          "path": "v388-right.png",
+          "sha256": "58a03831a0da13f9607c30f13c10e6e88b9041fe7ae7a104323facb8ebb2bf7d"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

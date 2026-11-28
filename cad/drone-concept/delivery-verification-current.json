@@ -1,9 +1,9 @@
 {
   "passed": true,
   "errors": [],
-  "revision": "v384-fluted-side-knob",
-  "fcstd_sha256": "c5e60c16a8e25c87b219048d0f037c93f4104b9f2e5544c17c31d29f0ffe249f",
-  "step_sha256": "fd6628d923282c7af0fec00a17ae7ec30b056ec4f5e2bbcc41a9ca6ce76aca21",
+  "revision": "v388-tracked-nozzle-assembly",
+  "fcstd_sha256": "72b9c0673e8d980ff7c779c4cb084fc5f8872c46ec546a81ee3f99d372413e88",
+  "step_sha256": "3b5656aa017be0f9ee291ae75cbf8bbc2f96a611c3d2f3b5c54d26a80a92eb7a",
   "visible_features": 696,
   "step_solids": 869,
   "screen_panel_mm": [
@@ -37,15 +37,15 @@
   "comparisons": {
     "video": {
       "views": 10,
-      "mean_silhouette_iou": 0.8626722673933361
+      "mean_silhouette_iou": 0.8609558559480874
     },
     "stills": {
       "views": 7,
-      "mean_silhouette_iou": 0.8272225462540529
+      "mean_silhouette_iou": 0.8264449969527773
     },
     "sheet": {
       "views": 10,
-      "mean_silhouette_iou": 0.9000225788850752
+      "mean_silhouette_iou": 0.8993623728908862
     }
   },
   "physical_validation": false,

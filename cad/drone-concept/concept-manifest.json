@@ -1,5 +1,5 @@
 {
-  "revision": "v384-fluted-side-knob",
+  "revision": "v388-tracked-nozzle-assembly",
   "front_cheek_x_scale": 0.995,
   "front_brow_x_scale": 0.985,
   "nozzle_petal_comparison_scale": 0.96,
@@ -93,7 +93,7 @@
   },
   "tree_structure": "flat",
   "group_count": 0,
-  "status": "v384 appearance review; fluted right knob",
+  "status": "v388 appearance review; tracked nozzle terminals and shorter root plates",
   "physical_tests": false,
   "screen_panel_mm": [
     210,
@@ -168,7 +168,7 @@
     316.22196846545813,
     396.3425161547856
   ],
-  "fcstd_sha256": "c5e60c16a8e25c87b219048d0f037c93f4104b9f2e5544c17c31d29f0ffe249f",
+  "fcstd_sha256": "72b9c0673e8d980ff7c779c4cb084fc5f8872c46ec546a81ee3f99d372413e88",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4360,7 +4360,7 @@
     }
   ],
   "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
-  "step_sha256": "fd6628d923282c7af0fec00a17ae7ec30b056ec4f5e2bbcc41a9ca6ce76aca21",
+  "step_sha256": "3b5656aa017be0f9ee291ae75cbf8bbc2f96a611c3d2f3b5c54d26a80a92eb7a",
   "gold_wing_rear_inset_local_mm": 5,
   "gold_wing_rear_station_weights": {
     "17": 0.2,
@@ -4984,6 +4984,25 @@
       "axial_interval_mm": [
         0.4,
         11.5
+      ]
+    },
+    "v388": {
+      "donor_revision": "v339-small-pod-y-minus0p5",
+      "transferred_families": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11
+      ],
+      "root_plate_axial_scale": 0.45,
+      "fixed_root": "each plate minimum local Z",
+      "root_plate_station_range_mm": [
+        93,
+        102
       ]
     }
   },

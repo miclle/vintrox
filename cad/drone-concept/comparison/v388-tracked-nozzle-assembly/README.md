@@ -1,0 +1,15 @@
+# v388 喷口端角与叶片根部
+
+本版以 v384 为基线，取 v339 八组叶片及附件共 72 件恢复有连续视频证据的末端位置。按 v387 的截面试验缩短叶片根部的 24 块搭片。120 处叶片与邻件的接合距离经过复测。两侧控件、外挂筒、格栅、实测平面屏与四根支柱均保留。[对象](transferred.json) · [接合距离](root-contacts.json) · [FCStd](candidate.FCStd) · [STEP](candidate.step)
+
+| 视频帧 | v384 端角偏差 | v388 端角偏差 | v388 整组末缘最大偏差 / 投影屏宽 |
+| --- | ---: | ---: | ---: |
+| 60 | 20.25 px | 5 px | 8.42% |
+| 90 | 8.60 px | 1 px | 5.37% |
+| 180 | 29.53 px | 1 px | 5.01% |
+
+第 180 帧整组末缘的最大采样偏差由 21.94% 降到 5.01%。七个末缘视角的最大偏差都低于 v384，第 60 帧与静态第 05 图等视角仍超过屏宽的 5%。端角距离以完整模型中可见叶片边缘计算。v382 与 v384 的喷口几何相同，端角近景左起为参考、v382、v388。[三方位端角](tracked-corners.jpg) · [端角坐标](tracked-corners.json) · [逐部件误差](visible-components.json)
+
+本次优先采用用户指定的主要部件轮廓改善。十方位视频均值从 v384 的 86.26723% 降为 86.09559%，静态七图从 82.72225% 降为 82.64450%，拼图十格从 90.00226% 降为 89.93624%。全部沿用同一刚性透视相机和原有遮罩，差异仍集中在喷口、侧后壳与底部回环。实测平面屏为 210 × 160 × 2 mm，可视区为 200 × 150 mm。参考曲面罩的精确光学特性未知。[视频](video-comparison/comparison-board.png) · [静态](stills-comparison/comparison-board.png) · [拼图](sheet-comparison/comparison-board.png)
+
+FreeCAD 原生四视角确认 696 个可见对象、71 种颜色，独立读回 STEP 有 869 个有效闭合实体，体积相对误差约 5.16 × 10⁻⁷。本版用于外观评审，未做实物试装。[原生颜色与截图](native-display/native-display-verification.json) · [实体读回](readback-verification.json)

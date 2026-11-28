@@ -134,7 +134,7 @@
         57.00000000021898
       ],
       "probe_radius_mm": 12,
-      "body_overlap_mm3": 16.790756740978733
+      "body_overlap_mm3": 16.79075674097873
     },
     {
       "name": "UnderbodyLoop0",
@@ -154,7 +154,7 @@
         56.99999999978102
       ],
       "probe_radius_mm": 12,
-      "body_overlap_mm3": 16.790776858959727
+      "body_overlap_mm3": 16.790776858959735
     },
     {
       "name": "UnderbodyLoop1",
@@ -186,12 +186,12 @@
       "petal": 0,
       "detail_gaps_mm": [
         0.0,
-        1.0658141036401503e-14,
+        0.0,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 6.5547165873050375
+      "root_roll_overlap_mm3": 6.554716587303418
     },
     {
       "petal": 1,
@@ -199,43 +199,43 @@
         0.0,
         0.0,
         0.0,
-        3.552713678800501e-15,
+        0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 4.074834456104464
+      "root_roll_overlap_mm3": 4.07483445608599
     },
     {
       "petal": 2,
       "detail_gaps_mm": [
         0.0,
-        8.881784197001252e-16,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "root_roll_overlap_mm3": 3.266690604423773
-    },
-    {
-      "petal": 3,
-      "detail_gaps_mm": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "root_roll_overlap_mm3": 4.074847064366417
-    },
-    {
-      "petal": 4,
-      "detail_gaps_mm": [
-        0.0,
         3.552713678800501e-15,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 6.5547262636815615
+      "root_roll_overlap_mm3": 2.5418144046204403
+    },
+    {
+      "petal": 3,
+      "detail_gaps_mm": [
+        0.0,
+        1.7763568394002505e-15,
+        1.7763568394002505e-15,
+        3.552713678800501e-15,
+        3.552713678800501e-15
+      ],
+      "root_roll_overlap_mm3": 4.074847064369785
+    },
+    {
+      "petal": 4,
+      "detail_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1.4210854715202004e-14,
+        0.0
+      ],
+      "root_roll_overlap_mm3": 6.55472626368209
     },
     {
       "petal": 5,
@@ -246,51 +246,51 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 10.416798423683147
+      "root_roll_overlap_mm3": 10.416798423682708
     },
     {
       "petal": 6,
       "detail_gaps_mm": [
         0.0,
-        1.5888218580782548e-14,
+        0.0,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 14.590750827595496
+      "root_roll_overlap_mm3": 14.590750922502737
     },
     {
       "petal": 7,
       "detail_gaps_mm": [
         0.0,
-        1.4238583238573986e-14,
+        8.881784197001252e-16,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.04219587252001
+      "root_roll_overlap_mm3": 14.934433491162194
     },
     {
       "petal": 8,
       "detail_gaps_mm": [
         0.0,
-        1.4210854715202004e-14,
+        0.0,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.22407787865945
+      "root_roll_overlap_mm3": 15.143830183354826
     },
     {
       "petal": 9,
       "detail_gaps_mm": [
         0.0,
-        0.0,
+        1.7763568394002505e-15,
         0.0,
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.042192940364025
+      "root_roll_overlap_mm3": 14.934431024884226
     },
     {
       "petal": 10,
@@ -301,7 +301,7 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 14.59075221841716
+      "root_roll_overlap_mm3": 14.590752215424995
     },
     {
       "petal": 11,
@@ -312,7 +312,7 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 10.416798764522667
+      "root_roll_overlap_mm3": 10.416798766482257
     }
   ],
   "handle_connections": {
@@ -538,7 +538,7 @@
       ]
     }
   },
-  "step_relative_volume_error": 5.164068919137501e-07,
+  "step_relative_volume_error": 5.16171793945593e-07,
   "step_volume_basis": "sum of individually integrated solid volumes",
   "step_bbox_max_delta_mm": 5.8903992794512305e-12,
   "bbox_mm": [
@@ -546,6 +546,6 @@
     378.9074930138823,
     496.3425161547856
   ],
-  "fcstd_sha256": "c5e60c16a8e25c87b219048d0f037c93f4104b9f2e5544c17c31d29f0ffe249f",
-  "step_sha256": "fd6628d923282c7af0fec00a17ae7ec30b056ec4f5e2bbcc41a9ca6ce76aca21"
+  "fcstd_sha256": "72b9c0673e8d980ff7c779c4cb084fc5f8872c46ec546a81ee3f99d372413e88",
+  "step_sha256": "3b5656aa017be0f9ee291ae75cbf8bbc2f96a611c3d2f3b5c54d26a80a92eb7a"
 }
