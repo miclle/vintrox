@@ -15,12 +15,8 @@
     "stills": 0.8271757223530883,
     "sheet": 0.8998254185327303
   },
-  "changed_families": {
-    "NozzlePetal": 108,
-    "LowerPod_and_BottomChassis_from_v363": 3
-  },
   "visible_features": 696,
-  "step_solids": 853,
+  "step_solids": 906,
   "decision": "reject",
   "reason": "sheet mean regressed against v363, so no consistent three-group improvement",
   "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
@@ -35,5 +31,10 @@
     "major-part 5% projection-screen-width target not established",
     "flat screen retained; curved reference screen and hidden details remain appearance assumptions",
     "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
-  ]
+  ],
+  "source_selection": {
+    "copied_petal_family_members": 108,
+    "copied_baseline_brow_members": 2,
+    "v348_builder_selected_members": 65
+  }
 }
