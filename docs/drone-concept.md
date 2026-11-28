@@ -171,6 +171,12 @@ v348 以 v345 为基线，对 12 组 `NozzlePetal` 及关联叶片实体在局�
 
 筛选包只保留 [摘要](../cad/drone-concept/comparison/v348-petal-contract0995/README.md) 与 [哈希/读回记录](../cad/drone-concept/comparison/v348-petal-contract0995/screening-summary.json)。筛选期间的 FCStd、STEP、网格和 PNG 已清理。独立读回曾确认 696 个可见对象、906 个有效闭合实体及 `5.3707815e-7` STEP 体积相对误差，颜色与可见性载荷从 v345 恢复。比较使用真实 CAD、固定相机和透明叠加，没有图像变形、逐件配准或省略可见零件。90% 整圈与主要部件投影屏宽 5% 目标仍未达成。
 
+## v349 扬声器锥盆与悬边 0.995 倍筛选（2026-11-28）
+
+v349 以 v345 为基线，只对左右 `SpeakerVisualCone` 与 `SpeakerSurround` 做对称 `0.995` 倍真实 CAD 缩放。固定视频十方位／静态七图／拼图十格平均轮廓 IoU 为 **86.2414333%／82.7168089%／89.9819783%**，相对 v345 基本持平或略低，三组没有改善，因此 v349 筛除，当前研究候选继续保持 v345。
+
+筛选包只保留 [摘要](../cad/drone-concept/comparison/v349-speaker-cone-scale0995/README.md) 与 [哈希/读回记录](../cad/drone-concept/comparison/v349-speaker-cone-scale0995/screening-summary.json)。筛选期间的 FCStd、STEP、网格和 PNG 已清理。独立读回曾确认 696 个可见对象、853 个有效闭合实体及 `5.3716202e-7` STEP 体积相对误差，颜色与可见性载荷从 v345 恢复。比较使用真实 CAD、固定相机和透明叠加，没有图像变形、逐件配准或省略可见零件。90% 整圈与主要部件投影屏宽 5% 目标仍未达成。
+
 ## 编辑与复现
 
 使用 FreeCAD GUI 打开模型后，所有零件直接显示在模型树顶层，可按中文名称查找；低音圆柱和光盘占位默认隐藏。显示名为中文，内部脚本标识保持稳定；STEP 已按中文显示名重新导出。参数表区分屏幕输入与造型假设；**仅屏幕对象绑定参数表达式**，装甲与低音占位等由生成脚本重建，不宣称修改表格即可整机联动。
