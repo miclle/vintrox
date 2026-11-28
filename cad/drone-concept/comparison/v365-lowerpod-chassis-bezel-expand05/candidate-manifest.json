@@ -1,0 +1,33 @@
+{
+  "revision": "v365-lowerpod-chassis-bezel-expand05",
+  "baseline_revision": "v363-lowerpod-chassis-combo0995",
+  "baseline_fcstd_sha256": "2372bc6788487af2dc3de7e49eb6b34dfdfe7b835b523e0e44e9f466c948308b",
+  "fcstd_sha256": "51100348dd359d41b66bbed8c000d7a54b1856381b07c16b519522e6d2c91a1e",
+  "step_sha256": "f2a2b8af5cccf5ed5b7e284b74a166c8aaf8d3053e66701960fbf65f8e565ede",
+  "visible_features": 696,
+  "step_solids": 853,
+  "parameters": {
+    "lower_pod_scale": 0.995,
+    "chassis_scale": 0.995,
+    "bezel_expansion_mm": 0.5
+  },
+  "visual_metrics": {
+    "video": 0.862501058518316,
+    "stills": 0.827030832208985,
+    "sheet": 0.8998699982292372
+  },
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+  "excluded_from_score": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "status": "screened out; static seven-view regression",
+  "limitations": [
+    "90% whole-orbit target not reached",
+    "major-part 5% projection-screen-width target not established",
+    "flat screen retained; curved reference screen and hidden details remain appearance assumptions",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}

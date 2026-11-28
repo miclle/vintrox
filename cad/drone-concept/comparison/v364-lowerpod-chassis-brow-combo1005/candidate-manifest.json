@@ -1,0 +1,33 @@
+{
+  "revision": "v364-lowerpod-chassis-brow-combo1005",
+  "baseline_revision": "v363-lowerpod-chassis-combo0995",
+  "baseline_fcstd_sha256": "2372bc6788487af2dc3de7e49eb6b34dfdfe7b835b523e0e44e9f466c948308b",
+  "fcstd_sha256": "ed1e137229d74e9caa45a59b4cef0db6cce17dfe0a3dfa5878cee94684e8d4bc",
+  "step_sha256": "6a2d2fe022b9ced64619d74c597ae5ada61233ff538cfee76e3afb9345606082",
+  "visible_features": 696,
+  "step_solids": 853,
+  "parameters": {
+    "lower_pod_scale": 0.995,
+    "chassis_scale": 0.995,
+    "brow_scale": 1.005
+  },
+  "visual_metrics": {
+    "video": 0.8625259539583311,
+    "stills": 0.8270616414919914,
+    "sheet": 0.8999573496348127
+  },
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+  "excluded_from_score": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "status": "screened out; static seven-view regression",
+  "limitations": [
+    "90% whole-orbit target not reached",
+    "major-part 5% projection-screen-width target not established",
+    "flat screen retained; curved reference screen and hidden details remain appearance assumptions",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}

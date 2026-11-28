@@ -225,6 +225,10 @@ v358 以 v345 为基线，对 `ProjectingBrow` 与 `BrowUnderside` 在模型中�
 
 筛选包只保留 [摘要](../cad/drone-concept/comparison/v358-front-brow-expand1005/README.md)、候选检查、显示恢复、独立读回与固定相机报告。独立读回确认 698 个对象、696 个可见对象、853 个有效闭合 STEP 实体，保护支柱保持，颜色与可见性载荷从 v345 恢复。90% 整圈与主要部件投影屏宽 5% 目标仍未达成，平面屏、曲面罩和不可观察细节限制继续有效。
 
+## v364/v365 v363 组合扩展筛选（2026-11-28）
+
+v364 在 v363 基础上叠加前罩 `ProjectingBrow` 与 `BrowUnderside` 横向 `1.005` 倍外扩，视频十方位／静态七图／拼图十格平均轮廓 IoU 为 **86.2525954%／82.7061641%／89.9957349%**。v365 在 v363 基础上叠加 `ScreenBezel` 与 `BezelLip` 每侧外扩 `0.5 mm`，三组为 **86.2501059%／82.7030832%／89.9870%**。两项视频与拼图局部上升，但静态七图回退，均筛除，研究优选保持 v363。两项均完成真实 CAD、固定相机、颜色载荷恢复、保存读回和 STEP 检查，696 个可见对象、853 个有效闭合实体。详见 [v364](../cad/drone-concept/comparison/v364-lowerpod-chassis-brow-combo1005/README.md) 与 [v365](../cad/drone-concept/comparison/v365-lowerpod-chassis-bezel-expand05/README.md)。
+
 ## v363 小喷口外壳与底盘组合筛选（2026-11-28）
 
 v363 在同一保存真实 CAD 中组合 v359 的 `LowerPod_1`、`LowerPod_001` 局部 XY `0.995` 倍缩放与 v361 的 `BottomChassis` Y 向 `0.995` 倍缩放。视频十方位／静态七图／拼图十格平均轮廓 IoU 为 **86.2438527%／82.7175722%／89.9825419%**，三组均高于 v345 和两个单变量候选，因此保留为当前研究候选。增量仍很小，90% 整圈与主要部件投影屏宽 5% 目标未达成。保存读回确认 696 个可见对象、853 个有效闭合 STEP 实体、颜色与可见性保持，四根支柱、屏幕、外挂筒、侧控件和格栅未改。详见 [v363 筛选](../cad/drone-concept/comparison/v363-lowerpod-chassis-combo0995/README.md)。
