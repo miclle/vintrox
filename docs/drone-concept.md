@@ -559,3 +559,7 @@ v91 的 FCStd/STEP 保存读回、698 个有效闭合形体、696 个渲染网�
 v352 以 v345 为基线，只对 36 个 `LowerPodRib` 保存真实 CAD 实体在各自局部肋框架内做切向 `0.995` 倍缩放，根部、末端站位、屏幕、四根支柱、外挂筒、屏幕侧控件和格栅保持。固定视频十方位／静态七图／拼图十格平均轮廓 IoU 为 **86.2415751%／82.7172183%／89.9813922%**。视频和静态略升，拼图略降，三组未形成一致改善，因此 v352 筛除，当前研究候选继续保持 v345。
 
 筛选包只保留 [摘要](../cad/drone-concept/comparison/v352-small-pod-rib-tangent0995/README.md)、[候选检查](../cad/drone-concept/comparison/v352-small-pod-rib-tangent0995/candidate-check.json)、[显示恢复](../cad/drone-concept/comparison/v352-small-pod-rib-tangent0995/display-restore.json)、[独立读回](../cad/drone-concept/comparison/v352-small-pod-rib-tangent0995/readback-verification.json) 与固定相机报告。候选使用真实 CAD、固定相机和透明叠加，没有图像变形、逐件配准或省略可见零件。独立读回确认 698 个对象、696 个可见对象、853 个 STEP 有效闭合实体和保护支柱一致，颜色与可见性载荷从 v345 恢复。90% 整圈与主要部件投影屏宽 5% 目标仍未达成，平面屏、曲面罩和不可观察细节限制继续有效。
+
+## v369 红翼内侧斜纹
+
+第 150 帧定位的两条内侧翼纹在另一方位（第 180 帧）也能看到。CAD 条纹偏亮，凸脊处仍有局部突角。保存为局部候选，正式交付为 v339，整机轮廓研究继续以 v363 为基线。[近景、固定相机比较与读回](../cad/drone-concept/comparison/v369-inner-wing-stripes/README.md)
