@@ -63,8 +63,8 @@ def main():
                        help="Shorten the liner legs about the top of the saved liner")
     parser.add_argument("--revision", required=True)
     args = parser.parse_args()
-    if not 0.95 <= args.scale <= 1 or not 0.85 <= args.depth_scale <= 1.1:
-        raise ValueError("X scale must be in [0.95, 1], depth scale in [0.85, 1.1]")
+    if not 0.95 <= args.scale <= 1.05 or args.scale == 1 or not 0.85 <= args.depth_scale <= 1.1:
+        raise ValueError("X scale must be in [0.95, 1.05], excluding 1, depth scale in [0.85, 1.1]")
     if not 0 <= args.liner_setback <= 10 or (args.liner_setback and args.scale != 1):
         parser.error("liner setback must be between 0 and 10 mm with --scale 1")
     if not 0.8 <= args.liner_height_scale <= 1 or (

@@ -1,0 +1,28 @@
+{
+  "revision": "v358-front-brow-expand1005",
+  "baseline_revision": "v345-small-pod-y-minus1p0-cable",
+  "baseline_fcstd_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+  "fcstd_sha256": "8569985c19051e8541c2b37bc65cd6c89b621d9d2a1f3274605402f511310b03",
+  "step_sha256": "6e59526b7c6a4d92303d6af1d851024f947bf56ccff5be72d71cec921e5a6d56",
+  "visible_features": 696,
+  "step_solids": 853,
+  "scale": 1.005,
+  "visual_metrics": {
+    "video": 0.8625017049379924,
+    "stills": 0.8270540333595017,
+    "sheet": 0.8999517078733902
+  },
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+  "excluded_from_score": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "limitations": [
+    "90% whole-orbit target not reached",
+    "major-part 5% projection-screen-width target not established",
+    "flat screen retained; curved cover and hidden details remain appearance assumptions",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}
