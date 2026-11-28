@@ -1,5 +1,5 @@
 {
-  "revision": "v375-screen-eye-profiles",
+  "revision": "v381-screen-ink",
   "front_cheek_x_scale": 0.995,
   "front_brow_x_scale": 0.985,
   "nozzle_petal_comparison_scale": 0.96,
@@ -93,7 +93,7 @@
   },
   "tree_structure": "flat",
   "group_count": 0,
-  "status": "appearance-study baseline v339; small-pod assemblies moved symmetrically Y -0.5 mm",
+  "status": "v381 appearance review; fixed-camera screen ink colour fit",
   "physical_tests": false,
   "screen_panel_mm": [
     210,
@@ -168,7 +168,7 @@
     316.22196846545813,
     396.3425161547856
   ],
-  "fcstd_sha256": "c70b81d5462e0da6b171c12abf506e238580c5935bcecfc3a1b5fba6f0d437b5",
+  "fcstd_sha256": "614ca2068740286c4dd7dac4e0d9fb094d7285b9a66c85e8b293bc56d80f3b89",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4947,7 +4947,21 @@
       ]
     },
     "v371": "Saved v363 combination, inner red-wing stripes and arm-profile trimmed grip end cuffs; see v371 comparison.",
-    "v375": "Symmetric stepped eye artwork on the measured flat screen."
+    "v375": "Symmetric stepped eye artwork on the measured flat screen.",
+    "screen_ink_v381": {
+      "object_names": [
+        "PixelEye_39",
+        "PixelEyeTop_39",
+        "PixelEye27",
+        "PixelEyeTop27",
+        "PixelMouth"
+      ],
+      "diffuse_rgb8": [
+        13,
+        70,
+        8
+      ]
+    }
   },
   "rear_belly_relief": {
     "baseline_fcstd_sha256": "73240674f4251aa47b574bbfed4cc076a28ea09abdb5279805e2ca78b4d701b3",

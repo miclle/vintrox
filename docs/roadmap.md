@@ -428,3 +428,5 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 - v375 修订平面屏上的两眼图形。三个固定视角和三档阈值下，18 项局部 IoU 均高于 v371，整机轮廓评分一致。两侧斜视仍有横向位置偏差。[三方位眼部近景与测量](../cad/drone-concept/comparison/v375-screen-eye-profiles/README.md)
 
 - v375 纳入正式评审，FCStd、STEP、原生四视角、九张展示图及转台使用同一保存模型。视频十方位轮廓均值为 86.26715%，保留主要部件 5% 偏差和整圈 90% 两项待验收目标。[交付核验](../cad/drone-concept/delivery-verification-current.json)
+
+- v381 将五个表情对象调整为深绿色，九个参考裁切区的 RGB 中位色差均下降。正式 CAD 使用可读回的保存色板，几何与 v375 相同。[颜色核对与固定相机比较](../cad/drone-concept/comparison/v381-screen-ink/README.md)

@@ -1,8 +1,10 @@
 # VINTROX Drone 外观迭代交接
 
-当前正式模型为 v375。视频十方位、静态七图和拼图十格的平均 IoU 分别为 86.26715%、82.72213%、90.00205%。FreeCAD 与 STEP 读回均有 869 个有效闭合实体，原生窗口已核对 696 个可见对象和 70 种颜色。正式 CAD 和预览可用普通 Git 检出。[v375 正式记录](../cad/drone-concept/comparison/v375-screen-eye-profiles/README.md)
+当前正式模型为 v381。视频十方位、静态七图和拼图十格的平均 IoU 分别为 86.26715%、82.72213%、90.00205%。FreeCAD 与 STEP 读回均有 869 个有效闭合实体，原生窗口已核对 696 个可见对象和 71 种颜色。正式 CAD 和预览可用普通 Git 检出。[v381 正式记录](../cad/drone-concept/comparison/v381-screen-ink/README.md)
 
 v376 复测了右翼顶端。第 210 帧上部两处翼缘各外移 4 px，第 180 帧翼根的历史采样峰值仍为投影屏宽的 5.29%。静态第 05、06 图 IoU 下降，保留为试验。喷口及后侧轮廓仍需跨视角核对。[v376 试验](../cad/drone-concept/comparison/v376-upper-wing-tip/README.md)
+
+v377–v380 复测了喷口端角、整圈叶片姿态、握把端箍和底部回环。喷口第 180 帧单一端角可贴合到 1 px，整组边缘及其他视角仍有偏差。v381 沿用 v375 几何，采用已复核的深绿表情配色。[喷口近景](../cad/drone-concept/comparison/v378-tracked-exit-ring/rear.jpg) · [底部回环](../cad/drone-concept/comparison/v380-loop-lateral-sweep/README.md)
 
 ## 早期迭代记录
 
