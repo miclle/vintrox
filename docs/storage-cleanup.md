@@ -6,6 +6,8 @@
 
 v381 的配色已合入正式模型，独立的 FCStd 已验证可从 v375 按原哈希复建；STEP 与 v375 字节相同。v381 的两份 CAD 从当前快照移除，原生截图、色差和三组相机对照保留。[复建说明](../cad/drone-concept/comparison/v381-screen-ink/README.md)
 
+v392 交付后退役 v382、v384、v388 的旧 STEP 共 149,467,062 字节。各自的 FCStd 与独立读回报告仍可用。
+
 现行模型的派生网格从保存 FCStd 在临时目录重建。原生显示与固定相机记录随当前交付归档。[当前交付](../cad/drone-concept/comparison/v392-recessed-side-grilles/README.md)
 
 v164 成为历史基线后，工作树移除其压缩网格分卷，已发布提交仍可追溯。v155、v161、v163 的旧 FCStd、STEP 和派生网格已在此前迁移中移出主分支历史。历史相机、对照、读回报告和试验参数仍可查阅。
