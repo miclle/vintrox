@@ -1,0 +1,59 @@
+{
+  "revision": "v351-brow-underside-scale0995",
+  "baseline_fcstd_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+  "candidate_geometry_fcstd_sha256": "e24145a81cbf1150ec216f86e60665f892cdc9c7c0c7749db2ed3f03857f5ea2",
+  "candidate_display_fcstd_sha256": "8b749a9913e68a091c03b797e49145267a15047bd3421c7eb1fe8c1c0d401a26",
+  "step_sha256": "3edebca4f8141c5c579267a19a01d3d742a010ceedc9db922a2d9542268110a7",
+  "liner_height_scale": 0.995,
+  "changed_objects": [
+    "BrowUnderside"
+  ],
+  "visual_metrics": {
+    "video": 0.8624134162943079,
+    "stills": 0.8271611370429495,
+    "sheet": 0.8998187194533742
+  },
+  "baseline_metrics": {
+    "video": 0.8624142802957346,
+    "stills": 0.8271681094943234,
+    "sheet": 0.8998197827854313
+  },
+  "readback": {
+    "fcstd_visible_objects": 696,
+    "fcstd_solids": 853,
+    "fcstd_valid": true,
+    "step_solids": 853,
+    "step_valid": true,
+    "volume_relative_error": 5.37149578086112e-07,
+    "fcstd_sha256": "8b749a9913e68a091c03b797e49145267a15047bd3421c7eb1fe8c1c0d401a26",
+    "candidate_geometry_fcstd_sha256": "e24145a81cbf1150ec216f86e60665f892cdc9c7c0c7749db2ed3f03857f5ea2",
+    "step_sha256": "3edebca4f8141c5c579267a19a01d3d742a010ceedc9db922a2d9542268110a7",
+    "screen_input_preserved": [
+      "ScreenPanel210x160x2",
+      "ActiveArea200x150"
+    ],
+    "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+    "limitations": [
+      "candidate rejected because all three camera means regressed against v345",
+      "90% whole-orbit target not reached",
+      "major-part 5% projection-screen-width target not established",
+      "flat screen retained; curved cover and hidden details remain appearance assumptions",
+      "no manufacturing or physical acceptance"
+    ]
+  },
+  "display_restore": {
+    "status": "display-copy-restored; native GUI visual check pending",
+    "source_model_sha256": "e24145a81cbf1150ec216f86e60665f892cdc9c7c0c7749db2ed3f03857f5ea2",
+    "display_model_sha256": "8b749a9913e68a091c03b797e49145267a15047bd3421c7eb1fe8c1c0d401a26",
+    "appearance_source_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+    "copied_gui_members": 2095,
+    "non_gui_members_changed": [],
+    "document_xml_and_brep_bytes_unchanged": true,
+    "display_model": "candidate-display.FCStd",
+    "limitations": [
+      "saved appearance payload verification; not a native GUI screenshot or physical validation"
+    ]
+  },
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "decision": "reject; all three camera means regressed against v345"
+}
