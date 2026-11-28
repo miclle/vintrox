@@ -1,9 +1,9 @@
 {
   "passed": true,
   "errors": [],
-  "revision": "v388-tracked-nozzle-assembly",
-  "fcstd_sha256": "72b9c0673e8d980ff7c779c4cb084fc5f8872c46ec546a81ee3f99d372413e88",
-  "step_sha256": "3b5656aa017be0f9ee291ae75cbf8bbc2f96a611c3d2f3b5c54d26a80a92eb7a",
+  "revision": "v392-recessed-side-grilles",
+  "fcstd_sha256": "08c0c2f54da9b1f92393909e3bd6e485d3909709c422b0731c1da27456c879fe",
+  "step_sha256": "243acfc0f4bfbb65c7dfc3cc1a28300cbbfe493795e236f2ccb73c7d7dd3d79c",
   "visible_features": 696,
   "step_solids": 869,
   "screen_panel_mm": [
@@ -37,15 +37,15 @@
   "comparisons": {
     "video": {
       "views": 10,
-      "mean_silhouette_iou": 0.8609558559480874
+      "mean_silhouette_iou": 0.8616464529735464
     },
     "stills": {
       "views": 7,
-      "mean_silhouette_iou": 0.8264449969527773
+      "mean_silhouette_iou": 0.826723070590979
     },
     "sheet": {
       "views": 10,
-      "mean_silhouette_iou": 0.8993623728908862
+      "mean_silhouette_iou": 0.9001811600225598
     }
   },
   "physical_validation": false,

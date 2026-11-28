@@ -1,5 +1,5 @@
 {
-  "revision": "v388-tracked-nozzle-assembly",
+  "revision": "v392-recessed-side-grilles",
   "front_cheek_x_scale": 0.995,
   "front_brow_x_scale": 0.985,
   "nozzle_petal_comparison_scale": 0.96,
@@ -93,7 +93,7 @@
   },
   "tree_structure": "flat",
   "group_count": 0,
-  "status": "v388 appearance review; tracked nozzle terminals and shorter root plates",
+  "status": "v392 appearance review; mirrored round-ended side grille slots",
   "physical_tests": false,
   "screen_panel_mm": [
     210,
@@ -168,7 +168,7 @@
     316.22196846545813,
     396.3425161547856
   ],
-  "fcstd_sha256": "72b9c0673e8d980ff7c779c4cb084fc5f8872c46ec546a81ee3f99d372413e88",
+  "fcstd_sha256": "08c0c2f54da9b1f92393909e3bd6e485d3909709c422b0731c1da27456c879fe",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4360,7 +4360,7 @@
     }
   ],
   "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
-  "step_sha256": "3b5656aa017be0f9ee291ae75cbf8bbc2f96a611c3d2f3b5c54d26a80a92eb7a",
+  "step_sha256": "243acfc0f4bfbb65c7dfc3cc1a28300cbbfe493795e236f2ccb73c7d7dd3d79c",
   "gold_wing_rear_inset_local_mm": 5,
   "gold_wing_rear_station_weights": {
     "17": 0.2,
@@ -5058,5 +5058,17 @@
     "body_axial_scale": 1.3,
     "fixed_mount_y_mm": 238.5,
     "lens_translation_y_mm": 6.75
+  },
+  "side_grille_v392": {
+    "count_per_side": 10,
+    "face_abs_x_mm": 115.4,
+    "middle_yz_mm": [
+      10.12,
+      118.76
+    ],
+    "slot_length_mm": 42.2,
+    "slot_radius_mm": 1.24,
+    "pitch_mm": 4.256,
+    "input_revision": "v388"
   }
 }
