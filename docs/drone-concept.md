@@ -567,3 +567,7 @@ v352 以 v345 为基线，只对 36 个 `LowerPodRib` 保存真实 CAD 实体在
 ## v370 握把端箍
 
 对称重建端箍后，第 120 帧两端的上缘平均偏差均小于 1 px。第 180 帧仍可见提手臂与端箍间的折线，保留为局部候选。[三方位近景与几何读回](../cad/drone-concept/comparison/v370-grip-end-cuffs/README.md)
+
+## v371 沿提手臂截面修整端箍
+
+v371 在带内侧斜纹的模型上裁切两侧端箍。三组平均 IoU 分别为 86.26680%、82.72207%、90.00205%，作为新的整机研究基线。正式评审文件仍为 v339。[近景与普通 Git 模型恢复](../cad/drone-concept/comparison/v371-grip-arm-profile/README.md)

@@ -1,0 +1,14 @@
+--- a/build.py
++++ b/build.py
+@@ -28,6 +28,11 @@
+             cap = surface.extrude(App.Vector(sign * 18, 0, 0))
+             cap.translate(App.Vector(sign * 92, 0, 0))
+             end = doc.getObject("HandleGripCuff" + side)
++            # Clip the cap with the transverse profile of the saved angled arm.
++            arm = doc.getObject("HandleArm" + side).Shape
++            section, = arm.slice(App.Vector(1, 0, 0), sign * 112)
++            envelope = Part.Face(section).extrude(App.Vector(-sign * 23, 0, 0))
++            cap = cap.common(envelope)
+             shape = end.Shape.fuse(cap).removeSplitter()
+             shape.check(True)
+             if len(shape.Solids) != 1 or not shape.isClosed():
