@@ -13,3 +13,14 @@ v363 以 v345 为基线，在同一保存真实 CAD 中组合 v359 的左右 `Lo
 保存读回确认三个变更对象有效闭合，698 个对象闭合，696 个可见对象，STEP 为 853 个有效闭合实体；底盘与主壳、腹板、小喷口和底部回环接合保持。颜色和可见性从 v345 恢复。
 
 候选目录仅保留摘要、哈希、相机配置和比较报告，可再生的大型 FCStd、STEP、网格和 PNG 已清理。
+
+从普通 Git 检出的 v345 恢复 v363 彩色 FCStd 时，在仓库根目录运行以下命令。补丁占 267 KiB。恢复文件已与原保存文件逐字节核对。
+
+```sh
+research_dir=$(mktemp -d)
+cp cad/drone-concept/comparison/v345-small-pod-y-minus1p0-cable/candidate.FCStd "$research_dir/"
+gzip -dc cad/drone-concept/comparison/v363-lowerpod-chassis-combo0995/from-v345.patch.gz | (cd "$research_dir" && git apply --binary -)
+shasum -a 256 "$research_dir/candidate.FCStd"
+```
+
+预期 SHA-256 为 `2372bc6788487af2dc3de7e49eb6b34dfdfe7b835b523e0e44e9f466c948308b`。
