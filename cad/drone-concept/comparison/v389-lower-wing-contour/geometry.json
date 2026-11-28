@@ -1,0 +1,168 @@
+{
+  "baseline_fcstd_sha256": "72b9c0673e8d980ff7c779c4cb084fc5f8872c46ec546a81ee3f99d372413e88",
+  "fcstd_sha256": "9d5e2f1e62a9179000818c6152cc69cfd0efd0213fadfaf65efecb228964e95a",
+  "script_sha256": "009835a5efdd76dd724c750374f73fb9754316b2d8c0deeebc2ac630a0616370",
+  "changed_objects": [
+    "WingEdgeRight",
+    "WingFoldFacetRight",
+    "WingInnerPaintRight",
+    "WingPaintRight",
+    "WingRaisedFaceRight"
+  ],
+  "inset_local_mm": 5,
+  "fit_sha256": "15468edf89a114b98c26b9e39b8d2dc588a106ed46f6f974d846399ab780b320",
+  "pose_sha256": "5a69426e233fc0740ff3e7a55a8678b8f81f92d91b970f583860acf2fb308070",
+  "fit_scale": 1.0,
+  "rear_station_weights": {
+    "17": 0.2,
+    "18": 0.75,
+    "19": 1,
+    "20": 0.9,
+    "21": 0.25
+  },
+  "front_offsets_local_mm": {
+    "1": 0.5,
+    "2": 5.5,
+    "3": 2.5,
+    "4": 2.0,
+    "11": 0.6,
+    "12": 2.4,
+    "13": 3.8,
+    "14": 4.3,
+    "15": 3.8,
+    "16": 1.0,
+    "22": 1.4,
+    "23": 1.4
+  },
+  "advanced_checks": [
+    {
+      "name": "WingEdgeRight",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "WingInnerPaintRight",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "WingFoldFacetRight",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "WingRaisedFaceRight",
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "WingPaintRight",
+      "baseline_errors": [],
+      "candidate_errors": []
+    }
+  ],
+  "contacts": [
+    {
+      "objects": [
+        "WingEdgeRight",
+        "WingInnerPaintRight"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingEdgeRight",
+        "WingFoldFacetRight"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "overlap_mm3": 2440.3928284382796,
+      "baseline_overlap_mm3": 2401.042692025009,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingEdgeRight",
+        "WingRaisedFaceRight"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingEdgeRight",
+        "WingHubSeatRight"
+      ],
+      "gap_mm": 2.473342006776348e-12,
+      "baseline_gap_mm": 2.3607134130094305e-12,
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingInnerPaintRight",
+        "WingSpineRight"
+      ],
+      "gap_mm": 4.0194366942304644e-14,
+      "baseline_gap_mm": 4.263256414560601e-13,
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingFoldFacetRight",
+        "WingRaisedFaceRight"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "overlap_mm3": 30.7922147283942,
+      "baseline_overlap_mm3": 8.918111609413845,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingFoldFacetRight",
+        "WingPaintRight"
+      ],
+      "gap_mm": 0.40818001561715683,
+      "baseline_gap_mm": 0.40818001561715683,
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingRaisedFaceRight",
+        "WingPaintRight"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "overlap_mm3": 7674.283225455991,
+      "baseline_overlap_mm3": 7613.402716279256,
+      "regressed": false
+    },
+    {
+      "objects": [
+        "WingPaintRight",
+        "WingHubMarkRight"
+      ],
+      "gap_mm": 0.0,
+      "baseline_gap_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0,
+      "regressed": false
+    }
+  ],
+  "new_advanced_check_failures": [],
+  "contact_regressions": [],
+  "status": "geometry diagnostic pending final readback and rendering"
+}
