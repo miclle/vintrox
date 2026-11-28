@@ -422,3 +422,5 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 - v372 将第 60、90、180 帧的三个可追踪喷口端角偏差降到 5、1、1 px。第 60 帧整组历史采样最大偏差仍为屏宽的 8.42%。整圈平均 IoU 为 86.09527%，正式评审继续采用 v371。[局部测量与整圈比较](../cad/drone-concept/comparison/v372-nozzle-terminal-families/README.md)
 
 - v373 修正叶片附件编号解析，重新筛选 108 个对象。三个可追踪端角偏差均在投影屏宽的 2.44% 以内，整机平均和实体分割仍限制采用。[v373 记录](../cad/drone-concept/comparison/v373-petal-width/README.md)
+
+- v374 以铰链中心作精确切向缩放，108 件的轴向端点和实体数经保存读回核对。三个可追踪端角误差为 5、1、1 px，第 60 帧整组末缘仍达屏宽 8.42%。[固定相机与接合检查](../cad/drone-concept/comparison/v374-hinge-centred-width/README.md)

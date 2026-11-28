@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v374",
+      "model": "/private/tmp/vintrox-petal-37X.2coysJ/v374/checked/candidate.FCStd",
+      "fcstd_sha256": "4a17fc8ca50377893bad1f9b943ba2683536e21ba2fbf01930497e445f3030c8",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "4a17fc8ca50377893bad1f9b943ba2683536e21ba2fbf01930497e445f3030c8",
+      "palette_contract_sha256": "37a84561c5ecf9f7468d9b6aaf3ccaa49378b95a8ac71f5dfe9c26e49b7a3933",
+      "native_color_triples": 70,
+      "mesh_color_triples": 70,
+      "max_native_vs_mesh_channel_difference": 2.9685450542160652e-08,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v374-isometric.png",
+          "sha256": "eba80fe56b0b7e80973fbead58a20423ca4d2539275517f8e2af0f87a8d2382e"
+        },
+        {
+          "view": "front",
+          "path": "v374-front.png",
+          "sha256": "1da5a363f1721ae27b8ec2b18c6123dd26b8a6989102c3c2243444d165860cb5"
+        },
+        {
+          "view": "rear",
+          "path": "v374-rear.png",
+          "sha256": "ed409dbab9306009f736ae917afc1f9db140fc978301a78cf6cf59f2efd8ff18"
+        },
+        {
+          "view": "right",
+          "path": "v374-right.png",
+          "sha256": "0a4d5cc16ad4479f29bd57299ce263453557ff150301d0b2d6b4c06a1d242c39"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

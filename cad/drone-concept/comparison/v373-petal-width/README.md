@@ -16,3 +16,5 @@
 根部切割和切向变换后，FCStd 和 STEP 均读回 1026 个有效闭合实体，较 v372 多 157 个。部分对象在布尔运算后分成更多实体，本候选只作宽度研究。原生显示四方位中可见对象均为 696 个，70 种颜色与渲染网格对应。[逐件实体数变化](solid-changes.json) · [独立读回](independent.json) · [原生显示](native/native-display-verification.json)
 
 复建使用修正后的 `tools/experiment_drone_petal_contract.py`，向 `--base-model` 和 `--base-meshes` 传入 v372 保存模型及其网格，指定新的输出目录和 `--factor .96`。通过 `tools/restore_candidate_display.py` 恢复同源颜色后，从彩色 FCStd 导出验证网格与 STEP。
+
+复核显示 `transformShape` 对此非均匀矩阵产生了轴向缩放，v373 分数包含这项影响。铰链中心精确切向实验与逐件轴向测量见 [v374](../v374-hinge-centred-width/README.md)。
