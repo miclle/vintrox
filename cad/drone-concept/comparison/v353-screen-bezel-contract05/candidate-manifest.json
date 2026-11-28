@@ -1,0 +1,28 @@
+{
+  "revision": "v353-screen-bezel-contract05",
+  "baseline_revision": "v345-small-pod-y-minus1p0-cable",
+  "baseline_fcstd_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+  "fcstd_sha256": "2bfacff8bbcd2927c448245449aa8016025ce265f2441751db5f3478e7949794",
+  "step_sha256": "0d8046e644b3079e2eec03dfbc24e0ea910b26052aa8abea417b1f73aa1ccfac",
+  "visible_features": 696,
+  "step_solids": 853,
+  "expansion_per_side_mm": -0.5,
+  "visual_metrics": {
+    "video": 0.86225578137749,
+    "stills": 0.827299900331986,
+    "sheet": 0.8996563529774786
+  },
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+  "excluded_from_score": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "limitations": [
+    "90% whole-orbit target not reached",
+    "major-part 5% projection-screen-width target not established",
+    "flat screen retained; curved cover and hidden details remain appearance assumptions",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}
