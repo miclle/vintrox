@@ -1,0 +1,93 @@
+{
+  "revision": "vintrox-v363-lowerpod-chassis-combo-20261128b",
+  "baseline_fcstd_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+  "fcstd_sha256": "d0bdb7bbee83b15de274f952d76ed60a91080d6292bef46a7c0692271012bb61",
+  "changed_objects": [
+    "LowerPod_1",
+    "LowerPod_001",
+    "BottomChassis"
+  ],
+  "visible_features": 696,
+  "all_shapes_valid": true,
+  "all_shapes_closed": true,
+  "invalid_objects": [],
+  "records": [
+    {
+      "name": "LowerPod_1",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "LowerPod_001",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "baseline_errors": [],
+      "candidate_errors": []
+    },
+    {
+      "name": "BottomChassis",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "baseline_errors": [],
+      "candidate_errors": []
+    }
+  ],
+  "contacts": [
+    {
+      "objects": [
+        "BottomChassis",
+        "MainEnclosureShell"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 87235.98908248001
+    },
+    {
+      "objects": [
+        "BottomChassis",
+        "ClosedBellyPan"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 124838.18775655744
+    },
+    {
+      "objects": [
+        "BottomChassis",
+        "LowerPod_1"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 707.2649059705842
+    },
+    {
+      "objects": [
+        "BottomChassis",
+        "LowerPod_001"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 707.2654528730443
+    },
+    {
+      "objects": [
+        "BottomChassis",
+        "UnderbodyLoop0"
+      ],
+      "gap_mm": 2.0097183471152322e-14,
+      "overlap_mm3": 110.9601693306596
+    },
+    {
+      "objects": [
+        "BottomChassis",
+        "UnderbodyLoop1"
+      ],
+      "gap_mm": 1.0048591735576161e-14,
+      "overlap_mm3": 110.9603414016232
+    }
+  ],
+  "status": "screened; current research candidate; fixed-camera comparison complete",
+  "step_sha256": "2aa01dde9ce416572cbe4b0df6194e24fdda54b21f0f3a67d8961a8c80c979f9",
+  "display_fcstd_sha256": "2372bc6788487af2dc3de7e49eb6b34dfdfe7b835b523e0e44e9f466c948308b"
+}
