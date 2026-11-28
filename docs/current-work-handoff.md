@@ -1,8 +1,11 @@
 # VINTROX Drone 外观迭代交接
 
-目标仍在执行。当前发布基线为 `miclle/vintrox` 的 `main` 上的 v344 研究候选，采用普通 Git 交付。正式外观入口仍按评审记录保留 v339。[v339 正式记录](../cad/drone-concept/comparison/v339-small-pod-y-minus0p5/README.md) · [v259 基线](../cad/drone-concept/comparison/v259-rear-beacon-length/README.md)
+当前正式模型为 v375。视频十方位、静态七图和拼图十格的平均 IoU 分别为 86.26715%、82.72213%、90.00205%。FreeCAD 与 STEP 读回均有 869 个有效闭合实体，原生窗口已核对 696 个可见对象和 70 种颜色。正式 CAD 和预览可用普通 Git 检出。[v375 正式记录](../cad/drone-concept/comparison/v375-screen-eye-profiles/README.md)
 
-## 当前证据
+v376 复测了右翼顶端。第 210 帧上部两处翼缘各外移 4 px，第 180 帧翼根的历史采样峰值仍为投影屏宽的 5.29%。静态第 05、06 图 IoU 下降，保留为试验。喷口及后侧轮廓仍需跨视角核对。[v376 试验](../cad/drone-concept/comparison/v376-upper-wing-tip/README.md)
+
+## 早期迭代记录
+
 - v346 屏框每侧内收 0.5 mm 候选已筛除。静态七图升至 82.7300%，视频和拼图降至 86.2256% 与 89.9656%。未采用，候选 CAD/STEP、网格和渲染大文件已清理，仅保留轻量摘要。
 - v345 在 v344 上将两侧小喷口追加对称 Y−0.25 mm，累计为 Y−1.0 mm，并保留 v321 卷线。视频、静态图和拼图均值为 86.2414%、82.7168% 和 89.9820%，均较 v344 提高，仍未达到 90%。FCStd/STEP 与保存 GUI 颜色/可见性检查通过，正式入口尚未切换。
 
