@@ -1,0 +1,62 @@
+{
+  "revision": "v350-front-cheek-contract0995",
+  "baseline_fcstd_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+  "candidate_geometry_fcstd_sha256": "72e71c4dfeb66aa93330ed66bb5ed9b0371c5fe332f549a828d39e00cb8f1412",
+  "candidate_display_fcstd_sha256": "a5a5757cff1b31163bdcfe507ace4f06603dca18faf16bcf3ef012e91069b3ae",
+  "step_sha256": "0162d7d25a84393faceeab9746c49a728041713d098e7f646949cebb170717e1",
+  "scale": 0.995,
+  "changed_objects": [
+    "FrontCheekLeft",
+    "FrontCheekRight",
+    "FrontCheekBridgeLeft",
+    "FrontCheekBridgeRight"
+  ],
+  "visual_metrics": {
+    "video": 0.8623680478136974,
+    "stills": 0.8271681094943234,
+    "sheet": 0.8998223985295528
+  },
+  "baseline_metrics": {
+    "video": 0.8624142802957346,
+    "stills": 0.8271681094943234,
+    "sheet": 0.8998197827854313
+  },
+  "readback": {
+    "fcstd_visible_objects": 696,
+    "fcstd_solids": 853,
+    "fcstd_valid": true,
+    "step_solids": 853,
+    "step_valid": true,
+    "volume_relative_error": 5.371697618474508e-07,
+    "fcstd_sha256": "a5a5757cff1b31163bdcfe507ace4f06603dca18faf16bcf3ef012e91069b3ae",
+    "candidate_geometry_fcstd_sha256": "72e71c4dfeb66aa93330ed66bb5ed9b0371c5fe332f549a828d39e00cb8f1412",
+    "step_sha256": "0162d7d25a84393faceeab9746c49a728041713d098e7f646949cebb170717e1",
+    "screen_input_preserved": [
+      "ScreenPanel210x160x2",
+      "ActiveArea200x150"
+    ],
+    "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+    "limitations": [
+      "candidate rejected because video mean regressed against v345",
+      "90% whole-orbit target not reached",
+      "major-part 5% projection-screen-width target not established",
+      "flat screen retained; curved cover and hidden details remain appearance assumptions",
+      "no manufacturing or physical acceptance"
+    ]
+  },
+  "display_restore": {
+    "status": "display-copy-restored; native GUI visual check pending",
+    "source_model_sha256": "72e71c4dfeb66aa93330ed66bb5ed9b0371c5fe332f549a828d39e00cb8f1412",
+    "display_model_sha256": "a5a5757cff1b31163bdcfe507ace4f06603dca18faf16bcf3ef012e91069b3ae",
+    "appearance_source_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+    "copied_gui_members": 2095,
+    "non_gui_members_changed": [],
+    "document_xml_and_brep_bytes_unchanged": true,
+    "display_model": "candidate-display.FCStd",
+    "limitations": [
+      "saved appearance payload verification; not a native GUI screenshot or physical validation"
+    ]
+  },
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "decision": "reject; video mean regressed against v345"
+}
