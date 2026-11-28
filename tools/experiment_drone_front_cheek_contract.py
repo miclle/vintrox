@@ -54,8 +54,8 @@ def main() -> None:
     p.add_argument("--scale", type=float, required=True)
     p.add_argument("--revision", required=True)
     args = p.parse_args()
-    if not 0.95 <= args.scale < 1.0:
-        raise ValueError("scale must be in [0.95, 1)")
+    if not 0.95 <= args.scale <= 1.05 or args.scale == 1.0:
+        raise ValueError("scale must be in [0.95, 1.05], excluding 1")
     if args.output.exists() and any(args.output.iterdir()):
         raise ValueError("output must be empty")
     mesh = json.loads(args.base_mesh.read_text(encoding="utf-8"))

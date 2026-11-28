@@ -1,0 +1,28 @@
+{
+  "revision": "v357-front-cheek-expand1005",
+  "baseline_revision": "v345-small-pod-y-minus1p0-cable",
+  "baseline_fcstd_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+  "fcstd_sha256": "46b70aabe993110ff550a86f2dd3eb76fd7ad4123becac4e13854ad270dd3a8d",
+  "step_sha256": "3384a851f29003883accb1c32ffc1d5d8010d6fa82e59416aae64321d3f19623",
+  "visible_features": 696,
+  "step_solids": 853,
+  "scale": 1.005,
+  "visual_metrics": {
+    "video": 0.8624577971945854,
+    "stills": 0.8271681094943234,
+    "sheet": 0.8998219409752337
+  },
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+  "excluded_from_score": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "limitations": [
+    "90% whole-orbit target not reached",
+    "major-part 5% projection-screen-width target not established",
+    "flat screen retained; curved cover and hidden details remain appearance assumptions",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}
