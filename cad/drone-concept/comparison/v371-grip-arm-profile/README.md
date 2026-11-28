@@ -16,4 +16,4 @@
 
 正式网格从保存模型与概念清单重建，使用清单中的喷口文字位置、大小和方向。视频十方位、静态七图、拼图十格的平均 IoU 分别为 86.26715%、82.72213%、90.00205%。上表保留筛选阶段使用渲染器默认文字位置的结果。四根支柱和实测平面屏已通过正式几何检查，隐藏部分与曲面屏罩仍属外观推导。[完整读回](readback-verification.json) · [视频](video-comparison/comparison-report.json) · [静态](stills-comparison/comparison-report.json) · [拼图](sheet-comparison/comparison-report.json)
 
-直接检出 [FCStd](candidate.FCStd) 和 [STEP](candidate.step) 即可获得本次验证的文件。FCStd 的 SHA-256 为 `cd42c6185d80546b6c53465b4071bc7c14afd941644f92734fbfc1c21f327900`。按参数重建时，复制 [v370 脚本](../v370-grip-end-cuffs/build.py)，应用本目录的截面裁切差异，并传入 v369 FCStd 和新的输出路径。
+[FCStd](candidate.FCStd) 作为 v375 的复建输入保留。旧 STEP 已清理，独立读回结果见本目录的验证记录。FCStd 的 SHA-256 为 `cd42c6185d80546b6c53465b4071bc7c14afd941644f92734fbfc1c21f327900`。按参数重建时，复制 [v370 脚本](../v370-grip-end-cuffs/build.py)，应用本目录的截面裁切差异，并传入 v369 FCStd 和新的输出路径。
