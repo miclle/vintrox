@@ -9,3 +9,5 @@ v371 的眼睛在正面参考帧中偏高、偏窄。v375 保留左右中心 X =
 在 FreeCAD Python 环境向本目录的 build.py 依次传入 v371 FCStd 和新输出路径。眼部局部测量调用 tools/compare_drone_expression.py 的 mask、metrics，逐项使用 v72 对应视角的 roi_px。
 
 本版采用为正式评审模型。[FCStd](candidate.FCStd) · [STEP](candidate.step) · [完整读回](readback-verification.json)
+
+三方位前罩端部复测中，外罩采样最大偏差分别为投影屏宽的 1.17%、4.69%、4.26%，同处内衬分别为 1.42%、3.60%、2.01%。右侧翼在第 210 帧为 7.65%，喷口末缘在第 180 帧的历史标注为 21.94%。这些测量覆盖已标注边缘，逐点数据绑定正式 v375 的参考图、相机、对象 ID 与模型哈希。[各部件边缘近景](visible-components.jpg) · [17 组采样](visible-components.json)
