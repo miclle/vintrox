@@ -491,3 +491,9 @@ v91 的 FCStd/STEP 保存读回、698 个有效闭合形体、696 个渲染网�
 以当前探索候选 v90 为基线完成三组独立真实 CAD 探针。v92 仅将 `ScreenBezel`、`BezelLip` 每边收缩 1 mm，视频／静态平均 IoU 为 `0.855575251720`／`0.823531732513`；v93 每边收缩 0.5 mm，视频／静态为 `0.855711819111`／`0.823577275736`。两者静态略有上升，但视频整圈均退步，均未采用。v94 仅复制 v84 的 36 件 `LowerPodRib`，视频／静态为 `0.855779489806`／`0.823405996778`，两项均低于 v90，也未采用。
 
 三组均保持实测平面屏、可视区、四根支柱、外挂筒、屏幕侧控件和格栅，保存读回和颜色网格合同通过；候选 GUI 外观成员继承 v90，未执行新的 v92/v93/v94 原生截图审计。完整证据见 [v92](../cad/drone-concept/comparison/v92-bezel-contract1mm/README.md)、[v93](../cad/drone-concept/comparison/v93-bezel-contract0p5mm/README.md)、[v94](../cad/drone-concept/comparison/v94-podribs-v90/README.md)。正式入口 v61、研究优选 v69、当前探索候选 v90 均保持，90% 整机轮廓和主要部件 5% 投影目标仍未完成。
+
+## v352 小喷口肋切向 0.995 倍筛选（2026-11-28）
+
+v352 以 v345 为基线，只对 36 个 `LowerPodRib` 保存真实 CAD 实体在各自局部肋框架内做切向 `0.995` 倍缩放，根部、末端站位、屏幕、四根支柱、外挂筒、屏幕侧控件和格栅保持。固定视频十方位／静态七图／拼图十格平均轮廓 IoU 为 **86.2415751%／82.7172183%／89.9813922%**。视频和静态略升，拼图略降，三组未形成一致改善，因此 v352 筛除，当前研究候选继续保持 v345。
+
+筛选包只保留 [摘要](../cad/drone-concept/comparison/v352-small-pod-rib-tangent0995/README.md)、[候选检查](../cad/drone-concept/comparison/v352-small-pod-rib-tangent0995/candidate-check.json)、[显示恢复](../cad/drone-concept/comparison/v352-small-pod-rib-tangent0995/display-restore.json)、[独立读回](../cad/drone-concept/comparison/v352-small-pod-rib-tangent0995/readback-verification.json) 与固定相机报告。候选使用真实 CAD、固定相机和透明叠加，没有图像变形、逐件配准或省略可见零件。独立读回确认 698 个对象、696 个可见对象、853 个 STEP 有效闭合实体和保护支柱一致，颜色与可见性载荷从 v345 恢复。90% 整圈与主要部件投影屏宽 5% 目标仍未达成，平面屏、曲面罩和不可观察细节限制继续有效。

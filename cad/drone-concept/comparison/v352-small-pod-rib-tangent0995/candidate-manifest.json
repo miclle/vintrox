@@ -1,0 +1,27 @@
+{
+  "revision": "v352-small-pod-rib-tangent0995",
+  "baseline_revision": "v345-small-pod-y-minus1p0-cable",
+  "baseline_fcstd_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+  "fcstd_sha256": "e7b18c54bd3f87f09a6ae5f8da667ba4b846f201eef4249cbd7758adc0e7d407",
+  "step_sha256": "fc7f3e8c1a1f3056840c967d48c88ebb9f943c07c0b6f9e4461c533515ed0735",
+  "visible_features": 696,
+  "step_solids": 853,
+  "visual_metrics": {
+    "video": 0.8624157506304913,
+    "stills": 0.8271721833075361,
+    "sheet": 0.8998139217949678
+  },
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+  "excluded_from_score": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "limitations": [
+    "90% whole-orbit target not reached",
+    "major-part 5% projection-screen-width target not established",
+    "flat screen retained; curved cover and hidden details remain appearance assumptions",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}
