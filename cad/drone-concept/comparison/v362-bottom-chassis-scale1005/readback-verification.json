@@ -1,0 +1,59 @@
+{
+  "status": "independent FCStd and STEP check",
+  "fcstd_sha256": "13289b6def126a198b0a9d8df4dcd2d0c921d383355f59799294333c75cabc7e",
+  "step_sha256": "69d532aa75a567f96ccae0727781506cea45d447e467400f44ad6d9f5c7fe223",
+  "visible_features": 696,
+  "valid_shapes": true,
+  "closed_shapes": true,
+  "invalid_objects": [],
+  "bottom_chassis_joints": [
+    {
+      "objects": [
+        "BottomChassis",
+        "MainEnclosureShell"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 88112.7668980839
+    },
+    {
+      "objects": [
+        "BottomChassis",
+        "ClosedBellyPan"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 124838.18775655745
+    },
+    {
+      "objects": [
+        "BottomChassis",
+        "LowerPod_1"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 710.7891463761696
+    },
+    {
+      "objects": [
+        "BottomChassis",
+        "LowerPod_001"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 710.7895760164372
+    },
+    {
+      "objects": [
+        "BottomChassis",
+        "UnderbodyLoop0"
+      ],
+      "gap_mm": 0.0,
+      "overlap_mm3": 110.96034131813889
+    },
+    {
+      "objects": [
+        "BottomChassis",
+        "UnderbodyLoop1"
+      ],
+      "gap_mm": 1.5888218580782548e-14,
+      "overlap_mm3": 110.96031392928016
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "revision": "v362-bottom-chassis-scale1005",
+  "baseline_revision": "v345-small-pod-y-minus1p0-cable",
+  "baseline_fcstd_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+  "source_candidate_fcstd_sha256": "831be069616ad14407d71aedd4494aaca4d2920459361aa17bfd2fdc1281109a",
+  "fcstd_sha256": "13289b6def126a198b0a9d8df4dcd2d0c921d383355f59799294333c75cabc7e",
+  "step_sha256": "69d532aa75a567f96ccae0727781506cea45d447e467400f44ad6d9f5c7fe223",
+  "changed_objects": [
+    "BottomChassis"
+  ],
+  "y_scale": 1.005,
+  "fixed_y_min_mm": 11.25,
+  "visible_features": 696,
+  "step_solids": 853,
+  "visual_metrics": {
+    "video": 0.8624113254815675,
+    "stills": 0.8271667325281907,
+    "sheet": 0.8998174436892526
+  },
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+  "excluded_from_score": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "limitations": [
+    "90% whole-orbit target not reached",
+    "major-part 5% projection-screen-width target not established",
+    "flat screen retained; curved reference screen and hidden details remain appearance assumptions",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}

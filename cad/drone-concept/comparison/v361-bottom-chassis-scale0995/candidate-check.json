@@ -1,0 +1,34 @@
+{
+  "revision": "v361-bottom-chassis-scale0995",
+  "baseline_revision": "v345-small-pod-y-minus1p0-cable",
+  "baseline_fcstd_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+  "source_candidate_fcstd_sha256": "a05ff8c02a4aa31dff8fa248f8df3c3e33a40e43d578829e4dba7fcf1d6a90ba",
+  "fcstd_sha256": "19cddd60e4632adc8743418676a6049406f71777148d46de64c0706db4678081",
+  "step_sha256": "fd0e4f451846c0d855a289dcbc3264fceb8033b0d1aede13d80efe3961529ddc",
+  "changed_objects": [
+    "BottomChassis"
+  ],
+  "y_scale": 0.995,
+  "fixed_y_min_mm": 11.25,
+  "visible_features": 696,
+  "step_solids": 853,
+  "visual_metrics": {
+    "video": 0.862427076937738,
+    "stills": 0.8271726635839546,
+    "sheet": 0.8998239042574063
+  },
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+  "excluded_from_score": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "status": "research candidate retained",
+  "limitations": [
+    "90% whole-orbit target not reached",
+    "major-part 5% projection-screen-width target not established",
+    "flat screen retained; curved reference screen and hidden details remain appearance assumptions",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}
