@@ -1,0 +1,40 @@
+{
+  "revision": "v359-lower-pod-shell-contract0995",
+  "status": "saved LowerPod shell candidate; fixed-camera comparison pending",
+  "baseline_fcstd_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+  "fcstd_sha256": "c45de07e7460cdd93f97aeeb8db9a07e76d55a9a27b85a8104a2fa8a1034eecc",
+  "scale": 0.995,
+  "changed_objects": [
+    "LowerPod_1",
+    "LowerPod_001"
+  ],
+  "fixed_z_stations": true,
+  "records": [
+    {
+      "name": "LowerPod_1",
+      "baseline_errors": [],
+      "candidate_errors": [],
+      "baseline_volume_mm3": 21459.763625722502,
+      "candidate_volume_mm3": 21245.70245586148
+    },
+    {
+      "name": "LowerPod_001",
+      "baseline_errors": [],
+      "candidate_errors": [],
+      "baseline_volume_mm3": 21459.763625722517,
+      "candidate_volume_mm3": 21245.7024558615
+    }
+  ],
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment, or omitted visible parts",
+  "limitations": [
+    "radial shell transform is an appearance hypothesis",
+    "flat measured screen retained; curved reference screen remains an assumption",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ],
+  "visual_metrics": {
+    "video": 0.8624257825050716,
+    "stills": 0.8271711476538527,
+    "sheet": 0.8998212970498576
+  },
+  "step_sha256": "2618f91364cfb5d8431be47b3ebb8a3e76203f5aca8e1688abc5410fc21b7cea"
+}
