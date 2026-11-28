@@ -17,3 +17,5 @@ python3 cad/drone-concept/comparison/v368-petal-terminal-pairs/build.py "$resear
 ```
 
 重建的 SHA-256 为 `dc9f0c26b1e49efd9337497600ed6dc4aec52f808b83588c28e05bc70ae89695`。归档成员逐项核对，并以 FreeCAD 核对 24 个形体与来源的几何签名和高级检查结果。FCStd 读回 696 个可见对象，FCStd 与 STEP 各有 853 个有效闭合实体，体积相对误差约 5.20 × 10⁻⁷。本轮颜色核对覆盖保存的显示数据和彩色渲染，尚未单独核对 v368 原生窗口。[几何检查](source-check.json) · [独立读回](independent.json)
+
+十个视频方位合计新增 10,461 个 CAD 前景像素，7,652 个落在参考遮罩之外。其中 7,254 个在原参考帧中的最大 RGB 通道为 1–18。暗部亮度分割会影响整机得分，这些像素是否对应实物边缘仍需沿连续帧判断。本次使用原阈值和完整视角计算。[逐帧像素变化](mask-deltas.json)
