@@ -563,3 +563,7 @@ v352 以 v345 为基线，只对 36 个 `LowerPodRib` 保存真实 CAD 实体在
 ## v369 红翼内侧斜纹
 
 第 150 帧定位的两条内侧翼纹在另一方位（第 180 帧）也能看到。CAD 条纹偏亮，凸脊处仍有局部突角。保存为局部候选，正式交付为 v339，整机轮廓研究继续以 v363 为基线。[近景、固定相机比较与读回](../cad/drone-concept/comparison/v369-inner-wing-stripes/README.md)
+
+## v370 握把端箍
+
+对称重建端箍后，第 120 帧两端的上缘平均偏差均小于 1 px。第 180 帧仍可见提手臂与端箍间的折线，保留为局部候选。[三方位近景与几何读回](../cad/drone-concept/comparison/v370-grip-end-cuffs/README.md)

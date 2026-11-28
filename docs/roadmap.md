@@ -412,3 +412,5 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 - v368 在 v363 上组合两对经参考出口环调整的大喷口叶片。第 60、180 帧可见末缘最大采样偏差约减半，分别为屏宽的 10.24% 和 10.03%。视频十方位平均 IoU 为 86.1378%。保留候选用于局部研究，整机基线继续采用 v363。[逐点测量与复建](../cad/drone-concept/comparison/v368-petal-terminal-pairs/README.md)
 
 - v369 补入红翼内侧两条斜纹，并从未用于定位的第 180 帧核对。视频十方位平均 IoU 为 86.24539%，主要部件偏差和整圈目标仍待达到。[v369 研究记录](../cad/drone-concept/comparison/v369-inner-wing-stripes/README.md)
+
+- v370 验证握把端箍连续上缘。正后方与第 150 帧改善，第 180 帧端箍轮廓仍待调整。视频十方位平均 IoU 为 86.22357%。[阶段记录](../cad/drone-concept/comparison/v370-grip-end-cuffs/README.md)
