@@ -36,14 +36,32 @@ def gold_wing_rear_parts(inset, curved_plate, front_offsets=None):
             parts[name] = fold_parts[name]
     return parts
 
-def gold_wing_fold_parts(wing=WING_OUTLINE):
+def gold_wing_fold_parts(wing=WING_OUTLINE, *, crease_corner=None):
     original=WING_CREASE;crease=[list(p) for p in original]
     for i,d in zip([2,3,4],GOLD_WING_CREASE_OFFSETS):crease[i][0]+=d
+    if crease_corner is not None:
+        crease[2] = list(crease_corner)
     m=A.Matrix();m.A11=.817;m.A22=1.12;m.A33=1.01;m.A24=33;m.A34=-8.8;m.A13=-.04;m.A14=6
     def plate(points,x,thickness,rim=0,centre=None):
      cy,cz=centre or (sum(p[0] for p in points)/len(points),sum(p[1] for p in points)/len(points))
      def section(depth,scale=1):
-      pts=[A.Vector(x+depth,cy+(y-cy)*scale,cz+(z-cz)*scale) for y,z in points];tangent=pts[14]-pts[12];tangent.normalize();front=Part.BSplineCurve();front.interpolate(pts[:14],InitialTangent=pts[1]-pts[0],FinalTangent=tangent);rear=Part.BSplineCurve();rear.interpolate(pts[13:],InitialTangent=tangent,FinalTangent=pts[-1]-pts[-2]);wire=Part.Wire([front.toShape(),rear.toShape(),Part.makeLine(pts[-1],pts[0])]);return Part.Wire(wire.transformGeometry(m).Edges)
+      pts = [A.Vector(x + depth, cy + (y - cy) * scale, cz + (z - cz) * scale)
+             for y, z in points]
+      tangent = pts[14] - pts[12]
+      tangent.normalize()
+      front = Part.BSplineCurve()
+      front.interpolate(pts[:14], InitialTangent=pts[1]-pts[0], FinalTangent=tangent)
+      rear = Part.BSplineCurve()
+      if crease_corner is None:
+       rear.interpolate(pts[13:], InitialTangent=tangent, FinalTangent=pts[-1]-pts[-2])
+       edges = [front.toShape(), rear.toShape()]
+      else:
+       lower = Part.BSplineCurve()
+       lower.interpolate(pts[13:16], InitialTangent=tangent, FinalTangent=pts[15]-pts[14])
+       rear.interpolate(pts[15:], InitialTangent=pts[16]-pts[15], FinalTangent=pts[-1]-pts[-2])
+       edges = [front.toShape(), lower.toShape(), rear.toShape()]
+      wire = Part.Wire(edges + [Part.makeLine(pts[-1], pts[0])])
+      return Part.Wire(wire.transformGeometry(m).Edges)
      if rim:
       span=min(max(p[i] for p in points)-min(p[i] for p in points) for i in [0,1]);scale=1-2*rim/span
       return Part.makeLoft([section(0,scale),section(thickness*.25),section(thickness*.7),section(thickness,scale)],True,True)
@@ -55,7 +73,7 @@ def gold_wing_fold_parts(wing=WING_OUTLINE):
       if z0<=z<=z1:return y0+(y1-y0)*(z-z0)/(z1-z0)
      raise ValueError(z)
     sections=[]
-    for z in [174.4,193.27,224.39,248.67,286.7,335.21]:
+    for z in [174.4,193.27,crease[2][1],248.67,286.7,335.21]:
      front=boundary_y(crease,z);rear=boundary_y(wing[13:]+[wing[0]],z);vertices=[m.multVec(A.Vector(x,y,z)) for x,y in [(167,front),(169.5,front),(168,rear),(167,rear)]];sections.append(Part.makePolygon(vertices+[vertices[0]]))
     parts['WingFoldFacetRight']=Part.makeLoft(sections,True,True)
     return parts

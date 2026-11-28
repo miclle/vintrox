@@ -446,3 +446,4 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 - v388 采用可连续追踪的喷口端角和较短的叶片根部搭片。第 180 帧整组末缘峰值由 21.94% 降至 5.01%，十方位整机均值回落至 86.09559%。[模型、读回与对照](../cad/drone-concept/comparison/v388-tracked-nozzle-assembly/README.md)
 
 - v389 的金色右翼下缘在第 180 帧进入 5% 范围，第 210 帧偏差增大。[跨视角比较](../cad/drone-concept/comparison/v389-lower-wing-contour/README.md)
+- v390 根据相邻七帧区分了金色右翼外缘和翼面折线。两处视频视角的局部折线更接近参考，独立静态图仍有偏差。[折线候选与复测](../cad/drone-concept/comparison/v390-gold-wing-crease/README.md)
