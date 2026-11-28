@@ -129,12 +129,12 @@
     {
       "name": "UnderbodyLoop0",
       "end_centre_mm": [
-        -44.500000005293955,
+        -44.50000000529396,
         72.79999999995223,
         57.00000000021898
       ],
       "probe_radius_mm": 12,
-      "body_overlap_mm3": 16.79075674097872
+      "body_overlap_mm3": 16.790756740978733
     },
     {
       "name": "UnderbodyLoop0",
@@ -149,22 +149,22 @@
     {
       "name": "UnderbodyLoop1",
       "end_centre_mm": [
-        44.499999994705966,
+        44.49999999470597,
         72.80000000004776,
         56.99999999978102
       ],
       "probe_radius_mm": 12,
-      "body_overlap_mm3": 16.790776858959525
+      "body_overlap_mm3": 16.790776858959727
     },
     {
       "name": "UnderbodyLoop1",
       "end_centre_mm": [
-        44.499999994740634,
-        126.6000000000072,
+        44.49999999474064,
+        126.60000000000721,
         56.99999999935463
       ],
       "probe_radius_mm": 12,
-      "body_overlap_mm3": 16.545787541425824
+      "body_overlap_mm3": 16.545787541425803
     }
   ],
   "nozzle_loft_surface_count": 2,
@@ -199,7 +199,7 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        3.552713678800501e-15,
         0.0
       ],
       "root_roll_overlap_mm3": 4.074834456104464
@@ -209,7 +209,7 @@
       "detail_gaps_mm": [
         0.0,
         8.881784197001252e-16,
-        3.552713678800501e-15,
+        0.0,
         0.0,
         0.0
       ],
@@ -218,7 +218,7 @@
     {
       "petal": 3,
       "detail_gaps_mm": [
-        1.4210854715202004e-14,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -268,7 +268,7 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.042195872520026
+      "root_roll_overlap_mm3": 17.04219587252001
     },
     {
       "petal": 8,
@@ -538,7 +538,7 @@
       ]
     }
   },
-  "step_relative_volume_error": 5.163968130676695e-07,
+  "step_relative_volume_error": 5.164068919137501e-07,
   "step_volume_basis": "sum of individually integrated solid volumes",
   "step_bbox_max_delta_mm": 5.8903992794512305e-12,
   "bbox_mm": [
@@ -546,6 +546,6 @@
     378.9074930138823,
     496.3425161547856
   ],
-  "fcstd_sha256": "36572fef432ceb59510ebadd6d539bf8b29fb349aaf4efb16a2c3bfcd857d041",
-  "step_sha256": "689a4d1f9a5e3f20975d8e7cae2b488698b0ef54daa890a1b457fc2c8e2b00a5"
+  "fcstd_sha256": "c5e60c16a8e25c87b219048d0f037c93f4104b9f2e5544c17c31d29f0ffe249f",
+  "step_sha256": "fd6628d923282c7af0fec00a17ae7ec30b056ec4f5e2bbcc41a9ca6ce76aca21"
 }

@@ -1,6 +1,6 @@
 # VINTROX Drone 外观迭代交接
 
-当前正式模型为 v382。视频十方位、静态七图和拼图十格的平均 IoU 分别为 86.26720%、82.72225%、90.00226%。FreeCAD 与 STEP 读回均有 869 个有效闭合实体，原生窗口已核对 696 个可见对象和 71 种颜色。正式 CAD 和预览可用普通 Git 检出。[v382 正式记录](../cad/drone-concept/comparison/v382-segmented-direction-pad/README.md)
+当前正式模型为 v384。视频十方位、静态七图和拼图十格的平均 IoU 分别为 86.26723%、82.72225%、90.00226%。FreeCAD 与 STEP 读回均有 869 个有效闭合实体，原生窗口已核对 696 个可见对象和 71 种颜色。正式 CAD 和预览可用普通 Git 检出。[v384 正式记录](../cad/drone-concept/comparison/v384-fluted-side-knob/README.md)
 
 v376 复测了右翼顶端。第 210 帧上部两处翼缘各外移 4 px，第 180 帧翼根的历史采样峰值仍为投影屏宽的 5.29%。静态第 05、06 图 IoU 下降，保留为试验。喷口及后侧轮廓仍需跨视角核对。[v376 试验](../cad/drone-concept/comparison/v376-upper-wing-tip/README.md)
 

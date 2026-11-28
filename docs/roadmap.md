@@ -434,3 +434,5 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 - v382 在左侧方向盘增加四条斜槽与中心环槽，保存模型及 STEP 均通过独立读回。[三方位局部对照](../cad/drone-concept/comparison/v382-segmented-direction-pad/dial.jpg)
 
 - v383 按连续视频轨迹调整喷口末缘，七个标注视角均改善。三组整机轮廓均值下降，正式模型继续采用 v382。[末缘偏差和三方位近景](../cad/drone-concept/comparison/v383-tracked-rim-splice/README.md)
+
+- v384 为右侧锥形旋钮增加轴向沟纹，完成四个视频方位的局部对照及 FCStd、STEP 独立读回。[参考与正式模型](../cad/drone-concept/comparison/v384-fluted-side-knob/README.md)

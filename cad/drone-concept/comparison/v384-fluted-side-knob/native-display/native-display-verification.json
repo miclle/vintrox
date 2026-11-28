@@ -1,0 +1,57 @@
+{
+  "status": "native-open-and-view-capture-completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "macro_sha256": "bdf7c971a7b359f498f859bf1bfc20604b9c8800962ef7334ef6900efb8a838d",
+  "models": [
+    {
+      "name": "v384",
+      "model": "/private/tmp/vintrox-shell-profile.Kt7Bjn/knob-display.FCStd",
+      "fcstd_sha256": "c5e60c16a8e25c87b219048d0f037c93f4104b9f2e5544c17c31d29f0ffe249f",
+      "visible_objects": 696,
+      "mesh_fcstd_sha256": "c5e60c16a8e25c87b219048d0f037c93f4104b9f2e5544c17c31d29f0ffe249f",
+      "palette_contract_sha256": "cc3b0052d33b99e30430dd50498c8279169cfd5a143cd984b7feec4a10036d21",
+      "native_color_triples": 71,
+      "mesh_color_triples": 71,
+      "max_native_vs_mesh_channel_difference": 2.9685450542160652e-08,
+      "native_visibility_equals_mesh": true,
+      "views": [
+        {
+          "view": "isometric",
+          "path": "v384-isometric.png",
+          "sha256": "9f7ef0e2870af9ae88d8239c2988af97f1d4d37f2ae91974077e54b25c6b771f"
+        },
+        {
+          "view": "front",
+          "path": "v384-front.png",
+          "sha256": "d58c661c4142a3b12f081cfa6c3266ed4c1d5d7c2c7820b15e130ac28c1ae251"
+        },
+        {
+          "view": "rear",
+          "path": "v384-rear.png",
+          "sha256": "67fc3ad3a32d724e47b4c4728560113872602fc45ef397496bd89fa7e8097919"
+        },
+        {
+          "view": "right",
+          "path": "v384-right.png",
+          "sha256": "62cb91c8fe544170ca446d21abc8bb0e3d14cbf60e16bbf61950f1a6c8c4ec33"
+        }
+      ],
+      "file_unchanged_after_native_close": true
+    }
+  ],
+  "limitations": [
+    "screenshots require visual review",
+    "views do not expose every hidden face",
+    "native GUI uses 8-bit saved colors; mesh palette uses floats",
+    "no physical, optical, manufacturing or assembly acceptance"
+  ]
+}

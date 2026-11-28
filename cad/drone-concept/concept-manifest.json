@@ -1,5 +1,5 @@
 {
-  "revision": "v382-segmented-direction-pad",
+  "revision": "v384-fluted-side-knob",
   "front_cheek_x_scale": 0.995,
   "front_brow_x_scale": 0.985,
   "nozzle_petal_comparison_scale": 0.96,
@@ -93,7 +93,7 @@
   },
   "tree_structure": "flat",
   "group_count": 0,
-  "status": "v382 appearance review; segmented left direction pad",
+  "status": "v384 appearance review; fluted right knob",
   "physical_tests": false,
   "screen_panel_mm": [
     210,
@@ -168,7 +168,7 @@
     316.22196846545813,
     396.3425161547856
   ],
-  "fcstd_sha256": "36572fef432ceb59510ebadd6d539bf8b29fb349aaf4efb16a2c3bfcd857d041",
+  "fcstd_sha256": "c5e60c16a8e25c87b219048d0f037c93f4104b9f2e5544c17c31d29f0ffe249f",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4360,7 +4360,7 @@
     }
   ],
   "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
-  "step_sha256": "689a4d1f9a5e3f20975d8e7cae2b488698b0ef54daa890a1b457fc2c8e2b00a5",
+  "step_sha256": "fd6628d923282c7af0fec00a17ae7ec30b056ec4f5e2bbcc41a9ca6ce76aca21",
   "gold_wing_rear_inset_local_mm": 5,
   "gold_wing_rear_station_weights": {
     "17": 0.2,
@@ -4975,6 +4975,15 @@
       "annular_recess_radii_mm": [
         8,
         10.3
+      ]
+    },
+    "v384": {
+      "object": "CheekKnobRight",
+      "groove_count": 36,
+      "depth_mm": 0.55,
+      "axial_interval_mm": [
+        0.4,
+        11.5
       ]
     }
   },
