@@ -432,3 +432,5 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 - v381 将五个表情对象调整为深绿色，九个参考裁切区的 RGB 中位色差均下降。正式 CAD 使用可读回的保存色板，几何与 v375 相同。[颜色核对与固定相机比较](../cad/drone-concept/comparison/v381-screen-ink/README.md)
 
 - v382 在左侧方向盘增加四条斜槽与中心环槽，保存模型及 STEP 均通过独立读回。[三方位局部对照](../cad/drone-concept/comparison/v382-segmented-direction-pad/dial.jpg)
+
+- v383 按连续视频轨迹调整喷口末缘，七个标注视角均改善。三组整机轮廓均值下降，正式模型继续采用 v382。[末缘偏差和三方位近景](../cad/drone-concept/comparison/v383-tracked-rim-splice/README.md)
