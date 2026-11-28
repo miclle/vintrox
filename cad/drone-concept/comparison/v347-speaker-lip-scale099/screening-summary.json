@@ -1,0 +1,71 @@
+{
+  "revision": "v347-speaker-lip-scale099",
+  "baseline_fcstd_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+  "fcstd_sha256": "20b033b247c6c37be9ed31467c2fe82d97c751560db4317fbc938e4a9f7ab4f2",
+  "step_sha256": "3b8a5db7e184093589c2eddd8761e1179717c769439b20014648a712b80d62af",
+  "scale": 0.99,
+  "mode": "lip",
+  "changed_objects": [
+    "SpeakerOuterLipLeft",
+    "SpeakerLipTrimLeft",
+    "SpeakerOuterLipRight",
+    "SpeakerLipTrimRight"
+  ],
+  "visible_features": 696,
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+  "visual_metrics": {
+    "video": 0.8624204064668985,
+    "stills": 0.8271680887774471,
+    "sheet": 0.8998225825825816
+  },
+  "baseline_metrics": {
+    "video": 0.8624142802957346,
+    "stills": 0.8271681094943234,
+    "sheet": 0.8998197827854313
+  },
+  "decision": "reject; static mean regressed and three-group improvement was not consistent",
+  "builder_script_sha256": "05802e3acfd1e402a7a9c0c8d4786e26749f6d0e4779e085f2325e0f10565374",
+  "readback": {
+    "fcstd_visible_objects": 696,
+    "fcstd_shape_objects": 696,
+    "fcstd_solids": 853,
+    "fcstd_valid": true,
+    "step_solids": 853,
+    "step_valid": true,
+    "volume_relative_error": 5.372690723437382e-07,
+    "fcstd_sha256": "20b033b247c6c37be9ed31467c2fe82d97c751560db4317fbc938e4a9f7ab4f2",
+    "step_sha256": "3b8a5db7e184093589c2eddd8761e1179717c769439b20014648a712b80d62af",
+    "screen_input_preserved": [
+      "ScreenPanel210x160x2",
+      "ActiveArea200x150"
+    ],
+    "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+    "limitations": [
+      "candidate rejected because static and video/sheet three-group improvement was not consistent",
+      "90% whole-orbit target not reached",
+      "major-part 5% projection-screen-width target not established",
+      "flat screen retained; curved cover and hidden details remain appearance assumptions",
+      "no manufacturing or physical acceptance"
+    ]
+  },
+  "display_restore": {
+    "status": "display-copy-restored; native GUI visual check pending",
+    "source_model_sha256": "20b033b247c6c37be9ed31467c2fe82d97c751560db4317fbc938e4a9f7ab4f2",
+    "display_model_sha256": "a549f162ef27a8f773fd061cd4109ce927ed26ef8bd32bfa31a84b9caa958162",
+    "appearance_source_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+    "copied_gui_members": 2095,
+    "non_gui_members_changed": [],
+    "document_xml_and_brep_bytes_unchanged": true,
+    "display_model": "candidate-display.FCStd",
+    "limitations": [
+      "saved appearance payload verification; not a native GUI screenshot or physical validation"
+    ]
+  },
+  "limitations": [
+    "candidate rejected because static and video/sheet three-group improvement was not consistent",
+    "90% whole-orbit target not reached",
+    "major-part 5% projection-screen-width target not established",
+    "flat screen retained; curved cover and hidden details remain appearance assumptions",
+    "no manufacturing or physical acceptance"
+  ]
+}
