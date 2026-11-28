@@ -438,3 +438,5 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 - v384 为右侧锥形旋钮增加轴向沟纹，完成四个视频方位的局部对照及 FCStd、STEP 独立读回。[参考与正式模型](../cad/drone-concept/comparison/v384-fluted-side-knob/README.md)
 
 - v385 拟合底部回环中心线，正后视两侧均低于 3%，斜视中管壁与遮挡的偏差增加。[可见边缘复测](../cad/drone-concept/comparison/v385-loop-centrelines/README.md)
+
+- v386 将邻件遮挡纳入回环拟合，第 180 帧偏差低于 v385，仍高于正式版。[逐视角复测](../cad/drone-concept/comparison/v386-loop-occlusion/README.md)
