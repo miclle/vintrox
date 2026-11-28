@@ -2,9 +2,9 @@
 
 ## 普通 Git 交付
 
-当前正式 CAD 保留在 v371 交付目录与主模型路径。v345 FCStd 用于恢复 v363 研究基线，v339 FCStd 仍是 v368 叶片研究的复建输入。
+当前正式 CAD 保留在 v375 交付目录与主模型路径。v345 FCStd 用于恢复 v363 研究基线，v339 FCStd 仍是 v368 叶片研究的复建输入。
 
-现行模型的派生网格从保存 FCStd 在临时目录重建。原生显示与固定相机记录随当前交付归档。[当前交付](../cad/drone-concept/comparison/v371-grip-arm-profile/README.md)
+现行模型的派生网格从保存 FCStd 在临时目录重建。原生显示与固定相机记录随当前交付归档。[当前交付](../cad/drone-concept/comparison/v375-screen-eye-profiles/README.md)
 
 v164 成为历史基线后，工作树移除其压缩网格分卷，已发布提交仍可追溯。v155、v161、v163 的旧 FCStd、STEP 和派生网格已在此前迁移中移出主分支历史。历史相机、对照、读回报告和试验参数仍可查阅。
 

@@ -426,3 +426,5 @@ v80 保存中心线 RMS 为 4.146482 px，四组最大偏差为屏幕投影宽�
 - v374 以铰链中心作精确切向缩放，108 件的轴向端点和实体数经保存读回核对。三个可追踪端角误差为 5、1、1 px，第 60 帧整组末缘仍达屏宽 8.42%。[固定相机与接合检查](../cad/drone-concept/comparison/v374-hinge-centred-width/README.md)
 
 - v375 修订平面屏上的两眼图形。三个固定视角和三档阈值下，18 项局部 IoU 均高于 v371，整机轮廓评分一致。两侧斜视仍有横向位置偏差。[三方位眼部近景与测量](../cad/drone-concept/comparison/v375-screen-eye-profiles/README.md)
+
+- v375 纳入正式评审，FCStd、STEP、原生四视角、九张展示图及转台使用同一保存模型。视频十方位轮廓均值为 86.26715%，保留主要部件 5% 偏差和整圈 90% 两项待验收目标。[交付核验](../cad/drone-concept/delivery-verification-current.json)

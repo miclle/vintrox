@@ -130,11 +130,11 @@
       "name": "UnderbodyLoop0",
       "end_centre_mm": [
         -44.500000005293955,
-        72.79999999995223,
-        57.00000000021898
+        72.79999999995222,
+        57.000000000218975
       ],
       "probe_radius_mm": 12,
-      "body_overlap_mm3": 16.79075674097871
+      "body_overlap_mm3": 16.79075674097881
     },
     {
       "name": "UnderbodyLoop0",
@@ -149,22 +149,22 @@
     {
       "name": "UnderbodyLoop1",
       "end_centre_mm": [
-        44.49999999470597,
+        44.49999999470598,
         72.80000000004775,
         56.99999999978102
       ],
       "probe_radius_mm": 12,
-      "body_overlap_mm3": 16.79077685895991
+      "body_overlap_mm3": 16.790776858960044
     },
     {
       "name": "UnderbodyLoop1",
       "end_centre_mm": [
-        44.499999994740634,
-        126.6000000000072,
+        44.49999999474064,
+        126.60000000000721,
         56.99999999935463
       ],
       "probe_radius_mm": 12,
-      "body_overlap_mm3": 16.545787541425824
+      "body_overlap_mm3": 16.545787541425803
     }
   ],
   "nozzle_loft_surface_count": 2,
@@ -209,7 +209,7 @@
       "detail_gaps_mm": [
         0.0,
         8.881784197001252e-16,
-        3.552713678800501e-15,
+        0.0,
         0.0,
         0.0
       ],
@@ -218,7 +218,7 @@
     {
       "petal": 3,
       "detail_gaps_mm": [
-        3.552713678800501e-15,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -268,7 +268,7 @@
         0.0,
         0.0
       ],
-      "root_roll_overlap_mm3": 17.04219587252003
+      "root_roll_overlap_mm3": 17.042195872520015
     },
     {
       "petal": 8,
@@ -538,7 +538,7 @@
       ]
     }
   },
-  "step_relative_volume_error": 5.163745793428594e-07,
+  "step_relative_volume_error": 5.163739396542411e-07,
   "step_volume_basis": "sum of individually integrated solid volumes",
   "step_bbox_max_delta_mm": 5.8903992794512305e-12,
   "bbox_mm": [
@@ -546,6 +546,6 @@
     378.9074930138823,
     496.3425161547856
   ],
-  "fcstd_sha256": "cd42c6185d80546b6c53465b4071bc7c14afd941644f92734fbfc1c21f327900",
-  "step_sha256": "822afd816e15038694197bbef984fc89318750758a3ab0a1d98c8feeace44195"
+  "fcstd_sha256": "c70b81d5462e0da6b171c12abf506e238580c5935bcecfc3a1b5fba6f0d437b5",
+  "step_sha256": "de1944d8f200de380cee6abf491e2026c4af628a4fe9f35d4353f5318615b6ab"
 }

@@ -1,5 +1,5 @@
 {
-  "revision": "v371-grip-arm-profile",
+  "revision": "v375-screen-eye-profiles",
   "front_cheek_x_scale": 0.995,
   "front_brow_x_scale": 0.985,
   "nozzle_petal_comparison_scale": 0.96,
@@ -168,7 +168,7 @@
     316.22196846545813,
     396.3425161547856
   ],
-  "fcstd_sha256": "cd42c6185d80546b6c53465b4071bc7c14afd941644f92734fbfc1c21f327900",
+  "fcstd_sha256": "c70b81d5462e0da6b171c12abf506e238580c5935bcecfc3a1b5fba6f0d437b5",
   "features": [
     {
       "name": "MainEnclosureShell",
@@ -4360,7 +4360,7 @@
     }
   ],
   "bounds_basis": "saved FCStd independent readback; optimal trimmed-surface bounds without triangulation",
-  "step_sha256": "822afd816e15038694197bbef984fc89318750758a3ab0a1d98c8feeace44195",
+  "step_sha256": "de1944d8f200de380cee6abf491e2026c4af628a4fe9f35d4353f5318615b6ab",
   "gold_wing_rear_inset_local_mm": 5,
   "gold_wing_rear_station_weights": {
     "17": 0.2,
@@ -4946,7 +4946,8 @@
         "NozzlePetalRidge10"
       ]
     },
-    "v371": "Saved v363 combination, inner red-wing stripes and arm-profile trimmed grip end cuffs; see v371 comparison."
+    "v371": "Saved v363 combination, inner red-wing stripes and arm-profile trimmed grip end cuffs; see v371 comparison.",
+    "v375": "Symmetric stepped eye artwork on the measured flat screen."
   },
   "rear_belly_relief": {
     "baseline_fcstd_sha256": "73240674f4251aa47b574bbfed4cc076a28ea09abdb5279805e2ca78b4d701b3",
