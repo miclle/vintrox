@@ -1,0 +1,28 @@
+{
+  "revision": "v355-petal-expand1005",
+  "baseline_revision": "v345-small-pod-y-minus1p0-cable",
+  "baseline_fcstd_sha256": "04b0c329aba7c6b3758aacbedebc1de69c11751757beeaba1f8c763940eda386",
+  "fcstd_sha256": "0b34be02bbeafcea34d3570ca38a05b49857f016395ebdd4d4f06efd35e9ebf6",
+  "step_sha256": "29206c14596739116135ac311a01b73554f232033d0f7601ecf2c38d1e065daf",
+  "visible_features": 696,
+  "step_solids": 853,
+  "factor": 1.005,
+  "visual_metrics": {
+    "video": 0.8623971047520346,
+    "stills": 0.8271539737481082,
+    "sheet": 0.8998291290279973
+  },
+  "registration": "fixed cameras; no image warp, stretch, per-part alignment or omitted visible parts",
+  "excluded_from_score": [
+    "SupportShaft",
+    "SupportFoot",
+    "SupportSocket",
+    "CentralSupportSeat"
+  ],
+  "limitations": [
+    "90% whole-orbit target not reached",
+    "major-part 5% projection-screen-width target not established",
+    "flat screen retained; curved cover and hidden details remain appearance assumptions",
+    "no manufacturing, fit, optical, thermal, electrical, or physical acceptance"
+  ]
+}
